@@ -1,8 +1,8 @@
 hero:
-  badge: "KI & Business Consulting · Wien · Österreich"
-  headline_line1: "KI, die wirklich"
-  headline_line2: "für Sie arbeitet."
-  tagline: "Von der Potenzialanalyse bis zur Umsetzung – einfach, ethisch, wirksam."
+  badge: "Simply AI · Wien · Niederösterreich"
+  headline_line1: "KI-Strategie & Automatisierung"
+  headline_line2: "…einfach umgesetzt."
+  tagline: "Von der Potenzialanalyse bis zur fertigen Umsetzung – einfach, ethisch, wirksam."
   lead: "Ich begleite Unternehmen dabei, künstliche Intelligenz strategisch, sinnvoll und menschenzentriert einzusetzen – um Prozesse zu vereinfachen, Zeit zu gewinnen und neue Chancen zu nutzen."
   cta_primary: "Kostenfreie Potenzialanalyse"
   cta_primary_icon: "📅"
@@ -108,6 +108,21 @@ cert:
     - "Ethischer KI-Einsatz"
   badge_label: "Zertifizierung"
   badge_date: "Juni 2026"
+
+workshop:
+  eyebrow: "Kostenfreier Workshop"
+  kicker: "Your Unique Genius"
+  heading: "Finden Sie Ihre Einzigartigkeit – und gewinnen Sie die Kunden, die wirklich zu Ihnen passen."
+  lead: "Ein Live-Workshop für Unternehmer:innen, Berater:innen und Solo-Selbständige, die aufhören wollen, austauschbar zu sein. Wir arbeiten in 90 Minuten heraus, was Sie wirklich einzigartig macht – und wie Sie das so kommunizieren, dass Ihre Wunschkund:innen ganz von selbst anklopfen."
+  points:
+    - "Klar benennen, was Sie von anderen am Markt unterscheidet"
+    - "Ihre Positionierung in 1–2 Sätzen auf den Punkt bringen"
+    - "KI gezielt einsetzen, um das sichtbar zu machen – ohne beliebig zu klingen"
+  cta_label: "Jetzt Platz sichern"
+  cta_href: "#kontakt"
+  meta: "Live · Online · Teilnahme kostenfrei"
+  image: "images/workshop-unique-genius.jpg"
+  image_alt: "Free Workshop – Your Unique Genius mit Leonie Kaiser"
 
 process:
   eyebrow: "Mein Prozess"

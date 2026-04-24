@@ -344,6 +344,70 @@ section{padding:96px 0}
   .field-row{grid-template-columns:1fr}
 }
 
+/* ========== WORKSHOP TEASER ========== */
+.workshop{padding:72px 0;background:var(--bg)}
+.workshop-card{
+  background:linear-gradient(135deg,#4a1f66 0%,var(--violet) 55%,#2a7a78 100%);
+  border-radius:24px;padding:56px;color:#fff;
+  display:grid;grid-template-columns:1.2fr .9fr;gap:48px;align-items:center;
+  box-shadow:0 30px 60px -20px rgba(74,31,102,.45);
+  overflow:hidden;position:relative;
+}
+.workshop-card::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(circle at 85% 20%,rgba(95,162,160,.35),transparent 50%),
+             radial-gradient(circle at 10% 90%,rgba(207,152,43,.18),transparent 50%);
+}
+.workshop-copy{position:relative;z-index:1}
+.eyebrow-on-dark{background:rgba(255,255,255,.15);color:#fff}
+.workshop-kicker{
+  font-family:'Cabinet Grotesk',sans-serif;font-weight:800;
+  font-size:.95rem;letter-spacing:.14em;text-transform:uppercase;
+  color:#CF982B;margin:18px 0 10px;
+}
+.workshop-card h2{
+  font-family:'Cabinet Grotesk',sans-serif;font-weight:700;
+  font-size:clamp(1.7rem,2.5vw,2.3rem);line-height:1.18;color:#fff;
+  margin:0 0 18px;
+}
+.workshop-lead{font-size:1.05rem;line-height:1.6;color:rgba(255,255,255,.88);margin-bottom:22px}
+.workshop-points{list-style:none;padding:0;margin:0 0 28px;display:grid;gap:10px}
+.workshop-points li{
+  padding-left:28px;position:relative;color:rgba(255,255,255,.92);
+  font-size:.98rem;line-height:1.5;
+}
+.workshop-points li::before{
+  content:"✓";position:absolute;left:0;top:0;
+  width:20px;height:20px;border-radius:50%;
+  background:#CF982B;color:#fff;
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:.75rem;font-weight:700;
+}
+.workshop-ctas{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.workshop-ctas .btn-violet,
+.workshop-ctas .btn-violet:link,
+.workshop-ctas .btn-violet:visited,
+.workshop-ctas .btn-violet:hover,
+.workshop-ctas .btn-violet:active,
+.workshop-ctas .btn-violet:focus{
+  background:#fff;color:var(--violet)!important;border-color:#fff;
+}
+.workshop-ctas .btn-violet:hover{background:var(--gold);color:#fff!important;border-color:var(--gold)}
+.workshop-meta{font-size:.88rem;color:rgba(255,255,255,.75)}
+.workshop-visual{position:relative;z-index:1}
+.workshop-visual img{
+  width:100%;height:auto;display:block;
+  border-radius:16px;
+  box-shadow:0 20px 40px -10px rgba(0,0,0,.3);
+}
+@media(max-width:900px){
+  .workshop-card{grid-template-columns:1fr;padding:40px 32px;gap:32px}
+  .workshop-visual{order:-1;max-width:420px;margin:0 auto}
+}
+@media(max-width:560px){
+  .workshop-card{padding:32px 24px;border-radius:18px}
+}
+
 /* ========== FOOTER ========== */
 .site-footer{background:var(--ink);color:rgba(255,255,255,.72);padding:48px 0 28px;font-size:.88rem;margin-top:0}
 .foot-grid{

@@ -102,6 +102,32 @@
   </div>
 </section>
 
+{{/* WORKSHOP */}}
+{{ with $s.workshop }}
+<section id="workshop" class="workshop">
+  <div class="wrap">
+    <div class="workshop-card">
+      <div class="workshop-copy">
+        <div class="eyebrow eyebrow-on-dark">{{ .eyebrow }}</div>
+        <div class="workshop-kicker">{{ .kicker }}</div>
+        <h2>{{ .heading }}</h2>
+        <p class="workshop-lead">{{ .lead }}</p>
+        <ul class="workshop-points">
+          {{ range .points }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        <div class="workshop-ctas">
+          <a class="btn btn-violet" href="{{ .cta_href }}">{{ .cta_label }} →</a>
+          <span class="workshop-meta">{{ .meta }}</span>
+        </div>
+      </div>
+      <div class="workshop-visual">
+        <img src="{{ .image | relURL }}" alt="{{ .image_alt }}" loading="lazy" width="1092" height="920">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
 {{/* PROCESS */}}
 <section id="prozess" class="process">
   <div class="wrap">

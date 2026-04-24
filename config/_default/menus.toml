@@ -9,6 +9,11 @@
   weight = 20
 
 [[main]]
+  name   = "Workshop"
+  url    = "/#workshop"
+  weight = 25
+
+[[main]]
   name   = "Prozess"
   url    = "/#prozess"
   weight = 30
