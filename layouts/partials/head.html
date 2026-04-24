@@ -1,0 +1,69 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+  {{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }} – {{ site.Params.seoSiteTitle | default site.Title }}{{
+  end }}
+</title>
+<meta
+  name="description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}"
+/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta
+  property="og:description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}"
+/>
+<meta property="og:url" content="{{ .Permalink }}" />
+{{- $ogImage := "images/logo-full.png" -}}
+{{- with .Params.bannerImage }}{{- $ogImage = . }}{{- end -}}
+{{- with .Params.ogImage }}{{- $ogImage = . }}{{- end -}}
+<meta property="og:image" content="{{ $ogImage | absURL }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}" />
+<meta name="twitter:image" content="{{ $ogImage | absURL }}" />
+<meta name="twitter:image:alt" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="icon" href="{{ "/favicon.ico" | relURL }}" sizes="any" />
+<link rel="icon" href="{{ "/favicon.svg" | relURL }}" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}" />
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  crossorigin="anonymous" referrerpolicy="no-referrer"
+/>
+{{- $css := slice
+  (resources.Get "css/fonts.css")
+  (resources.Get "css/brand.css")
+  (resources.Get "css/global.css")
+  (resources.Get "css/style.css")
+  (resources.Get "css/header.css")
+  (resources.Get "css/hero.css")
+  (resources.Get "css/home.css")
+  (resources.Get "css/contact.css")
+  (resources.Get "css/preise.css")
+  (resources.Get "css/footer.css")
+  (resources.Get "css/section-list.css")
+  (resources.Get "css/gallery.css")
+  (resources.Get "css/timetable.css")
+  (resources.Get "css/trainer.css")
+  (resources.Get "css/tooltip.css")
+  (resources.Get "css/sport.css")
+  (resources.Get "css/responsive.css")
+-}}
+{{- $bundle := $css | resources.Concat "css/bundle.css" -}}
+{{- if hugo.IsDevelopment }}
+<link rel="stylesheet" href="{{ $bundle.RelPermalink }}" />
+{{- else }}
+{{- $bundle = $bundle | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}" crossorigin="anonymous" />
+{{- end }}
+{{ partial "schema-org.html" . }}
+{{ partial "applicationinsights.html" . }}

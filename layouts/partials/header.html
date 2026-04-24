@@ -1,0 +1,35 @@
+<div id="header-space"></div>
+<div id="header-outer">
+  <header id="top">
+    <div class="container">
+      <div class="header-row">
+        <div class="logo-wrap">
+          <a id="logo" href="{{ "/" | relURL }}">
+            {{ $logo := resources.Get "images/logo.png" }}
+            {{ if $logo }}
+              <img class="logo-img" alt="{{ site.Title }}" src="{{ $logo.RelPermalink }}">
+            {{ else }}
+              <span class="logo-wordmark">LEONIE<span class="logo-accent"> KAISER</span></span>
+            {{ end }}
+          </a>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu">
+          <ul class="sf-menu">
+            {{ range site.Menus.main }}
+              <li{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+</div>

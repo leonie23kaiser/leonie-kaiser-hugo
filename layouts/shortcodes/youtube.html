@@ -1,0 +1,48 @@
+{{- $sportartID := .Page.Params.sportartID -}}
+{{- $videoData := false -}}
+{{- range site.Data.youtube.videos -}}
+  {{- if eq (int .sportartID) (int $sportartID) -}}
+    {{- $videoData = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if $videoData -}}
+{{- $ytUrl := $videoData.youtubeUrl -}}
+{{- $id := replaceRE `^.*[?&]v=([^&]+).*$` "$1" $ytUrl -}}
+{{- $title := $videoData.title -}}
+{{- $description := $videoData.description -}}
+<section class="club-section sport-youtube-section" style="background-image: url('{{ "images/Trainingsraum2.jpg" | relURL }}');">
+  <div class="club-overlay"></div>
+  <div class="shape-divider-top">
+    <svg fill="#f2f2f2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" preserveAspectRatio="none">
+      <path d="M 1000 299 l 2 -279 c -155 -36 -310 135 -415 164 c -102.64 28.35 -149 -32 -232 -31 c -80 1 -142 53 -229 80 c -65.54 20.34 -101 15 -126 11.61 v 54.39 z"></path>
+      <path d="M 1000 286 l 2 -252 c -157 -43 -302 144 -405 178 c -101.11 33.38 -159 -47 -242 -46 c -80 1 -145.09 54.07 -229 87 c -65.21 25.59 -104.07 16.72 -126 10.61 v 22.39 z"></path>
+    </svg>
+  </div>
+  <div class="shape-divider-bottom">
+    <svg fill="#f2f2f2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" preserveAspectRatio="none">
+      <path d="M 1000 299 l 2 -279 c -155 -36 -310 135 -415 164 c -102.64 28.35 -149 -32 -232 -31 c -80 1 -142 53 -229 80 c -65.54 20.34 -101 15 -126 11.61 v 54.39 z"></path>
+      <path d="M 1000 286 l 2 -252 c -157 -43 -302 144 -405 178 c -101.11 33.38 -159 -47 -242 -46 c -80 1 -145.09 54.07 -229 87 c -65.21 25.59 -104.07 16.72 -126 10.61 v 22.39 z"></path>
+    </svg>
+  </div>
+  <div class="container club-content">
+    <div class="club-grid">
+      <div class="club-video">
+        <div class="video-box" data-yt-id="{{ $id }}" data-yt-title="{{ .Page.Title }}">
+          <button class="video-link" aria-label="{{ .Page.Title }} – Video abspielen">
+            <img src="{{ "images/video-thumbnail.jpg" | relURL }}" alt="{{ .Page.Title }} – Vorschaubild">
+            <span class="play-button"><i class="fa fa-play" aria-hidden="true"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="club-text">
+        <h2>{{ $title }}</h2>
+        <p>{{ $description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{- $js := resources.Get "js/youtube.js" -}}
+{{- with $js | minify | fingerprint }}
+<script src="{{ .RelPermalink }}"></script>
+{{- end -}}
+{{- end -}}

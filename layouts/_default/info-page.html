@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $bannerImg := or .Params.BannerBackgroundImg .Params.heroImage }}
+{{ $bannerPosition := .Params.bannerImagePosition }}
+{{ $bannerZoom := .Params.bannerImageZoom }}
+{{ if $bannerImg }}
+<section
+  class="page-hero page-hero--banner"
+  style="background-image: url('{{ $bannerImg | relURL }}');{{ with $bannerPosition }} background-position: {{ . }};{{ end }}{{ with $bannerZoom }} background-size: {{ printf "%.0f" (mul . 100.0) }}%;{{ end }}"
+>
+  <div class="hero-overlay"></div>
+  <div class="page-hero-content{{ if .Params.heroTextLeft }} page-hero-content--left{{ end }}">
+    <h1>{{ with .Params.BannerText }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Params.BannerByline }}<p class="hero-byline">{{ . }}</p>{{ end }}
+  </div>
+  <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f2f2f2"/></svg>
+</section>
+{{ else if .Params.heroRed }}
+<section class="page-hero page-hero--red">
+  <div class="page-hero-content{{ if .Params.heroTextLeft }} page-hero-content--left{{ end }}">
+    <h1>{{ with .Params.BannerText }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Params.BannerByline }}<p class="hero-byline">{{ . }}</p>{{ end }}
+  </div>
+  <svg class="hero-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f2f2f2"/></svg>
+</section>
+{{ else }}
+<section class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+{{ end }}
+<section class="page-content">
+  <div class="container">{{ .Content }}</div>
+</section>
+{{ end }}

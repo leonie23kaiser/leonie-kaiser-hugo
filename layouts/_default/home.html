@@ -1,0 +1,15 @@
+{{ define "main" }}
+<section class="sl-hero">
+  <div class="sl-hero__scrim" style="position:absolute;inset:0;background:linear-gradient(180deg,#0a0a0a 0%,#141414 100%)"></div>
+  <div class="sl-hero__inner container">
+    <div class="sl-kicker">Personal Site</div>
+    <h1 class="sl-hero__title">Leonie<br><span class="sl-accent">Kaiser</span></h1>
+    <p class="sl-hero__tag">{{ site.Params.description }}</p>
+    <div class="sl-hero__cta">
+      <a class="sl-btn sl-btn--primary" href="{{ "/about/" | relURL }}">About</a>
+      <a class="sl-btn sl-btn--ghost" href="{{ "/contact/" | relURL }}">Contact</a>
+    </div>
+  </div>
+</section>
+{{ .Content }}
+{{ end }}

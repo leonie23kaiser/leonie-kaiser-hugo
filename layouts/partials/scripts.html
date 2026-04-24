@@ -1,0 +1,9 @@
+<script>
+(function(){
+  var t=document.querySelector('.mobile-menu-toggle'),n=document.querySelector('.nav-menu');
+  if(t&&n)t.addEventListener('click',function(){n.classList.toggle('is-open')});
+  var hdr=document.getElementById('header-outer');
+  function onScroll(){if(!hdr)return;hdr.classList.toggle('is-scrolled',window.scrollY>20)}
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>
