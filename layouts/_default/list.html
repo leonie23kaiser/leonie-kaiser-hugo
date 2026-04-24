@@ -1,41 +1,10 @@
 {{ define "main" }}
-<section class="page-header">
-  <div class="container">
-    <div class="kicker">{{ cond .IsSection "Bereich" "Übersicht" }}</div>
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    {{ with .Content }}<div class="prose" style="padding-top:0">{{ . }}</div>{{ end }}
-
-    {{ if eq .Section "blog" }}
-      <div class="post-list">
-        {{ range .Pages.ByDate.Reverse }}
-          <a class="post-card" href="{{ .RelPermalink }}">
-            <div class="post-card__body">
-              <div class="post-card__meta">
-                {{ with .Params.categories }}<span>{{ index . 0 }}</span>{{ end }}
-                <span>{{ .Date.Format "2. Jan 2006" }}</span>
-              </div>
-              <h3>{{ .Title }}</h3>
-              <p>{{ with .Description }}{{ . | truncate 160 }}{{ end }}</p>
-            </div>
-          </a>
-        {{ end }}
-      </div>
-    {{ else }}
-      <div class="cards">
-        {{ range .Pages }}
-          <a class="card" href="{{ .RelPermalink }}">
-            <h3>{{ .Title }}</h3>
-            {{ with .Description }}<p>{{ . | truncate 160 }}</p>{{ end }}
-          </a>
-        {{ end }}
-      </div>
-    {{ end }}
-  </div>
-</section>
+<article class="page-content">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Summary }}</p>
+  {{ end }}
+</article>
 {{ end }}

@@ -1,37 +1,20 @@
-<footer id="footer-outer">
-  <div class="container">
-    <div class="footer-row">
-      <div>
-        <div class="footer-wordmark">Leonie Kaiser</div>
-        <p style="max-width:34ch;color:#c9d2c4">{{ site.Params.description }}</p>
-      </div>
-      <div>
-        <h3>Navigation</h3>
-        <ul>
-          {{ range site.Menus.main }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
-      <div>
-        <h3>Rechtliches</h3>
-        <ul>
-          {{ range site.Menus.footer }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <div class="foot-logo">Leonie Kaiser</div>
+      <small>KI & Business Consulting · leoniekaiser.com</small>
     </div>
-    <div id="copyright">
-      <div class="copyright-row">
-        <p>&copy; {{ now.Year }} {{ site.Title }}. Alle Rechte vorbehalten.</p>
-        <ul id="social">
-          {{ with site.Params.social.instagram }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>{{ end }}
-          {{ with site.Params.social.facebook }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>{{ end }}
-          {{ with site.Params.social.youtube }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>{{ end }}
-          {{ with site.Params.social.tiktok }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>{{ end }}
-        </ul>
-      </div>
+    <nav class="foot-links" aria-label="Navigation">
+      {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    </nav>
+    <div class="foot-social">
+      {{ with site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>{{ end }}
     </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© {{ now.Format "2006" }} {{ site.Params.orgLegal }}</span>
+    <span>
+      {{ range site.Menus.footer }}<a href="{{ .URL }}">{{ .Name }}</a>{{ if not .HasChildren }} · {{ end }}{{ end }}
+    </span>
   </div>
 </footer>

@@ -1,7 +1,7 @@
 baseURL = 'https://leoniekaiser.com/'
 languageCode = 'de-at'
 defaultContentLanguage = 'de'
-title = 'Leonie Kaiser'
+title = 'Leonie Kaiser – KI & Business Consulting'
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -10,15 +10,7 @@ enableEmoji = true
   unsafe = true
 
 [outputs]
-  home = ['HTML', 'RSS']
-  section = ['HTML', 'RSS']
-
-[taxonomies]
-  category = 'categories'
-  tag = 'tags'
-
-[permalinks]
-  blog = '/blog/:slug/'
+  home = ['HTML']
 
 [imaging]
   quality = 82

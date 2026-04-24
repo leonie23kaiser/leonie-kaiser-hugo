@@ -1,21 +1,39 @@
-description = "Gedächtnistraining, Leben mit Demenz und geistige Fitness – praxisnahe Tipps, Übungen und Ressourcen für ein erfülltes Leben im Alter."
-seoSiteTitle  = "Leonie Kaiser"
-seoHomeTitle  = "Leonie Kaiser – Gedächtnis & Lebensfreude im Alter"
+description = "KI & Business Consulting aus Wien/Niederösterreich. Von der Potenzialanalyse bis zur Umsetzung – einfach, ethisch, wirksam. Mit über 20 Jahren Erfahrung im globalen Projektmanagement."
+seoSiteTitle = "Leonie Kaiser"
+seoHomeTitle = "Leonie Kaiser – KI & Business Consulting · Wien"
 
-brandPrimary   = "#6A8D73"   # salbei/sage
-brandSecondary = "#2F3A2E"   # waldgrün tief
-brandAccent    = "#D4A373"   # warme terrakotta/sand
-brandSoft      = "#F5F1E8"   # creme/off-white
-brandInk       = "#2a2a2a"
+# Farben laut Briefing
+brandTeal900   = "#086584"   # Primär / Buttons / Links
+brandTeal600   = "#5FA2A0"   # Sekundär / Verläufe / Hover
+brandTeal50    = "#EDF7F2"   # Hellgrün alt. Sections
+brandTeal100   = "#E7F4F4"   # Hellblau Highlights
+brandGold      = "#CF982B"   # Labels
+brandGoldSoft  = "#F1C50E"   # Highlights sparsam
+brandViolet    = "#6B2C8C"   # Akzent: Eyebrows, Sekundär-CTA
+brandVioletSoft= "#EFE6F6"   # Pill-Background
+brandVioletLine= "#D9C5E8"   # Pill-Border
+brandBeige     = "#FAF0E9"   # Seiten-Hintergrund
+brandInk       = "#1d2228"
+brandMute      = "#5b6572"
+brandLine      = "#ece3d8"
 
 orgName  = "Leonie Kaiser"
-orgLegal = ""
+orgLegal = "Leonie Kaiser"
+orgRole  = "KI & Business Consultant"
+orgCity  = "Felixdorf, Niederösterreich"
+orgRegion= "AT-3"
+orgCountry="AT"
 
 authorName = "Leonie Kaiser"
-authorBio  = "Placeholder – Leonie's eigene Bio folgt."
+authorBio  = "KI & Business Consultant aus Niederösterreich. Über 20 Jahre globale Projekterfahrung – u. a. bei Merck, AbbVie, Baxter. Strategische, menschenzentrierte KI-Einführung für österreichische und DACH-Unternehmen."
+
+email    = "hello@leoniekaiser.com"
+phone    = "+43 670 775 60 60"
+phoneRaw = "+436707756060"
+calendly = "https://calendly.com/leonie-kaiser/ki-potentialanalyse"
+linkedin = "https://linkedin.com/in/leoniekaiser/"
 
 [social]
+  linkedin  = "https://linkedin.com/in/leoniekaiser/"
   instagram = ""
   youtube   = ""
-  tiktok    = ""
-  facebook  = ""

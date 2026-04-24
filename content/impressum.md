@@ -1,20 +1,29 @@
 ---
 title: "Impressum"
-description: "TODO – Beschreibung von Leonie."
+description: "Impressum und Offenlegung gemäß § 5 ECG und § 25 MedienG."
+layout: "single"
 ---
 
-> **TODO – Platzhalter.** Dieser Text stammt noch nicht von Leonie.
-> Struktur & Überschriften sind Blueprint – Inhalte von Leonie folgen.
-> Alle Paragraphen müssen durch Leonies eigene Worte ersetzt werden.
+## Angaben gemäß § 5 ECG
 
-## Impressum
+**Leonie Kaiser**  
+KI & Business Consultant  
+Felixdorf, Niederösterreich  
+Österreich
 
-TODO: eigener Text von Leonie.
+**Kontakt**  
+E-Mail: hello@leoniekaiser.com  
+Telefon: +43 670 775 60 60
 
-## Newsletter
+**Unternehmensgegenstand**  
+KI & Business Consulting, Schulung, Umsetzung von KI-Projekten.
 
-TODO: eigener Text von Leonie.
+## Urheberrecht
 
-## Entdecke sorgfältig ausgewählte Ressourcen für geistige Vitalität.
+Alle Inhalte dieser Website unterliegen dem Urheberrecht. Jede Verwendung, Vervielfältigung oder Verbreitung bedarf der schriftlichen Zustimmung.
 
-TODO: eigener Text von Leonie.
+## Haftung für Inhalte
+
+Die Inhalte dieser Seiten wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+
+> TODO – finale Angaben (UID, Firmenbuch, Kammerzugehörigkeit falls zutreffend, Aufsichtsbehörde) ergänzen.

@@ -1,30 +1,17 @@
-<div id="header-space"></div>
-<div id="header-outer">
-  <header id="top">
-    <div class="container">
-      <div class="header-row">
-        <a id="logo" href="{{ "/" | relURL }}">
-          {{ $logo := resources.Get "images/logo.png" }}
-          {{ if $logo }}
-            <img class="logo-img" alt="{{ site.Title }}" src="{{ $logo.RelPermalink }}" width="36" height="36">
-          {{ end }}
-          <span class="logo-wordmark">Leonie<span class="logo-accent"> Kaiser</span></span>
-        </a>
-
-        <button class="mobile-menu-toggle" aria-label="Menü" aria-expanded="false">
-          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-        </button>
-
-        <nav class="nav-menu">
-          <ul>
-            {{ range site.Menus.main }}
-              <li{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>
-                <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-</div>
+<header class="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-name">Leonie Kaiser</span>
+      <span class="logo-role">KI & Business Consulting</span>
+    </a>
+    <nav class="menu" aria-label="Hauptnavigation">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}" class="menu-link">{{ .Name }}</a>
+      {{ end }}
+      <a href="#kontakt" class="btn btn-violet btn-sm">Termin buchen</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>

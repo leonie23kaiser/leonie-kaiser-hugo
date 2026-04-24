@@ -1,39 +1,29 @@
 [[main]]
-  name   = "Geistige Fitness"
-  url    = "/geistige-fitness/"
+  name   = "Leistungen"
+  url    = "/#leistungen"
   weight = 10
-
-[[main]]
-  name   = "Leben mit Demenz"
-  url    = "/leben-mit-demenz/"
-  weight = 20
-
-[[main]]
-  name   = "Blog"
-  url    = "/blog/"
-  weight = 30
-
-[[main]]
-  name   = "Ressourcen"
-  url    = "/ressourcen/"
-  weight = 40
 
 [[main]]
   name   = "Über mich"
-  url    = "/ueber-mich/"
-  weight = 50
+  url    = "/#about"
+  weight = 20
+
+[[main]]
+  name   = "Prozess"
+  url    = "/#prozess"
+  weight = 30
+
+[[main]]
+  name   = "Kontakt"
+  url    = "/#kontakt"
+  weight = 40
 
 [[footer]]
-  name = "Impressum"
-  url  = "/impressum/"
+  name   = "Impressum"
+  url    = "/impressum/"
   weight = 10
 
 [[footer]]
-  name = "Datenschutz"
-  url  = "/datenschutz/"
+  name   = "Datenschutz"
+  url    = "/datenschutz/"
   weight = 20
-
-[[footer]]
-  name = "Newsletter"
-  url  = "/newsletter/"
-  weight = 30
