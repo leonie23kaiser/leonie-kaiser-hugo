@@ -344,6 +344,17 @@ section{padding:96px 0}
   .field-row{grid-template-columns:1fr}
 }
 
+/* ========== BRAND BANNER ========== */
+.brand-banner{
+  width:100%;background:#3a0f50;line-height:0;
+  overflow:hidden;
+}
+.brand-banner img{
+  width:100%;height:auto;display:block;
+  max-height:240px;object-fit:cover;object-position:center;
+}
+@media(max-width:720px){.brand-banner img{max-height:160px}}
+
 /* ========== WORKSHOP TEASER ========== */
 .workshop{padding:72px 0;background:var(--bg)}
 .workshop-card{
