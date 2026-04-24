@@ -1,5 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#6A8D73">
+<meta name="color-scheme" content="light">
+
 <title>
   {{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }} – {{ site.Params.seoSiteTitle | default site.Title }}{{ end }}
 </title>
@@ -7,31 +10,41 @@
 
 {{- /* Open Graph / Twitter */ -}}
 {{- $ogImage := "images/og-default.png" -}}
-{{- with .Params.bannerImage }}{{- $ogImage = . }}{{- end -}}
+{{- with .Params.image }}{{- $ogImage = . }}{{- end -}}
 {{- with .Params.ogImage }}{{- $ogImage = . }}{{- end -}}
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="de_AT">
 <meta property="og:site_name" content="{{ site.Title }}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{{ if and (eq .Section `blog`) (not .IsSection) }}article{{ else }}website{{ end }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $ogImage | absURL }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="icon" href="{{ "/favicon.ico" | relURL }}" sizes="any">
 <link rel="icon" href="{{ "/favicon.svg" | relURL }}" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}">
 
-{{- /* Fonts – Oswald (display) + Inter (ui) */ -}}
+{{- /* RSS discovery */ -}}
+{{- range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink (printf "%s – %s" site.Title .Name) | safeHTML }}
+{{- end }}
+
+{{- /* Fonts */ -}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500&display=swap">
 
 {{- /* Font Awesome */ -}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-{{- /* Brand CSS – single source of truth */ -}}
+{{- /* Brand CSS */ -}}
 {{- $brand := resources.Get "css/brand.css" -}}
 {{- if hugo.IsDevelopment }}
 <link rel="stylesheet" href="{{ $brand.RelPermalink }}">
@@ -39,3 +52,5 @@
 {{- $brand = $brand | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $brand.RelPermalink }}" integrity="{{ $brand.Data.Integrity }}" crossorigin="anonymous">
 {{- end }}
+
+{{ partial "seo-jsonld.html" . }}

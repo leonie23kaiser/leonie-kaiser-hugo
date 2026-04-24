@@ -1,50 +1,36 @@
 <footer id="footer-outer">
-  <div id="footer-widgets">
-    <div class="container">
-      <div class="footer-row">
-
-        <div class="footer-col">
-          {{ $logo := resources.Get "images/logo.png" }}
-          {{ if $logo }}
-            <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}" class="footer-logo">
-          {{ else }}
-            <div class="footer-wordmark">SUPERLEAGUE</div>
+  <div class="container">
+    <div class="footer-row">
+      <div>
+        <div class="footer-wordmark">Leonie Kaiser</div>
+        <p style="max-width:34ch;color:#c9d2c4">{{ site.Params.description }}</p>
+      </div>
+      <div>
+        <h3>Navigation</h3>
+        <ul>
+          {{ range site.Menus.main }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
           {{ end }}
-          <p>
-            {{ with site.Params.orgName }}<strong>{{ . }}</strong><br>{{ end }}
-            {{ with site.Params.orgLegal }}{{ . }}<br>{{ end }}
-            Thai &amp; Kickbox World League
-          </p>
-        </div>
-
-        <div class="footer-col">
-          <h3>MENU</h3>
-          <ul>
-            {{ range site.Menus.main }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-
+        </ul>
+      </div>
+      <div>
+        <h3>Rechtliches</h3>
+        <ul>
+          {{ range site.Menus.footer }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
       </div>
     </div>
-  </div>
-
-  <div id="copyright">
-    <div class="container">
+    <div id="copyright">
       <div class="copyright-row">
-        <div class="copyright-text">
-          <p>&copy; {{ now.Year }} {{ site.Title }} | <a href="{{ "/imprint/" | relURL }}">Imprint</a> | <a href="{{ "/privacy/" | relURL }}">Privacy</a></p>
-        </div>
-        <div class="social-links">
-          <ul id="social">
-            {{ with site.Params.social.twitter }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a></li>{{ end }}
-            {{ with site.Params.social.facebook }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>{{ end }}
-            {{ with site.Params.social.instagram }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>{{ end }}
-            {{ with site.Params.social.youtube }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>{{ end }}
-            {{ with site.Params.social.tiktok }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>{{ end }}
-          </ul>
-        </div>
+        <p>&copy; {{ now.Year }} {{ site.Title }}. Alle Rechte vorbehalten.</p>
+        <ul id="social">
+          {{ with site.Params.social.instagram }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>{{ end }}
+          {{ with site.Params.social.facebook }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>{{ end }}
+          {{ with site.Params.social.youtube }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>{{ end }}
+          {{ with site.Params.social.tiktok }}<li><a target="_blank" rel="noopener" href="{{ . }}" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>{{ end }}
+        </ul>
       </div>
     </div>
   </div>

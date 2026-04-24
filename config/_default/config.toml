@@ -1,0 +1,28 @@
+baseURL = 'https://leoniekaiser.com/'
+languageCode = 'de-at'
+defaultContentLanguage = 'de'
+title = 'Leonie Kaiser'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[permalinks]
+  blog = '/blog/:slug/'
+
+[imaging]
+  quality = 82
+  resampleFilter = 'Lanczos'
+
+[minify]
+  minifyOutput = true

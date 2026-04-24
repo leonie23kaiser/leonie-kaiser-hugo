@@ -1,0 +1,21 @@
+description = "Gedächtnistraining, Leben mit Demenz und geistige Fitness – praxisnahe Tipps, Übungen und Ressourcen für ein erfülltes Leben im Alter."
+seoSiteTitle  = "Leonie Kaiser"
+seoHomeTitle  = "Leonie Kaiser – Gedächtnis & Lebensfreude im Alter"
+
+brandPrimary   = "#6A8D73"   # salbei/sage
+brandSecondary = "#2F3A2E"   # waldgrün tief
+brandAccent    = "#D4A373"   # warme terrakotta/sand
+brandSoft      = "#F5F1E8"   # creme/off-white
+brandInk       = "#2a2a2a"
+
+orgName  = "Leonie Kaiser"
+orgLegal = ""
+
+authorName = "Leonie Kaiser"
+authorBio  = "Placeholder – Leonie's eigene Bio folgt."
+
+[social]
+  instagram = ""
+  youtube   = ""
+  tiktok    = ""
+  facebook  = ""

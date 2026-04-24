@@ -1,15 +1,68 @@
 {{ define "main" }}
-<section class="sl-hero">
-  <div class="sl-hero__scrim" style="position:absolute;inset:0;background:linear-gradient(180deg,#0a0a0a 0%,#141414 100%)"></div>
-  <div class="sl-hero__inner container">
-    <div class="sl-kicker">Personal Site</div>
-    <h1 class="sl-hero__title">Leonie<br><span class="sl-accent">Kaiser</span></h1>
-    <p class="sl-hero__tag">{{ site.Params.description }}</p>
-    <div class="sl-hero__cta">
-      <a class="sl-btn sl-btn--primary" href="{{ "/about/" | relURL }}">About</a>
-      <a class="sl-btn sl-btn--ghost" href="{{ "/contact/" | relURL }}">Contact</a>
+{{ $hero := site.Data.hero }}
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="kicker">{{ $hero.kicker }}</div>
+    <h1 class="hero__title">{{ $hero.titleTop }} <span class="accent">{{ $hero.titleAccent }}</span>{{ with $hero.titleBottom }}<br>{{ . }}{{ end }}</h1>
+    <p class="hero__tag">{{ $hero.subline }}</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="{{ $hero.ctaPrimary.url | relURL }}">{{ $hero.ctaPrimary.label }}</a>
+      <a class="btn btn--ghost" href="{{ $hero.ctaSecondary.url | relURL }}">{{ $hero.ctaSecondary.label }}</a>
     </div>
   </div>
 </section>
-{{ .Content }}
+
+<section class="section">
+  <div class="container">
+    <div class="section__head">
+      <div class="kicker">Die drei Säulen</div>
+      <h2>Geistig fit – ein Leben lang</h2>
+      <p>Praxisnahe Tipps, einfache Übungen und liebevolle Unterstützung für dich und deine Angehörigen.</p>
+    </div>
+    <div class="cards">
+      <a class="card" href="{{ "/geistige-fitness/" | relURL }}">
+        <span class="card__tag">Training</span>
+        <h3>Geistige Fitness</h3>
+        <p>Übungen und Routinen, die dein Gedächtnis stärken – Tag für Tag.</p>
+      </a>
+      <a class="card" href="{{ "/leben-mit-demenz/" | relURL }}">
+        <span class="card__tag">Alltag</span>
+        <h3>Leben mit Demenz</h3>
+        <p>Liebevolle Ideen für mehr Lebensqualität – für Betroffene und Angehörige.</p>
+      </a>
+      <a class="card" href="{{ "/ressourcen/" | relURL }}">
+        <span class="card__tag">Material</span>
+        <h3>Ressourcen</h3>
+        <p>Spiele, Ratgeber, Apps und Arbeitsblätter – kuratiert und gratis.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ if $posts }}
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head">
+      <div class="kicker">Aus dem Blog</div>
+      <h2>Neueste Beiträge</h2>
+    </div>
+    <div class="post-list">
+      {{ range first 3 $posts }}
+        <a class="post-card" href="{{ .RelPermalink }}">
+          <div class="post-card__body">
+            <div class="post-card__meta">
+              {{ with .Params.categories }}<span>{{ index . 0 }}</span>{{ end }}
+              <span>{{ .Date.Format "2. Jan 2006" }}</span>
+            </div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ with .Description }}{{ . | truncate 160 }}{{ end }}</p>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+    <p style="text-align:center;margin-top:2rem"><a class="btn btn--ghost" href="{{ "/blog/" | relURL }}">Alle Beiträge</a></p>
+  </div>
+</section>
+{{ end }}
 {{ end }}

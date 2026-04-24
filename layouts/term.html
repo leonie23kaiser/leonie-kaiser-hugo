@@ -1,7 +1,26 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ end }}
+<section class="page-header">
+  <div class="container">
+    <div class="kicker">{{ .Data.Singular | humanize }}</div>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="post-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <a class="post-card" href="{{ .RelPermalink }}">
+          <div class="post-card__body">
+            <div class="post-card__meta">
+              {{ with .Params.categories }}<span>{{ index . 0 }}</span>{{ end }}
+              <span>{{ .Date.Format "2. Jan 2006" }}</span>
+            </div>
+            <h3>{{ .Title }}</h3>
+            <p>{{ with .Description }}{{ . | truncate 160 }}{{ end }}</p>
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
 {{ end }}

@@ -1,29 +1,33 @@
 ---
-title: "Leonie Kaiser"
-description: "Gedächtnistraining, Leben mit Demenz und geistige Fitness – praxisnahe Tipps, Übungen und Ressourcen für ein erfülltes Leben im Alter."
+title: "Geistige Fitness"
+description: "Die drei Säulen des Gedächtnistrainings – einfache Übungen und Routinen für geistige Fitness im Alltag."
 ---
 
 > **TODO – Platzhalter.** Dieser Text stammt noch nicht von Leonie.
 > Struktur & Überschriften sind Blueprint – Inhalte von Leonie folgen.
 > Alle Paragraphen müssen durch Leonies eigene Worte ersetzt werden.
 
-## Gedächtnistraining und Prävention: Der Schlüssel zu langfristiger geistiger Fitness im Alter
+## Was ist ganzheitliches Gedächtnistraining?
 
 TODO: eigener Text von Leonie.
 
-## Geistige Fitness
+## Die 3 Säulen: Körper, Geist & Seele
 
 TODO: eigener Text von Leonie.
 
-## Leben mit Demenz
+## Effektive Übungen für ein starkes Gedächtnis
 
 TODO: eigener Text von Leonie.
 
-## Leben mit Demenz
+## Bewegung und Ernährung als Schlüssel zur Gehirngesundheit
 
 TODO: eigener Text von Leonie.
 
-## Nutze fundiertes Wissen und praktische Tipps für mehr geistige Fitness und einen leichteren Umgang mit Demenz.
+## Gemeinsam fit bleiben
+
+TODO: eigener Text von Leonie.
+
+## Praktische Umsetzung im Alltag
 
 TODO: eigener Text von Leonie.
 

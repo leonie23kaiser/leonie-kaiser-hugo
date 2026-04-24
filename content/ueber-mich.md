@@ -1,29 +1,29 @@
 ---
-title: "Leonie Kaiser"
-description: "Gedächtnistraining, Leben mit Demenz und geistige Fitness – praxisnahe Tipps, Übungen und Ressourcen für ein erfülltes Leben im Alter."
+title: "Über mich"
+description: "Leonie Kaiser – persönliche Geschichte, Mission und Erfahrung mit Gedächtnistraining und Demenzbegleitung."
 ---
 
 > **TODO – Platzhalter.** Dieser Text stammt noch nicht von Leonie.
 > Struktur & Überschriften sind Blueprint – Inhalte von Leonie folgen.
 > Alle Paragraphen müssen durch Leonies eigene Worte ersetzt werden.
 
-## Gedächtnistraining und Prävention: Der Schlüssel zu langfristiger geistiger Fitness im Alter
+## TODO – Überschrift von Leonie
 
 TODO: eigener Text von Leonie.
 
-## Geistige Fitness
+## Meine persönliche Geschichte
 
 TODO: eigener Text von Leonie.
 
-## Leben mit Demenz
+## Was Dich hier erwartet
 
 TODO: eigener Text von Leonie.
 
-## Leben mit Demenz
+## Lass uns in Kontakt bleiben!
 
 TODO: eigener Text von Leonie.
 
-## Nutze fundiertes Wissen und praktische Tipps für mehr geistige Fitness und einen leichteren Umgang mit Demenz.
+## Lass uns in Kontakt bleiben!
 
 TODO: eigener Text von Leonie.
 

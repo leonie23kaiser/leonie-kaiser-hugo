@@ -3,25 +3,20 @@
   <header id="top">
     <div class="container">
       <div class="header-row">
-        <div class="logo-wrap">
-          <a id="logo" href="{{ "/" | relURL }}">
-            {{ $logo := resources.Get "images/logo.png" }}
-            {{ if $logo }}
-              <img class="logo-img" alt="{{ site.Title }}" src="{{ $logo.RelPermalink }}">
-            {{ else }}
-              <span class="logo-wordmark">LEONIE<span class="logo-accent"> KAISER</span></span>
-            {{ end }}
-          </a>
-        </div>
+        <a id="logo" href="{{ "/" | relURL }}">
+          {{ $logo := resources.Get "images/logo.png" }}
+          {{ if $logo }}
+            <img class="logo-img" alt="{{ site.Title }}" src="{{ $logo.RelPermalink }}" width="36" height="36">
+          {{ end }}
+          <span class="logo-wordmark">Leonie<span class="logo-accent"> Kaiser</span></span>
+        </a>
 
-        <button class="mobile-menu-toggle" aria-label="Menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <button class="mobile-menu-toggle" aria-label="Menü" aria-expanded="false">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
         </button>
 
         <nav class="nav-menu">
-          <ul class="sf-menu">
+          <ul>
             {{ range site.Menus.main }}
               <li{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>
                 <a href="{{ .URL }}">{{ .Name }}</a>
