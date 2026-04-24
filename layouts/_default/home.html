@@ -15,8 +15,13 @@
       </div>
     </div>
     <div class="hero-photo">
-      <div class="hero-photo-inner"{{ with $s.hero.photo }} style="background-image:url('{{ . | relURL }}')"{{ end }}>
-        {{ if not $s.hero.photo }}<span class="photo-placeholder">Foto<br>Leonie</span>{{ end }}
+      <div class="hero-photo-inner">
+        {{ if $s.hero.photo }}
+        <picture>
+          {{ with $s.hero.photo_webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{ end }}
+          <img src="{{ $s.hero.photo | relURL }}" alt="{{ $s.hero.photo_alt }}" width="800" height="800" fetchpriority="high" decoding="async">
+        </picture>
+        {{ else }}<span class="photo-placeholder">Foto<br>Leonie</span>{{ end }}
       </div>
     </div>
   </div>
@@ -77,6 +82,22 @@
         </div>
       </div>
       <div class="values">
+        {{ with $s.about_extra }}
+        <div class="about-portrait">
+          <picture>
+            {{ with .portrait_webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{ end }}
+            <img src="{{ .portrait | relURL }}" alt="{{ .portrait_alt }}" loading="lazy" decoding="async" width="800" height="960">
+          </picture>
+          {{ with .badge }}
+          <div class="about-badge" title="{{ $s.about_extra.badge_caption }}">
+            <picture>
+              {{ with $s.about_extra.badge_webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{ end }}
+              <img src="{{ . | relURL }}" alt="{{ $s.about_extra.badge_alt }}" loading="lazy" decoding="async" width="480" height="480">
+            </picture>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
         {{ range $s.about.values }}
         <div class="value value-{{ .color }}">
           <h4>{{ .icon }} {{ .title }}</h4>
@@ -104,7 +125,10 @@
 
 {{/* BRAND BANNER */}}
 <div class="brand-banner" aria-hidden="true">
-  <img src="{{ "images/simply-ai-banner.png" | relURL }}" alt="" loading="lazy" width="2214" height="552">
+  <picture>
+    <source srcset="{{ "images/simply-ai-banner-new.webp" | relURL }}" type="image/webp">
+    <img src="{{ "images/simply-ai-banner-new.jpg" | relURL }}" alt="" loading="lazy" width="1584" height="396">
+  </picture>
 </div>
 
 {{/* WORKSHOP */}}
