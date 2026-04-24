@@ -151,17 +151,23 @@
   </div>
 </section>
 
-{{/* TESTIMONIALS PLACEHOLDER */}}
+{{/* TESTIMONIALS – nur rendern wenn items vorhanden */}}
+{{ with $s.testimonials.items }}
 <section class="testi">
   <div class="wrap">
     <div class="eyebrow">{{ $s.testimonials.eyebrow }}</div>
     <h2>{{ $s.testimonials.heading }}</h2>
-    <div class="testi-box">
-      <h3>{{ $s.testimonials.placeholder_title }}</h3>
-      <p>{{ $s.testimonials.placeholder_text }} <a href="#kontakt">Schreiben Sie mir gerne!</a></p>
+    <div class="testi-grid">
+      {{ range . }}
+      <figure class="testi-card">
+        <blockquote>{{ .quote }}</blockquote>
+        <figcaption><b>{{ .name }}</b>{{ with .role }}, <span>{{ . }}</span>{{ end }}</figcaption>
+      </figure>
+      {{ end }}
     </div>
   </div>
 </section>
+{{ end }}
 
 {{/* CONTACT */}}
 <section id="kontakt" class="wrap contact">

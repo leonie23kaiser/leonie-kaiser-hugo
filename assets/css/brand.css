@@ -1,3 +1,10 @@
+/* ========== FONTS (self-hosted, DSGVO-konform) ========== */
+@font-face{font-family:'Cabinet Grotesk';src:url('/fonts/cabinet-grotesk-700.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Cabinet Grotesk';src:url('/fonts/cabinet-grotesk-800.woff2') format('woff2');font-weight:800;font-style:normal;font-display:swap}
+@font-face{font-family:'Satoshi';src:url('/fonts/satoshi-400.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Satoshi';src:url('/fonts/satoshi-500.woff2') format('woff2');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Satoshi';src:url('/fonts/satoshi-700.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+
 /* =========================================================
    Leonie Kaiser – KI & Business Consulting
    Brand CSS v1 (KI-Consulting Pivot, 2026-04-24)
