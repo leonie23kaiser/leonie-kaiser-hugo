@@ -1,33 +1,139 @@
 # Deploy
 
-Leonie's site has **two deploy paths**: the current rsync-to-KAS workflow (used for live deploys today) and the planned Azure Static Web Apps migration (mirrors `superleague-hugo`).
+Leonie's site has **two deploy paths**:
 
-## Current — rsync to All-Inkl. KAS
+1. **Azure Static Web Apps** (active CI/CD target) — auto-deploys on push to `main`.
+2. **rsync-to-KAS** (legacy, still serving live traffic) — manual fallback until DNS-Cutover.
+
+DNS for `growthtogether.at` still points to KAS. Cutover to SWA is pending Leonie's go-ahead (registrar access + final domain decision).
+
+## Active — Azure Static Web Apps (CI/CD)
+
+### Resources
+
+| Item | Value |
+|---|---|
+| Azure Account | `office@projekt-entwicklung.at` |
+| Subscription | `Azure subscription 1` (`ee869573-d7f5-422f-af3e-3d9d450a834d`) |
+| Tenant | `08dd661d-3de5-4275-8753-d2dd426670b2` |
+| Resource Group | `rg-leonie-growthtogether` (West Europe) |
+| SWA Resource | `swa-growthtogether` (Free SKU) |
+| Default hostname | `https://purple-island-01f081e03.7.azurestaticapps.net/` |
+| Managed Identity | `mi-github-leonie` (Client-ID `26ad15bb-5552-4e93-a11d-1bc30b15844c`) |
+| Identity role | Contributor on `rg-leonie-growthtogether` |
+
+### Workload Identity Federation (no secrets in CI)
+
+Federated credential on `mi-github-leonie`:
+
+- **Subject:** `repo:aeshilion/leonie-kaiser-hugo:ref:refs/heads/main`
+- **Issuer:** `https://token.actions.githubusercontent.com`
+- **Audience:** `api://AzureADTokenExchange`
+
+GitHub repo secrets (no client secret — OIDC only):
+
+- `AZURE_CLIENT_ID` — Managed Identity Client-ID
+- `AZURE_TENANT_ID`
+- `AZURE_SUBSCRIPTION_ID`
+
+### Workflow
+
+`.github/workflows/deploy-swa.yml`:
+
+```
+on: push to main, paths: src/growthtogether.at/** + workflow file
+→ checkout
+→ Hugo 0.135.0 extended (peaceiris/actions-hugo@v3)
+→ hugo --source src/growthtogether.at --minify --gc
+→ azure/login@v2 with WIF (id-token: write)
+→ az staticwebapp secrets list → SWA deployment token
+→ Azure/static-web-apps-deploy@v1, app_location=src/growthtogether.at/public, skip_app_build=true
+```
+
+First deploy (commit `e84984e`) verified green, default hostname returns 200.
+
+### Trigger a deploy
+
+- **Automatic:** push to `main` touching `src/growthtogether.at/**`.
+- **Manual:** `gh workflow run deploy-swa.yml --ref main` (or run from GitHub UI).
+
+### Pre-deploy checklist
+
+1. Local build green: `hugo --source src/growthtogether.at --minify` exit 0.
+2. Local browse: `hugo server --source src/growthtogether.at` on `http://localhost:1313`.
+3. Mobile check (iPhone 14 emulation), all sections render.
+4. JSON-LD validates (Schema.org Validator).
+5. Lighthouse mobile — target SEO ≥ 95, Performance ≥ 90.
+6. **Explicit go-ahead from Emanuel before pushing to `main`.** Live site is a paying client.
+
+### Post-deploy checks
+
+1. Watch GitHub Actions run: `gh run watch` or web UI.
+2. `curl -I https://purple-island-01f081e03.7.azurestaticapps.net/` — expect `200 OK`.
+3. Browse default hostname in incognito — confirm fresh content.
+4. Test `/impressum/` and `/datenschutz/` — `200 OK`.
+5. Once DNS is switched: same checks against `https://growthtogether.at/`.
+
+### Rollback
+
+SWA keeps previous deployments — revert by re-running the workflow on a previous commit, or `git revert` and push. Worst case: switch DNS back to KAS (still serving the last rsync'd build until decommissioned).
+
+## Pending — DNS-Cutover (Phase 6 step 6)
+
+**Blocked on Leonie:**
+
+- Decision: `growthtogether.at` (current) vs. `leoniekaiser.com` (alternative).
+- Registrar/DNS access (currently All-Inkl. KAS DNS).
+- Confirmation that MX/SPF/DMARC exist and what the current values are (must NOT be touched).
+- Subdomain inventory (anything besides apex + `www`?).
+
+**Switch procedure (when ready):**
+
+1. In Azure Portal → SWA `swa-growthtogether` → Custom domains → Add `growthtogether.at`.
+2. Azure issues a TXT validation record (`_dnsauth.growthtogether.at` with a token).
+3. At All-Inkl. KAS DNS:
+   - Add `TXT _dnsauth` with the Azure-provided token.
+   - For apex `growthtogether.at`: ALIAS / ANAME → `purple-island-01f081e03.7.azurestaticapps.net` (KAS doesn't support ALIAS — fallback: A-records to SWA's published IPs, or migrate DNS to Cloudflare).
+   - For `www`: CNAME → `purple-island-01f081e03.7.azurestaticapps.net`.
+   - **Leave MX, SPF (TXT), DMARC (TXT) untouched.**
+4. Wait for Azure to validate the TXT record (minutes to a few hours).
+5. Azure auto-issues Let's Encrypt cert.
+6. Verify `https://growthtogether.at/` resolves to SWA (`curl -I` should show Azure server headers).
+7. Keep KAS rsync alive ~1–2 weeks as fallback. Then decommission.
+
+**If switching to `leoniekaiser.com` instead:**
+
+- Update `baseURL` in `src/growthtogether.at/config/_default/config.toml`.
+- Update absolute URLs in `data/site.yaml` and `partials/seo-jsonld.html`.
+- Add Custom Domain `leoniekaiser.com` in Azure SWA.
+- Set 301 redirect from `growthtogether.at` → `leoniekaiser.com` (either via SWA `staticwebapp.config.json` once both domains are bound, or at the registrar level).
+- Optional: rename `src/growthtogether.at/` → `src/leoniekaiser.com/` (convention only).
+
+## Legacy — rsync to All-Inkl. KAS
+
+Still serving `https://growthtogether.at/` until DNS-Cutover. Don't deploy here unless explicitly asked.
 
 ### Hosting
 
 - **Provider:** All-Inkl.com (KAS)
-- **Account:** w02124ee
+- **Account:** w02124ee (shared with mountaingolf.eu / dasAuto)
 - **SSH host:** `w01b2e95.kasserver.com`
 - **SSH user:** `ssh-w02124ee`
 - **Webroot:** `www/htdocs/w02124ee/growthtogether.at/`
-- **Domain:** growthtogether.at (DNS at All-Inkl.)
 - **TLS:** Let's Encrypt via KAS auto-issuance
 
-Credentials are in `kobra-knowledge/quick.md` and `~/.config/shelley/AGENTS.md` (`mountaingolf` codeword — same KAS account hosts dasAuto/mountaingolf.eu).
+Credentials: `kobra-knowledge/quick.md` and `~/.config/shelley/AGENTS.md` (`mountaingolf` codeword).
 
-### Deploy command
+### Manual deploy command
 
 ```bash
-# 1. Build for production
 hugo --source src/growthtogether.at --minify --baseURL https://growthtogether.at/
 
-# 2. Sync to KAS
 rsync -avz --delete src/growthtogether.at/public/ \
   ssh-w02124ee@w01b2e95.kasserver.com:www/htdocs/w02124ee/growthtogether.at/
 ```
 
-With `sshpass` (credentials in keyring — see `quick.md`):
+With `sshpass`:
 
 ```bash
 sshpass -p '<password>' rsync -avz --delete \
@@ -35,82 +141,26 @@ sshpass -p '<password>' rsync -avz --delete \
   ssh-w02124ee@w01b2e95.kasserver.com:www/htdocs/w02124ee/growthtogether.at/
 ```
 
-### Pre-deploy checklist
+### Decommission plan (post-cutover)
 
-1. Build is green: `hugo --source src/growthtogether.at --minify` exit 0.
-2. Local browse looks right: `hugo server --source src/growthtogether.at` and open `http://localhost:1313`.
-3. Mobile check: emulate iPhone 14, scroll the whole page, all sections render.
-4. JSON-LD validates (paste from view-source into Schema.org Validator).
-5. Lighthouse mobile run — target SEO ≥ 95, Performance ≥ 90.
-6. **Explicit go-ahead from Emanuel before deploying.** Never auto-deploy.
+1. After DNS cutover + 1–2 weeks of SWA stability: archive last KAS `public/` snapshot locally.
+2. Remove KAS webroot contents (or replace with a `410 Gone` placeholder).
+3. Remove this section from the docs once decommissioned.
 
-### Post-deploy checks
-
-1. `curl -I https://growthtogether.at/` — expect `200 OK`, `cache-control` headers reasonable.
-2. Browse `https://growthtogether.at/` in incognito — confirm fresh content (KAS doesn't aggressively cache HTML).
-3. Test `/impressum/` and `/datenschutz/` — expect `200 OK`.
-4. Spot-check OG: paste URL into LinkedIn/Slack post composer, confirm preview.
-
-### Rollback
-
-Keep the previous `public/` build under `~/diamonds/kunden/kobra/leonie-kaiser-hugo/.deploy-history/<timestamp>/` before deploying. To rollback: rsync that folder back to the webroot.
-
-(History folder doesn't exist yet — add it once we automate the deploy.)
-
-## Planned — Azure Static Web Apps + Workload Identity
-
-Mirrors the `superleague-hugo` deploy pattern. Goal: zero-credentials CI deploy, automatic per-PR previews, lower cost than KAS hosting.
-
-### Target architecture
-
-```
-GitHub push (main)
-  → .github/workflows/hugo-deploy-swa.yml triggers on src/growthtogether.at/**
-  → Hugo 0.135.0 build
-  → azure/login@v2 with Workload Identity (no secrets)
-  → deploy to Azure Static Web Apps
-  → custom domain growthtogether.at → SWA endpoint
-```
-
-### Migration steps (not yet executed)
-
-1. **Provision SWA resource** in Azure subscription. Region: West Europe. Name: `swa-growthtogether-prod`. SKU: Free (sufficient for marketing site traffic).
-2. **Set up Workload Identity Federation:**
-   - Create user-assigned managed identity in Azure.
-   - Add federated credential trusting `repo:aeshilion/leonie-kaiser-hugo:ref:refs/heads/main`.
-   - Grant SWA contributor role to the identity.
-   - Stash `AZURE_CLIENT_ID` (and `TENANT_ID`, `SUBSCRIPTION_ID`) as GitHub secrets.
-3. **Copy workflow** from `superleague-hugo/.github/workflows/hugo-deploy-swa.yml`. Adjust:
-   - Path filter: `src/growthtogether.at/**`
-   - Build command: `hugo --source src/growthtogether.at --minify`
-   - SWA app/output paths
-4. **First deploy** triggers automatically on next push to `main`. Verify deploy succeeds and the SWA preview URL renders correctly.
-5. **Domain cutover:**
-   - In Azure SWA, add custom domain `growthtogether.at`.
-   - At All-Inkl. DNS, switch CNAME/A record to SWA endpoint.
-   - Wait for SSL provisioning (SWA auto-issues).
-   - Verify `https://growthtogether.at/` resolves to SWA, not KAS.
-6. **Decommission KAS:** keep KAS deploy alive for 1–2 weeks as fallback. Then archive `public/` from KAS and remove the rsync workflow.
-
-### Why not now?
-
-- The KAS deploy works.
-- DNS cutover is irreversible-ish during the TTL window. Want to do it deliberately, not bundled into restructure work.
-- The bigger payoff is when `superleague-hugo` deploys to SWA — that's the proof-of-concept Marcus is paying for. Leonie can follow.
-
-### Cost estimate
+## Cost
 
 | Item | Cost |
 |---|---|
-| Azure SWA Free tier | € 0 / month (100 GB bandwidth, 0.5 GB storage — plenty for a marketing site) |
-| Custom domain | included in Free tier |
-| KAS hosting (today) | shared with mountaingolf.eu / dasAuto, no Leonie-specific cost line |
+| Azure SWA Free tier | € 0 / month (100 GB bandwidth, 0.5 GB storage) |
+| Custom domain on SWA | included |
+| Workload Identity | included (no Azure AD premium needed) |
+| KAS hosting | shared account, no Leonie-specific cost line |
 
-Migrating to SWA is **not** a cost play — it's a workflow play. Auto-deploy on push, no rsync, branch previews.
+The migration is a **workflow play**, not a cost play — auto-deploy on push, no manual rsync, branch previews possible.
 
 ## Tmux dev session
 
-For active work, the project keeps a long-running Hugo dev server in a tmux session called `hugo-leonie` on port 1314 (1313 is the default — 1314 keeps it free if a second site spins up).
+For active work, keep a long-running Hugo dev server in a tmux session `hugo-leonie` on port 1314:
 
 ```bash
 tmux new -s hugo-leonie
