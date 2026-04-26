@@ -1,0 +1,34 @@
+[[main]]
+  name   = "Leistungen"
+  url    = "/#leistungen"
+  weight = 10
+
+[[main]]
+  name   = "Über mich"
+  url    = "/#about"
+  weight = 20
+
+[[main]]
+  name   = "Workshop"
+  url    = "/#workshop"
+  weight = 25
+
+[[main]]
+  name   = "Prozess"
+  url    = "/#prozess"
+  weight = 30
+
+[[main]]
+  name   = "Kontakt"
+  url    = "/#kontakt"
+  weight = 40
+
+[[footer]]
+  name   = "Impressum"
+  url    = "/impressum/"
+  weight = 10
+
+[[footer]]
+  name   = "Datenschutz"
+  url    = "/datenschutz/"
+  weight = 20

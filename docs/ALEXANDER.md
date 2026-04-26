@@ -1,3 +1,14 @@
+> **Update 2026-04-25** — dieses File ist jetzt das **Original-Briefing** geblieben. Die laufend gepflegte Doku liegt unter:
+>
+> - [`docs/readme.md`](readme.md) — Index
+> - [`docs/architecture.md`](architecture.md), [`config.md`](config.md), [`content-model.md`](content-model.md), [`layouts-templates.md`](layouts-templates.md)
+> - [`docs/assets-styles.md`](assets-styles.md), [`seo-jsonld.md`](seo-jsonld.md), [`content-workflow.md`](content-workflow.md), [`deploy.md`](deploy.md)
+> - Repo-Root: [`CLAUDE.md`](../CLAUDE.md), [`.claude/skills/`](../.claude/skills/), [`.mcp.json`](../.mcp.json)
+>
+> Hugo-Root liegt jetzt unter `src/growthtogether.at/` (vorher Repo-Root). Die Live-Domain ist **growthtogether.at** (nicht leoniekaiser.com). Restructure-Branch: `restructure-alexander-pattern`.
+
+---
+
 # Für Alexander
 
 Hi Alexander,

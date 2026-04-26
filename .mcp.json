@@ -1,0 +1,81 @@
+{
+	"servers": {
+		"context7": {
+			"type": "http",
+			"url": "https://mcp.context7.com/mcp"
+		},
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest",
+				"--vision"
+			],
+			"type": "stdio"
+		},
+		"angular-cli": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@angular/cli",
+				"mcp"
+			]
+		},
+		"azure-deploy": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@azure/mcp@latest",
+				"server",
+				"start"
+			],
+			"type": "stdio"
+		},
+		"github": {
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/"
+		},
+		"microsoft-learn": {
+			"type": "http",
+			"url": "https://learn.microsoft.com/api/mcp"
+		},
+		"figma": {
+			"url": "https://mcp.figma.com/mcp",
+			"type": "http"
+		},
+		"workiq": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@microsoft/workiq",
+				"mcp"
+			]
+		},
+		"chrome-devtools": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"chrome-devtools-mcp@latest"
+			],
+			"type": "stdio"
+		},
+		"colorpicker": {
+			"type": "http",
+			"url": "http://localhost:3001/mcp"
+		},
+		"image-generator": {
+			"type": "http",
+			"url": "http://localhost:3002/mcp"
+		},
+		"Azure AI Foundry MCP Server": {
+			"type": "stdio",
+			"command": "uvx",
+			"args": [
+				"--prerelease=allow",
+				"--from",
+				"git+https://github.com/azure-ai-foundry/mcp-foundry.git",
+				"run-azure-ai-foundry-mcp"
+			]
+		}
+	},
+	"inputs": []
+}

@@ -1,0 +1,20 @@
+baseURL = 'https://growthtogether.at/'
+languageCode = 'de-at'
+defaultContentLanguage = 'de'
+title = 'Leonie Kaiser – KI & Business Consulting'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ['HTML']
+
+[imaging]
+  quality = 82
+  resampleFilter = 'Lanczos'
+
+[minify]
+  minifyOutput = true

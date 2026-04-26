@@ -1,0 +1,17 @@
+<header class="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <span class="logo-name">Leonie Kaiser</span>
+      <span class="logo-role">KI & Business Consulting</span>
+    </a>
+    <nav class="menu" aria-label="Hauptnavigation">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}" class="menu-link">{{ .Name }}</a>
+      {{ end }}
+      <a href="#kontakt" class="btn btn-violet btn-sm">Termin buchen</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Menü" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>

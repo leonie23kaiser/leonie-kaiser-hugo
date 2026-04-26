@@ -1,0 +1,22 @@
+{
+  "name": "hugo-design-image-optimization",
+  "version": "1.0.0",
+  "main": "optimize.js",
+  "scripts": {
+    "optimize": "node optimize.js"
+  },
+  "keywords": [
+    "hugo",
+    "image",
+    "optimization",
+    "sharp",
+    "webp",
+    "avif"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Image optimization helper for Hugo design workflows.",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
