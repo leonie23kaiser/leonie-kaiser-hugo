@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:exe.dev)"
+      "WebFetch(domain:exe.dev)",
+      "WebFetch(domain:angular.dev)",
+      "WebFetch(domain:learn.microsoft.com)",
+      "WebFetch(domain:gohugo.io)"
     ]
   }
 }
