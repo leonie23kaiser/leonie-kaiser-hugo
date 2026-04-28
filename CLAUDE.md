@@ -83,3 +83,13 @@ Invoke `/hugo-learn` after significant work to capture learnings (`reflect`, `up
 - `aeshilion/superleague-hugo` — the reference repository this site mirrors. Look there first for pattern questions.
 - `kobra-knowledge/alexander/working-method.md` — captured Alexander conventions.
 - `kobra-knowledge/alexander/leonie-current-state.md` — Phase 0 recon notes.
+
+## Knowledge capture — proaktiv schreiben
+
+Bei substanziellen Erkenntnissen **selbst commiten + pushen**, kurz melden. Drei Ziele:
+
+- **Diese CLAUDE.md / `docs/`** → Hugo-Patterns, Brand-Token-Updates, KAS-rsync-Quirks, self-hosted-Fonts-Lessons, partials/picture.html-Edge-Cases.
+- **`kobra-knowledge/alexander/`** (`working-method.md`, `leonie-current-state.md`) → Alexander-Reviews, übernommene/abgelehnte Patterns mit Mail-Datum, Phase-Übergänge.
+- **`eap-knowledge`** → Pricing/Hugo-Setup-Erfahrung wenn projektübergreifend relevant (Vergleich SuperLeague vs Leonie).
+
+Trigger: Hugo-Bug der >30min gefressen hat, Alexander-Mail mit Pattern-Empfehlung, Branding-Update von Leonie, KAS-Deploy-Issue. Nicht: CSS-Tweaks, Tippfehler.
