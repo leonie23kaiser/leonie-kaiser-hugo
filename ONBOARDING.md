@@ -1,132 +1,141 @@
 # Onboarding — Hallo Leonie 👋
 
-Dieses Repository ist deine eigene Website. Du kannst alles selbst ändern — am einfachsten mit **Claude Code** lokal auf deinem Mac. Diese Datei zeigt dir den Weg von Null bis „Änderung live".
+Deine Website lebt jetzt in deinem eigenen GitHub-Repo:
+**https://github.com/leonie23kaiser/leonie-kaiser-hugo**
+
+Du arbeitest komplett **im Browser** — kein Terminal, kein VS Code nötig.
+Claude.ai ist dein Editor, GitHub ist deine Festplatte, GitHub Pages ist dein Hosting. Alles drei reden miteinander.
 
 Wer hier mitliest und nicht Leonie ist: das ist ihre Anleitung. Bitte nicht ohne Rückfrage abändern.
 
 ---
 
-## 1. Was ist hier?
-
-- **Hugo Static-Site** für deine Marke „Leonie Kaiser — KI & Business Consulting"
-- Aktuell live unter **growthtogether.at** (Staging). Sobald du grünes Licht gibst, ziehen wir die Domain um auf **leoniekaiser.com**.
-- Hosting: **GitHub Pages** (gratis, kein Server zu warten). Bei jedem `git push` auf den `main`-Branch baut GitHub die Seite neu und veröffentlicht sie.
-
-Wichtige Verzeichnisse:
+## 1. Wie das Ganze funktioniert (in einem Bild)
 
 ```
-src/growthtogether.at/
-├── content/         ← Texte (Markdown). Hier änderst du am häufigsten was.
-│   ├── _index.md    ← Startseite
-│   ├── ueber-mich.md
-│   ├── faq.md
-│   ├── impressum.md
-│   └── datenschutz.md
-├── layouts/         ← HTML-Templates. Hier nur ran, wenn du Struktur ändern willst.
-├── assets/css/      ← Das einzige Stylesheet: brand.css
-├── static/          ← Bilder, Fonts, robots.txt, llms.txt, CNAME (= Domain).
-└── config/_default/ ← params.toml (Marken-Variablen), config.toml (Hugo-Setup)
+Du chattest mit Claude  →  Claude bearbeitet Dateien im GitHub-Repo  →  GitHub baut die Seite neu  →  ~1 Min später live auf growthtogether.at
 ```
+
+Konkret:
+- Du schreibst Claude im Browser, was du ändern willst.
+- Claude macht einen **Pull Request** (PR) im Repo — das ist ein Vorschlag mit Vorher/Nachher.
+- Du klickst auf GitHub auf **Merge** → die Änderung geht live.
+- Wenn etwas schiefläuft: einfach den PR **nicht mergen**, dann passiert auch nichts.
 
 ---
 
-## 2. Einmalig einrichten (auf deinem Mac)
+## 2. Einmalige Einrichtung (5 Minuten)
 
-```bash
-# Hugo installieren (extended-Version)
-brew install hugo
+### Schritt A — Custom Domain in GitHub eintragen
 
-# Repo klonen (URL bekommst du nach dem Account-Transfer)
-git clone git@github.com:<dein-github-name>/leonie-kaiser-hugo.git
-cd leonie-kaiser-hugo
+1. Öffne https://github.com/leonie23kaiser/leonie-kaiser-hugo/settings/pages
+2. Bei **Custom domain** trage ein: `growthtogether.at`
+3. **Save** klicken
+4. Nach ~10 Minuten: Haken bei **Enforce HTTPS** setzen
 
-# Claude Code installieren (falls noch nicht da)
-#   → https://docs.claude.com/claude-code
-```
+(DNS-Records bei deinem Domain-Provider haben wir vorher gemeinsam eingestellt — falls die Seite nach 30 Min noch nicht auf growthtogether.at zu sehen ist: melden, wir schauen drauf.)
 
-Version prüfen: `hugo version` sollte `v0.123` oder höher anzeigen, mit `extended`.
+### Schritt B — Claude mit GitHub verbinden
 
----
+1. Öffne https://claude.ai/settings/connectors
+2. Bei **GitHub** auf **Connect** klicken
+3. Bei GitHub einloggen (dein Login: `leonie23kaiser`)
+4. **Authorize Claude** bestätigen
+5. Bei „Repository access" → **Only select repositories** → wähle `leonie-kaiser-hugo` → **Install**
 
-## 3. Lokal arbeiten
-
-Ein Terminal-Fenster für den Live-Preview offen lassen:
-
-```bash
-hugo server --source src/growthtogether.at -D
-```
-
-Dann im Browser: **http://localhost:1313**. Jede Datei-Änderung lädt die Seite automatisch neu — du siehst deine Updates in Echtzeit.
-
-Wenn du fertig bist, einmal CTRL+C im Terminal, das stoppt den Server.
+Fertig. Ab jetzt kann Claude in jedem Chat das Repo sehen.
 
 ---
 
-## 4. Mit Claude Code arbeiten
+## 3. So machst du eine Änderung
 
-Im Repo-Ordner:
+1. Öffne https://claude.ai → **New chat**
+2. Unten beim Anhang-Symbol (📎) → **GitHub** → wähle `leonie-kaiser-hugo`
+3. Schreib einfach, was du willst. Zum Beispiel:
 
-```bash
-claude
-```
+> *„Ändere auf der Startseite den Hero-Untertitel auf ‚KI-Strategie für KMU in Wien'. Mach einen Pull Request."*
 
-Claude liest automatisch `CLAUDE.md` (im Repo-Root) und kennt damit deine Marken-Farben, Voice, Strukturen. Beispiel-Prompts:
-
-- *„Schreib die FAQ-Antwort zu ‚Was kostet die KI-Potenzialanalyse?' um — kürzer, mit klarem CTA am Ende."*
-- *„Füge eine neue FAQ-Frage hinzu: ‚Wie lange dauert ein KI-Projekt?'. Kategorie: Zusammenarbeit."*
-- *„Tausche das Bild im Hero gegen das neue Portrait `static/images/leonie-2026.jpg` aus."*
-- *„Aktualisiere das Datum im Footer auf heute."*
-- *„Mein Telefon hat sich geändert — bitte überall ersetzen: +43 670 123 4567."*
-
-Claude macht die Änderung, du siehst sie sofort im lokalen Preview. Wenn alles passt:
-
-```bash
-git add <konkrete-dateien>      # NIE `git add .`
-git commit -m "content: FAQ-Antwort kostenklar formuliert"
-git push
-```
-
-GitHub Actions baut dann automatisch und deployed in ~1 Minute auf growthtogether.at.
+4. Claude liest die Datei, zeigt dir den geplanten Text, fragt nochmal nach. Du sagst **„passt, los"**.
+5. Claude erstellt den **Pull Request** im Repo.
+6. Du gehst auf GitHub (Link bekommst du im Chat), schaust den **Files changed**-Tab an — das ist die Vorher-Nachher-Ansicht.
+7. Klick auf **Merge pull request** → **Confirm merge**.
+8. Nach ~1 Minute ist die Änderung live auf growthtogether.at.
 
 ---
 
-## 5. Was du **niemals** machst
+## 4. Beispiel-Sätze, die du Claude sagen kannst
 
-- ❌ **`git add -A` / `git add .` / `git add *`** — immer einzelne Dateien angeben. Sonst kommen ungewollte Sachen ins Repo.
-- ❌ **Domain wechseln, ohne Bescheid zu sagen** — `static/CNAME` enthält die Live-Domain. Nicht einfach umändern, sonst geht die Seite offline.
-- ❌ **Direkt im `public/`-Ordner editieren** — der wird bei jedem Build überschrieben.
-- ❌ **Bilder in `static/images/` ohne WebP-Variante hochladen** — Hugo erwartet beide Formate für die responsive `picture`-Partial. Tipp: `cwebp -q 85 bild.png -o bild.webp`.
+| Was du willst | Was du tippst |
+|---|---|
+| Text auf Startseite ändern | *„Auf der Startseite im Hero: ändere den Satz X auf Y. PR machen."* |
+| Neue FAQ-Frage | *„Füge eine FAQ-Frage hinzu: ‚Wie lange dauert ein KI-Projekt?' Kategorie: zusammenarbeit. Antwort: …"* |
+| Über-mich-Text aktualisieren | *„Auf der Über-mich-Seite: füge folgenden Abschnitt ein: …"* |
+| Telefonnummer überall tauschen | *„Ersetze die Telefonnummer überall im Repo durch +43 670 123 4567."* |
+| Calendly-Link austauschen | *„Tausche alle calendly.com-Links auf https://calendly.com/leonie-kaiser/neu"* |
+| Testimonial ändern | *„Im Abschnitt ‚Was Kund:innen sagen' das zweite Testimonial: ersetze Name auf X und Text auf Y."* |
+| Bild austauschen | (Bild per Drag&Drop in den Chat) + *„Ersetze damit das Hero-Bild."* |
+| Rechtschreibfehler | *„Im Footer steht ‚Beratug', soll ‚Beratung' heißen."* |
 
----
-
-## 6. Häufige Aufgaben
-
-### Neue FAQ-Frage hinzufügen
-Datei: `src/growthtogether.at/layouts/faq/single.html` — Block `<div class="faq-item" data-cat="...">` kopieren. Kategorien: `strategie`, `kosten`, `compliance`, `tools`, `zusammenarbeit` (mehrere mit Space getrennt). Schema.org-FAQPage in `partials/schema.html` mitziehen.
-
-### Testimonial ändern
-Datei: `src/growthtogether.at/layouts/_default/home.html` — Sektion „Was Kund:innen sagen". Bild ins `static/images/` legen (PNG + WebP). Auch in `partials/schema.html` (Reviews + AggregateRating) updaten.
-
-### Termin-Link tauschen (Calendly)
-Suche nach `calendly.com/leonie-kaiser` und ersetze überall. Claude erledigt das in einem Rutsch.
-
-### Brand-Farbe ändern
-Datei: `src/growthtogether.at/config/_default/params.toml` und `src/growthtogether.at/assets/css/brand.css` (CSS-Variablen oben). Sag Claude *„Ändere `--teal-d` auf #0A7090 und passe alle Stellen an"* — er findet alles.
-
-### Auf leoniekaiser.com umziehen
-Wenn du bereit bist:
-1. Sag uns Bescheid — wir prüfen, dass alles passt.
-2. `static/CNAME` von `growthtogether.at` auf `leoniekaiser.com` ändern.
-3. DNS bei deinem Domain-Provider: `A`-Records auf GitHub Pages IPs (`185.199.108.153 / .109.153 / .110.153 / .111.153`).
-4. In GitHub: Settings → Pages → Custom Domain auf `leoniekaiser.com`.
-5. „Enforce HTTPS" anhaken (nach ~30 Min verfügbar).
+**Profi-Tipp:** Du musst nicht wissen, in welcher Datei der Text steht. Sag einfach *„auf der Startseite im Hero"* oder *„im FAQ-Bereich"*, Claude findet's selbst.
 
 ---
 
-## 7. Hilfe & Notfall
+## 5. Was du wissen solltest
 
-- **Seite ist down / Build schlägt fehl**: Schau in GitHub → Tab „Actions". Die rote Zeile zeigt den Fehler. Screenshot an uns reicht.
-- **Letzte Änderung rückgängig**: `git revert HEAD && git push`. Claude kennt das.
-- **Bei größeren Sachen** (Layout-Umbau, neue Sub-Page, technische Fragen): einfach melden, das machen wir gemeinsam.
+### Claude liest deine Marken-Regeln automatisch
+
+Im Repo liegt eine Datei `CLAUDE.md` — die kennt deine Brand-Farben, die Sie-Form, die FAQ-Kategorien, was Tabu ist. Claude liest sie bei jedem Chat mit. Du musst Brand-Voice also nicht jedes Mal erklären.
+
+### Direkt commit statt PR
+
+Wenn du dir sicher bist (z.B. Tippfehler), sag *„commit direkt auf main, kein PR nötig"* — dann ist es sofort live, ohne den Umweg über die Merge-Bestätigung.
+
+### Pull Request rückgängig
+
+Änderung doch nicht gut? Auf GitHub den PR einfach **nicht mergen** und **Close** klicken. Schon gemergt? Sag Claude *„revertiere den letzten Commit"* — er macht einen Rück-PR.
+
+### Du brauchst keine technischen Begriffe
+
+„Mach einen PR" reicht. Du musst nicht wissen, was Hugo, Markdown, YAML oder Frontmatter bedeutet. Claude erklärt dir, was er macht, wenn du fragst.
+
+---
+
+## 6. Was du **nicht** tun solltest
+
+- ❌ **Pages-Domain ändern**, ohne Bescheid zu sagen — sonst geht die Seite offline.
+- ❌ **Im GitHub-Ordner `public/` etwas editieren** — der wird bei jedem Build überschrieben.
+- ❌ **Den `main`-Branch löschen** — das ist dein Live-Stand.
+- ❌ **Größere Layout-Umbauten allein versuchen** („mach das Design ganz neu"). Für sowas: kurz melden, wir machen das gemeinsam.
+
+Falls Claude doch was kaputt macht: nicht mergen → kein Schaden. Schon gemergt und Seite weiß? → uns sofort schreiben, wir revertieren in 30 Sekunden.
+
+---
+
+## 7. Wenn etwas nicht funktioniert
+
+| Problem | Was du machst |
+|---|---|
+| Seite zeigt alte Inhalte | 1–2 Minuten warten, dann Strg+Shift+R (Hard Reload) im Browser |
+| GitHub Actions ist rot (siehe Tab „Actions") | Screenshot an uns schicken |
+| Claude versteht den Wunsch nicht | Konkreter werden: welche Seite, welcher Abschnitt, welcher Text |
+| Pull Request ist verwirrend | *„Erkläre mir den PR in einfachen Worten"* fragen |
+| Etwas Großes geht schief | Kurz anrufen, wir helfen sofort |
+
+---
+
+## 8. Für später: lokal arbeiten (optional, nicht nötig)
+
+Wenn du irgendwann mal **vor dem Mergen** sehen willst, wie die Änderung aussieht (Live-Preview), gibt es einen Weg mit deinem Mac-Terminal. Das ist **nicht** für den Alltag — nur falls du Lust auf mehr Kontrolle hast. Sag uns Bescheid, wir richten's mit dir ein. Brauchst du im Normalfall **nicht**.
+
+---
+
+## 9. Wichtige Links auf einen Blick
+
+- 🌐 **Live-Seite:** https://growthtogether.at
+- 📦 **Dein Repo:** https://github.com/leonie23kaiser/leonie-kaiser-hugo
+- ⚙️ **Pages-Einstellungen:** https://github.com/leonie23kaiser/leonie-kaiser-hugo/settings/pages
+- 🔨 **Build-Status:** https://github.com/leonie23kaiser/leonie-kaiser-hugo/actions
+- 🤖 **Claude.ai:** https://claude.ai
+- 🔌 **Claude Connectors:** https://claude.ai/settings/connectors
 
 Viel Spaß mit deiner neuen Seite. ✨
