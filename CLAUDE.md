@@ -7,16 +7,20 @@ Guidance for Claude Code when working in this repository.
 Hugo static-site for **Leonie Kaiser — KI & Business Consulting** (live: growthtogether.at).
 
 - Hugo project root: `src/growthtogether.at/`
-- Live deployment: rsync to KAS at `www/htdocs/w02124ee/growthtogether.at/` (planned: GitHub Actions → Azure Static Web Apps)
-- **Full documentation: [docs/readme.md](docs/readme.md)**
+- Live deployment: **GitHub Pages** (`.github/workflows/deploy-pages.yml`) on the **growthtogether.at** custom domain via `static/CNAME`. After client sign-off the DNS is moved to **leoniekaiser.com**.
+- **Full documentation: [docs/readme.md](docs/readme.md)** and **[ONBOARDING.md](ONBOARDING.md)** for Leonie's local Claude-Code workflow.
 
 Hugo **v0.123+ extended** required.
 
 ## Site shape
 
-Single-page marketing site with anchor-based navigation. The page builder is `layouts/_default/home.html` reading from `data/site.yaml` (split planned). Plus two legal pages: `/impressum/` and `/datenschutz/`.
+Single-page marketing site with anchor-based navigation. The page builder is `layouts/_default/home.html`, today rendering content from `content/_index.md` front-matter and inline markup (data-driven `site.yaml` refactor deferred — old version kept as `.bak-simply-ai`). Plus four standalone pages: `/ueber-mich/`, `/faq/`, `/impressum/`, `/datenschutz/` — each backed by `layouts/<slug>/single.html` keyed by `type:` in the content front-matter.
 
-No content collections, no taxonomies. Single-author, single-language (de-AT).
+No content collections, no taxonomies. Single-author, single-language (de-AT). Voice: **Sie-Form** (B2B KI-Beratung).
+
+FAQ accordion + category filter (`Alle / KI-Strategie / Kosten / EU AI Act & DSGVO / Tools & Technik / Zusammenarbeit`) live in `layouts/faq/single.html` + `partials/scripts.html`.
+
+Schema.org JSON-LD `@graph` in `partials/schema.html`: Person + Organization + Service + FAQPage + AggregateRating + Reviews + BreadcrumbList + AboutPage + ContactPage + WebSite + Speakable. AI/GEO file at `static/llms.txt`; AI bots explicitly allowed in `static/robots.txt`.
 
 ## Brand tokens (mirror `params.toml`)
 
