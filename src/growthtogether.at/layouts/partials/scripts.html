@@ -1,29 +1,90 @@
+{{- /* Inline JS — nav burger close on outside click + cookie banner + form submit + FAQ accordion */ -}}
 <script>
+// Mobile menu: close on outside click
+document.addEventListener('click',function(e){
+  var m=document.querySelector('.mmenu'),b=document.querySelector('.burg');
+  if(m&&m.classList.contains('open')&&!m.contains(e.target)&&b&&!b.contains(e.target))
+    m.classList.remove('open');
+});
+
+// Contact form (web3forms)
 (function(){
-  var toggle = document.querySelector('.menu-toggle');
-  var menu = document.querySelector('.menu');
-  if(toggle && menu){
-    toggle.addEventListener('click', function(){
-      var open = menu.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-    menu.querySelectorAll('a').forEach(function(a){
-      a.addEventListener('click', function(){
-        menu.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-      });
-    });
-  }
-  // simple form progressive enhancement: show success text instead of reload
-  document.querySelectorAll('form.contact-form').forEach(function(f){
-    f.addEventListener('submit', function(ev){
-      var action = f.getAttribute('action') || '';
-      if(action.indexOf('REPLACE_ME') !== -1){
-        ev.preventDefault();
-        var msg = f.getAttribute('data-success') || 'Danke!';
-        f.innerHTML = '<div style="padding:40px;text-align:center;color:var(--teal-900);font-weight:600">'+msg+'</div>';
+  var contactForm=document.getElementById('contactform');
+  var formResult=document.getElementById('form-result');
+  if(!contactForm||!formResult)return;
+  contactForm.addEventListener('submit',async function(e){
+    e.preventDefault();
+    var submitButton=contactForm.querySelector('button[type="submit"]');
+    var originalButton=submitButton.innerHTML;
+    formResult.style.display='block';
+    formResult.style.background='rgba(8,101,132,.08)';
+    formResult.style.color='#064e65';
+    formResult.textContent='Nachricht wird gesendet…';
+    submitButton.disabled=true;
+    submitButton.innerHTML='Wird gesendet…';
+    try{
+      var formData=new FormData(contactForm);
+      var object=Object.fromEntries(formData);
+      var json=JSON.stringify(object);
+      var response=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:json});
+      var data=await response.json();
+      if(response.status===200&&data.success){
+        formResult.style.background='rgba(67,122,34,.12)';
+        formResult.style.color='#086584';
+        formResult.textContent='Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet.';
+        contactForm.reset();
+      }else{
+        formResult.style.background='rgba(161,44,123,.10)';
+        formResult.style.color='#7d1e5e';
+        formResult.textContent='Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.';
       }
-    });
+    }catch(err){
+      formResult.style.background='rgba(161,44,123,.10)';
+      formResult.style.color='#7d1e5e';
+      formResult.textContent='Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.';
+    }finally{
+      submitButton.disabled=false;
+      submitButton.innerHTML=originalButton;
+    }
   });
 })();
+
+// FAQ accordion + category filter (only on faq page)
+function toggleFaq(el){
+  var item=el.closest('.faq-item');
+  var isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function(i){i.classList.remove('open');});
+  if(!isOpen)item.classList.add('open');
+}
+document.querySelectorAll('.faq-cat').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.faq-cat').forEach(function(b){b.classList.remove('active');});
+    this.classList.add('active');
+    var cat=this.dataset.cat;
+    document.querySelectorAll('.faq-item').forEach(function(item){
+      if(cat==='all'||(item.dataset.cat||'').indexOf(cat)>=0){item.style.display='';}
+      else{item.style.display='none';}
+    });
+  });
+});
+
+// Cookie banner: show until user chooses
+(function(){
+  var banner=document.getElementById('cookie-banner');
+  if(!banner)return;
+  if(!localStorage.getItem('lk-cookie-choice'))banner.style.display='block';
+  var accept=document.getElementById('cookie-accept');
+  var reject=document.getElementById('cookie-reject');
+  if(accept)accept.addEventListener('click',function(){localStorage.setItem('lk-cookie-choice','all');banner.style.display='none';});
+  if(reject)reject.addEventListener('click',function(){localStorage.setItem('lk-cookie-choice','necessary');banner.style.display='none';});
+})();
 </script>
+
+{{- /* Web-Vitals tracking (lazy, beacon to optional endpoint via Site.Params.vitalsEndpoint) */ -}}
+{{- if site.Params.vitalsEndpoint }}
+<script type="module">
+import {onCLS,onLCP,onINP,onFCP,onTTFB} from 'https://unpkg.com/web-vitals@4?module';
+function send(m){try{navigator.sendBeacon('{{ site.Params.vitalsEndpoint }}',JSON.stringify({n:m.name,v:m.value,id:m.id,p:location.pathname}));}catch(e){}}
+onCLS(send);onLCP(send);onINP(send);onFCP(send);onTTFB(send);
+</script>
+{{- end }}

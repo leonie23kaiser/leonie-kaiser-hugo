@@ -1,0 +1,103 @@
+{{- /* Schema.org @graph — Leonie Kaiser KI-Beratung */ -}}
+{{- $base := site.BaseURL -}}
+{{- $personId := printf "%s#person" $base -}}
+{{- $orgId    := printf "%s#organization" $base -}}
+{{- $siteId   := printf "%s#website" $base -}}
+
+{{- /* Person */ -}}
+{{- $person := dict
+    "@type" "Person"
+    "@id" $personId
+    "name" "Leonie Kaiser"
+    "jobTitle" "KI & Business Consultant"
+    "description" "Leonie Kaiser ist KI-Beraterin in Wien mit über 20 Jahren Erfahrung. Spezialisierung auf Agentic AI, Claude Code, Claude Architect sowie EU AI Act & DSGVO Compliance für Einzelunternehmer und KMU."
+    "url" $base
+    "image" (printf "%simages/Bild-1.png" $base)
+    "sameAs" (slice "https://www.linkedin.com/in/leoniekaiser")
+    "worksFor" (dict "@id" $orgId)
+    "knowsAbout" (slice "KI-Strategie" "Agentic AI" "Claude Code" "Claude Architect" "EU AI Act" "DSGVO" "No-Code Automatisierung" "n8n" "Make" "Projektmanagement" "Business Consulting")
+    "knowsLanguage" (slice "de" "en" "es")
+    "address" (dict "@type" "PostalAddress" "streetAddress" "Bahnstraße 13/22" "postalCode" "2603" "addressLocality" "Felixdorf" "addressCountry" "AT")
+-}}
+
+{{- /* Organization / ProfessionalService */ -}}
+{{- $org := dict
+    "@type" "ProfessionalService"
+    "@id" $orgId
+    "name" "Leonie Kaiser KI-Beratung"
+    "alternateName" "LK Consulting"
+    "description" "KI-Beratung, Strategie und No-Code-Automatisierung für Einzelunternehmer und KMU. EU AI Act Compliance. Kostenfreie Potenzialanalyse."
+    "url" $base
+    "logo" (printf "%simages/Logo.png" $base)
+    "image" (printf "%simages/Bild-1.png" $base)
+    "founder" (dict "@id" $personId)
+    "vatID" "ATU81457647"
+    "areaServed" (slice "AT" "DE" "CH")
+    "address" (dict "@type" "PostalAddress" "streetAddress" "Bahnstraße 13/22" "postalCode" "2603" "addressLocality" "Felixdorf" "addressCountry" "AT")
+    "contactPoint" (dict "@type" "ContactPoint" "contactType" "customer service" "email" "hello@leoniekaiser.com" "telephone" "+436707756060" "availableLanguage" (slice "German" "English" "Spanish"))
+    "hasOfferCatalog" (dict
+      "@type" "OfferCatalog"
+      "name" "KI-Beratungsleistungen"
+      "itemListElement" (slice
+        (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR" "itemOffered" (dict "@type" "Service" "name" "KI-Potenzialanalyse" "description" "30-minütiges kostenloses Online-Gespräch zur Analyse des KI-Potenzials im Unternehmen."))
+        (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "KI-Strategie & Beratung" "description" "Maßgeschneiderte KI-Roadmap mit Maßnahmen, EU AI Act Compliance und persönlicher Begleitung."))
+        (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "KI-Implementierung & Automatisierung" "description" "No-Code Automatisierungen mit n8n und Make. Agentic AI mit Claude Code für autonome Workflows."))
+      ))
+    "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" "5" "bestRating" "5" "worstRating" "1" "ratingCount" "3")
+    "review" (slice
+      (dict "@type" "Review" "author" (dict "@type" "Person" "name" "Angela Caine") "reviewBody" "Leonie hat mir einen klaren Plan aufgezeigt und ein untrügliches Gespür dafür bewiesen, was mir fehlte, um mein Unternehmen voranzubringen." "reviewRating" (dict "@type" "Rating" "ratingValue" "5" "bestRating" "5"))
+      (dict "@type" "Review" "author" (dict "@type" "Person" "name" "Mor Yelvington") "reviewBody" "Die Zusammenarbeit mit Leonie ist eine Freude. Sie ist leidenschaftlich, professionell und eine Expertin auf ihrem Gebiet." "reviewRating" (dict "@type" "Rating" "ratingValue" "5" "bestRating" "5"))
+      (dict "@type" "Review" "author" (dict "@type" "Person" "name" "Megan Bailey") "reviewBody" "Leonie hat mein Unternehmen sofort verstanden. Sie hat alles strukturiert und mir so viel Klarheit gegeben." "reviewRating" (dict "@type" "Rating" "ratingValue" "5" "bestRating" "5"))
+    )
+-}}
+
+{{- /* WebSite */ -}}
+{{- $website := dict
+    "@type" "WebSite"
+    "@id" $siteId
+    "url" $base
+    "name" site.Title
+    "inLanguage" "de-AT"
+    "publisher" (dict "@id" $orgId)
+-}}
+
+{{- /* Build base graph */ -}}
+{{- $graph := slice $person $org $website -}}
+
+{{- /* FAQ from front-matter (Page-level) */ -}}
+{{- with .Params.faqs -}}
+  {{- $qa := slice -}}
+  {{- range . -}}
+    {{- $qa = $qa | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+  {{- end -}}
+  {{- $faq := dict "@type" "FAQPage" "@id" (printf "%s#faq" $.Permalink) "mainEntity" $qa -}}
+  {{- $graph = $graph | append $faq -}}
+{{- end -}}
+
+{{- /* AboutPage for ueber-mich */ -}}
+{{- if eq .Type "ueber-mich" -}}
+  {{- $about := dict "@type" "AboutPage" "@id" (printf "%s#aboutpage" .Permalink) "url" .Permalink "name" .Title "description" .Description "mainEntity" (dict "@id" $personId) -}}
+  {{- $graph = $graph | append $about -}}
+{{- end -}}
+
+{{- /* BreadcrumbList on sub-pages */ -}}
+{{- if not .IsHome -}}
+  {{- $crumbs := slice
+    (dict "@type" "ListItem" "position" 1 "name" "Start" "item" $base)
+    (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink)
+  -}}
+  {{- $bc := dict "@type" "BreadcrumbList" "itemListElement" $crumbs -}}
+  {{- $graph = $graph | append $bc -}}
+{{- end -}}
+
+{{- /* Speakable on home + about */ -}}
+{{- if or .IsHome (eq .Type "ueber-mich") -}}
+  {{- $speak := dict "@type" "SpeakableSpecification" "cssSelector" (slice "h1" ".htagline" ".lead-speakable") -}}
+  {{- $webpage := dict "@type" "WebPage" "@id" (printf "%s#webpage" .Permalink) "url" .Permalink "name" .Title "speakable" $speak "isPartOf" (dict "@id" $siteId) -}}
+  {{- $graph = $graph | append $webpage -}}
+{{- end -}}
+
+{{- $schema := dict "@context" "https://schema.org" "@graph" $graph -}}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>

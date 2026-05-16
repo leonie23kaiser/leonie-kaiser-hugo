@@ -1,20 +1,27 @@
-<footer class="site-footer">
-  <div class="wrap foot-grid">
-    <div class="foot-brand">
-      <div class="foot-logo">Leonie Kaiser</div>
-      <small>KI & Business Consulting · leoniekaiser.com</small>
+<footer>
+  <div style="max-width:1200px;margin-inline:auto;padding:var(--s10) clamp(var(--s6),5vw,var(--s16))">
+    <!-- Top row: logo + nav links -->
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:var(--s6);padding-bottom:var(--s6);border-bottom:1px solid rgba(255,255,255,.1)">
+      <div>
+        <div style="font-family:var(--fd);font-size:var(--lg);font-weight:800;color:#fff">Leonie Kaiser</div>
+        <div style="font-size:var(--xs);margin-top:var(--s1);opacity:.55">KI &amp; Business Consultant · Wien, Österreich</div>
+        <div style="font-size:var(--xs);margin-top:var(--s1);opacity:.55">Von <strong style="color:rgba(255,255,255,.75)">Leonie Kaiser</strong> · <time datetime="2026-05-16">Aktualisiert: 16. Mai 2026</time></div>
+      </div>
+      <ul style="display:flex;gap:var(--s6);list-style:none;flex-wrap:wrap;align-items:center">
+        <li><a href="#leistungen" style="color:rgba(255,255,255,.55);text-decoration:none;font-size:var(--sm)">Leistungen</a></li>
+        <li><a href="/ueber-mich/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.55);text-decoration:none;font-size:var(--sm)">Über mich</a></li>
+        <li><a href="#prozess" style="color:rgba(255,255,255,.55);text-decoration:none;font-size:var(--sm)">Prozess</a></li>
+        <li><a href="/faq/" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,.55);text-decoration:none;font-size:var(--sm)">FAQ</a></li>
+        <li><a href="#kontakt" style="color:rgba(255,255,255,.55);text-decoration:none;font-size:var(--sm)">Kontakt</a></li>
+      </ul>
     </div>
-    <nav class="foot-links" aria-label="Navigation">
-      {{ range site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
-    </nav>
-    <div class="foot-social">
-      {{ with site.Params.linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>{{ end }}
+    <!-- Bottom row: copyright + legal -->
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--s4);padding-top:var(--s5)">
+      <div style="font-size:var(--xs);opacity:.45">© 2026 Leonie Kaiser · EU AI Act &amp; DSGVO konform · Remote &amp; vor Ort</div>
+      <div style="display:flex;gap:var(--s5)">
+        <a href="/datenschutz" style="color:rgba(255,255,255,.45);text-decoration:none;font-size:var(--xs)" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+        <a href="/impressum" style="color:rgba(255,255,255,.45);text-decoration:none;font-size:var(--xs)" target="_blank" rel="noopener noreferrer">Impressum</a>
+      </div>
     </div>
-  </div>
-  <div class="wrap foot-bottom">
-    <span>© {{ now.Format "2006" }} {{ site.Params.orgLegal }}</span>
-    <span>
-      {{ range site.Menus.footer }}<a href="{{ .URL }}">{{ .Name }}</a>{{ if not .HasChildren }} · {{ end }}{{ end }}
-    </span>
   </div>
 </footer>

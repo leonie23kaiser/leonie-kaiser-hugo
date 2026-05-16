@@ -1,4 +1,4 @@
 ---
-title: "Leonie Kaiser – KI & Business Consulting"
-description: "KI & Business Consulting aus Wien/Niederösterreich. Von der Potenzialanalyse bis zur Umsetzung – einfach, ethisch, wirksam."
+title: "Leonie Kaiser | KI-Beratung Wien – Strategie, Automatisierung & EU AI Act"
+description: "KI-Beraterin in Wien: maßgeschneiderte KI-Strategie, No-Code-Automatisierung und EU AI Act Compliance für Einzelunternehmer und KMU in Österreich. Kostenfreie Potenzialanalyse."
 ---

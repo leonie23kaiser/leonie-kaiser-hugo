@@ -1,14 +1,13 @@
 <!doctype html>
-<html
-  lang="{{ site.Language.LanguageCode }}"
-  dir="{{ or site.Language.LanguageDirection `ltr` }}"
->
+<html lang="{{ site.Language.LanguageCode | default `de-AT` }}">
   <head>
     {{ partial "head.html" . }}
   </head>
   <body>
-    {{ partial "header.html" . }}
-    <main>{{ block "main" . }}{{ end }}</main>
-    {{ partial "footer.html" . }} {{ partial "scripts.html" . }}
+    {{ partial "nav.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+    {{ partial "cookie-banner.html" . }}
+    {{ partial "scripts.html" . }}
   </body>
 </html>

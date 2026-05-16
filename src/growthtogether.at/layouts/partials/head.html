@@ -3,9 +3,7 @@
 <meta name="theme-color" content="#086584">
 <meta name="color-scheme" content="light">
 
-<title>
-  {{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }} – {{ site.Params.seoSiteTitle | default site.Title }}{{ end }}
-</title>
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 
 {{- /* Open Graph / Twitter */ -}}
@@ -15,27 +13,25 @@
 <meta property="og:locale" content="de_AT">
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ $ogImage | absURL }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Params.seoHomeTitle | default site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
 <link rel="canonical" href="{{ .Permalink }}">
-<link rel="icon" href="{{ "/favicon.ico" | relURL }}" sizes="any">
-<link rel="icon" href="{{ "/favicon.svg" | relURL }}" type="image/svg+xml">
-<link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relURL }}">
+<link rel="icon" href="{{ "/images/Logo.png" | relURL }}" type="image/png">
 
-{{- /* Fonts: self-hosted (Cabinet Grotesk + Satoshi via Fontshare, DSGVO-konform) */ -}}
+{{- /* Fonts: self-hosted Cabinet Grotesk + Satoshi (DSGVO-konform) */ -}}
 <link rel="preload" href="/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/cabinet-grotesk-800.woff2" as="font" type="font/woff2" crossorigin>
 
-{{- /* Brand CSS */ -}}
+{{- /* Brand CSS via Hugo Pipes */ -}}
 {{- $brand := resources.Get "css/brand.css" -}}
 {{- if hugo.IsDevelopment }}
 <link rel="stylesheet" href="{{ $brand.RelPermalink }}">
@@ -44,4 +40,4 @@
 <link rel="stylesheet" href="{{ $brand.RelPermalink }}" integrity="{{ $brand.Data.Integrity }}" crossorigin="anonymous">
 {{- end }}
 
-{{ partial "seo-jsonld.html" . }}
+{{ partial "schema.html" . }}

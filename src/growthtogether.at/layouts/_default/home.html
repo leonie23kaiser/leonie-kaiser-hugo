@@ -1,234 +1,312 @@
 {{ define "main" }}
-{{ $s := site.Data.site }}
-
-{{/* HERO */}}
-<section class="hero wrap" id="top">
-  <div class="hero-grid">
-    <div>
-      <div class="hero-badge">{{ $s.hero.badge }}</div>
-      <h1>{{ $s.hero.headline_line1 }}<br>{{ $s.hero.headline_line2 }}</h1>
-      <p class="lead"><strong>{{ $s.hero.tagline }}</strong></p>
-      <p class="lead-sub">{{ $s.hero.lead }}</p>
-      <div class="hero-cta">
-        <a href="{{ $s.hero.cta_primary_href }}" class="btn btn-primary">{{ $s.hero.cta_primary_icon }} {{ $s.hero.cta_primary }}</a>
-        <a href="{{ $s.hero.cta_secondary_href }}" class="btn btn-ghost">{{ $s.hero.cta_secondary }} →</a>
-      </div>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div>
+    <div class="hbadge">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      KI &amp; Business Consulting
     </div>
-    <div class="hero-photo">
-      <div class="hero-photo-inner">
-        {{ if $s.hero.photo }}
-        <picture>
-          {{ with $s.hero.photo_webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{ end }}
-          <img src="{{ $s.hero.photo | relURL }}" alt="{{ $s.hero.photo_alt }}" width="800" height="800" fetchpriority="high" decoding="async">
-        </picture>
-        {{ else }}<span class="photo-placeholder">Foto<br>Leonie</span>{{ end }}
-      </div>
+    <h1 class="htitle">KI, die wirklich<br><span class="acc">für Sie arbeitet.</span></h1>
+    <p class="htagline">Von der Potenzialanalyse bis zur Umsetzung –<br><strong>einfach, ethisch, wirksam.</strong></p>
+    <p class="hsubtitle">KI-Beraterin für Einzelunternehmer &amp; KMU in Österreich – EU AI Act konform, ganz ohne technisches Vorwissen.</p>
+    <div class="hactions">
+      <a href="#potenzialanalyse" class="btnp">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Kostenfreie Potenzialanalyse
+      </a>
+    </div>
     </div>
   </div>
-
-  <div class="hero-stats">
-    {{ range $s.stats }}
-    <div class="stat"><b>{{ .value }}</b><span>{{ .label }}</span></div>
-    {{ end }}
-  </div>
-</section>
-
-{{/* TRUST */}}
-<div class="trust"><div class="trust-inner">
-  {{ range $s.trust }}<span>{{ . }}</span>{{ end }}
-</div></div>
-
-{{/* SERVICES */}}
-<section id="leistungen" class="wrap">
-  <div class="eyebrow">{{ $s.services.eyebrow }}</div>
-  <h2>{{ $s.services.heading }}</h2>
-  <p class="sub">{{ $s.services.sub }}</p>
-
-  <div class="services-grid">
-    {{ range $s.services.items }}
-    <div class="card{{ if .featured }} featured{{ end }}">
-      <div class="tag tag-{{ .tag_style }}">{{ .tag }}</div>
-      <h3>{{ .title }}</h3>
-      <p class="card-text">{{ .text }}</p>
-      <ul>
-        {{ range .points }}<li>{{ . }}</li>{{ end }}
-      </ul>
-      <div class="price-block">
-        <div class="price">{{ .price }}</div>
-        <div class="price-note">{{ .price_note }}</div>
-      </div>
+  <div class="hphoto-wrap"><div class="hbg-anim"><div class="hbg-inner"></div></div>
+    <div class="hphoto">
+      <img src="/images/Bild-1.png" alt="Leonie Kaiser" loading="lazy">
     </div>
-    {{ end }}
-  </div>
-</section>
-
-{{/* ABOUT */}}
-<section id="about" class="about">
-  <div class="wrap">
-    <div class="eyebrow">{{ $s.about.eyebrow }}</div>
-    <div class="about-grid">
+    <div class="hbubble">
+      <div class="hbico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M12 2L15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
       <div>
-        <h2>{{ $s.about.heading }}</h2>
-        {{ range $s.about.paragraphs }}<p>{{ . }}</p>{{ end }}
-
-        <div class="pills-label">{{ $s.about.pills_label }}</div>
-        <div class="pills">
-          {{ range $s.about.pills }}<span class="pill">{{ . }}</span>{{ end }}
-        </div>
-
-        <div class="about-ctas">
-          <a href="{{ site.Params.linkedin }}" class="btn btn-ghost" target="_blank" rel="noopener">→ LinkedIn Profil ansehen</a>
-          <a href="#kontakt" class="btn btn-violet">→ Termin vereinbaren</a>
-        </div>
-      </div>
-      <div class="values">
-        {{ with $s.about_extra }}
-        <div class="about-portrait">
-          <picture>
-            {{ with .portrait_webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{ end }}
-            <img src="{{ .portrait | relURL }}" alt="{{ .portrait_alt }}" loading="lazy" decoding="async" width="800" height="960">
-          </picture>
-          {{ with .badge }}
-          <div class="about-badge" title="{{ $s.about_extra.badge_caption }}">
-            <picture>
-              {{ with $s.about_extra.badge_webp }}<source srcset="{{ . | relURL }}" type="image/webp">{{ end }}
-              <img src="{{ . | relURL }}" alt="{{ $s.about_extra.badge_alt }}" loading="lazy" decoding="async" width="480" height="480">
-            </picture>
-          </div>
-          {{ end }}
-        </div>
-        {{ end }}
-        {{ range $s.about.values }}
-        <div class="value value-{{ .color }}">
-          <h4>{{ .icon }} {{ .title }}</h4>
-          <p>{{ .text }}</p>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-
-    <div class="cert">
-      <div class="cert-body">
-        <div class="cert-label">{{ $s.cert.label }}</div>
-        <h3>{{ $s.cert.title }}</h3>
-        <div class="cert-tags">
-          {{ range $s.cert.tags }}<span>{{ . }}</span>{{ end }}
-        </div>
-      </div>
-      <div class="cert-badge">
-        <b>{{ $s.cert.badge_label }}</b>
-        <span>{{ $s.cert.badge_date }}</span>
+        <div class="hbtit">Zertifizierung in Vorbereitung</div>
+        <div class="hbsub">KI Consultant · Abschluss Juni 2026</div>
       </div>
     </div>
   </div>
 </section>
 
-{{/* BRAND BANNER */}}
-<div class="brand-banner" aria-hidden="true">
-  <picture>
-    <source srcset="{{ "images/simply-ai-banner-new.webp" | relURL }}" type="image/webp">
-    <img src="{{ "images/simply-ai-banner-new.jpg" | relURL }}" alt="" loading="lazy" width="1584" height="396">
-  </picture>
+<!-- TRUST -->
+<div class="trust">
+  <div class="trustin">
+      <div class="titem">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        20+ Jahre Erfahrung
+      </div>
+    <div class="titem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>Projektmanagement · Marketing · Digitalisierung</div>
+    <div class="titem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>EU AI Act &amp; DSGVO konform</div>
+    <div class="titem"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Remote &amp; vor Ort</div>
+  </div>
+</div>
 </div>
 
-{{/* WORKSHOP */}}
-{{ with $s.workshop }}
-<section id="workshop" class="workshop">
-  <div class="wrap">
-    <div class="workshop-card">
-      <div class="workshop-copy">
-        <div class="eyebrow eyebrow-on-dark">{{ .eyebrow }}</div>
-        <div class="workshop-kicker">{{ .kicker }}</div>
-        <h2>{{ .heading }}</h2>
-        <p class="workshop-lead">{{ .lead }}</p>
-        <ul class="workshop-points">
-          {{ range .points }}<li>{{ . }}</li>{{ end }}
+<!-- LEISTUNGEN -->
+<section class="sec sec-white" id="leistungen">
+  <div class="conw">
+    <div class="slabel">Leistungen &amp; Preise</div>
+    <h2 class="stitle">Was ich für Sie tue</h2>
+    <p class="sdesc seo-def"><strong>KI-Beratung für Unternehmen</strong> bedeutet: Künstliche Intelligenz strategisch analysieren, Potenziale identifizieren und praxisnah umsetzen – EU AI Act konform, menschenzentriert und mit messbaren Ergebnissen. Ich begleite Einzelunternehmer und KMU in Österreich von der ersten Potenzialanalyse bis zur fertigen Automatisierung – ohne technisches Vorwissen, dafür mit echtem Mehrwert für Prozesse, Zeit und neue Chancen.</p>
+    <div class="sgrid">
+
+      <div class="scard">
+        <div class="sico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></div>
+        <div class="stag">Erstgespräch</div>
+        <h3 class="stit">KI-Potenzialanalyse</h3>
+        <p class="sdsc">30 Minuten, unverbindlich, online. Wir klären gemeinsam, wo KI in Ihrem Unternehmen wirklich wirkt und was der erste sinnvolle Schritt ist.</p>
+        <ul class="sli">
+          <li>Aktuellen Digitalisierungsgrad analysieren</li>
+          <li>Konkrete Quick Wins identifizieren</li>
+          <li>Erste Einschätzung &amp; Handlungsempfehlung</li>
+          <li>Ihre individuellen Fragen beantwortet</li>
         </ul>
-        <div class="workshop-ctas">
-          <a class="btn btn-violet" href="{{ .cta_href }}">{{ .cta_label }} →</a>
-          <span class="workshop-meta">{{ .meta }}</span>
+        <div class="sprice"><a href="#potenzialanalyse" style="color:inherit;text-decoration:none;">Kostenlos</a><div class="spdesc">30 Min. · Online · Unverbindlich</div></div>
+      </div>
+
+      <div class="scard feat">
+        <div class="sico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+        <div class="stag">ROADMAP</div>
+        <h3 class="stit">KI-Strategie &amp; Beratung</h3>
+        <p class="sdsc">Maßgeschneiderte KI-Strategie für Ihr Unternehmen – mit konkreten Maßnahmen, klaren Prioritäten und persönlicher Begleitung.</p>
+        <ul class="sli">
+          <li>Individuelle KI-Roadmap &amp; Umsetzungsplan</li>
+          <li>Prozessoptimierung &amp; Kostenreduktion</li>
+          <li>EU AI Act Compliance-Beratung</li>
+          <li>Ethischer, menschenzentrierter Ansatz</li>
+          <li>Laufende Begleitung &amp; Check-ins</li>
+        </ul>
+        <div class="sprice">Auf Anfrage<div class="spdesc">Tagessatz oder Paket</div></div>
+      </div>
+
+      <div class="scard">
+        <div class="sico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+        <div class="stag">Umsetzung</div>
+        <h3 class="stit">KI-Implementierung &amp; Automatisierung</h3>
+        <p class="sdsc">Von der Idee bis zur fertigen Lösung – praxisnah, ohne IT-Vorkenntnisse und direkt in Ihrem Arbeitsalltag einsetzbar.</p>
+        <ul class="sli">
+          <li>No-Code Automatisierungen (n8n, Make)</li>
+          <li>KI-gestützte Workflows &amp; Assistenten</li>
+          <li>Integration in bestehende Tools</li>
+          <li>Schulung &amp; Befähigung Ihres Teams</li>
+        </ul>
+        <div class="sprice">Auf Anfrage<div class="spdesc">Pauschal oder nach Aufwand</div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ÜBER MICH -->
+<section class="sec sec-alt" id="ueber-mich">
+  <div class="conw">
+    <div class="slabel">Über mich</div>
+    <h2 class="stitle">KI-Strategie mit Weitblick</h2>
+    <div class="abgrid">
+      <div class="abphoto-outer">
+        <div class="abphoto" style="max-width:80%;margin-inline:auto">
+          <img src="/images/Bild-2.png" alt="Leonie Kaiser" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center top">
+        </div>
+        <img src="/images/CCC-Stempel.png" alt="Certified Consultant" loading="lazy" class="ab-stamp">
+      </div>
+      <div class="abcon">
+        <p class="abtxt">Als KI &amp; Business Consultant helfe ich Selbstständigen und Kleinunternehmern dabei, <strong>künstliche Intelligenz gezielt und gewinnbringend einzusetzen</strong> – strategisch, praxisnah und mit Fokus auf echte Ergebnisse.</p>
+        <p class="abtxt">Mit über 20 Jahren Erfahrung in globalem Projektmanagement, Produkt-<br>Marketing und Unternehmensberatung verbinde ich <strong>strategisches Denken</strong> mit einem <strong>profunden Verständnis für kleine Unternehmen</strong> und ihre besonderen Herausforderungen. Ich weiß, was es bedeutet, wenn Prozesse ineffizient sind und neue Kunden aus Kapazitätsgründen gar nicht erst angenommen werden können – und somit potenzieller Umsatz verloren geht.</p>
+        <p class="abtxt">Mein Ansatz verbindet <strong>KI-Kompetenz</strong> mit <strong>unternehmerischem Gespür</strong> und dem <strong>menschlichen Faktor</strong>. Das Ergebnis: klare Prozesse und eine höhere Kapazität, damit Sie sich auf das konzentrieren können, was Ihr Unternehmen wirklich voranbringt.</p>
+        <div style="display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s2);align-items:center">
+          <a href="https://www.linkedin.com/in/leoniekaiser" target="_blank" rel="noopener noreferrer"
+             style="display:inline-flex;align-items:center;gap:var(--s2);padding:var(--s3) var(--s6);border-radius:var(--r-full);border:2px solid #530049;color:#530049;background:#fff;font-size:var(--sm);font-weight:700;text-decoration:none;transition:all var(--tr);"
+             onmouseover="this.style.background='#f3e6f1'" onmouseout="this.style.background='#fff'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#530049"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn Profil
+          </a>
+          <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" target="_blank" rel="noopener noreferrer"
+             style="display:inline-flex;align-items:center;gap:var(--s2);padding:var(--s3) var(--s6);border-radius:var(--r-full);background:#530049;color:#fff;font-size:var(--sm);font-weight:700;text-decoration:none;transition:all var(--tr);"
+             onmouseover="this.style.background='#3a0033';this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#530049';this.style.transform='translateY(0)'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            Termin buchen
+          </a>
         </div>
       </div>
-      <div class="workshop-visual">
-        <img src="{{ .image | relURL }}" alt="{{ .image_alt }}" loading="lazy" width="1092" height="920">
+    </div>
+    <div class="vrow">
+
+          <div class="vitem">
+            <div class="vico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div class="vtxt"><strong>Ethische KI</strong>Verantwortungsvoller KI-Einsatz im Sinne des EU AI Act – Technologie, die dem Menschen dient.</div>
+          </div>
+          <div class="vitem">
+            <div class="vico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+            <div class="vtxt"><strong>Praxisnah &amp; umsetzbar</strong>Keine Theorie, keine Buzzwords – Lösungen, die in Ihrem Alltag sofort funktionieren und Zeit sparen.</div>
+          </div>
+          <div class="vitem">
+            <div class="vico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <div class="vtxt"><strong>Ganzheitlicher Ansatz</strong>Business-Know-how, KI-Expertise und die menschliche Komponente – für Veränderungen, die wirklich tragen.</div>
+          </div>
+        
+    </div>
+        <div>
+          
+        </div>
+      </div>
+    
+  </div>
+</section>
+
+<!-- LEHRGANG BANNER -->
+<div class="lbanner">
+  <div class="lbin">
+    <div>
+      <div class="lbtxt">✦ Aktuell in Ausbildung</div>
+      <div class="lbtit">KI Consultant Zertifikatslehrgang</div>
+      <div class="lbtags">
+        <span class="lbtag">KI-Strategie &amp; Implementierung</span>
+        <span class="lbtag">Prozessautomatisierung</span>
+        <span class="lbtag">No-Code Tools</span>
+        <span class="lbtag">EU AI Act</span>
+        <span class="lbtag">Ethischer KI-Einsatz</span>
+      </div>
+    </div>
+    <div class="lbbadge">
+      <div class="lbbdatetxt">Zertifizierung</div>
+      <div class="lbbdate">Juni 2026</div>
+    </div>
+  </div>
+</div>
+
+<!-- PROZESS -->
+<section class="sec sec-dark" id="prozess">
+  <div class="con">
+    <div class="slabel">Mein Prozess</div>
+    <h2 class="stitle stitle-inv">In 3 Schritten zu Ihrer KI-Lösung</h2>
+    <p class="sdesc sdesc-inv">Klar, transparent und ohne Überraschungen – so läuft unsere Zusammenarbeit ab.</p>
+    <div class="pgrid">
+      <div class="pstep">
+        <div class="pnum-circle">01</div>
+        <h3 class="ptit">Kostenfreie Potenzialanalyse</h3>
+        <p class="pdsc">30 Minuten, online, unverbindlich. Wir analysieren gemeinsam Ihren Ist-Zustand, Ihre Ziele und die KI-Potenziale in Ihrem Unternehmen – Sie bekommen eine erste klare Einschätzung.</p>
+      </div>
+      <div class="pstep">
+        <div class="pnum-circle">02</div>
+        <h3 class="ptit">Strategie &amp; Roadmap</h3>
+        <p class="pdsc">Auf Basis der Analyse erstelle ich eine maßgeschneiderte KI-Roadmap mit konkreten Maßnahmen, klaren Prioritäten und einem realistischen Zeitplan – abgestimmt auf Ihre Ressourcen.</p>
+      </div>
+      <div class="pstep">
+        <div class="pnum-circle">03</div>
+        <h3 class="ptit">Implementierung &amp; Automatisierung</h3>
+        <p class="pdsc">Aus dem Plan wird Realität. Ich begleite Sie Schritt für Schritt, bis Ihre Prozesse eigenständig laufen und Sie sicher mit den neuen Tools arbeiten, egal ob allein oder im Team.</p>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
 
-{{/* PROCESS */}}
-<section id="prozess" class="process">
-  <div class="wrap">
-    <div class="eyebrow">{{ $s.process.eyebrow }}</div>
-    <h2>{{ $s.process.heading }}</h2>
-    <p class="sub">{{ $s.process.sub }}</p>
-    <div class="steps">
-      {{ range $s.process.steps }}
-      <div class="step">
-        <div class="step-num">{{ .num }}</div>
-        <h3>{{ .title }}</h3>
-        <p>{{ .text }}</p>
+<!-- TESTIMONIALS -->
+<section class="sec sec-white">
+  <div class="con">
+    <div class="slabel">Referenzen</div>
+    <h2 class="stitle">Was Kund:innen sagen</h2>
+    <div class="tgrid">
+      <div class="tcard">
+        <p class="tcard-quote">„Ich war komplett überwältigt und wusste nicht, wo ich anfangen sollte. Leonie hat mir einen klaren Plan aufgezeigt und ein untrügliches Gespür dafür bewiesen, was mir fehlte, um mein Unternehmen voranzubringen."</p>
+        <div class="tcard-author">
+          <img src="/images/Angela-Caine.png" alt="Angela Caine" class="tcard-avatar" loading="lazy">
+          <div><div class="tcard-name">Angela Caine</div><div class="tcard-role">Business Mentorin</div></div>
+        </div>
       </div>
-      {{ end }}
+      <div class="tcard">
+        <p class="tcard-quote">„Die Zusammenarbeit mit Leonie ist eine Freude. Sie ist leidenschaftlich, professionell und eine Expertin auf ihrem Gebiet. Ich empfehle sie uneingeschränkt jedem, der sein Unternehmen voranbringen möchte."</p>
+        <div class="tcard-author">
+          <img src="/images/Mor-Yelvington.png" alt="Mor Yelvington" class="tcard-avatar" loading="lazy">
+          <div><div class="tcard-name">Mor Yelvington</div><div class="tcard-role">CEO &amp; Gründerin</div></div>
+        </div>
+      </div>
+      <div class="tcard">
+        <p class="tcard-quote">„Leonie hat mein Unternehmen sofort verstanden. Sie hat alles strukturiert und mir so viel Klarheit gegeben, dass ich am Ende genau wusste, wo es hingeht. Sie ist ausgezeichnet in dem, was sie tut – professionell und kompetent."</p>
+        <div class="tcard-author">
+          <img src="/images/Megan-Bailey.png" alt="Megan Bailey" class="tcard-avatar" loading="lazy">
+          <div><div class="tcard-name">Megan Bailey</div><div class="tcard-role">Unternehmerin</div></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-{{/* TESTIMONIALS – nur rendern wenn items vorhanden */}}
-{{ with $s.testimonials.items }}
-<section class="testi">
-  <div class="wrap">
-    <div class="eyebrow">{{ $s.testimonials.eyebrow }}</div>
-    <h2>{{ $s.testimonials.heading }}</h2>
-    <div class="testi-grid">
-      {{ range . }}
-      <figure class="testi-card">
-        <blockquote>{{ .quote }}</blockquote>
-        <figcaption><b>{{ .name }}</b>{{ with .role }}, <span>{{ . }}</span>{{ end }}</figcaption>
-      </figure>
-      {{ end }}
+
+<!-- KI PROMO SECTION -->
+<section class="sec" id="potenzialanalyse" style="background:linear-gradient(150deg,#f9f7ff 0%,#f3eef8 50%,#eef6f6 100%)">
+  <div class="conw">
+    <div class="promo-grid">
+      <div class="promo-card">
+        <div class="promo-badge">kostenfrei</div>
+        <h2 class="promo-title">KI-Potenzialanalyse<br>für Ihr Unternehmen</h2>
+        <p style="margin-top:var(--s4);" class="promo-sub">30 Minuten · Online · Unverbindlich</p>
+        <p class="promo-desc">KI verändert Branchen – und schafft echte Vorteile für die, die früh handeln. Ich zeige Ihnen, wo genau diese Vorteile für <em>Ihr</em> Unternehmen liegen.</p>
+        <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" class="promo-cta" target="_blank" rel="noopener noreferrer"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Termin buchen</a>
+        <p class="promo-note">Für Einzelunternehmer und Inhaber:innen kleiner Unternehmen</p>
+      </div>
+      <div class="promo-right">
+        <h3 class="promo-rtit">Wir analysieren gemeinsam:</h3>
+        <p style="color:var(--muted);font-size:var(--base);margin-bottom:var(--s4);line-height:1.6;">In 30 Minuten bekommen Sie Klarheit darüber, wo KI in Ihrem Unternehmen den größten Hebel hat.</p>
+        <ul class="promo-list">
+          <li><span class="promo-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></span><div><strong>Digitalisierungsgrad</strong><span>Wo auf dem Weg zur KI-Integration steht Ihr Unternehmen?</span></div></li>
+          <li><span class="promo-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></span><div><strong>Ziele &amp; Prioritäten</strong><span>Kosten senken, Effizienz steigern oder Wettbewerbs-<wbr>Vorteil ausbauen?</span></div></li>
+          <li><span class="promo-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg></span><div><strong>Konkrete KI-Potenziale</strong><span>Wie kann KI Prozesse optimieren, Ihr Team entlasten und Kapazitäten freisetzen?</span></div></li>
+        </ul>
+        <div class="promo-result">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+          <p style="font-size:var(--sm)">Am Ende wissen Sie <strong>genau, wo KI den größten Hebel hat</strong> – als klare Basis für Ihre nächste Entscheidung. Kein Verkaufsgespräch. Kein Hype.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-{{ end }}
+<!-- KONTAKT -->
+<section class="sec sec-alt" id="kontakt">
+  <div class="con">
+    <div class="slabel">Kontakt</div>
+    <h2 class="stitle">Jetzt gemeinsam starten</h2>
+    <p class="sdesc">Jedes Projekt beginnt mit einer Entscheidung. Lassen Sie uns unverbindlich über Ihre Ziele sprechen – ich freue mich auf Ihre Nachricht.</p>
+    <div class="kgrid">
+      <form class="form" id="contactform" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="30779aeb-3610-429e-8d41-353504ea277d">
+        <input type="hidden" name="subject" value="Neue Nachricht von leoniekaiser.com">
+        <input type="hidden" name="from_name" value="Leonie Kaiser Website">
+        <input type="checkbox" name="botcheck" style="display:none;">
+        <div>
+          <h3 class="ftit">Nachricht senden</h3>
+          <p class="fsub">Ich antworte innerhalb von 24 Stunden.</p>
+        </div>
+        <div class="frow">
+          <div class="fg"><label class="flbl" for="name">Vor- &amp; Nachname *</label><input class="finp" type="text" id="name" name="name" placeholder="Maria Müller" required></div>
+          <div class="fg"><label class="flbl" for="fco">Unternehmen</label><input class="finp" type="text" id="fco" placeholder="Muster GmbH"></div>
+        </div>
+        <div class="frow">
+          <div class="fg"><label class="flbl" for="email">E-Mail *</label><input class="finp" type="email" id="email" name="email" placeholder="maria@beispiel.at" required></div>
+          <div class="fg"><label class="flbl" for="ftel">Telefon</label><input class="finp" type="tel" id="ftel" placeholder="+43 123 456 789"></div>
+        </div>
+        <div class="fg"><label class="flbl" for="message">Ihre Nachricht *</label><textarea class="fta" id="message" name="message" placeholder="Kurze Beschreibung Ihres Anliegens..." required></textarea></div>
+        <div class="fchk">
+          <input type="checkbox" id="fdsgvo" required>
+          <label for="fdsgvo">Ich akzeptiere die <a href="/datenschutz" target="_blank" rel="noopener noreferrer">Datenschutzbestimmungen</a>. *</label>
+        </div>
+        <div id="form-result" style="display:none;padding:var(--s4);border-radius:var(--r-md);font-weight:600"></div>
 
-{{/* CONTACT */}}
-<section id="kontakt" class="wrap contact">
-  <div class="eyebrow">{{ $s.contact.eyebrow }}</div>
-  <h2>{{ $s.contact.heading }}</h2>
-  <p class="sub">{{ $s.contact.sub }}</p>
-
-  <div class="contact-grid">
-    <div class="contact-card">
-      <h3>{{ $s.contact.card_title }}</h3>
-      <p>{{ $s.contact.card_text }}</p>
-      <a href="{{ site.Params.calendly }}" class="btn btn-on-teal" target="_blank" rel="noopener">📅 {{ $s.contact.card_cta }} →</a>
-      <div class="contact-info">
-        <span>✉ <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></span>
-        <span>☏ <a href="tel:{{ site.Params.phoneRaw }}">{{ site.Params.phone }}</a></span>
-        <span>◉ {{ site.Params.orgCity }} · Remote & Hybrid</span>
+        <button type="submit" class="btnp" style="width:fit-content;align-self:center;margin-inline:auto;display:flex">
+          Nachricht absenden
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+        </button>
+      </form>
+      <div class="kcontact-imgwrap">
+        <div class="kcontact-img">
+          <img src="/images/background.png" alt="KI &amp; Business Consulting" loading="lazy">
+        </div>
       </div>
     </div>
-
-    <form class="contact-form" action="https://formspree.io/f/REPLACE_ME" method="POST" data-success="✓ {{ $s.contact.form_success }}">
-      <h3>{{ $s.contact.form_title }}</h3>
-      <div class="form-sub">{{ $s.contact.form_sub }}</div>
-      <div class="field-row">
-        <input name="name" placeholder="Vor- & Nachname *" required>
-        <input name="company" placeholder="Unternehmen">
-      </div>
-      <div class="field-row">
-        <input type="email" name="email" placeholder="E-Mail *" required>
-        <input name="phone" placeholder="Telefon">
-      </div>
-      <textarea name="message" placeholder="Ihre Nachricht – Kurze Beschreibung Ihres Anliegens... *" required></textarea>
-      <label class="check">
-        <input type="checkbox" required>
-        <span>Ich akzeptiere die <a href="/datenschutz/">Datenschutzbestimmungen</a>. *</span>
-      </label>
-      <button type="submit" class="btn btn-violet btn-full">{{ $s.contact.form_submit }} →</button>
-    </form>
   </div>
 </section>
 {{ end }}

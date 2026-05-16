@@ -1,0 +1,39 @@
+# Leonie Kaiser – KI & Business Consulting
+# https://www.leoniekaiser.com
+
+## About
+Leonie Kaiser is an AI & Business Consultant based in Vienna, Austria,
+specializing in AI strategy, EU AI Act compliance, and agentic AI
+implementation using Claude Code and Claude Architect for small businesses
+and solo entrepreneurs in the DACH region and globally.
+
+## Services
+- AI Potential Analysis (free 30-minute consultation)
+- AI Strategy & Roadmap (customized for SMEs and Einzelunternehmer)
+- Agentic AI implementation with Claude Code & Claude Architect
+- EU AI Act compliance consulting
+- No-Code automation (n8n, Make) as supplementary tooling
+
+## Expertise
+- Agentic AI systems (Claude Code, Claude Architect)
+- EU AI Act compliance and ethical AI deployment
+- KI strategy for Einzelunternehmer and KMU in Austria
+- 20+ years experience in global project management, product marketing, consulting
+- Languages: German, English, Spanish
+
+## Geography
+Geography: Vienna, Austria-based, serving DACH region and global clients remotely
+
+## Contact
+Website: https://www.leoniekaiser.com
+LinkedIn: https://www.linkedin.com/in/leoniekaiser
+Booking: https://calendly.com/leonie-kaiser/ki-potentialanalyse
+Email: hello@leoniekaiser.com
+
+## Content
+Homepage: https://www.leoniekaiser.com/
+About: https://www.leoniekaiser.com/ueber-mich/
+FAQ: https://www.leoniekaiser.com/faq/
+
+## Last Updated
+2026-05-16

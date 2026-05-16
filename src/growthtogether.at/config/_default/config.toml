@@ -1,16 +1,17 @@
 baseURL = 'https://growthtogether.at/'
-languageCode = 'de-at'
+languageCode = 'de-AT'
 defaultContentLanguage = 'de'
-title = 'Leonie Kaiser – KI & Business Consulting'
+title = 'Leonie Kaiser | KI-Beratung Wien – Strategie, Automatisierung & EU AI Act'
 
 enableRobotsTXT = true
+enableGitInfo = true
 enableEmoji = true
 
 [markup.goldmark.renderer]
   unsafe = true
 
 [outputs]
-  home = ['HTML']
+  home = ['HTML','RSS']
 
 [imaging]
   quality = 82
@@ -18,3 +19,8 @@ enableEmoji = true
 
 [minify]
   minifyOutput = true
+
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.7
+  filename = 'sitemap.xml'
