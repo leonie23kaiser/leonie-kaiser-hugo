@@ -80,12 +80,42 @@
   {{- $graph = $graph | append $about -}}
 {{- end -}}
 
+{{- /* Article schema for journal posts */ -}}
+{{- if and (eq .Section "journal") (not .IsNode) -}}
+  {{- $article := dict
+      "@type" "Article"
+      "@id" (printf "%s#article" .Permalink)
+      "headline" .Title
+      "description" (.Description | default (.Summary | plainify | truncate 200))
+      "datePublished" (.Date.Format "2006-01-02")
+      "dateModified" (.Lastmod.Format "2006-01-02")
+      "inLanguage" "de-AT"
+      "url" .Permalink
+      "mainEntityOfPage" .Permalink
+      "author" (dict "@id" $personId)
+      "publisher" (dict "@id" $orgId)
+      "isPartOf" (dict "@id" $siteId)
+  -}}
+  {{- with .Params.featured_image -}}
+    {{- $article = merge $article (dict "image" (printf "%s%s" $base (strings.TrimPrefix "/" .))) -}}
+  {{- end -}}
+  {{- with .Params.tags -}}
+    {{- $article = merge $article (dict "keywords" (delimit . ", ")) -}}
+  {{- end -}}
+  {{- $graph = $graph | append $article -}}
+{{- end -}}
+
 {{- /* BreadcrumbList on sub-pages */ -}}
 {{- if not .IsHome -}}
   {{- $crumbs := slice
     (dict "@type" "ListItem" "position" 1 "name" "Start" "item" $base)
-    (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink)
   -}}
+  {{- if and (eq .Section "journal") (not .IsNode) -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Journal" "item" (printf "%sjournal/" $base)) -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) -}}
+  {{- else -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) -}}
+  {{- end -}}
   {{- $bc := dict "@type" "BreadcrumbList" "itemListElement" $crumbs -}}
   {{- $graph = $graph | append $bc -}}
 {{- end -}}

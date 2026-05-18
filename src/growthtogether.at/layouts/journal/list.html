@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="sec sec-white" style="padding-top:clamp(var(--s16),10vw,var(--s24))">
+  <div class="conw">
+    <div class="slabel">Journal</div>
+    <h1 class="stitle">{{ .Title }}</h1>
+    {{ with .Description }}<p class="sdesc">{{ . }}</p>{{ end }}
+    {{ .Content }}
+
+    {{ $posts := where .Site.RegularPages "Section" "journal" }}
+    {{ $posts = where $posts "Params.draft" "!=" true }}
+    {{ if $posts }}
+    <div class="sgrid" style="margin-top:var(--s10)">
+      {{ range $posts.ByDate.Reverse }}
+      <a href="{{ .RelPermalink }}" class="scard" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:var(--s3)">
+        {{ with .Params.category }}<div class="stag">{{ . }}</div>{{ end }}
+        <h2 class="sctit" style="font-family:var(--fd);font-size:clamp(1.1rem,1.5vw,1.35rem);line-height:1.25;margin:0">{{ .Title }}</h2>
+        <p class="scdsc" style="color:var(--muted);font-size:var(--sm);margin:0;line-height:1.55">{{ .Params.summary | default (.Summary | plainify | truncate 160) }}</p>
+        <div style="display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--line)">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+          {{ with .Params.readingTime }}<span aria-hidden="true">·</span><span>{{ . }} min Lesezeit</span>{{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="sdesc" style="margin-top:var(--s8)">Die ersten Beiträge erscheinen in Kürze. Sie wollen sie nicht verpassen? <a href="https://www.linkedin.com/in/leoniekaiser" target="_blank" rel="noopener">Auf LinkedIn folgen</a>.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

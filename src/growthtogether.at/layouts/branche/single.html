@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{- $slug := .Params.branche_slug -}}
+{{- $b := index (where site.Data.branchen "slug" $slug) 0 -}}
+
+<section class="sec sec-white" style="padding-top:clamp(var(--s16),10vw,var(--s24))">
+  <div class="con" style="max-width:820px">
+    <div class="slabel">Für {{ $b.branche }}</div>
+    <h1 class="stitle" style="font-size:clamp(1.75rem,3.5vw,2.6rem);line-height:1.15">{{ .Title }}</h1>
+    <p class="sdesc lead-speakable">Für Sie geschrieben: {{ $b.zielperson }}. Sie kennen das Gefühl – <em>{{ $b.schmerz }}</em> Diese Seite zeigt, wo KI in Ihrer Branche heute schon zuverlässig hilft, was rechtlich gilt und wie ein erster Schritt aussieht.</p>
+
+    <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Drei konkrete Anwendungsfälle für Ihre {{ $b.branche_kurz }}</h2>
+    <div style="display:grid;gap:var(--s4);margin-top:var(--s5)">
+      {{ range $i, $uc := $b.usecases }}
+      <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg)">
+        <div style="display:flex;gap:var(--s3);align-items:center;margin-bottom:var(--s2)">
+          <span style="display:inline-flex;width:32px;height:32px;align-items:center;justify-content:center;background:var(--teal-100);color:var(--teal-900);border-radius:999px;font-family:var(--fd);font-weight:700;font-size:var(--sm)">{{ add $i 1 }}</span>
+          <h3 style="font-family:var(--fd);font-weight:700;font-size:var(--lg);margin:0;line-height:1.3">{{ $uc.titel }}</h3>
+        </div>
+        <p style="color:var(--muted);line-height:1.6;font-size:var(--sm);margin:0">{{ $uc.desc }}</p>
+      </div>
+      {{ end }}
+    </div>
+
+    <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">So sieht der Einstieg aus</h2>
+    <ol style="line-height:1.7;font-size:var(--base);color:var(--ink);margin-top:var(--s4);padding-left:var(--s5)">
+      <li><strong>Kostenfreie Potenzialanalyse (30 Minuten):</strong> Wir schauen gemeinsam auf Ihren Alltag und finden den ersten sinnvollen Use Case für Ihre {{ $b.branche_kurz }}.</li>
+      <li><strong>Roadmap & Tool-Wahl:</strong> Welche Werkzeuge passen zu Ihrem Setup? Tool-agnostisch ausgewählt, EU AI Act & DSGVO konform aufgesetzt.</li>
+      <li><strong>Schritt-für-Schritt-Einführung:</strong> Sie führen ein, ich begleite. Ohne IT-Projekt, ohne Buzzwords, ohne Hektik.</li>
+    </ol>
+
+    <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Häufige Fragen aus der {{ $b.branche_kurz }}</h2>
+    <div style="margin-top:var(--s5);display:flex;flex-direction:column;gap:var(--s3)">
+      {{ range $b.faq }}
+      <details style="background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--s4) var(--s5)">
+        <summary style="font-family:var(--fd);font-weight:700;cursor:pointer;font-size:var(--base);line-height:1.4">{{ .q }}</summary>
+        <div style="margin-top:var(--s3);color:var(--muted);line-height:1.6;font-size:var(--sm)">{{ .a | markdownify }}</div>
+      </details>
+      {{ end }}
+    </div>
+
+    <aside style="margin-top:var(--s12);padding:var(--s8);background:var(--teal-50);border-radius:var(--r-xl);border:1px solid var(--line)">
+      <div class="slabel">Ihr nächster Schritt</div>
+      <h2 class="stitle" style="font-size:1.5rem;margin-bottom:var(--s3)">Potenzialanalyse für Ihre {{ $b.branche_kurz }}</h2>
+      <p style="color:var(--muted);font-size:var(--sm);line-height:1.6;margin-bottom:var(--s5)">In 30 Minuten klären wir, wo KI in Ihrer Praxis am meisten bringt – und was rechtlich zu beachten ist. Kostenfrei, unverbindlich, online.</p>
+      <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" target="_blank" rel="noopener noreferrer" class="btnp" style="display:inline-flex;align-items:center;gap:var(--s2)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        Kostenfreie Potenzialanalyse buchen
+      </a>
+    </aside>
+  </div>
+</section>
+{{ end }}

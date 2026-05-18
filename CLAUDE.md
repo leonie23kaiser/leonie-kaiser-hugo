@@ -14,7 +14,15 @@ Hugo **v0.123+ extended** required.
 
 ## Site shape
 
-Single-page marketing site with anchor-based navigation. The page builder is `layouts/_default/home.html`, today rendering content from `content/_index.md` front-matter and inline markup (data-driven `site.yaml` refactor deferred — old version kept as `.bak-simply-ai`). Plus four standalone pages: `/ueber-mich/`, `/faq/`, `/impressum/`, `/datenschutz/` — each backed by `layouts/<slug>/single.html` keyed by `type:` in the content front-matter.
+Marketing site with anchor-based home + standalone pages. The home builder is `layouts/_default/home.html`, today rendering content from `content/_index.md` front-matter and inline markup. Standalone pages backed by `layouts/<slug>/single.html` keyed by `type:` in the content front-matter:
+
+- `/ueber-mich/`, `/faq/`, `/impressum/`, `/datenschutz/` (originals)
+- `/referenzen/` (Phase 3, type `referenzen`)
+- `/eu-ai-act/` (Phase 3 Authority-Pillar, type `eu-ai-act`)
+- `/journal/` + `/journal/<slug>/` (Phase 3 Blog, layouts under `layouts/journal/`)
+- `/ki-fuer-<branche>/` (Phase 3 Programmatic, type `branche`, data in `data/branchen.yaml`)
+
+**Brand-Voice-Guard:** `AGENTS.md` ist kanonisch für alle KI-Assistenten, die Texte schreiben. Bei Konflikt: AGENTS.md > sonstiges.
 
 No content collections, no taxonomies. Single-author, single-language (de-AT). Voice: **Sie-Form** (B2B KI-Beratung).
 
