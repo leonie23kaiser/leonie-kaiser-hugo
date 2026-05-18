@@ -84,7 +84,31 @@ Fertig. Ab jetzt kann Claude in jedem Chat das Repo sehen.
 
 ### Claude liest deine Marken-Regeln automatisch
 
-Im Repo liegt eine Datei `CLAUDE.md` — die kennt deine Brand-Farben, die Sie-Form, die FAQ-Kategorien, was Tabu ist. Claude liest sie bei jedem Chat mit. Du musst Brand-Voice also nicht jedes Mal erklären.
+Im Repo liegen zwei Dateien, die Claude bei **jedem Chat** mitliest:
+
+- **`AGENTS.md`** — dein Brand-Voice-Vertrag: Sie-Form, kein Sternchen-Gendern, „Chaos reduzieren"-Motiv, Wort-Whitelist, Wort-Blacklist (kein „revolutionär", kein „Gamechanger" usw.), Conversion-Ziel = Potenzialanalyse. **Diese Datei ist kanonisch** — bei Konflikt mit anderen Anweisungen gewinnt sie.
+- **`CLAUDE.md`** — die technischen Repo-Regeln: Brand-Farben (#086584 Teal, #CF982B Gold, #6B2C8C Violett), Schriftarten, FAQ-Kategorien, was Tabu ist (z.B. nie `git add -A`).
+
+Du musst Brand-Voice also nicht jedes Mal erklären. Wenn Claude trotzdem mal abdriftet (z.B. duzt statt siezt): einfach sagen *„AGENTS.md beachten"* — sitzt sofort wieder.
+
+### Das „Repo-Gedächtnis" — wie Claude sich Dinge merkt
+
+Claude selbst hat **kein Langzeitgedächtnis** zwischen Chats. Jeder neue Chat startet bei Null.
+
+**Aber:** Alles, was im Repo steht, ist sein Gedächtnis. Konkret:
+
+- `AGENTS.md` + `CLAUDE.md` → deine Brand-Voice & Konventionen (siehe oben)
+- `content/journal/*.md` → alle bisherigen Journal-Posts (Claude liest sie als Referenz für Stil und Themen)
+- `content/faq/*.md` → bestehende FAQ-Fragen (damit er keine Dopplungen baut)
+- `data/branchen.yaml` → deine Branchen-Texte (Physio, Psycho, Coaching, Ernährungsberatung)
+- Git-Historie → alle früheren Änderungen sind nachvollziehbar
+
+Wenn du in einem neuen Chat schreibst *„schreib einen Journal-Post wie den letzten"*, schaut Claude in den Ordner, liest die letzten Posts, übernimmt Stil + Aufbau. Genau dafür ist die GitHub-Anbindung gemacht.
+
+**Was Claude im Repo speichern kann (wenn du willst):**
+Du kannst Claude bitten *„merk dir das in einer Notiz-Datei"*. Er legt dann z.B. `docs/leonie-notizen.md` an. Das ist dein persönlicher Notiz-Block im Repo — bleibt für immer da, jeder neue Claude-Chat liest mit.
+
+Beispiel: *„Merk dir bitte: meine Lieblings-Beispiele für Physio-Praxen sind Praxis Müller in Salzburg und Therapiezentrum Kaltenleutgeben. Verwende die in Zukunft wenn ein Beispiel gebraucht wird."* → Claude legt das in `docs/leonie-notizen.md` ab, du musst es nie wieder sagen.
 
 ### Direkt commit statt PR
 
@@ -115,7 +139,7 @@ Falls Claude doch was kaputt macht: nicht mergen → kein Schaden. Schon gemergt
 
 | Problem | Was du machst |
 |---|---|
-| Seite zeigt alte Inhalte | 1–2 Minuten warten, dann Strg+Shift+R (Hard Reload) im Browser |
+| Seite zeigt alte Inhalte | 1–2 Minuten warten, dann Strg+Shift+R (Hard Reload) im Chrome |
 | GitHub Actions ist rot (siehe Tab „Actions") | Screenshot an uns schicken |
 | Claude versteht den Wunsch nicht | Konkreter werden: welche Seite, welcher Abschnitt, welcher Text |
 | Pull Request ist verwirrend | *„Erkläre mir den PR in einfachen Worten"* fragen |
@@ -123,9 +147,15 @@ Falls Claude doch was kaputt macht: nicht mergen → kein Schaden. Schon gemergt
 
 ---
 
-## 8. Für später: lokal arbeiten (optional, nicht nötig)
+## 8. Für später: Vorschau vor dem Merge (optional, nicht nötig)
 
-Wenn du irgendwann mal **vor dem Mergen** sehen willst, wie die Änderung aussieht (Live-Preview), gibt es einen Weg mit deinem Mac-Terminal. Das ist **nicht** für den Alltag — nur falls du Lust auf mehr Kontrolle hast. Sag uns Bescheid, wir richten's mit dir ein. Brauchst du im Normalfall **nicht**.
+Wenn du irgendwann mal **vor dem Mergen** sehen willst, wie die Änderung im Browser aussieht, gibt es zwei Wege:
+
+**A) GitHub-Preview im PR (geht direkt am Chromebook):**
+Im Pull Request gibt es einen Tab **Files changed** mit Vorher/Nachher der Texte. Für reine Text-Änderungen reicht das meistens.
+
+**B) Echte Live-Preview (nur falls du wirklich willst):**
+Dazu bräuchte es einen lokalen Hugo-Server. Auf einem Chromebook geht das nur mit der Linux-Entwicklungsumgebung aktiviert — Aufwand 15 Min Setup. Nicht für den Alltag, nur falls du mal Lust hast. Sag uns Bescheid, wir richten's mit dir ein. Brauchst du im Normalfall **nicht**.
 
 ---
 
