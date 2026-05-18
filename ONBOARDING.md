@@ -13,7 +13,7 @@ Wer hier mitliest und nicht Leonie ist: das ist ihre Anleitung. Bitte nicht ohne
 ## 1. Wie das Ganze funktioniert (in einem Bild)
 
 ```
-Du chattest mit Claude  →  Claude bearbeitet Dateien im GitHub-Repo  →  GitHub baut die Seite neu  →  ~1 Min später live auf growthtogether.at
+Du chattest mit Claude  →  Claude bearbeitet Dateien im GitHub-Repo  →  GitHub baut die Seite neu  →  ~1 Min später live auf leoniekaiser.com
 ```
 
 Konkret:
@@ -29,11 +29,11 @@ Konkret:
 ### Schritt A — Custom Domain in GitHub eintragen
 
 1. Öffne https://github.com/leonie23kaiser/leonie-kaiser-hugo/settings/pages
-2. Bei **Custom domain** trage ein: `growthtogether.at`
+2. Bei **Custom domain** trage ein: `leoniekaiser.com`
 3. **Save** klicken
 4. Nach ~10 Minuten: Haken bei **Enforce HTTPS** setzen
 
-(DNS-Records bei deinem Domain-Provider haben wir vorher gemeinsam eingestellt — falls die Seite nach 30 Min noch nicht auf growthtogether.at zu sehen ist: melden, wir schauen drauf.)
+(DNS-Records bei deinem Domain-Provider haben wir vorher gemeinsam eingestellt — falls die Seite nach 30 Min noch nicht auf leoniekaiser.com zu sehen ist: melden, wir schauen drauf.)
 
 ### Schritt B — Claude mit GitHub verbinden
 
@@ -59,7 +59,7 @@ Fertig. Ab jetzt kann Claude in jedem Chat das Repo sehen.
 5. Claude erstellt den **Pull Request** im Repo.
 6. Du gehst auf GitHub (Link bekommst du im Chat), schaust den **Files changed**-Tab an — das ist die Vorher-Nachher-Ansicht.
 7. Klick auf **Merge pull request** → **Confirm merge**.
-8. Nach ~1 Minute ist die Änderung live auf growthtogether.at.
+8. Nach ~1 Minute ist die Änderung live auf leoniekaiser.com.
 
 ---
 
@@ -131,7 +131,7 @@ Wenn du irgendwann mal **vor dem Mergen** sehen willst, wie die Änderung aussie
 
 ## 9. Wichtige Links auf einen Blick
 
-- 🌐 **Live-Seite:** https://growthtogether.at
+- 🌐 **Live-Seite:** https://leoniekaiser.com
 - 📦 **Dein Repo:** https://github.com/leonie23kaiser/leonie-kaiser-hugo
 - ⚙️ **Pages-Einstellungen:** https://github.com/leonie23kaiser/leonie-kaiser-hugo/settings/pages
 - 🔨 **Build-Status:** https://github.com/leonie23kaiser/leonie-kaiser-hugo/actions

@@ -4,10 +4,10 @@ Guidance for Claude Code when working in this repository.
 
 ## Project
 
-Hugo static-site for **Leonie Kaiser — KI & Business Consulting** (live: growthtogether.at).
+Hugo static-site for **Leonie Kaiser — KI & Business Consulting** (live: leoniekaiser.com).
 
 - Hugo project root: `src/growthtogether.at/`
-- Live deployment: **GitHub Pages** (`.github/workflows/deploy-pages.yml`) on the **growthtogether.at** custom domain via `static/CNAME`. After client sign-off the DNS is moved to **leoniekaiser.com**.
+- Live deployment: **GitHub Pages** (`.github/workflows/deploy-pages.yml`) on the **leoniekaiser.com** custom domain via `static/CNAME`. After client sign-off the DNS is moved to **leoniekaiser.com**.
 - **Full documentation: [docs/readme.md](docs/readme.md)** and **[ONBOARDING.md](ONBOARDING.md)** for Leonie's local Claude-Code workflow.
 
 Hugo **v0.123+ extended** required.
@@ -83,8 +83,8 @@ Invoke `/hugo-learn` after significant work to capture learnings (`reflect`, `up
 ## Repository conventions
 
 - **Never `git add -A` / `git add .` / `git add --all` / `git add *`** — always specify files explicitly.
-- **Never deploy without explicit go-ahead** — live site is a paying client (Leonie Kaiser, growthtogether.at).
-- **Live domain:** `growthtogether.at` (not `leoniekaiser.com` despite the brand name).
+- **Never deploy without explicit go-ahead** — live site is a paying client (Leonie Kaiser, leoniekaiser.com).
+- **Live domain:** `leoniekaiser.com` (not just a vanity URL — actual live host. Source dir intentionally still named src/growthtogether.at; do not rename).
 - **Image pipeline first:** all source images in `assets/images/`. The `partials/picture.html` partial generates WebP + responsive srcset at build time. Avoid pre-rendered pairs in `static/`.
 - **Single CSS file:** `assets/css/brand.css` is the only stylesheet. Auto-fingerprinted + SRI in prod via `partials/head.html`.
 - **JSON-LD via `dict` + `jsonify`:** never string templates. See `partials/seo-jsonld.html`.
