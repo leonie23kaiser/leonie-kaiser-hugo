@@ -50,7 +50,7 @@ When adding a blog post or case study with a unique cover, set `image: "images/c
 
 ## Canonical URL
 
-Hugo emits `<link rel="canonical">` automatically from `baseURL` + page permalink. Currently `https://growthtogether.at/<path>/`.
+Hugo emits `<link rel="canonical">` automatically from `baseURL` + page permalink. Currently `https://leoniekaiser.com/<path>/`.
 
 ## RSS discovery
 
@@ -68,9 +68,9 @@ Uses Hugo `dict` + `jsonify` — no string templates, type-safe. Per Alexander's
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://growthtogether.at/#person",
+      "@id": "https://leoniekaiser.com/#person",
       "name": "Leonie Kaiser",
-      "url": "https://growthtogether.at/",
+      "url": "https://leoniekaiser.com/",
       "description": "KI & Business Consultant aus Niederösterreich. Über 20 Jahre globale Projekterfahrung…",
       "sameAs": [
         "https://linkedin.com/in/leoniekaiser/"
@@ -78,11 +78,11 @@ Uses Hugo `dict` + `jsonify` — no string templates, type-safe. Per Alexander's
     },
     {
       "@type": "WebSite",
-      "@id": "https://growthtogether.at/#website",
-      "url": "https://growthtogether.at/",
+      "@id": "https://leoniekaiser.com/#website",
+      "url": "https://leoniekaiser.com/",
       "name": "Leonie Kaiser – KI & Business Consulting",
       "inLanguage": "de-AT",
-      "publisher": { "@id": "https://growthtogether.at/#person" }
+      "publisher": { "@id": "https://leoniekaiser.com/#person" }
     }
   ]
 }
@@ -109,15 +109,15 @@ The partial has a ready branch for `section == "blog"` single pages:
   "@type": "Article",
   "headline": "...",
   "description": "...",
-  "url": "https://growthtogether.at/blog/post-slug/",
+  "url": "https://leoniekaiser.com/blog/post-slug/",
   "inLanguage": "de-AT",
   "datePublished": "2026-04-25",
   "dateModified": "2026-04-25",
   "image": { "@type": "ImageObject", "url": "..." },
   "articleSection": "...",
   "keywords": "a, b, c",
-  "author":    { "@id": "https://growthtogether.at/#person" },
-  "publisher": { "@id": "https://growthtogether.at/#person" }
+  "author":    { "@id": "https://leoniekaiser.com/#person" },
+  "publisher": { "@id": "https://leoniekaiser.com/#person" }
 }
 ```
 
@@ -150,6 +150,6 @@ Hugo emits `sitemap.xml` automatically. Current entries: `/`, `/impressum/`, `/d
    - `<title>` matches `seoHomeTitle`
    - `og:image` is the new branded `og-default.png`
    - JSON-LD validates (paste into Schema.org Validator)
-2. Test OG preview at `https://www.opengraph.xyz/url/https%3A%2F%2Fgrowthtogether.at`
+2. Test OG preview at `https://www.opengraph.xyz/url/https%3A%2F%2Fleoniekaiser.com`
 3. Test Twitter card at `https://cards-dev.twitter.com/validator` (legacy URL — Twitter no longer hosts this; alternative: post to a private LinkedIn or Slack to preview the unfurl)
 4. Run Lighthouse mobile — target SEO ≥ 95, Performance ≥ 90, Accessibility ≥ 95

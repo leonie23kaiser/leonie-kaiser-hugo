@@ -1,6 +1,6 @@
 # Leonie Kaiser — Hugo Site Documentation
 
-Hugo static-site for **Leonie Kaiser — KI & Business Consulting** (live: growthtogether.at).  
+Hugo static-site for **Leonie Kaiser — KI & Business Consulting** (live: leoniekaiser.com).  
 Hugo root: `src/growthtogether.at/`.
 
 ## Contents
