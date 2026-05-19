@@ -26,6 +26,11 @@ Marketing site with anchor-based home + standalone pages. The home builder is `l
 
 No content collections, no taxonomies. Single-author, single-language (de-AT). Voice: **Sie-Form** (B2B KI-Beratung).
 
+## Sprachregelung (wichtig)
+
+- **In Texten für die Website (alles in `content/`, `data/`, sichtbare Strings): konsequent Sie-Form**, B2B-Zielgruppe „Martina". Brand Voice in `AGENTS.md` ist kanonisch.
+- **Im Chat mit Leonie selbst: Du-Form, Deutsch.** Sie ist die Site-Inhaberin, kennt KI als Anwenderin, aber ist keine Entwicklerin. Erklär kurz was du vorhast, frag bei größeren Sachen nach, halte Commits klein und sprechend.
+
 FAQ accordion + category filter (`Alle / KI-Strategie / Kosten / EU AI Act & DSGVO / Tools & Technik / Zusammenarbeit`) live in `layouts/faq/single.html` + `partials/scripts.html`.
 
 Schema.org JSON-LD `@graph` in `partials/schema.html`: Person + Organization + Service + FAQPage + AggregateRating + Reviews + BreadcrumbList + AboutPage + ContactPage + WebSite + Speakable. AI/GEO file at `static/llms.txt`; AI bots explicitly allowed in `static/robots.txt`.
