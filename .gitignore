@@ -16,5 +16,3 @@ Thumbs.db
 .env
 .env.local
 
-# memominds.de raw HTML (local reference only, copyright)
-_legacy/scrape/raw/

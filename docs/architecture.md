@@ -22,7 +22,6 @@ leonie-kaiser-hugo/
 ├── CLAUDE.md               Leonie-specific working rules
 ├── docs/                   this documentation
 ├── src/growthtogether.at/  ← Hugo project root
-├── _legacy/                old scrapes / demenz-iteration (not built)
 └── design/                 wireframe-v1.html (reference only)
 ```
 

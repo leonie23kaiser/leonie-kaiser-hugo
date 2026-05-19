@@ -1,11 +1,16 @@
-> **Update 2026-04-25** — dieses File ist jetzt das **Original-Briefing** geblieben. Die laufend gepflegte Doku liegt unter:
+> ⚠️ **ARCHIVIERT — Original-Briefing April 2026, nicht mehr aktuell.**
 >
-> - [`docs/readme.md`](readme.md) — Index
-> - [`docs/architecture.md`](architecture.md), [`config.md`](config.md), [`content-model.md`](content-model.md), [`layouts-templates.md`](layouts-templates.md)
-> - [`docs/assets-styles.md`](assets-styles.md), [`seo-jsonld.md`](seo-jsonld.md), [`content-workflow.md`](content-workflow.md), [`deploy.md`](deploy.md)
-> - Repo-Root: [`CLAUDE.md`](../CLAUDE.md), [`.claude/skills/`](../.claude/skills/), [`.mcp.json`](../.mcp.json)
+> Dieses Dokument beschreibt die **frühere Iteration** der Site (Phase 1:
+> Gedächtnistraining + Leben mit Demenz, Referenz-Struktur von memominds.de).
+> Die Site ist seither auf **KI- & Business-Consulting** (leoniekaiser.com)
+> gepivotet.
 >
-> Hugo-Root liegt jetzt unter `src/growthtogether.at/` (vorher Repo-Root). Die Live-Domain ist **growthtogether.at** (nicht leoniekaiser.com). Restructure-Branch: `restructure-alexander-pattern`.
+> Aktueller Stand: siehe [`docs/readme.md`](readme.md), [`docs/phase-3.md`](phase-3.md),
+> [`../README.md`](../README.md), [`../CLAUDE.md`](../CLAUDE.md), [`../AGENTS.md`](../AGENTS.md).
+>
+> Der Inhalt unten wird **nur aus historischen Gründen** erhalten (Belege für
+> Briefing-Stand, falls Alexander rückblickend kontextualisieren möchte). Nicht
+> als Arbeitsgrundlage verwenden.
 
 ---
 
