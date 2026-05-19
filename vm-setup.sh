@@ -46,19 +46,19 @@ else
   echo "  (vm/shelley-agents.md nicht im Repo, übersprungen)"
 fi
 
-echo "▶ 7/7 tmux-Session 'hugo' mit Dev-Server auf Port 8088..."
+echo "▶ 7/7 tmux-Session 'hugo' mit Dev-Server auf Port 8000..."
 tmux kill-session -t hugo 2>/dev/null || true
 tmux new-session -d -s hugo -c ~/leonie-kaiser-hugo/src/growthtogether.at \
-  "hugo server -p 8088 --bind 0.0.0.0 --disableFastRender"
+  "hugo server -p 8000 --bind 0.0.0.0 --disableFastRender"
 sleep 3
-curl -s -o /dev/null -w "Hugo Dev-Server: %{http_code}\n" http://localhost:8088/
+curl -s -o /dev/null -w "Hugo Dev-Server: %{http_code}\n" http://localhost:8000/
 
 cat <<'NOTE'
 
 ═══════════════════════════════════════════════════════════════
 FERTIG ✓
 
-Vorschau:    https://leonie-kaiser.exe.xyz:8088/
+Vorschau:    https://leonie-kaiser.exe.xyz/
 Shelley:     https://leonie-kaiser.shelley.exe.xyz/
 Repo:        ~/leonie-kaiser-hugo
 Hugo-Source: ~/leonie-kaiser-hugo/src/growthtogether.at
@@ -69,6 +69,6 @@ Hugo-Server-Logs ansehen:
 
 Hugo neu starten:
   tmux kill-session -t hugo
-  tmux new -d -s hugo "cd ~/leonie-kaiser-hugo/src/growthtogether.at && hugo server -p 8088 --bind 0.0.0.0 --disableFastRender"
+  tmux new -d -s hugo "cd ~/leonie-kaiser-hugo/src/growthtogether.at && hugo server -p 8000 --bind 0.0.0.0 --disableFastRender"
 ═══════════════════════════════════════════════════════════════
 NOTE

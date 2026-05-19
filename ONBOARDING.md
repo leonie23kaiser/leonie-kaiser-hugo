@@ -147,15 +147,68 @@ Falls Claude doch was kaputt macht: nicht mergen → kein Schaden. Schon gemergt
 
 ---
 
-## 8. Für später: Vorschau vor dem Merge (optional, nicht nötig)
+## 8. Variante 2 — Eigene Cloud-Werkstatt auf exe.dev (Chromebook-freundlich)
 
-Wenn du irgendwann mal **vor dem Mergen** sehen willst, wie die Änderung im Browser aussieht, gibt es zwei Wege:
+Du hast zusätzlich zur claude.ai-Variante eine **eigene Cloud-VM** auf exe.dev:
+**`leonie-kaiser.exe.xyz`**. Darauf läuft:
 
-**A) GitHub-Preview im PR (geht direkt am Chromebook):**
-Im Pull Request gibt es einen Tab **Files changed** mit Vorher/Nachher der Texte. Für reine Text-Änderungen reicht das meistens.
+- **Shelley** (dein eigener Claude-Code-Agent, kein claude.ai-Connector nötig)
+- **Hugo-Vorschau-Server**, der deine Live-Seite in Echtzeit baut
 
-**B) Echte Live-Preview (nur falls du wirklich willst):**
-Dazu bräuchte es einen lokalen Hugo-Server. Auf einem Chromebook geht das nur mit der Linux-Entwicklungsumgebung aktiviert — Aufwand 15 Min Setup. Nicht für den Alltag, nur falls du mal Lust hast. Sag uns Bescheid, wir richten's mit dir ein. Brauchst du im Normalfall **nicht**.
+Der Vorteil gegenüber claude.ai: Du **siehst beim Tippen, wie sich die Seite
+verändert**. Keine PRs, keine Wartezeit, keine Wiederholung von Brand-Voice-Regeln.
+
+### So arbeitest du damit (typischer Tag)
+
+1. Browser-Tab 1: **https://leonie-kaiser.shelley.exe.xyz/** → dein Shelley-Chat.
+2. Browser-Tab 2: **https://leonie-kaiser.exe.xyz/** → Live-Vorschau deiner Seite
+   (lädt automatisch neu, wenn Shelley etwas ändert).
+3. Du sagst Shelley auf Deutsch, was du willst:
+   > *„Schreib mir einen Journal-Eintrag über DSGVO und KI-Tools."*
+   > *„Ändere den Hero-Untertitel auf der Startseite auf X."*
+   > *„Füge eine neue Branchen-Seite für Steuerberater hinzu."*
+4. Shelley editiert, du schaust im Vorschau-Tab, sagst „passt" oder „nochmal
+   anders".
+5. Wenn alles okay: *„commit und push"* → geht live auf leoniekaiser.com.
+
+### Was Shelley alles weiß
+
+Genau wie der claude.ai-Connector liest Shelley `AGENTS.md` + `CLAUDE.md` + alle
+bestehenden Inhalte mit. **Zusätzlich** liegt auf der VM eine
+`~/.config/shelley/AGENTS.md`, die ihr sagt:
+
+- Du heißt Leonie, sie spricht dich mit **Du** an (nur Website-Texte sind Sie-Form).
+- Repo liegt unter `~/leonie-kaiser-hugo/`.
+- Vorschau-URL ist die exe.xyz.
+- Niemals deployen ohne dein OK.
+- Schrittweise arbeiten, bei größeren Sachen erst Plan vorlegen.
+
+### Wenn die Vorschau mal nicht lädt
+
+Der Hugo-Server läuft in einer „tmux-Session" namens `hugo`. Sag Shelley einfach:
+> *„Die Vorschau geht nicht, starte den Hugo-Server neu."*
+
+### Wann claude.ai, wann VM?
+
+| Use-Case | claude.ai-Connector | VM / Shelley |
+|---|:---:|:---:|
+| Schneller Tippfehler-Fix | ✓ | |
+| Eine FAQ-Frage ergänzen | ✓ | |
+| Längerer Journal-Artikel mit Live-Preview | | ✓ |
+| Neue Branchen-Seite bauen + sofort schauen | | ✓ |
+| Bild austauschen + Ergebnis sehen | | ✓ |
+| Layout-Anpassung sehen wollen | | ✓ |
+| Unterwegs am Handy schnell was tippen | ✓ | |
+
+Beide Wege ändern dasselbe Repo, also: kein Konflikt, du kannst jederzeit
+zwischen den Varianten wechseln.
+
+### Falls die VM mal aus ist
+
+exe.dev kann die VM aus Kostengründen pausieren. Im exe.dev-Dashboard
+(https://exe.dev) siehst du deine VMs und kannst sie mit einem Klick wieder
+starten. Beim ersten Aufruf nach Pause kann es ein paar Sekunden dauern, bis
+Hugo wieder bereit ist.
 
 ---
 

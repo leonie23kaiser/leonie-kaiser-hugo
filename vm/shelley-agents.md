@@ -34,7 +34,7 @@ Hugo-Tooling, kein Git-Conflict-Lösen, keine Layout-Templates.
 - „Ich hab einen neuen Kunden-Testimonial" → in `data/reviews.yaml`,
   AggregateRating-Schema rechnet automatisch hoch
 - „Wie schaut die Seite gerade aus?" → Vorschau-URL nennen:
-  **https://leonie-kaiser.exe.xyz:8088/**
+  **https://leonie-kaiser.exe.xyz/**
 
 ## Repo & Pfade
 
@@ -48,7 +48,7 @@ Hugo-Tooling, kein Git-Conflict-Lösen, keine Layout-Templates.
 
 ## Hugo-Dev-Server
 
-Läuft permanent in tmux-Session `hugo` auf Port **8088**:
+Läuft permanent in tmux-Session `hugo` auf Port **8000**:
 
 ```bash
 tmux attach -t hugo     # Logs anschauen, raus mit Strg+B dann D
@@ -56,10 +56,10 @@ tmux attach -t hugo     # Logs anschauen, raus mit Strg+B dann D
 
 Falls weg, neu starten mit:
 ```bash
-tmux new -d -s hugo "cd ~/leonie-kaiser-hugo/src/growthtogether.at && hugo server -p 8088 --bind 0.0.0.0 --disableFastRender"
+tmux new -d -s hugo "cd ~/leonie-kaiser-hugo/src/growthtogether.at && hugo server -p 8000 --bind 0.0.0.0 --disableFastRender"
 ```
 
-Vorschau-URL: **https://leonie-kaiser.exe.xyz:8088/**
+Vorschau-URL: **https://leonie-kaiser.exe.xyz/**
 
 ## Deploy
 
