@@ -87,6 +87,7 @@ Invoke `/hugo-learn` after significant work to capture learnings (`reflect`, `up
 
 ## Repository conventions
 
+- **Branch-Strategie: direkt auf `main` pushen.** Kein Feature-Branch, kein PR — außer Leonie sagt explizit etwas anderes.
 - **Never `git add -A` / `git add .` / `git add --all` / `git add *`** — always specify files explicitly.
 - **Never deploy without explicit go-ahead** — live site is a paying client (Leonie Kaiser, leoniekaiser.com).
 - **Live domain:** `leoniekaiser.com` (not just a vanity URL — actual live host. Source dir intentionally still named src/growthtogether.at; do not rename).
