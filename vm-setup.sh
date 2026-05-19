@@ -37,24 +37,31 @@ echo "▶ 5/6 Hugo-Site testweise bauen..."
 cd ~/leonie-kaiser-hugo/src/growthtogether.at
 hugo --quiet && echo "Build OK"
 
-echo "▶ 6/6 tmux-Session 'hugo' mit Dev-Server auf Port 8000..."
+echo "▶ 6/7 Shelley-Persönlichkeit für Leonie installieren..."
+mkdir -p ~/.config/shelley
+if [ -f ~/leonie-kaiser-hugo/vm/shelley-agents.md ]; then
+  cp ~/leonie-kaiser-hugo/vm/shelley-agents.md ~/.config/shelley/AGENTS.md
+  echo "  ~/.config/shelley/AGENTS.md gesetzt"
+else
+  echo "  (vm/shelley-agents.md nicht im Repo, übersprungen)"
+fi
+
+echo "▶ 7/7 tmux-Session 'hugo' mit Dev-Server auf Port 8088..."
 tmux kill-session -t hugo 2>/dev/null || true
 tmux new-session -d -s hugo -c ~/leonie-kaiser-hugo/src/growthtogether.at \
-  "hugo server -p 8000 --bind 0.0.0.0 --baseURL https://leonie-kaiser.exe.xyz/ --appendPort=false --disableFastRender"
+  "hugo server -p 8088 --bind 0.0.0.0 --disableFastRender"
 sleep 3
-curl -s -o /dev/null -w "Hugo Dev-Server: %{http_code}\n" http://localhost:8000/
+curl -s -o /dev/null -w "Hugo Dev-Server: %{http_code}\n" http://localhost:8088/
 
 cat <<'NOTE'
 
 ═══════════════════════════════════════════════════════════════
 FERTIG ✓
 
-Vorschau:    https://leonie-kaiser.exe.xyz/
+Vorschau:    https://leonie-kaiser.exe.xyz:8088/
+Shelley:     https://leonie-kaiser.shelley.exe.xyz/
 Repo:        ~/leonie-kaiser-hugo
 Hugo-Source: ~/leonie-kaiser-hugo/src/growthtogether.at
-
-Claude Code starten:
-  cd ~/leonie-kaiser-hugo && claude
 
 Hugo-Server-Logs ansehen:
   tmux attach -t hugo
@@ -62,7 +69,6 @@ Hugo-Server-Logs ansehen:
 
 Hugo neu starten:
   tmux kill-session -t hugo
-  tmux new-session -d -s hugo -c ~/leonie-kaiser-hugo/src/growthtogether.at \
-    "hugo server -p 8000 --bind 0.0.0.0 --baseURL https://leonie-kaiser.exe.xyz/ --appendPort=false"
+  tmux new -d -s hugo "cd ~/leonie-kaiser-hugo/src/growthtogether.at && hugo server -p 8088 --bind 0.0.0.0 --disableFastRender"
 ═══════════════════════════════════════════════════════════════
 NOTE
