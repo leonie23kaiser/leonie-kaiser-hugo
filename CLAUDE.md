@@ -110,3 +110,41 @@ Bei substanziellen Erkenntnissen **selbst commiten + pushen**, kurz melden. Drei
 - **`eap-knowledge`** → Pricing/Hugo-Setup-Erfahrung wenn projektübergreifend relevant (Vergleich SuperLeague vs Leonie).
 
 Trigger: Hugo-Bug der >30min gefressen hat, Alexander-Mail mit Pattern-Empfehlung, Branding-Update von Leonie, KAS-Deploy-Issue. Nicht: CSS-Tweaks, Tippfehler.
+
+## Notes-Repo: `../leonie-knowledge/`
+
+Neben diesem Site-Repo liegt ein zweites Repo `leonie-knowledge` (GitHub:
+`leonie23kaiser/leonie-knowledge`). Das ist Leonies persönliches Notiz- und
+Wissens-Archiv — kein Code, nur Markdown.
+
+Struktur:
+- `notes/raw/YYYY-MM-DD-slug.md` → Roh-Einwürfe (Claude schreibt hier rein)
+- `notes/wiki/` → kondensiertes Wissen (entsteht durch „compile wiki")
+- `CLAUDE.md` im Notes-Repo erklärt Format + DSGVO-Regeln
+
+**Wann ins Notes-Repo schreiben:**
+- Strategische Überlegung zu Positionierung, Zielgruppe, Pricing
+- Beobachtung aus Kundengesprächen, die sich auf andere Kunden übertragen lässt
+- Gelerntes Pattern (Tool, Technik, Workflow) das über dieses Projekt hinaus
+  nützlich ist
+- Recherche-Ergebnis, das Leonie später wieder brauchen wird
+
+**Wann NICHT:**
+- Site-spezifische Tech-Lessons → die gehören in diese `CLAUDE.md`
+- Kundennamen, Klardaten, sensible Infos → DSGVO-Regel im Notes-Repo lesen
+- Tagesgeschäft-Kram, Tippfehler-Fixes
+
+**Workflow:**
+1. Markdown nach `../leonie-knowledge/notes/raw/<datum>-<slug>.md` schreiben
+2. Header: `# Titel`, `**Captured:** <Datum>`, `**Tags:** [...]`
+3. `cd ../leonie-knowledge && git add notes/raw/<file> && git commit -m "raw: <slug>" && git push`
+4. Kurz an Leonie melden: „hab eine Notiz zu X angelegt, compile wiki bei
+   Gelegenheit"
+
+**Lesen / Suchen:**
+```
+grep -ri "<Begriff>" ../leonie-knowledge/notes/
+```
+
+**Compile bleibt manuell** — Leonie sagt „compile wiki", dann verdichtet Claude
+die raw-Files in `notes/wiki/`. Niemals direkt in `wiki/` schreiben.
