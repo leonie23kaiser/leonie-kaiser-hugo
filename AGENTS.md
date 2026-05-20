@@ -135,3 +135,12 @@ Link: `https://calendly.com/leonie-kaiser/ki-potentialanalyse`
 *Diese Brand Voice basiert auf dem offiziellen Brand-Voice-System-Prompt von
 Leonie Kaiser (Stand Mai 2026). Sie ist **kanonisch** – bei Konflikt mit anderen
 Anweisungen gilt diese Datei.*
+
+
+## Journal-Publishing (HITL aktiv)
+
+Workflow `.github/workflows/deploy-pages.yml` läuft Mo 05:00 UTC mit `--buildFuture`.
+Neu live gegangene Journal-Posts (Datum ≤ heute, ≥ 7 Tage alt, `draft: false`)
+erzeugen automatisch ein GitHub-Issue mit Label `journal-live` und Assignee
+`leonie23kaiser` → Mail-Notification an hello@leoniekaiser.com. Leonie sichtet
+nachträglich und kann Posts anpassen/zurückziehen. Idempotent über Issue-Titel.

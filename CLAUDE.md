@@ -149,3 +149,12 @@ grep -ri "<Begriff>" ../leonie-knowledge/notes/
 
 **Compile bleibt manuell** — Leonie sagt „compile wiki", dann verdichtet Claude
 die raw-Files in `notes/wiki/`. Niemals direkt in `wiki/` schreiben.
+
+
+## HITL-Notification (Journal)
+
+Deploy-Workflow (`.github/workflows/deploy-pages.yml`) erzeugt nach jedem Cron-Build
+(Mo 05:00 UTC, `--buildFuture`) ein GitHub-Issue pro neu live gegangenem
+Journal-Post (Label `journal-live`, Assignee `leonie23kaiser`). Pipelines, die
+Kunden-sichtbare Posts publishen, müssen diese Notify-Schiene benutzen — niemals
+stilles Auto-Publish.
