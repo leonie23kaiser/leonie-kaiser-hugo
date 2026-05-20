@@ -209,9 +209,9 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .stit{font-size:var(--lg);font-weight:700;color:var(--text);margin-bottom:var(--s3)}
 .sdsc{font-size:var(--base);color:var(--muted);line-height:1.65;max-width:none}
 .sli{list-style:none;margin-top:var(--s4);display:flex;flex-direction:column;gap:var(--s2);flex:1}
-.sli li{font-size:var(--sm);color:var(--muted);display:flex;align-items:flex-start;gap:var(--s2)}
+.sli li{font-size:var(--base);color:var(--muted);display:flex;align-items:flex-start;gap:var(--s2)}
 .sli li::before{content:"✓";color:var(--teal-d);flex-shrink:0;font-weight:700}
-.sprice{font-family:var(--fd);font-size:var(--xl);font-weight:800;
+.sprice{font-family:var(--fd);font-size:var(--lg);font-weight:800;
   color:var(--teal-d);margin-top:var(--s6);padding-top:var(--s5);border-top:1px solid var(--divider)}
 .spdesc{font-size:var(--xs);color:var(--muted);margin-top:var(--s1)}
 .spricenote{font-size:var(--xs);color:inherit;font-weight:400;opacity:.7;margin-left:var(--s2)}
@@ -402,7 +402,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .kcontact-imgwrap{position:relative;border-radius:var(--r-xl);overflow:hidden;flex-shrink:0;align-self:stretch}
 .kcontact-img{position:absolute;inset:0;width:100%;height:100%}
 .kcontact-img img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block;
-  animation:bgLongPulse 8s ease-in-out infinite;transform-origin:center center}
+  animation:bgConsultantFloat 8s ease-in-out infinite;transform-origin:center center}
 @keyframes bgLongPulse{
   0%{transform:scale(1)}
   50%{transform:scale(1.06)}
@@ -426,8 +426,8 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 }
 .hbg-inner{
   width:100%;height:100%;
-  background:url('images/background.png') calc(50% + 30px) center/cover no-repeat;
-  transform-origin:center center;animation:bgLongPulse 8s ease-in-out infinite;
+  background:url('/images/background.png') calc(50% + 30px) center/cover no-repeat;
+  transform-origin:center center;animation:bgConsultantFloat 8s ease-in-out infinite;
 }
 @keyframes bgConsultantFloat{
   0%{transform:translate3d(0,0,0) scale(1.02)}
