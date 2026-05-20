@@ -25,10 +25,15 @@
 <meta name="twitter:image" content="{{ $ogImage | absURL }}">
 
 <link rel="canonical" href="{{ .Permalink }}">
-<link rel="icon" href="{{ "/images/Logo.png" | relURL }}" type="image/png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 {{- /* Fonts: self-hosted Cabinet Grotesk + Satoshi (DSGVO-konform) */ -}}
 <link rel="preload" href="/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/satoshi-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/satoshi-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/cabinet-grotesk-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/cabinet-grotesk-800.woff2" as="font" type="font/woff2" crossorigin>
 
 {{- /* Brand CSS via Hugo Pipes */ -}}

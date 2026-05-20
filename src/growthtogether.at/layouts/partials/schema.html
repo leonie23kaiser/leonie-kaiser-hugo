@@ -11,7 +11,7 @@
     "name" "Leonie Kaiser"
     "jobTitle" "KI & Business Consultant"
     "description" "Leonie Kaiser ist KI-Beraterin in Wien mit über 20 Jahren Erfahrung. Spezialisierung auf Agentic AI, Claude Code, Claude Architect sowie EU AI Act & DSGVO Compliance für Einzelunternehmer und KMU."
-    "url" $base
+    "url" (printf "%sueber-mich/" $base)
     "image" (printf "%simages/Bild-1.png" $base)
     "sameAs" (slice "https://www.linkedin.com/in/leoniekaiser")
     "worksFor" (dict "@id" $orgId)
@@ -61,8 +61,18 @@
     "publisher" (dict "@id" $orgId)
 -}}
 
+{{- /* ContactPage (Kontaktformular auf Startseite) */ -}}
+{{- $contact := dict
+    "@type" "ContactPage"
+    "@id" (printf "%s#contactpage" $base)
+    "url" (printf "%s#kontakt" $base)
+    "name" "Kontakt – Leonie Kaiser KI-Beratung"
+    "description" "Kontaktformular und Terminbuchung für die kostenfreie KI-Potenzialanalyse."
+    "isPartOf" (dict "@id" $siteId)
+-}}
+
 {{- /* Build base graph */ -}}
-{{- $graph := slice $person $org $website -}}
+{{- $graph := slice $person $org $website $contact -}}
 
 {{- /* FAQ from front-matter (Page-level) */ -}}
 {{- with .Params.faqs -}}
