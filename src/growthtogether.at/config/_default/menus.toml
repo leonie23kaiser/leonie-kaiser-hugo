@@ -14,11 +14,6 @@
   weight = 25
 
 [[main]]
-  name   = "Prozess"
-  url    = "/#prozess"
-  weight = 30
-
-[[main]]
   name   = "Kontakt"
   url    = "/#kontakt"
   weight = 40
