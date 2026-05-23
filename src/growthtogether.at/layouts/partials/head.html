@@ -46,3 +46,14 @@
 {{- end }}
 
 {{ partial "schema.html" . }}
+
+{{- if and hugo.IsProduction site.Params.gaID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.Params.gaID }}"></script>
+<script>
+  window.dataLayer=window.dataLayer||[];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js',new Date());
+  gtag('consent','default',{'analytics_storage':'denied'});
+  gtag('config','{{ site.Params.gaID }}');
+</script>
+{{- end }}

@@ -68,15 +68,30 @@ document.querySelectorAll('.faq-cat').forEach(function(btn){
   });
 });
 
-// Cookie banner: show until user chooses
+// Cookie banner + GA4 Consent Mode
 (function(){
+  function applyConsent(choice){
+    if(typeof gtag==='function'){
+      gtag('consent','update',{'analytics_storage':choice==='all'?'granted':'denied'});
+    }
+  }
+  var stored=localStorage.getItem('lk-cookie-choice');
+  if(stored){applyConsent(stored);}
   var banner=document.getElementById('cookie-banner');
   if(!banner)return;
-  if(!localStorage.getItem('lk-cookie-choice'))banner.style.display='block';
+  if(!stored)banner.style.display='block';
   var accept=document.getElementById('cookie-accept');
   var reject=document.getElementById('cookie-reject');
-  if(accept)accept.addEventListener('click',function(){localStorage.setItem('lk-cookie-choice','all');banner.style.display='none';});
-  if(reject)reject.addEventListener('click',function(){localStorage.setItem('lk-cookie-choice','necessary');banner.style.display='none';});
+  if(accept)accept.addEventListener('click',function(){
+    localStorage.setItem('lk-cookie-choice','all');
+    applyConsent('all');
+    banner.style.display='none';
+  });
+  if(reject)reject.addEventListener('click',function(){
+    localStorage.setItem('lk-cookie-choice','necessary');
+    applyConsent('necessary');
+    banner.style.display='none';
+  });
 })();
 </script>
 
