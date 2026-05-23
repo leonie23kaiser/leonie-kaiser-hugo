@@ -368,6 +368,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .tcard-quote{font-size:var(--base);color:var(--muted);line-height:1.7;flex:1;font-style:italic}
 .tcard-author{display:flex;align-items:center;gap:var(--s3)}
 .tcard-avatar{width:64px;height:64px;border-radius:var(--r-full);object-fit:cover;flex-shrink:0}
+.tcard-author picture{flex-shrink:0;display:block;width:64px;height:64px;border-radius:var(--r-full);overflow:hidden}
 .tcard-name{font-size:var(--sm);font-weight:700;color:var(--text)}
 .tcard-role{font-size:var(--xs);color:var(--muted)}
 /* Termin wählen button wider */
