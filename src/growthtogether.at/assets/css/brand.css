@@ -1295,6 +1295,10 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .js-reveal .reveal:nth-child(2){transition-delay:.12s}
 .js-reveal .reveal:nth-child(3){transition-delay:.24s}
 .js-reveal .reveal.reveal-in{opacity:1;transform:none}
+/* Leistungen-Karten: langsamer + größerer Stagger */
+.js-reveal .scard.reveal{transition:opacity 1.2s ease, transform 1.2s ease}
+.js-reveal .scard.reveal:nth-child(2){transition-delay:.3s}
+.js-reveal .scard.reveal:nth-child(3){transition-delay:.6s}
 @media (prefers-reduced-motion: reduce){
   .js-reveal .reveal{opacity:1;transform:none;transition:none}
 }

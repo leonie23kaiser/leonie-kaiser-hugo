@@ -3,6 +3,9 @@
 <meta name="theme-color" content="#086584">
 <meta name="color-scheme" content="light">
 <script>document.documentElement.className+=' js-reveal';</script>
+{{- if .IsHome }}
+<link rel="preload" as="image" href="/images/Bild-1.webp" type="image/webp" fetchpriority="high">
+{{- end }}
 
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
