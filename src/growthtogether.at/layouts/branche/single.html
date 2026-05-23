@@ -47,6 +47,21 @@
         Kostenfreie Potenzialanalyse buchen
       </a>
     </aside>
+
+    {{- $others := where site.Data.branchen "slug" "ne" $slug -}}
+    {{ if $others }}
+    <div style="margin-top:var(--s12)">
+      <div class="slabel">Weitere Branchen</div>
+      <h2 class="stitle" style="font-size:1.35rem">KI-Beratung für andere Bereiche</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--s3);margin-top:var(--s4)">
+        {{ range $others }}
+        <a href="/ki-fuer-{{ .slug }}/" style="display:block;padding:var(--s4) var(--s5);border:1px solid var(--line);border-radius:var(--r-lg);background:#fff;text-decoration:none;color:inherit;font-family:var(--fd);font-weight:700;font-size:var(--sm);line-height:1.3">
+          {{ .branche }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
   </div>
 </section>
 {{ end }}

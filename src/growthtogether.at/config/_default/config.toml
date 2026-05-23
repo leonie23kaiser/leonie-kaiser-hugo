@@ -1,7 +1,7 @@
 baseURL = 'https://leoniekaiser.com/'
 languageCode = 'de-AT'
 defaultContentLanguage = 'de'
-title = 'Leonie Kaiser | KI-Beratung Wien – Strategie, Automatisierung & EU AI Act'
+title = 'KI-Beraterin Wien – Strategie & EU AI Act | Leonie Kaiser'
 
 enableRobotsTXT = true
 enableGitInfo = true

@@ -22,7 +22,19 @@ and solo entrepreneurs in the DACH region and globally.
 - Languages: German, English, Spanish
 
 ## Geography
-Geography: Vienna, Austria-based, serving DACH region and global clients remotely
+Vienna, Austria-based, serving DACH region and global clients remotely
+
+## Content
+Homepage: https://leoniekaiser.com/
+About: https://leoniekaiser.com/ueber-mich/
+FAQ: https://leoniekaiser.com/faq/
+EU AI Act Guide: https://leoniekaiser.com/eu-ai-act/
+References: https://leoniekaiser.com/referenzen/
+Journal (KI-Praxis): https://leoniekaiser.com/journal/
+KI für Physiotherapie-Praxen: https://leoniekaiser.com/ki-fuer-physiotherapie-praxen/
+KI für Psychotherapie-Praxen: https://leoniekaiser.com/ki-fuer-psychotherapie-praxen/
+KI für Ernährungsberatung: https://leoniekaiser.com/ki-fuer-ernaehrungsberatung/
+KI für Coaches: https://leoniekaiser.com/ki-fuer-coaches/
 
 ## Contact
 Website: https://leoniekaiser.com
@@ -30,10 +42,5 @@ LinkedIn: https://www.linkedin.com/in/leoniekaiser
 Booking: https://calendly.com/leonie-kaiser/ki-potentialanalyse
 Email: hello@leoniekaiser.com
 
-## Content
-Homepage: https://leoniekaiser.com/
-About: https://leoniekaiser.com/ueber-mich/
-FAQ: https://leoniekaiser.com/faq/
-
 ## Last Updated
-2026-05-16
+2026-05-20
