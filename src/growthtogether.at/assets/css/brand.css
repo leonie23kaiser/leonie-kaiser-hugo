@@ -1289,3 +1289,12 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .fooin{flex-direction:column;text-align:center}
   .flinks{justify-content:center}
 }
+
+/* Scroll-reveal: nur aktiv wenn JS geladen (Klasse .js-reveal am <html> in head) */
+.js-reveal .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease, transform .7s ease;will-change:opacity,transform}
+.js-reveal .reveal:nth-child(2){transition-delay:.12s}
+.js-reveal .reveal:nth-child(3){transition-delay:.24s}
+.js-reveal .reveal.reveal-in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  .js-reveal .reveal{opacity:1;transform:none;transition:none}
+}

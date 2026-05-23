@@ -78,6 +78,20 @@ document.querySelectorAll('.faq-cat').forEach(function(btn){
   if(accept)accept.addEventListener('click',function(){localStorage.setItem('lk-cookie-choice','all');banner.style.display='none';});
   if(reject)reject.addEventListener('click',function(){localStorage.setItem('lk-cookie-choice','necessary');banner.style.display='none';});
 })();
+
+// Scroll-reveal via IntersectionObserver
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!els.length)return;
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){els.forEach(function(el){el.classList.add('reveal-in');});return;}
+  if(!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('reveal-in');});return;}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('reveal-in');io.unobserve(e.target);}
+    });
+  },{threshold:0.15,rootMargin:'0px 0px -50px 0px'});
+  els.forEach(function(el){io.observe(el);});
+})();
 </script>
 
 {{- /* Web-Vitals tracking (lazy, beacon to optional endpoint via Site.Params.vitalsEndpoint) */ -}}
