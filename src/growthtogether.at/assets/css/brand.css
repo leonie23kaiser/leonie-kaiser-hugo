@@ -512,7 +512,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: image-set(url('/images/mobile-hero-bild.webp') type('image/webp'), url('/images/mobile-hero-bild.png') type('image/png')) center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -547,7 +547,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-box h2, .promo-title { text-align: center !important; }
 
   /* ── Contact image: mobile PNG ── */
-  .kcontact-img img { content: url('images/mobile-background-bild.png') !important; }
+  .kcontact-img img { content: url('/images/mobile-background-bild.webp') !important; }
 
   /* ── Process boxes: teal border, no hover pointer ── */
   .pstep {
@@ -556,6 +556,27 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     cursor: default !important;
   }
   .pstep:hover { transform: none !important; box-shadow: none !important; }
+
+  /* ── Über mich: Bild zuerst, dann Text ── */
+  .abgrid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--s6) !important;
+  }
+  .abphoto-outer { order: 1 !important; }
+  .abcon { order: 2 !important; }
+
+  /* ── Prozess: 3 Boxen untereinander ── */
+  .pgrid { display: grid !important; grid-template-columns: 1fr !important; gap: var(--s4) !important; }
+
+  /* ── Kontakt: Bild unter Formular ── */
+  .kgrid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--s6) !important;
+  }
+  .form { order: 1 !important; }
+  .kcontact-imgwrap { order: 2 !important; min-height: 280px !important; }
 
   /* ── Über mich: all boxes horizontal ── */
   .vrow { display: flex !important; flex-direction: column !important; gap: var(--s4) !important; }
@@ -755,7 +776,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: image-set(url('/images/mobile-hero-bild.webp') type('image/webp'), url('/images/mobile-hero-bild.png') type('image/png')) center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -783,7 +804,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-result, .promo-result p,
   .promo-list li, .promo-list li span { text-align: left !important; }
 /* ── Contact image: mobile PNG ── */
-  .kcontact-img img { content: url('images/mobile-background-bild.png') !important; }
+  .kcontact-img img { content: url('/images/mobile-background-bild.webp') !important; }
 /* ── Process boxes: teal border, no hover pointer ── */
   .pstep {
     border: 2px solid var(--teal-d) !important;
@@ -1037,7 +1058,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: image-set(url('/images/mobile-hero-bild.webp') type('image/webp'), url('/images/mobile-hero-bild.png') type('image/png')) center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -1065,7 +1086,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-result, .promo-result p,
   .promo-list li, .promo-list li span { text-align: left !important; }
 /* ── Contact image: mobile PNG ── */
-  .kcontact-img img { content: url('images/mobile-background-bild.png') !important; }
+  .kcontact-img img { content: url('/images/mobile-background-bild.webp') !important; }
 /* ── Process boxes: teal border, no hover pointer ── */
   .pstep {
     border: 2px solid var(--teal-d) !important;
