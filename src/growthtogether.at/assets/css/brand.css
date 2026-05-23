@@ -101,14 +101,14 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
   border-radius:var(--r-full);text-decoration:none;font-size:var(--base);font-weight:700;
   display:inline-flex;align-items:center;gap:var(--s2)}
 .btnp:hover{background:#064e65;transform:translateY(-2px);box-shadow:var(--sh-lg)}
-.hactions .btnp{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
-.hactions .btnp:hover{animation:none}
+.hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
+.hactions .btnp:hover,.btnp-pulse:hover{animation:none}
 @keyframes btnpPulse{
   0%   { box-shadow:0 0 0 0   rgba(83,0,73,.55) }
   70%  { box-shadow:0 0 0 14px rgba(83,0,73,0)   }
   100% { box-shadow:0 0 0 0   rgba(83,0,73,0)   }
 }
-@media (prefers-reduced-motion: reduce){ .hactions .btnp{animation:none} }
+@media (prefers-reduced-motion: reduce){ .hactions .btnp,.btnp-pulse{animation:none} }
 .btns{color:var(--teal-d);text-decoration:none;font-size:var(--sm);font-weight:600;
   display:inline-flex;align-items:center;gap:var(--s2);
   padding:var(--s3) var(--s6);border-radius:var(--r-full);
@@ -1295,10 +1295,10 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .js-reveal .reveal:nth-child(2){transition-delay:.12s}
 .js-reveal .reveal:nth-child(3){transition-delay:.24s}
 .js-reveal .reveal.reveal-in{opacity:1;transform:none}
-/* Leistungen-Karten: langsamer + größerer Stagger */
-.js-reveal .scard.reveal{transition:opacity 1.2s ease, transform 1.2s ease}
-.js-reveal .scard.reveal:nth-child(2){transition-delay:.3s}
-.js-reveal .scard.reveal:nth-child(3){transition-delay:.6s}
+/* Leistungen-Karten + Über-mich Werte-Boxen: langsamer + größerer Stagger */
+.js-reveal .scard.reveal,.js-reveal .vitem.reveal{transition:opacity 1.2s ease, transform 1.2s ease}
+.js-reveal .scard.reveal:nth-child(2),.js-reveal .vitem.reveal:nth-child(2){transition-delay:.3s}
+.js-reveal .scard.reveal:nth-child(3),.js-reveal .vitem.reveal:nth-child(3){transition-delay:.6s}
 @media (prefers-reduced-motion: reduce){
   .js-reveal .reveal{opacity:1;transform:none;transition:none}
 }
