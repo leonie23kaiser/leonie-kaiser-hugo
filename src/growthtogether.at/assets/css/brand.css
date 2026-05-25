@@ -505,7 +505,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: url('/images/mobile-hero-bild.png') center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -540,7 +540,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-box h2, .promo-title { text-align: center !important; }
 
   /* ── Contact image: mobile PNG ── */
-  .kcontact-img img { content: url('images/mobile-background-bild.png') !important; }
+  .kcontact-img img { content: url('/images/mobile-background-bild.png') !important; }
 
   /* ── Process boxes: teal border, no hover pointer ── */
   .pstep {
@@ -748,7 +748,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: url('/images/mobile-hero-bild.png') center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -776,7 +776,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-result, .promo-result p,
   .promo-list li, .promo-list li span { text-align: left !important; }
 /* ── Contact image: mobile PNG ── */
-  .kcontact-img img { content: url('images/mobile-background-bild.png') !important; }
+  .kcontact-img img { content: url('/images/mobile-background-bild.png') !important; }
 /* ── Process boxes: teal border, no hover pointer ── */
   .pstep {
     border: 2px solid var(--teal-d) !important;
@@ -1030,7 +1030,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: url('/images/mobile-hero-bild.png') center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -1058,7 +1058,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-result, .promo-result p,
   .promo-list li, .promo-list li span { text-align: left !important; }
 /* ── Contact image: mobile PNG ── */
-  .kcontact-img img { content: url('images/mobile-background-bild.png') !important; }
+  .kcontact-img img { content: url('/images/mobile-background-bild.png') !important; }
 /* ── Process boxes: teal border, no hover pointer ── */
   .pstep {
     border: 2px solid var(--teal-d) !important;
