@@ -11,7 +11,8 @@ Gesundheit, wissensintensive Services. Voice: Sie-Form, B2B, DSGVO/EU-AI-Act-kon
 **Phase 3 live.** Brand-Voice-Guard, SEO/GEO-Stack (FAQ + AggregateRating-Schema,
 llms.txt, robots.txt mit AI-Bot-Allowlist), `/eu-ai-act/`-Authority-Pillar,
 4 Branchen-Landings aus `data/branchen.yaml`, Journal mit future-dated Drafts
-(Cron Montag 05:00 UTC), Testimonials von Pilot-Kundinnen.
+(Cron Montag 05:00 UTC, `--buildFuture`, HITL-Issue-Notify an `leonie23kaiser`
+mit Label `journal-live`), Testimonials von Pilot-Kundinnen.
 
 ## Stack
 

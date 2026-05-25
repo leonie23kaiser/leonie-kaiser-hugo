@@ -98,6 +98,14 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
   border-radius:var(--r-full);text-decoration:none;font-size:var(--base);font-weight:700;
   display:inline-flex;align-items:center;gap:var(--s2)}
 .btnp:hover{background:#064e65;transform:translateY(-2px);box-shadow:var(--sh-lg)}
+.hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
+.hactions .btnp:hover,.btnp-pulse:hover{animation:none}
+@keyframes btnpPulse{
+  0%   { box-shadow:0 0 0 0   rgba(83,0,73,.55) }
+  70%  { box-shadow:0 0 0 14px rgba(83,0,73,0)   }
+  100% { box-shadow:0 0 0 0   rgba(83,0,73,0)   }
+}
+@media (prefers-reduced-motion: reduce){ .hactions .btnp,.btnp-pulse{animation:none} }
 .btns{color:var(--teal-d);text-decoration:none;font-size:var(--sm);font-weight:600;
   display:inline-flex;align-items:center;gap:var(--s2);
   padding:var(--s3) var(--s6);border-radius:var(--r-full);
@@ -405,7 +413,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 }
 .hbg-inner{
   width:100%;height:100%;
-  background:url('/images/background.png') calc(50% + 30px) center/cover no-repeat;
+  background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) calc(50% + 30px) center/cover no-repeat;
   transform-origin:center center;animation:bgConsultantFloat 8s ease-in-out infinite;
 }
 @keyframes bgConsultantFloat{
@@ -454,21 +462,31 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     align-items: center !important;
   }
 
+  /* Background.png mit langsamem Ken-Burns-Zoom hinter dem Mobile-Hero */
   .hphoto-wrap::after {
     content: '';
     position: absolute;
     top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%; height: 85%;
-    background: radial-gradient(ellipse at center,
-      rgba(1,105,111,0.32) 0%,
-      rgba(1,105,111,0.16) 40%,
-      rgba(1,105,111,0.06) 65%,
-      transparent 80%);
-    border-radius: 50%;
+    width: 100%; height: 100%;
+    background: image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center center / cover no-repeat;
+    border-radius: var(--r-xl);
     z-index: 0;
     pointer-events: none;
+    opacity: 0.55;
+    transform: translate(-50%, -50%) scale(1);
+    animation: heroZoom 20s ease-in-out infinite alternate;
   }
+  @keyframes heroZoom {
+    from { transform: translate(-50%, -50%) scale(1); }
+    to   { transform: translate(-50%, -50%) scale(1.12); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hphoto-wrap::after { animation: none; }
+  }
+
+  /* Tagline auf Mobile größer + Zeilenumbruch nach "Lösung -" weg */
+  .htagline-br { display: none !important; }
+  .htagline { font-size: clamp(1.25rem, 1.05rem + 1vw, 1.5rem) !important; line-height: 1.45 !important; }
 
   .hphoto-wrap::before {
     content: '';
@@ -476,7 +494,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     width: 100%;
     max-width: 440px;
     aspect-ratio: 3/4;
-    background: url('/images/mobile-hero-bild.png') center top / contain no-repeat;
+    background: image-set(url('/images/mobile-hero-bild2.webp') type('image/webp'), url('/images/mobile-hero-bild2.png') type('image/png')) center top / contain no-repeat;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -506,7 +524,8 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-list li, .promo-list li span { text-align: left !important; }
   .promo-box h2, .promo-title { text-align: center !important; }
 
-  .kcontact-img img { content: url('/images/mobile-background-bild.png') !important; }
+  /* ── Contact image: mobile WebP ── */
+  .kcontact-img img { content: url('/images/mobile-background-bild.webp') !important; }
 
   .pstep {
     border: 2px solid var(--teal-d) !important;
@@ -515,6 +534,28 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   }
   .pstep:hover { transform: none !important; box-shadow: none !important; }
 
+  /* ── Über mich: Bild zuerst, dann Text ── */
+  .abgrid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--s6) !important;
+  }
+  .abphoto-outer { order: 1 !important; }
+  .abcon { order: 2 !important; }
+
+  /* ── Prozess: 3 Boxen untereinander ── */
+  .pgrid { display: grid !important; grid-template-columns: 1fr !important; gap: var(--s4) !important; }
+
+  /* ── Kontakt: Bild unter Formular ── */
+  .kgrid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--s6) !important;
+  }
+  .form { order: 1 !important; }
+  .kcontact-imgwrap { order: 2 !important; min-height: 280px !important; }
+
+  /* ── Über mich: all boxes horizontal ── */
   .vrow { display: flex !important; flex-direction: column !important; gap: var(--s4) !important; }
   .vitem {
     display: flex !important;
@@ -687,3 +728,27 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   display:flex;flex-direction:column;gap:var(--s2)}
 .contact-card strong{font-family:var(--fd);font-size:var(--base);font-weight:800;color:var(--text)}
 .contact-card span{font-size:var(--sm);color:var(--muted)}
+/* Footer */
+footer{background:#1a1a1a;color:rgba(255,255,255,.45);
+  padding:var(--s10) clamp(var(--s6),5vw,var(--s16))}
+@media(max-width:920px){
+  .nlinks{display:none}
+  .burg{display:flex}
+}
+@media(max-width:600px){
+  .fooin{flex-direction:column;text-align:center}
+  .flinks{justify-content:center}
+}
+
+/* Scroll-reveal: nur aktiv wenn JS geladen (Klasse .js-reveal am <html> in head) */
+.js-reveal .reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease, transform .7s ease;will-change:opacity,transform}
+.js-reveal .reveal:nth-child(2){transition-delay:.12s}
+.js-reveal .reveal:nth-child(3){transition-delay:.24s}
+.js-reveal .reveal.reveal-in{opacity:1;transform:none}
+/* Leistungen-Karten + Über-mich Werte-Boxen: langsamer + größerer Stagger */
+.js-reveal .scard.reveal,.js-reveal .vitem.reveal{transition:opacity 1.2s ease, transform 1.2s ease}
+.js-reveal .scard.reveal:nth-child(2),.js-reveal .vitem.reveal:nth-child(2){transition-delay:.3s}
+.js-reveal .scard.reveal:nth-child(3),.js-reveal .vitem.reveal:nth-child(3){transition-delay:.6s}
+@media (prefers-reduced-motion: reduce){
+  .js-reveal .reveal{opacity:1;transform:none;transition:none}
+}

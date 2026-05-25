@@ -7,11 +7,15 @@ on:
       - 'src/growthtogether.at/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
+  schedule:
+    # Mo 05:00 UTC – future-dated Journal-Posts publishen
+    - cron: '0 5 * * 1'
 
 permissions:
   contents: read
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: pages
@@ -50,6 +54,7 @@ jobs:
             --source src/growthtogether.at \
             --minify \
             --gc \
+            --buildFuture \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
@@ -67,3 +72,51 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: deploy
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: HITL-Notify für neu sichtbare Journal-Posts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TZ: Europe/Vienna
+        run: |
+          set -euo pipefail
+          today=$(date +%s)
+          week_ago=$(date -d '7 days ago' +%s)
+          shopt -s nullglob
+          for f in src/growthtogether.at/content/journal/*.md; do
+            name=$(basename "$f" .md)
+            [ "$name" = "_index" ] && continue
+            fm=$(awk '/^---$/{c++; next} c==1' "$f")
+            date_str=$(printf '%s\n' "$fm" | sed -n 's/^date: *//p' | head -1 | tr -d '"')
+            draft=$(printf '%s\n'   "$fm" | sed -n 's/^draft: *//p' | head -1 | tr -d '"')
+            title=$(printf '%s\n'   "$fm" | sed -n 's/^title: *//p' | head -1 | sed 's/^"//;s/"$//')
+            summary=$(printf '%s\n' "$fm" | sed -n 's/^summary: *//p' | head -1 | sed 's/^"//;s/"$//')
+            [ "$draft" = "true" ] && continue
+            [ -z "$date_str" ] && continue
+            ts=$(date -d "$date_str" +%s 2>/dev/null || echo 0)
+            [ "$ts" -gt "$today" ]    && continue
+            [ "$ts" -lt "$week_ago" ] && continue
+            issue_title="Journal live: $name"
+            existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state all \
+              --search "\"$issue_title\" in:title" \
+              --json title --jq "[.[] | select(.title==\"$issue_title\")] | length")
+            if [ "$existing" != "0" ]; then
+              echo "skip (already notified): $name"; continue
+            fi
+            gh label create journal-live --repo "$GITHUB_REPOSITORY" \
+              --color "0E8A16" --description "HITL-Notify: Journal-Post live" 2>/dev/null || true
+            body=$(printf '**Titel:** %s\n**Slug:** %s\n**Datum:** %s\n**Summary:** %s\n\n**Live:** https://leoniekaiser.com/journal/%s/\n\nBitte sichten — passt der Post so live, oder Anpassung/Rückzug nötig?\n' \
+              "$title" "$name" "$date_str" "$summary" "$name")
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "$issue_title" --body "$body" \
+              --label journal-live --assignee leonie23kaiser \
+            || gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "$issue_title" --body "$body" --label journal-live
+          done
