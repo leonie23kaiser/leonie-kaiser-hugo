@@ -406,7 +406,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 
 /* hbg + hero photo animations */
 .hbg-anim{
-  position:absolute;top:0;left:0;right:-60px;width:auto;height:100%;
+  position:absolute;top:-30px;right:-30px;width:320px;height:auto;aspect-ratio:3/4;
   overflow:hidden;opacity:1;z-index:1;pointer-events:none;
   border-radius:var(--r-2xl);
   filter:drop-shadow(0 18px 26px rgba(8,101,132,.08));
@@ -426,16 +426,17 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .hphoto-wrap{position:relative;overflow:visible;padding-right:92px;padding-top:24px;transform:translateX(0)}
 .hphoto-wrap > *:not(.hbg-anim){position:relative;z-index:2}
 .hphoto{right:-100px}
+.hbg-anim{right:-130px}
 @media(max-width:920px){
   .hphoto-wrap{padding-right:44px;padding-top:22px;min-height:430px;transform:translateX(40px)}
   .hphoto{right:-32px}
-  .hbg-anim{top:-4px;right:-4px;width:250px;height:250px}
+  .hbg-anim{top:-30px;right:-62px;width:250px;height:auto;aspect-ratio:3/4}
   .hbubble{right:18px;bottom:-6px;min-width:min(340px,calc(100vw - 64px));max-width:min(390px,calc(100vw - 64px))}
 }
 @media(max-width:600px){
   .hphoto-wrap{padding-right:24px;padding-top:18px;min-height:400px;transform:translateX(12px)}
   .hphoto{right:24px;width:min(100%,320px)}
-  .hbg-anim{top:2px;right:-8px;width:190px;height:190px}
+  .hbg-anim{top:-30px;right:-6px;width:190px;height:auto;aspect-ratio:3/4}
   .hbubble{left:0;right:auto;bottom:-10px;min-width:min(310px,calc(100vw - 48px));max-width:min(330px,calc(100vw - 48px));padding:var(--s3) var(--s4)}
 }
 
@@ -451,57 +452,58 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 
   .hero { padding-top: calc(68px + var(--s2)) !important; gap: var(--s4) !important; }
 
-  .hbg-anim, .hphoto, .hbubble { display: none !important; }
+  .hbubble { display: none !important; }
 
   .hphoto-wrap {
     position: relative !important;
-    width: 100% !important;
-    max-width: 440px !important;
+    width: min(88vw, 320px) !important;
+    max-width: none !important;
+    min-height: 380px !important;
     margin-inline: auto !important;
-    min-height: unset !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    border-radius: var(--r-xl) !important;
-    overflow: hidden !important;
+    display: block !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    transform: none !important;
+    border-radius: 0 !important;
   }
 
-  /* Background.png mit langsamem Ken-Burns-Zoom hinter dem Mobile-Hero */
-  .hphoto-wrap::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center center / cover no-repeat;
-    z-index: 0;
-    pointer-events: none;
-    opacity: 0.55;
-    transform: scale(1);
-    transform-origin: center center;
-    animation: heroZoom 20s ease-in-out infinite alternate;
+  .hphoto {
+    position: absolute !important;
+    top: 20px !important;
+    right: 0 !important;
+    left: auto !important;
+    width: 78% !important;
+    height: auto !important;
+    max-width: none !important;
   }
-  @keyframes heroZoom {
+
+  .hbg-anim {
+    display: block !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: -20px !important;
+    left: auto !important;
+    width: 78% !important;
+    height: auto !important;
+    aspect-ratio: 3/4 !important;
+  }
+
+  .hbg-inner {
+    animation: heroMobileZoom 20s ease-in-out infinite alternate !important;
+  }
+
+  @keyframes heroMobileZoom {
     from { transform: scale(1); }
-    to   { transform: scale(1.12); }
+    to   { transform: scale(1.10); }
   }
+
   @media (prefers-reduced-motion: reduce) {
-    .hphoto-wrap::after { animation: none; }
+    .hbg-inner { animation: none !important; }
   }
 
   /* Tagline auf Mobile größer + Zeilenumbruch nach "Lösung -" weg */
   .htagline-br { display: none !important; }
   .htagline { font-size: clamp(1.25rem, 1.05rem + 1vw, 1.5rem) !important; line-height: 1.45 !important; }
-
-  .hphoto-wrap::before {
-    content: '';
-    display: block;
-    width: 100%;
-    max-width: 440px;
-    aspect-ratio: 3/4;
-    background: image-set(url('/images/mobile-hero-bild2.webp') type('image/webp'), url('/images/mobile-hero-bild2.png') type('image/png')) center top / contain no-repeat;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-  }
 
   .hgrid {
     display: flex !important;
