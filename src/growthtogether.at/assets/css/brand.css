@@ -488,22 +488,31 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     align-items: center !important;
   }
 
-  /* Glow behind mobile hero */
+  /* Background.png mit langsamem Ken-Burns-Zoom hinter dem Mobile-Hero */
   .hphoto-wrap::after {
     content: '';
     position: absolute;
     top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%; height: 85%;
-    background: radial-gradient(ellipse at center,
-      rgba(1,105,111,0.32) 0%,
-      rgba(1,105,111,0.16) 40%,
-      rgba(1,105,111,0.06) 65%,
-      transparent 80%);
-    border-radius: 50%;
+    width: 100%; height: 100%;
+    background: image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center center / cover no-repeat;
+    border-radius: var(--r-xl);
     z-index: 0;
     pointer-events: none;
+    opacity: 0.55;
+    transform: translate(-50%, -50%) scale(1);
+    animation: heroZoom 20s ease-in-out infinite alternate;
   }
+  @keyframes heroZoom {
+    from { transform: translate(-50%, -50%) scale(1); }
+    to   { transform: translate(-50%, -50%) scale(1.12); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hphoto-wrap::after { animation: none; }
+  }
+
+  /* Tagline auf Mobile größer + Zeilenumbruch nach "Lösung -" weg */
+  .htagline-br { display: none !important; }
+  .htagline { font-size: clamp(1.25rem, 1.05rem + 1vw, 1.5rem) !important; line-height: 1.45 !important; }
 
   /* Mobile hero image — bigger, less top space */
   .hphoto-wrap::before {
