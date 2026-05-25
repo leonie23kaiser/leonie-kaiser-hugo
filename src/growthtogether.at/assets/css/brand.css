@@ -406,7 +406,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 
 /* hbg + hero photo animations */
 .hbg-anim{
-  position:absolute;top:0;right:-60px;width:320px;height:100%;
+  position:absolute;top:0;left:0;right:-60px;width:auto;height:100%;
   overflow:hidden;opacity:1;z-index:1;pointer-events:none;
   border-radius:var(--r-2xl);
   filter:drop-shadow(0 18px 26px rgba(8,101,132,.08));
@@ -446,7 +446,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 
   .nav-cta, .ncta { display: none !important; }
 
-  body, .hero, .hsection, .hgrid, .hphoto-wrap,
+  body, .hero, .hsection, .hgrid,
   section, .container { max-width: 100vw !important; overflow-x: hidden !important; }
 
   .hero { padding-top: calc(68px + var(--s2)) !important; gap: var(--s4) !important; }
@@ -456,29 +456,32 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .hphoto-wrap {
     position: relative !important;
     width: 100% !important;
+    max-width: 440px !important;
+    margin-inline: auto !important;
     min-height: unset !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+    border-radius: var(--r-xl) !important;
+    overflow: hidden !important;
   }
 
   /* Background.png mit langsamem Ken-Burns-Zoom hinter dem Mobile-Hero */
   .hphoto-wrap::after {
     content: '';
     position: absolute;
-    top: 50%; left: 50%;
-    width: 100%; height: 100%;
+    inset: 0;
     background: image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center center / cover no-repeat;
-    border-radius: var(--r-xl);
     z-index: 0;
     pointer-events: none;
     opacity: 0.55;
-    transform: translate(-50%, -50%) scale(1);
+    transform: scale(1);
+    transform-origin: center center;
     animation: heroZoom 20s ease-in-out infinite alternate;
   }
   @keyframes heroZoom {
-    from { transform: translate(-50%, -50%) scale(1); }
-    to   { transform: translate(-50%, -50%) scale(1.12); }
+    from { transform: scale(1); }
+    to   { transform: scale(1.12); }
   }
   @media (prefers-reduced-motion: reduce) {
     .hphoto-wrap::after { animation: none; }
