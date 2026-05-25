@@ -132,6 +132,7 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
   overflow:hidden;
   box-shadow:var(--sh-lg);
   z-index:2;
+  transform:translateZ(0);
 }
 .hphoto img{
   width:100%;
@@ -423,9 +424,9 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   75%{transform:translate3d(8px,-4px,0) scale(1.05)}
   100%{transform:translate3d(0,0,0) scale(1.02)}
 }
-.hphoto-wrap{position:relative;overflow:visible;padding-right:92px;padding-top:24px;transform:translateX(0)}
+.hphoto-wrap{position:relative;overflow:visible;padding-right:92px;padding-top:24px;isolation:isolate}
 .hphoto-wrap > *:not(.hbg-anim){position:relative;z-index:2}
-.hphoto{right:-100px}
+.hphoto{right:-140px}
 .hbg-anim{right:-130px}
 @media(max-width:920px){
   .hphoto-wrap{padding-right:44px;padding-top:22px;min-height:430px;transform:translateX(40px)}
