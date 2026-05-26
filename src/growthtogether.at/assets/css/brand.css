@@ -408,14 +408,15 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 /* hbg + hero photo animations */
 .hbg-anim{
   position:absolute;top:-30px;right:-30px;width:320px;height:auto;aspect-ratio:3/4;
-  overflow:hidden;opacity:1;z-index:1;pointer-events:none;
-  border-radius:var(--r-2xl);
+  opacity:1;z-index:1;pointer-events:none;
+  clip-path:inset(0 round var(--r-2xl));
   box-shadow:0 18px 26px rgba(8,101,132,.08);
 }
 .hbg-inner{
   width:100%;height:100%;
   background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) calc(50% + 30px) center/cover no-repeat;
   transform-origin:center center;animation:bgConsultantFloat 8s ease-in-out infinite;
+  border-radius:var(--r-2xl);
 }
 @keyframes bgConsultantFloat{
   0%{transform:translate3d(0,0,0) scale(1.02)}
