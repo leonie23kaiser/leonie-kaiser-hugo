@@ -409,11 +409,11 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .hbg-anim{
   position:absolute;top:-30px;right:-30px;width:320px;height:auto;aspect-ratio:3/4;
   opacity:1;z-index:1;pointer-events:none;
-  overflow:hidden;border-radius:var(--r-2xl);
   box-shadow:0 18px 26px rgba(8,101,132,.08);
 }
 .hbg-inner{
   width:100%;height:100%;
+  border-radius:var(--r-2xl);
   background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) calc(50% + 30px) 50%/108% auto no-repeat;
   animation:bgHeroFloat 8s ease-in-out infinite;
 }
@@ -464,7 +464,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
     display: flex !important;
     left: 0 !important;
     right: auto !important;
-    bottom: -8px !important;
+    bottom: 24px !important;
     min-width: min(270px, calc(100vw - 48px)) !important;
     max-width: min(300px, calc(100vw - 48px)) !important;
   }
