@@ -409,13 +409,14 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .hbg-anim{
   position:absolute;top:-30px;right:-30px;width:320px;height:auto;aspect-ratio:3/4;
   opacity:1;z-index:1;pointer-events:none;
+  overflow:hidden;border-radius:var(--r-2xl);
   box-shadow:0 18px 26px rgba(8,101,132,.08);
+  animation:bgHeroFloat 8s ease-in-out infinite;
+  will-change:transform;
 }
 .hbg-inner{
-  width:100%;height:100%;
-  border-radius:var(--r-2xl);
-  background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) calc(50% + 30px) 50%/108% auto no-repeat;
-  animation:bgHeroFloat 8s ease-in-out infinite;
+  position:absolute;inset:0;
+  background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center/cover no-repeat;
 }
 @keyframes bgConsultantFloat{
   0%{transform:translate3d(0,0,0) scale(1.02)}
@@ -425,11 +426,11 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   100%{transform:translate3d(0,0,0) scale(1.02)}
 }
 @keyframes bgHeroFloat{
-  0%  {background-size:108% auto;background-position:calc(50% + 30px) 50%}
-  25% {background-size:112% auto;background-position:calc(50% + 36px) 48%}
-  50% {background-size:116% auto;background-position:calc(50% + 32px) 46%}
-  75% {background-size:112% auto;background-position:calc(50% + 38px) 47%}
-  100%{background-size:108% auto;background-position:calc(50% + 30px) 50%}
+  0%  {transform:translate3d(0,0,0) scale(1)}
+  25% {transform:translate3d(3px,-4px,0) scale(1.02)}
+  50% {transform:translate3d(1px,-6px,0) scale(1.04)}
+  75% {transform:translate3d(4px,-2px,0) scale(1.02)}
+  100%{transform:translate3d(0,0,0) scale(1)}
 }
 .hphoto-wrap{position:relative;overflow:visible;padding-right:92px;padding-top:24px;isolation:isolate}
 .hphoto-wrap > *:not(.hbg-anim){position:relative;z-index:2}
@@ -462,6 +463,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 
   .hbubble {
     display: flex !important;
+    position: absolute !important;
     left: 0 !important;
     right: auto !important;
     bottom: 24px !important;
@@ -504,7 +506,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .hbg-inner { animation: none !important; }
+    .hbg-anim { animation: none !important; }
   }
 
   /* Tagline auf Mobile größer + Zeilenumbruch nach "Lösung -" weg */
