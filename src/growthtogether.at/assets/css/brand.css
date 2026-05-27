@@ -411,12 +411,11 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   opacity:1;z-index:1;pointer-events:none;
   overflow:hidden;border-radius:var(--r-2xl);
   box-shadow:0 18px 26px rgba(8,101,132,.08);
-  animation:bgHeroFloat 8s ease-in-out infinite;
-  will-change:transform;
 }
 .hbg-inner{
   position:absolute;inset:0;
-  background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center/cover no-repeat;
+  background:image-set(url('/images/background.webp') type('image/webp'), url('/images/background.png') type('image/png')) center 50%/108% auto no-repeat;
+  animation:bgHeroZoom 8s ease-in-out infinite;
 }
 @keyframes bgConsultantFloat{
   0%{transform:translate3d(0,0,0) scale(1.02)}
@@ -425,12 +424,10 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   75%{transform:translate3d(8px,-4px,0) scale(1.05)}
   100%{transform:translate3d(0,0,0) scale(1.02)}
 }
-@keyframes bgHeroFloat{
-  0%  {transform:translate3d(0,0,0) scale(1)}
-  25% {transform:translate3d(3px,-4px,0) scale(1.02)}
-  50% {transform:translate3d(1px,-6px,0) scale(1.04)}
-  75% {transform:translate3d(4px,-2px,0) scale(1.02)}
-  100%{transform:translate3d(0,0,0) scale(1)}
+@keyframes bgHeroZoom{
+  0%  {background-size:108% auto}
+  50% {background-size:118% auto}
+  100%{background-size:108% auto}
 }
 .hphoto-wrap{position:relative;overflow:visible;padding-right:92px;padding-top:24px;isolation:isolate}
 .hphoto-wrap > *:not(.hbg-anim){position:relative;z-index:2}
@@ -506,7 +503,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .hbg-anim { animation: none !important; }
+    .hbg-inner { animation: none !important; }
   }
 
   /* Tagline auf Mobile größer + Zeilenumbruch nach "Lösung -" weg */
