@@ -1,6 +1,6 @@
 ---
 title: "KI f\u00fcr Psychotherapie-Praxen \u2013 strukturiert, datenschutzkonform, praxisnah"
-description: "KI in der Psychotherapie verantwortungsvoll einsetzen – Erstkontakt strukturieren, Verlaufsnotizen vorbereiten, Aufklärungsmaterial automatisieren. Berufsrecht und DSGVO gewahrt."
+description: "KI in der Psychotherapie einsetzen – Erstkontakt strukturieren, Verlaufsnotizen vorbereiten, Aufklärungsmaterial automatisieren. Berufsrecht und DSGVO gewahrt."
 type: branche
 layout: single
 slug: ki-fuer-psychotherapie-praxen

@@ -1,6 +1,6 @@
 ---
 title: "EU AI Act – Was kleine Unternehmen in Österreich wirklich tun müssen"
-description: "EU AI Act in Klartext für KMU und Solo-Unternehmer in Österreich: Welche Pflichten greifen, welche Risiko-Stufe gilt für Ihren KI-Einsatz – und welche Dokumentation Sie brauchen."
+description: "EU AI Act für KMU in Österreich: Welche Pflichten greifen, welche Risiko-Stufe gilt für Ihren KI-Einsatz – und welche Dokumentation Sie brauchen."
 type: eu-ai-act
 layout: single
 slug: eu-ai-act

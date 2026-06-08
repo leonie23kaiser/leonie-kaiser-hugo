@@ -55,7 +55,7 @@ jobs:
             --minify \
             --gc \
             --buildFuture \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://leoniekaiser.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
