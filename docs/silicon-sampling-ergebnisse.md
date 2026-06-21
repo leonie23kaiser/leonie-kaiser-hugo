@@ -1,5 +1,5 @@
 # Silicon Sampling – Wichtigste Erkenntnisse
-**Zielgruppe:** Solo-Selbstständige Gesundheits- und Wellness-Experten (AT/DE/CH)  
+**Zielgruppe:** Gesundheits- und Wellness-Experten als Einzelunternehmer (AT/DE/CH)  
 **Methode:** 200 KI-Personas, 3-phasige Blind-Interviews (Schmerzen → Angebotsreaktion → Preisbereitschaft)  
 **Datum:** 21. Juni 2026 | **Modell:** claude-sonnet-4-6 | **Seed:** 42
 
@@ -116,7 +116,7 @@ Das Angebot in Phase 2 war formuliert als *„KI- und Automatisierungs-Systeme d
 **Akzeptabler Preisbereich Einrichtungs-Projekt:** €300 – €1.500
 
 **Strategische Konsequenz:**
-- Der interne Retainer-Zielpreis (€300–1.200/Monat) liegt deutlich über der synthetischen Akzeptanzschwelle (Median €150). Das ist keine Überraschung: Solo-Selbstständige mit €75–90k Jahresumsatz haben knappes Cashflow-Bewusstsein.
+- Der interne Retainer-Zielpreis (€300–1.200/Monat) liegt deutlich über der synthetischen Akzeptanzschwelle (Median €150). Das ist keine Überraschung: Einzelunternehmer mit €75–90k Jahresumsatz haben knappes Cashflow-Bewusstsein.
 - **Empfehlung:** Retainer kleiner und klarer positionieren (z.B. €150–250 „Wartung & Optimierung") statt als vollwertigen Betreuungsvertrag. Alternativ: Retainer erst nach 3 Monaten anbieten, wenn der Wert erlebt wurde.
 - Einrichtungs-Projekt bis €1.500 ist akzeptabel — bei klarer Nutzendemonstration.
 

@@ -5,7 +5,7 @@
 
 ## Ausgangslage
 
-Die Silicon Sampling Studie zeigt: Solo-Selbstständige im Gesundheitsbereich haben einen
+Die Silicon Sampling Studie zeigt: Experten und Einzelunternehmer im Gesundheitsbereich haben einen
 universellen, konkreten Schmerz (Administration, Terminmanagement, Zeitdruck — je 87–100%)
 und niedrige initiale Buchungsbereitschaft (1,1/10), wenn Angebote abstrakt als
 „KI-Systeme" formuliert werden. Die Lösung liegt im Framing, nicht im Produkt.
@@ -108,7 +108,7 @@ Problem nennen → Lösung konkret beschreiben → KI als Werkzeug nachreichen �
 **Name:** KI-Strategie & Roadmap  
 **Preis:** €350  
 **Dauer:** 2,5 Stunden (90 min Call + 60 min Nachbereitung + schriftliche Zusammenfassung)  
-**Ziel:** Für Selbstständige, die erst strategisch einordnen wollen, bevor sie buchen
+**Ziel:** Für Experten, die erst strategisch einordnen wollen, bevor sie buchen
 
 ### Was ist enthalten
 - Tiefe Analyse der aktuellen Prozesse

@@ -5,7 +5,7 @@
 
 ## Positionierungssatz
 
-> **Ich helfe selbstständigen Gesundheits- und Wellness-Experten, das Chaos in ihrem Business zu beenden — mit klaren Prozessen und den passenden Werkzeugen, die ich für sie einrichte, damit sie sich auf ihre eigentliche Arbeit konzentrieren können.**
+> **Ich helfe Gesundheits- und Wellness-Experten, das Chaos in ihrem Business zu beenden — mit klaren Prozessen und den passenden Werkzeugen, die ich für sie einrichte, damit sie sich auf ihre eigentliche Arbeit konzentrieren können.**
 
 **Was das bedeutet, konkret:**
 - Terminbuchung, Rechnungsstellung, E-Mail-Antworten, Follow-up — das läuft, ohne dass man ständig hinterherlaufen muss.
@@ -16,7 +16,7 @@
 
 ## Zielgruppe (scharf definiert)
 
-**Wer:** Solo-Selbstständige im Gesundheits- und Wellnessbereich  
+**Wer:** Experten und Einzelunternehmer im Gesundheits- und Wellnessbereich  
 **Branchen:** Ernährungsberatung, Physiotherapie, Personal Training, BGF/Prävention, Longevity & Wellness  
 **Geografie:** AT/DE/CH (Remote + vor Ort)  
 **Umsatz:** ca. €50–120k/Jahr  
@@ -26,7 +26,7 @@
 
 ### Portrait: „Anna"
 
-Anna ist 43, selbstständige Physiotherapeutin in Linz, Jahresumsatz ca. €80k.
+Anna ist 43, Physiotherapeutin und Einzelunternehmerin in Linz, Jahresumsatz ca. €80k.
 Sie arbeitet allein. Jeden Abend schreibt sie Rechnungen, beantwortet Mails,
 koordiniert Absagen. Das frisst sie auf. Sie weiß, dass etwas anders werden muss —
 aber sie weiß nicht, wo sie anfangen soll. Und sie hat keine Zeit, sich durch
@@ -104,7 +104,7 @@ explizites Thema.
 **Warum Leonie, nicht jemand anderen?**
 
 1. **Gesundheitsbranche spezifisch:** DSGVO Art. 9 (besondere Kategorien), Berufsgeheimnis, EU AI Act — das ist kein allgemeines IT-Consulting.
-2. **Solo für Solo:** Die Lösungen sind für eine Person gebaut, nicht für Teams. Kein Overengineering.
+2. **Für Einzelunternehmer gebaut:** Die Lösungen sind für eine Person gebaut, nicht für Teams. Kein Overengineering.
 3. **Ich richte ein, Sie entscheiden:** Keine Selbstlernkurse, kein „jetzt machen Sie das selbst". Vollständige Einrichtung inklusive.
 4. **TÜV Rheinland zertifiziert (2026):** EU-KI-VO Art. 4, n8n-Automatisierung, Implementierung — nicht nur Theorie.
 5. **Ohne amerikanische Clouds:** Wo der Datenschutz es erfordert, kommen On-Premise- oder EU-Server-Lösungen. Das wird explizit gezeigt.
@@ -115,7 +115,7 @@ explizites Thema.
 ## 12-Monats-Ziel
 
 - **Umsatz:** €40–60k (1–2 neue Kunden/Monat, Mix Projekt + Retainer)
-- **Positionierung:** Erste Wahl für Solo-Selbstständige im Gesundheitsbereich in AT/DE/CH, wenn es um datenschutzkonforme Prozess-Automatisierung geht
+- **Positionierung:** Erste Wahl für Experten und Einzelunternehmer im Gesundheitsbereich in AT/DE/CH, wenn es um datenschutzkonforme Prozess-Automatisierung geht
 - **Content:** Journal-Beiträge zu konkreten Prozesslösungen (nicht KI-Theorie), LinkedIn-Präsenz im Gesundheitsbereich
 
 ---
