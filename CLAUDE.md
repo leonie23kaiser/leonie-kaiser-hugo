@@ -96,6 +96,29 @@ Invoke `/hugo-learn` after significant work to capture learnings (`reflect`, `up
 - **JSON-LD via `dict` + `jsonify`:** never string templates. See `partials/seo-jsonld.html`.
 - **Single-language:** de-AT only. No i18n setup needed unless the client explicitly asks.
 
+## Strategie-Dokumente: `docs/*.md` ↔ `docs/word/*.docx`
+
+Leonies Strategie-Unterlagen liegen **doppelt** vor:
+
+- **`docs/<name>.md`** = kanonische Quelle. Hier wird inhaltlich gearbeitet,
+  diese Dateien liest Claude und versioniert das Repo. Bei Konflikt gilt die `.md`.
+- **`docs/word/<name>.docx`** = Leonies persönliche Kopie für Google Drive.
+  Nur Ausgabe, niemals Quelle. Wird **aus der `.md` generiert**.
+
+Betroffene Paare (Stand Juni 2026): `silicon-sampling-ergebnisse`,
+`positionierung`, `angebotsvorschlaege`.
+
+**Regel:** Jede inhaltliche Änderung zuerst in der `.md` machen, dann die `.docx`
+neu erzeugen, damit beide deckungsgleich bleiben. Niemals nur eine Seite ändern.
+
+`.docx`-Generierung (LibreOffice-HTML-Filter ist in dieser Umgebung kaputt → über
+`python-docx`, Konverter liegt im Repo unter `docs/word/md2docx.py`; ggf.
+`pip3 install python-docx`):
+
+```bash
+python3 docs/word/md2docx.py docs/<name>.md docs/word/<name>.docx
+```
+
 ## Related projects
 
 - `aeshilion/superleague-hugo` — the reference repository this site mirrors. Look there first for pattern questions.
