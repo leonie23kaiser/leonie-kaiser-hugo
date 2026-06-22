@@ -106,7 +106,8 @@ Leonies Strategie-Unterlagen liegen **doppelt** vor:
   Nur Ausgabe, niemals Quelle. Wird **aus der `.md` generiert**.
 
 Betroffene Paare (Stand Juni 2026): `silicon-sampling-ergebnisse`,
-`positionierung`, `angebotsvorschlaege`.
+`positionierung`, `angebotsvorschlaege`. Zusätzlich: `AGENTS.md` (Repo-Quelle) →
+`docs/word/brand-voice.docx` (Leonies Drive-Kopie).
 
 **Regel:** Jede inhaltliche Änderung zuerst in der `.md` machen, dann die `.docx`
 neu erzeugen, damit beide deckungsgleich bleiben. Niemals nur eine Seite ändern.
