@@ -1,13 +1,12 @@
 {
   "model": "claude-sonnet-4-6",
   "prompt_version": "2026-06-25.v1",
+  "persona_count": 220,
   "seed": 20260625,
   "concurrency": 8,
-  "elapsed_seconds": 1301.4,
-  "timestamp": "2026-06-25T09:08:12+0000",
+  "elapsed_seconds": 1748.8,
+  "timestamp": "2026-06-25T10:44:35+0000",
   "esomar_note": "Synthetische Daten (Silicon Sampling) gemaess ESOMAR ICC Code 2025. Ergebnisse sind Hypothesen, keine validierten Fakten.",
-  "persona_count_requested": 220,
-  "persona_count_completed": 99,
-  "abort_reason": "Anthropic-Guthaben aufgebraucht nach 99 vollständigen Personas (121 Personas nicht befragt). Lauf ist via Checkpoint fortsetzbar, sobald Guthaben aufgeladen ist (run_study.py überspringt fertige).",
-  "max_tokens_per_call": 3000
+  "persona_count_completed": 220,
+  "abort_reason": "Vollständig abgeschlossen (220/220). Lauf in zwei Etappen: erst 99 (Guthaben aufgebraucht), dann nach Aufladen die restlichen 121 via Checkpoint-Resume."
 }

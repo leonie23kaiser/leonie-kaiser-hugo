@@ -7,8 +7,7 @@
 ## Methodik (reproduzierbar)
 
 - **Modell:** `claude-sonnet-4-6`
-- **Personas:** 99 vollständig befragt (von 220 geplant — Lauf endete, als das API-Guthaben aufgebraucht war; via Checkpoint jederzeit fortsetzbar), deterministisch geseedet (Seed `20260625`).
-- ⚠️ **Stichprobengröße:** n=99 liegt **über** der Schwelle für qualitative Insights (≥20), aber **unter** der Workbook-Empfehlung von ≥200 für belastbare *quantitative* Auswertung. Zahlen (Buchungs-Ø, Van-Westendorp) daher als **richtungsweisend**, nicht als präzise lesen; die qualitativen O-Töne sind bereits tragfähig. Aufstocken auf ≥200 jederzeit möglich (Guthaben laden, `run_study.py` erneut starten).
+- **Personas:** 220 vollständig befragt, deterministisch geseedet (Seed `20260625`).
 - **Prompt-Version:** `2026-06-25.v1`
 - **Befragung:** 3-Phasen-Multi-Turn, blind. Phase 1 (offen) **vor** jeder Konzept-Nennung; keine Leading-Fragen; Personas ausdrücklich zu Kritik/Ablehnung ermutigt.
 - **Persona-Generierung & Prompts:** vollständig im Repo (`personas.py`, `prompts.py`).
@@ -16,77 +15,77 @@
 
 ### Stichprobenstruktur
 
-**Branche:** Physiotherapie-/Therapiepraxis (21) · Ernährungs-/Gesundheitszentrum (20) · Personal-Training-Studio (20) · Präventions-/BGF-Anbieter (19) · Wellness-/Longevity-Praxis (Premium) (19)
+**Branche:** Physiotherapie-/Therapiepraxis (44) · Ernährungs-/Gesundheitszentrum (44) · Personal-Training-Studio (44) · Präventions-/BGF-Anbieter (44) · Wellness-/Longevity-Praxis (Premium) (44)
 
-**Land:** CH (37) · DE (33) · AT (29)
+**Land:** CH (76) · DE (76) · AT (68)
 
-**Haltung:** neugierig-offen (21) · skeptisch (20) · pragmatisch-abwägend (17) · überfordert / zu wenig Zeit (14) · desinteressiert / sieht keinen Bedarf (12) · früher Anwender / probiert gern Neues (10) · stark skeptisch (5)
+**Haltung:** neugierig-offen (45) · pragmatisch-abwägend (42) · skeptisch (35) · überfordert / zu wenig Zeit (33) · desinteressiert / sieht keinen Bedarf (29) · früher Anwender / probiert gern Neues (21) · stark skeptisch (15)
 
 ## 1. Häufigste Pain Points (gruppiert & nach Häufigkeit)
 
-*Häufigkeit = Zahl der Personas (von 99), die diesen Themenbereich in Phase 1 von sich aus nannten.*
+*Häufigkeit = Zahl der Personas (von 220), die diesen Themenbereich in Phase 1 von sich aus nannten.*
 
-### Verwaltung, Bürokratie & Abrechnung — 82 Personas (83%)
-`████████████████████····`
+### Verwaltung, Bürokratie & Abrechnung — 193 Personas (88%)
+`█████████████████████···`
 
 **O-Töne:**
+- „Administrative Systeme sind nicht vernetzt – Kalender, Abrechnung, Dossiers laufen separat"  
+  <sub>— P046, Physiotherapie-/Therapiepraxis</sub>
 - „Administrative Kleinteiligkeit durch unterschiedliche Krankenkassen-Logiken und -Formulare"  
   <sub>— P104, Präventions-/BGF-Anbieter</sub>
-- „Abrechnung mit Krankenkassen und Heilmittelverordnungen bindet zu viele manuelle Schritte"  
-  <sub>— P006, Physiotherapie-/Therapiepraxis</sub>
-- „Kundenanfragen (Abrechnung, Abo-Pausen, Termine) landen direkt bei Birgit statt beim Team"  
-  <sub>— P178, Personal-Training-Studio</sub>
-- „Rechnungswesen und Leistungserfassung landen immer wieder bei mir statt delegiert zu sein"  
-  <sub>— P195, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Buchhaltungsvorbereitung passt nie zum komplexen Angebotsstruktur, bleibt manuell hängen"  
-  <sub>— P037, Ernährungs-/Gesundheitszentrum</sub>
+- „Kleinkram-Administration die sich nicht erledigt (Offerten in Word, manuelles PDF-Versand)"  
+  <sub>— P214, Präventions-/BGF-Anbieter</sub>
+- „Monatliche Abrechnung: Stundenlisten, Rechnungen, Zahlungsverfolgung – stupide Fleißarbeit"  
+  <sub>— P098, Personal-Training-Studio</sub>
+- „Abrechnung mit Krankenkassen: unterschiedliche Formulare, Fristen, hoher manueller Aufwand"  
+  <sub>— P157, Ernährungs-/Gesundheitszentrum</sub>
 
-### Personal: Finden, Halten, Führen — 78 Personas (79%)
-`███████████████████·····`
+### Personal: Finden, Halten, Führen — 159 Personas (72%)
+`█████████████████·······`
 
 **O-Töne:**
+- „Permanente Doppelrolle als Führungsperson und Fachperson – nie ganz in einer Rolle präsent"  
+  <sub>— P187, Ernährungs-/Gesundheitszentrum</sub>
+- „Personalplanung läuft über selbstgebastelte Excel-Tabelle – fehleranfällig und zeitraubend"  
+  <sub>— P208, Personal-Training-Studio</sub>
 - „Ewiges Koordinieren von Dienstplänen, Urlauben und Klientenpräferenzen mit Papier und Excel"  
   <sub>— P056, Physiotherapie-/Therapiepraxis</sub>
 - „Perfektionismus kombiniert mit fehlenden Prozessen führt dazu, Aufgaben nicht loszulassen"  
   <sub>— P124, Präventions-/BGF-Anbieter</sub>
-- „Wöchentliche Dienstplanung mit komplexen Variablen (Urlaub, Krankenstand, Kassenverträge)"  
-  <sub>— P061, Physiotherapie-/Therapiepraxis</sub>
-- „Systeme werden eingeführt aber nicht eingehalten, muss ständig nachhalten oder selbst machen"  
-  <sub>— P006, Physiotherapie-/Therapiepraxis</sub>
-- „Doppelrolle Behandlung und Führung zerfetzt den Tag – keine ruhige Zeit für Führungsaufgaben"  
-  <sub>— P056, Physiotherapie-/Therapiepraxis</sub>
+- „Kommunikation im Team läuft über viele verschiedene Kanäle, Julia als zentraler Verteiler"  
+  <sub>— P157, Ernährungs-/Gesundheitszentrum</sub>
 
-### Terminorganisation & No-Shows — 66 Personas (67%)
+### Terminorganisation & No-Shows — 148 Personas (67%)
 `████████████████········`
 
 **O-Töne:**
 - „Papierkalender und WhatsApp statt einheitlichem System führen zu Doppelbuchungen und Chaos"  
   <sub>— P085, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Kein einheitliches System – Papierkalender, WhatsApp und handschriftliche Notizen parallel"  
+  <sub>— P163, Personal-Training-Studio</sub>
+- „Terminkollisionen durch dezentrale Kalenderführung – Klienten standen vor besetzten Räumen"  
+  <sub>— P167, Ernährungs-/Gesundheitszentrum</sub>
 - „Terminkoordination täglich aufwändig und fehleranfällig durch fehlende gemeinsame Übersicht"  
   <sub>— P080, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Unübersichtlichkeit durch Papierkalender und Excel-Listen, Terminpannen die peinlich sind"  
   <sub>— P203, Personal-Training-Studio</sub>
-- „Mehrschrittige Terminkommunikation (Anruf, Zettel, Rückruf) statt automatisierter Buchung"  
-  <sub>— P027, Ernährungs-/Gesundheitszentrum</sub>
-- „Keine feste Assistenz: Terminkoordination und Organisationsaufgaben fallen unstrukturiert an"  
-  <sub>— P034, Präventions-/BGF-Anbieter</sub>
 
-### Kommunikation mit Klient:innen — 57 Personas (58%)
+### Kommunikation mit Klient:innen — 131 Personas (60%)
 `██████████████··········`
 
 **O-Töne:**
+- „Kommunikation mit Klient:innen über zu viele verschiedene Kanäle (WhatsApp, Anruf, E-Mail)"  
+  <sub>— P095, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Interne Kommunikation chaotisch, läuft über WhatsApp und Zettel, kein strukturierter Kanal"  
   <sub>— P130, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Teamkommunikation funktioniert nicht – alles landet undifferenziert in einer WhatsApp-Gruppe"  
-  <sub>— P085, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Fragmentierte interne Kommunikation über mehrere Kanäle (Software, WhatsApp, E-Mail, Zettel)"  
-  <sub>— P001, Physiotherapie-/Therapiepraxis</sub>
-- „Interne Kommunikation chaotisch – verschiedene Kanäle, Informationen kommen nicht überall an"  
-  <sub>— P127, Ernährungs-/Gesundheitszentrum</sub>
-- „Interne Kommunikation über verschiedene Kanäle (WhatsApp, E-Mail, Zettel) – kein roter Faden"  
-  <sub>— P198, Personal-Training-Studio</sub>
+- „Informationen versickern in verschiedenen Kanälen (WhatsApp, Mail, Praxissoftware, Zettel)"  
+  <sub>— P187, Ernährungs-/Gesundheitszentrum</sub>
+- „Wiederkehrende Unterbrechungen durch Rückfragen, die ein klares Regelwerk verhindern würde"  
+  <sub>— P110, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Unstrukturierte Mehrkanalkommunikation mit Klientinnen (WhatsApp, Mail, Telefon gemischt)"  
+  <sub>— P183, Personal-Training-Studio</sub>
 
-### Digitalisierung & Tools (Frust/Lücken) — 46 Personas (46%)
+### Digitalisierung & Tools (Frust/Lücken) — 105 Personas (48%)
 `███████████·············`
 
 **O-Töne:**
@@ -96,168 +95,198 @@
   <sub>— P104, Präventions-/BGF-Anbieter</sub>
 - „Manuelle Verwaltung von Abo-Mutationen (Pause, Kündigung, Wechsel) ohne Systemunterstützung"  
   <sub>— P173, Personal-Training-Studio</sub>
-- „Fehlende oder instabile Automatisierungen/Schnittstellenprobleme trotz Technikaffinität"  
-  <sub>— P172, Ernährungs-/Gesundheitszentrum</sub>
-- „Manuelle Terminverwaltung per Telefon und Zettel – besonders bei Krankheitsausfällen aufwändig"  
-  <sub>— P056, Physiotherapie-/Therapiepraxis</sub>
+- „Fehlende Systeme: Papier, Zettel, mündliche Absprachen – unzuverlässig bei Abwesenheiten"  
+  <sub>— P087, Ernährungs-/Gesundheitszentrum</sub>
+- „Kollegin Bettina schwer für digitale Tools zu begeistern, dadurch viel Erklärungsaufwand"  
+  <sub>— P112, Ernährungs-/Gesundheitszentrum</sub>
 
-### Wissen, Prozesse & Ablage im Team — 43 Personas (43%)
+### Wissen, Prozesse & Ablage im Team — 96 Personas (44%)
 `██████████··············`
 
 **O-Töne:**
+- „Angebotserstellung für Firmenkunden jedes Mal von Grund auf, kein standardisierter Prozess"  
+  <sub>— P049, Präventions-/BGF-Anbieter</sub>
+- „Immer wiederkehrendes manuelles Onboarding neuer Klientinnen ohne standardisierten Prozess"  
+  <sub>— P098, Personal-Training-Studio</sub>
+- „Langwierige, unstrukturierte Einarbeitung neuer Mitarbeitender ohne Handbuch oder Prozesse"  
+  <sub>— P170, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Kleinigkeiten und Entscheidungen eskalieren zu mir, weil Prozesse nicht dokumentiert sind"  
   <sub>— P172, Ernährungs-/Gesundheitszentrum</sub>
 - „Zu viel Administration läuft über mich, weil klare Systeme und dokumentierte Abläufe fehlen"  
   <sub>— P199, Präventions-/BGF-Anbieter</sub>
-- „Onboarding neuer Mitarbeitender – Wissen steckt nicht in Dokumenten, sondern in meinem Kopf"  
-  <sub>— P151, Physiotherapie-/Therapiepraxis</sub>
-- „Fehlende verlässliche Abläufe trotz dokumentierter Prozesse – niemand liest die Dokumentation"  
-  <sub>— P126, Physiotherapie-/Therapiepraxis</sub>
-- „Prozesse und Standards müssen immer wieder neu erklärt werden – hängt zu sehr an meiner Person"  
-  <sub>— P195, Wellness-/Longevity-Praxis (Premium)</sub>
 
-### Alles hängt an mir / nicht delegieren können — 42 Personas (42%)
-`██████████··············`
+### Alles hängt an mir / nicht delegieren können — 87 Personas (40%)
+`█████████···············`
 
 **O-Töne:**
+- „Wird in Kontrolleur-/Koordinatorrolle gedrängt, die nicht zur eigenen Persönlichkeit passt"  
+  <sub>— P088, Personal-Training-Studio</sub>
+- „Nachfassen bei Interessenten nach Offerten – mental belastend, fühlt sich wie 'betteln' an"  
+  <sub>— P144, Präventions-/BGF-Anbieter</sub>
 - „Lande regelmässig bei Aufgaben, die delegierbar wären, aber Teamgrösse lässt das nicht zu"  
   <sub>— P100, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Zu viel läuft über mich als Leitung – bin selbst der Engpass, übergebe Verantwortung schwer"  
   <sub>— P174, Präventions-/BGF-Anbieter</sub>
 - „Lange, ineffiziente Angebotsphase bei neuen Firmenkunden mit viel Nachfassen und Anpassen"  
   <sub>— P034, Präventions-/BGF-Anbieter</sub>
-- „Operative Wochenplanung und Abwesenheitsmanagement ohne festes System läuft immer über mich"  
-  <sub>— P083, Personal-Training-Studio</sub>
-- „Nachlaufen bei liegengebliebenen Aufgaben, Dinge selber erledigen weil es schneller geht"  
-  <sub>— P001, Physiotherapie-/Therapiepraxis</sub>
 
-### Zeitmangel, Unterbrechungen & Überlastung — 22 Personas (22%)
+### Zeitmangel, Unterbrechungen & Überlastung — 44 Personas (20%)
 `█████···················`
 
 **O-Töne:**
 - „Sitzt abends spät noch vor dem Laptop wegen mangelnder Delegation durch fehlende Strukturen"  
   <sub>— P124, Präventions-/BGF-Anbieter</sub>
+- „Ständige Unterbrechungen durch Teamfragen, die eigentlich strukturell gelöst sein sollten"  
+  <sub>— P205, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Keine Zeit, strukturelle Verbesserungen wirklich umzusetzen, weil immer etwas dazwischenkommt"  
   <sub>— P007, Ernährungs-/Gesundheitszentrum</sub>
 - „Zerstückelung des Alltags – Planung wird ständig durch Unvorhergesehenes unterbrochen"  
   <sub>— P009, Präventions-/BGF-Anbieter</sub>
 - „Reibung zwischen eigenen Qualitätsvorstellungen und tatsächlicher Umsetzung im Alltag"  
   <sub>— P180, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Neue Ideen und Konzepte kommen nicht zur Umsetzung, weil Tagesgeschäft alles frisst"  
-  <sub>— P005, Wellness-/Longevity-Praxis (Premium)</sub>
 
-### Neue Klient:innen aufnehmen / Onboarding — 17 Personas (17%)
+### Neue Klient:innen aufnehmen / Onboarding — 34 Personas (15%)
 `████····················`
 
 **O-Töne:**
 - „Manuelles Neukunden-Onboarding kostet pro Person 1,5–2 Stunden ohne standardisierten Prozess"  
   <sub>— P083, Personal-Training-Studio</sub>
+- „Neukundenaufnahme auf Papier, manuelle Übertragung in Excel, Fehler und Nachfragen inklusive"  
+  <sub>— P167, Ernährungs-/Gesundheitszentrum</sub>
 - „Onboarding neuer Trainer ohne verschriftlichten Prozess – immer wieder dieselben Erklärungen"  
   <sub>— P178, Personal-Training-Studio</sub>
 - „Unstrukturierter Neukunden-Erstkontakt über verschiedene Kanäle ohne Nachverfolgung"  
   <sub>— P078, Personal-Training-Studio</sub>
-- „Onboarding neuer Klientinnen noch zu viel Handarbeit, Halbautomatisierung nach Softwarewechsel kaputt"  
-  <sub>— P150, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Kein strukturiertes Onboarding, Einarbeitung läuft uneinheitlich und nebenbei"  
-  <sub>— P171, Physiotherapie-/Therapiepraxis</sub>
+- „Angefangene Projekte (z.B. Onboarding-Dokument) bleiben liegen wegen Tagesgeschäft"  
+  <sub>— P092, Ernährungs-/Gesundheitszentrum</sub>
 
-### Telefon & Erreichbarkeit — 12 Personas (12%)
+### Telefon & Erreichbarkeit — 29 Personas (13%)
 `███·····················`
 
 **O-Töne:**
+- „Chaotische, dezentrale Kommunikation im Team (SMS, Anruf, Zettel – kein einheitlicher Kanal)"  
+  <sub>— P038, Personal-Training-Studio</sub>
+- „Ungefilterte Zwischenfragen von Klienten per Telefon/Nachricht ohne strukturierten Kanal"  
+  <sub>— P015, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Telefonisches Nachfassen bei Interessenten – viele gehen verloren, weil Rückruf zu spät kommt"  
+  <sub>— P163, Personal-Training-Studio</sub>
+- „Freitags das Gefühl, nichts Wesentliches geschafft zu haben trotz viel Telefonieren und Suchen"  
+  <sub>— P215, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Anrufbeantworter wird von Patienten kaum genutzt, trotzdem muss jemand abhören und zurückrufen"  
   <sub>— P011, Physiotherapie-/Therapiepraxis</sub>
-- „Einzelnes Anrufen aller betroffenen Klienten bei Ausfall einer Kollegin kostet Stunden"  
-  <sub>— P056, Physiotherapie-/Therapiepraxis</sub>
-- „Klienten kontaktieren über mehrere Kanäle (Handy, Mail, Telefon), alles landet manuell beim Team"  
-  <sub>— P125, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Zeitaufwändige manuelle Kommunikation (Telefon, Mail, Anrufbeantworter, Rückrufe)"  
-  <sub>— P196, Physiotherapie-/Therapiepraxis</sub>
-- „Urlaubsplanung und Einsatzplanung über Excel und Telefon, besonders bei Ausfällen"  
-  <sub>— P009, Präventions-/BGF-Anbieter</sub>
 
-### Marketing, Sichtbarkeit & Neukundengewinnung — 5 Personas (5%)
+### Marketing, Sichtbarkeit & Neukundengewinnung — 13 Personas (6%)
 `█·······················`
 
 **O-Töne:**
+- „Offertenwesen: aufwändige individuelle Angebote mit tiefer Abschlussquote und kaum Feedback"  
+  <sub>— P189, Präventions-/BGF-Anbieter</sub>
+- „Muss selbst Marketing/Content machen (Instagram, Newsletter) obwohl das nicht meine Stärke ist"  
+  <sub>— P145, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Muss als Chefin aktiv nachfragen, um Grundinfos zu bekommen – sollte auf einen Blick sichtbar sein"  
+  <sub>— P017, Ernährungs-/Gesundheitszentrum</sub>
+- „Angebote und Offerten jedes Mal fast neu erstellen, keine funktionierende Vorlage"  
+  <sub>— P039, Präventions-/BGF-Anbieter</sub>
 - „Angebote schreiben ohne Vorlagen – jedes Mal von null, halber Tag für ein Angebot"  
   <sub>— P124, Präventions-/BGF-Anbieter</sub>
-- „Marketing und Social Media läuft abends nach 21 Uhr nebenbei – nicht nachhaltig"  
-  <sub>— P033, Personal-Training-Studio</sub>
-- „Langes, unübersichtliches Hin-und-Her bei Offerten und Auftragsgewinnung"  
-  <sub>— P099, Präventions-/BGF-Anbieter</sub>
-- „Konkurrenten mit weniger Substanz dominieren sichtbarer den Markt"  
-  <sub>— P035, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Zu wenig Zeit um bekannte Probleme selbst zu lösen"  
-  <sub>— P061, Physiotherapie-/Therapiepraxis</sub>
 
-### Zukunfts- & Existenzsorgen — 3 Personas (3%)
+### Zukunfts- & Existenzsorgen — 6 Personas (3%)
 `█·······················`
 
 **O-Töne:**
 - „Abhängigkeit des Betriebs von meiner eigenen Person strukturell nicht gelöst"  
   <sub>— P200, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Gesamtüberblick liegt nur bei mir, starke Abhängigkeit von meiner Person"  
+  <sub>— P110, Wellness-/Longevity-Praxis (Premium)</sub>
 - „Fühlt sich nach 12 Jahren noch zu abhängig von ihrer eigenen Präsenz"  
   <sub>— P201, Physiotherapie-/Therapiepraxis</sub>
+- „Kontrollverlust bei Delegation – Angst, dass Qualität leidet"  
+  <sub>— P194, Präventions-/BGF-Anbieter</sub>
 - „Abhängigkeit von einzelnen Schlüsselpersonen"  
   <sub>— P055, Wellness-/Longevity-Praxis (Premium)</sub>
 
-### Finanzen, Liquidität & Wachstumsdruck — 1 Personas (1%)
-`························`
+### Finanzen, Liquidität & Wachstumsdruck — 6 Personas (3%)
+`█·······················`
 
 **O-Töne:**
-- „Interner Flickenteppich trotz gutem Außenauftritt und solidem Umsatz"  
-  <sub>— P085, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Nachfassen bei Hochpreis-Kunden läuft manuell und wird vergessen – kostet konkret Umsatz"  
+  <sub>— P210, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Aktualisierung von Preisen auf Webseite und Printmaterialien immer wieder aufwändig"  
+  <sub>— P095, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Fehlender Einstieg in Automatisierung durch Unklarheit über Aufwand und Kosten"  
+  <sub>— P075, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Preisdiskussionen mit Kunden (mitbekommen, auch wenn nicht direkt involviert)"  
+  <sub>— P188, Personal-Training-Studio</sub>
+- „Fehlende Strukturen trotz fast 500k Umsatz – Betrieb hat nicht mitgewachsen"  
+  <sub>— P067, Ernährungs-/Gesundheitszentrum</sub>
 
 ## 2. Wünsche „per Zauberei" (gruppiert)
 
-### Verwaltung, Bürokratie & Abrechnung — 31 Personas
+### Verwaltung, Bürokratie & Abrechnung — 73 Personas
+- „Ein integriertes System für Dienstplanung, Terminverwaltung und Abrechnung – kein manueller Abgleich, kein Engpass-Ich mehr"  
+  <sub>— P121, Physiotherapie-/Therapiepraxis</sub>
 - „Team arbeitet konsequent und eigenverantwortlich nach gemeinsam definierten Abläufen – ohne dass ich ständig nachsteuern muss"  
   <sub>— P202, Ernährungs-/Gesundheitszentrum</sub>
-- „Ein vollständig integriertes System für Buchung, Dokumentation, Abrechnung und Dienstplanung – ohne aufwendiges Implementierungsprojekt"  
-  <sub>— P061, Physiotherapie-/Therapiepraxis</sub>
-- „Ein durchgängig vernetztes digitales System von Terminbuchung über Dokumentation bis Abrechnung – keine Insellösungen mehr, alles in einem"  
-  <sub>— P171, Physiotherapie-/Therapiepraxis</sub>
-- „Alle administrativen Abläufe (Termine, Abrechnung, Kommunikation, Klientendaten) in einem einzigen, einfach nutzbaren System zusammenführen"  
-  <sub>— P007, Ernährungs-/Gesundheitszentrum</sub>
+- „Terminplanung und Abrechnung laufen automatisch und sauber – ohne abendlichen Aufwand und ohne dass alles in meinem Kopf hängt"  
+  <sub>— P143, Personal-Training-Studio</sub>
+- „Ein einziges System für Termine, Kundendaten, Abrechnung und Teamkommunikation – das funktioniert und vom Team wirklich genutzt wird"  
+  <sub>— P167, Ernährungs-/Gesundheitszentrum</sub>
 
-### Terminorganisation & No-Shows — 28 Personas
+### Terminorganisation & No-Shows — 58 Personas
 - „Vollständig automatisierter Erstkundenprozess – von Anfrage bis gebuchtem Termin ohne manuelle Eingriffe"  
   <sub>— P052, Ernährungs-/Gesundheitszentrum</sub>
 - „Vollautomatische Terminverwaltung mit Warteliste, Absagen und Bestätigungen – ohne manuellen Aufwand im Team"  
   <sub>— P181, Physiotherapie-/Therapiepraxis</sub>
+- „Digitale Terminplanung und interne Kommunikation, die einfach funktioniert – ohne grossen Einrichtungsaufwand"  
+  <sub>— P016, Physiotherapie-/Therapiepraxis</sub>
 - „Alle im Team haben zur selben Zeit dieselbe Information – einheitliche, sofort sichtbare Terminverwaltung für alle"  
   <sub>— P032, Ernährungs-/Gesundheitszentrum</sub>
-- „Vollautomatischer Ablauf für Terminbuchung, Erinnerungen, Rechnungsstellung und Klientenkommunikation – ohne manuellen Eingriff"  
-  <sub>— P027, Ernährungs-/Gesundheitszentrum</sub>
 
-### Wissen, Prozesse & Ablage im Team — 17 Personas
+### Wissen, Prozesse & Ablage im Team — 36 Personas
 - „Funktionierende, einheitliche und wirklich gelebte Prozesse – die ohne meine ständige Anwesenheit laufen"  
   <sub>— P147, Ernährungs-/Gesundheitszentrum</sub>
+- „Betrieb funktioniert eigenständig ohne mich – klare Prozesse, dokumentiertes Wissen, selbstständig arbeitendes Team"  
+  <sub>— P048, Personal-Training-Studio</sub>
 - „Ein einfaches, wirklich genutztes System für Projektübersicht und Teamaufgaben – ohne dass ich es ständig pushen muss"  
   <sub>— P084, Präventions-/BGF-Anbieter</sub>
 - „Implizites Wissen aus meinem Kopf sauber dokumentiert und im Team verankert – damit die Praxis nicht von meiner Anwesenheit abhängt"  
   <sub>— P036, Physiotherapie-/Therapiepraxis</sub>
-- „Klare, dokumentierte und gelebte Prozesse für alle Alltagssituationen, damit ich nicht mehr alles selbst steuern und entscheiden muss"  
-  <sub>— P058, Personal-Training-Studio</sub>
 
-### Personal: Finden, Halten, Führen — 16 Personas
+### Personal: Finden, Halten, Führen — 33 Personas
 - „Prozesse werden vom Team selbstständig und konsequent gelebt – ohne dass ich täglich eingreife oder nachfassen muss"  
   <sub>— P053, Personal-Training-Studio</sub>
-- „Ein zentrales System für Terminplanung, Dienstplan, Kommunikation und Dokumentation – das das gesamte Team konsistent und ohne Widerstand nutzt"  
-  <sub>— P176, Physiotherapie-/Therapiepraxis</sub>
-- „Automatischer wöchentlicher Überblick über freie Kapazitäten, Dienstplan-Status und fehlende Einträge – ohne selbst alles zusammentragen zu müssen"  
-  <sub>— P131, Physiotherapie-/Therapiepraxis</sub>
-- „Echte, gelebte Delegation: Team plant, entscheidet und kommuniziert selbstständig – ich bin Inhaberin, nicht Knotenpunkt und Lückenfüllerin für alles"  
-  <sub>— P001, Physiotherapie-/Therapiepraxis</sub>
+- „Gelebte Eigenverantwortung im Team – klares Rollenmodell mit echten Entscheidungskompetenzen, das im Alltag wirklich funktioniert"  
+  <sub>— P072, Ernährungs-/Gesundheitszentrum</sub>
+- „Team, das wirklich selbstständig und nach klaren Regeln entscheiden kann – ohne dass ich jedes Mal Anker und Entscheidungsinstanz bin"  
+  <sub>— P045, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Ein einziges, zentrales System das Termine, Kommunikation, Aufgaben und Mitarbeiterinformationen bündelt – und das das Team wirklich nutzt"  
+  <sub>— P020, Wellness-/Longevity-Praxis (Premium)</sub>
 
-### Kommunikation mit Klient:innen — 3 Personas
+### Kommunikation mit Klient:innen — 7 Personas
+- „Eine funktionierende interne Koordinations- und Kommunikationsstruktur, die läuft ohne dass ich ständig Feuerwehr spielen muss"  
+  <sub>— P044, Präventions-/BGF-Anbieter</sub>
+- „Auftragsabwicklung von Erstanfrage bis Zahlungseingang läuft automatisch und zuverlässig – ohne dauerndes manuelles Nachschauen und mentale Belastung"  
+  <sub>— P144, Präventions-/BGF-Anbieter</sub>
 - „Vollautomatischer, nahtloser Interessenten- und Onboarding-Prozess – von Erstanfrage bis laufendem Kundenverhältnis – ohne manuellen Aufwand meinerseits"  
   <sub>— P033, Personal-Training-Studio</sub>
-- „Intelligentes System, das alle Kommunikationskanäle filtert, vorsortiert und mit Antwortvorschlägen oder automatischen Aktionen verarbeitet – praxisspezifisch, nicht generisch"  
-  <sub>— P060, Wellness-/Longevity-Praxis (Premium)</sub>
-- „Ein einheitliches, von allen genutztes System für Kundenmanagement und interne Kommunikation, das Angebotsprozesse halbautomatisiert und mich als menschlichen Knotenpunkt ersetzt – um 6–8 Stunden pro Woche zurückzugewinnen"  
-  <sub>— P034, Präventions-/BGF-Anbieter</sub>
+- „Funktionierende Ablauf- und Entscheidungsstrukturen, die den Betrieb auch ohne mich am Laufen halten – klare Prozesse für Anfragen, Angebote, interne Kommunikation"  
+  <sub>— P159, Präventions-/BGF-Anbieter</sub>
+
+### Digitalisierung & Tools (Frust/Lücken) — 6 Personas
+- „Alle Tools vernetzt, ein einziges funktionierendes System für Termine, Kundendaten, Rechnungen und interne Notizen – und ein Team, das es wirklich nutzt"  
+  <sub>— P097, Ernährungs-/Gesundheitszentrum</sub>
+- „Alles in einem System zusammenführen: Kundenverwaltung, Buchungen, Zahlungen und Einsatzplanung auf einen Blick – kein Zettelchaos, keine getrennten Tools"  
+  <sub>— P168, Personal-Training-Studio</sub>
+- „Ein integriertes System das Kundenanfrage, Angebot, Auftragserfassung, Rechnungsstellung und Mahnwesen automatisch verbindet – ohne manuelle Brücken zwischen Tools"  
+  <sub>— P214, Präventions-/BGF-Anbieter</sub>
+- „Ein zentrales Dashboard, das alle vorhandenen Systeme (Software, Kalender, Mail, Buchhaltung) automatisch vernetzt – sodass ich nicht mehr selbst der Klebstoff zwischen Insellösungen sein muss"  
+  <sub>— P120, Wellness-/Longevity-Praxis (Premium)</sub>
+
+### Alles hängt an mir / nicht delegieren können — 2 Personas
+- „Team, das eigenständig und sicher entscheiden kann – funktionierende Strukturen und Zuständigkeiten ohne mich als Flaschenhals"  
+  <sub>— P025, Wellness-/Longevity-Praxis (Premium)</sub>
+- „Ein kohärentes, automatisiertes Prozesssystem für Anfragen, Angebote und Nachfassaktionen – das ohne mich als manuellem Flaschenhals funktioniert"  
+  <sub>— P134, Präventions-/BGF-Anbieter</sub>
 
 ### Neue Klient:innen aufnehmen / Onboarding — 2 Personas
 - „Vollständig automatisierter, schlanker Akquise- und Angebotsprozess – von Erstgespräch bis Nachverfolgung – ohne manuellen Aufwand"  
@@ -265,95 +294,83 @@
 - „Funktionierendes, automatisiertes Neukunden-Onboarding, das trotzdem persönlich wirkt – ohne manuellen Aufwand für mich oder mein Team"  
   <sub>— P083, Personal-Training-Studio</sub>
 
-### Digitalisierung & Tools (Frust/Lücken) — 1 Personas
-- „Vollautomatisierter, medienbruchfreier Klienten-Onboarding- und Nachsorgeprozess mit sauberem Datenfluss ins CRM – ohne manuelles Nachfassen, aber mit hochwertigem persönlichem Erscheinungsbild"  
-  <sub>— P010, Wellness-/Longevity-Praxis (Premium)</sub>
-
-### Telefon & Erreichbarkeit — 1 Personas
-- „Alle Informationen (Termine, Urlaube, Krankmeldungen, Patientenkommunikation, Abrechnung) an einem einzigen, von allen genutzten Ort – ein echter Echtzeit-Überblick ohne Hinterhertelefonieren"  
-  <sub>— P076, Physiotherapie-/Therapiepraxis</sub>
-
 ## 3. Sorgen rund um Wachstum, Personal & Zukunft
 
-**Personal: Finden, Halten, Führen** (92): 
+**Personal: Finden, Halten, Führen** (203): 
+  - „Schwierigkeit, qualifiziertes Personal zu gewinnen und zu halten gegen größere Arbeitgeber" <sub>— P014</sub>
   - „Qualitätsverlust bei Wachstum, Qualitätsanspruch schwer auf neue Mitarbeitende übertragbar" <sub>— P054</sub>
-  - „Schwierigkeit, fachlich gute Mitarbeitende für kleine Praxis zu gewinnen und einzuarbeiten" <sub>— P080</sub>
 
-**Finanzen, Liquidität & Wachstumsdruck** (62): 
+**Finanzen, Liquidität & Wachstumsdruck** (135): 
   - „Wachstum bedeutet mehr Komplexität und Verlust des eigenen fachlichen Kontakts zu Klienten" <sub>— P030</sub>
   - „Wachstum (z.B. zweiter Standort) nicht möglich wegen fehlender stabiler interner Strukturen" <sub>— P053</sub>
 
-**Zukunfts- & Existenzsorgen** (51): 
+**Zukunfts- & Existenzsorgen** (105): 
   - „Kein Wachstumswille, aber Angst vor Bedeutungsverlust und mangelnder Wettbewerbsfähigkeit" <sub>— P029</sub>
   - „Abhängigkeit vom eigenen Dasein – Betrieb läuft nur weil Florian täglich alles zusammenhält" <sub>— P131</sub>
 
-**Wissen, Prozesse & Ablage im Team** (21): 
-  - „Wissen und Prozesse stecken nur im Kopf – keine Dokumentation für Nachfolge oder Übergabe" <sub>— P197</sub>
-  - „Zu viel hängt an der eigenen Person – Wissen, Netzwerk, Kundenbeziehungen nicht übertragbar" <sub>— P204</sub>
+**Wissen, Prozesse & Ablage im Team** (49): 
+  - „Nachfolge ungeklärt: Suche nach unternehmerisch denkenden Ergotherapeuten kaum realistisch" <sub>— P041</sub>
+  - „Keine klare Nachfolgeperspektive – zu viel Wissen und Prozesse stecken im Kopf der Leitung" <sub>— P088</sub>
 
-**Alles hängt an mir / nicht delegieren können** (16): 
-  - „Wachstum (z.B. zweiter Standort) operativ nicht stemmbarer ohne bessere interne Strukturen" <sub>— P028</sub>
-  - „Zu tief im Operativen verstrickt, um Wachstum (zweiter Standort) realistisch anzugehen" <sub>— P108</sub>
+**Digitalisierung & Tools (Frust/Lücken)** (31): 
+  - „Bremse mich selbst beim Wachstum aus, weil das bestehende System mehr Kunden nicht trägt" <sub>— P210</sub>
+  - „Frage, ob Beziehungsqualität gegen skalierbare digitale Angebote kommunizierbar bleibt" <sub>— P060</sub>
 
 ## 4. Reaktion auf das Angebot (Phase 2)
 
-**Buchungswahrscheinlichkeit kostenlose Erstanalyse (1–10):** Ø **5.8** · Median 6 (n=99)
+**Buchungswahrscheinlichkeit kostenlose Erstanalyse (1–10):** Ø **5.8** · Median 6 (n=220)
 
 | Score | Anzahl |
 |---|---|
 | 3 | 1 ················ |
-| 4 | 12 ██·············· |
-| 5 | 14 ██·············· |
-| 6 | 47 ████████········ |
-| 7 | 25 ████············ |
+| 4 | 32 ██·············· |
+| 5 | 38 ███············· |
+| 6 | 93 ███████········· |
+| 7 | 56 ████············ |
 
 ### Nützlichster Teil (gruppiert)
-- **Terminorganisation & No-Shows** — 41 Nennungen
-- **Neue Klient:innen aufnehmen / Onboarding** — 19 Nennungen
-- **Wissen, Prozesse & Ablage im Team** — 16 Nennungen
-- **Kommunikation mit Klient:innen** — 12 Nennungen
-- **Personal: Finden, Halten, Führen** — 6 Nennungen
-- **Verwaltung, Bürokratie & Abrechnung** — 4 Nennungen
+- **Terminorganisation & No-Shows** — 101 Nennungen
+- **Neue Klient:innen aufnehmen / Onboarding** — 42 Nennungen
+- **Wissen, Prozesse & Ablage im Team** — 28 Nennungen
+- **Kommunikation mit Klient:innen** — 22 Nennungen
+- **Personal: Finden, Halten, Führen** — 15 Nennungen
+- **Verwaltung, Bürokratie & Abrechnung** — 9 Nennungen
 
 ### Größte Einwände (gruppiert + O-Töne)
-**Zeitaufwand & Implementierungslast bleibt bei mir** (28):
+**Zeitaufwand & Implementierungslast bleibt bei mir** (56):
   - „Unklare Folgekosten nach der Erstanalyse und hoher eigener Zeitaufwand während der Einführungsphase befürchtet" <sub>— P013, Personal-Training-Studio</sub>
   - „Zeitaufwand für Einführung und Schulung; Angst, dass es mehr kostet als bringt; eigene technische Überforderung" <sub>— P173, Personal-Training-Studio</sub>
-  - „Unklare Folgekosten und unbekannter Einführungsaufwand – kein Budget und keine Kapazität für komplizierte Implementierung" <sub>— P153, Personal-Training-Studio</sub>
+  - „Zweifel, dass externe Person die Spezifik des Betriebs versteht; keine Zeit und Nerven für langen Umstellungsprozess" <sub>— P165, Wellness-/Longevity-Praxis (Premium)</sub>
 
-**Datenschutz & sensible Gesundheitsdaten** (19):
+**Datenschutz & sensible Gesundheitsdaten** (45):
+  - „Datenschutz bei sensiblen Gesundheitsdaten; Angst vor Aufwand der Umstellung und Widerstand im Team" <sub>— P042, Ernährungs-/Gesundheitszentrum</sub>
+  - „Datenschutz und rechtliche Sicherheit bei sensiblen Gesundheitsdaten; Zweifel ob Team neue Systeme wirklich annimmt" <sub>— P212, Ernährungs-/Gesundheitszentrum</sub>
   - „Datenschutz bei Gesundheitsdaten (DSG Schweiz) und fehlende Nachbetreuung nach Einrichtung – keine interne IT-Ressource vorhanden" <sub>— P106, Physiotherapie-/Therapiepraxis</sub>
-  - „Datenschutz bei sensiblen Gesundheitsdaten ist kritisch; Zweifel an Nachhaltigkeit externer Lösungen und fehlender Betreuung nach Einrichtung" <sub>— P152, Ernährungs-/Gesundheitszentrum</sub>
-  - „Datenschutz bei Gesundheitsdaten ist nicht nur Formalität – echte Haftungsfrage; außerdem Zweifel an Nachhaltigkeit ohne laufende externe Betreuung" <sub>— P034, Präventions-/BGF-Anbieter</sub>
 
-**Versteckte Folgekosten / Intransparenz nach Gratis-Analyse** (17):
+**Versteckte Folgekosten / Intransparenz nach Gratis-Analyse** (39):
+  - „Angst vor Entpersönlichung des Studios durch Automatisierung, und Unklarheit über Folgekosten nach der Erstanalyse" <sub>— P183, Personal-Training-Studio</sub>
   - „Wer wartet das System danach – fehlende interne IT-Kapazität; versteckte Folgekosten hinter kostenloser Erstanalyse" <sub>— P179, Präventions-/BGF-Anbieter</sub>
-  - „Aufwand beim Einrichten zu gross für zwei-Personen-Betrieb; Unklarheit über Folgekosten nach kostenloser Erstanalyse" <sub>— P154, Präventions-/BGF-Anbieter</sub>
-  - „Intransparenz über Folgekosten nach der Gratis-Analyse; Zweifel ob externe Person BGF-spezifische Komplexität schnell genug versteht" <sub>— P079, Präventions-/BGF-Anbieter</sub>
+  - „Angst vor einer Lösung, die nicht wirklich passt und brachliegt; Intransparenz über Folgekosten nach der Erstanalyse" <sub>— P092, Ernährungs-/Gesundheitszentrum</sub>
 
-**Wartung & Betreuung danach / Nachhaltigkeit unklar** (14):
+**Wartung & Betreuung danach / Nachhaltigkeit unklar** (30):
+  - „Zu schnelles Setup versteht den Betrieb nicht wirklich; fehlende Nachhaltigkeit wenn externe Person geht und Team das System nicht trägt" <sub>— P025, Wellness-/Longevity-Praxis (Premium)</sub>
   - „Unklar was KI-gestützt konkret bedeutet; Sorge um fehlende Unterstützung nach der Einrichtung – wer hilft wenn etwas nicht funktioniert?" <sub>— P084, Präventions-/BGF-Anbieter</sub>
   - „System wird eingerichtet und dann bin ich allein damit; außerdem unklar was KI-gestützt konkret bedeutet und ob Entscheidungen abgegeben werden" <sub>— P032, Ernährungs-/Gesundheitszentrum</sub>
-  - „Fehlende Nachhaltigkeit nach Projektabschluss und Angst vor zu generischer Lösung, die den spezifischen Gesundheitsbetrieb nicht wirklich abbildet" <sub>— P132, Ernährungs-/Gesundheitszentrum</sub>
 
-**Abhängigkeit von externer Person / Anbieter** (11):
+**Abhängigkeit von externer Person / Anbieter** (24):
+  - „Komplexität durch KI überfordert ältere Mitarbeitende; Abhängigkeit von externer Person, die nach Einrichtung nicht mehr verfügbar ist" <sub>— P065, Wellness-/Longevity-Praxis (Premium)</sub>
   - „Zeitaufwand für die Einrichtung, den ich selbst nicht habe – und Angst vor Abhängigkeit von einer externen Person, wenn das System läuft" <sub>— P123, Personal-Training-Studio</sub>
   - „Zeitinvestition meinerseits für Einblick und Erklärungen; Angst vor neuer Abhängigkeit von externer Person ohne eigene Wartungsfähigkeit" <sub>— P133, Personal-Training-Studio</sub>
-  - „Generische Kommunikation würde Premium-Positionierung beschädigen; Abhängigkeit von externem Anbieter ohne eigene Wartungskompetenz danach" <sub>— P010, Wellness-/Longevity-Praxis (Premium)</sub>
-
-**Angst um Persönlichkeit & Beziehungsqualität** (6):
-  - „Angst vor Unpersönlichkeit durch Automatisierung (Beziehungsqualität ist unser Kernwert) und versteckter Aufwand bei Implementierung" <sub>— P028, Personal-Training-Studio</sub>
-  - „Nachhaltigkeit nach Einrichtung unklar; außerdem Sorge, dass Automatisierung den persönlichen, vertrauensvollen Ton in der Klientenkommunikation zerstört" <sub>— P172, Ernährungs-/Gesundheitszentrum</sub>
-  - „Wer pflegt das System nach der Einrichtung? Und: Passt die Lösung zum Premium-Ton unserer Kommunikation – oder wirkt sie generisch und schadet der Glaubwürdigkeit?" <sub>— P195, Wellness-/Longevity-Praxis (Premium)</sub>
 
 ## 5. Wer entscheidet mit? (Buy-in-Mapping)
 
 | Rolle | Nennungen | Anteil |
 |---|---|---|
-| Team / Mitarbeitende / Praxismanagement | 134 | 53% |
-| Ich allein / Inhaber:in entscheidet | 92 | 37% |
-| Externe Berater:in / Steuer / Datenschutz / IT | 24 | 10% |
-| Geschäftspartner:in / Mitinhaber:in | 2 | 1% |
+| Team / Mitarbeitende / Praxismanagement | 308 | 55% |
+| Ich allein / Inhaber:in entscheidet | 203 | 36% |
+| Externe Berater:in / Steuer / Datenschutz / IT | 49 | 9% |
+| Partner:in / Familie (privat) | 2 | 0% |
+| Geschäftspartner:in / Mitinhaber:in | 2 | 0% |
 
 ## 6. Segment- & Teamgrößen-Unterschiede
 
@@ -361,37 +378,37 @@
 
 | Branche | Ø Buchung | n |
 |---|---|---|
-| Wellness-/Longevity-Praxis (Premium) | 6.1 | 19 |
-| Personal-Training-Studio | 5.9 | 20 |
-| Physiotherapie-/Therapiepraxis | 5.8 | 21 |
-| Ernährungs-/Gesundheitszentrum | 5.8 | 20 |
-| Präventions-/BGF-Anbieter | 5.6 | 19 |
+| Ernährungs-/Gesundheitszentrum | 5.9 | 44 |
+| Wellness-/Longevity-Praxis (Premium) | 5.9 | 44 |
+| Physiotherapie-/Therapiepraxis | 5.8 | 44 |
+| Präventions-/BGF-Anbieter | 5.7 | 44 |
+| Personal-Training-Studio | 5.6 | 44 |
 
 **Buchungswahrscheinlichkeit nach Teamgröße (Ø):**
 
 | Teamgröße | Ø Buchung | n |
 |---|---|---|
-| 2-3 (klein) | 5.7 | 24 |
-| 4-6 (mittel) | 6.1 | 33 |
-| 7-10 (groß) | 5.7 | 42 |
+| 2-3 (klein) | 5.6 | 50 |
+| 4-6 (mittel) | 5.9 | 68 |
+| 7-10 (groß) | 5.8 | 102 |
 
 ## 7. Van-Westendorp-Preisanalyse
 
 *OPP = optimaler Preispunkt (Schnitt „zu günstig"/„zu teuer"); Akzeptanzspanne = PMC–PME (Bereich, in dem weder zu billig noch zu teuer dominiert).*
 
 ### Einmaliges Aufbau-Projekt
-- **Optimaler Preispunkt (OPP): ~2.250 €**
-- Indifferenzpreis (IPP): ~2.825 €
-- **Akzeptanzspanne: ~1.750 € – 3.792 €**
+- **Optimaler Preispunkt (OPP): ~2.167 €**
+- Indifferenzpreis (IPP): ~2.740 €
+- **Akzeptanzspanne: ~1.740 € – 3.667 €**
 - Median „idealer" Preis der Personas: ~2.200 €
-- <sub>n=99 plausible Antworten</sub>
+- <sub>n=220 plausible Antworten</sub>
 
 ### Monatlicher Betreuungs-Retainer
-- **Optimaler Preispunkt (OPP): ~225 €**
-- Indifferenzpreis (IPP): ~312 €
-- **Akzeptanzspanne: ~200 € – 390 €**
+- **Optimaler Preispunkt (OPP): ~220 €**
+- Indifferenzpreis (IPP): ~318 €
+- **Akzeptanzspanne: ~193 € – 386 €**
 - Median „idealer" Preis der Personas: ~320 €
-- <sub>n=99 plausible Antworten</sub>
+- <sub>n=220 plausible Antworten</sub>
 
 ---
 
@@ -403,7 +420,7 @@
 
 1. **Kern-Schmerz ist „Alles hängt an mir" + administrativer Wildwuchs.** Die stärksten Pain-Cluster sind *Verwaltung, Bürokratie & Abrechnung*, *Personal: Finden, Halten, Führen* und *Terminorganisation & No-Shows*. Botschaft sollte nicht „KI/Automatisierung" in den Vordergrund stellen, sondern das Ergebnis: **wieder Inhaber:in sein statt Knotenpunkt/Lückenfüller:in**. Die O-Töne in Abschnitt 1–2 liefern das Vokabular fast wörtlich.
 2. **Einstieg „kostenlose Erstanalyse" zieht, aber lau** (Ø Buchung 5.8/10, Median 6 — Interesse ja, Euphorie nein). Erwartbar bei kalter, neutraler Beschreibung. Hebel ist nicht der Gratis-Einstieg selbst, sondern die Entkräftung der Einwände (siehe B).
-3. **Entscheidung liegt fast nur intern**: „Ich allein" (~37%) und „Team/Praxismanagement" (~53%) dominieren; externe/Partner-Freigaben sind selten. → Sales-Prozess kann schlank 1:1 mit Inhaber:in laufen, sollte aber **das Team als Mitnutzer früh adressieren** (Akzeptanz im Team ist ein wiederkehrender Wunsch).
+3. **Entscheidung liegt fast nur intern**: „Ich allein" (~36%) und „Team/Praxismanagement" (~55%) dominieren; externe/Partner-Freigaben sind selten. → Sales-Prozess kann schlank 1:1 mit Inhaber:in laufen, sollte aber **das Team als Mitnutzer früh adressieren** (Akzeptanz im Team ist ein wiederkehrender Wunsch).
 
 **B · Mittlere Konfidenz** (klares Muster, aber gegen echte Kund:innen zu prüfen)
 
@@ -413,8 +430,8 @@
 
 **C · Preis-Hypothesen** (Van-Westendorp, synthetisch — nur Orientierung)
 
-7. **Aufbau-Projekt:** optimaler Preispunkt ~**2.250 €**. Akzeptanzspanne ~**1.750–3.792 €**. Ein Fixpreis-Einstiegspaket am unteren Rand der Spanne senkt den Folgekosten-Einwand.
-8. **Retainer:** optimaler Preispunkt ~**225 €/Monat**. Akzeptanzspanne ~**200–390 €/Monat**. Liegt im Rahmen kleiner Betriebsbudgets; höhere Stufen brauchen sichtbaren laufenden Nutzen.
+7. **Aufbau-Projekt:** optimaler Preispunkt ~**2.167 €**. Akzeptanzspanne ~**1.740–3.667 €**. Ein Fixpreis-Einstiegspaket am unteren Rand der Spanne senkt den Folgekosten-Einwand.
+8. **Retainer:** optimaler Preispunkt ~**220 €/Monat**. Akzeptanzspanne ~**193–386 €/Monat**. Liegt im Rahmen kleiner Betriebsbudgets; höhere Stufen brauchen sichtbaren laufenden Nutzen.
 9. ⚠️ Bei den *idealen* Preisen zeigte sich leichte LLM-Homogenisierung (Häufung um einzelne Werte). Preispunkte daher als **grobe Korridore**, nicht als exakte Zahlen lesen — vor finaler Preissetzung mit echten Angeboten/Gesprächen testen.
 
-<sub>Generiert aus 99 synthetischen Personas · Modell claude-sonnet-4-6 · Silicon Sampling gemäß ESOMAR ICC Code 2025 · Ergebnisse sind Hypothesen.</sub>
+<sub>Generiert aus 220 synthetischen Personas · Modell claude-sonnet-4-6 · Silicon Sampling gemäß ESOMAR ICC Code 2025 · Ergebnisse sind Hypothesen.</sub>
