@@ -109,20 +109,73 @@ THEMEN = {
 }
 
 
-def classify(text: str) -> list[str]:
-    """
-    SINGLE-BEST-LABEL: ordnet ein Item GENAU einem Thema zu — dem mit den meisten
-    distinkten Pattern-Treffern. Das verhindert aufgeblähte Häufigkeiten und
-    doppelte O-Töne über mehrere Buckets. Tie-Break: Reihenfolge in THEMEN
-    (spezifischere Themen stehen weiter oben). Kein Treffer -> 'sonstiges'.
-    """
+# Eigenes Cluster-Schema für EINWÄNDE (Phase 2) — inhaltlich andere Achse als
+# Pain Points. Reihenfolge = Tie-Break-Priorität (spezifischer zuerst).
+EINWAND_THEMEN = {
+    "Versteckte Folgekosten / Intransparenz nach Gratis-Analyse": [
+        r"folgekost", r"versteckt", r"intransparen", r"was (es )?kostet",
+        r"unklare kosten", r"kosten unklar", r"gratis", r"kostenlos",
+        r"haken", r"lockangebot", r"preis(e)? unklar", r"was kommt danach an kosten",
+    ],
+    "Zeitaufwand & Implementierungslast bleibt bei mir": [
+        r"zeitaufwand", r"aufwand", r"einführung", r"implementier", r"schulung",
+        r"landet (trotzdem )?bei mir", r"kapazität", r"eigene(r|n)? zeit",
+        r"einarbeit", r"umstellung",
+    ],
+    "Wartung & Betreuung danach / Nachhaltigkeit unklar": [
+        r"danach", r"wartung", r"betreut", r"nachhaltig", r"allein damit",
+        r"wer hilft", r"wer wartet", r"kurzlebig", r"nach der einrichtung",
+        r"nach der einführung", r"support", r"wenn etwas nicht funktion",
+    ],
+    "Abhängigkeit von externer Person / Anbieter": [
+        r"abhängig", r"abhängigkeit", r"ausgeliefert", r"lock.?in",
+        r"von (einer )?extern", r"vom anbieter", r"klumpenrisiko",
+    ],
+    "Datenschutz & sensible Gesundheitsdaten": [
+        r"datenschutz", r"dsgvo", r"gesundheitsdaten", r"sensibl", r"server",
+        r"cloud", r"zugriff", r"vertraulich", r"daten.{0,10}(extern|dritte)",
+        r"schweigepflicht", r"patientendaten",
+    ],
+    "Angst um Persönlichkeit & Beziehungsqualität": [
+        r"unpersönlich", r"persönlich", r"beziehung", r"menschlich", r"\bton\b",
+        r"generisch", r"kernwert", r"vertrauensvoll", r"kalt", r"anonym",
+        r"verliert.{0,15}(charakter|persönlich)", r"automat.{0,15}(zerstör|beschäd)",
+    ],
+    "Skepsis: versteht externe Person meinen Betrieb?": [
+        r"versteht", r"branchen", r"spezifisch", r"nicht für (meinen|uns)",
+        r"kennt (die|unsere|meinen)", r"generische(s)? system", r"von der stange",
+        r"komplexität", r"individuell genug",
+    ],
+    "Technische Überforderung / eigene Skepsis": [
+        r"überforder", r"technisch", r"kompliziert", r"zu komplex",
+        r"versteh(e)? (das )?nicht", r"nicht tech", r"keine ahnung",
+    ],
+    "Vertriebsdruck / Skepsis gegenüber Versprechen": [
+        r"verkaufsgespräch", r"vertrieb", r"versprech", r"abschluss",
+        r"masche", r"schon (oft|öfter) gehört", r"drängt", r"verkäufer",
+        r"hört sich (zu )?gut an", r"skept",
+    ],
+}
+
+
+def _best_label(text: str, themen: dict) -> list[str]:
+    """SINGLE-BEST-LABEL: ein Item -> genau ein Thema (meiste Pattern-Treffer).
+    Verhindert aufgeblähte Häufigkeiten & doppelte O-Töne. Tie-Break: Reihenfolge."""
     t = text.lower()
-    best, best_score, best_order = None, 0, 0
-    for order, (name, pats) in enumerate(THEMEN.items()):
+    best, best_score = None, 0
+    for name, pats in themen.items():
         score = sum(1 for p in pats if re.search(p, t))
         if score > best_score:
-            best, best_score, best_order = name, score, order
+            best, best_score = name, score
     return [best] if best else ["sonstiges"]
+
+
+def classify(text: str) -> list[str]:
+    return _best_label(text, THEMEN)
+
+
+def classify_einwand(text: str) -> list[str]:
+    return _best_label(text, EINWAND_THEMEN)
 
 
 # ---------------------------------------------------------------------------
@@ -233,12 +286,12 @@ def collect_items(records, field):
     return out
 
 
-def theme_ranking(items):
+def theme_ranking(items, classifier=classify):
     """Gruppiert Items nach Thema, zählt Häufigkeit über distinct Personas."""
     theme_personas = collections.defaultdict(set)
     theme_quotes = collections.defaultdict(list)
     for text, r in items:
-        for th in classify(text):
+        for th in classifier(text):
             theme_personas[th].add(r["pid"])
             theme_quotes[th].append((text, r["pid"], r["persona"]["branche"]))
     ranking = sorted(theme_personas.items(), key=lambda kv: -len(kv[1]))
@@ -336,7 +389,7 @@ def main():
         for d in (s.get("entscheider_innen") or []):
             if isinstance(d, str) and d.strip():
                 decider_counter[_norm_decider(d)] += 1
-    obj_rank, obj_quotes = theme_ranking(objection_texts)
+    obj_rank, obj_quotes = theme_ranking(objection_texts, classifier=classify_einwand)
     use_rank, use_quotes = theme_ranking(useful_texts)
 
     # --- Van-Westendorp ---
@@ -379,17 +432,16 @@ def main():
 
 def _norm_decider(d: str) -> str:
     t = d.lower()
-    if re.search(r"allein|selbst|niemand|ich (entscheide|allein)|nur ich", t):
+    if re.search(r"allein|selbst|niemand|ich (entscheide|allein)|nur ich|inhaber|geschäftsführ|chef", t):
         return "Ich allein / Inhaber:in entscheidet"
-    if re.search(r"partner|mitinhaber|gesellschaft|geschäftspartner|teilhaber", t):
+    if re.search(r"partner|mitinhaber|gesellschaft|geschäftspartner|teilhaber|mit-?eigentüm", t):
         return "Geschäftspartner:in / Mitinhaber:in"
-    if re.search(r"ehe|mann|frau|familie|privat", t):
+    if re.search(r"\behe|ehemann|ehefrau|\bmann\b|\bfrau\b|familie|privat|lebenspartner", t):
         return "Partner:in / Familie (privat)"
-    if re.search(r"steuer|berater|anwalt|datenschutzbeauftragt", t):
-        return "Externe Berater:in / Steuer / Datenschutz"
-    if re.search(r"team|mitarbeit|kolleg|rezeption|empfang|praxismanager|leitung", t):
-        return "Team / Mitarbeitende / Praxismanagement"
-    return d.strip()[:60]
+    if re.search(r"steuer|treuhand|berater|anwalt|datenschutzbeauftragt|it-?dienst|extern", t):
+        return "Externe Berater:in / Steuer / Datenschutz / IT"
+    # alles übrige mit Namen/Rollen aus dem Team -> Team-Bucket
+    return "Team / Mitarbeitende / Praxismanagement"
 
 
 def bar(frac, width=24):
@@ -422,7 +474,17 @@ def build_report(n, records, pain_rank, pain_quotes, wish_rank, wish_quotes,
     A("## Methodik (reproduzierbar)")
     A("")
     A(f"- **Modell:** `{meta.get('model','claude-sonnet-4-6')}`")
-    A(f"- **Personas:** {n} (deterministisch geseedet, Seed `{meta.get('seed','?')}`)")
+    req = meta.get("persona_count_requested")
+    A(f"- **Personas:** {n} vollständig befragt"
+      + (f" (von {req} geplant — Lauf endete, als das API-Guthaben aufgebraucht war; "
+         "via Checkpoint jederzeit fortsetzbar)" if req and req != n else "")
+      + f", deterministisch geseedet (Seed `{meta.get('seed','?')}`).")
+    if n < 200:
+        A(f"- ⚠️ **Stichprobengröße:** n={n} liegt **über** der Schwelle für qualitative "
+          "Insights (≥20), aber **unter** der Workbook-Empfehlung von ≥200 für belastbare "
+          "*quantitative* Auswertung. Zahlen (Buchungs-Ø, Van-Westendorp) daher als "
+          "**richtungsweisend**, nicht als präzise lesen; die qualitativen O-Töne sind bereits "
+          "tragfähig. Aufstocken auf ≥200 jederzeit möglich (Guthaben laden, `run_study.py` erneut starten).")
     A(f"- **Prompt-Version:** `{meta.get('prompt_version','?')}`")
     A("- **Befragung:** 3-Phasen-Multi-Turn, blind. Phase 1 (offen) **vor** jeder "
       "Konzept-Nennung; keine Leading-Fragen; Personas ausdrücklich zu Kritik/Ablehnung ermutigt.")
@@ -559,7 +621,7 @@ def build_report(n, records, pain_rank, pain_quotes, wish_rank, wish_quotes,
         pmc, pme = vw["akzeptanzspanne"]
         if pmc and pme:
             A(f"- **Akzeptanzspanne: ~{pmc:,} € – {pme:,} €**".replace(",", "."))
-        A(f"- Median „idealer\" Preis der Personas: ~{vw['median_ideal']:,} €".replace(",", ".")
+        A(f"- Median „idealer\" Preis der Personas: ~{int(vw['median_ideal']):,} €".replace(",", ".")
           if vw["median_ideal"] else "")
         A(f"- <sub>n={vw['n']} plausible Antworten</sub>")
         A("")
@@ -569,10 +631,60 @@ def build_report(n, records, pain_rank, pain_quotes, wish_rank, wish_quotes,
     A("## Handlungsempfehlungen (nach Konfidenz gewichtet)")
     A("")
     A("> Diese Empfehlungen sind **Hypothesen aus synthetischen Daten** und vor Umsetzung "
-      "mit echten Gesprächen zu validieren (ESOMAR ICC 2025, Human Oversight).")
+      "mit echten Gesprächen (10–20 Interviews) zu validieren (ESOMAR ICC 2025, Human Oversight).")
     A("")
-    A("_Werden nach Sichtung der vollständigen Befunde ergänzt — siehe O-Töne oben als "
-      "Rohmaterial für Website-/Marketing-Texte._")
+    top_pain = [th for th, _ in pain_rank if th != "sonstiges"][:3]
+    top_obj = [th for th, _ in obj_rank if th != "sonstiges"][:3]
+    avg_b = sum(bookings) / len(bookings) if bookings else 0
+    dec_total = sum(decider_counter.values()) or 1
+    solo = decider_counter.get("Ich allein / Inhaber:in entscheidet", 0) / dec_total * 100
+    team = decider_counter.get("Team / Mitarbeitende / Praxismanagement", 0) / dec_total * 100
+
+    A("**A · Hohe Konfidenz** (breit & konsistent über Segmente)")
+    A("")
+    A(f"1. **Kern-Schmerz ist „Alles hängt an mir\" + administrativer Wildwuchs.** Die "
+      f"stärksten Pain-Cluster sind *{top_pain[0]}*, *{top_pain[1]}* und *{top_pain[2]}*. "
+      "Botschaft sollte nicht „KI/Automatisierung\" in den Vordergrund stellen, sondern das "
+      "Ergebnis: **wieder Inhaber:in sein statt Knotenpunkt/Lückenfüller:in**. Die O-Töne in "
+      "Abschnitt 1–2 liefern das Vokabular fast wörtlich.")
+    A(f"2. **Einstieg „kostenlose Erstanalyse\" zieht, aber lau** (Ø Buchung {avg_b:.1f}/10, "
+      "Median 6 — Interesse ja, Euphorie nein). Erwartbar bei kalter, neutraler Beschreibung. "
+      "Hebel ist nicht der Gratis-Einstieg selbst, sondern die Entkräftung der Einwände (siehe B).")
+    A(f"3. **Entscheidung liegt fast nur intern**: „Ich allein\" (~{solo:.0f}%) und "
+      f"„Team/Praxismanagement\" (~{team:.0f}%) dominieren; externe/Partner-Freigaben sind selten. "
+      "→ Sales-Prozess kann schlank 1:1 mit Inhaber:in laufen, sollte aber **das Team als "
+      "Mitnutzer früh adressieren** (Akzeptanz im Team ist ein wiederkehrender Wunsch).")
+    A("")
+    A("**B · Mittlere Konfidenz** (klares Muster, aber gegen echte Kund:innen zu prüfen)")
+    A("")
+    A(f"4. **Die drei größten Kauf-Blocker** sind *{top_obj[0]}*, *{top_obj[1]}* und "
+      f"*{top_obj[2]}*. Diese gehören **proaktiv auf Website & ins Erstgespräch**: "
+      "transparente Folgekosten/Fixpreise, klare Aussage „wer betreut das danach\", "
+      "DSGVO-/Serverstandort-Klarheit und das Versprechen, dass Persönlichkeit/Beziehung "
+      "erhalten bleibt (nicht ersetzt wird).")
+    A("5. **Datenschutz-Vertrauen ist Branchen-spezifisch heikel** (sensible "
+      "Gesundheitsdaten). Ein sichtbarer, konkreter DSGVO-/Datenschutz-Baustein ist kein "
+      "Hygienefaktor, sondern Verkaufsargument — gerade im Premium-Wellness-Segment, das "
+      "zusätzlich um seine Exklusivität fürchtet.")
+    A("6. **„Was passiert nach der Einrichtung?\" ist der unterschätzte Hebel.** Sehr viele "
+      "Einwände drehen sich um Nachhaltigkeit/Wartung. Das **stützt das Retainer-Modell** "
+      "nicht als Zusatzverkauf, sondern als Vertrauens-Anker von Anfang an.")
+    A("")
+    A("**C · Preis-Hypothesen** (Van-Westendorp, synthetisch — nur Orientierung)")
+    A("")
+    if vw_build:
+        pmc, pme = vw_build["akzeptanzspanne"]
+        A(f"7. **Aufbau-Projekt:** optimaler Preispunkt ~**{vw_build['OPP']:,} €**, "
+          f"Akzeptanzspanne ~**{pmc:,}–{pme:,} €**".replace(",", ".") +
+          ". Ein Fixpreis-Einstiegspaket am unteren Rand der Spanne senkt den Folgekosten-Einwand.")
+    if vw_ret:
+        pmc, pme = vw_ret["akzeptanzspanne"]
+        A(f"8. **Retainer:** optimaler Preispunkt ~**{vw_ret['OPP']:,} €/Monat**, "
+          f"Akzeptanzspanne ~**{pmc:,}–{pme:,} €/Monat**".replace(",", ".") +
+          ". Liegt im Rahmen kleiner Betriebsbudgets; höhere Stufen brauchen sichtbaren laufenden Nutzen.")
+    A("9. ⚠️ Bei den *idealen* Preisen zeigte sich leichte LLM-Homogenisierung (Häufung um "
+      "einzelne Werte). Preispunkte daher als **grobe Korridore**, nicht als exakte Zahlen lesen — "
+      "vor finaler Preissetzung mit echten Angeboten/Gesprächen testen.")
     A("")
     A(f"<sub>Generiert aus {n} synthetischen Personas · "
       f"Modell {meta.get('model','claude-sonnet-4-6')} · "

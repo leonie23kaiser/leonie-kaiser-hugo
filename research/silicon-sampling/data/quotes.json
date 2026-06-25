@@ -1,0 +1,1251 @@
+{
+  "pain_points": {
+    "Verwaltung, Bürokratie & Abrechnung": [
+      [
+        "Administrative Kleinteiligkeit durch unterschiedliche Krankenkassen-Logiken und -Formulare",
+        "P104",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Abrechnung mit Krankenkassen und Heilmittelverordnungen bindet zu viele manuelle Schritte",
+        "P006",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Kundenanfragen (Abrechnung, Abo-Pausen, Termine) landen direkt bei Birgit statt beim Team",
+        "P178",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Rechnungswesen und Leistungserfassung landen immer wieder bei mir statt delegiert zu sein",
+        "P195",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Buchhaltungsvorbereitung passt nie zum komplexen Angebotsstruktur, bleibt manuell hängen",
+        "P037",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Kleinkram-Verwaltung frisst Abende und mentale Energie trotz vorhandener Digitalisierung",
+        "P083",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Komplexe Abrechnung mit Krankenkassen (IV, KK, Selbstzahler) – zu tief selbst involviert",
+        "P151",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Administrative Arbeit fühlt sich deplatziert an für jemanden mit fachlichem Hintergrund",
+        "P099",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "Personal: Finden, Halten, Führen": [
+      [
+        "Ewiges Koordinieren von Dienstplänen, Urlauben und Klientenpräferenzen mit Papier und Excel",
+        "P056",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Perfektionismus kombiniert mit fehlenden Prozessen führt dazu, Aufgaben nicht loszulassen",
+        "P124",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Wöchentliche Dienstplanung mit komplexen Variablen (Urlaub, Krankenstand, Kassenverträge)",
+        "P061",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Systeme werden eingeführt aber nicht eingehalten, muss ständig nachhalten oder selbst machen",
+        "P006",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Doppelrolle Behandlung und Führung zerfetzt den Tag – keine ruhige Zeit für Führungsaufgaben",
+        "P056",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Dienstplan-Puzzle bei Krankenständen und Urlaubstauschen, Tool wird nicht konsequent genutzt",
+        "P178",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Mitarbeiterin muss hinter Änderungen und Ausnahmen herlaufen, weil Infoweitergabe lückenhaft",
+        "P005",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zwitterrolle als Führungskraft und gleichzeitige Fachkraft erzeugt dauerhafte Doppelbelastung",
+        "P034",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "Terminorganisation & No-Shows": [
+      [
+        "Papierkalender und WhatsApp statt einheitlichem System führen zu Doppelbuchungen und Chaos",
+        "P085",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Terminkoordination täglich aufwändig und fehleranfällig durch fehlende gemeinsame Übersicht",
+        "P080",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Unübersichtlichkeit durch Papierkalender und Excel-Listen, Terminpannen die peinlich sind",
+        "P203",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Mehrschrittige Terminkommunikation (Anruf, Zettel, Rückruf) statt automatisierter Buchung",
+        "P027",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Keine feste Assistenz: Terminkoordination und Organisationsaufgaben fallen unstrukturiert an",
+        "P034",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Keine funktionierende Wartelisten-Logik bei kurzfristigen Absagen – Zeitfenster bleiben leer",
+        "P052",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Manuelle Terminbestätigungen und Absagen mit Klient:innen, schätzungsweise 4-5 Stunden/Woche",
+        "P077",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Manuelle Lückenfüllung bei halbautomatisierten Prozessen (Follow-ups, Erinnerungen, Akquise)",
+        "P082",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "sonstiges": [
+      [
+        "Keine klare Trennung zwischen Leitungsrolle und Facharbeit, beides vermischt sich täglich",
+        "P007",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Zersplitterung zwischen fachlicher Arbeit und Leitungsaufgaben – kaum getrennter Raum dafür",
+        "P036",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Interne Organisation entspricht nicht dem nach außen kommunizierten professionellen Bild",
+        "P052",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Individualisiertes Angebotswesen mit vielen Überarbeitungsrunden und oft ohne Abschluss",
+        "P079",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Doppelrolle Leitung + Therapeutin: kein Flow, Leitungsaufgaben zwischen Behandlungen",
+        "P106",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Als Inhaber für alles zuständig, Betrieb läuft nicht ohne mein ständiges Eingreifen",
+        "P013",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Fühlt sich selbst mitverantwortlich für das Chaos, weiß aber nicht wie er es angeht",
+        "P085",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Entscheidungen, die immer wieder neu getroffen werden müssen statt geregelt zu sein",
+        "P132",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Kommunikation mit Klient:innen": [
+      [
+        "Interne Kommunikation chaotisch, läuft über WhatsApp und Zettel, kein strukturierter Kanal",
+        "P130",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Teamkommunikation funktioniert nicht – alles landet undifferenziert in einer WhatsApp-Gruppe",
+        "P085",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Fragmentierte interne Kommunikation über mehrere Kanäle (Software, WhatsApp, E-Mail, Zettel)",
+        "P001",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Interne Kommunikation chaotisch – verschiedene Kanäle, Informationen kommen nicht überall an",
+        "P127",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Interne Kommunikation über verschiedene Kanäle (WhatsApp, E-Mail, Zettel) – kein roter Faden",
+        "P198",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Teamkommunikation funktioniert trotz vorhandener Tools und Strukturen nicht zuverlässig",
+        "P108",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Interne Kommunikation via WhatsApp – unstrukturiert, privates und berufliches vermischt",
+        "P201",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Aussenauftritt und Kommunikation (Content, Newsletter) leidet, weil keine Zeit bleibt",
+        "P100",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Digitalisierung & Tools (Frust/Lücken)": [
+      [
+        "Praxissoftware vorhanden aber nicht vernetzt/genutzt, vieles läuft über WhatsApp und Zettel",
+        "P013",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Zu viel manuelle Koordination trotz kleinem Team – Leiterin als menschliche Schnittstelle",
+        "P104",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Manuelle Verwaltung von Abo-Mutationen (Pause, Kündigung, Wechsel) ohne Systemunterstützung",
+        "P173",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Fehlende oder instabile Automatisierungen/Schnittstellenprobleme trotz Technikaffinität",
+        "P172",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Manuelle Terminverwaltung per Telefon und Zettel – besonders bei Krankheitsausfällen aufwändig",
+        "P056",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Individuelle Angebotserstellung für Firmenkunden (3-4 Stunden pro Angebot, Word/Excel-Bastelei)",
+        "P219",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Rechnungsstellung kostet jeden Monat einen halben Tag – manuelle Excel/Word-Prozesse",
+        "P029",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Dokumentation und Protokollpflege mit manuellen Datenübertragungen zwischen Systemen",
+        "P010",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Wissen, Prozesse & Ablage im Team": [
+      [
+        "Kleinigkeiten und Entscheidungen eskalieren zu mir, weil Prozesse nicht dokumentiert sind",
+        "P172",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Zu viel Administration läuft über mich, weil klare Systeme und dokumentierte Abläufe fehlen",
+        "P199",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Onboarding neuer Mitarbeitender – Wissen steckt nicht in Dokumenten, sondern in meinem Kopf",
+        "P151",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Fehlende verlässliche Abläufe trotz dokumentierter Prozesse – niemand liest die Dokumentation",
+        "P126",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Prozesse und Standards müssen immer wieder neu erklärt werden – hängt zu sehr an meiner Person",
+        "P195",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Inkonsistente Nutzung der Praxissoftware – Auslastungsübersicht fehlt, muss nachfragen",
+        "P126",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Gefühl, alles kontrollieren zu müssen, weil Standards sonst nicht eingehalten werden",
+        "P082",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Doppelte Arbeit durch fehlende zentrale Übersicht (Kurse, Zahlungen, Klientendaten)",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "Alles hängt an mir / nicht delegieren können": [
+      [
+        "Lande regelmässig bei Aufgaben, die delegierbar wären, aber Teamgrösse lässt das nicht zu",
+        "P100",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zu viel läuft über mich als Leitung – bin selbst der Engpass, übergebe Verantwortung schwer",
+        "P174",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Lange, ineffiziente Angebotsphase bei neuen Firmenkunden mit viel Nachfassen und Anpassen",
+        "P034",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Operative Wochenplanung und Abwesenheitsmanagement ohne festes System läuft immer über mich",
+        "P083",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Nachlaufen bei liegengebliebenen Aufgaben, Dinge selber erledigen weil es schneller geht",
+        "P001",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Muss als Einzige alles zusammenhalten, fühlt sich wie Sekretärin an statt Unternehmerin",
+        "P124",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Halbdigitale Prozesse – Automatisierungen greifen nicht vollständig, Rest hängt an mir",
+        "P123",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Ständig in operative Kleinteiligkeit reingezogen werden trotz Wunsch nach unternehmerischer Rolle",
+        "P147",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Zeitmangel, Unterbrechungen & Überlastung": [
+      [
+        "Sitzt abends spät noch vor dem Laptop wegen mangelnder Delegation durch fehlende Strukturen",
+        "P124",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Keine Zeit, strukturelle Verbesserungen wirklich umzusetzen, weil immer etwas dazwischenkommt",
+        "P007",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Zerstückelung des Alltags – Planung wird ständig durch Unvorhergesehenes unterbrochen",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Reibung zwischen eigenen Qualitätsvorstellungen und tatsächlicher Umsetzung im Alltag",
+        "P180",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Neue Ideen und Konzepte kommen nicht zur Umsetzung, weil Tagesgeschäft alles frisst",
+        "P005",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Unterbrechungen durch Teamanliegen während knapper Pausen zwischen Behandlungen",
+        "P056",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Fehler bei Angeboten (falscher Betrag) kosten Nerven, Zeit und Kundenvertrauen",
+        "P059",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Doppelbelastung durch eigene Klientenarbeit UND Leitungsaufgaben gleichzeitig",
+        "P010",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Neue Klient:innen aufnehmen / Onboarding": [
+      [
+        "Manuelles Neukunden-Onboarding kostet pro Person 1,5–2 Stunden ohne standardisierten Prozess",
+        "P083",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Onboarding neuer Trainer ohne verschriftlichten Prozess – immer wieder dieselben Erklärungen",
+        "P178",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Unstrukturierter Neukunden-Erstkontakt über verschiedene Kanäle ohne Nachverfolgung",
+        "P078",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Onboarding neuer Klientinnen noch zu viel Handarbeit, Halbautomatisierung nach Softwarewechsel kaputt",
+        "P150",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Kein strukturiertes Onboarding, Einarbeitung läuft uneinheitlich und nebenbei",
+        "P171",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Wiederkehrendes mündliches Onboarding neuer Kunden (immer dasselbe erklären)",
+        "P153",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Onboarding neuer Kursleiter:innen ohne schriftliches Einarbeitungskonzept – immer wieder mündlich erklärt",
+        "P129",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Klienten-Onboarding nicht standardisiert – jede Therapeutin macht es anders",
+        "P195",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Telefon & Erreichbarkeit": [
+      [
+        "Anrufbeantworter wird von Patienten kaum genutzt, trotzdem muss jemand abhören und zurückrufen",
+        "P011",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Einzelnes Anrufen aller betroffenen Klienten bei Ausfall einer Kollegin kostet Stunden",
+        "P056",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Klienten kontaktieren über mehrere Kanäle (Handy, Mail, Telefon), alles landet manuell beim Team",
+        "P125",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zeitaufwändige manuelle Kommunikation (Telefon, Mail, Anrufbeantworter, Rückrufe)",
+        "P196",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Urlaubsplanung und Einsatzplanung über Excel und Telefon, besonders bei Ausfällen",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Telefon klingelt ständig ohne Rezeption, reißt alle aus laufenden Tätigkeiten",
+        "P080",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zu hohe persönliche Erreichbarkeit – Mitarbeiterinnen laufen immer zu mir",
+        "P028",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Telefonische Umplanung bei Ausfällen kostet unverhältnismässig viel Zeit",
+        "P103",
+        "Personal-Training-Studio"
+      ]
+    ],
+    "Marketing, Sichtbarkeit & Neukundengewinnung": [
+      [
+        "Angebote schreiben ohne Vorlagen – jedes Mal von null, halber Tag für ein Angebot",
+        "P124",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Marketing und Social Media läuft abends nach 21 Uhr nebenbei – nicht nachhaltig",
+        "P033",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Langes, unübersichtliches Hin-und-Her bei Offerten und Auftragsgewinnung",
+        "P099",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Konkurrenten mit weniger Substanz dominieren sichtbarer den Markt",
+        "P035",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zu wenig Zeit um bekannte Probleme selbst zu lösen",
+        "P061",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ],
+    "Zukunfts- & Existenzsorgen": [
+      [
+        "Abhängigkeit des Betriebs von meiner eigenen Person strukturell nicht gelöst",
+        "P200",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Fühlt sich nach 12 Jahren noch zu abhängig von ihrer eigenen Präsenz",
+        "P201",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Abhängigkeit von einzelnen Schlüsselpersonen",
+        "P055",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Finanzen, Liquidität & Wachstumsdruck": [
+      [
+        "Interner Flickenteppich trotz gutem Außenauftritt und solidem Umsatz",
+        "P085",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ]
+  },
+  "wuensche": {
+    "Verwaltung, Bürokratie & Abrechnung": [
+      [
+        "Team arbeitet konsequent und eigenverantwortlich nach gemeinsam definierten Abläufen – ohne dass ich ständig nachsteuern muss",
+        "P202",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Ein vollständig integriertes System für Buchung, Dokumentation, Abrechnung und Dienstplanung – ohne aufwendiges Implementierungsprojekt",
+        "P061",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Ein durchgängig vernetztes digitales System von Terminbuchung über Dokumentation bis Abrechnung – keine Insellösungen mehr, alles in einem",
+        "P171",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Alle administrativen Abläufe (Termine, Abrechnung, Kommunikation, Klientendaten) in einem einzigen, einfach nutzbaren System zusammenführen",
+        "P007",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Alle Informationen (Kurse, Teilnehmende, Rechnungen, Teamplanung) an einem einzigen, einfachen Ort – genutzt vom ganzen Team, ohne tägliches Nachhaken",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Ein zentrales, genutztes System für Patientenverwaltung, Dienstplanung und Abrechnung, das mir als Inhaber täglichen Überblick gibt ohne Engpass zu sein",
+        "P107",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Terminorganisation & No-Shows": [
+      [
+        "Vollständig automatisierter Erstkundenprozess – von Anfrage bis gebuchtem Termin ohne manuelle Eingriffe",
+        "P052",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Vollautomatische Terminverwaltung mit Warteliste, Absagen und Bestätigungen – ohne manuellen Aufwand im Team",
+        "P181",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Alle im Team haben zur selben Zeit dieselbe Information – einheitliche, sofort sichtbare Terminverwaltung für alle",
+        "P032",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Vollautomatischer Ablauf für Terminbuchung, Erinnerungen, Rechnungsstellung und Klientenkommunikation – ohne manuellen Eingriff",
+        "P027",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Funktionierende digitale Terminverwaltung mit Selbstbuchung für Patienten und tagesaktuellem Überblick – ohne monatelangen Einführungsaufwand",
+        "P011",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Ein automatisches System für Terminerinnerungen, Absagemanagement und Wartelisten-Nachbesetzung, das Ausfälle und Lücken im Kalender minimiert",
+        "P196",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ],
+    "Wissen, Prozesse & Ablage im Team": [
+      [
+        "Funktionierende, einheitliche und wirklich gelebte Prozesse – die ohne meine ständige Anwesenheit laufen",
+        "P147",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Ein einfaches, wirklich genutztes System für Projektübersicht und Teamaufgaben – ohne dass ich es ständig pushen muss",
+        "P084",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Implizites Wissen aus meinem Kopf sauber dokumentiert und im Team verankert – damit die Praxis nicht von meiner Anwesenheit abhängt",
+        "P036",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Klare, dokumentierte und gelebte Prozesse für alle Alltagssituationen, damit ich nicht mehr alles selbst steuern und entscheiden muss",
+        "P058",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Alle Abläufe von Kundenanfrage bis bezahlter Rechnung klar dokumentiert und unabhängig von mir funktionierend, sodass Mitarbeiterin eigenständig arbeiten kann",
+        "P199",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Ein lebendiges, aktuelles Betriebshandbuch als zentrales Nervensystem – alle Prozesse dokumentiert, sodass neue Mitarbeitende schnell eigenständig arbeiten können",
+        "P055",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Personal: Finden, Halten, Führen": [
+      [
+        "Prozesse werden vom Team selbstständig und konsequent gelebt – ohne dass ich täglich eingreife oder nachfassen muss",
+        "P053",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Ein zentrales System für Terminplanung, Dienstplan, Kommunikation und Dokumentation – das das gesamte Team konsistent und ohne Widerstand nutzt",
+        "P176",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Automatischer wöchentlicher Überblick über freie Kapazitäten, Dienstplan-Status und fehlende Einträge – ohne selbst alles zusammentragen zu müssen",
+        "P131",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Echte, gelebte Delegation: Team plant, entscheidet und kommuniziert selbstständig – ich bin Inhaberin, nicht Knotenpunkt und Lückenfüllerin für alles",
+        "P001",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Ein lebendes, aktiv genutztes Betriebshandbuch mit klaren Verantwortlichkeiten und Abläufen – kein totes PDF, sondern etwas das das Team wirklich verwendet",
+        "P028",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Klare, gelebte Zuständigkeiten im Team – sodass jede Person eigenverantwortlich entscheidet und die Inhaberin nicht mehr operativer Dreh- und Angelpunkt ist",
+        "P177",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Kommunikation mit Klient:innen": [
+      [
+        "Vollautomatischer, nahtloser Interessenten- und Onboarding-Prozess – von Erstanfrage bis laufendem Kundenverhältnis – ohne manuellen Aufwand meinerseits",
+        "P033",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Intelligentes System, das alle Kommunikationskanäle filtert, vorsortiert und mit Antwortvorschlägen oder automatischen Aktionen verarbeitet – praxisspezifisch, nicht generisch",
+        "P060",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Ein einheitliches, von allen genutztes System für Kundenmanagement und interne Kommunikation, das Angebotsprozesse halbautomatisiert und mich als menschlichen Knotenpunkt ersetzt – um 6–8 Stunden pro Woche zurückzugewinnen",
+        "P034",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "Neue Klient:innen aufnehmen / Onboarding": [
+      [
+        "Vollständig automatisierter, schlanker Akquise- und Angebotsprozess – von Erstgespräch bis Nachverfolgung – ohne manuellen Aufwand",
+        "P079",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Funktionierendes, automatisiertes Neukunden-Onboarding, das trotzdem persönlich wirkt – ohne manuellen Aufwand für mich oder mein Team",
+        "P083",
+        "Personal-Training-Studio"
+      ]
+    ],
+    "Digitalisierung & Tools (Frust/Lücken)": [
+      [
+        "Vollautomatisierter, medienbruchfreier Klienten-Onboarding- und Nachsorgeprozess mit sauberem Datenfluss ins CRM – ohne manuelles Nachfassen, aber mit hochwertigem persönlichem Erscheinungsbild",
+        "P010",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Telefon & Erreichbarkeit": [
+      [
+        "Alle Informationen (Termine, Urlaube, Krankmeldungen, Patientenkommunikation, Abrechnung) an einem einzigen, von allen genutzten Ort – ein echter Echtzeit-Überblick ohne Hinterhertelefonieren",
+        "P076",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ]
+  },
+  "sorgen": {
+    "Personal: Finden, Halten, Führen": [
+      [
+        "Qualitätsverlust bei Wachstum, Qualitätsanspruch schwer auf neue Mitarbeitende übertragbar",
+        "P054",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Schwierigkeit, fachlich gute Mitarbeitende für kleine Praxis zu gewinnen und einzuarbeiten",
+        "P080",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zu wenig Zeit für Mitarbeiterführung und -gespräche – wird bei weiterem Wachstum schlimmer",
+        "P101",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Gute Mitarbeitende könnten sich selbstständig machen – Bindung unklar, Gespräche zu selten",
+        "P174",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Fachkräftemangel im Bereich Ernährungsberatung/Ökotrophologie macht Personalverlust riskant",
+        "P002",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Investition in Einarbeitung und Entwicklung – Mitarbeitende gehen trotzdem nach kurzer Zeit",
+        "P012",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Finanzen, Liquidität & Wachstumsdruck": [
+      [
+        "Wachstum bedeutet mehr Komplexität und Verlust des eigenen fachlichen Kontakts zu Klienten",
+        "P030",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Wachstum (z.B. zweiter Standort) nicht möglich wegen fehlender stabiler interner Strukturen",
+        "P053",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Finanzieller Puffer nach Fixkosten überschaubar, hohe Verletzlichkeit bei Kundenausfällen",
+        "P054",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Prozesse tragen kein Wachstum – Angst, dass eine neue Stelle mehr Chaos als Umsatz bringt",
+        "P123",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Angst, bei weiterem Wachstum den Überblick zu verlieren – Chaos wächst proportional mit",
+        "P012",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Wachstum erfordert mehr Vertrauen in andere – macht mir Sorgen bzgl. Qualitätskontrolle",
+        "P033",
+        "Personal-Training-Studio"
+      ]
+    ],
+    "Zukunfts- & Existenzsorgen": [
+      [
+        "Kein Wachstumswille, aber Angst vor Bedeutungsverlust und mangelnder Wettbewerbsfähigkeit",
+        "P029",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Abhängigkeit vom eigenen Dasein – Betrieb läuft nur weil Florian täglich alles zusammenhält",
+        "P131",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Unsicherheit über Zukunftsfähigkeit des Geschäftsmodells (Online-Konkurrenz, Krankenkassen)",
+        "P132",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Keine stabile Stammkundenbasis – abhängig von schwankenden Fördertöpfen und Betriebsbudgets",
+        "P204",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Unsicherheit, ob der Betrieb gegenüber digital aufgestellten Wettbewerbern zukunftsfähig ist",
+        "P002",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Keine klare Nachfolgeregelung – kein geeigneter interner Kandidat für Betriebsübergabe",
+        "P079",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "sonstiges": [
+      [
+        "Zuverlässige gute Trainer zu finden ist schwierig, schlechte Erfahrungen bereits gemacht",
+        "P083",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Feststecken in Zwischengröße – zu groß für Bauchentscheidungen, zu klein für echte Strukturen",
+        "P147",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Markt BGF in der Schweiz bei KMU noch wenig entwickelt, viel Überzeugungsarbeit nötig",
+        "P199",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Langfristige Frage: Unternehmer oder Therapeut – Doppelrolle nicht dauerhaft tragbar",
+        "P061",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Schwierigkeit, gute Fachleute zu finden und langfristig zu binden bei kleinem Budget",
+        "P099",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Zwei wichtige Teammitglieder könnten bald reduzieren – Nachbesetzung mit passendem Profil schwierig",
+        "P059",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "Wissen, Prozesse & Ablage im Team": [
+      [
+        "Wissen und Prozesse stecken nur im Kopf – keine Dokumentation für Nachfolge oder Übergabe",
+        "P197",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Zu viel hängt an der eigenen Person – Wissen, Netzwerk, Kundenbeziehungen nicht übertragbar",
+        "P204",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Dritte Person einzustellen scheitert an fehlender Zeit für Einarbeitung – Teufelskreis",
+        "P197",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Zu hohe Abhängigkeit von der eigenen Person – Wissen und Entscheidungen zentralisiert",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Trainer verlassen Studio um selbstständig zu werden – Wissensverlust und Kundenlücken",
+        "P123",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Gesamtes Organisationswissen und Klientenbeziehungen hängen an der eigenen Person",
+        "P027",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Alles hängt an mir / nicht delegieren können": [
+      [
+        "Wachstum (z.B. zweiter Standort) operativ nicht stemmbarer ohne bessere interne Strukturen",
+        "P028",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Zu tief im Operativen verstrickt, um Wachstum (zweiter Standort) realistisch anzugehen",
+        "P108",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Zu starke Abhängigkeit des Betriebs von meiner eigenen Person (Flaschenhals)",
+        "P198",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Schwierigkeit beim Loslassen und Delegieren durch hohe Qualitätsansprüche",
+        "P033",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Betrieb zu klein als Puffer bei unerwarteten Ausfällen oder Veränderungen",
+        "P105",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Alles hängt an mir – kein funktionierendes System ohne meine Anwesenheit",
+        "P051",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ],
+    "Verwaltung, Bürokratie & Abrechnung": [
+      [
+        "Regulierung im Longevity-Bereich nimmt zu – Dokumentation hält möglicherweise nicht stand",
+        "P125",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Steigende Dokumentationspflichten der Krankenkassen bei gleichbleibend alten Prozessen",
+        "P032",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Angst vor Komplexität bei Einstellung einer dritten Person (Sozialversicherungen, Verantwortung)",
+        "P008",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Grundsatzfrage: Bin ich wirklich Unternehmerin oder Verwaltungsassistentin meiner eigenen Firma?",
+        "P054",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Dünne Margen durch Krankenkassenlogik – Effizienz nötig, aber aktuell nicht gegeben",
+        "P126",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Administrativer Druck zermürbt langfristig, Frage nach persönlicher Nachhaltigkeit",
+        "P130",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Digitalisierung & Tools (Frust/Lücken)": [
+      [
+        "Frage, ob Beziehungsqualität gegen skalierbare digitale Angebote kommunizierbar bleibt",
+        "P060",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Digitalisierungsrückstand – überfordert von Tool-Auswahl, keine Zeit für Einarbeitung",
+        "P058",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Regulatorik und Datenschutz im digitalen Gesundheitswesen als dauernde Baustelle",
+        "P176",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Angst, sich bei Digitalisierungsthemen zu verzetteln und Qualität zu verlieren",
+        "P002",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Alles-hängt-an-ihr-Risiko: kein funktionierendes System ohne ihre Anwesenheit",
+        "P203",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Wachstum gewünscht, aber unklar wie ohne funktionierendes System skalierbar",
+        "P101",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ],
+    "Zeitmangel, Unterbrechungen & Überlastung": [
+      [
+        "Angst vor falscher Digitalisierungsinvestition – Zeitverlust und Überforderung des Teams",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Enger Markt für qualifizierte Osteopathen/Physiotherapeuten in Wien – lange Besetzungszeiten",
+        "P076",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Zu wenig Investition in Außendarstellung und Weiterentwicklung wegen Tagesgeschäft",
+        "P220",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Kein Echtzeit-Überblick über Finanzen, nur quartalsweise mit Treuhänderin",
+        "P106",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Investitionsbereitschaft begrenzt wegen Lebensalter und Zeithorizont",
+        "P200",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Zu wenig Zeit für Arbeitgeberattraktivität und Teamentwicklung",
+        "P195",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Marketing, Sichtbarkeit & Neukundengewinnung": [
+      [
+        "Hohe Umsatzabhängigkeit von wenigen Grosskunden (~40%) – strukturelles Risiko bekannt aber ungelöst",
+        "P174",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "26 Jahre Erfahrung zählen im Marketing wenig gegen neue, sichtbarere Mitbewerber",
+        "P037",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Kaltakquise und Marketing liegen mir nicht, werden vernachlässigt",
+        "P154",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Schwache externe Sichtbarkeit trotz hoher fachlicher Qualität",
+        "P035",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Wachsende Online-Konkurrenz, Marketing zu wenig priorisiert",
+        "P052",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Terminorganisation & No-Shows": [
+      [
+        "Digitalisierungsrückstand: Jüngere Klienten erwarten Online-Buchung, sonst Abwanderung",
+        "P008",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Keine Online-Buchungsmöglichkeit könnte Kundenverluste bedeuten",
+        "P153",
+        "Personal-Training-Studio"
+      ]
+    ],
+    "Neue Klient:innen aufnehmen / Onboarding": [
+      [
+        "Stagnation: Neukundenakquise liegt allein bei mir, passiert zu wenig",
+        "P009",
+        "Präventions-/BGF-Anbieter"
+      ]
+    ],
+    "Telefon & Erreichbarkeit": [
+      [
+        "Keine echte Auszeit möglich, da immer erreichbar und involviert",
+        "P178",
+        "Personal-Training-Studio"
+      ]
+    ]
+  },
+  "einwaende": {
+    "Zeitaufwand & Implementierungslast bleibt bei mir": [
+      [
+        "Unklare Folgekosten nach der Erstanalyse und hoher eigener Zeitaufwand während der Einführungsphase befürchtet",
+        "P013",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Zeitaufwand für Einführung und Schulung; Angst, dass es mehr kostet als bringt; eigene technische Überforderung",
+        "P173",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Unklare Folgekosten und unbekannter Einführungsaufwand – kein Budget und keine Kapazität für komplizierte Implementierung",
+        "P153",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Realer Implementierungsaufwand landet trotzdem bei mir; Unklarheit über tatsächliche Folgekosten und langfristige Abhängigkeit",
+        "P061",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Einführungsphase kostet meine Zeit und Aufmerksamkeit – ich brauche jemanden der abnimmt, nicht jemanden der Hausaufgaben gibt",
+        "P150",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Einführung kostet mich selbst zu viel Zeit; nach Abgang der externen Person bleibt System das niemand intern wirklich betreuen kann",
+        "P006",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ],
+    "Datenschutz & sensible Gesundheitsdaten": [
+      [
+        "Datenschutz bei Gesundheitsdaten (DSG Schweiz) und fehlende Nachbetreuung nach Einrichtung – keine interne IT-Ressource vorhanden",
+        "P106",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Datenschutz bei sensiblen Gesundheitsdaten ist kritisch; Zweifel an Nachhaltigkeit externer Lösungen und fehlender Betreuung nach Einrichtung",
+        "P152",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Datenschutz bei Gesundheitsdaten ist nicht nur Formalität – echte Haftungsfrage; außerdem Zweifel an Nachhaltigkeit ohne laufende externe Betreuung",
+        "P034",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Risiko oberflächlicher Analyse ohne echtes Praxisverständnis; konkrete Umsetzung von Datenschutz muss nachweisbar sein – nicht nur als Marketingbegriff",
+        "P060",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Datenschutz konkret ungeklärt (Serverstandort, Zugriffe, US-Cloud-Risiko) und fehlende Nachhaltigkeit nach Einrichtung – wer betreut das System danach?",
+        "P104",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Implementierungsaufwand liegt am Ende bei mir; Unklarheit über Betreuung nach Einrichtung; Datenschutz bei sensiblen Gesundheitsdaten als harter Blocker",
+        "P055",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Versteckte Folgekosten / Intransparenz nach Gratis-Analyse": [
+      [
+        "Wer wartet das System danach – fehlende interne IT-Kapazität; versteckte Folgekosten hinter kostenloser Erstanalyse",
+        "P179",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Aufwand beim Einrichten zu gross für zwei-Personen-Betrieb; Unklarheit über Folgekosten nach kostenloser Erstanalyse",
+        "P154",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Intransparenz über Folgekosten nach der Gratis-Analyse; Zweifel ob externe Person BGF-spezifische Komplexität schnell genug versteht",
+        "P079",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Angst, dass nach der Einrichtung alles wieder an mir hängt; Team nicht mitziehen wird; versteckte Kosten nach der kostenlosen Erstanalyse",
+        "P103",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Versteckte Folgekosten nach kostenloser Analyse; und Sorge, dass Team das System nicht benutzen wird – schlechte Erfahrung mit App-Einführung bereits gemacht",
+        "P128",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Angst vor System das ich nicht selbst bedienen kann wenn etwas schiefläuft; Misstrauen gegenüber 'kostenlos' als Einstieg – Frage nach versteckten Folgekosten",
+        "P148",
+        "Personal-Training-Studio"
+      ]
+    ],
+    "Wartung & Betreuung danach / Nachhaltigkeit unklar": [
+      [
+        "Unklar was KI-gestützt konkret bedeutet; Sorge um fehlende Unterstützung nach der Einrichtung – wer hilft wenn etwas nicht funktioniert?",
+        "P084",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "System wird eingerichtet und dann bin ich allein damit; außerdem unklar was KI-gestützt konkret bedeutet und ob Entscheidungen abgegeben werden",
+        "P032",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Fehlende Nachhaltigkeit nach Projektabschluss und Angst vor zu generischer Lösung, die den spezifischen Gesundheitsbetrieb nicht wirklich abbildet",
+        "P132",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Nachhaltigkeit nach der Einrichtung unklar; Sorge vor Universallösungen die nicht auf Schweizer Gesundheitsbranche und Logopädie zugeschnitten sind",
+        "P151",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Wer pflegt und betreut das System danach? Externe richtet ein und geht – dann veraltet es; kostenlose Erstanalyse ist erkennbar ein Vertriebsinstrument",
+        "P202",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Datenschutz bei sensiblen Gesundheitsdaten; Unklarheit über Wartung und Zuständigkeit nach der Einrichtung; Angst vor nicht nachhaltig genutzten Lösungen",
+        "P155",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ]
+    ],
+    "Abhängigkeit von externer Person / Anbieter": [
+      [
+        "Zeitaufwand für die Einrichtung, den ich selbst nicht habe – und Angst vor Abhängigkeit von einer externen Person, wenn das System läuft",
+        "P123",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Zeitinvestition meinerseits für Einblick und Erklärungen; Angst vor neuer Abhängigkeit von externer Person ohne eigene Wartungsfähigkeit",
+        "P133",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Generische Kommunikation würde Premium-Positionierung beschädigen; Abhängigkeit von externem Anbieter ohne eigene Wartungskompetenz danach",
+        "P010",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Externe versteht unsere spezifische Realität nicht schnell genug; Einführungsaufwand und spätere Abhängigkeit vom Anbieter bereiten Sorgen",
+        "P099",
+        "Präventions-/BGF-Anbieter"
+      ],
+      [
+        "Datenschutz bei Gesundheits- und Diagnosedaten (nDSG); Angst vor Abhängigkeit von externem Dienstleister, der danach nicht mehr verfügbar ist",
+        "P031",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Einführungsaufwand liegt bei mir, bevor ich Nutzen sehe; und Abhängigkeit von externer Person – wer pflegt das System weiter, wenn sie weg ist?",
+        "P077",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ],
+    "Angst um Persönlichkeit & Beziehungsqualität": [
+      [
+        "Angst vor Unpersönlichkeit durch Automatisierung (Beziehungsqualität ist unser Kernwert) und versteckter Aufwand bei Implementierung",
+        "P028",
+        "Personal-Training-Studio"
+      ],
+      [
+        "Nachhaltigkeit nach Einrichtung unklar; außerdem Sorge, dass Automatisierung den persönlichen, vertrauensvollen Ton in der Klientenkommunikation zerstört",
+        "P172",
+        "Ernährungs-/Gesundheitszentrum"
+      ],
+      [
+        "Wer pflegt das System nach der Einrichtung? Und: Passt die Lösung zum Premium-Ton unserer Kommunikation – oder wirkt sie generisch und schadet der Glaubwürdigkeit?",
+        "P195",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Externe versteht persönlichen Charakter der Praxis nicht; Angst vor Entpersönlichung der Klientenbeziehung; kein Wissen wer System nach Einrichtung wartet und pflegt",
+        "P056",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Premium-Markenkern darf nicht durch unpersönliche Automatisierung beschädigt werden; fehlende Betreuung nach Einrichtung – wer wartet das System langfristig wenn externe Person weg ist",
+        "P030",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Externe Person versteht die spezifische Studio-Kultur und persönliche Kundenbeziehung nicht schnell genug; Gefahr von unpersönlich wirkender Automatisierung; Abhängigkeit vom Dienstleister wenn Lösung zu komplex wird",
+        "P178",
+        "Personal-Training-Studio"
+      ]
+    ],
+    "sonstiges": [
+      [
+        "Fehlende Umsetzungsbegleitung und Teamakzeptanz; außerdem Unbehagen gegenüber KI als undurchsichtige und unkontrollierbare Technologie",
+        "P085",
+        "Wellness-/Longevity-Praxis (Premium)"
+      ],
+      [
+        "Angst vor halbfertigen Konzepten die im Alltag einschlafen; Unklarheit was KI-gestützt konkret für eine 3-Personen-Praxis bedeutet und kostet",
+        "P156",
+        "Physiotherapie-/Therapiepraxis"
+      ],
+      [
+        "Zeitinvestition am Anfang unterschätzt; Unklarheit wer das System nach Einrichtung wartet und bei Änderungen anpasst – keine interne IT-Ressource vorhanden",
+        "P081",
+        "Physiotherapie-/Therapiepraxis"
+      ]
+    ],
+    "Skepsis: versteht externe Person meinen Betrieb?": [
+      [
+        "Zweifel ob externe Person spezifischen Betriebskontext wirklich versteht; Skepsis gegenüber 'datenschutzkonform' im Gesundheitsbereich ohne konkrete Nachweise",
+        "P052",
+        "Ernährungs-/Gesundheitszentrum"
+      ]
+    ]
+  }
+}
