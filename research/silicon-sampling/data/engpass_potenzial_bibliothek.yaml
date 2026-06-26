@@ -1,0 +1,201 @@
+# ============================================================================
+# ENGPASS- & POTENZIAL-BIBLIOTHEK  ·  KI-Potenzialanalyse
+# ----------------------------------------------------------------------------
+# Datenquelle: Silicon-Sampling-Studie, 220 synthetische Personas,
+#   Modell claude-sonnet-4-6 (siehe research/silicon-sampling/).
+# HINWEIS (ESOMAR ICC 2025): synthetische Daten = Hypothesen, keine Fakten.
+#   In der Präsentation als "datenbasierte Hypothese" kennzeichnen.
+#
+# AUFBAU: 1 gemeinsame KERN-Bibliothek (gilt für ALLE Typen, weil die größten
+#   Engpässe überall fast identisch sind) + pro Betriebstyp ein OVERLAY
+#   (verstärkte/zusätzliche Engpässe, Spitzen-Einwand, typ-spezifische O-Töne).
+#
+# FELD-LOGIK je Engpass:
+#   titel      – Überschrift für die Folie
+#   symptome   – woran der Kunde es im Alltag erkennt (zum Aufzählen)
+#   kosten     – was es ihn kostet (Zeit/Geld/Energie) -> Schmerz benennen
+#   o_ton      – wörtliches Zitat aus der Studie (Glaubwürdigkeit)
+#   potenzial  – wie Leonie konkret hilft (die Lösung)
+#   baustein   – woher Leonies Kompetenz kommt (Ausbildung/Workflow)
+# ============================================================================
+
+meta:
+  quelle: "Silicon-Sampling-Studie (220 Personas, claude-sonnet-4-6)"
+  esomar: "Synthetische Daten gemäß ESOMAR ICC Code 2025 – Ergebnisse sind Hypothesen, keine validierten Fakten."
+  kern_befund: "Verwaltung/Abrechnung ist bei JEDEM Betriebstyp Engpass #1 (80–98 %). Personal, Termine und Kommunikation folgen. Der emotionale Kern: 'alles hängt an mir'."
+  ueberblick_buchungsbereitschaft: "Buchung der kostenlosen Erstanalyse Ø 5,8/10 über alle Typen – Interesse solide, kein Selbstläufer. Hebel = Einwände vorab entkräften."
+
+# ---------------------------------------------------------------------------
+# KERN-BIBLIOTHEK  (für alle Betriebstypen)
+# ---------------------------------------------------------------------------
+kern:
+  engpaesse:
+    - id: verwaltung_abrechnung
+      titel: "Verwaltung & Abrechnung frisst die Leitungszeit"
+      haeufigkeit: "80–98 % (Engpass #1 in jedem Typ)"
+      symptome:
+        - "Rechnungen, Mahnwesen, Dokumentation laufen manuell oder in Excel"
+        - "Mehrere unverbundene Systeme (Kalender, Abrechnung, Klientenakte)"
+        - "Buchhaltungs-Vorbereitung bleibt immer an der Inhaberin hängen"
+      kosten: "Mehrere Stunden pro Woche, oft abends – Zeit, die für nichts Wertschöpfendes draufgeht."
+      o_ton: "Administrative Systeme sind nicht vernetzt – Kalender, Abrechnung, Dossiers laufen separat."
+      potenzial: "Automatisierte Rechnungs- & Dokumentations-Workflows, Vorlagen, Anbindung der bestehenden Praxissoftware – ein durchgängiger Ablauf statt Insellösungen."
+      baustein: "Modul 2 (Effizienz Kernprozesse) + Modul 3 (Automatisierung); geprüfte n8n-Workflows für Verwaltung."
+
+    - id: personal_fuehrung
+      titel: "Personal finden, halten, führen – und die Doppelrolle"
+      haeufigkeit: "61–77 %"
+      symptome:
+        - "Dienstplanung über selbstgebastelte Excel, fehleranfällig"
+        - "Informationsweitergabe im Team unzuverlässig – Inhaberin als Verteiler"
+        - "Ständiger Spagat zwischen Führung und eigener fachlicher Arbeit"
+      kosten: "Reibung, Fehler, Nacharbeit – und das Gefühl, nie ganz in einer Rolle präsent zu sein."
+      o_ton: "Ewiges Koordinieren von Dienstplänen, Urlauben und Klientenpräferenzen mit Papier und Excel."
+      potenzial: "Onboarding- & Wissens-Automatisierung, dokumentierte Abläufe und eine gemeinsame Kapazitäts-/Dienstplan-Übersicht, die das Team selbst nutzt."
+      baustein: "Wissensmanagement (Modul 2); standardisierte, 'gelebte' Prozesse."
+
+    - id: termine_noshows
+      titel: "Terminorganisation & No-Shows"
+      haeufigkeit: "59–80 %"
+      symptome:
+        - "Termine über Telefon, WhatsApp, Papierkalender parallel"
+        - "Doppelbuchungen, Klient:innen vor besetzten Räumen"
+        - "Absagen/No-Shows lassen Kapazität ungenutzt"
+      kosten: "Tägliches Ping-Pong, verlorene Stunden, verschenkter Umsatz durch leere Slots."
+      o_ton: "Telefonische Terminorganisation mit Papierbuch – zermürbendes Rausradieren und Umbuchen."
+      potenzial: "Automatische Online-Buchung, Erinnerungen & Bestätigungen, Warteliste-Nachrückung bei Absagen – holt mehr aus der vorhandenen Auslastung."
+      baustein: "Modul 2/3; n8n-Workflows Termin/Erinnerung."
+
+    - id: kommunikation
+      titel: "Kommunikation über zu viele Kanäle"
+      haeufigkeit: "43–75 %"
+      symptome:
+        - "Anfragen verteilt über WhatsApp, E-Mail, Telefon, Zettel"
+        - "Informationen versickern, Rückfragen unterbrechen ständig"
+      kosten: "Permanentes Rauschen, nichts ist an einem Ort, alles muss nachgehalten werden."
+      o_ton: "Kommunikation mit Klient:innen über zu viele verschiedene Kanäle (WhatsApp, Anruf, E-Mail)."
+      potenzial: "Kanäle bündeln, KI-gestützte Antwortvorschläge & Self-Service für Standardfragen – datenschutzkonform und mit erhaltenem persönlichem Ton."
+      baustein: "Modul 2/3; datenschutzkonforme Kommunikations-Workflows."
+
+    - id: alles_haengt_an_mir
+      titel: "Alles hängt an mir – Inhaberin als Flaschenhals"
+      haeufigkeit: "40 % (gesamt) – der emotionale Kern-Schmerz"
+      symptome:
+        - "Ohne die Inhaberin steht vieles still"
+        - "Delegieren scheitert an fehlenden Strukturen, nicht am Willen"
+        - "Gefühl, 'Sekretärin statt Unternehmerin' zu sein"
+      kosten: "Keine echte Erholung, kein Wachstum möglich, hohes Risiko bei Ausfall."
+      o_ton: "Ich bin Inhaberin, nicht Knotenpunkt und Lückenfüllerin für alles."
+      potenzial: "End-to-end-Workflows, die die Inhaberin als Engpass herausnehmen; klare Zuständigkeiten im System verankert – der Betrieb läuft auch ohne ihre ständige Präsenz."
+      baustein: "Der KI-Consulting-Workflow (Modul 1) als Rahmen über alle Einzelmaßnahmen."
+
+  # Einwände, die VORAB (auf Folie/im Gespräch) entkräftet werden müssen
+  einwaende:
+    - id: zeitaufwand
+      einwand: "Die Umstellung und der Aufwand bleiben am Ende an mir hängen."
+      haeufigkeit: "häufigster Einwand gesamt (25–32 % je Typ)"
+      entkraeftung: "Festes, schlankes Aufbau-Projekt – Leonie übernimmt Einrichtung UND Team-Einweisung. Ergebnis-Versprechen: Zeit zurückgewinnen, nicht investieren."
+    - id: datenschutz
+      einwand: "Sensible Gesundheitsdaten in fremde/automatisierte Hände?"
+      haeufigkeit: "16–41 % je Typ – stärkster Vertrauens-Blocker"
+      entkraeftung: "DSGVO/EU-AI-Act/Haftung (Modul 4) + sichere Cloud-/On-Premise-Lösungen + TÜV-geprüftes Zertifikat. Eigene Datenschutz-Folie. Das ist Verkaufsargument, nicht Kleingedrucktes."
+    - id: folgekosten
+      einwand: "Was kostet das wirklich – versteckt sich hinter der Gratis-Analyse ein Haken?"
+      haeufigkeit: "20–27 % je Typ"
+      entkraeftung: "Transparente Fixpreise nennen, bevor gefragt wird. Erstanalyse klar als unverbindliche Standortbestimmung – ohne Abschlussdruck."
+    - id: wartung_danach
+      einwand: "Wer betreut das System, wenn die externe Person wieder weg ist?"
+      haeufigkeit: "14–18 % je Typ"
+      entkraeftung: "Monatlicher Betreuungs-Retainer als Vertrauens-Anker von Anfang an + Anbindung KI-Beraterverbund."
+    - id: persoenlichkeit
+      einwand: "Wird durch Automatisierung alles unpersönlich? Beziehungsqualität ist unser Kern."
+      haeufigkeit: "v. a. Premium-/Studio-Segment"
+      entkraeftung: "Automatisierung übernimmt die Routine, damit MEHR echte Zeit für Menschen bleibt – das Persönliche wird geschützt, nicht ersetzt."
+
+# ---------------------------------------------------------------------------
+# BETRIEBSTYPEN  (Overlay auf die Kern-Bibliothek)
+# ---------------------------------------------------------------------------
+betriebstypen:
+
+  physio_therapie:
+    label: "Physiotherapie & Therapiepraxis"
+    enthaelt: "Physio, Ergo, Logopädie, Osteopathie, manuelle Therapie"
+    datenbasis: studie          # direkt aus dem Sampling
+    n: 44
+    buchung_avg: 5.8
+    overlay_engpaesse:
+      - bezug: verwaltung_abrechnung
+        verstaerkung: "Spitzenwert 98 % – Treiber ist die KRANKENKASSEN-/HEILMITTEL-Abrechnung."
+        o_ton: "Abrechnung mit Krankenkassen und Heilmittelverordnungen bindet zu viele manuelle Schritte."
+        potenzial_spezifisch: "Workflow für Kassen-Abrechnung & Heilmittelverordnungen, Fristen-/Formular-Handling."
+      - bezug: personal_fuehrung
+        verstaerkung: "Dienstplanung mit Kassenverträgen/Krankenstand besonders komplex."
+    spitzen_einwand: datenschutz   # 23 % – Gesundheitsdaten, in CH zusätzlich DSG
+    praesentations_hinweis: "Krankenkassen-Abrechnung als Aufmacher-Engpass; Datenschutz-Folie betonen."
+
+  ernaehrung:
+    label: "Ernährung & Gesundheitsberatung"
+    enthaelt: "Ernährungsberatung, Diätologie, Stoffwechsel/Darm, Gewichtsmanagement"
+    datenbasis: studie
+    n: 44
+    buchung_avg: 5.9
+    overlay_engpaesse:
+      - bezug: termine_noshows
+        verstaerkung: "Besonders hoch (80 %) – mehrschrittige Terminkommunikation, dezentrale Kalender."
+        o_ton: "Mehrschrittige Terminkommunikation (Anruf, Zettel, Rückruf) statt automatisierter Buchung."
+        potenzial_spezifisch: "Online-Buchung + automatische Erinnerung/Bestätigung; Onboarding/Anamnese digital."
+    spitzen_einwand: datenschutz   # 41 % – DEUTLICH höchster Datenschutz-Wert aller Typen
+    praesentations_hinweis: "Datenschutz-Folie zwingend prominent – hier ist die Sorge am größten (41 %)."
+
+  training_fitness:
+    label: "Personal Training & Fitnessstudio"
+    enthaelt: "1:1-PT, Small-Group, EMS, Functional, Frauen-Fitness"
+    datenbasis: studie
+    n: 44
+    buchung_avg: 5.6
+    overlay_engpaesse:
+      - bezug: verwaltung_abrechnung
+        verstaerkung: "Abo-/Mitgliederverwaltung: Pausen, Kündigungen, Wechsel, Zahlungsverfolgung."
+        o_ton: "Kundenanfragen (Abrechnung, Abo-Pausen, Termine) landen direkt bei der Inhaberin statt beim Team."
+        potenzial_spezifisch: "Automatisierte Abo-/Mitglieder-Mutationen und Zahlungs-Workflows."
+    spitzen_einwand: folgekosten   # preissensibelster Typ; Folgekosten + Abhängigkeit
+    praesentations_hinweis: "Preis-Transparenz besonders wichtig (preissensibel). Schlanke Fixpreis-Pakete betonen. Persönlichkeits-Einwand mitdenken (Entpersönlichung Studio)."
+
+  longevity_wellness:
+    label: "Longevity & Medical Wellness"
+    enthaelt: "Longevity/Healthspan, Medical Wellness, Hormone/Performance, Premium-Prävention"
+    datenbasis: studie            # gesampelt als 'Premium-Wellness/Longevity'
+    n: 44
+    buchung_avg: 5.9
+    overlay_engpaesse:
+      - bezug: kommunikation
+        verstaerkung: "Sehr hoch (75 %) – Premium-Klientel erwartet schnelle, persönliche Reaktion über viele Kanäle."
+        o_ton: "Wiederkehrende Unterbrechungen durch Rückfragen, die ein klares Regelwerk verhindern würde."
+        potenzial_spezifisch: "Hochwertige, personalisierte (NICHT generische) Kommunikations-Workflows; Concierge-Anmutung wahren."
+      - bezug: verwaltung_abrechnung
+        verstaerkung: "Privatabrechnung & Zusatzversicherungen kosten die Assistenz bis zu 1,5 Tage/Woche."
+    spitzen_einwand: persoenlichkeit  # Angst vor Verlust der Exklusivität/Persönlichkeit
+    praesentations_hinweis: "Betonen: Automatisierung schützt das Premium-Erlebnis (mehr Zeit pro Klient:in), generische Lösungen vermeiden."
+
+  aesthetik:
+    label: "Ästhetik & Kosmetikpraxis"
+    enthaelt: "ästhetische Medizin, Kosmetik, Hautpflege, Beauty-Behandlungen"
+    datenbasis: abgeleitet        # NICHT eigenständig gesampelt
+    abgeleitet_von: "longevity_wellness (Premium/Selbstzahler-Profil)"
+    overlay_engpaesse:
+      - bezug: termine_noshows
+        verstaerkung: "Selbstzahler-Beauty: No-Shows und Wiederbuchung/Folgetermine besonders umsatzrelevant."
+        potenzial_spezifisch: "No-Show-Reduktion (Erinnerung/Anzahlung), automatisierte Recall-/Wiederbuchungs-Kampagnen, Vorher-Nachher-Dokumentation."
+      - bezug: kommunikation
+        verstaerkung: "Marketing/Wiederansprache und Beratungsanfragen treiben das Kommunikationsvolumen."
+    spitzen_einwand: persoenlichkeit
+    praesentations_hinweis: "ALS ABGELEITET KENNZEICHNEN. Fokus: Selbstzahler-Logik (keine Kasse), Recall/Wiederbuchung, Persönlichkeit. Datenschutz weiterhin relevant."
+
+  allgemein:
+    label: "Allgemeine Gesundheitspraxis"
+    enthaelt: "Heilpraktiker, Naturheilkunde, alternative Praxen, sonstige kleine Gesundheitsbetriebe"
+    datenbasis: abgeleitet        # nutzt nur die Kern-Bibliothek
+    abgeleitet_von: "Kern-Bibliothek (Therapiepraxis-Kern, Selbstzahler-Variante)"
+    overlay_engpaesse: []         # kein Overlay – reiner Kern
+    spitzen_einwand: datenschutz
+    praesentations_hinweis: "ALS ABGELEITET KENNZEICHNEN. Reine Kern-Bibliothek. Abrechnung meist Selbstzahler/privat (kein Kassen-Overlay). Datenschutz betonen (sensible Daten)."
