@@ -10,8 +10,8 @@ weiterhin in [`../AGENTS.md`](../AGENTS.md) und verweist auf diesen Ordner.
 | Datei | Zweck | Status |
 |---|---|---|
 | [`silicon-sampling.md`](silicon-sampling.md) | Synthetische Marktforschung (200 Personas, 5 Segmente) — Pain Points, O-Töne, Preisbereitschaft, Segment-Ranking. ESOMAR-gekennzeichnet. | ✅ |
-| `positionierung.md` | Positionierung, Angebot, Differenzierung, Preismodell | geplant |
-| `brand-voice.md` | Vertiefung/Arbeitskopie zur Brand Voice (Kanon bleibt `AGENTS.md`) | geplant |
+| [`brand_position.md`](brand_position.md) | Brand Position — Mission/Anti-Mission, 3 Positionen, wen wir (nicht) bedienen. Aus dem 10-Fragen-Sparring. | ✅ |
+| [`strategie-briefing-gesundheitsbetriebe.md`](strategie-briefing-gesundheitsbetriebe.md) | Positionierungs- & Kommunikations-Leitfaden: Haltung + Markt + fertige Textbausteine + Preis-Korridore. | ✅ |
 | `segmente.md` | Segment-Profile & Zielpersonen im Detail | geplant |
 
 ## Zielgruppe (Kurzfassung)
