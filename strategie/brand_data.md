@@ -20,12 +20,12 @@ Was Leonie an eigenem, belegbarem Material hat — geordnet nach Zitierstärke:
    Segment-Unterschiede. → `strategie/silicon-sampling.md`. *(Synthetisch, ESOMAR —
    als Hypothese kennzeichnen. Trotzdem: proprietäre Marktforschung, die kaum ein
    Mitbewerber hat.)*
-2. **20+ Jahre Gesundheits-/Pharma- & Digital-Transformation-Praxis.** Digital
-   Transformation Lead bei Merck Healthcare Spanien (integrierte Multichannel-Plattform,
-   Salesforce Marketing Cloud); Brand-/Product-Management bei AbbVie (Neuroscience,
-   Parkinson-Relaunch), Merck (Cardio-Metabolic), KED (Immunglobuline), Baxter (globale
-   Projektsteuerung, Produktlaunches). → Domänen-Glaubwürdigkeit *im Gesundheitswesen*
-   plus KPI-/Launch-Erfahrung.
+2. **20+ Jahre in regulierten, datensensiblen Gesundheits-Umfeldern.** Verantwortung
+   für die digitale Transformation in einem internationalen Gesundheitskonzern (integrierte,
+   datenschutzkonforme Multichannel-Plattform über alle Geschäftsbereiche) sowie Marken- und
+   Produktführung im Gesundheitssektor. → **Beleg, dass Leonie mit sensiblen Gesundheitsdaten
+   und komplexer Digitalisierung in streng regulierten Umgebungen sicher umgeht** — genau die
+   größte Sorge der Zielgruppe. (Konzernnamen auf Wunsch dezent nennbar.)
 3. **4,5 Jahre Beratung von Selbstständigen (2021–2026).** Geschäftsmodelle,
    Positionierung, Systeme & Automatisierung, „operative Überlastung reduziert".
    Belegt durch 15 dokumentierte Testimonials (→ Story Bank).
@@ -96,6 +96,8 @@ Jedes getestete Tool wird nach 6 Kriterien mit 1–5 bewertet; Schnitt ergibt da
 zitierfähiger „Hebel-vs-Hype"-Index.
 **Bau-Plan:** 8–10 gängige Tools (z. B. Terminbuchung, Abrechnung, Kommunikation) in
 den nächsten 4 Wochen einmal durchbewerten. Danach hast du eine eigene Vergleichstabelle.
+→ **Excel-Vorlage** dafür: `KI-Tool-Bewertung_Hebel-vs-Hype.xlsx` (Auto-Score + Urteil,
+Datenschutz als K.-o.-Kriterium; separater Download, wird lokal gepflegt wie der Testimonial-Tracker).
 
 ---
 
@@ -121,89 +123,64 @@ Kund:innen-Zahl behaupten, die nicht erhoben wurde.
 
 ## Story Bank
 
-*Anonymisierung: Rolle voran (im DACH-Kontext wiederverwendbar), Vorname im Beleg.
-Die Fälle 1–11 sind **Beratungs-/Coaching-Fälle vor der KI-Spezialisierung** — sie
-belegen das Fundament (Klarheit, Struktur, Systeme für überforderte Solo-Selbstständige,
-überwiegend aus Gesundheit/Wellness). Fälle 12–13 sind **Konzern-Track-Record im
-Gesundheitswesen**. KI-spezifische Fälle mit Metriken folgen (Erhebung ab jetzt).*
+*Ehrlich eingeordnet: Diese Fälle stammen aus Leonies **früherer Beratung** selbstständiger
+Gesundheits-/Wellness-Anbieter:innen — noch **nicht** aus dem neuen Ziel-Segment (Physio,
+Zahnarzt, Longevity, Ästhetik). Sie belegen das **Fundament**: überforderten Solo-
+Selbstständigen Struktur, Systeme und Klarheit geben. Jeder Fall hat eine
+**„Für Ihre Praxis"-Brücke**, die die Dynamik auf eine Praxis überträgt. Rollen
+wahrheitsgemäß, Vorname im Beleg. Kuratiert — Qualität vor Menge.*
 
-**1. Wachsendes Team, alles hängt an der Inhaberin**
-- *Situation:* Unternehmerin mit wachsendem Team, ohne klare Struktur.
-- *Konflikt:* „Als mein Team wuchs, kämpften wir damit, organisiert zu bleiben" — alles lief über sie.
-- *Lösung:* System mit klaren Zuständigkeiten aufgebaut, Aufgaben delegierbar gemacht.
-- *Beweis:* „Ich mache jetzt viel mehr von dem, was ich gern tue, weil ich Arbeit abgeben kann … es war eine großartige Investition." — Michelle, Unternehmerin/Kreative.
+### Fundament-Belege (kuratiert)
 
-**2. Viele Ideen, keine Struktur**
-- *Situation:* Heilerin/Coach mit vielen Angeboten, aber ohne roten Faden.
-- *Konflikt:* „So viele Ideen, ohne eine Möglichkeit, sie zusammenzubringen."
-- *Lösung:* In einer Session das gesamte Angebot strukturiert und in eine Marketing-Strategie überführt.
-- *Beweis:* „Am Ende wusste ich genau, was ich anbiete, wie ich es anbiete und wie ich es verbinde." — Megan, Healerin.
+**1. „Alles hängt an mir" — Team wächst, Struktur fehlt** ⭐
+- **Situation:** Selbstständige mit wachsendem Team, ohne klare Zuständigkeiten.
+- **Konflikt:** „Als mein Team wuchs, kämpften wir damit, organisiert zu bleiben" — alles lief über sie.
+- **Lösung:** System mit klaren Rollen und delegierbaren Abläufen aufgebaut.
+- **Beweis:** „Ich mache jetzt viel mehr von dem, was ich gern tue, weil ich Arbeit abgeben kann." — Michelle.
+- **Für Ihre Praxis:** Genau dieses Gefühl kennen Praxisinhaber:innen, wenn Termine, Abrechnung und Team an ihnen hängen — hier setzt der erste Automatisierungs-Schritt an.
 
-**3. Überforderung, kein Fokus**
-- *Situation:* Health & Life Coach, verzettelt.
-- *Konflikt:* „Ich war verwirrt und überall gleichzeitig in meinem Business."
-- *Lösung:* Klarheit über Zielgruppe und Differenzierung erarbeitet.
-- *Beweis:* „Sie half mir zu verstehen, wem ich wirklich helfen will und wofür ich stehe." — Laurence, Health & Life Coach.
+**2. Praktische Systeme statt Bauchgefühl** ⭐ *(Rolle passt am besten zur Zielgruppe)*
+- **Situation:** Ganzheitliche Gesundheitspraktikerin ohne strukturiertes Vorgehen.
+- **Konflikt:** Brauchte handfeste, sofort nutzbare Abläufe statt Theorie.
+- **Lösung:** Konkrete Vorlagen und ein umsetzbarer Marketing-/Prozessplan.
+- **Beweis:** „Strategien, die ich sofort umsetzen konnte." — Kim, Gesundheitspraktikerin.
+- **Für Ihre Praxis:** Steht für Leonies „praxisnah, sofort einsetzbar"-Prinzip — keine Konzepte zum Wegräumen.
 
-**4. Keine Nischen-Klarheit**
-- *Situation:* Life Coach ohne klare Positionierung.
-- *Konflikt:* Keine Klarheit über Nische und Wunschkund:in.
-- *Lösung:* Nische und ideale Kund:in klar herausgearbeitet.
-- *Beweis:* „Danach konnte ich meine Nische mühelos sehen und meine ideale Kundin bestimmen." — Martha, Life Coach.
+**3. Chaos aus vielen Baustellen → in einer Sitzung Struktur**
+- **Situation:** Selbstständige im Wellness-Bereich mit vielen Angeboten, ohne roten Faden.
+- **Konflikt:** „So viele Ideen, ohne eine Möglichkeit, sie zusammenzubringen."
+- **Lösung:** In einer Sitzung Angebot und Abläufe strukturiert.
+- **Beweis:** „Am Ende wusste ich genau, was ich anbiete und wie ich es verbinde." — Megan.
+- **Für Ihre Praxis:** Die typische „ich weiß, ich müsste — aber wo anfangen?"-Lage; die Potenzialanalyse bringt genau diese Ordnung.
 
-**5. Überforderung bei Social-Media-Marketing**
-- *Situation:* Positive-Mindset-Coach, erschlagen vom Marketing.
-- *Konflikt:* „Überforderung und Unsicherheit, wo ich anfangen soll."
-- *Lösung:* Systematischer Ansatz, visuell dargestellt — Struktur statt Chaos.
-- *Beweis:* „Ihre Grafik der Elemente gab mir ein klares Bild und reduzierte meine Überforderung." — Marion, Mindset-Coach.
+**4. Überforderung → ein sichtbares System senkt sie**
+- **Situation:** Selbstständige, überfordert vom Organisatorischen.
+- **Konflikt:** „Überforderung und Unsicherheit, wo ich anfangen soll."
+- **Lösung:** Systematischer, visuell dargestellter Ansatz — Struktur zum Anfassen.
+- **Beweis:** „Die Grafik der Elemente reduzierte meine Überforderung." — Marion.
+- **Für Ihre Praxis:** Übersicht schlägt Überforderung — ein klarer Ablauf nimmt den Druck, bevor das erste Tool läuft.
 
-**6. Unsicher bei Marketing & Funnel**
-- *Situation:* Airbnb-Educator/Heilerin, unsicher über ihren Marketing-Plan.
-- *Konflikt:* Zweifel, ob Ideen und Funnel wirklich Kund:innen konvertieren.
-- *Lösung:* Klares System zum Wiederverwenden von Content, Landingpage auf Pain Points ausgerichtet.
-- *Beweis:* „Ein klarer Weg, mich mit Selbstvertrauen und Authentizität zu vermarkten." — Lauren, Educator & Heilerin.
+### Capability-Beleg (Vertrauens-Anker Datenschutz)
 
-**7. Organisches Marketing ohne Plan**
-- *Situation:* Holistic Wellness Practitioner, kein Marketing-Fundament.
-- *Konflikt:* Brauchte einen praktikablen organischen Marketing-Ansatz.
-- *Lösung:* Konkrete Vorlagen/Spreadsheets + Marketing-Plan geliefert.
-- *Beweis:* „Strategien, die ich sofort umsetzen konnte." — Kim, Holistic Wellness Practitioner.
+**5. Digitalisierung in einem streng regulierten Gesundheits-Umfeld**
+- **Situation:** Internationaler Gesundheitskonzern, fragmentierte Kanäle, hoch sensible Daten.
+- **Konflikt:** Keine einheitliche, datenschutzkonforme Sicht über alle Bereiche.
+- **Lösung:** Als Verantwortliche für die digitale Transformation eine integrierte, regelkonforme Plattform aufgebaut und ausgerollt.
+- **Beweis:** Über alle Geschäftsbereiche im Einsatz — belegt sicheren Umgang mit sensiblen Gesundheitsdaten in einem regulierten Umfeld.
+- **Für Ihre Praxis:** Ihre größte Sorge — „meine Patientendaten" — ist Leonies Heimatterrain, nicht Neuland.
 
-**8. Fachwissen da, Umsetzung blockiert**
-- *Situation:* Illustratorin mit Marketing-Studium, trotzdem blockiert.
-- *Konflikt:* „Es kostete mich viel Zeit, Kraft und Frust, einen Evergreen-Plan zu bauen — trotz BA und Master."
-- *Lösung:* Klarer, umsetzbarer Blueprint, auf ihre Realität zugeschnitten.
-- *Beweis:* „Ich fühle mich befähigt, das nachhaltig umzusetzen — machbarer als je zuvor." — Suzy, Illustratorin.
+### Ziel-Segment-Cases (in Arbeit — der eigentliche Hebel)
 
-**9. Angebot schärfen, Zielkund:in treffen**
-- *Situation:* Behavioural Coach, wollte Angebot verbessern.
-- *Konflikt:* Unklar, wie die ideale Kundin besser ansprechen.
-- *Lösung:* Frische Außenperspektive, klare Guidance.
-- *Beweis:* „Die Leichtigkeit, mit der ich jetzt Marketing-Posts erstelle, die Aufmerksamkeit bekommen." — Carrie, Behavioural Coach.
+Noch leer — und das ist ehrlich so. Diese Fälle bauen wir zuerst, dann ersetzen sie
+Schritt für Schritt die Fundament-Belege:
 
-**10. „Alles heruntergebrochen"**
-- *Situation:* Energy Healer, überfordert.
-- *Konflikt:* Zu viel auf einmal, kein Einstiegspunkt.
-- *Lösung:* Komplexität in machbare Schritte zerlegt.
-- *Beweis:* „Sie hat Dinge sehr handhabbar heruntergebrochen." — Laura, Energy Healer.
-
-**11. Wachstum ohne Klarheit**
-- *Situation:* Heilerin/Gründerin, wollte wachsen.
-- *Konflikt:* Fehlende Einsichten in Business & Marketing.
-- *Lösung:* Struktur und Insights zu Positionierung und Marketing.
-- *Beweis:* „Leidenschaftlich, professionell, kompetent — ich empfehle sie uneingeschränkt." — Mor, Heilerin/Gründerin.
-
-**12. Digitalisierung im Gesundheitswesen (Konzern-Track-Record)**
-- *Situation:* Merck Healthcare Spanien, fragmentierte Kanäle über alle Business Units.
-- *Konflikt:* Keine 360°-Kundensicht, uneinheitliche Kommunikation.
-- *Lösung:* Als Digital Transformation Lead integrierte Multichannel-Plattform aufgebaut (CRM, CLM, E-Mail, Web, Salesforce Marketing Cloud).
-- *Beweis:* Für alle Biopharm-Business-Units ausgerollt — belegt große Digitalisierungs-Kompetenz *im Gesundheitssektor*.
-
-**13. Produkt-Relaunch in der Neurologie (Konzern-Track-Record)**
-- *Situation:* AbbVie, Parkinson-Medikament mit Repositionierungsbedarf.
-- *Konflikt:* Marke musste im Markt neu positioniert werden.
-- *Lösung:* Strategische Repositionierungs-Kampagne entwickelt und gelauncht.
-- *Beweis:* Erfolgreicher Launch inkl. KPI-Messung — belegt Positionierungs- und Marketing-Handwerk im Gesundheitskontext.
+- **1–2 kostenlose/vergünstigte Pilotprojekte** gezielt bei *einer* Praxis aus dem
+  Fokus-Segment (Longevity oder Zahnarzt) — im Tausch gegen Testimonial + Erlaubnis,
+  Zahlen zu nennen.
+- **Vorher/Nachher messen** mit den 3 Metriken unten (Stunden/Woche, automatisierte
+  Prozesse, Tage bis Quick-Win).
+- Ergebnis als ersten **Situation → Konflikt → Lösung → Beweis**-Fall *im Ziel-Segment*
+  dokumentieren und hier eintragen.
 
 ---
 
