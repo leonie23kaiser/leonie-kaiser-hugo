@@ -19,6 +19,8 @@ Kundenerlebnis** — das, wovon Selbstzahler-Praxen leben. KI ist dabei Mittel, 
 Botschaft: Wir fangen bei den Prozessen an, nicht beim Tool. Und wir bleiben — die
 Systeme wachsen mit, niemand steht danach allein da.
 
+**Und das Persönliche bleibt geschützt: KI nimmt die Routine, nicht die Beziehung.**
+
 ## Anti-Mission (Wogegen wir sind. Konkret.)
 
 Wir sind gegen das Versprechen „schnell und einfach" — gegen „Tool rein, fertig" an

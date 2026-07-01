@@ -85,6 +85,7 @@ Regelmäßig Bezug nehmen auf:
 - **Wettbewerbsfähigkeit** – effizienter, schneller, professioneller
 - **Rechtssicherheit & Ethik** – EU AI Act & DSGVO konform, menschenzentriert
 - **Einfachheit & Umsetzbarkeit** – No-Code, praxisnah, Begleitung Schritt für Schritt
+- **Das Persönliche schützen** – KI nimmt die Routine, nicht die Beziehung; mehr Zeit für Menschen
 
 ## 8. Wort-Whitelist („immer wieder“)
 
