@@ -29,10 +29,13 @@ driften Quelle und Zusammenfassung auseinander.
 
 ## Zielgruppe (Kurzfassung)
 
-Inhaber:innen kleiner **Gesundheits- und Wellness-Praxen** (2–15 MA) im
-deutschsprachigen Raum (AT/DE/CH) — breit aufgestellt, mit
-**Longevity/Medical-Wellness** und **Zahnarztpraxen** als wirtschaftlich
-stärksten Segmenten. Grundlage: `silicon-sampling.md`.
+Inhaber:innen kleiner **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
+(2–15 MA) im deutschsprachigen Raum (AT/DE/CH) — privat/selbst bezahlte Gesundheit &
+Wohlbefinden. Fokus-Segmente: **Longevity/Medical-Wellness**, **Ästhetik**,
+**Privat-/Präventions-Physio & Osteopathie** sowie **Wohlbefinden/Regeneration**.
+**Ausgeschlossen:** Kassen-Akutmedizin (Haus-/Fachärzte, Zahnärzte, Kliniken),
+Apotheken, Pflege, klinische Psychotherapie, große Pharma. Grundlage:
+`silicon-sampling.md`.
 
 ## Hinweis
 

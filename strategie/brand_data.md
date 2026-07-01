@@ -124,8 +124,8 @@ Kund:innen-Zahl behaupten, die nicht erhoben wurde.
 ## Story Bank
 
 *Ehrlich eingeordnet: Diese Fälle stammen aus Leonies **früherer Beratung** selbstständiger
-Gesundheits-/Wellness-Anbieter:innen — noch **nicht** aus dem neuen Ziel-Segment (Physio,
-Zahnarzt, Longevity, Ästhetik). Sie belegen das **Fundament**: überforderten Solo-
+Gesundheits-/Wellness-Anbieter:innen — noch **nicht** aus dem neuen Ziel-Markt
+(Privatpraxen für Prävention, Ästhetik & Wohlbefinden). Sie belegen das **Fundament**: überforderten Solo-
 Selbstständigen Struktur, Systeme und Klarheit geben. Jeder Fall hat eine
 **„Für Ihre Praxis"-Brücke**, die die Dynamik auf eine Praxis überträgt. Rollen
 wahrheitsgemäß, Vorname im Beleg. Kuratiert — Qualität vor Menge.*
@@ -175,7 +175,7 @@ Noch leer — und das ist ehrlich so. Diese Fälle bauen wir zuerst, dann ersetz
 Schritt für Schritt die Fundament-Belege:
 
 - **1–2 kostenlose/vergünstigte Pilotprojekte** gezielt bei *einer* Praxis aus dem
-  Fokus-Segment (Longevity oder Zahnarzt) — im Tausch gegen Testimonial + Erlaubnis,
+  Fokus-Markt (z. B. Longevity oder Ästhetik) — im Tausch gegen Testimonial + Erlaubnis,
   Zahlen zu nennen.
 - **Vorher/Nachher messen** mit den 3 Metriken unten (Stunden/Woche, automatisierte
   Prozesse, Tage bis Quick-Win).

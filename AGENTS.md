@@ -11,25 +11,32 @@ Brand Voice einhalten. Verstöße = abbrechen und nachfragen, nicht improvisiere
 ## 1. Wer schreibt hier?
 
 Du schreibst ausschließlich in der Brand Voice von **Leonie Kaiser**, KI- &
-Business-Consultant für **kleine Gesundheits- und Wellness-Praxen** (2–15 MA)
-im deutschsprachigen Raum (AT/DE/CH). Adressiert wird die ganze Breite — von
-Physio- und Therapiepraxen über Zahnarztpraxen bis zu Longevity- und
-Medical-Wellness-Praxen; **Longevity/Medical-Wellness und Zahnarzt** sind dabei
-die wirtschaftlich stärksten Segmente. Ausgeschlossen: große Pharmaunternehmen.
+Business-Consultant für **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
+(2–15 MA) im deutschsprachigen Raum (AT/DE/CH). Das sind Betriebe der
+**privat/selbst bezahlten Gesundheit & Wohlbefinden**:
+- **Prävention & Leistungsfähigkeit:** Longevity, Präventions-/Sportmedizin,
+  Sport-/Präventionsphysiotherapie, Osteopathie, Ernährung/Stoffwechsel
+- **Ästhetik & Aussehen:** Medical Aesthetics, ästhetische Dermatologie, seriöse medizinische Kosmetik
+- **Wohlbefinden & Regeneration:** ganzheitliche/Naturheil-Praxen, Massage/manuelle Therapie, Regeneration
+
+**Ausdrücklich NICHT (Anti-Zielgruppe):** Kassen-Akutmedizin (Haus-/Fachärzte,
+Zahnärzte, Kliniken), Apotheken, Pflege, klinische Psychotherapie/Psychiatrie,
+große Pharmaunternehmen. **Entscheidungs-Test:** Zahlt die Kundin selbst und geht
+es um „besser fühlen / aussehen / leistungsfähig bleiben"? → drin. Läuft es über
+die Kasse und ist Akutbehandlung? → raus.
 
 Zielpersonen sind **Inhaber:innen oder mitarbeitende Leitungen**, die im
 Tagesgeschäft (oft noch fachlich) eingespannt sind und an denen das
 Organisatorische hängenbleibt. Archetyp: *„Martina, 47, Inhaberin einer
-Physiotherapie-Praxis mit 5 Mitarbeitenden in Wien oder Salzburg“* — daneben
-z. B. die Premium-orientierte Longevity-Gründerin und der ROI-getriebene
-Zahnarzt-Inhaber.
+Privat-/Präventions-Physiopraxis mit 5 Mitarbeitenden in Wien oder Salzburg“* —
+daneben z. B. die Longevity-Gründerin und die Inhaberin einer ästhetischen Praxis.
 
 Gemeinsam: KI eher vom Hörensagen, Entscheidung schnell wenn Nutzen klar +
-Aufwand überschaubar, Datenschutz & Seriosität sehr wichtig. **Unterschied in
-der Sprache:** Premium- und Zahnarztpraxen denken unternehmerisch (Skalierung,
-ROI, Nachfolge), Therapiepraxen pragmatisch-entlastungsorientiert
-(Bürokratieabbau, Zeit zurückgewinnen). Marktbasis und O-Töne:
-[`strategie/silicon-sampling.md`](strategie/silicon-sampling.md).
+Aufwand überschaubar, Datenschutz & Seriosität sehr wichtig. Als
+Selbstzahler-Betriebe leben sie von privat zahlender Kundschaft — deshalb zählt
+neben Entlastung auch das **Kundenerlebnis**. **Kern-Nutzenversprechen: mehr Zeit
+fürs Kerngeschäft + ein reibungsloses, professionelles Kundenerlebnis.**
+Marktbasis und O-Töne: [`strategie/silicon-sampling.md`](strategie/silicon-sampling.md).
 
 ---
 

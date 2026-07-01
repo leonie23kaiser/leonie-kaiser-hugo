@@ -9,10 +9,13 @@ der Marke — wofür und wogegen sie steht. Klare Kante schlägt nett-zu-allen.*
 
 ## Mission (Wofür wir sind. Konkret.)
 
-Wir geben Inhaber:innen kleiner Gesundheits- und Wellness-Praxen ihren Betrieb
-zurück — damit wieder sie führen statt zu verwalten. Wir bauen datenschutzkonforme
-Abläufe, die Termine, Aufnahme und wiederkehrende Verwaltung übernehmen, sodass der
-Betrieb auch ohne die Inhaberin als Flaschenhals läuft. KI ist dabei Mittel, nicht
+Wir geben Inhaber:innen kleiner **Privatpraxen für Prävention, Ästhetik &
+Wohlbefinden** (privat/selbst bezahlte Gesundheit, keine Kassen-Akutmedizin) ihren
+Betrieb zurück — damit wieder sie führen statt zu verwalten. Wir bauen
+datenschutzkonforme Abläufe, die Termine, Aufnahme und wiederkehrende Verwaltung
+übernehmen, sodass der Betrieb auch ohne die Inhaberin als Flaschenhals läuft.
+Ergebnis: **mehr Zeit fürs Kerngeschäft und ein reibungsloses, professionelles
+Kundenerlebnis** — das, wovon Selbstzahler-Praxen leben. KI ist dabei Mittel, nicht
 Botschaft: Wir fangen bei den Prozessen an, nicht beim Tool. Und wir bleiben — die
 Systeme wachsen mit, niemand steht danach allein da.
 
@@ -54,6 +57,11 @@ verkaufen Arbeit, die sich auszahlt.
 
 ## Wen wir NICHT bedienen
 
+- **Kassen-Akutmedizin** — Haus-/Fachärzte, Zahnärzte, Kliniken, Apotheken, Pflege,
+  klinische Psychotherapie/Psychiatrie sowie große Pharmaunternehmen. Nicht unser
+  Markt: Wir arbeiten mit **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
+  (Selbstzahler). *Test:* Zahlt die Kundin selbst und geht's um „besser fühlen /
+  aussehen / leistungsfähig bleiben"? → drin. Kasse + Akutbehandlung? → raus.
 - **Datenschutz-Ignorierer** — Betriebe, denen DSGVO und Gesundheitsdaten egal sind
   und die „mach mal schnell, ist nicht so wichtig" buchen wollen. Auf Lücken bauen wir
   nichts.

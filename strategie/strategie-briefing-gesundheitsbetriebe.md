@@ -16,12 +16,22 @@
 *Aus dem Brand-Position-Sparring. Das ist Ihr Rückgrat — alles darunter ist Markt,
 das hier sind Sie. Klare Kante schlägt nett-zu-allen.*
 
-**Mission.** Sie geben Inhaber:innen kleiner Gesundheits- und Wellness-Praxen ihren
-Betrieb zurück — damit wieder sie führen statt zu verwalten. Sie bauen
-datenschutzkonforme Abläufe, die Termine, Aufnahme und wiederkehrende Verwaltung
-übernehmen, sodass der Betrieb auch ohne die Inhaberin als Flaschenhals läuft. KI
-ist Mittel, nicht Botschaft: erst die Prozesse, dann das Tool. Und Sie bleiben —
-niemand steht danach allein da.
+**Zielgruppe (Fokus).** **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
+(2–15 MA, AT/DE/CH) — privat/selbst bezahlte Gesundheit: **Prävention &
+Leistungsfähigkeit** (Longevity, Präventions-/Sportmedizin, Sport-/Präventionsphysio,
+Osteopathie, Ernährung/Stoffwechsel), **Ästhetik & Aussehen** (Medical Aesthetics,
+ästhetische Dermatologie, medizinische Kosmetik), **Wohlbefinden & Regeneration**
+(ganzheitliche/Naturheil-Praxen, Massage/manuelle Therapie). **Entscheidungs-Test:**
+zahlt die Kundin selbst und geht's um „besser fühlen / aussehen / leistungsfähig
+bleiben"? → drin. Kasse + Akutbehandlung? → raus.
+
+**Mission.** Sie geben Inhaber:innen dieser Praxen ihren Betrieb zurück — damit
+wieder sie führen statt zu verwalten. Sie bauen datenschutzkonforme Abläufe, die
+Termine, Aufnahme und wiederkehrende Verwaltung übernehmen, sodass der Betrieb auch
+ohne die Inhaberin als Flaschenhals läuft. Ergebnis: **mehr Zeit fürs Kerngeschäft
+und ein reibungsloses, professionelles Kundenerlebnis** — das, wovon Selbstzahler-
+Praxen leben. KI ist Mittel, nicht Botschaft: erst die Prozesse, dann das Tool. Und
+Sie bleiben — niemand steht danach allein da.
 
 **Anti-Mission.** Gegen das Versprechen „schnell und einfach" — „Tool rein, fertig"
 an die Praxis, „verdien schnell viel" an die Berater:in. Gegen KI als Buzzword,
@@ -48,6 +58,9 @@ Abschluss. Genau das macht sie glaubwürdig — und macht Sie zur Beraterin, die
 Branche an** (KI-Berater-Szene, Hype-/Lehrgang-Marketing). Das ist gewollt.
 
 ### Wen Sie NICHT bedienen
+- **Kassen-Akutmedizin** — Haus-/Fachärzte, Zahnärzte, Kliniken, Apotheken, Pflege,
+  klinische Psychotherapie/Psychiatrie, große Pharma. Nicht Ihr Markt (Kassenlogik,
+  Akutbehandlung).
 - **Datenschutz-Ignorierer** — Betriebe, denen DSGVO und Gesundheitsdaten egal sind
   und die „mach mal schnell, ist nicht so wichtig" buchen wollen. Auf Lücken bauen
   Sie nichts.
@@ -162,20 +175,26 @@ Menschen). Nutzen Sie die Erstanalyse als echtes Zuhören.
 
 ## 5. Segment-Unterschiede (Deep-Dive-Befund)
 
-Breit aufgestellt bleiben, aber die Sprache je Segment justieren:
+Innerhalb des Fokus (Prävention, Ästhetik, Wohlbefinden) die Sprache je Segment justieren:
 
-- **Longevity / Medical-Wellness & Zahnarzt** — denken unternehmerisch: Skalierung,
-  ROI, Nachfolge. Höchster Projektwert. Sprache: Wachstum, Systematik, Wettbewerbsvorteil.
-- **Physio-/Therapiepraxen** — pragmatisch-entlastungsorientiert: Bürokratieabbau, Zeit
-  zurückgewinnen. Sprache: konkrete Zeitfresser, „weg vom Tisch".
-- **Ästhetik** — gemischt, aber preissensibler und skeptischer gegenüber generischen
-  Angeboten. Branchenkenntnis besonders betonen.
-- **Psychotherapie** — schwierigstes Segment: kategorialer Widerstand gegen „KI im
-  therapeutischen Kontext", niedrigster Projektwert. Für den Einstieg **nicht** der
-  erste Fokus.
+- **Longevity / Medical-Wellness** — denken unternehmerisch: Skalierung, Prävention,
+  Leistungsfähigkeit. Höchster Projektwert (OPP ~2.060 €). Sprache: Wachstum,
+  Systematik, Premium-Kundenerlebnis.
+- **Ästhetik** — starker Projekt- und Retainer-Wert (~1.989 € / ~301 €), aber
+  preissensibler und skeptischer gegenüber generischen Angeboten. Branchenkenntnis und
+  Referenzen besonders betonen.
+- **Privat-/Präventions-/Sportphysio & Osteopathie** — pragmatisch-entlastungs-
+  orientiert: Bürokratieabbau, Zeit zurückgewinnen. Preissensibelstes Segment (OPP
+  ~1.528 €) → die **privat/präventiv** ausgerichteten Praxen anpeilen, nicht Kassen-
+  Massenpraxen. Sprache: konkrete Zeitfresser, „weg vom Tisch".
+- **Wohlbefinden & Regeneration** (ganzheitliche/Naturheil-, Massage-/Regenerations-
+  Praxen) — beziehungs- und erlebnisorientiert; Datenschutz und „das Persönliche bleibt"
+  besonders betonen.
 
-**Wirtschaftliche Speerspitze:** Longevity/Medical-Wellness + Zahnarzt. Hier sitzen
-Budget, ROI-Denken und der höchste Projektwert.
+**Wirtschaftliche Speerspitze:** Longevity/Medical-Wellness + Ästhetik — hier sitzen
+Budget und der höchste Projekt-/Retainer-Wert.
+*(Zahnarzt war datenseitig ebenfalls stark, wurde aber bewusst ausgeschlossen —
+Kassenlogik, kein Selbstzahler-Wohlbefinden. Psychotherapie: raus, schwächstes Segment.)*
 
 ---
 
@@ -276,18 +295,20 @@ Studien konvergieren bei ~2.000 € fürs Einmalprojekt und ~200–300 €/Monat
 
 | Segment | Einmalprojekt | Retainer/Monat |
 |---|:--:|:--:|
+| Segment (Fokus) | Einmalprojekt | Retainer/Monat |
+|---|:--:|:--:|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € |
-| Zahnarztpraxen | ~2.031 € | ~305 € |
 | Ästhetik | ~1.989 € | ~301 € |
-| Physiotherapie | ~1.528 € | ~203 € |
-| Psychotherapie | ~820 € | ~152 € |
+| Privat-/Präventions-Physio | ~1.528 € | ~203 € |
+| *Zahnarzt (ausgeschlossen, nur Referenz)* | *~2.031 €* | *~305 €* |
+| *Psychotherapie (ausgeschlossen, nur Referenz)* | *~820 €* | *~152 €* |
 
 **Kommunikation:** Fixpreis-Einstiegspaket am unteren Rand entkräftet den
 Folgekosten-Einwand. Den Retainer als **kalkulierbare Betriebsausgabe** framen —
 wiederkehrendes Wording der Personas: „überschaubar, planbar, vertretbar" und „ich
 zahle für echten laufenden Support, nicht für eine Hotline, die niemand abhebt".
-Premium (Longevity) und Zahnarzt tragen den oberen Rand; Psychotherapie deutlich
-darunter (Einstieg dort nicht priorisieren).
+Premium (Longevity) und Ästhetik tragen den oberen Rand; Privat-Physio ist
+preissensibler — dort schlank einsteigen.
 
 ---
 
