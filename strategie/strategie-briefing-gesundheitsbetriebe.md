@@ -293,6 +293,9 @@ darunter (Einstieg dort nicht priorisieren).
 
 ## 10. Quellen & Methodik
 
+- **Rolle dieses Dokuments:** konsolidierte Fassung der beiden Quelldateien
+  `strategie/brand_position.md` (Haltung) + `strategie/silicon-sampling.md` (Markt).
+  Bei Änderungen zuerst die Quelldatei ändern, dann dieses Briefing synchronisieren.
 - **Brand Position (Abschnitt 0):** 10-Fragen-Sparring mit Leonie Kaiser, 2026-06-30.
   Das ist Ihre Haltung, kein Marktforschungs-Ergebnis.
 - **Markt-Aussagen:** Silicon-Sampling-Studien (synthetisch) — Breiten-Scan (Grundlage

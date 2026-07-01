@@ -3,6 +3,10 @@
 *Entwickelt im Brand-Position-Sparring (10 Fragen), 2026-06-30. Das ist die Haltung
 der Marke — wofür und wogegen sie steht. Klare Kante schlägt nett-zu-allen.*
 
+> **Quelldatei (Haltung).** Wird konsolidiert im
+> `strategie-briefing-gesundheitsbetriebe.md`. Änderungen an der Haltung hier zuerst,
+> dann das Briefing synchronisieren — nie nur im Briefing.
+
 ## Mission (Wofür wir sind. Konkret.)
 
 Wir geben Inhaber:innen kleiner Gesundheits- und Wellness-Praxen ihren Betrieb

@@ -4,6 +4,10 @@
 
 *Stand: 2026-06-30 · Methode: Silicon Sampling (synthetische Respondenten) · Zweistufig: Segment-Scan (Stufe 1) + Deep Dive (Stufe 2).*
 
+> **Quelldatei (Markt).** Wird konsolidiert im
+> `strategie-briefing-gesundheitsbetriebe.md`. Marktzahlen/O-Töne hier zuerst ändern,
+> dann das Briefing synchronisieren.
+
 ## Kurzfassung & strategische Ableitung
 
 - **Wirtschaftlich stärkste Segmente:** Longevity / Medical-Wellness (Premium) und Zahnarztpraxen — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis), ROI-Denken, vorhandenes Budget.

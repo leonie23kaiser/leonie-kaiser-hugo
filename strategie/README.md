@@ -7,12 +7,24 @@ weiterhin in [`../AGENTS.md`](../AGENTS.md) und verweist auf diesen Ordner.
 
 ## Inhalt
 
-| Datei | Zweck | Status |
-|---|---|---|
-| [`silicon-sampling.md`](silicon-sampling.md) | Synthetische Marktforschung (200 Personas, 5 Segmente) — Pain Points, O-Töne, Preisbereitschaft, Segment-Ranking. ESOMAR-gekennzeichnet. | ✅ |
-| [`brand_position.md`](brand_position.md) | Brand Position — Mission/Anti-Mission, 3 Positionen, wen wir (nicht) bedienen. Aus dem 10-Fragen-Sparring. | ✅ |
-| [`strategie-briefing-gesundheitsbetriebe.md`](strategie-briefing-gesundheitsbetriebe.md) | Positionierungs- & Kommunikations-Leitfaden: Haltung + Markt + fertige Textbausteine + Preis-Korridore. | ✅ |
-| `segmente.md` | Segment-Profile & Zielpersonen im Detail | geplant |
+| Datei | Rolle | Zweck | Status |
+|---|---|---|---|
+| [`strategie-briefing-gesundheitsbetriebe.md`](strategie-briefing-gesundheitsbetriebe.md) | **Konsolidiert — „lies das"** | Positionierungs- & Kommunikations-Leitfaden: bündelt Haltung + Markt + fertige Textbausteine + Preis-Korridore in einem Dokument. | ✅ |
+| [`brand_position.md`](brand_position.md) | Quelle (Haltung) | Brand Position — Mission/Anti-Mission, 3 Positionen, wen wir (nicht) bedienen. Aus dem 10-Fragen-Sparring. | ✅ |
+| [`silicon-sampling.md`](silicon-sampling.md) | Quelle (Markt) | Synthetische Marktforschung (200 Personas, 5 Segmente) — Pain Points, O-Töne, Preisbereitschaft, Segment-Ranking. ESOMAR. | ✅ |
+| `segmente.md` | Quelle (geplant) | Segment-Profile & Zielpersonen im Detail | geplant |
+
+## Zusammenspiel der Dateien (Pflege)
+
+Zwei **Quellen** speisen ein **konsolidiertes** Dokument:
+
+> `brand_position.md` (Haltung) + `silicon-sampling.md` (Markt) → `strategie-briefing-gesundheitsbetriebe.md`
+
+**Regel bei Änderungen:** Immer zuerst die **Quelle** ändern (Haltung in
+`brand_position.md`, Marktzahlen in `silicon-sampling.md`), dann das **Briefing
+synchronisieren**. Das Briefing ist die Fassung zum Vorzeigen und für den Doc-Export;
+es enthält Teile der Quellen bewusst doppelt. Nie nur im Briefing ändern — sonst
+driften Quelle und Zusammenfassung auseinander.
 
 ## Zielgruppe (Kurzfassung)
 
