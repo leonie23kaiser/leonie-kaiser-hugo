@@ -110,8 +110,8 @@ Wenn etwas belegt werden muss, gilt diese Reihenfolge — **oben schlägt unten:
 2. **Eigene Praxis-Erfahrung** — 20 J. Gesundheit/Pharma/Digitalisierung; dokumentierte
    Beratungsfälle/Testimonials.
 3. **Regulatorik & offizielle Standards** — EU AI Act, DSGVO, ESOMAR ICC Code.
-4. **Verbands-/Kammerdaten der Zielbranche** — z. B. Zahnärztekammer, Physio-/
-   Hebammen-Verbände, wo einschlägig.
+4. **Verbands-/Kammerdaten der Zielbranche** — z. B. Fachverbände für ästhetische
+   Medizin, Physio-/Osteopathie-Verbände, Longevity-/Präventions-Netzwerke, wo einschlägig.
 5. **Seriöse Branchen-Reports & Peer-reviewed Studien.**
 6. **Zuletzt:** allgemeine Sekundärquellen/Presse.
 

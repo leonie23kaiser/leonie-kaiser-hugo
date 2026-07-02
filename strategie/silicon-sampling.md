@@ -10,7 +10,7 @@
 
 ## Kurzfassung & strategische Ableitung
 
-- **Wirtschaftlich stärkste Segmente:** Longevity / Medical-Wellness (Premium) und Zahnarztpraxen — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis), ROI-Denken, vorhandenes Budget.
+- **Wirtschaftlich stärkste Segmente (Studien-Rohbefund):** Longevity / Medical-Wellness (Premium), Zahnarzt und Ästhetik — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis). *Hinweis: Zahnarzt wurde später bewusst ausgeschlossen (Kassenlogik, kein Selbstzahler-Wohlbefinden) — siehe strategische Entscheidung unten.*
 - **Schwächstes Segment:** Psychotherapeutische Praxen — niedrigster Projektwert (820 €) und ein *kategorialer* (nicht taktischer) Widerstand gegen „KI im therapeutischen Kontext", der nicht durch besseres Verkaufen lösbar ist.
 - **Strategische Entscheidung (Leonie, aktualisiert 2026-07-01):** Fokus auf **Privatpraxen für Prävention, Ästhetik & Wohlbefinden** — privat/selbst bezahlte Gesundheit (Prävention & Leistungsfähigkeit, Ästhetik & Aussehen, Wohlbefinden & Regeneration). **Ausdrücklich ausgeschlossen: Kassen-Akutmedizin** (Haus-/Fachärzte, **Zahnärzte**, Kliniken), Apotheken, Pflege, klinische Psychotherapie, große Pharma. Datenseitig: Longevity/Med-Wellness (Score 11, Projekt-OPP 2.060 €) und Ästhetik (Score 10, Retainer-OPP 301 €) sind die Speerspitze, Privat-/Präventions-Physio ergänzt (Score 11, aber preissensibler). **Zahnarzt wurde trotz starker Wirtschaftlichkeit (2.031 €) bewusst zugunsten der Marken-Kohärenz gestrichen** (Kassenlogik, kein Selbstzahler-Wohlbefinden). *Entscheidungs-Test:* Selbstzahler + „besser fühlen/aussehen/leistungsfähig bleiben" → drin; Kasse + Akut → raus.
 - **Drei Kern-Hebel für Positionierung & Copy** (fließen in `AGENTS.md` ein):
