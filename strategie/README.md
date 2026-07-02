@@ -14,6 +14,7 @@ weiterhin in [`../AGENTS.md`](../AGENTS.md) und verweist auf diesen Ordner.
 | [`silicon-sampling.md`](silicon-sampling.md) | Quelle (Markt) | Synthetische Marktforschung (200 Personas, 5 Segmente) — Pain Points, O-Töne, Preisbereitschaft, Segment-Ranking. ESOMAR. | ✅ |
 | [`brand_data.md`](brand_data.md) | Quelle (Belege/Geschichten) | Eigene Quellen, Methodik, Quellen-Hierarchie, Story Bank (Testimonials + Track Record), Erfolgsmetriken. Das, was KI als Quelle zitiert. | ✅ |
 | [`pilot-akquise.md`](pilot-akquise.md) | Operativ | Vorlage: erste echte Praxis-Cases gewinnen — Pilot-Angebot, Anschreiben, 3 Messfragen. | ✅ |
+| [`trust_audit.md`](trust_audit.md) | Audit | Trust-Triangle-Audit (Frei): Authenticity/Logic/Empathy, Schwachstellen, Maßnahmen, Wiedervorlage 2026-09-30. | ✅ |
 | `segmente.md` | Quelle (geplant) | Zielpersonen-Steckbriefe je Säule (nur falls für Copy gebraucht) | geplant |
 
 ## Zusammenspiel der Dateien (Pflege)
