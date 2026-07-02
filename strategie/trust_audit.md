@@ -60,6 +60,47 @@ adressieren („Sie müssen nichts können — das ist mein Job").
 **Diesen Monat — 1 Pilotprojekt starten** (`pilot-akquise.md`) → erste echte
 Praxis-Case-Study mit Vorher/Nachher-Zahlen. Hebt zugleich die #2-Schwäche (Logic).
 
+## Handlungsanleitung: Lücken schließen
+
+Vertieft die drei Sofort-Maßnahmen zu einem Playbook je Lücke. Reihenfolge = Priorität.
+
+### Lücke 1 — Authenticity: die echte Stimme ausliefern (Website)
+*Ziel: Wer den Text liest, erkennt Leonie — nicht irgendeinen KI-Berater.*
+1. **Ein Nordstern-Satz je Seite.** Jede Kernseite bekommt genau einen unverwechselbaren
+   Satz aus den Positionen (z. B. „Ich sage Ihnen auch, wenn Sie gar keine KI brauchen.").
+2. **„Kein Hype" beweisen statt behaupten.** Die Behauptung („keine Buzzwords") streichen
+   und stattdessen zeigen: konkrete Beispiele aus dem Praxisalltag, ehrliche Grenzen
+   benennen („Automatisierung X lohnt sich erst ab …"), auch mal ein „das brauchen Sie nicht".
+3. **Blacklist-Check.** Jeden Satz gegen die Wort-Blacklist (`AGENTS.md`) prüfen: raus mit
+   „menschenzentriert / ganzheitlich / praxisnah" als Selbstlob — rein mit konkreten Bildern.
+4. **Reihenfolge:** Startseite-Hero → „Über mich" → Leistungen → CTA.
+
+### Lücke 2 — Logic: den Wirkungs-Beweis bauen
+*Ziel: von „vertrauen Sie mir" zu „hier sind die Zahlen".*
+1. **1–2 Pilotprojekte** starten (`pilot-akquise.md`) — gratis/reduziert gegen Case Study
+   + Erlaubnis, Zahlen zu nennen.
+2. **Vorher/Nachher messen** mit den 3 Fragen → in den Testimonial- & Wirkungs-Tracker eintragen.
+3. **Case Study schreiben** (Situation→Konflikt→Lösung→Beweis) und in `brand_data.md`
+   aufnehmen; ersetzt Schritt für Schritt die Coaching-Fundament-Belege.
+4. **Hebel-vs-Hype-Index füllen** (8–10 Tools) → belegbare Aussage „in meiner Bewertung ist
+   Tool X datenschutz-tauglich, Y nicht".
+5. **Eigene Studie ehrlich einsetzen:** Silicon Sampling als *Verständnis*-Beleg zitieren
+   („In meiner Befragung von 296 Praxen …"), nie als Wirkungs-Beweis. Immer als synthetisch
+   kennzeichnen.
+
+### Lücke 3 — Empathy: Verständnis in Text übersetzen
+*Ziel: die Kundin denkt „die versteht mich".*
+1. **Ihre Worte, nicht deine.** Echte O-Töne aus der Studie in die Copy (z. B. „Ich verbringe
+   mehr Zeit mit Terminkoordination als mit Patienten"). Spiegeln, bevor du löst.
+2. **Die unausgesprochene Angst adressieren:** ein Satz, der „bin ich zu wenig technisch?"
+   auflöst — „Sie müssen nichts können. Das ist mein Job."
+3. **Einwände vorwegnehmen:** Datenschutz, „wer betreut das danach?", „30 Minuten reichen
+   nicht" — je ein ehrlicher Zweizeiler auf Seite/FAQ, *bevor* gefragt wird.
+
+### Fortschritt messen
+Nach jeder Maßnahme grob selbst nachscoren (1–10). Ziel bis zur Wiedervorlage:
+**Authenticity ≥ 8, Logic ≥ 7, Empathy ≥ 9.**
+
 ## Wiedervorlage
 
 **2026-09-30 (in 90 Tagen)** — Audit erneut durchführen.
