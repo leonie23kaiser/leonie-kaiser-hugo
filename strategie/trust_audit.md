@@ -1,0 +1,111 @@
+# Trust-Triangle-Audit — Leonie Kaiser
+
+*Nach Frances Frei (Harvard Business School): Authenticity · Logic · Empathy.
+Durchgeführt als Sparring, 2026-07-02. Grundlage: Live-Website, Brand-Voice- und
+Positionierungs-Dokumente, Silicon-Sampling-Studie.*
+
+> Die Empathy-Belege stammen aus der Silicon-Sampling-Studie (synthetisch, ESOMAR
+> ICC Code 2025) — Hypothesen, keine echten Befragungsdaten.
+
+## Status quo pro Säule
+
+### Authenticity — 4/10
+Die **Identität ist stark und unterscheidbar**: anti-hype, „erst Prozesse, dann Tool",
+„ich sage Ihnen auch, wenn Sie gar keine KI brauchen", „das Persönliche bleibt", Haltung
+über Umsatz, Ruhe/Zurückhaltung. **Aber sie steht nur in den Strategie-Dokumenten, nicht
+auf der Live-Website.** Der aktuelle Seitentext ist austauschbar („KI, die wirklich für
+Sie arbeitet", „menschenzentriert", „praxisnah"); „kein Hype" wird *behauptet*, nicht
+*bewiesen*. Wie der Kunde die Marke heute erlebt, ist sie nicht wiedererkennbar.
+→ **Deployment-Lücke, keine Identitäts-Lücke.** Potenzial nach Website-Überarbeitung: ~8/10.
+
+### Logic — 5/10
+**Stark** bei Marktverständnis (eigene Silicon-Sampling-Studie, 296 Personas), tiefer
+angrenzender Erfahrung (20 J. Gesundheit/reguliertes Umfeld), Regulatorik (EU AI Act,
+DSGVO) und einer eigenen, reproduzierbaren Methode. **Schwach beim Wirkungs-Beweis:**
+keine Praxis-Case-Studies, keine Vorher/Nachher-Zahlen — genau das, was eine Zweiflerin
+verlangt. **Neueinsteiger-Lücke, kein Kompetenz-Defizit.** Fix: Pilotprojekte.
+Potenzial: 7–8/10.
+
+### Empathy — 7/10
+**Stärkste Säule.** Leonie hat ihre Zielgruppe als Einzige systematisch erforscht
+(296 Personas) — sie kennt Schmerzen, Einwände, Erstreaktionen und die *unausgesprochene*
+Angst („bin ich zu wenig technisch — blamiere ich mich?"). Tiefes Motiv-Verständnis.
+Ein Punkt Abzug: Dieses Verständnis ist noch nicht vollständig in kundenseitige Texte
+übersetzt (dieselbe Deployment-Lücke wie Authenticity). Sobald live: ~9/10.
+
+## Schwachstellen-Ranking
+
+1. **Authenticity (4)** — schwächste *und* am schnellsten behebbar. Die echte Stimme ist nicht live.
+2. **Logic (5)** — fehlender Wirkungs-Beweis; braucht Pilots (Wochen/Monate).
+3. **Empathy (7)** — stärkste; nur „ausliefern".
+
+**Kernbefund:** kein Substanz-Mangel, sondern ein **Auslieferungs-Mangel**. Identität,
+Verständnis und Methode sind da — sie stehen nur noch nicht dort, wo der Kunde sie sieht.
+
+## 3 Sofort-Maßnahmen (für die schwächste Säule: Authenticity)
+
+**Heute (< 1 Stunde) — Homepage-Hero + CTA auf einen unverwechselbaren Satz umstellen.**
+Weg von „KI, die wirklich für Sie arbeitet" (austauschbar). Vorlage:
+> **Headline:** KI ist nicht die Lösung. Ihre Abläufe sind es — KI verstärkt sie nur.
+> **Subline:** Ich richte Privatpraxen für Prävention, Ästhetik & Wohlbefinden
+> datenschutzkonforme Abläufe ein — damit wieder Sie führen, nicht der Papierkram.
+> Und ich sage Ihnen auch, wenn Sie für etwas gar keine KI brauchen.
+> **CTA:** KI-Potenzialanalyse für Ihre Praxis
+
+**Diese Woche — Startseite + „Über mich" nach der neuen Brand Voice überarbeiten.**
+Die drei Positionen sichtbar machen, „kein Hype" *beweisen* (konkret, ehrlich) statt
+behaupten, den CTA auf die on-brand-Version umstellen, die unausgesprochene Angst
+adressieren („Sie müssen nichts können — das ist mein Job").
+
+**Diesen Monat — 1 Pilotprojekt starten** (`pilot-akquise.md`) → erste echte
+Praxis-Case-Study mit Vorher/Nachher-Zahlen. Hebt zugleich die #2-Schwäche (Logic).
+
+## Handlungsanleitung: Lücken schließen
+
+Vertieft die drei Sofort-Maßnahmen zu einem Playbook je Lücke. Reihenfolge = Priorität.
+
+### Lücke 1 — Authenticity: die echte Stimme ausliefern (Website)
+*Ziel: Wer den Text liest, erkennt Leonie — nicht irgendeinen KI-Berater.*
+1. **Ein Nordstern-Satz je Seite.** Jede Kernseite bekommt genau einen unverwechselbaren
+   Satz aus den Positionen (z. B. „Ich sage Ihnen auch, wenn Sie gar keine KI brauchen.").
+2. **„Kein Hype" beweisen statt behaupten.** Die Behauptung („keine Buzzwords") streichen
+   und stattdessen zeigen: konkrete Beispiele aus dem Praxisalltag, ehrliche Grenzen
+   benennen („Automatisierung X lohnt sich erst ab …"), auch mal ein „das brauchen Sie nicht".
+3. **Blacklist-Check.** Jeden Satz gegen die Wort-Blacklist (`AGENTS.md`) prüfen: raus mit
+   „menschenzentriert / ganzheitlich / praxisnah" als Selbstlob — rein mit konkreten Bildern.
+4. **Reihenfolge:** Startseite-Hero → „Über mich" → Leistungen → CTA.
+
+### Lücke 2 — Logic: den Wirkungs-Beweis bauen
+*Ziel: von „vertrauen Sie mir" zu „hier sind die Zahlen".*
+1. **1–2 Pilotprojekte** starten (`pilot-akquise.md`) — gratis/reduziert gegen Case Study
+   + Erlaubnis, Zahlen zu nennen.
+2. **Vorher/Nachher messen** mit den 3 Fragen → in den Testimonial- & Wirkungs-Tracker eintragen.
+3. **Case Study schreiben** (Situation→Konflikt→Lösung→Beweis) und in `brand_data.md`
+   aufnehmen; ersetzt Schritt für Schritt die Coaching-Fundament-Belege.
+4. **Hebel-vs-Hype-Index füllen** (8–10 Tools) → belegbare Aussage „in meiner Bewertung ist
+   Tool X datenschutz-tauglich, Y nicht".
+5. **Eigene Studie ehrlich einsetzen:** Silicon Sampling als *Verständnis*-Beleg zitieren
+   („In meiner Befragung von 296 Praxen …"), nie als Wirkungs-Beweis. Immer als synthetisch
+   kennzeichnen.
+
+### Lücke 3 — Empathy: Verständnis in Text übersetzen
+*Ziel: die Kundin denkt „die versteht mich".*
+1. **Ihre Worte, nicht deine.** Echte O-Töne aus der Studie in die Copy (z. B. „Ich verbringe
+   mehr Zeit mit Terminkoordination als mit Patienten"). Spiegeln, bevor du löst.
+2. **Die unausgesprochene Angst adressieren:** ein Satz, der „bin ich zu wenig technisch?"
+   auflöst — „Sie müssen nichts können. Das ist mein Job."
+3. **Einwände vorwegnehmen:** Datenschutz, „wer betreut das danach?", „30 Minuten reichen
+   nicht" — je ein ehrlicher Zweizeiler auf Seite/FAQ, *bevor* gefragt wird.
+
+### Fortschritt messen
+Nach jeder Maßnahme grob selbst nachscoren (1–10). Ziel bis zur Wiedervorlage:
+**Authenticity ≥ 8, Logic ≥ 7, Empathy ≥ 9.**
+
+## Wiedervorlage
+
+**2026-09-30 (in 90 Tagen)** — Audit erneut durchführen.
+Erwartung bei umgesetzten Maßnahmen: **Authenticity 4→8, Logic 5→7, Empathy 7→9.**
+
+---
+*Brand Voice: `AGENTS.md`. Haltung: `brand_position.md`. Belege/Story Bank: `brand_data.md`.
+Markt/Empathy-Basis: `silicon-sampling.md` (synthetisch, ESOMAR).*
