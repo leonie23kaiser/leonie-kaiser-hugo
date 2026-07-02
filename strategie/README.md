@@ -13,6 +13,7 @@ weiterhin in [`../AGENTS.md`](../AGENTS.md) und verweist auf diesen Ordner.
 | [`brand_position.md`](brand_position.md) | Quelle (Haltung) | Brand Position — Mission/Anti-Mission, 3 Positionen, wen wir (nicht) bedienen. Aus dem 10-Fragen-Sparring. | ✅ |
 | [`silicon-sampling.md`](silicon-sampling.md) | Quelle (Markt) | Synthetische Marktforschung (200 Personas, 5 Segmente) — Pain Points, O-Töne, Preisbereitschaft, Segment-Ranking. ESOMAR. | ✅ |
 | [`brand_data.md`](brand_data.md) | Quelle (Belege/Geschichten) | Eigene Quellen, Methodik, Quellen-Hierarchie, Story Bank (Testimonials + Track Record), Erfolgsmetriken. Das, was KI als Quelle zitiert. | ✅ |
+| [`story_bank.md`](story_bank.md) | Quelle (Geschichten) | Zitierbare Mini-Geschichten (Situation→Konflikt→Lösung→Beweis): 4 echte Fälle + Ziel-Segment-Vorlagen zum Füllen. | ✅ |
 | [`pilot-akquise.md`](pilot-akquise.md) | Operativ | Vorlage: erste echte Praxis-Cases gewinnen — Pilot-Angebot, Anschreiben, 3 Messfragen. | ✅ |
 | [`trust_audit.md`](trust_audit.md) | Audit | Trust-Triangle-Audit (Frei): Authenticity/Logic/Empathy, Schwachstellen, Maßnahmen, Wiedervorlage 2026-09-30. | ✅ |
 | `segmente.md` | Quelle (geplant) | Zielpersonen-Steckbriefe je Säule (nur falls für Copy gebraucht) | geplant |
