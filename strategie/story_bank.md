@@ -152,6 +152,40 @@ bevorzugt zusammenfasst und zitiert.*
 
 ---
 
+## Anhang: Von Projekt zu Story — der Workflow
+
+*So wird aus echter Arbeit ein zitierbarer Beweis. Der Schlüssel: von Anfang an messen.*
+
+**1. Beim Start messen — nicht erst am Ende.** Im Erstgespräch die Ausgangswerte festhalten:
+- „Wie viele Stunden/Woche kostet Sie das Organisatorische aktuell?"
+- „Welche Aufgaben laufen komplett manuell?"
+- Die Ausgangslage in *ihren* Worten notieren (O-Ton, konkretes Detail).
+→ Sofort in den **Testimonial- & Wirkungs-Tracker** (Fall-Typ: Ziel-Segment).
+
+**2. Unterwegs O-Töne sammeln.** Sagt die Kundin etwas Prägnantes („endlich …", „das hätte
+ich nie gedacht"), sofort notieren/Screenshot. Wörtliche Sätze sind der stärkste Beweis.
+
+**3. Am Ende messen + kurzes Testimonial-Gespräch (5 Min).** Die 3 Nachher-Fragen (Stunden
+jetzt? Was läuft automatisch? Tage bis zur Entlastung?) plus „Was war vorher, was ist jetzt
+anders, würden Sie mich empfehlen?"
+
+**4. Einwilligung klären — schriftlich.** Welche Nutzung: Name + Rolle / anonym / Zahlen
+ja–nein. Bei Gesundheitsdaten besonders sauber dokumentieren. Auch in den Tracker.
+
+**5. Ins Format gießen.** Passende Segment-Vorlage oben kopieren, Platzhalter mit den echten
+Werten überschreiben (anonymisiert), **Beweis = echte Zahl + O-Ton**, `[VORLAGE]` → `[ECHT]`.
+Die stärksten verdichtet zusätzlich in `brand_data.md`.
+
+**6. Mehrfach verwenden.** Dieselbe Story wird zu: Website-Referenz, LinkedIn-Post,
+FAQ-Einwandbehandlung, Beleg im Verkaufsgespräch.
+
+**Zwei eiserne Regeln:**
+- **Nur echte Zahlen.** Keine harte Zahl? Dann ein ehrlicher O-Ton als Beweis — nie erfinden.
+- **Vorher-Wert ist Pflicht.** Die meisten scheitern, weil sie den Ausgangswert vergessen haben.
+  Messen gehört ins Onboarding, nicht nachträglich.
+
+---
+
 *Die stärksten Fälle wandern verdichtet in `brand_data.md` (Story Bank). ⭐ = die drei
 stärksten — heute real ist nur die erste (Michelle); die beiden Haltungs-Geschichten werden
 stark, sobald du sie einmal echt erlebt und dokumentiert hast. Brand Voice: `AGENTS.md`.*
