@@ -52,13 +52,32 @@ Beschreibung und Leistungen, nie in den Namen.
 > Kleingedruckte. Über 20 Jahre Erfahrung mit Digitalisierung im regulierten Gesundheitsumfeld.
 > Remote und vor Ort in Wien und Niederösterreich. Kostenfreie KI-Potenzialanalyse — unverbindlich.
 
-## Leistungen (als „Services" anlegen)
+## Leistungen (als „Services" anlegen — je mit Kategorie)
 
-- **KI-Potenzialanalyse für Ihre Praxis** — 30 Min, online, kostenfrei. Wo hat KI den größten Hebel?
-- **Praxis-Automatisierung** — Aufbau-Projekt: Analyse → Roadmap → fertige Umsetzung der ersten Abläufe.
-- **Erster Quick-Win** — ein wiederkehrender Zeitfresser läuft ab jetzt automatisch, datenschutzkonform.
-- **Laufende Betreuung** — monatlich, Systeme wachsen mit, fester Ansprechpartner.
-- **Datenschutz & EU AI Act** — sichere, konforme Umsetzung von Anfang an.
+In Google gehört jede Leistung unter eine **Kategorie** (die „Produktkategorie", nach der
+Google fragt). Vorschlag:
+
+**Kategorie „Unternehmensberater" (deine Primär-Kategorie):**
+- **KI-Potenzialanalyse für Ihre Praxis** — *30 Min, online, kostenfrei. Wir schauen, wo im
+  Praxisalltag Zeit verloren geht und wo KI wirklich hilft — datenschutzkonform. Ehrliche
+  Einschätzung, auch wenn sich etwas nicht lohnt.*
+- **Laufende Betreuung** — *Monatlich. Ihre Systeme wachsen mit, ich bleibe Ihr Ansprechpartner —
+  niemand steht nach dem Projekt allein da.*
+
+**Kategorie „IT-Berater" / „Softwareberatung" (als Sekundär-Kategorie hinzufügen):**
+- **Praxis-Automatisierung** — *Aufbau-Projekt: Analyse → Roadmap → fertige Umsetzung der ersten
+  Abläufe (Termine, Aufnahme, Nachfassen). Ich richte ein, Ihr Team wird eingewiesen. EU AI Act &
+  DSGVO von Anfang an.*
+
+*(Falls du „IT-Berater" nicht als Kategorie anlegen willst, kannst du Praxis-Automatisierung auch
+unter „Unternehmensberater" führen — alle drei unter der Primär-Kategorie ist auch okay.)*
+
+### Datenschutz & EU AI Act — **kein eigener Service**, sondern Querschnitt
+Datenschutz ist überall drin, nicht daneben. Platziere es so:
+- in der **Unternehmensbeschreibung** (steht schon drin),
+- als **Satz in jeder Service-Beschreibung** („… datenschutzkonform, EU AI Act & DSGVO"),
+- optional als **Google-Beitrag** und in **Fragen & Antworten** („Wie steht es um den Datenschutz
+  meiner Patientendaten?" → deine Antwort).
 
 ## Servicegebiet, Kontakt & Buchung
 
