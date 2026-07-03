@@ -5,7 +5,30 @@ es eingeloggt in Google (business.google.com bzw. direkt in der Google-Suche). W
 Das Profil ist eine **starke Quelle für lokale *und* KI-Empfehlungen** — genau der Citation-Hebel
 aus dem `citation_audit.md`.*
 
-## ⚠️ Zuerst: der Firmenname
+## Dein aktuelles Profil — IST → SOLL (priorisiert)
+
+**Schon gut:** Kategorie „Unternehmensberater" passt · Einzugsgebiet (Wien + Niederösterreich)
+sauber gesetzt · Öffnungszeiten, Website und Telefon vorhanden.
+
+1. **Beschreibung ersetzen — größter Hebel.**
+   *IST:* „KI & Business Consulting für kleine Dienstleistungsunternehmen in Österreich …"
+   (generisch, alte Zielgruppe). → *SOLL:* die neue Beschreibung unten (Nische + Haltung).
+2. **Leistungen hinzufügen — fehlen komplett.** Die 5 Services unten als „Services" eintragen.
+3. **Sekundäre Kategorien ergänzen:** „Marketingberater", „IT-Berater"/„Softwareberatung".
+4. **Foto + Logo hochladen** (hast du) — Profilfoto + Logo.
+5. **Bewertungen einholen** — einwilligende Alt-/Pilot-Kund:innen um eine Google-Rezension
+   bitten. Stärkster Ranking- und Vertrauens-Hebel.
+6. **Social-Profil ergänzen:** LinkedIn verlinken („Profile in sozialen Netzwerken").
+7. **Beiträge starten + Q&A selbst seeden** (siehe unten).
+8. **Buchung:** Calendly-Link der Potenzialanalyse hinterlegen.
+9. **Name — niedrige Priorität, aber Vorsicht:** „Leonie Kaiser KI-Beratung" ist grenzwertig
+   (Keyword im Namen). Kein Notfall — aber **mach es nicht schlimmer**. Sauber wäre dein echter
+   Brand „Leonie Kaiser · KI & Business Consulting". Achtung: Namensänderung kann eine erneute
+   Google-Verifizierung auslösen — nur ändern, wenn dir das den Aufwand wert ist.
+
+---
+
+## ⚠️ Zur Namens-Regel allgemein
 
 **Nur deinen echten Firmennamen verwenden** — z. B. „Leonie Kaiser" oder „Leonie Kaiser · KI &
 Business Consulting". **Keine Keywords in den Namen stopfen** (nicht „Leonie Kaiser KI-Beratung
@@ -27,7 +50,7 @@ Beschreibung und Leistungen, nie in den Namen.
 > Ich fange bei Ihren Prozessen an, nicht beim Tool — und sage Ihnen auch, wenn Sie für etwas
 > gar keine KI brauchen. Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt, nicht das
 > Kleingedruckte. Über 20 Jahre Erfahrung mit Digitalisierung im regulierten Gesundheitsumfeld.
-> Remote und vor Ort in Wien. Kostenfreie KI-Potenzialanalyse — unverbindlich.
+> Remote und vor Ort in Wien und Niederösterreich. Kostenfreie KI-Potenzialanalyse — unverbindlich.
 
 ## Leistungen (als „Services" anlegen)
 
