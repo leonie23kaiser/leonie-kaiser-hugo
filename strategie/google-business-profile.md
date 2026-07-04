@@ -42,15 +42,20 @@ Beschreibung und Leistungen, nie in den Namen.
 - **Sekundär (2–3 wählen, was verfügbar ist):** „Marketingberater", „IT-Berater" /
   „Softwareberatung", „Beratungsdienst".
 
-## Beschreibung (fertig zum Einfügen, ~600 Zeichen)
+## Beschreibung (fertig zum Einfügen, ~500 Zeichen)
 
-> Ich richte kleinen Privatpraxen für Prävention, Ästhetik und Wohlbefinden datenschutzkonforme
-> Abläufe ein — damit wieder die Inhaberin führt statt verwaltet. Termine, Aufnahme und
-> wiederkehrende Verwaltung laufen zuverlässiger, damit mehr Zeit für die Menschen bleibt.
-> Ich fange bei Ihren Prozessen an, nicht beim Tool — und sage Ihnen auch, wenn Sie für etwas
-> gar keine KI brauchen. Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt, nicht das
-> Kleingedruckte. Über 20 Jahre Erfahrung mit Digitalisierung im regulierten Gesundheitsumfeld.
-> Remote und vor Ort in Wien und Niederösterreich. Kostenfreie KI-Potenzialanalyse — unverbindlich.
+> Ich richte kleinen Privatpraxen für Prävention und Wohlbefinden datenschutzkonforme,
+> automatisierte Abläufe ein – Termine, Aufnahme und wiederkehrende Verwaltung laufen
+> zuverlässiger. Das schafft mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
+> Erst die Prozesse, dann das Tool – und ein ehrliches Nein, wenn Sie keine KI brauchen.
+> Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt. Über 20 Jahre im regulierten
+> Gesundheitsumfeld. Kostenfreie KI-Potenzialanalyse – Wien und Niederösterreich.
+
+*(Kürzere Variante ~350 Zeichen, falls gewünscht: „Datenschutzkonforme Automatisierung für
+kleine Privatpraxen in Prävention und Wohlbefinden: Termine, Aufnahme und Verwaltung laufen
+zuverlässiger – mehr Zeit fürs Kerngeschäft, ein reibungsloses Kundenerlebnis. Erst die Prozesse,
+dann das Tool. Datenschutz (EU AI Act, DSGVO) von Anfang an. Kostenfreie KI-Potenzialanalyse,
+Wien und Niederösterreich.")*
 
 ## Leistungen (als „Services" anlegen — je mit Kategorie)
 
