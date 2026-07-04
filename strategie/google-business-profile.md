@@ -57,6 +57,10 @@ zuverlässiger – mehr Zeit fürs Kerngeschäft, ein reibungsloses Kundenerlebn
 dann das Tool. Datenschutz (EU AI Act, DSGVO) von Anfang an. Kostenfreie KI-Potenzialanalyse,
 Wien und Niederösterreich.")*
 
+> **Nische-Regel (offiziell vs. erweitert):** In den offiziellen Profil-Texten nur
+> **„Prävention und Wohlbefinden"**. **Ästhetik** ist eine **erweiterte Zielgruppe** — die
+> sprichst du über **Google-Beiträge, Blog und Case Studies** an, nicht in Beschreibung/Headline.
+
 ## Leistungen (als „Services" anlegen — je mit Kategorie)
 
 In Google gehört jede Leistung unter eine **Kategorie** (die „Produktkategorie", nach der
@@ -88,7 +92,9 @@ Datenschutz ist überall drin, nicht daneben. Platziere es so:
 
 - **Servicegebiet** (statt fixer Adresse, da remote + vor Ort): Wien, Österreich, DACH.
 - **Terminlink:** Calendly-Link der Potenzialanalyse als Buchungs-/Website-Button hinterlegen.
-- **Attribute** aktivieren: „Online-Termine", „Vor-Ort-Termine", „Inhaberin geführt".
+- **Attribute** aktivieren: „Online-Termine", „Vor-Ort-Termine" sowie das Identitäts-Attribut
+  **„Von Frauen geführt"** (echtes Signal, schafft Nähe zur Zielgruppe — kein Ranking-Hebel,
+  aber ein ruhiger Vertrauens-Bonus).
 
 ## Bewertungen — dein stärkster Hebel
 
