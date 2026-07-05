@@ -135,6 +135,27 @@ Digitalisierung, Prozesse) ausgerichtet — keine erfundenen Erfolge.*
 - **Erfahrungs-Regel überall:** „über 20 Jahre Berufserfahrung, davon mehr als ein Jahrzehnt im
   regulierten Gesundheits-/Pharmaumfeld" — nie „20 Jahre Pharma".
 
+## LinkedIn Services-Seite
+
+*Ersetzt den alten „soul-led / energy & mindset"-Überblick und die Marketing/Coaching-Tags.*
+
+**Überblick (fertig zum Einfügen):**
+
+> Ich unterstütze kleine Privatpraxen für Prävention und Wohlbefinden dabei, ihren Praxisalltag zu
+> entlasten – datenschutzkonform und ohne technisches Vorwissen. Termine, Aufnahme, Nachsorge und
+> wiederkehrende Verwaltung lassen sich automatisieren, sodass wieder Zeit bleibt für das, worum es
+> wirklich geht: die Menschen. Ich fange bei Ihren Prozessen an, nicht beim Tool, und sage ehrlich,
+> wenn Sie für etwas gar keine KI brauchen. Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt.
+> Erster Schritt: eine kostenfreie KI-Potenzialanalyse.
+
+**Angebotene Serviceleistungen (aus LinkedIns Liste wählen):**
+- **Behalten:** Unternehmensberatung · Strategische Planung
+- **Entfernen:** Marketingberatung · E-Mail-Marketing · Marketingstrategie · Markenberatung ·
+  Brand Marketing · Content-Strategie
+- **Ergänzen (nächstliegend, was verfügbar ist):** IT-Beratung · Digitale Transformation · Projektmanagement
+
+**Preise:** „Sprechen Sie uns an, um mehr über die Preise zu erfahren." beibehalten (keine Preise öffentlich).
+
 ---
 
 *Brand Voice: `AGENTS.md`. Positionierung: `brand_position.md`. Unternehmensbeschreibung/Palette:

@@ -128,6 +128,26 @@ a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-05.*
 
 *Top 3 to pin: **Artificial Intelligence (AI) · Responsible AI · Data Protection (GDPR)**.*
 
+## LinkedIn Services page
+
+*Replaces the old "soul-led / energy & mindset" overview and the marketing/coaching tags.*
+
+**Overview (ready to paste):**
+
+> I help small private practices in prevention and wellbeing take the load off their day-to-day –
+> privacy-compliant and without technical know-how. Appointments, intake, follow-up care and
+> recurring admin can be automated, so there's time again for what really matters: people. I start
+> with your processes, not the tool, and I'll tell you honestly if you don't need AI at all. Data
+> protection (EU AI Act, GDPR) is the starting point. First step: a free AI potential analysis.
+
+**Services offered (pick from LinkedIn's list):**
+- **Keep:** Management Consulting · Strategic Planning
+- **Remove:** Marketing Consulting · Email Marketing · Marketing Strategy · Brand Consulting ·
+  Brand Marketing · Content Strategy
+- **Add (closest available):** IT Consulting · Digital Transformation · Project Management
+
+**Pricing:** keep "Contact for pricing" (no public prices).
+
 ---
 
 *Note: keep an eye on the certificate label — show "Certified Business Strategy Consultant"
