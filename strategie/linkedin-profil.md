@@ -1,9 +1,9 @@
 # LinkedIn-Profil — fertige Textbausteine
 
 *Sie-Form, Brand Voice (`AGENTS.md`), offizielle Nische **Prävention & Wohlbefinden**.
-Stand: 2026-07-05. Erfahrungsangabe ehrlich: über 20 Jahre Berufserfahrung gesamt,
-davon **mehr als ein Jahrzehnt** (~13 J., 2005–2018) im Gesundheits-/Pharmaumfeld —
-nicht „20 Jahre Pharma".*
+Stand: 2026-07-05. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
+Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung
+(2021–2026) **+** heute KI-Beratung. Nie „20 Jahre Pharma".*
 
 ## Slogan / Headline
 
@@ -26,10 +26,10 @@ nicht „20 Jahre Pharma".*
 > • Ehrliches Nein: Reicht ein einfacher Ablauf, sage ich Ihnen das – Sie werden nicht zur IT-Abteilung.
 > • Ich richte ein, Ihr Team wird eingewiesen.
 >
-> Über 20 Jahre Berufserfahrung in Projektmanagement, Marketing und Digitalisierung – davon mehr
-> als ein Jahrzehnt in internationalen Gesundheits- und Pharmaunternehmen (u. a. Merck, AbbVie,
-> Baxter). Ich kenne die Realität sensibler Daten und komplexer Abläufe – und übersetze sie in
-> einfache, alltagstaugliche Lösungen.
+> Über 20 Jahre Berufserfahrung: mehr als ein Jahrzehnt in internationalen Gesundheits- und
+> Pharmaunternehmen (u. a. Merck, AbbVie, Baxter), dazu mehrere Jahre strategische
+> Unternehmensberatung – heute KI- und Prozessberatung für Praxen. Ich kenne die Realität
+> sensibler Daten und komplexer Abläufe – und übersetze sie in einfache, alltagstaugliche Lösungen.
 >
 > Der erste Schritt ist eine kostenfreie KI-Potenzialanalyse: 30 Minuten, in denen wir schauen,
 > wo im Praxisalltag Zeit verloren geht und wo KI wirklich hilft – ehrlich, auch wenn sich etwas
