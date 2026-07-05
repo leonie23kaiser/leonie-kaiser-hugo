@@ -91,23 +91,37 @@ sensible Daten, Digitalisierung, Prozesse) ausgerichtet — keine erfundenen Erf
 > datenbasiert an KPIs und ROI gemessen.
 
 **AbbVie — Product Manager Neuroscience** (2012–2014, Wien)
-> Re-Positionierungs-Kampagne für ein Parkinson-Präparat erfolgreich umgesetzt. Strategischen
-> Marketingplan entwickelt und implementiert sowie mehrere cross-funktionale Projekte geleitet –
-> mit Fokus auf Umsatz und Kundenerlebnis.
+> Als Product Manager im Bereich Neuroscience habe ich eine Re-Positionierungs-Kampagne für ein
+> Parkinson-Präparat erfolgreich am Markt umgesetzt. Ich habe den strategischen Marketingplan im
+> Einklang mit der Markenstrategie entwickelt und implementiert – inklusive taktischer Planung und
+> KPI-Messung – und mehrere cross-funktionale Marketingprojekte geleitet, die auf Umsatz- und
+> Kundenerlebnis-Ziele eingezahlt haben.
 
 **KED Pharmaceuticals — Marketing Manager** (2011–2012, Wien)
-> Marketingstrategien für ein Immunglobulin-Portfolio (Westeuropa) entwickelt und umgesetzt,
-> inklusive Markt- und Wettbewerbsanalyse, Werbemitteln und Budgetverantwortung.
+> Als Marketing Manager habe ich die Marketingstrategien für ein Immunglobulin-Portfolio in
+> Westeuropa definiert und umgesetzt. Dazu gehörten Markt- und Wettbewerbsanalysen, die Erstellung
+> von Werbe- und Verkaufsförderungsmaterial sowie die Verantwortung für Budgetkontrolle und einen
+> effizienten Ressourceneinsatz.
 
 **Baxter Innovations — Project Analyst, Global Project Management** (2008–2011, Wien)
-> Globale, cross-funktionale Projekte im regulierten Umfeld koordiniert – u. a. einen
-> Produkt-/Device-Launch in Kanada und Life-Cycle-Management-Projekte. Für Projektfortschritt,
-> Finanzen und Budget verantwortlich, auch bei wechselnden Anforderungen.
+> In dieser Rolle im globalen Projektmanagement habe ich cross-funktionale Entwicklungsprojekte im
+> streng regulierten Pharma- und Medizinprodukte-Umfeld koordiniert – über mehrere Länder und
+> Fachbereiche hinweg. Unter anderem habe ich einen Produkt- und Device-Kit-Launch in Kanada
+> begleitet und dabei ein Teilprojekt im Rahmen des Life-Cycle-Managements geleitet. Ich habe
+> Projektaktivitäten in globalen Teams abgestimmt (Indikationserweiterungen und Life-Cycle-
+> Management), den Projektfortschritt auch bei wechselnden Unternehmensanforderungen sichergestellt
+> und die Finanz- und Budgetverantwortung für meine Projekte getragen. Diese Jahre haben mein
+> Gespür dafür geprägt, komplexe, regulierte Abläufe zu strukturieren und verlässlich zum Ergebnis
+> zu bringen.
 
 **Baxter Innovations — Project Management Associate, Global Project Management** (2005–2008, Wien)
-> Projektmanagement für frühe Entwicklungsprojekte (Planung, Budget, Risikoplanung). Team-Aktivitäten
-> koordiniert, Kommunikation bis zum Senior Management verantwortet und das strategische
-> Portfoliomanagement unterstützt.
+> Mein Einstieg ins internationale Projektmanagement: Über gut drei Jahre habe ich CMC-Projekt-
+> management für frühe Entwicklungsprojekte unterstützt – von der Projektplanung über das Budget
+> bis zur Risiko- und Notfallplanung. Ich habe die Aktivitäten des Teams koordiniert, den
+> Informations- und Kommunikationsfluss zu allen Beteiligten bis hin zum Senior Management gesteuert
+> und den strategischen Portfoliomanagement-Prozess unterstützt. Hier habe ich gelernt, viele Fäden
+> gleichzeitig zu halten und in einem regulierten Umfeld den Überblick zu behalten – eine Grundlage,
+> auf der ich bis heute aufbaue.
 
 ## Hinweise
 
