@@ -12,18 +12,19 @@ Sie-Form, Brand Voice (`AGENTS.md`), offizielle Nische **Prävention & Wohlbefin
 > Leonie Kaiser · KI & Business Consulting hilft kleinen Privatpraxen für Prävention und
 > Wohlbefinden, ihren Arbeitsalltag zu entlasten: Termine, Aufnahme und Verwaltung laufen
 > zuverlässig und datenschutzkonform ab. Das schafft mehr Zeit fürs Kerngeschäft und ein
-> reibungsloses Kundenerlebnis. Über 20 Jahre Erfahrung im regulierten Gesundheitsumfeld.
+> reibungsloses Kundenerlebnis. Über 20 Jahre Berufserfahrung, davon
+> mehr als ein Jahrzehnt im regulierten Gesundheits- und Pharmaumfeld.
 > Remote und vor Ort in Wien und Niederösterreich.
 
 **Kurz-Variante (~280 Zeichen):**
 
 > KI & Business Consulting aus Niederösterreich für kleine Privatpraxen in Prävention und
 > Wohlbefinden. Ich richte datenschutzkonforme, automatisierte Abläufe ein – mehr Zeit fürs
-> Kerngeschäft, ein reibungsloses Kundenerlebnis. Über 20 Jahre im regulierten Gesundheitsumfeld.
+> Kerngeschäft, ein reibungsloses Kundenerlebnis. Mehr als ein Jahrzehnt Erfahrung im regulierten Gesundheits- und Pharmaumfeld.
 
 ## „Was macht dich als Unternehmerin aus? Was treibt dich an?"
 
-> Wie kann Technik den Menschen entlasten, statt seine Arbeitskraft zu ersetzen? In über 20 Jahren
+> Wie kann Technik den Menschen entlasten, statt seine Arbeitskraft zu ersetzen? In mehr als einem Jahrzehnt
 > im regulierten Gesundheits- und Pharmaumfeld habe ich gesehen, wie viel Zeit in Organisation und
 > Verwaltung verloren geht – Zeit, die besser genutzt werden könnte. Heute nehme ich kleinen
 > Privatpraxen genau diese Routine ab, damit Inhaber:innen wieder das tun können, wofür sie ihren
