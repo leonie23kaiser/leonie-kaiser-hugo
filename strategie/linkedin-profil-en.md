@@ -12,7 +12,7 @@ a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-05.*
 ## About / Summary
 
 > I help small private practices in prevention and wellbeing take the load off their day-to-day –
-> so your time goes back to people, not paperwork.
+> so there's time again for what really matters.
 >
 > Appointments, intake, follow-up care, recurring admin: much of it can be automated in a
 > privacy-compliant way. The result is more time for your core work – and a smooth, professional
