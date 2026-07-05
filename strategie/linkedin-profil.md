@@ -13,7 +13,7 @@ Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unte
 ## Info / Zusammenfassung
 
 > Ich helfe kleinen Privatpraxen für Prävention und Wohlbefinden, den Praxisalltag zu entlasten
-> – damit wieder die Inhaberin führt statt verwaltet.
+> – damit Ihre Zeit wieder den Menschen gehört, nicht der Verwaltung.
 >
 > Termine, Aufnahme, Nachsorge, wiederkehrende Verwaltung: Vieles davon lässt sich
 > datenschutzkonform automatisieren. Das Ergebnis ist mehr Zeit fürs Kerngeschäft – und ein
