@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>KI-Potenzialanalyse · Leonie Kaiser</title>
+  <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+  <style>
+    :root {
+      --teal:      #086584;
+      --teal-mid:  #5FA2A0;
+      --teal-soft: #E6F1F3;
+      --blue:      #2E74B5;
+      --grey:      #5B6572;
+      --text:      #232A2E;
+      --white:     #ffffff;
+      --hellgrau:  #F4F6F7;
+      --bg:        #f0f5f7;
+      --border:    #cddde3;
+      --gold:      #CF982B;
+      --red:       #c0392b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    /* ── GATE ── */
+    #gate {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh; padding: 2rem;
+    }
+    .gate-card {
+      background: var(--white); border-radius: 12px;
+      padding: 2.5rem 2rem; max-width: 380px; width: 100%;
+      box-shadow: 0 4px 24px rgba(8,101,132,.12);
+      text-align: center;
+    }
+    .gate-card img { width: 80px; margin-bottom: 1.25rem; }
+    .gate-card h1 { font-size: 1.3rem; color: var(--teal); margin-bottom: .4rem; }
+    .gate-card p  { color: var(--grey); font-size: .9rem; margin-bottom: 1.5rem; }
+    .gate-card input {
+      width: 100%; padding: .7rem 1rem; border: 1.5px solid var(--border);
+      border-radius: 7px; font-size: 1rem; margin-bottom: .75rem;
+      outline: none; transition: border .2s;
+    }
+    .gate-card input:focus { border-color: var(--teal); }
+    .gate-card .err { color: var(--red); font-size: .85rem; margin-bottom: .75rem; display: none; }
+    .btn-primary {
+      background: var(--teal); color: var(--white); border: none;
+      padding: .75rem 1.5rem; border-radius: 7px; font-size: 1rem;
+      font-weight: 700; cursor: pointer; width: 100%; transition: background .2s;
+    }
+    .btn-primary:hover { background: #064f68; }
+
+    /* ── TOOL ── */
+    #tool { display: none; }
+    header {
+      background: var(--teal); color: var(--white);
+      padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem;
+    }
+    header img { height: 44px; }
+    header h1 { font-size: 1.2rem; font-weight: 700; }
+    header span { font-size: .85rem; opacity: .75; margin-left: auto; }
+
+    main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+    .section {
+      background: var(--white); border-radius: 10px;
+      padding: 1.5rem; margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(8,101,132,.07);
+    }
+    .section-title {
+      font-size: 1rem; font-weight: 700; color: var(--teal);
+      margin-bottom: 1.1rem; padding-bottom: .5rem;
+      border-bottom: 2px solid var(--teal-soft);
+    }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 600px) { .row { grid-template-columns: 1fr; } }
+
+    label { display: block; font-size: .85rem; font-weight: 700;
+            color: var(--grey); margin-bottom: .3rem; }
+    input[type=text], input[type=number], select, textarea {
+      width: 100%; padding: .6rem .85rem; border: 1.5px solid var(--border);
+      border-radius: 6px; font-size: .95rem; font-family: Arial, sans-serif;
+      color: var(--text); outline: none; transition: border .2s; background: var(--white);
+    }
+    input:focus, select:focus, textarea:focus { border-color: var(--teal); }
+    .field { margin-bottom: .85rem; }
+
+    /* checkboxes / radio pills */
+    .pill-group { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .3rem; }
+    .pill-group label {
+      display: inline-flex; align-items: center; gap: .4rem;
+      background: var(--hellgrau); border: 1.5px solid var(--border);
+      border-radius: 20px; padding: .35rem .75rem; cursor: pointer;
+      font-size: .85rem; font-weight: 400; color: var(--text);
+      transition: all .15s; user-select: none;
+    }
+    .pill-group input { display: none; }
+    .pill-group label.selected {
+      background: var(--teal-soft); border-color: var(--teal); color: var(--teal); font-weight: 700;
+    }
+    .hint { font-size: .78rem; color: var(--grey); margin-top: .3rem; }
+
+    /* stufen */
+    .stufe-group { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; margin-top: .3rem; }
+    @media (max-width: 560px) { .stufe-group { grid-template-columns: 1fr; } }
+    .stufe-card {
+      border: 2px solid var(--border); border-radius: 8px; padding: .85rem;
+      cursor: pointer; transition: all .15s;
+    }
+    .stufe-card.selected { border-color: var(--teal); background: var(--teal-soft); }
+    .stufe-card strong { display: block; color: var(--teal); margin-bottom: .2rem; font-size: .9rem; }
+    .stufe-card span { font-size: .8rem; color: var(--grey); }
+
+    /* quick wins */
+    .qw-list { display: flex; flex-direction: column; gap: .5rem; }
+    .qw-item { display: flex; gap: .5rem; align-items: center; }
+    .qw-num {
+      background: var(--teal); color: var(--white); border-radius: 50%;
+      width: 26px; height: 26px; flex-shrink: 0; display: flex;
+      align-items: center; justify-content: center; font-size: .8rem; font-weight: 700;
+    }
+    .qw-item input { flex: 1; }
+    .qw-item button {
+      background: none; border: none; cursor: pointer; color: var(--grey);
+      font-size: 1.1rem; padding: .2rem;
+    }
+    .qw-item button:hover { color: var(--red); }
+    #addQwBtn {
+      margin-top: .5rem; background: none; border: 1.5px dashed var(--border);
+      border-radius: 6px; width: 100%; padding: .5rem; cursor: pointer;
+      color: var(--grey); font-size: .85rem; transition: all .15s;
+    }
+    #addQwBtn:hover { border-color: var(--teal); color: var(--teal); }
+
+    /* generate button */
+    #generateBtn {
+      display: block; width: 100%; padding: 1rem; font-size: 1.1rem;
+      font-weight: 700; background: var(--teal); color: var(--white);
+      border: none; border-radius: 10px; cursor: pointer; margin-top: 2rem;
+      transition: background .2s; box-shadow: 0 4px 16px rgba(8,101,132,.2);
+    }
+    #generateBtn:hover { background: #064f68; }
+    #generateBtn:disabled { background: var(--grey); cursor: not-allowed; }
+
+    .status-msg { text-align: center; margin-top: 1rem; font-size: .9rem; color: var(--grey); }
+    .status-msg.ok { color: #1a7a4a; font-weight: 700; }
+    .status-msg.err { color: var(--red); }
+  </style>
+</head>
+<body>
+
+<!-- ══════════ GATE ══════════ -->
+<div id="gate">
+  <div class="gate-card">
+    <img src="logo.png" alt="Leonie Kaiser">
+    <h1>KI-Potenzialanalyse</h1>
+    <p>Dieses Tool ist nur für den internen Gebrauch.</p>
+    <p class="err" id="pwErr">Falsches Passwort.</p>
+    <input type="password" id="pwInput" placeholder="Passwort" autocomplete="off">
+    <button class="btn-primary" onclick="checkPw()">Einloggen</button>
+  </div>
+</div>
+
+<!-- ══════════ TOOL ══════════ -->
+<div id="tool">
+  <header>
+    <img src="logo.png" alt="Leonie Kaiser">
+    <h1>KI-Potenzialanalyse</h1>
+    <span>intern · Leonie Kaiser Consulting</span>
+  </header>
+
+  <main>
+
+    <!-- 1. BETRIEB -->
+    <div class="section">
+      <div class="section-title">1 · Betrieb</div>
+      <div class="row">
+        <div class="field">
+          <label for="betriebName">Name des Betriebs</label>
+          <input type="text" id="betriebName" placeholder="z. B. Praxis Muster">
+        </div>
+        <div class="field">
+          <label for="betriebOrt">Ort / Stadt</label>
+          <input type="text" id="betriebOrt" placeholder="z. B. Ihr Ort">
+        </div>
+      </div>
+      <div class="row">
+        <div class="field">
+          <label for="betriebMA">Mitarbeitende (inkl. Inhaberin)</label>
+          <input type="number" id="betriebMA" min="1" max="50" placeholder="z. B. 4">
+        </div>
+        <div class="field">
+          <label for="betriebTyp">Betriebstyp</label>
+          <select id="betriebTyp" onchange="onTypChange()">
+            <option value="">– bitte wählen –</option>
+            <option value="physio_therapie">Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)</option>
+            <option value="ernaehrung">Ernährungsberatung / Gesundheitszentrum</option>
+            <option value="training_fitness">Personal-Training- / Fitness-Studio</option>
+            <option value="longevity_wellness">Longevity- / Medical-Wellness-Praxis (Premium)</option>
+            <option value="aesthetik">Ästhetische Praxis / Medical Aesthetics (klein)</option>
+            <option value="allgemein">Allgemeine Gesundheits-/Wellness-Praxis</option>
+          </select>
+        </div>
+      </div>
+      <div id="art9Hinweis" style="display:none; background:var(--teal-soft); border-radius:7px; padding:.75rem 1rem; font-size:.85rem; color:var(--text); margin-top:.25rem;"></div>
+    </div>
+
+    <!-- 2. DIGITALISIERUNGSSTUFE -->
+    <div class="section">
+      <div class="section-title">2 · Digitalisierungsstufe</div>
+      <div class="stufe-group" id="stufenGruppe"></div>
+    </div>
+
+    <!-- 3. ZIELE -->
+    <div class="section">
+      <div class="section-title">3 · Ziele <small style="font-weight:400;color:var(--grey)">(max. 3)</small></div>
+      <div class="pill-group" id="zieleGruppe"></div>
+    </div>
+
+    <!-- 4. ENGPÄSSE -->
+    <div class="section">
+      <div class="section-title">4 · Engpässe <small style="font-weight:400;color:var(--grey)">(max. 3)</small></div>
+      <div class="pill-group" id="engpaesseGruppe"></div>
+      <p class="hint" style="margin-top:.5rem">Kern-Engpässe (alle Typen) + typ-spezifische Engpässe (erscheinen nach Auswahl des Betriebstyps).</p>
+    </div>
+
+    <!-- 5. QUICK WINS -->
+    <div class="section">
+      <div class="section-title">5 · Quick Wins <small style="font-weight:400;color:var(--grey)">(3–4, editierbar)</small></div>
+      <div class="qw-list" id="qwList"></div>
+      <button id="addQwBtn" onclick="addQwField('')">+ Quick Win hinzufügen</button>
+    </div>
+
+    <button id="generateBtn" onclick="generate()">▶ Analyse-PPTX erstellen &amp; herunterladen</button>
+    <div class="status-msg" id="statusMsg"></div>
+
+  </main>
+</div>
+
+<script>
+// ── PASSWORT ──────────────────────────────────────────────────────────────
+const PW_HASH = "fccf17cf3fb6844fa496628e5469a74c0feb6438b3c681f48f65b88621c41965";
+
+async function sha256(str) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b=>b.toString(16).padStart(2,"0")).join("");
+}
+
+async function checkPw() {
+  const val = document.getElementById("pwInput").value;
+  const h = await sha256(val);
+  if (h === PW_HASH) {
+    document.getElementById("gate").style.display = "none";
+    document.getElementById("tool").style.display = "block";
+  } else {
+    document.getElementById("pwErr").style.display = "block";
+  }
+}
+
+document.getElementById("pwInput").addEventListener("keydown", e => {
+  if (e.key === "Enter") checkPw();
+});
+
+// ── DATEN ─────────────────────────────────────────────────────────────────
+const LIB = {"kern_engpaesse":[{"id":"auslastung","titel":"Schwankende Auslastung & Neukundengewinnung","symptom":"Mal ist der Kalender voll, mal entstehen Lücken — die Auslastung lässt sich schwer planen, und neue Anfragen kommen unregelmäßig herein.","ki_hebel":"Sichtbarkeit und Anfragefluss verstetigen: automatisierte Reaktivierung früherer Klient:innen, KI-gestützte Content-Erstellung für Social Media und Newsletter, schnelle Erstreaktion auf Anfragen rund um die Uhr.","outcome":"Eine planbarere, gleichmäßigere Auslastung — weniger Leerlauf, weniger Last-Minute-Akquise."},{"id":"termine_noshows","titel":"Terminorganisation & Ausfälle (No-Shows)","symptom":"Termine werden per Telefon, WhatsApp und E-Mail vereinbart, Erinnerungen passieren manuell, und kurzfristige Absagen reißen Lücken in den Tag.","ki_hebel":"Automatisierte Terminbuchung mit Selbstbuchungslink, intelligente Erinnerungen über den bevorzugten Kanal, automatisches Nachbesetzen frei gewordener Slots aus einer Warteliste.","outcome":"Spürbar weniger Ausfälle, weniger Telefon-Pingpong und eine Stunde mehr Behandlungs- statt Organisationszeit pro Tag."},{"id":"anfragen_kommunikation","titel":"Anfragen & Kommunikation","symptom":"Dieselben Fragen kommen immer wieder (Preise, Anfahrt, Kassenfrage, Ersttermin), und die Beantwortung frisst zwischen den Terminen viel Zeit.","ki_hebel":"KI-gestützte Erstbeantwortung wiederkehrender Anfragen, vorbereitete Antwortbausteine, ein einfacher Self-Service-Bereich mit den häufigsten Fragen.","outcome":"Anfragen werden schneller und einheitlich beantwortet, ohne dass Sie selbst ständig unterbrochen werden."},{"id":"dokumentation","titel":"Dokumentation & Administration","symptom":"Befunde, Verlaufsnotizen, Abrechnungsvorbereitung und Berichte kosten abends Zeit, die eigentlich Feierabend wäre.","ki_hebel":"KI-gestützte Strukturierung von Notizen, Vorlagen für wiederkehrende Dokumente, teil-automatisierte Vorbereitung von Berichten und Abrechnung — bei sensiblen Gesundheitsdaten strikt Art.-9-konform.","outcome":"Weniger Papierkram nach Feierabend und eine sauberere, schnellere Dokumentation."},{"id":"abhaengigkeit_inhaberin","titel":"„Alles hängt an mir"","symptom":"Organisation, Kommunikation und Entscheidungen laufen über eine Person. Urlaub oder Krankheit bringen den Betrieb ins Stocken.","ki_hebel":"Wiederkehrende Abläufe in klare, teilbare Prozesse überführen, die auch das Team oder automatisierte Workflows übernehmen können — die Inhaberin wird zum Engpass-Löser statt zum Engpass.","outcome":"Der Betrieb läuft auch ohne ständige Präsenz der Inhaberin stabiler weiter."},{"id":"bindung_nachsorge","titel":"Kundenbindung & Nachsorge","symptom":"Nach Abschluss einer Behandlung oder eines Pakets reißt der Kontakt ab; Folgetermine und Empfehlungen entstehen eher zufällig.","ki_hebel":"Automatisierte, persönliche Nachsorge-Sequenzen, Erinnerungen an Folgebehandlungen, strukturierte Empfehlungs- und Bewertungsanfragen zum richtigen Zeitpunkt.","outcome":"Mehr Folgetermine, mehr Empfehlungen und eine stärkere Bindung bestehender Klient:innen."}],"betriebstypen":{"physio_therapie":{"label":"Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)","art9":true,"art9_hinweis":"Sie führen echte Gesundheits- und Diagnosedaten. Art. 9 DSGVO (besondere Kategorien personenbezogener Daten) gilt vollumfänglich — jede KI-Lösung muss das von Beginn an berücksichtigen.","kontext":"Als freiberufliche bzw. Wahltherapie-Praxis tragen Sie Behandlung, Organisation und Abrechnung oft parallel. Verordnungen, Befundung und Rückmeldung an Zuweiser:innen strukturieren den Alltag.","spezifische_engpaesse":[{"id":"physio_verordnung","titel":"Verordnungs- & Zuweiser-Kommunikation","symptom":"Behandlungspläne, Rückmeldungen an zuweisende Ärzt:innen und Kassen-Formalitäten sind wiederkehrend und zeitintensiv.","ki_hebel":"Vorlagen und KI-gestützte Entwürfe für Behandlungspläne und strukturierte Rückmeldungen — Sie prüfen und geben frei, statt jedes Mal neu zu schreiben.","outcome":"Schnellere, einheitliche Zuweiser-Kommunikation bei voller fachlicher Kontrolle."}],"beispiel_quickwin":"Automatische Terminerinnerung plus Wartelisten-Nachbesetzung — bei typischen Ausfallquoten oft der schnellste spürbare Effekt."},"ernaehrung":{"label":"Ernährungsberatung / Gesundheitszentrum","art9":true,"art9_hinweis":"Diätolog:innen und Ernährungswissenschaftler:innen verarbeiten Gesundheitsdaten — Art. 9 DSGVO gilt. Reine Ernährungstrainer:innen bewegen sich je nach Tiefe der Daten an der Grenze; im Zweifel Art.-9-Standard anwenden.","kontext":"Die rechtliche Linie zwischen beratender Tätigkeit und Ernährungstraining bestimmt, wie sensibel die Daten sind und wie KI eingesetzt werden darf.","spezifische_engpaesse":[{"id":"ernaehrung_plaene","titel":"Erstellung & Pflege individueller Pläne","symptom":"Individuelle Ernährungspläne, Protokoll-Auswertung und Verlaufsbegleitung sind aufwändig und schwer skalierbar.","ki_hebel":"KI-gestützte Aufbereitung von Verlaufsprotokollen und Entwurf individueller Pläne als Vorlage — fachlich geprüft und freigegeben durch Sie, datenschutzkonform.","outcome":"Mehr Klient:innen individuell begleiten, ohne dass die Vorbereitung den Tag auffrisst."}],"beispiel_quickwin":"Strukturierte Erstanamnese per digitalem Fragebogen, der die Vorbereitung der ersten Sitzung halbiert."},"training_fitness":{"label":"Personal-Training-/Fitness-Studio","art9":false,"art9_hinweis":"Sie führen meist keine medizinischen Diagnosen, aber Anamnese- und Gesundheitsfragebögen können sensible Daten enthalten. Je nach Tiefe greift Art. 9 — im Zweifel den strengeren Standard wählen.","kontext":"Als freies Gewerbe liegt der Fokus auf Betreuung, Motivation und Bindung — oft mit Online-Anteil.","spezifische_engpaesse":[{"id":"pt_betreuung","titel":"Laufende Betreuung zwischen den Einheiten","symptom":"Check-ins, Trainingsanpassungen und Motivation zwischen den Terminen kosten viel unbezahlte Zeit.","ki_hebel":"Halb-automatisierte Check-in-Routinen, vorbereitete Trainingsanpassungen und KI-gestützte, persönliche Nachrichten zum richtigen Zeitpunkt.","outcome":"Mehr Klient:innen gleichzeitig betreuen, ohne dass die Qualität oder Ihre Zeit leiden."}],"beispiel_quickwin":"Automatisierter Onboarding-Ablauf für neue Klient:innen (Begrüßung, Fragebogen, erster Termin) — ein einmal gebauter Workflow, der bei jedem Neuzugang Zeit spart."},"longevity_wellness":{"label":"Longevity- / Medical-Wellness-Praxis (Premium)","art9":true,"art9_hinweis":"Biomarker, Labor- und teils Hormondaten gehören zu den sensibelsten Gesundheitsdaten überhaupt. Art. 9 DSGVO und höchste Sorgfalt sind Pflicht — Datenschutz ist hier auch ein Verkaufsargument.","kontext":"Premium-Positionierung mit Selbstzahler:innen, langen Customer Journeys und hohem Anspruch an Kommunikation und Erlebnis.","spezifische_engpaesse":[{"id":"longevity_journey","titel":"Hochwertige Customer Journey & Lead-Qualifizierung","symptom":"Anfragen sind erklärungsintensiv, die Customer Journey ist lang, und nicht jede Anfrage passt zum Premium-Angebot.","ki_hebel":"KI-gestützte Vorqualifizierung von Anfragen, personalisierte Informationsstrecken und eine durchgängig hochwertige, automatisierte Kommunikation entlang der Journey.","outcome":"Mehr passende Klient:innen, weniger Zeit für unpassende Anfragen, ein durchgängig premiumwürdiges Erlebnis."}],"beispiel_quickwin":"Personalisierte, automatisierte Aufbereitung von Befund-/Biomarker-Ergebnissen in eine verständliche, markenkonforme Klient:innen-Zusammenfassung (datenschutzkonform)."},"aesthetik":{"label":"Ästhetische Praxis / Medical Aesthetics (klein)","art9":true,"art9_hinweis":"Behandlungsdaten und oft auch Vorher-/Nachher-Bilder sind sensible Daten. Art. 9 DSGVO greift; bei Bildmaterial kommen besondere Anforderungen an Einwilligung und Speicherung hinzu.","kontext":"Kleine Praxen/Studios mit hohem Wettbewerb, viel Terminorganisation, ausgeprägter No-Show-Problematik und starkem Fokus auf Außenwirkung und Vertrauen.","spezifische_engpaesse":[{"id":"aesthetik_marketing","titel":"Sichtbarkeit, Vertrauen & Bewertungen","symptom":"Im umkämpften Markt entscheiden Sichtbarkeit, Bewertungen und schnelle Reaktion — das alles nebenbei zu pflegen ist schwer.","ki_hebel":"KI-gestützte Content-Erstellung für Social Media, automatisiertes Bewertungs-Management und schnelle, einheitliche Erstreaktion auf Anfragen.","outcome":"Mehr Sichtbarkeit und Vertrauen bei deutlich geringerem laufendem Aufwand."}],"beispiel_quickwin":"Automatisierte, getaktete Bewertungsanfrage nach der Behandlung — einer der stärksten Hebel für neue Anfragen in diesem Markt."},"allgemein":{"label":"Allgemeine Gesundheits-/Wellness-Praxis","art9":true,"art9_hinweis":"Sobald Gesundheitsdaten verarbeitet werden, gilt Art. 9 DSGVO. Im Zweifel wird der strengere Standard angewendet — das ist Teil des Vertrauens, das Sie Ihren Klient:innen bieten.","kontext":"Sammelkategorie für kleine Gesundheits- und Wellness-Betriebe, die nicht eindeutig einem der Spezialtypen zuzuordnen sind.","spezifische_engpaesse":[],"beispiel_quickwin":"Automatisierte Terminerinnerung und strukturierte Anfragebeantwortung — die zwei Hebel, die in fast jedem kleinen Gesundheitsbetrieb sofort wirken."}},"ziele":[{"id":"zeit","label":"Zeit zurückgewinnen / Entlastung","framing":"Weniger Organisation, mehr Zeit fürs Kerngeschäft und für Sie selbst."},{"id":"auslastung","label":"Stabilere Auslastung","framing":"Eine planbarere, gleichmäßigere Auslastung statt Achterbahn."},{"id":"kapazitaet","label":"Mehr Kapazität ohne Mehrarbeit","framing":"Mehr Klient:innen begleiten, ohne länger zu arbeiten."},{"id":"qualitaet","label":"Bessere Kundenerfahrung","framing":"Schnellere Reaktion, persönlichere Betreuung, durchgängiges Erlebnis."},{"id":"vorsprung","label":"Vorsprung vor dem Wettbewerb","framing":"Früh und sauber aufgestellt sein, während andere noch zögern."},{"id":"bindung","label":"Stärkere Kundenbindung","framing":"Bestehende Klient:innen halten und zu Empfehlungen machen."}],"digitalisierungsstufen":[{"stufe":1,"label":"Früh digitalisiert","beschreibung":"Einzelne digitale Werkzeuge (E-Mail, Tabellen), vieles noch manuell.","einstieg":"Hier wirken schon einfache Automatisierungen stark — die Quick Wins liegen offen."},{"stufe":2,"label":"Teildigitalisiert","beschreibung":"Mehrere Programme im Einsatz, aber wenig Verbindung untereinander.","einstieg":"Der Hebel liegt im Verbinden des Vorhandenen und im Schließen der Lücken zwischen den Tools."},{"stufe":3,"label":"Verbunden digitalisiert","beschreibung":"Cloud-Tools und erste automatische Abläufe, Zusammenarbeit funktioniert.","einstieg":"Jetzt lohnt der gezielte Einsatz von KI auf den verbleibenden, wertvollsten Engpässen."}]};
+
+// ── UI INITIALISIERUNG ────────────────────────────────────────────────────
+
+function buildStufen() {
+  const g = document.getElementById("stufenGruppe");
+  g.innerHTML = "";
+  LIB.digitalisierungsstufen.forEach(s => {
+    const d = document.createElement("div");
+    d.className = "stufe-card";
+    d.dataset.stufe = s.stufe;
+    d.innerHTML = `<strong>Stufe ${s.stufe} · ${s.label}</strong><span>${s.beschreibung}</span>`;
+    d.onclick = () => {
+      document.querySelectorAll(".stufe-card").forEach(c => c.classList.remove("selected"));
+      d.classList.add("selected");
+    };
+    g.appendChild(d);
+  });
+}
+
+function buildZiele() {
+  const g = document.getElementById("zieleGruppe");
+  g.innerHTML = "";
+  LIB.ziele.forEach(z => {
+    const lbl = document.createElement("label");
+    lbl.title = z.framing;
+    lbl.innerHTML = `<input type="checkbox" value="${z.id}" onchange="limitCheck(this,'zieleGruppe',3)">${z.label}`;
+    lbl.querySelector("input").addEventListener("change", function() {
+      lbl.classList.toggle("selected", this.checked);
+    });
+    g.appendChild(lbl);
+  });
+}
+
+function buildEngpaesse(typKey) {
+  const g = document.getElementById("engpaesseGruppe");
+  const checked = [...g.querySelectorAll("input:checked")].map(i => i.value);
+  g.innerHTML = "";
+
+  const alleEngpaesse = [...LIB.kern_engpaesse];
+  if (typKey && LIB.betriebstypen[typKey]) {
+    alleEngpaesse.push(...LIB.betriebstypen[typKey].spezifische_engpaesse);
+  }
+
+  alleEngpaesse.forEach(e => {
+    const lbl = document.createElement("label");
+    lbl.title = e.symptom;
+    lbl.innerHTML = `<input type="checkbox" value="${e.id}" onchange="limitCheck(this,'engpaesseGruppe',3)">${e.titel}`;
+    const inp = lbl.querySelector("input");
+    if (checked.includes(e.id)) {
+      inp.checked = true;
+      lbl.classList.add("selected");
+    }
+    inp.addEventListener("change", function() {
+      lbl.classList.toggle("selected", this.checked);
+    });
+    g.appendChild(lbl);
+  });
+}
+
+function limitCheck(el, groupId, max) {
+  const all = document.querySelectorAll(`#${groupId} input:checked`);
+  if (all.length > max) {
+    el.checked = false;
+    el.closest("label").classList.remove("selected");
+  }
+}
+
+function onTypChange() {
+  const v = document.getElementById("betriebTyp").value;
+  const hint = document.getElementById("art9Hinweis");
+  if (v && LIB.betriebstypen[v]) {
+    const typ = LIB.betriebstypen[v];
+    hint.style.display = "block";
+    hint.innerHTML = `<strong>${typ.art9 ? "⚠ Art. 9 DSGVO:" : "Hinweis:"}</strong> ${typ.art9_hinweis}`;
+    buildEngpaesse(v);
+    suggestQwFromTyp(v);
+  } else {
+    hint.style.display = "none";
+    buildEngpaesse(null);
+  }
+}
+
+function suggestQwFromTyp(typKey) {
+  const bsp = LIB.betriebstypen[typKey]?.beispiel_quickwin;
+  if (!bsp) return;
+  const list = document.getElementById("qwList");
+  if (list.children.length === 0) addQwField(bsp);
+}
+
+// Quick Wins
+let qwCount = 0;
+function addQwField(val) {
+  const list = document.getElementById("qwList");
+  qwCount++;
+  const idx = list.children.length + 1;
+  const div = document.createElement("div");
+  div.className = "qw-item";
+  div.innerHTML = `<div class="qw-num">${idx}</div><input type="text" value="${val.replace(/"/g,'&quot;')}" placeholder="Quick Win beschreiben..."><button onclick="removeQw(this)" title="Entfernen">✕</button>`;
+  list.appendChild(div);
+  renumberQw();
+}
+function removeQw(btn) {
+  btn.closest(".qw-item").remove();
+  renumberQw();
+}
+function renumberQw() {
+  document.querySelectorAll(".qw-item .qw-num").forEach((n, i) => n.textContent = i + 1);
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────
+buildStufen();
+buildZiele();
+buildEngpaesse(null);
+
+// ── PPTX-GENERATION ───────────────────────────────────────────────────────
+
+function getFormData() {
+  const name    = document.getElementById("betriebName").value.trim() || "Ihr Betrieb";
+  const ort     = document.getElementById("betriebOrt").value.trim();
+  const ma      = document.getElementById("betriebMA").value.trim();
+  const typKey  = document.getElementById("betriebTyp").value;
+  const typInfo = typKey ? LIB.betriebstypen[typKey] : null;
+
+  const stufeSel = document.querySelector(".stufe-card.selected");
+  const stufeNum = stufeSel ? parseInt(stufeSel.dataset.stufe) : null;
+  const stufeObj = stufeNum ? LIB.digitalisierungsstufen.find(s => s.stufe === stufeNum) : null;
+
+  const zielIds = [...document.querySelectorAll("#zieleGruppe input:checked")].map(i => i.value);
+  const ziele   = LIB.ziele.filter(z => zielIds.includes(z.id));
+
+  const alleEngpaesse = [...LIB.kern_engpaesse, ...(typInfo?.spezifische_engpaesse || [])];
+  const engIds  = [...document.querySelectorAll("#engpaesseGruppe input:checked")].map(i => i.value);
+  const engpaesse = alleEngpaesse.filter(e => engIds.includes(e.id));
+
+  const qwInputs = [...document.querySelectorAll(".qw-item input")];
+  const quick_wins = qwInputs.map(i => i.value.trim()).filter(Boolean);
+
+  return {
+    unternehmen: {
+      name, ort, mitarbeiter: ma,
+      typ_label: typInfo?.label || "",
+      art9: typInfo?.art9 ?? true,
+      art9_hinweis: typInfo?.art9_hinweis || "",
+    },
+    digitalisierung: stufeObj || { stufe: "–", label: "–", beschreibung: "–", einstieg: "–" },
+    ziele,
+    engpaesse,
+    quick_wins,
+  };
+}
+
+// Farben
+const C = {
+  teal:     "086584",
+  blau:     "2E74B5",
+  graublau: "5B6572",
+  text:     "232A2E",
+  weiss:    "FFFFFF",
+  hellteal: "E6F1F3",
+  hellgrau: "F4F6F7",
+  tealDark: "064f68",
+  dcecf0:   "DCE CF0".replace(" ",""),
+};
+
+// Helper: inches to EMU (PptxGenJS uses inches for positioning)
+function pct(val, total) { return (val / total * 100).toFixed(2) + "%"; }
+
+// PptxGenJS slide helpers
+function addTb(slide, text, opts) {
+  slide.addText(text, opts);
+}
+
+function logoDataUrl() {
+  // We'll fetch the logo and convert to base64 on first use
+  return window._logoB64 || null;
+}
+
+async function loadLogo() {
+  if (window._logoB64) return window._logoB64;
+  try {
+    const resp = await fetch("logo.png");
+    const blob = await resp.blob();
+    return new Promise((res, rej) => {
+      const fr = new FileReader();
+      fr.onload = () => { window._logoB64 = fr.result; res(fr.result); };
+      fr.onerror = rej;
+      fr.readAsDataURL(blob);
+    });
+  } catch(e) { return null; }
+}
+
+async function generate() {
+  const btn = document.getElementById("generateBtn");
+  const msg = document.getElementById("statusMsg");
+  btn.disabled = true;
+  btn.textContent = "Erstelle PPTX …";
+  msg.className = "status-msg";
+  msg.textContent = "";
+
+  try {
+    const d = getFormData();
+
+    // Validate
+    if (!d.digitalisierung.label || d.digitalisierung.label === "–") {
+      throw new Error("Bitte eine Digitalisierungsstufe auswählen.");
+    }
+    if (d.ziele.length === 0) throw new Error("Bitte mindestens ein Ziel auswählen.");
+    if (d.engpaesse.length === 0) throw new Error("Bitte mindestens einen Engpass auswählen.");
+    if (d.quick_wins.length === 0) throw new Error("Bitte mindestens einen Quick Win eintragen.");
+
+    const logo = await loadLogo();
+    await buildPptx(d, logo);
+
+    msg.className = "status-msg ok";
+    msg.textContent = "✓ PPTX erstellt und heruntergeladen.";
+  } catch(e) {
+    msg.className = "status-msg err";
+    msg.textContent = "Fehler: " + e.message;
+    console.error(e);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "▶ Analyse-PPTX erstellen & herunterladen";
+  }
+}
+
+async function buildPptx(d, logo) {
+  const pptx = new PptxGenJS();
+  pptx.layout = "LAYOUT_WIDE"; // 13.33 x 7.5 in
+
+  await slideTitel(pptx, d, logo);
+  await slideEinleitung(pptx, d);
+  await slideIstZustand(pptx, d);
+  for (let i = 0; i < d.engpaesse.length; i++) {
+    await slideEngpass(pptx, d.engpaesse[i], i+1, d.engpaesse.length);
+  }
+  await slideQuickwins(pptx, d);
+  await slideDatenschutz(pptx, d);
+  await slideNaechsteSchritte(pptx, d);
+  await slideKontakt(pptx, d, logo);
+
+  const name = d.unternehmen.name.replace(/[^a-zA-Z0-9äöüÄÖÜß\s\-]/g, "").replace(/\s+/g,"_");
+  await pptx.writeFile({ fileName: `KI-Potenzialanalyse_${name}.pptx` });
+}
+
+// ── FOLIE 1: TITEL ────────────────────────────────────────────────────────
+async function slideTitel(pptx, d, logo) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  // Logo oben rechts
+  if (logo) {
+    s.addImage({ data: logo, x: 10.0, y: 0.55, w: 2.6, h: 2.6 });
+  }
+
+  // Haupttitel
+  s.addText([
+    { text: "KI-Potenzialanalyse", options: { fontSize: 46, bold: true, color: C.teal, breakLine: true } },
+    { text: "Wo Künstliche Intelligenz in Ihrem Betrieb wirklich wirkt.", options: { fontSize: 20, color: C.graublau, bold: false } },
+  ], { x: 0.9, y: 2.2, w: 8.6, h: 2.2, fontFace: "Arial", valign: "top", wrap: true });
+
+  // Betrieb-Meta
+  const metaParts = [];
+  if (d.unternehmen.ort) metaParts.push(d.unternehmen.ort);
+  if (d.unternehmen.typ_label) metaParts.push(d.unternehmen.typ_label);
+  if (d.unternehmen.mitarbeiter) metaParts.push(`${d.unternehmen.mitarbeiter} Personen`);
+
+  s.addText([
+    { text: d.unternehmen.name, options: { fontSize: 22, bold: true, color: C.blau, breakLine: true } },
+    ...(metaParts.length ? [{ text: metaParts.join("  ·  "), options: { fontSize: 14, color: C.graublau } }] : []),
+  ], { x: 0.95, y: 5.5, w: 8.5, h: 1.6, fontFace: "Arial", valign: "top", wrap: true });
+
+  // Footer
+  s.addText("Leonie Kaiser · KI & Business Consulting · EU AI Act & DSGVO konform",
+    { x: 0.95, y: 6.9, w: 11, h: 0.4, fontSize: 11, color: C.graublau, fontFace: "Arial" });
+}
+
+// ── FOLIE 2: EINLEITUNG ───────────────────────────────────────────────────
+async function slideEinleitung(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  s.addText("Worum es in dieser Analyse geht",
+    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+
+  s.addText([
+    { text: "KI verändert auch kleine Gesundheits- und Wellness-Betriebe — und schafft echte Vorteile für die, die früh und überlegt handeln.", options: { breakLine: true } },
+    { text: "\n", options: { fontSize: 8 } },
+    { text: "Diese Analyse ist kein Verkaufsgespräch und kein Hype. Wir schauen gemeinsam, wo in Ihrem Alltag Zeit verloren geht und wo KI Sie spürbar entlastet.", options: { breakLine: true } },
+    { text: "\n", options: { fontSize: 8 } },
+    { text: "Am Ende wissen Sie genau, wo der größte Hebel liegt — als klare Basis für Ihre nächste Entscheidung.", options: { bold: true } },
+  ], { x: 0.9, y: 1.9, w: 7.0, h: 4.8, fontSize: 16, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+
+  // rechte Karte
+  s.addShape(pptx.ShapeType.roundRect, { x: 8.3, y: 1.9, w: 4.1, h: 4.6, fill: { color: C.hellteal }, line: { color: C.hellteal } });
+  const versp = [
+    { text: "Was Sie mitnehmen\n", options: { bold: true, fontSize: 16, color: C.teal, breakLine: true } },
+    ...["Klarheit über Ihren Ist-Zustand","Konkrete Quick Wins für Ihren Betrieb","Eine erste Einschätzung & Empfehlung","Volle DSGVO- & Art.-9-Konformität"].map(t => ({
+      text: "•  " + t + "\n", options: { fontSize: 14, color: C.text }
+    }))
+  ];
+  s.addText(versp, { x: 8.7, y: 2.25, w: 3.4, h: 4.0, fontFace: "Arial", valign: "top", wrap: true });
+}
+
+// ── FOLIE 3: IST-ZUSTAND ──────────────────────────────────────────────────
+async function slideIstZustand(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  s.addText("Ihr Ausgangspunkt",
+    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+
+  // Stufen-Karte
+  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 1.9, w: 5.4, h: 4.6, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
+  const st = d.digitalisierung;
+  s.addText([
+    { text: `Stufe ${st.stufe} von 3\n`, options: { fontSize: 15, bold: true, color: C.graublau, breakLine: true } },
+    { text: st.label + "\n", options: { fontSize: 26, bold: true, color: C.teal, breakLine: true } },
+    { text: "\n", options: { fontSize: 6 } },
+    { text: st.beschreibung + "\n", options: { fontSize: 15, color: C.text, breakLine: true } },
+    { text: "\n", options: { fontSize: 6 } },
+    { text: st.einstieg, options: { fontSize: 15, color: C.blau, italic: true } },
+  ], { x: 1.25, y: 2.2, w: 4.7, h: 4.0, fontFace: "Arial", valign: "top", wrap: true });
+
+  // Ziele rechts
+  s.addText("Ihre wichtigsten Ziele",
+    { x: 6.7, y: 1.95, w: 5.7, h: 0.6, fontSize: 18, bold: true, color: C.blau, fontFace: "Arial" });
+
+  let y = 2.7;
+  d.ziele.forEach((z, i) => {
+    // Kreis
+    s.addShape(pptx.ShapeType.ellipse, { x: 6.7, y, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText(String(i+1), { x: 6.7, y, w: 0.5, h: 0.5, fontSize: 14, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText([
+      { text: z.label + "\n", options: { bold: true, color: C.text, fontSize: 15, breakLine: true } },
+      { text: z.framing, options: { color: C.graublau, fontSize: 12 } },
+    ], { x: 7.4, y: y - 0.02, w: 5.0, h: 1.1, fontFace: "Arial", valign: "top", wrap: true });
+    y += 1.25;
+  });
+}
+
+// ── FOLIE 4: ENGPASS ──────────────────────────────────────────────────────
+async function slideEngpass(pptx, eng, idx, total) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  s.addText(`Engpass ${idx} von ${total}`,
+    { x: 0.9, y: 0.6, w: 9.5, h: 0.5, fontSize: 13, bold: true, color: C.graublau, fontFace: "Arial" });
+  s.addText(eng.titel,
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.1, fontSize: 30, bold: true, color: C.teal, fontFace: "Arial", wrap: true });
+
+  s.addText([
+    { text: "Was Sie heute erleben\n", options: { bold: true, color: C.blau, fontSize: 14, breakLine: true } },
+    { text: eng.symptom, options: { color: C.text, fontSize: 15 } },
+  ], { x: 0.9, y: 2.25, w: 11.5, h: 1.1, fontFace: "Arial", valign: "top", wrap: true });
+
+  // KI-Hebel Karte
+  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 3.75, w: 5.6, h: 2.9, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
+  s.addText([
+    { text: "Wie KI hier hilft\n", options: { bold: true, color: C.teal, fontSize: 15, breakLine: true } },
+    { text: "\n", options: { fontSize: 5 } },
+    { text: eng.ki_hebel, options: { color: C.text, fontSize: 14 } },
+  ], { x: 1.25, y: 4.05, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
+
+  // Outcome Karte
+  s.addShape(pptx.ShapeType.roundRect, { x: 6.8, y: 3.75, w: 5.6, h: 2.9, fill: { color: C.hellteal }, line: { color: C.hellteal } });
+  s.addText([
+    { text: "Ihr Ergebnis\n", options: { bold: true, color: C.teal, fontSize: 15, breakLine: true } },
+    { text: "\n", options: { fontSize: 5 } },
+    { text: eng.outcome, options: { color: C.text, fontSize: 15, bold: true } },
+  ], { x: 7.15, y: 4.05, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
+}
+
+// ── FOLIE 5: QUICK WINS ───────────────────────────────────────────────────
+async function slideQuickwins(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  s.addText("Ihre Quick Wins",
+    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+  s.addText("Die ersten sinnvollen Schritte — schnell umsetzbar, sofort spürbar.",
+    { x: 0.9, y: 1.7, w: 11.5, h: 0.7, fontSize: 16, color: C.graublau, fontFace: "Arial" });
+
+  const wins = d.quick_wins;
+  const cols = wins.length <= 4 ? 2 : 3;
+  const cw = (11.5 - (cols - 1) * 0.4) / cols;
+  const ch = 1.95;
+  const x0 = 0.9, y0 = 2.6;
+
+  wins.forEach((w, i) => {
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+    const l = x0 + col * (cw + 0.4);
+    const t = y0 + row * (ch + 0.35);
+    s.addShape(pptx.ShapeType.roundRect, { x: l, y: t, w: cw, h: ch, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
+    s.addShape(pptx.ShapeType.ellipse, { x: l+0.3, y: t+0.3, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText(String(i+1), { x: l+0.3, y: t+0.3, w: 0.5, h: 0.5, fontSize: 14, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(w, { x: l+0.3, y: t+0.95, w: cw-0.6, h: ch-1.1, fontSize: 13.5, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+  });
+}
+
+// ── FOLIE 6: DATENSCHUTZ ─────────────────────────────────────────────────
+async function slideDatenschutz(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: C.teal };
+
+  s.addText("Datenschutz ist hier kein Nachgedanke",
+    { x: 0.9, y: 0.9, w: 11.5, h: 1.2, fontSize: 32, bold: true, color: C.weiss, fontFace: "Arial", wrap: true });
+
+  const art9 = d.unternehmen.art9;
+  const hinweis = d.unternehmen.art9_hinweis;
+
+  const leftText = [
+    {
+      text: art9
+        ? "Sie arbeiten mit besonders sensiblen Gesundheitsdaten.\n"
+        : "Auch wenn Sie keine Diagnosen führen — Gesundheitsbezug verlangt besondere Sorgfalt.\n",
+      options: { fontSize: 18, bold: true, color: C.weiss, breakLine: true }
+    },
+  ];
+  if (hinweis) leftText.push({ text: hinweis + "\n", options: { fontSize: 15, color: "DCE CF0".replace(" ",""), breakLine: true } });
+  leftText.push({ text: "Jede vorgeschlagene Lösung wird von Beginn an DSGVO- und EU-AI-Act-konform gedacht — nicht nachträglich repariert.", options: { fontSize: 15, color: "DCECF0" } });
+
+  s.addText(leftText, { x: 0.9, y: 2.3, w: 7.0, h: 4.4, fontFace: "Arial", valign: "top", wrap: true });
+
+  // weiße Karte rechts
+  s.addShape(pptx.ShapeType.roundRect, { x: 8.3, y: 2.3, w: 4.1, h: 4.4, fill: { color: C.weiss }, line: { color: C.weiss } });
+  s.addText([
+    { text: "Worauf Sie sich verlassen\n", options: { bold: true, fontSize: 15, color: C.teal, breakLine: true } },
+    ...["Art. 9 DSGVO für sensible Daten","EU AI Act von Anfang an mitgedacht","Datensparsamkeit als Grundprinzip","Volle Kontrolle bleibt bei Ihnen"].map(t => ({
+      text: "•  " + t + "\n", options: { fontSize: 14, color: C.text }
+    }))
+  ], { x: 8.7, y: 2.65, w: 3.4, h: 3.8, fontFace: "Arial", valign: "top", wrap: true });
+}
+
+// ── FOLIE 7: NÄCHSTE SCHRITTE ─────────────────────────────────────────────
+async function slideNaechsteSchritte(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  s.addText("Wie es weitergehen kann",
+    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+
+  const schritte = [
+    { titel: "Potenzialanalyse", text: "Wir haben gemeinsam Ihren Ist-Zustand, Ihre Ziele und die größten Engpässe geklärt. Diesen Schritt haben Sie gerade abgeschlossen.", color: C.teal },
+    { titel: "Strategie & Roadmap", text: "Auf dieser Basis entsteht eine maßgeschneiderte KI-Roadmap mit konkreten Maßnahmen, klaren Prioritäten und realistischem Zeitplan.", color: C.blau },
+    { titel: "Implementierung & Automatisierung", text: "Aus dem Plan wird Realität — Schritt für Schritt begleitet, bis Ihre Prozesse eigenständig laufen.", color: C.blau },
+  ];
+
+  let y = 2.1;
+  schritte.forEach((sch, i) => {
+    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y, w: 0.65, h: 0.65, fill: { color: sch.color }, line: { color: sch.color } });
+    s.addText(String(i+1), { x: 0.9, y, w: 0.65, h: 0.65, fontSize: 16, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText([
+      { text: sch.titel + "\n", options: { bold: true, fontSize: 19, color: sch.color, breakLine: true } },
+      { text: sch.text, options: { fontSize: 14, color: C.text } },
+    ], { x: 1.8, y: y - 0.05, w: 10.3, h: 1.5, fontFace: "Arial", valign: "top", wrap: true });
+    y += 1.6;
+  });
+}
+
+// ── FOLIE 8: KONTAKT ─────────────────────────────────────────────────────
+async function slideKontakt(pptx, d, logo) {
+  const s = pptx.addSlide();
+  s.background = { color: C.teal };
+
+  // Dekokreis unten rechts
+  s.addShape(pptx.ShapeType.ellipse, { x: 10.4, y: 5.3, w: 3.4, h: 3.4, fill: { color: C.blau }, line: { color: C.blau } });
+
+  // Logo auf weißem Kreis
+  if (logo) {
+    s.addShape(pptx.ShapeType.ellipse, { x: 10.15, y: 0.7, w: 2.4, h: 2.4, fill: { color: C.weiss }, line: { color: C.weiss } });
+    s.addImage({ data: logo, x: 10.4, y: 0.95, w: 1.9, h: 1.9 });
+  }
+
+  s.addText([
+    { text: "Jetzt gemeinsam starten\n", options: { fontSize: 40, bold: true, color: C.weiss, breakLine: true } },
+    { text: "Lassen Sie uns über Ihre Ziele sprechen — unverbindlich.", options: { fontSize: 18, color: "DCECF0" } },
+  ], { x: 0.9, y: 2.4, w: 11, h: 1.4, fontFace: "Arial", valign: "top", wrap: true });
+
+  s.addText([
+    { text: "Leonie Kaiser\n", options: { fontSize: 20, bold: true, color: C.weiss, breakLine: true } },
+    { text: "KI & Business Consultant · Niederösterreich, Österreich\n", options: { fontSize: 14, color: "DCECF0", breakLine: true } },
+    { text: "leoniekaiser.com  ·  calendly.com/leonie-kaiser/ki-potentialanalyse", options: { fontSize: 14, color: C.weiss } },
+  ], { x: 0.95, y: 4.6, w: 10, h: 2, fontFace: "Arial", valign: "top", wrap: true });
+}
+</script>
+</body>
+</html>
