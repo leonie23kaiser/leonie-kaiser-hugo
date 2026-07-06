@@ -121,7 +121,7 @@
     (dict "@type" "ListItem" "position" 1 "name" "Start" "item" $base)
   -}}
   {{- if and (eq .Section "journal") (not .IsNode) -}}
-    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Journal" "item" (printf "%sjournal/" $base)) -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Blog" "item" (printf "%sblog/" $base)) -}}
     {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) -}}
   {{- else -}}
     {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) -}}

@@ -1,6 +1,6 @@
 ---
-title: "KI f\u00fcr Physiotherapie-Praxen \u2013 strukturiert, datenschutzkonform, praxisnah"
-description: "KI in der Physiotherapie sinnvoll einsetzen – Termin-Anfragen schneller beantworten, Dokumentation entlasten, Recall-Prozesse automatisieren. EU AI Act & DSGVO konform."
+title: "KI für Physiotherapie-Praxen – Prävention, Selbstzahler, datenschutzkonform"
+description: "KI für Ihre Präventions- und Sportphysiotherapie: Terminanfragen schneller beantworten, Dokumentation entlasten, Nachsorge automatisieren. EU AI Act & DSGVO konform."
 type: branche
 layout: single
 slug: ki-fuer-physiotherapie-praxen

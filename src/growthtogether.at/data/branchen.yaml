@@ -1,67 +1,72 @@
+# Praxis-Seiten (Nische: Privatpraxen für Prävention, Ästhetik & Wohlbefinden).
+# Gendern: neutrale Form + Paarform, keine Sonderzeichen. Sie-Form. Brand Voice: AGENTS.md.
+# Beispielszenario ist bewusst als illustrativ gekennzeichnet – kein realer Kundenfall.
+
 - slug: physiotherapie
-  branche: Physiotherapie-Praxis
-  branche_kurz: Physiotherapie
-  zielperson: "Inhaberin einer Physiotherapie-Praxis mit 3–10 Mitarbeitenden"
-  schmerz: "Termin-Anfragen liegen liegen, Doku frisst Abendstunden, neue Patienten müssen abgewiesen werden."
+  url: /ki-fuer-physiotherapie-praxen/
+  branche: Privatpraxis für Präventions- und Sportphysiotherapie
+  branche_kurz: Physiotherapie-Praxis
+  zielperson: "die Leitung einer Privatpraxis für Präventions- und Sportphysiotherapie mit 3–10 Mitarbeitenden"
+  schmerz: "Terminanfragen bleiben liegen, die Dokumentation frisst die Abendstunden, und die Nachsorge fällt hinten runter."
   usecases:
     - titel: "Terminanfragen schneller beantworten"
-      desc: "Vorqualifizierung und freundliche Erstantwort, damit keine Anfrage länger als zwei Stunden liegt."
+      desc: "Anfragen werden vorqualifiziert und freundlich beantwortet, damit keine länger als zwei Stunden liegen bleibt – auch wenn am Empfang gerade niemand durchkommt."
     - titel: "Dokumentation entlasten"
-      desc: "Gesprächsnotizen strukturiert ablegen, Behandlungsberichte vorbereiten – mit datenschutzkonformem Setup."
-    - titel: "Recall-Prozesse für Stammpatienten"
-      desc: "Wer war länger nicht da? Strukturierte Hinweise, ohne dass Sie selbst durch Listen klicken."
+      desc: "Gesprächsnotizen strukturiert ablegen und Behandlungsberichte vorbereiten – mit einem Setup, das Gesundheitsdaten von Grund auf richtig behandelt."
+    - titel: "Nachsorge und Recall automatisieren"
+      desc: "Wer war länger nicht da, wer braucht einen Anschlusstermin? Strukturierte Hinweise, ohne dass Sie selbst durch Listen klicken."
+  beispiel:
+    ausgangssituation: "Eine Präventions-Physiopraxis mit fünf Mitarbeitenden. Terminanfragen bleiben liegen, weil am Empfang niemand durchkommt. Die Dokumentation frisst die Abende. Nachsorge und Reaktivierung fallen hinten runter – nach der Erstbehandlung hört die Praxis von vielen nichts mehr."
+    vorgehen: "Wir fangen bei den Abläufen an, nicht beim Tool. Erster Quick-Win: eine datenschutzkonforme Erstantwort, die jede Anfrage in unter zwei Stunden freundlich vorqualifiziert. Danach strukturierte Doku-Vorbereitung und ein automatischer Recall für die Stammkundschaft. Das Team wird eingewiesen – Sie richten nichts selbst ein."
+    ergebnis: "Keine liegengebliebenen Anfragen mehr, spürbar weniger Verwaltung pro Woche. Die Leitung ist nicht mehr der Flaschenhals und hat wieder Zeit für die eigentliche Arbeit am Menschen."
   faq:
-    - q: "Dürfen Patientendaten in ein KI-Tool?"
-      a: "Nicht ohne saubere Konfiguration. Gesundheitsdaten sind besondere Daten nach DSGVO Art. 9. Wir setzen für Sie Tools auf, die das von Grund auf richtig machen."
-    - q: "Brauche ich eine Vollzeit-IT dafür?"
-      a: "Nein. Die meisten Lösungen funktionieren ohne IT-Projekt – Schritt für Schritt eingeführt, mit Begleitung."
+    - q: "Dürfen Gesundheitsdaten in ein KI-Tool?"
+      a: "Nicht ohne saubere Konfiguration. Gesundheitsdaten sind besondere Daten nach DSGVO Art. 9. Wir setzen für Sie Werkzeuge auf, die das von Grund auf richtig machen – mit EU-Hosting, wo möglich, und klaren Datenflüssen."
+    - q: "Brauche ich dafür eine eigene IT?"
+      a: "Nein. Die meisten Lösungen funktionieren ohne IT-Projekt – Schritt für Schritt eingeführt, mit Begleitung. Sie führen ein, ich begleite."
 
-- slug: psychotherapie
-  branche: Psychotherapie-Praxis
-  branche_kurz: Psychotherapie
-  zielperson: "Psychotherapeut:in in eigener Praxis oder kleiner Gemeinschaftspraxis"
-  schmerz: "Erstkontakt, Wartelisten und Doku verlangen viel Zeit – die fehlt für die eigentliche Arbeit."
+- slug: longevity
+  url: /ki-fuer-longevity-praxen/
+  branche: Longevity- und Medical-Wellness-Praxis
+  branche_kurz: Longevity-Praxis
+  zielperson: "die Gründung oder Leitung einer Longevity- oder Medical-Wellness-Praxis im Premium-Segment"
+  schmerz: "Fünf Werkzeuge, die nicht miteinander reden, viel manuelle Nachverfolgung – und eine Praxis, die zu sehr an einzelnen Personen hängt."
   usecases:
-    - titel: "Erstkontakt strukturieren"
-      desc: "Anfragen ordnen, Erstinfos automatisiert verschicken, Termin-Vorschläge ohne Hin und Her."
-    - titel: "Verlaufsnotizen vorbereiten"
-      desc: "Strukturierte Dokumentation, die Ihnen Zeit gibt – mit klaren Grenzen, was KI nicht entscheiden darf."
-    - titel: "Aufklärungs- und Informationsmaterial"
-      desc: "Patienten-Infos, Aufklärungsblätter, Vorlagen – strukturiert, in Ihrer Sprache."
+    - titel: "Kundenreise ohne Medienbruch"
+      desc: "Ersttermin, Follow-up und Reaktivierung laufen strukturiert zusammen – statt über Buchungsapp, CRM, Notion und Excel verstreut, die nicht miteinander reden."
+    - titel: "Laborwerte und Berichte aufbereiten"
+      desc: "Werte und Verläufe strukturiert und verständlich aufbereiten – das spart pro Woche Stunden und kommt bei der Kundschaft klarer an. Datenschutzkonform aufgesetzt."
+    - titel: "Wissen sichern, Onboarding standardisieren"
+      desc: "Abläufe und Philosophie dokumentiert, damit neue Menschen im Team eigenständig hineinfinden und die Praxis nicht an einzelnen Köpfen hängt."
+  beispiel:
+    ausgangssituation: "Eine Longevity-Praxis im Premium-Segment. Die Kundendaten liegen in vier Systemen, die nicht miteinander reden. Follow-up nach Erstgesprächen passiert von Hand – und nach Woche zwölf verliert die Praxis viele, nicht aus Unzufriedenheit, sondern weil nichts sie aktiv hält."
+    vorgehen: "Erst die Abläufe ordnen, dann verbinden. Wir bauen eine durchgängige Kundenreise vom Ersttermin bis zur Reaktivierung – datenschutzkonform, in die bestehenden Werkzeuge integriert. Parallel: Laborwert-Aufbereitung und ein dokumentiertes Onboarding. Das Team wird eingewiesen."
+    ergebnis: "Weniger Medienbrüche, spürbar weniger manuelle Nachverfolgung. Bestandskundschaft wird verlässlich gehalten – und die Praxis hängt nicht mehr an einzelnen Personen."
   faq:
-    - q: "Ist KI in der Psychotherapie überhaupt zulässig?"
-      a: "Als unterstützendes Werkzeug im Hintergrund: ja, wenn datenschutzkonform aufgesetzt. Als Ersatz für therapeutische Entscheidungen: nein – das ist auch nicht das Ziel."
-    - q: "Was ist mit Schweigepflicht und Berufsrecht?"
-      a: "Berufsrecht und Schweigepflicht sind das Fundament. Wir wählen Tools und Prozesse so aus, dass beides gewahrt bleibt."
+    - q: "Was ist mit sensiblen Gesundheits- und Labordaten?"
+      a: "Sie sind der Ausgangspunkt, nicht die Option. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit sauberem Setup, EU-Hosting wo möglich und Auftragsverarbeitungsverträgen – belegt, nicht behauptet."
+    - q: "Lohnt sich das bei unserer Größe?"
+      a: "Gerade dann. Je stärker eine Praxis an einzelnen Personen hängt, desto größer ist der Hebel, Abläufe zu ordnen und mitwachsen zu lassen. Wir starten mit einem klar begrenzten ersten Schritt."
 
-- slug: ernaehrungsberatung
-  branche: Ernährungsberatung
-  branche_kurz: Ernährungsberatung
-  zielperson: "Diaetolog:in oder Ernährungsberater:in mit eigener Praxis"
-  schmerz: "Viel Doku, viele wiederkehrende Texte, wenig Zeit für Sichtbarkeit und neue Kundschaft."
+- slug: aesthetik
+  url: /ki-fuer-aesthetik-praxen/
+  branche: Ästhetik- und Medical-Aesthetics-Praxis
+  branche_kurz: Ästhetik-Praxis
+  zielperson: "die Leitung einer ästhetischen Praxis, die Behandlung, Führung und Organisation in einer Person stemmt"
+  schmerz: "Absagen und Terminlücken, Nachsorge von Hand – und alles Organisatorische landet am Ende bei Ihnen."
   usecases:
-    - titel: "Beratungsprotokolle effizient erstellen"
-      desc: "Aus Notizen strukturierte Protokolle, die Sie nur noch gegenlesen."
-    - titel: "Wiederkehrende Inhalte automatisieren"
-      desc: "Rezeptvorschläge, Wochenpläne, Standard-Aufklärungen – als Vorlagen, die in Ihrer Sprache klingen."
-    - titel: "Sichtbarkeit ohne Mehraufwand"
-      desc: "Aus einem Beratungsthema werden Blog-, Newsletter- und Social-Inhalte – strukturiert in einem Durchgang."
+    - titel: "Terminmanagement mit Lückenfüllung"
+      desc: "Jeder Slot, der frei wird, wird automatisch und zuverlässig wieder besetzt – ohne dass eine kurzfristige Absage den Tag durcheinanderbringt."
+    - titel: "Nachsorge und Reaktivierung auf Autopilot"
+      desc: "Follow-up nach Behandlungen und Terminerinnerungen laufen strukturiert – damit keine Kundin verloren geht, nur weil das Nachfassen untergeht."
+    - titel: "Eine Datenquelle statt Tool-Chaos"
+      desc: "Eine einheitliche Behandlungshistorie, die das ganze Team konsequent nutzt – statt Infos in Praxissoftware, Notizen und Chatverläufen zu suchen."
+  beispiel:
+    ausgangssituation: "Eine ästhetische Praxis mit drei Mitarbeitenden. Die Inhaberin ist Behandlerin, Führung und Verwaltung in einer Person. Absagen und Terminänderungen landen alle am Empfang, Follow-up nach Behandlungen passiert noch weitgehend von Hand – und ab und zu geht eine Kundin verloren, weil niemand nachfasst."
+    vorgehen: "Wir fangen bei dem Ablauf an, der am meisten Zeit frisst. Erster Quick-Win: automatisches Terminmanagement mit Lückenfüllung. Danach eine strukturierte Nachsorge und eine gemeinsame Behandlungshistorie als einzige Datenquelle. Datenschutzkonform, in Ihre bestehenden Werkzeuge integriert. Das Team wird eingewiesen."
+    ergebnis: "Freie Termine werden zuverlässig nachbesetzt, die Nachsorge läuft ohne ständiges Daran-denken. Die Inhaberin ist nicht mehr der einzige Knotenpunkt – und gewinnt Zeit für die Behandlung zurück."
   faq:
-    - q: "Dürfen Klient:innen-Daten in die KI?"
-      a: "Nur mit sauberem Setup und Einwilligung. Wir klären in der Potenzialanalyse, was geht und was nicht."
-
-- slug: coaching
-  branche: Coaching-Praxis
-  branche_kurz: Coaching
-  zielperson: "Selbstständige Coaches mit eigenem Programm und kleinem Team"
-  schmerz: "Sales-Calls, Doku, Content – alles parallel, alles selbst. Wachstum stößt an Zeitgrenzen."
-  usecases:
-    - titel: "Lead-Qualifizierung vor dem Sales-Call"
-      desc: "Strukturierte Vorinfos einsammeln, damit der Call nicht mit Basis-Fragen startet."
-    - titel: "Content aus Programmen extrahieren"
-      desc: "Aus Aufzeichnungen oder Notizen werden LinkedIn-Posts, Blog-Artikel und Newsletter – in Ihrer Stimme."
-    - titel: "Onboarding-Strecken automatisieren"
-      desc: "Willkommens-Mails, Vorbereitungs-Material, Erinnerungen – strukturiert und ohne Zettelwirtschaft."
-  faq:
-    - q: "Verliert mein Coaching die persönliche Note durch KI?"
-      a: "Im Gegenteil. KI übernimmt das Drumherum – die Zeit, die Sie zurückbekommen, geht in echte Präsenz mit Ihren Klient:innen."
+    - q: "Was ist mit Patientendaten und ärztlicher Schweigepflicht?"
+      a: "Beides ist die Grenze, an der wir ansetzen, nicht die wir überschreiten. Wir wählen Werkzeuge und Abläufe so, dass Schweigepflicht und DSGVO gewahrt bleiben – mit konkreten Nachweisen statt eines bloßen „datenschutzkonform“."
+    - q: "Ist KI nicht überzogen für eine kleine Praxis?"
+      a: "Nein. Wir bauen keine komplexe KI, wo ein simpler Ablauf reicht. Wir fangen mit einem konkreten, klar begrenzten Schritt an – dort, wo er Ihnen am meisten Zeit zurückgibt."

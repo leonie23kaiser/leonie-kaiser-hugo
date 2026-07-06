@@ -112,7 +112,7 @@ jobs:
             fi
             gh label create journal-live --repo "$GITHUB_REPOSITORY" \
               --color "0E8A16" --description "HITL-Notify: Journal-Post live" 2>/dev/null || true
-            body=$(printf '**Titel:** %s\n**Slug:** %s\n**Datum:** %s\n**Summary:** %s\n\n**Live:** https://leoniekaiser.com/journal/%s/\n\nBitte sichten — passt der Post so live, oder Anpassung/Rückzug nötig?\n' \
+            body=$(printf '**Titel:** %s\n**Slug:** %s\n**Datum:** %s\n**Summary:** %s\n\n**Live:** https://leoniekaiser.com/blog/%s/\n\nBitte sichten — passt der Post so live, oder Anpassung/Rückzug nötig?\n' \
               "$title" "$name" "$date_str" "$summary" "$name")
             gh issue create --repo "$GITHUB_REPOSITORY" \
               --title "$issue_title" --body "$body" \

@@ -9,8 +9,16 @@
   </a>
   <ul class="nlinks">
     <li><a href="/#leistungen">Leistungen</a></li>
+    <li class="ndrop">
+      <span class="ndrop-toggle" tabindex="0" role="button" aria-haspopup="true">Für Praxen<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></span>
+      <ul class="ndrop-menu">
+        <li><a href="/ki-fuer-physiotherapie-praxen/">Physiotherapie</a></li>
+        <li><a href="/ki-fuer-longevity-praxen/">Longevity &amp; Medical-Wellness</a></li>
+        <li><a href="/ki-fuer-aesthetik-praxen/">Ästhetik</a></li>
+      </ul>
+    </li>
     <li><a href="/ueber-mich/">Über mich</a></li>
-    <li><a href="/journal/">Blog</a></li>
+    <li><a href="/blog/">Blog</a></li>
     <li><a href="/faq/">FAQ</a></li>
     <li><a href="/#kontakt">Kontakt</a></li>
   </ul>
@@ -23,8 +31,12 @@
 </nav>
 <div class="mmenu">
   <a href="/#leistungen" onclick="this.closest('.mmenu').classList.remove('open')">Leistungen</a>
+  <div class="mmenu-group">Für Praxen</div>
+  <a href="/ki-fuer-physiotherapie-praxen/" class="mmenu-sub" onclick="this.closest('.mmenu').classList.remove('open')">Physiotherapie</a>
+  <a href="/ki-fuer-longevity-praxen/" class="mmenu-sub" onclick="this.closest('.mmenu').classList.remove('open')">Longevity &amp; Medical-Wellness</a>
+  <a href="/ki-fuer-aesthetik-praxen/" class="mmenu-sub" onclick="this.closest('.mmenu').classList.remove('open')">Ästhetik</a>
   <a href="/ueber-mich/" onclick="this.closest('.mmenu').classList.remove('open')">Über mich</a>
-  <a href="/journal/" onclick="this.closest('.mmenu').classList.remove('open')">Blog</a>
+  <a href="/blog/" onclick="this.closest('.mmenu').classList.remove('open')">Blog</a>
   <a href="/faq/" onclick="this.closest('.mmenu').classList.remove('open')">FAQ</a>
   <a href="/#kontakt" onclick="this.closest('.mmenu').classList.remove('open')">Kontakt</a>
   <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" class="btnp" style="justify-content:center;margin-top:auto" target="_blank" rel="noopener noreferrer">Kostenfreie Potenzialanalyse</a>

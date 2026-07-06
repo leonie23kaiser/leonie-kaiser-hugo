@@ -7,8 +7,13 @@ enableRobotsTXT = true
 enableGitInfo = true
 enableEmoji = true
 
+disableKinds = ["taxonomy", "term"]
+
 [markup.goldmark.renderer]
   unsafe = true
+
+[permalinks]
+  journal = "/blog/:slug/"
 
 [outputs]
   home = ['HTML','RSS']

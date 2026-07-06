@@ -11,9 +11,9 @@
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Drei konkrete Anwendungsfälle für Ihre {{ $b.branche_kurz }}</h2>
     <div style="display:grid;gap:var(--s4);margin-top:var(--s5)">
       {{ range $i, $uc := $b.usecases }}
-      <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg)">
+      <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--divider);border-radius:var(--r-lg)">
         <div style="display:flex;gap:var(--s3);align-items:center;margin-bottom:var(--s2)">
-          <span style="display:inline-flex;width:32px;height:32px;align-items:center;justify-content:center;background:var(--teal-100);color:var(--teal-900);border-radius:999px;font-family:var(--fd);font-weight:700;font-size:var(--sm)">{{ add $i 1 }}</span>
+          <span style="display:inline-flex;width:32px;height:32px;align-items:center;justify-content:center;background:var(--lblue);color:var(--teal-d);border-radius:999px;font-family:var(--fd);font-weight:700;font-size:var(--sm)">{{ add $i 1 }}</span>
           <h3 style="font-family:var(--fd);font-weight:700;font-size:var(--lg);margin:0;line-height:1.3">{{ $uc.titel }}</h3>
         </div>
         <p style="color:var(--muted);line-height:1.6;font-size:var(--sm);margin:0">{{ $uc.desc }}</p>
@@ -21,8 +21,30 @@
       {{ end }}
     </div>
 
+    {{ with $b.beispiel }}
+    <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">So könnte eine Zusammenarbeit aussehen</h2>
+    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2);display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap">
+      <span style="display:inline-block;font-family:var(--fd);font-weight:700;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--teal-d);background:var(--lblue);border-radius:var(--r-full);padding:3px 12px">Beispielszenario</span>
+      Illustratives Beispiel – noch kein realer Kundenfall.
+    </p>
+    <div style="display:grid;gap:var(--s3);margin-top:var(--s5)">
+      <div style="padding:var(--s5);background:var(--lgreen);border:1px solid var(--divider);border-radius:var(--r-lg)">
+        <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);font-size:var(--sm);margin-bottom:var(--s2)">1 · Ausgangssituation</div>
+        <p style="color:var(--text);line-height:1.6;font-size:var(--sm);margin:0">{{ .ausgangssituation }}</p>
+      </div>
+      <div style="padding:var(--s5);background:var(--lgreen);border:1px solid var(--divider);border-radius:var(--r-lg)">
+        <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);font-size:var(--sm);margin-bottom:var(--s2)">2 · Was wir gemeinsam tun</div>
+        <p style="color:var(--text);line-height:1.6;font-size:var(--sm);margin:0">{{ .vorgehen }}</p>
+      </div>
+      <div style="padding:var(--s5);background:var(--lgreen);border:1px solid var(--divider);border-radius:var(--r-lg)">
+        <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);font-size:var(--sm);margin-bottom:var(--s2)">3 · Das mögliche Ergebnis</div>
+        <p style="color:var(--text);line-height:1.6;font-size:var(--sm);margin:0">{{ .ergebnis }}</p>
+      </div>
+    </div>
+    {{ end }}
+
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">So sieht der Einstieg aus</h2>
-    <ol style="line-height:1.7;font-size:var(--base);color:var(--ink);margin-top:var(--s4);padding-left:var(--s5)">
+    <ol style="line-height:1.7;font-size:var(--base);color:var(--text);margin-top:var(--s4);padding-left:var(--s5)">
       <li><strong>Kostenfreie Potenzialanalyse (30 Minuten):</strong> Wir schauen gemeinsam auf Ihren Alltag und finden den ersten sinnvollen Use Case für Ihre {{ $b.branche_kurz }}.</li>
       <li><strong>Roadmap & Tool-Wahl:</strong> Welche Werkzeuge passen zu Ihrem Setup? Tool-agnostisch ausgewählt, EU AI Act & DSGVO konform aufgesetzt.</li>
       <li><strong>Schritt-für-Schritt-Einführung:</strong> Sie führen ein, ich begleite. Ohne IT-Projekt, ohne Buzzwords, ohne Hektik.</li>
@@ -31,14 +53,14 @@
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Häufige Fragen aus der {{ $b.branche_kurz }}</h2>
     <div style="margin-top:var(--s5);display:flex;flex-direction:column;gap:var(--s3)">
       {{ range $b.faq }}
-      <details style="background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:var(--s4) var(--s5)">
+      <details style="background:var(--surface);border:1px solid var(--divider);border-radius:var(--r-lg);padding:var(--s4) var(--s5)">
         <summary style="font-family:var(--fd);font-weight:700;cursor:pointer;font-size:var(--base);line-height:1.4">{{ .q }}</summary>
         <div style="margin-top:var(--s3);color:var(--muted);line-height:1.6;font-size:var(--sm)">{{ .a | markdownify }}</div>
       </details>
       {{ end }}
     </div>
 
-    <aside style="margin-top:var(--s12);padding:var(--s8);background:var(--teal-50);border-radius:var(--r-xl);border:1px solid var(--line)">
+    <aside style="margin-top:var(--s12);padding:var(--s8);background:var(--lgreen);border-radius:var(--r-xl);border:1px solid var(--divider)">
       <div class="slabel">Ihr nächster Schritt</div>
       <h2 class="stitle" style="font-size:1.5rem;margin-bottom:var(--s3)">Potenzialanalyse für Ihre {{ $b.branche_kurz }}</h2>
       <p style="color:var(--muted);font-size:var(--sm);line-height:1.6;margin-bottom:var(--s5)">In 30 Minuten klären wir, wo KI in Ihrer Praxis am meisten bringt – und was rechtlich zu beachten ist. Kostenfrei, unverbindlich, online.</p>
@@ -55,7 +77,7 @@
       <h2 class="stitle" style="font-size:1.35rem">KI-Beratung für andere Bereiche</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--s3);margin-top:var(--s4)">
         {{ range $others }}
-        <a href="/ki-fuer-{{ .slug }}/" style="display:block;padding:var(--s4) var(--s5);border:1px solid var(--line);border-radius:var(--r-lg);background:#fff;text-decoration:none;color:inherit;font-family:var(--fd);font-weight:700;font-size:var(--sm);line-height:1.3">
+        <a href="{{ .url }}" style="display:block;padding:var(--s4) var(--s5);border:1px solid var(--divider);border-radius:var(--r-lg);background:#fff;text-decoration:none;color:inherit;font-family:var(--fd);font-weight:700;font-size:var(--sm);line-height:1.3">
           {{ .branche }}
         </a>
         {{ end }}

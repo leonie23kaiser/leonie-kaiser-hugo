@@ -30,11 +30,10 @@ About: https://leoniekaiser.com/ueber-mich/
 FAQ: https://leoniekaiser.com/faq/
 EU AI Act Guide: https://leoniekaiser.com/eu-ai-act/
 References: https://leoniekaiser.com/referenzen/
-Journal (KI-Praxis): https://leoniekaiser.com/journal/
+Blog (KI-Praxis): https://leoniekaiser.com/blog/
 KI für Physiotherapie-Praxen: https://leoniekaiser.com/ki-fuer-physiotherapie-praxen/
-KI für Psychotherapie-Praxen: https://leoniekaiser.com/ki-fuer-psychotherapie-praxen/
-KI für Ernährungsberatung: https://leoniekaiser.com/ki-fuer-ernaehrungsberatung/
-KI für Coaches: https://leoniekaiser.com/ki-fuer-coaches/
+KI für Longevity- & Medical-Wellness-Praxen: https://leoniekaiser.com/ki-fuer-longevity-praxen/
+KI für Ästhetik-Praxen: https://leoniekaiser.com/ki-fuer-aesthetik-praxen/
 
 ## Contact
 Website: https://leoniekaiser.com
