@@ -1,6 +1,6 @@
 ---
 title: "FAQ – Häufige Fragen | Leonie Kaiser KI-Beratung"
-description: "Antworten zu KI-Strategie, Kosten, EU AI Act, DSGVO und Agentic AI. Leonie Kaiser, KI-Beraterin in Wien."
+description: "Antworten zu KI-Strategie, Kosten, EU AI Act, DSGVO und Datenschutz. Leonie Kaiser, KI-Beraterin für Privatpraxen in Prävention, Ästhetik & Wohlbefinden."
 type: "faq"
 url: "/faq/"
 faqs:
@@ -11,7 +11,7 @@ faqs:
     a: "Die KI-Potenzialanalyse ist vollständig kostenlos und unverbindlich. Das 30-minütige Online-Gespräch liefert eine erste klare Einschätzung Ihres Digitalisierungsgrades und konkrete Quick Wins für Ihr Unternehmen."
     cat: "kosten"
   - q: "Für wen ist die KI-Beratung geeignet?"
-    a: "Die Beratung richtet sich an Einzelunternehmer und Inhaber kleiner Unternehmen in Österreich und dem DACH-Raum, die KI strategisch und gewinnbringend einsetzen möchten – ohne technisches Vorwissen, dafür mit echtem Mehrwert für Prozesse, Zeit und neue Chancen."
+    a: "Die Beratung richtet sich an Privatpraxen für Prävention, Ästhetik und Wohlbefinden im DACH-Raum – etwa Präventions- und Sportphysiotherapie, Longevity- und Medical-Wellness-Praxen oder ästhetische Praxen. Also an Inhaberinnen und Inhaber, die KI praxisnah und rechtssicher einsetzen möchten – ohne technisches Vorwissen, dafür mit echtem Mehrwert für Prozesse, Zeit und Kundenerlebnis."
     cat: "strategie"
   - q: "Welche KI-Tools werden eingesetzt?"
     a: "Schwerpunkt liegt auf Agentic AI mit Claude Code und Claude Architect für autonome, mehrstufige Prozesse. Ergänzend kommen No-Code-Plattformen wie n8n und Make für Automatisierungen zum Einsatz. Die Tool-Auswahl richtet sich immer nach Ihrem konkreten Anwendungsfall."

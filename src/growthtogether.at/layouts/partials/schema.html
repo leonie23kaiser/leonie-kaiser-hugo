@@ -10,14 +10,14 @@
     "@id" $personId
     "name" "Leonie Kaiser"
     "jobTitle" "KI & Business Consultant"
-    "description" "Leonie Kaiser ist KI-Beraterin in Wien mit über 20 Jahren Erfahrung. Spezialisierung auf Agentic AI, Claude Code, Claude Architect sowie EU AI Act & DSGVO Compliance für Einzelunternehmer und KMU."
+    "description" "Leonie Kaiser ist KI-Beraterin mit über 20 Jahren Erfahrung. Spezialisierung auf KI-Einführung, No-Code-Automatisierung sowie EU AI Act & DSGVO Compliance für Privatpraxen in Prävention, Ästhetik & Wohlbefinden."
     "url" (printf "%sueber-mich/" $base)
     "image" (printf "%simages/Bild-1.png" $base)
     "sameAs" (slice "https://www.linkedin.com/in/leoniekaiser")
     "worksFor" (dict "@id" $orgId)
     "knowsAbout" (slice "KI-Strategie" "Agentic AI" "Claude Code" "Claude Architect" "EU AI Act" "DSGVO" "No-Code Automatisierung" "n8n" "Make" "Projektmanagement" "Business Consulting")
     "knowsLanguage" (slice "de" "en" "es")
-    "address" (dict "@type" "PostalAddress" "addressLocality" "Wien" "addressRegion" "AT-9" "addressCountry" "AT")
+    "address" (dict "@type" "PostalAddress" "addressLocality" "Niederösterreich" "addressRegion" "AT-3" "addressCountry" "AT")
 -}}
 
 {{- /* Organization / ProfessionalService */ -}}
@@ -33,7 +33,7 @@
     "founder" (dict "@id" $personId)
     "vatID" "ATU81457647"
     "areaServed" (slice "AT" "DE" "CH")
-    "address" (dict "@type" "PostalAddress" "addressLocality" "Wien" "addressRegion" "AT-9" "addressCountry" "AT")
+    "address" (dict "@type" "PostalAddress" "addressLocality" "Niederösterreich" "addressRegion" "AT-3" "addressCountry" "AT")
     "contactPoint" (dict "@type" "ContactPoint" "contactType" "customer service" "email" "hello@leoniekaiser.com" "telephone" "+436707756060" "availableLanguage" (slice "German" "English" "Spanish"))
     "hasOfferCatalog" (dict
       "@type" "OfferCatalog"

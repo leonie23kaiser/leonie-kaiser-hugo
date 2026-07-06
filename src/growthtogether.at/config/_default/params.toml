@@ -1,6 +1,6 @@
-description = "KI-Beraterin in Wien: maßgeschneiderte KI-Strategie, No-Code-Automatisierung und EU AI Act Compliance für Einzelunternehmer und KMU in Österreich. Kostenfreie Potenzialanalyse."
+description = "KI-Beraterin für Privatpraxen in Prävention, Ästhetik & Wohlbefinden: KI-Strategie, No-Code-Automatisierung und EU AI Act Compliance im DACH-Raum. Kostenfreie Potenzialanalyse."
 seoSiteTitle = "Leonie Kaiser"
-seoHomeTitle = "Leonie Kaiser – KI & Business Consulting · Wien"
+seoHomeTitle = "Leonie Kaiser – KI & Business Consulting für Praxen"
 
 # Farben laut Briefing
 brandTeal900   = "#086584"   # Primär / Buttons / Links
@@ -20,8 +20,8 @@ brandLine      = "#ece3d8"
 orgName  = "Leonie Kaiser"
 orgLegal = "Leonie Kaiser"
 orgRole  = "KI & Business Consultant"
-orgCity  = "Wien"
-orgRegion= "AT-9"
+orgCity  = "Niederösterreich"
+orgRegion= "AT-3"
 orgCountry="AT"
 
 authorName = "Leonie Kaiser"
