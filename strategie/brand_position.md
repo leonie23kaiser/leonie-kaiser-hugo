@@ -59,11 +59,14 @@ verkaufen Arbeit, die sich auszahlt.
 
 ## Wen wir NICHT bedienen
 
-- **Kassen-Akutmedizin** — Haus-/Fachärzte, Zahnärzte, Kliniken, Apotheken, Pflege,
-  klinische Psychotherapie/Psychiatrie sowie große Pharmaunternehmen. Nicht unser
-  Markt: Wir arbeiten mit **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
-  (Selbstzahler). *Test:* Zahlt die Kundin selbst und geht's um „besser fühlen /
-  aussehen / leistungsfähig bleiben"? → drin. Kasse + Akutbehandlung? → raus.
+- **Reine Hochvolumen-Kassen-Akutmedizin** (ohne Privatanteil, ohne Veränderungs-
+  bereitschaft) — sowie Zahnärzte, Kliniken, Apotheken, Pflege, klinische
+  Psychotherapie/Psychiatrie und große Pharmaunternehmen. Unser Markt sind **kleine,
+  inhabergeführte Gesundheits- und Behandlungsbetriebe**, die (auch) von **Wahlarzt-/
+  Privat-/Selbstzahler-Kundschaft** leben und übers Erlebnis konkurrieren — **Mischpraxen
+  mit spürbarem Privatanteil und Veränderungsbereitschaft ausdrücklich drin.** *Test:*
+  Konkurriert der Betrieb übers Erlebnis, hat Marge und will etwas verändern? → drin.
+  Reine Hochvolumen-Kasse ohne Privatanteil? → raus. (Details & Segmente: `segmente.md`.)
 - **Datenschutz-Ignorierer** — Betriebe, denen DSGVO und Gesundheitsdaten egal sind
   und die „mach mal schnell, ist nicht so wichtig" buchen wollen. Auf Lücken bauen wir
   nichts.
