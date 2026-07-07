@@ -60,13 +60,10 @@ Hebammen, Ernährungsberatung/Diätologie.
 
 **B. Prävention & Wohlbefinden (homogen-nah):**
 Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
-*(Ästhetik/Medical-Beauty: Entscheidung offen — Empfehlung: nicht im Vordergrund, siehe unten.)*
+*(Ästhetik/Medical-Beauty: nicht im Vordergrund — über Blog/Einzelanfragen erreichbar,
+keine eigene Start-Seite.)*
 
-**C. Gesundheits-Handel & -Technik (Phase 2 — EIGENES Cluster, anderer Schmerz):**
-Optiker, Hörakustiker, Sanitätshäuser, Orthopädietechnik. Retail + Anpass-/Liefertermine +
-Produkt-Nachfassen statt Behandlungsdoku. **Nicht** mit A/B mischen — das bräche die Homogenität.
-
-## Empfohlene Start-Unterseiten (genau 3 — später erweitern)
+## Start-Unterseiten (genau 3)
 
 | Seite | deckt mit ab | Segment-Twist (die 10 %) |
 |---|---|---|
@@ -74,24 +71,12 @@ Produkt-Nachfassen statt Behandlungsdoku. **Nicht** mit A/B mischen — das brä
 | **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
 | **Ernährungsberatung / Diätologie** | — | wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content |
 
-*(Empfehlung: ersetzt „Ästhetik" in den Start-Seiten. Deine Entscheidung.)*
+*(Ästhetik ist bewusst **nicht** unter den Start-Seiten — läuft über Content, nicht als eigene Seite.)*
 
-## Ästhetik — Empfehlung
+## Erweitern
 
-Du bist lauwarm, und Ästhetik kippt am ehesten Richtung „Beauty" statt „Gesundheit" — das
-schwächt den Gesundheitsdaten-Anker optisch. **Empfehlung: aus den Start-Seiten raus, über
-Blog/Einzelanfragen erreichbar halten.** Kein Muss — offene Entscheidung.
-
-## Erweiterungs-Backlog (nur bei echter Traktion)
-
-Ästhetik/Medical-Beauty · Osteopathie (eigene Seite) · Heilpraktiker/Naturheilkunde ·
-Hebammen · **Phase 2:** Handel & Technik (Optiker/Hörakustik/Sanitätshaus, eigenes Schmerz-Set).
-
-## To-do: Sync mit Website-Session
-
-Diese Verfeinerung (Schirm, Wahlarzt/Mischpraxen, Ästhetik-Empfehlung, Handel/Technik als
-Phase 2) in `brand_position.md` + `strategie-konzept.md` nachziehen und der **Website-Session**
-mitgeben — sonst laufen Positionierung und Website auseinander.
+Nur bei **echter Traktion** (Anfragen, Empfehlungen) eine vierte Seite dazunehmen — und die
+Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
 
 ---
 
