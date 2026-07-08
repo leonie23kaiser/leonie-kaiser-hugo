@@ -2,7 +2,7 @@
 
 > **⚠️ Synthetische Daten — ESOMAR ICC Code 2025.** Ergebnisse stammen aus KI-Personas (Modell `claude-sonnet-4-6`), nicht aus echten Befragungen. Sie sind **Hypothesen, keine Fakten**, und ersetzen keine reale Marktforschung. Vor Investitionsentscheidungen mit echten Interviews und realem Preistest validieren.
 
-*Stand: 2026-06-30 · Methode: Silicon Sampling (synthetische Respondenten) · Zweistufig: Segment-Scan (Stufe 1) + Deep Dive (Stufe 2).*
+*Stand: 2026-06-30 (Erhebung) · Strategie-Ebene aktualisiert 2026-07-06 · Methode: Silicon Sampling (synthetische Respondenten) · Zweistufig: Segment-Scan (Stufe 1) + Deep Dive (Stufe 2).*
 
 > **Quelldatei (Markt).** Wird konsolidiert im
 > `strategie-briefing-gesundheitsbetriebe.md`. Marktzahlen/O-Töne hier zuerst ändern,
@@ -12,12 +12,39 @@
 
 - **Wirtschaftlich stärkste Segmente (Studien-Rohbefund):** Longevity / Medical-Wellness (Premium), Zahnarzt und Ästhetik — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis). *Hinweis: Zahnarzt wurde später bewusst ausgeschlossen (Kassenlogik, kein Selbstzahler-Wohlbefinden) — siehe strategische Entscheidung unten.*
 - **Schwächstes Segment:** Psychotherapeutische Praxen — niedrigster Projektwert (820 €) und ein *kategorialer* (nicht taktischer) Widerstand gegen „KI im therapeutischen Kontext", der nicht durch besseres Verkaufen lösbar ist.
-- **Strategische Entscheidung (Leonie, aktualisiert 2026-07-01):** Fokus auf **Privatpraxen für Prävention, Ästhetik & Wohlbefinden** — privat/selbst bezahlte Gesundheit (Prävention & Leistungsfähigkeit, Ästhetik & Aussehen, Wohlbefinden & Regeneration). **Ausdrücklich ausgeschlossen: Kassen-Akutmedizin** (Haus-/Fachärzte, **Zahnärzte**, Kliniken), Apotheken, Pflege, klinische Psychotherapie, große Pharma. Datenseitig: Longevity/Med-Wellness (Score 11, Projekt-OPP 2.060 €) und Ästhetik (Score 10, Retainer-OPP 301 €) sind die Speerspitze, Privat-/Präventions-Physio ergänzt (Score 11, aber preissensibler). **Zahnarzt wurde trotz starker Wirtschaftlichkeit (2.031 €) bewusst zugunsten der Marken-Kohärenz gestrichen** (Kassenlogik, kein Selbstzahler-Wohlbefinden). *Entscheidungs-Test:* Selbstzahler + „besser fühlen/aussehen/leistungsfähig bleiben" → drin; Kasse + Akut → raus.
+- **Strategische Entscheidung (Leonie, aktualisiert 2026-07-06):** Schirm = **kleine, inhabergeführte Gesundheits- und Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler, sensible Gesundheitsdaten, keine IT-Abteilung); **Mischpraxen mit Privatanteil + Veränderungsbereitschaft ausdrücklich drin.** **3 Start-Segmente:** Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity/Medical-Wellness, Ernährungsberatung. **Ästhetik** bleibt erreichbar, aber **nur über Content** (Blog/Einzelanfragen), keine Start-Seite. **Ausgeschlossen:** reine Hochvolumen-Kassen-Akutmedizin, **Zahnärzte**, Kliniken, Apotheken, Pflege, **klinische Psychotherapie/Psychiatrie**, große Pharma. Details & Segment-Landkarte: `segmente.md`. *(Die Studien-Rohbefunde unten bleiben als Record unverändert — inkl. der ursprünglich mituntersuchten, jetzt ausgeschlossenen Segmente Zahnarzt & Psychotherapie.)*
 - **Drei Kern-Hebel für Positionierung & Copy** (fließen in `AGENTS.md` ein):
   1. **Produktisieren statt beraten** — alle Segmente wollen *fertige Lösungen* mit klaren Deliverables, keine offenen Strategie-Mandate.
   2. **Branchenspezifische Referenzen** sind der stärkste Vertrauensanker — ein Generalist verliert das Erstgespräch.
   3. **Datenschutz als Beziehung, nicht als Behauptung** — die Hürde ist überall maximal und emotional; „datenschutzkonform" als bloßes Wort *erhöht* das Misstrauen.
 - **Realitätscheck:** Die mittlere Buchungswahrscheinlichkeit des angebotenen Gratis-Videocalls liegt segmentübergreifend bei nur 3,8–4,2 von 10. Conversion hängt an Angebots-Framing und Vertrauensaufbau, nicht an der Zielgruppenwahl allein.
+
+## Übersetzung auf die aktuelle Zielgruppe (Stand 2026-07-06)
+
+Die Studie untersuchte 5 Segmente. So ordnen sie sich in die **aktuelle Positionierung**
+(Schirm + 3 Start-Segmente, siehe `segmente.md`) ein:
+
+| Studien-Segment | Score · Projekt-OPP | Aktueller Status |
+|---|---|---|
+| Longevity / Medical-Wellness | 11 · 2.060 € | **Start-Segment 1** (Premium-Speerspitze) |
+| Physio- & Therapiepraxen (Ergo/Logo/Osteo) | 11 · 1.528 € | **Start-Segment 2** „Therapie & Bewegung" (Physio als Aushängeschild) |
+| Ästhetik / Medical Aesthetics | 10 · 1.989 € | nur **Content** (Blog/Einzelanfragen), keine Start-Seite |
+| Zahnarztpraxen | 11 · 2.031 € | **ausgeschlossen** (Kassenlogik, kein Selbstzahler-Wohlbefinden) |
+| Psychotherapie / psychologische Praxen | 9 · 820 € | **ausgeschlossen** (kategorialer KI-Widerstand) |
+
+**Ernährungsberatung / Diätologie = Start-Segment 3, aber OHNE eigene Stufe-2-Daten**
+(in Stufe 1 gescannt, nicht deep-dived). Pain Points plausibel analog zum Therapie-Cluster
+(Doku, wiederkehrende Inhalte/Protokolle, Sichtbarkeit) — **vor größeren Entscheidungen mit
+echten Gesprächen validieren.**
+
+**Zahler-Kriterium erweitert:** von „nur Selbstzahler" auf **„Wahlarzt / privat / Selbstzahler"**
+inkl. **Mischpraxen** mit Privatanteil + Veränderungsbereitschaft. Raus bleibt nur reine
+Hochvolumen-Kassen-Akutmedizin. → Die Studien-O-Töne zu „Kassenabrechnung frisst uns auf"
+(v. a. Physio) treffen damit sogar **noch mehr** Betriebe.
+
+> Die restlichen Studien-Rohdaten (Pain Points, O-Töne, Preise, Einwände) bleiben als **Record
+> unverändert** und weiter nutzbar — auch die Daten der ausgeschlossenen Segmente dienen als
+> Vergleich/Reserve.
 
 ## Methodik (zweistufig, ESOMAR-konform)
 
@@ -46,6 +73,10 @@
 | Zahnarztpraxen (Einzel- und Gemeinschaftspraxis) | 20 | 10 (50%) |
 
 ### Executive Summary
+
+> *Redaktioneller Hinweis (2026-07-06): Der folgende Absatz ist der **Studien-Rohbefund**.
+> Zahnarzt & Psychotherapie sind inzwischen **strategisch ausgeschlossen**; aktuelle Start-Segmente:
+> Longevity, Therapie/Physio, Ernährung — siehe „Übersetzung auf die aktuelle Zielgruppe" oben.*
 
 Der Consultant sollte sich primär auf Longevity/Medical-Wellness-Praxen und Zahnarztpraxen spezialisieren, da beide Segmente den höchsten Projektwert, solide Zahlungsbereitschaft und einen Opportunity Score von 11 aufweisen. Longevity-Praxen bieten den stärksten strategischen Differenzierungsraum, weil unternehmerische Themen wie Skalierung, Firmenkunden-Reporting und Nachfolge dort explizit auf der Agenda stehen – ein Consultant mit Systemdenken und Prozessautomatisierungs-Kompetenz kann hier klar positioniert werden. Zahnarztpraxen ergänzen dieses Portfolio ideal, da sie strukturell ähnliche Schmerzpunkte haben, aber breiter im DACH-Raum verteilt und damit leichter skalierbar erreichbar sind. Beide Segmente erfordern zwingend eine glaubwürdige Datenschutz-Positionierung und branchenspezifische Referenzen als Vertrauensanker, bevor operative Gespräche überhaupt Fahrt aufnehmen können.
 
