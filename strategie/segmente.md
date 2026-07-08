@@ -78,6 +78,38 @@ keine eigene Start-Seite.)*
 Nur bei **echter Traktion** (Anfragen, Empfehlungen) eine vierte Seite dazunehmen — und die
 Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
 
+## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`)
+
+*Gleiches Format wie die bestehenden Physio-/Longevity-Einträge. Zum 1:1-Übernehmen in der
+Website-Session. Basis: homogener Kern-Schmerz + Ernährungs-Twist (wiederkehrende
+Protokolle/Pläne, Sichtbarkeit ohne Mehraufwand). Beispielszenario ist illustrativ, kein
+realer Kundenfall.*
+
+```yaml
+- slug: ernaehrungsberatung
+  url: /ki-fuer-ernaehrungsberatung-praxen/
+  branche: Privatpraxis für Ernährungsberatung und Diätologie
+  branche_kurz: Ernährungsberatung
+  zielperson: "die Leitung einer Privatpraxis für Ernährungsberatung oder Diätologie mit 1–8 Mitarbeitenden"
+  schmerz: "Beratungsprotokolle und wiederkehrende Pläne fressen die Abende, das Nachfassen nach der Erstberatung bleibt liegen, und für Sichtbarkeit fehlt schlicht die Zeit."
+  usecases:
+    - titel: "Beratungsprotokolle effizient erstellen"
+      desc: "Aus Gesprächsnotizen wird ein strukturiertes Protokoll, das Sie nur noch gegenlesen – mit einem Setup, das Gesundheitsdaten von Grund auf richtig behandelt."
+    - titel: "Wiederkehrende Pläne und Vorlagen automatisieren"
+      desc: "Rezeptvorschläge, Wochenpläne und Standard-Aufklärungen als Vorlagen, die in Ihrer Sprache klingen – einmal aufgesetzt, immer wieder nutzbar."
+    - titel: "Nachsorge und Sichtbarkeit ohne Mehraufwand"
+      desc: "Follow-up nach der Erstberatung läuft strukturiert statt manuell. Aus einem Beratungsthema entstehen nebenbei Blog- oder Social-Inhalte."
+  beispiel:
+    ausgangssituation: "Eine Ernährungsberatungspraxis mit zwei Mitarbeitenden. Jedes Beratungsprotokoll wird von Hand nachgeschrieben, Rezeptvorschläge und Wochenpläne entstehen jedes Mal neu. Nach der Erstberatung hört die Praxis von vielen Klient:innen nichts mehr, und für Sichtbarkeit bleibt keine Zeit."
+    vorgehen: "Wir fangen bei den Abläufen an, nicht beim Tool. Erster Quick-Win: eine datenschutzkonforme Vorlage für Beratungsprotokolle, die Notizen strukturiert und nur noch gegengelesen werden muss. Danach eine Bibliothek für Wochenpläne und Rezeptvorschläge sowie ein automatischer Recall für die Nachsorge. Das Team wird eingewiesen – Sie richten nichts selbst ein."
+    ergebnis: "Weniger Zeit pro Protokoll, spürbar weniger Abendarbeit. Die Nachsorge läuft zuverlässig, und aus den Beratungsthemen entstehen nebenbei Inhalte für Sichtbarkeit – ohne zusätzlichen Aufwand."
+  faq:
+    - q: "Dürfen Ernährungs- und Gesundheitsdaten in ein KI-Tool?"
+      a: "Nicht ohne saubere Konfiguration. Ernährungs- und Gesundheitsdaten sind besondere Daten nach DSGVO Art. 9. Wir setzen für Sie Werkzeuge auf, die das von Grund auf richtig machen – mit EU-Hosting, wo möglich, und klaren Datenflüssen."
+    - q: "Verliert die Beratung durch Vorlagen ihre persönliche Note?"
+      a: "Nein. Vorlagen übernehmen das Wiederkehrende – die Zeit, die Sie zurückbekommen, geht in die eigentliche Beratung und den persönlichen Kontakt."
+```
+
 ---
 
 *Quellen: `brand_position.md` (Haltung), `strategie-konzept.md` (Konsolidierung),
