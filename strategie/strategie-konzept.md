@@ -254,7 +254,7 @@ Umgesetzt (auf Nische geschärft, Gendern neutral, kein „Wien" in SEO):
   Gesundheitsdaten-Anker und kippt optisch Richtung „Beauty" statt „Gesundheit" (siehe
   Kapitel 3). Marktdaten bleiben in Kapitel 3/5 dokumentiert; erreichbar über
   Blog/Einzelanfragen, kann bei Traktion als eigene Seite zurückkommen.
-- **Menü:** Dropdown „Für Praxen" (Desktop + Burger) verankert die drei Start-Praxisseiten.
+- **Menü:** Dropdown „Für Ihre Praxis" (Desktop + Burger) verankert die drei Start-Praxisseiten.
 - **Blog:** `/journal/` → `/blog/` (URL + Permalink, mit Alias-Weiterleitung). Struktur
   steht, wird als Nächstes mit Beiträgen befüllt (eigenes Konzept folgt).
 - **Aufgeräumt:** Seiten Psychotherapie, Coaching (außerhalb des Schirms) entfernt;

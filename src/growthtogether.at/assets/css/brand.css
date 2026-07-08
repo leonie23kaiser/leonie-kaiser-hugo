@@ -61,7 +61,7 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .nlinks{display:flex;align-items:center;gap:var(--s8);list-style:none}
 .nlinks a{text-decoration:none;font-size:var(--sm);color:var(--muted);font-weight:500}
 .nlinks a:hover{color:var(--teal-d)}
-/* Dropdown „Für Praxen" */
+/* Dropdown „Für Ihre Praxis" */
 .ndrop{position:relative}
 .ndrop-toggle{display:inline-flex;align-items:center;gap:.3rem;cursor:pointer;font-size:var(--sm);color:var(--muted);font-weight:500}
 .ndrop-toggle svg{transition:transform var(--tr)}
