@@ -1,4 +1,6 @@
 # Praxis-Seiten (Nische: Privatpraxen für Prävention, Ästhetik & Wohlbefinden).
+# Aktuelles Pilot-Set: Physiotherapie, Longevity/Medical-Wellness, Ernährungsberatung.
+# Ästhetik bewusst nicht als eigene Praxisseite (kann später als Blogpost wiederkehren).
 # Gendern: neutrale Form + Paarform, keine Sonderzeichen. Sie-Form. Brand Voice: AGENTS.md.
 # Beispielszenario ist bewusst als illustrativ gekennzeichnet – kein realer Kundenfall.
 
@@ -48,25 +50,25 @@
     - q: "Lohnt sich das bei unserer Größe?"
       a: "Gerade dann. Je stärker eine Praxis an einzelnen Personen hängt, desto größer ist der Hebel, Abläufe zu ordnen und mitwachsen zu lassen. Wir starten mit einem klar begrenzten ersten Schritt."
 
-- slug: aesthetik
-  url: /ki-fuer-aesthetik-praxen/
-  branche: Ästhetik- und Medical-Aesthetics-Praxis
-  branche_kurz: Ästhetik-Praxis
-  zielperson: "die Leitung einer ästhetischen Praxis, die Behandlung, Führung und Organisation in einer Person stemmt"
-  schmerz: "Absagen und Terminlücken, Nachsorge von Hand – und alles Organisatorische landet am Ende bei Ihnen."
+- slug: ernaehrungsberatung
+  url: /ki-fuer-ernaehrungsberatung-praxen/
+  branche: Privatpraxis für Ernährungsberatung und Diätologie
+  branche_kurz: Ernährungsberatung
+  zielperson: "die Leitung einer Privatpraxis für Ernährungsberatung oder Diätologie mit 1–8 Mitarbeitenden"
+  schmerz: "Beratungsprotokolle und wiederkehrende Pläne fressen die Abende, das Nachfassen nach der Erstberatung bleibt liegen, und für Sichtbarkeit fehlt schlicht die Zeit."
   usecases:
-    - titel: "Terminmanagement mit Lückenfüllung"
-      desc: "Jeder Slot, der frei wird, wird automatisch und zuverlässig wieder besetzt – ohne dass eine kurzfristige Absage den Tag durcheinanderbringt."
-    - titel: "Nachsorge und Reaktivierung auf Autopilot"
-      desc: "Follow-up nach Behandlungen und Terminerinnerungen laufen strukturiert – damit keine Kundin verloren geht, nur weil das Nachfassen untergeht."
-    - titel: "Eine Datenquelle statt Tool-Chaos"
-      desc: "Eine einheitliche Behandlungshistorie, die das ganze Team konsequent nutzt – statt Infos in Praxissoftware, Notizen und Chatverläufen zu suchen."
+    - titel: "Beratungsprotokolle effizient erstellen"
+      desc: "Aus Gesprächsnotizen wird ein strukturiertes Protokoll, das Sie nur noch gegenlesen – mit einem Setup, das Gesundheitsdaten von Grund auf richtig behandelt."
+    - titel: "Wiederkehrende Pläne und Vorlagen automatisieren"
+      desc: "Rezeptvorschläge, Wochenpläne und Standard-Aufklärungen als Vorlagen, die in Ihrer Sprache klingen – einmal aufgesetzt, immer wieder nutzbar."
+    - titel: "Nachsorge und Sichtbarkeit ohne Mehraufwand"
+      desc: "Follow-up nach der Erstberatung läuft strukturiert statt manuell. Aus einem Beratungsthema entstehen nebenbei Blog- oder Social-Inhalte."
   beispiel:
-    ausgangssituation: "Eine ästhetische Praxis mit drei Mitarbeitenden. Die Inhaberin ist Behandlerin, Führung und Verwaltung in einer Person. Absagen und Terminänderungen landen alle am Empfang, Follow-up nach Behandlungen passiert noch weitgehend von Hand – und ab und zu geht eine Kundin verloren, weil niemand nachfasst."
-    vorgehen: "Wir fangen bei dem Ablauf an, der am meisten Zeit frisst. Erster Quick-Win: automatisches Terminmanagement mit Lückenfüllung. Danach eine strukturierte Nachsorge und eine gemeinsame Behandlungshistorie als einzige Datenquelle. Datenschutzkonform, in Ihre bestehenden Werkzeuge integriert. Das Team wird eingewiesen."
-    ergebnis: "Freie Termine werden zuverlässig nachbesetzt, die Nachsorge läuft ohne ständiges Daran-denken. Die Inhaberin ist nicht mehr der einzige Knotenpunkt – und gewinnt Zeit für die Behandlung zurück."
+    ausgangssituation: "Eine Ernährungsberatungspraxis mit zwei Mitarbeitenden. Jedes Beratungsprotokoll wird von Hand nachgeschrieben, Rezeptvorschläge und Wochenpläne entstehen jedes Mal neu. Nach der Erstberatung hört die Praxis von vielen aus der Kundschaft nichts mehr, und für Sichtbarkeit bleibt keine Zeit."
+    vorgehen: "Wir fangen bei den Abläufen an, nicht beim Tool. Erster Quick-Win: eine datenschutzkonforme Vorlage für Beratungsprotokolle, die Notizen strukturiert und nur noch gegengelesen werden muss. Danach eine Bibliothek für Wochenpläne und Rezeptvorschläge sowie ein automatischer Recall für die Nachsorge. Das Team wird eingewiesen – Sie richten nichts selbst ein."
+    ergebnis: "Weniger Zeit pro Protokoll, spürbar weniger Abendarbeit. Die Nachsorge läuft zuverlässig, und aus den Beratungsthemen entstehen nebenbei Inhalte für Sichtbarkeit – ohne zusätzlichen Aufwand."
   faq:
-    - q: "Was ist mit Patientendaten und ärztlicher Schweigepflicht?"
-      a: "Beides ist die Grenze, an der wir ansetzen, nicht die wir überschreiten. Wir wählen Werkzeuge und Abläufe so, dass Schweigepflicht und DSGVO gewahrt bleiben – mit konkreten Nachweisen statt eines bloßen „datenschutzkonform“."
-    - q: "Ist KI nicht überzogen für eine kleine Praxis?"
-      a: "Nein. Wir bauen keine komplexe KI, wo ein simpler Ablauf reicht. Wir fangen mit einem konkreten, klar begrenzten Schritt an – dort, wo er Ihnen am meisten Zeit zurückgibt."
+    - q: "Dürfen Ernährungs- und Gesundheitsdaten in ein KI-Tool?"
+      a: "Nicht ohne saubere Konfiguration. Ernährungs- und Gesundheitsdaten sind besondere Daten nach DSGVO Art. 9. Wir setzen für Sie Werkzeuge auf, die das von Grund auf richtig machen – mit EU-Hosting, wo möglich, und klaren Datenflüssen."
+    - q: "Verliert die Beratung durch Vorlagen ihre persönliche Note?"
+      a: "Nein. Vorlagen übernehmen das Wiederkehrende – die Zeit, die Sie zurückbekommen, geht in die eigentliche Beratung und den persönlichen Kontakt."

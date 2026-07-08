@@ -195,16 +195,20 @@ jetzt, was läuft automatisch? Nach wie vielen Tagen erste spürbare Entlastung?
 
 Umgesetzt (auf Nische geschärft, Gendern neutral, kein „Wien" in SEO):
 - **3 Pilot-Praxisseiten:** Präventions-/Sportphysiotherapie, Longevity/Medical-Wellness,
-  Ästhetik — je mit Use Cases, FAQ und **Beispielszenario** (klar als illustrativ
+  Ernährungsberatung — je mit Use Cases, FAQ und **Beispielszenario** (klar als illustrativ
   gekennzeichnet, kein realer Kundenfall). Daten in `data/branchen.yaml`.
+- **Ästhetik bewusst nicht als eigene Praxisseite** — schwierigstes Segment (niedrigster
+  Opportunity-Score, skeptischste Zielgruppe). Marktdaten bleiben in Kapitel 3/5 gültig;
+  kann später als Blogpost oder eigene Seite wiederkehren, sobald es Kapazität/Fälle gibt.
 - **Menü:** Dropdown „Für Praxen" (Desktop + Burger) verankert die Praxisseiten.
 - **Blog:** `/journal/` → `/blog/` (URL + Permalink, mit Alias-Weiterleitung). Struktur
   steht, wird als Nächstes mit Beiträgen befüllt (eigenes Konzept folgt).
-- **Aufgeräumt:** Seiten Psychotherapie, Coaching, Ernährungsberatung (außerhalb der
-  aktuellen Pilot-Auswahl) entfernt; Doppelpunkt-Gendern site-weit bereinigt; „Mandant:innen"
-  → „Kundschaft".
+- **Aufgeräumt:** Seiten Psychotherapie, Coaching (außerhalb der Nische) sowie Ästhetik
+  (siehe oben) entfernt; Doppelpunkt-Gendern site-weit bereinigt; „Mandant:innen" →
+  „Kundschaft".
 - **SEO:** „Wien" aus Titeln, Descriptions, `seoHomeTitle`, Schema entfernt (→ „Praxen" /
-  „Niederösterreich" / „DACH"); rechtliche Wien-Angaben bleiben.
+  „Niederösterreich" / „DACH"); rechtliche Wien-Angaben bleiben. Schema zusätzlich von
+  Fake-5★-Bewertungen (AggregateRating/Review) und Tech-Jargon bereinigt.
 - **Technik:** tote CSS-Tokens (`--teal-50/--line/--ink`) in Branche- und Referenzen-Layout
   auf echte Tokens gemappt; kaputte Branche-Querlinks gefixt.
 
