@@ -24,11 +24,17 @@ neutral (see below), this can carry the audience directly:*
 
 ## Elevator Pitch (spoken, e.g. for training/coaching calls)
 
+**Long:**
 > "Quick intro on what I do — I'm an AI consultant for small private practices in health and
 > wellbeing, like physiotherapy, longevity clinics and nutrition counselling. I help them save
 > time by automating the repetitive admin around appointments and follow-up, in a
 > privacy-compliant way. Right now I'm starting 1:1 with pilot practices to build real case
 > studies, and the plan is to productize and scale from there once I have references."
+
+**Short (if time is tight):**
+> "I'm an AI consultant for small private practices in health and wellbeing. I help them
+> automate repetitive admin, safely and GDPR-compliant. I'm starting 1:1 with pilot practices
+> right now, aiming to productize and scale from there."
 
 *(Extend with a specific question for the room/coach as needed, e.g. "My question: how would
 you recommend using [tool/program] best, given I'm working 1:1 right now rather than with a
