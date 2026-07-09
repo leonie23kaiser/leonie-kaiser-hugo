@@ -15,6 +15,25 @@ instead: **"private practices in health & wellbeing"**. The broader umbrella sta
 **internal** strategy logic (`segmente.md`) for a future non-practice business — it doesn't
 appear in headline/banner.
 
+## Event / Business Card Title (audience-specific — different from LinkedIn Job Title)
+
+*For conferences, name tags, business cards — where the LinkedIn Job Title field stays
+neutral (see below), this can carry the audience directly:*
+
+> **AI Consultant for small private practices in health & wellbeing**
+
+## Elevator Pitch (spoken, e.g. for training/coaching calls)
+
+> "Quick intro on what I do — I'm an AI consultant for small private practices in health and
+> wellbeing, like physiotherapy, longevity clinics and nutrition counselling. I help them save
+> time by automating the repetitive admin around appointments and follow-up, in a
+> privacy-compliant way. Right now I'm starting 1:1 with pilot practices to build real case
+> studies, and the plan is to productize and scale from there once I have references."
+
+*(Extend with a specific question for the room/coach as needed, e.g. "My question: how would
+you recommend using [tool/program] best, given I'm working 1:1 right now rather than with a
+bigger client base yet?")*
+
 ## Headline
 
 > AI & Business Consulting for small private practices in health & wellbeing | More time for
