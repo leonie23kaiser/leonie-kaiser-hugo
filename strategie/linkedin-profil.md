@@ -1,25 +1,34 @@
 # LinkedIn-Profil — fertige Textbausteine
 
 *Sie-Form, Brand Voice (`AGENTS.md`). Zielgruppe: der **Schirm** aus `segmente.md` — kleine,
-inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler),
-Praxen für Prävention & Wohlbefinden als Kern-Beispiel. Stand: 2026-07-09. Erfahrungsangabe
-ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/Gesundheit (mehr als ein Jahrzehnt,
-~13 J., 2005–2018) **+** strategische Unternehmensberatung (2021–2026) **+** heute
-KI-Beratung. Nie „20 Jahre Pharma".*
+inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler). Stand:
+2026-07-09. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
+Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung
+(2021–2026) **+** heute KI-Beratung. Nie „20 Jahre Pharma".*
+
+### Externe Kurz-Copy-Regel (Headline, Banner, GBP) — festgelegt 2026-07-09
+
+„Praxis"/„Praxen" ist im Deutschen dehnbar genug, um **alle 3 Start-Segmente** zu tragen —
+auch Ernährungsberatung läuft schon in `branchen.yaml` als „Privatpraxis für Ernährungsberatung
+und Diätologie". **Praxen ist konkreter und griffiger als „Gesundheits- und
+Behandlungsbetriebe"** und deshalb in kurzer, externer Copy die bessere Wahl. Regel: **keine
+einzelnen Segmente auflisten** (kein „Physio, Longevity, Ernährung" nennen — das würde bei
+jedem Segment-Wechsel neuen Text erfordern), sondern ein neutraler Oberbegriff:
+**„Privatpraxen in Gesundheit & Wohlbefinden"**. Der breite Schirm bleibt die **interne**
+Strategie-Logik (`segmente.md`) für den Fall eines Nicht-Praxis-Betriebs — taucht aber nicht
+in Headline/Banner auf.
 
 ## Slogan / Headline
 
-> KI & Business Consulting für kleine Gesundheits- und Behandlungsbetriebe | Mehr Zeit fürs
-> Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
+> KI & Business Consulting für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
+> fürs Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
 
 **Job Title** (im Erfahrungs-Eintrag): **bleibt „KI Consulting | Strategie & Business"** —
-unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel. *(Korrektur: eine frühere
-Fassung dieses Dokuments schlug hier „KI- & Prozessberaterin" vor — das war ein vierter,
-unnötiger Begriff neben der etablierten Marke „KI & Business Consulting". Verworfen.)*
+unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 
 **Fixpunkt für alle Touchpoints (Headline, Banner, Website-Untertitel):**
-„KI & Business Consulting" bleibt die Konstante — nur der Zielgruppen-Zusatz dahinter wird
-aktualisiert („für kleine Gesundheits- und Behandlungsbetriebe" statt „für Privatpraxen …").
+„KI & Business Consulting" bleibt die Konstante — der Zielgruppen-Zusatz dahinter ist
+**„für kleine Privatpraxen in Gesundheit & Wohlbefinden"**.
 
 ## Info / Zusammenfassung
 

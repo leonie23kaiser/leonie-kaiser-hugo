@@ -12,6 +12,15 @@ Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/E
 > **keine IT-Abteilung** haben, ihren Alltag zu entlasten – damit wieder Zeit bleibt für
 > das, worum es wirklich geht.
 
+**Das ist die interne Strategie-Formel** — sie erklärt, wen wir meinen und warum. In der
+**externen Kurz-Copy** (LinkedIn-Headline, Banner, GBP-Beschreibung) wird daraus bewusst
+**„Privatpraxen in Gesundheit & Wohlbefinden"**: „Praxis" ist im Deutschen dehnbar genug für
+alle 3 Start-Segmente (auch Ernährungsberatung läuft als „Privatpraxis für Ernährungsberatung"
+in `branchen.yaml`), konkreter/griffiger als „Betriebe", und nennt keine Einzelsegmente — so
+muss bei einem Segment-Wechsel (Scheinwerfer-Prinzip) nichts umgeschrieben werden. Der volle
+Schirm-Wortlaut bleibt für längere Fließtexte (About-Section, Website-Unterseiten) reserviert.
+Details/Wording: `strategie/linkedin-profil.md`.
+
 **5 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
 2. klein (ca. 2–15, max ~30 Mitarbeitende)

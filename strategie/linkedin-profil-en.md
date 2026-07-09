@@ -2,19 +2,26 @@
 
 *English translation of `linkedin-profil.md`. Target group: the **umbrella** from `segmente.md`
 — small, owner-led health and treatment businesses (private/self-pay, incl. Austrian
-"Wahlarzt"), with private prevention & wellbeing practices as the core example.
-Formal-but-warm tone. Honesty rule kept: over 20 years total experience = more than
-a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-09.*
+"Wahlarzt"). Formal-but-warm tone. Honesty rule kept: over 20 years total experience = more
+than a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-09.*
+
+### External short-copy rule (headline, banner, GBP) — set 2026-07-09
+
+"Practice"/"practices" is broad enough in German ("Praxis") to carry all 3 start segments —
+even nutrition counselling already runs as "Privatpraxis für Ernährungsberatung" in
+`branchen.yaml`. Rule: don't list individual segments in short copy (no "physio, longevity,
+nutrition" — that would force a rewrite every time a segment rotates); use a neutral umbrella
+instead: **"private practices in health & wellbeing"**. The broader umbrella stays the
+**internal** strategy logic (`segmente.md`) for a future non-practice business — it doesn't
+appear in headline/banner.
 
 ## Headline
 
-> AI & Business Consulting for small health and treatment businesses | More time for your core
-> work – implemented privacy-compliant (EU AI Act & GDPR)
+> AI & Business Consulting for small private practices in health & wellbeing | More time for
+> your core work – implemented privacy-compliant (EU AI Act & GDPR)
 
 **Job Title** (in the experience entry): **stays "AI Consulting | Strategy & Business"** —
-leave unchanged. The headline carries the audience, not the title. *(Correction: an earlier
-version of this doc suggested "AI & Process Consultant" here — a fourth, unnecessary term next
-to the established brand "AI & Business Consulting". Dropped.)*
+leave unchanged. The headline carries the audience, not the title.
 
 **Fixed point across all touchpoints** (headline, banner, website subtitle): "AI & Business
 Consulting" stays constant — only the audience add-on after it gets updated.
