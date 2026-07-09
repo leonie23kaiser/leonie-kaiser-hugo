@@ -84,14 +84,26 @@ ohne die Positionierung anzufassen.
 
 ## 4. Frequenz & Rhythmus
 
-**Empfehlung: 2 Beiträge pro Monat (alle zwei Wochen).** Realistisch neben dem
-Tagesgeschäft und der Pilot-Akquise, und genug, um Momentum aufzubauen. Lieber
-verlässlich alle 14 Tage als drei Posts im ersten Monat und dann Funkstille.
+**Empfehlung: zweistufig — Launch-Sprint, dann Dauerrhythmus.**
 
+Weil das Schreiben mit KI-Unterstützung schneller geht, ist der Engpass **nicht die
+Produktion**, sondern deine **Sichtung und Freigabe** (HITL) — jeder Post soll deine
+Handschrift tragen, nicht nur „durchgewinkt" werden. Die Frequenz richtet sich also
+danach, wie viel du in Ruhe gegenlesen magst, nicht danach, wie schnell Text entsteht.
+
+- **Launch-Sprint (Woche 1–10): 1 Beitrag pro Woche.** So sind die ersten 10 Posts in
+  gut zwei Monaten live, Google bekommt schnell eine Themen-Basis zu indexieren, und der
+  Blog wirkt von Anfang an lebendig statt halbleer. Das ist der Moment, in dem sich das
+  Schreib-Tempo am meisten auszahlt.
+- **Danach (ab Woche 11): 1 Beitrag alle 2 Wochen.** Verlässlich, dauerhaft haltbar,
+  genug für stetiges Wachstum ohne Druck. Lieber alle 14 Tage verlässlich als ein Monat
+  voll und dann Funkstille.
+- **Wenn dir wöchentlich dauerhaft leichtfällt:** gern beibehalten — mehr guter,
+  eigenständiger Content schadet nie. Nur nicht auf Kosten der Sichtung.
+
+**Grundregeln, unabhängig vom Takt:**
 - **Qualität vor Takt.** Ein guter, tiefer Beitrag schlägt vier dünne. Google belohnt
   Vollständigkeit, nicht Frequenz.
-- **Startphase (Monat 1–2):** ruhig mit dem persönlichen Auftakt-Post beginnen (siehe
-  Abschnitt 8), dann in den 14-Tage-Rhythmus einschwenken.
 - **Evergreen, nicht News.** Themen so wählen, dass sie 12+ Monate aktuell bleiben.
   Beiträge datieren wir über `lastmod` neu, wenn wir sie überarbeiten.
 - **Reihenfolge folgt der Akquise.** Läuft gerade Longevity-Ansprache, ziehen wir einen
@@ -210,10 +222,10 @@ Long-Tail-Vorschläge und vor dem Schreiben grob gegen die reale Suche zu prüfe
 
 | # | Working Title | Primär-Keyword | Intent | Säule | Verlinkt auf (Hub) |
 |---|---|---|---|---|---|
-| **1** | Warum ich Praxen bei KI helfe — und warum ich beim Prozess anfange, nicht beim Tool | „KI-Beratung Gesundheitspraxis Haltung" | Awareness | D | `/ueber-mich/` |
+| **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt (und warum ich genau da ansetze) | „Praxis hängt an Inhaberin" | Awareness | D/A | `/ueber-mich/` |
 | **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist) | „No-Shows Physiotherapie reduzieren" | Consideration | A/C | `/ki-fuer-physiotherapie-praxen/` |
 | **3** | Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet | „Patientendaten ChatGPT DSGVO" | Consideration | B | `/eu-ai-act/` |
-| **4** | „Ohne mich läuft hier nichts" — wie Sie aufhören, der Flaschenhals Ihrer Praxis zu sein | „Praxis hängt an Inhaberin entlasten" | Awareness | A | `/ki-fuer-physiotherapie-praxen/` |
+| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | A | `/ki-fuer-longevity-praxen/` |
 | **5** | Terminerinnerung vs. Recall: der Unterschied, den die meisten Praxen übersehen | „Recall Praxis automatisieren" | Consideration | A | `/ki-fuer-physiotherapie-praxen/` |
 | **6** | Longevity-Praxis: fünf Tools, die nicht miteinander reden — und wie eine Kundenreise daraus wird | „Longevity Praxis Software verbinden" | Consideration | C | `/ki-fuer-longevity-praxen/` |
 | **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act Arztpraxis kleine Praxis" | Consideration | B | `/eu-ai-act/` |
@@ -221,22 +233,28 @@ Long-Tail-Vorschläge und vor dem Schreiben grob gegen die reale Suche zu prüfe
 | **9** | Was kostet KI in einer kleinen Praxis — und woran Sie ein unseriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | A/D | `/#kontakt` + `/ueber-mich/` |
 | **10** | „Wir haben ChatGPT probiert, aber das war nichts Halbes und nichts Ganzes" — warum Tools ohne Prozess scheitern | „ChatGPT Praxis funktioniert nicht" | Consideration | A/D | `/ki-fuer-physiotherapie-praxen/` |
 
-**Verteilung:** Säule A 4× · B 2× · C 3× · D (anteilig in 1/9/10). Intent: Awareness 2 ·
-Consideration 6 · Decision 1 · +1 gemischt. Ausgewogen, mit klarem Consideration-Fokus.
+**Verteilung:** Säule A 4× · B 2× · C 3× · D (anteilig in 1/9/10). Intent: Awareness 1 ·
+Consideration 7 · Decision 1 · +1 gemischt. Ausgewogen, mit klarem Consideration-Fokus.
 
-### Zum Start-Post (#1) — deine Idee mit „über mich & Intention"
-**Sehr guter Startpunkt, und ich würde ihn genau dort platzieren.** Gründe:
-- Ein persönlicher Auftakt braucht **keine externen Referenzen** — die es noch nicht
-  gibt. Du schreibst aus erster Hand über deine Haltung, das ist zu 100 % ehrlich.
-- Er etabliert **E-E-A-T** (Experience/Expertise), auf das alle folgenden Fachbeiträge
-  aufbauen und verlinken können.
-- Er ist **auf LinkedIn teilbar** und eröffnet den Blog mit einem Gesicht statt einer
-  Keyword-Hülse.
+### Zum Start-Post (#1) — Vorstellung, aber nicht nur über dich
+Deine Idee war goldrichtig, und dein Zusatzwunsch macht sie erst stark: **nicht „nur
+über mich", sondern deine Geschichte an einem echten Leser-Schmerz andocken.** Genau so
+ist #1 jetzt gebaut.
 
-**Aber:** als *erster und einziger* SEO-Anker rankt er kaum (Suchvolumen für „meine
-Intention" ist null). Deshalb: Post #1 persönlich, ab Post #2 sofort in die
-Consideration-Keywords. Der persönliche Post trägt die Haltung, die Fachbeiträge holen
-den Traffic. Beides zusammen ist stärker als eins allein.
+- **Aufhänger ist der Leser-Schmerz, nicht dein Lebenslauf:** „Ohne mich läuft hier
+  nichts" — der Satz, den die Zielgruppe selbst über ihre Praxis sagt (O-Ton aus der
+  Marktforschung). Die Leserin erkennt sich sofort wieder.
+- **Dann erst kommst du:** wer du bist, warum dich genau dieses Problem antreibt, und
+  wofür du stehst („erst Prozesse, dann Tool", „das brauchen Sie nicht"). Deine
+  Vorstellung wird zur *Antwort* auf ihr Problem, nicht zum Selbstporträt.
+- **Ehrlich ohne Referenzen:** Ein Haltungs-Post braucht keine Fallzahlen, die es noch
+  nicht gibt — du schreibst aus erster Hand. Zu 100 % im Rahmen der Ehrlichkeits-Regel.
+- **Er etabliert E-E-A-T** (Experience/Expertise), auf das alle Fachbeiträge aufbauen und
+  zurückverlinken — und ist **auf LinkedIn teilbar**.
+
+**Aber:** als *reiner* SEO-Anker rankt so ein Post schwach (Suchvolumen für „meine
+Intention" ist null). Er trägt die Haltung — ab **Post #2** (No-Shows Physio) holen die
+Fachbeiträge den Traffic. Deshalb steht #1 vorne und #2 direkt danach.
 
 ---
 
@@ -257,11 +275,13 @@ Scheinwerfer. Schwache Beiträge überarbeiten (`lastmod` neu), nicht löschen.
 ## 10. Nächste Schritte
 
 1. **Dieses Konzept freigeben** (oder anpassen: Frequenz, Reihenfolge, Themen).
-2. **Post #1 ausarbeiten** — persönlicher Auftakt, sobald das Konzept steht.
-3. **Danach Post #2** (No-Shows Physio) als erster SEO-Anker — dazu liegt bereits ein
-   detailliertes Einzelkonzept vor (Search-Intent, Content-Gap, H1/H2/H3-Outline).
-4. Pro Beitrag: erst Einzelkonzept (Keyword-Check + Outline), dann Volltext, dann
-   `draft: true` zur Sichtung, dann Freigabe → HITL-Publishing.
+2. **Einzelkonzepte erstellen** — pro Post ein kompaktes Briefing (Keyword-Check,
+   Search-Intent, Content-Gap, H1/H2/H3-Outline, interne Links). Liegt separat unter
+   `strategie/blog-einzelkonzepte.md`.
+3. **Launch-Sprint starten:** Post #1 (persönlicher Auftakt) ausarbeiten, dann im
+   Wochentakt #2–#10 nachziehen.
+4. Pro Beitrag der Weg: Einzelkonzept → Volltext → `draft: true` zur Sichtung →
+   Freigabe → HITL-Publishing (automatisches `journal-live`-Issue an Leonie).
 
 ---
 
