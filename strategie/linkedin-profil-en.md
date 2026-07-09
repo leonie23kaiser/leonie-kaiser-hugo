@@ -11,10 +11,13 @@ a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-09.*
 > AI & Business Consulting for small health and treatment businesses | More time for your core
 > work – implemented privacy-compliant (EU AI Act & GDPR)
 
-**Job Title** (short, in the experience entry — the headline carries the audience, not the title):
-> AI & Process Consultant for Health Businesses
+**Job Title** (in the experience entry): **stays "AI Consulting | Strategy & Business"** —
+leave unchanged. The headline carries the audience, not the title. *(Correction: an earlier
+version of this doc suggested "AI & Process Consultant" here — a fourth, unnecessary term next
+to the established brand "AI & Business Consulting". Dropped.)*
 
-*(Neutral alternative: "AI Consulting | Strategy & Business" — either works.)*
+**Fixed point across all touchpoints** (headline, banner, website subtitle): "AI & Business
+Consulting" stays constant — only the audience add-on after it gets updated.
 
 ## About / Summary
 

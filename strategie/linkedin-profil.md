@@ -12,10 +12,14 @@ KI-Beratung. Nie „20 Jahre Pharma".*
 > KI & Business Consulting für kleine Gesundheits- und Behandlungsbetriebe | Mehr Zeit fürs
 > Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
 
-**Job Title** (im Erfahrungs-Eintrag, kurz — Zielgruppe trägt die Headline, nicht der Titel):
-> KI- & Prozessberaterin für Gesundheitsbetriebe
+**Job Title** (im Erfahrungs-Eintrag): **bleibt „KI Consulting | Strategie & Business"** —
+unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel. *(Korrektur: eine frühere
+Fassung dieses Dokuments schlug hier „KI- & Prozessberaterin" vor — das war ein vierter,
+unnötiger Begriff neben der etablierten Marke „KI & Business Consulting". Verworfen.)*
 
-*(Alternative, audience-neutral: „KI Consulting | Strategie & Business" — beides ok, Wahl liegt bei Leonie.)*
+**Fixpunkt für alle Touchpoints (Headline, Banner, Website-Untertitel):**
+„KI & Business Consulting" bleibt die Konstante — nur der Zielgruppen-Zusatz dahinter wird
+aktualisiert („für kleine Gesundheits- und Behandlungsbetriebe" statt „für Privatpraxen …").
 
 ## Info / Zusammenfassung
 
