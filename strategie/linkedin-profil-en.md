@@ -1,13 +1,20 @@
 # LinkedIn Profile — English version
 
-*English translation of `linkedin-profil.md`, same positioning (private prevention & wellbeing
-practices), formal-but-warm tone. Honesty rule kept: over 20 years total experience = more than
-a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-05.*
+*English translation of `linkedin-profil.md`. Target group: the **umbrella** from `segmente.md`
+— small, owner-led health and treatment businesses (private/self-pay, incl. Austrian
+"Wahlarzt"), with private prevention & wellbeing practices as the core example.
+Formal-but-warm tone. Honesty rule kept: over 20 years total experience = more than
+a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-09.*
 
 ## Headline
 
-> AI & Business Consulting for private prevention & wellbeing practices | More time for your core
+> AI & Business Consulting for small health and treatment businesses | More time for your core
 > work – implemented privacy-compliant (EU AI Act & GDPR)
+
+**Job Title** (short, in the experience entry — the headline carries the audience, not the title):
+> AI & Process Consultant for Health Businesses
+
+*(Neutral alternative: "AI Consulting | Strategy & Business" — either works.)*
 
 ## About / Summary
 

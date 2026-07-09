@@ -1,14 +1,21 @@
 # LinkedIn-Profil — fertige Textbausteine
 
-*Sie-Form, Brand Voice (`AGENTS.md`), offizielle Nische **Prävention & Wohlbefinden**.
-Stand: 2026-07-05. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
-Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung
-(2021–2026) **+** heute KI-Beratung. Nie „20 Jahre Pharma".*
+*Sie-Form, Brand Voice (`AGENTS.md`). Zielgruppe: der **Schirm** aus `segmente.md` — kleine,
+inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler),
+Praxen für Prävention & Wohlbefinden als Kern-Beispiel. Stand: 2026-07-09. Erfahrungsangabe
+ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/Gesundheit (mehr als ein Jahrzehnt,
+~13 J., 2005–2018) **+** strategische Unternehmensberatung (2021–2026) **+** heute
+KI-Beratung. Nie „20 Jahre Pharma".*
 
 ## Slogan / Headline
 
-> KI & Business Consulting für Privatpraxen in Prävention & Wohlbefinden | Mehr Zeit fürs
-> Kerngeschäft – datenschutzkonform umgesetzt (EU AI Act & DSGVO)
+> KI & Business Consulting für kleine Gesundheits- und Behandlungsbetriebe | Mehr Zeit fürs
+> Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
+
+**Job Title** (im Erfahrungs-Eintrag, kurz — Zielgruppe trägt die Headline, nicht der Titel):
+> KI- & Prozessberaterin für Gesundheitsbetriebe
+
+*(Alternative, audience-neutral: „KI Consulting | Strategie & Business" — beides ok, Wahl liegt bei Leonie.)*
 
 ## Info / Zusammenfassung
 
