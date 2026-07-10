@@ -1,6 +1,6 @@
 ---
-title: "Blog – KI-Praxis für Prävention, Ästhetik & Wohlbefinden"
-description: "Praxisnahe Beiträge zu KI, Automatisierung und EU AI Act für Privatpraxen in Prävention, Ästhetik und Wohlbefinden. Klare Schritte, keine Buzzwords."
+title: "Blog – KI-Praxis für kleine Privatpraxen in Gesundheit & Wohlbefinden"
+description: "Praxisnahe Beiträge zu KI, Automatisierung und EU AI Act für kleine Privatpraxen in Gesundheit & Wohlbefinden. Klare Schritte, keine Buzzwords."
 type: journal
 layout: list
 url: /blog/
