@@ -44,21 +44,21 @@ Beschreibung und Leistungen, nie in den Namen.
 
 ## Beschreibung (fertig zum Einfügen, ~500 Zeichen)
 
-> Ich richte kleinen Privatpraxen für Prävention und Wohlbefinden datenschutzkonforme,
+> Ich richte kleinen Privatpraxen in Gesundheit & Wohlbefinden datenschutzkonforme,
 > automatisierte Abläufe ein – Termine, Aufnahme und wiederkehrende Verwaltung laufen
 > zuverlässiger. Das schafft mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
 > Erst die Prozesse, dann das Tool – und ein ehrliches Nein, wenn Sie keine KI brauchen.
 > Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt. Über 20 Jahre im regulierten
-> Gesundheitsumfeld. Kostenfreie KI-Potenzialanalyse – Wien und Niederösterreich.
+> Gesundheitsumfeld. Kostenfreie KI-Potenzialanalyse – Niederösterreich und Österreich/DACH.
 
 *(Kürzere Variante ~350 Zeichen, falls gewünscht: „Datenschutzkonforme Automatisierung für
-kleine Privatpraxen in Prävention und Wohlbefinden: Termine, Aufnahme und Verwaltung laufen
+kleine Privatpraxen in Gesundheit & Wohlbefinden: Termine, Aufnahme und Verwaltung laufen
 zuverlässiger – mehr Zeit fürs Kerngeschäft, ein reibungsloses Kundenerlebnis. Erst die Prozesse,
 dann das Tool. Datenschutz (EU AI Act, DSGVO) von Anfang an. Kostenfreie KI-Potenzialanalyse,
-Wien und Niederösterreich.")*
+Niederösterreich und Österreich/DACH.")*
 
 > **Nische-Regel (offiziell vs. erweitert):** In den offiziellen Profil-Texten nur
-> **„Prävention und Wohlbefinden"**. **Ästhetik** ist eine **erweiterte Zielgruppe** — die
+> **„Praxen in Gesundheit & Wohlbefinden"**. **Ästhetik** ist eine **erweiterte Zielgruppe** — die
 > sprichst du über **Google-Beiträge, Blog und Case Studies** an, nicht in Beschreibung/Headline.
 
 ## Leistungen (als „Services" anlegen — je mit Kategorie)
