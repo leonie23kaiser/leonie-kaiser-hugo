@@ -28,4 +28,7 @@ faqs:
   - q: "Arbeiten Sie auch DSGVO-konform?"
     a: "Ja, vollständig. Alle empfohlenen Lösungen werden DSGVO-konform aufgesetzt – inkl. Auftragsverarbeitungsverträgen, EU-Hosting wo möglich und transparenter Datenflüsse. Datenschutz und Rechtssicherheit sind integraler Teil jeder Beratung."
     cat: "compliance"
+  - q: "Was bedeutet „datenschutzkonform“ bei Ihnen konkret?"
+    a: "Kein abstraktes Versprechen, sondern klare Nachweise: Auftragsverarbeitungsverträge mit allen eingesetzten Tools, EU-Hosting wo möglich, keine Gesundheitsdaten in billigen US-Blackbox-Clouds, und eine klare Zuständigkeit, wenn Sie Rückfragen haben."
+    cat: "compliance"
 ---
