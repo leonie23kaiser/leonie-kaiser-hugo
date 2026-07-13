@@ -8,9 +8,8 @@ Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/E
 ## Der Schirm (ändert sich nie)
 
 > Ich helfe **kleinen, inhabergeführten Gesundheits- und Behandlungsbetrieben**
-> (Wahlarzt / privat / Selbstzahler), die mit **sensiblen Gesundheitsdaten** arbeiten und
-> **keine IT-Abteilung** haben, ihren Alltag zu entlasten – damit wieder Zeit bleibt für
-> das, worum es wirklich geht.
+> (Wahlarzt / privat / Selbstzahler), die mit **sensiblen Gesundheitsdaten** arbeiten,
+> ihren Alltag zu entlasten – damit wieder Zeit bleibt für das, worum es wirklich geht.
 
 **Das ist die interne Strategie-Formel** — sie erklärt, wen wir meinen und warum. In der
 **externen Kurz-Copy** (LinkedIn-Headline, Banner, GBP-Beschreibung) wird daraus bewusst
@@ -21,19 +20,18 @@ muss bei einem Segment-Wechsel (Scheinwerfer-Prinzip) nichts umgeschrieben werde
 Schirm-Wortlaut bleibt für längere Fließtexte (About-Section, Website-Unterseiten) reserviert.
 Details/Wording: `strategie/linkedin-profil.md`.
 
-**5 Anker-Kriterien (alle müssen passen):**
+**4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
 2. klein (ca. 2–15, max ~20 Mitarbeitende)
 3. sensible **Gesundheitsdaten** (DSGVO Art. 9) ← der Burggraben, **nie** weglassen
-4. keine eigene IT-Abteilung / kein:e interne:r Entwickler:in
-5. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
+4. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
 
-**Zu Kriterium 4 — kein Vorab-Filter, sondern Erstgesprächs-Signal:** Von außen (Zielliste,
-Website) ist nicht erkennbar, ob eine Praxis eine IT-Abteilung hat — dazu gibt es keine
-öffentliche Quelle. Gemeint ist die Abwesenheit einer *dedizierten technischen Rolle*, die
-selbst Systeme bauen/warten könnte. Eine Einzelperson, die nebenbei ein bisschen Admin/IT
-mitmacht, schließt niemanden aus. In der Praxis zeigt sich das erst im Erstgespräch — und ist
-gleichzeitig ein Verkaufsargument („Sie werden nicht zur IT-Abteilung").
+**Gemeinschaftspraxen (mehrere Ärzt:innen/Partner:innen als Miteigentümer:innen):** zählen
+als „inhabergeführt", solange sie klein und eigenständig bleiben — gemeint ist der Gegensatz
+zu Kettenstrukturen/externen Investoren, nicht die exakte Anzahl der Eigentümer:innen. Bei
+Gemeinschaftspraxen ist die Entscheidungsstruktur nur wichtig für den Verkaufsprozess
+(mehrere Partner:innen müssen zustimmen, siehe `silicon-sampling.md` Entscheidungsstruktur),
+nicht für die Zielgruppen-Qualifikation selbst.
 
 **Mischpraxen:** drin, wenn Privatanteil **und** Veränderungsbereitschaft da sind.
 **Raus:** reine Hochvolumen-Kassen-Akutmedizin (kein Budget, keine Erlebnis-Motivation),
@@ -76,8 +74,6 @@ Hebammen, Ernährungsberatung/Diätologie.
 
 **B. Prävention & Wohlbefinden (homogen-nah):**
 Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
-*(Ästhetik/Medical-Beauty: nicht im Vordergrund — über Blog/Einzelanfragen erreichbar,
-keine eigene Start-Seite.)*
 
 ## Start-Unterseiten (genau 3)
 
@@ -87,8 +83,6 @@ keine eigene Start-Seite.)*
 | **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
 | **Ernährungsberatung / Diätologie** | — | wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content |
 
-*(Ästhetik ist bewusst **nicht** unter den Start-Seiten — läuft über Content, nicht als eigene Seite.)*
-
 ## Erweitern
 
 Nur bei **echter Traktion** (Anfragen, Empfehlungen) eine vierte Seite dazunehmen — und die
@@ -96,11 +90,7 @@ Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
 
 **Zukünftige potenzielle Nischen (nicht jetzt, nur zur Orientierung):** aus Cluster A/B
 aktuell nicht bespielt — Ergotherapie, Logopädie, Osteopathie, Podologie, Heilpraktiker/
-Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie. Dazu explizit vorgemerkt:
-**Ästhetik/Medical-Beauty** — bewusst rausgenommen aus den 3 Start-Seiten (kippt Richtung
-„Beauty" statt „Gesundheit"), aber als potenzielle spätere Nische im Blick behalten, sobald
-eine der 3 aktuellen Seiten sich als nicht tragfähig erweist oder echte Traktion für eine
-vierte Seite da ist.
+Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie.
 
 ## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`)
 

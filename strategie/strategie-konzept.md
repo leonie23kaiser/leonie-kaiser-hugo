@@ -68,19 +68,18 @@ verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 ### Der Schirm (ändert sich nie)
 
 > Ich helfe kleinen, inhabergeführten Gesundheits- und Behandlungsbetrieben (Wahlarzt /
-> privat / Selbstzahler), die mit sensiblen Gesundheitsdaten arbeiten und keine
-> IT-Abteilung haben, ihren Alltag zu entlasten — damit wieder Zeit bleibt für das,
-> worum es wirklich geht.
+> privat / Selbstzahler), die mit sensiblen Gesundheitsdaten arbeiten, ihren Alltag zu
+> entlasten — damit wieder Zeit bleibt für das, worum es wirklich geht.
 
-**5 Anker-Kriterien** (alle müssen passen): inhabergeführt · klein (2–15, max. ~20
+**4 Anker-Kriterien** (alle müssen passen): inhabergeführt · klein (2–15, max. ~20
 Mitarbeitende) · sensible **Gesundheitsdaten** (DSGVO Art. 9 — der Burggraben, nie
-weglassen) · keine eigene IT-Abteilung / kein:e interne:r Entwickler:in · lebt (auch)
-von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis.
+weglassen) · lebt (auch) von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert
+übers Erlebnis.
 
-**Zu „keine IT-Abteilung":** kein Vorab-Filter für die Zielliste (dazu gibt es keine
-öffentliche Quelle), sondern ein Erstgesprächs-Signal und Verkaufsargument. Gemeint ist
-die Abwesenheit einer dedizierten technischen Rolle — eine Einzelperson, die nebenbei
-ein bisschen Admin/IT mitmacht, schließt niemanden aus. Details: `segmente.md`.
+**Gemeinschaftspraxen** (mehrere Ärzt:innen/Partner:innen als Miteigentümer:innen)
+zählen als „inhabergeführt" — gemeint ist der Gegensatz zu Ketten/externen Investoren,
+nicht die Anzahl der Eigentümer:innen. Relevant für den Verkaufsprozess ist dort nur die
+Entscheidungsstruktur (mehrere Partner:innen müssen zustimmen). Details: `segmente.md`.
 
 **Erlebnis als Kaufgrund:** Wer privat/Wahlarzt zahlt, erwartet ein Premium-Erlebnis —
 genau da zieht das Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis".
@@ -98,10 +97,6 @@ Traktion, dann neu geprüft):
 | **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
 | **Ernährungsberatung / Diätologie** | — | wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content |
 
-**Ästhetik/Medical-Beauty bewusst nicht als Start-Seite** — kippt optisch Richtung
-„Beauty" statt „Gesundheit" und schwächt den Gesundheitsdaten-Anker. Bleibt über Blog/
-Einzelanfragen erreichbar.
-
 **Scheinwerfer-Prinzip:** Der Schirm bleibt stabil (Bio, GBP, Startseite). Im Content
 (LinkedIn, Blog) rotiert der Scheinwerfer über Segmente — läuft eines nicht, wird
 geschwenkt, ohne Positionierung/Bio/GBP anzufassen. Details & vollständige
@@ -113,11 +108,10 @@ Segment-Landkarte: `strategie/segmente.md`.
 |---|---|---|---|
 | Longevity / Medical-Wellness (Premium) | 11 | 2.060 € | 300 € |
 | Physio-/Therapiepraxen | 11 | 1.528 € | 203 € |
-| Ästhetik / Medical Aesthetics (klein) | 10 | 1.989 € | 301 € |
+| Ernährungsberatung / Diätologie | *ausständig* | *ausständig* | *ausständig* |
 
-*Ernährungsberatung wurde in der Studie nur in Stufe 1 gescannt, nicht deep-dived — vor
-größeren Entscheidungen mit echten Gesprächen validieren. Details:
-`strategie/silicon-sampling.md`.*
+*Ernährungsberatung wurde in der Studie nur in Stufe 1 gescannt, nicht deep-dived — Score/
+Preise fehlen noch. Vorschlag für eine Stufe-2-Runde: siehe `strategie/silicon-sampling.md`.*
 
 **Archetyp „Martina, 47":** Inhaberin einer Privat-/Präventions-Physiopraxis mit fünf
 Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
@@ -126,9 +120,7 @@ wichtig, lebt von privat zahlender Kundschaft.
 
 **Zukünftige potenzielle Nischen** (nicht jetzt, nur zur Orientierung): Ergotherapie,
 Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/TCM, Hebammen,
-Massage/manuelle Therapie — sowie **Ästhetik/Medical-Beauty**, bewusst aus den 3
-Start-Seiten genommen, aber als potenzielle spätere Nische vorgemerkt. Details:
-`segmente.md`.
+Massage/manuelle Therapie. Details: `segmente.md`.
 
 ### Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
@@ -195,15 +187,8 @@ der Spitze, die sonst die Admin-Überstunden auffängt.
 mit konkretem, branchenspezifischem Ergebnis + Referenz, nie mit „kostenlos, kein
 Verkaufsgespräch".
 
-### Offene Idee: FAQ „Was heißt datenschutzkonform konkret?"
-Bisher wird „datenschutzkonform" oft als Behauptung genannt, aber nicht erklärt — das
-erhöht eher Misstrauen als es abzubauen (siehe Kap. 3, Datenschutz-Absatz). Vorschlag
-für eine neue FAQ (Website `/faq/` und GBP-Q&A):
-„Was bedeutet datenschutzkonform bei Ihnen konkret?" → „Kein abstraktes Versprechen,
-sondern konkret: AV-Verträge mit allen eingesetzten Tools, EU-Hosting wo möglich, keine
-Gesundheitsdaten in billigen US-Blackbox-Clouds, klare Zuständigkeit bei Rückfragen."
-**Noch nicht umgesetzt** — Website-FAQ liegt im Scope der parallelen Website-Session,
-dort als Vorschlag einbringen.
+*(FAQ „Was heißt datenschutzkonform konkret?" — inzwischen auf der Website umgesetzt,
+siehe Website-Session.)*
 
 ---
 
@@ -211,23 +196,24 @@ dort als Vorschlag einbringen.
 
 Angebots-Architektur: **KI-Potenzialanalyse (Einstieg, kostenlos — der Nutzen selbst) →
 Praxis-Automatisierungs-Projekt (Strategie → Roadmap → Implementierung) → laufende
-Betreuung (Retainer).** Das **Pilot-Angebot ist bewusst kein Teil dieser Leiter**,
-sondern ein separates, zeitlich begrenztes Einstiegsangebot nur für die ersten 3
-Praxen (siehe Kapitel 7).
+Betreuung (Retainer).**
 
 1. **KI-Potenzialanalyse** — 30-Min-Videocall, Ist-Zustand + Zeitfresser + Datenschutz,
    1–3 konkrete Ansatzpunkte, ehrliche Einschätzung. Kostenfrei. Verkaufslogik: die
    Analyse selbst ist der Wert (gebrandete PPTX) — kein Gratis-Aufbau ohne Vertrag.
-   Am Ende des Calls folgt ein konkretes Angebot für die Umsetzung, kein Quick-Win
-   geschenkt. Details/Ablauf: `angebotsvorschlaege.md`.
+   Details/Ablauf: `angebotsvorschlaege.md`.
 2. **Praxis-Automatisierungs-Projekt** — Strategie → Roadmap → Implementierung →
-   Team-Einweisung. Einmalprojekt.
+   Team-Einweisung. Einmalprojekt. Konkrete Bausteine (No-Code-Prozessautomatisierung,
+   KI-Agenten für wiederkehrende Kommunikation, Cloud-/On-Premise-Entscheidung, digitales
+   Wissensmanagement, EU-AI-Act/DSGVO als Querschnitt): `angebotsvorschlaege.md`.
 3. **Laufende Betreuung (Retainer)** — monatlicher Check-in, Optimierung, fester
    Ansprechpartner. Von Anfang an als Vertrauens-Anker.
 
-**Separat — Pilot-Angebot (nur die ersten 3 Praxen):** ein fertig eingerichteter erster
-Automatisierungs-Schritt, kostenfrei/reduziert gegen Feedback, Testimonial und die
-Einwilligung, die Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen.
+**Separat — Pilot-Angebot (nur die ersten 3 Praxen):** ein verkürztes
+Automatisierungs-Projekt mit **2–3 zusammenhängenden Automatisierungen** in einem
+Themenfeld (nicht nur ein einzelner Schritt — sonst fehlt die Substanz für eine echte
+Case Study), kostenfrei/reduziert gegen Feedback, Testimonial und die Einwilligung, die
+Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen.
 
 **Preis-Orientierung (synthetisch, zu validieren):**
 
@@ -243,11 +229,13 @@ ist derzeit keine aktive Zielgruppe, nur eine potenzielle spätere Nische (Kap. 
 Gesamt-Korridor (Longevity/Physio): Einmalprojekt ~1.520–3.500 € · Retainer ~200–300 €/Monat.
 Erster Umsetzungsschritt am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).
 
-**Abgrenzung zum Angebot** (was konkret nicht kaufbar ist): keine Gesundheitsdaten in
-billige US-Clouds; kein Tool, an dem nur mitverdient wird; kein Gratis-Aufbau ohne
-Vertrag. *(Allgemeine Arbeitsweise — „kein schnell & einfach", keine Garantien, keine
-Fake-Verknappung, keine komplexe KI wo ein simpler Ablauf reicht — siehe Kap. 2
-Anti-Mission; das ist Haltung, keine Angebots-Abgrenzung.)*
+**Out of Scope** (was im Automatisierungs-Projekt konkret nicht enthalten ist): Social-
+Media-Content-Erstellung, Kundenzufriedenheitsumfragen *durchführen*,
+Grafikdesign/Branding/Website, Steuerberatung, medizinische/therapeutische Beratung,
+allgemeiner IT-Support, laufender Betrieb ohne Retainer. Vollständige Liste:
+`angebotsvorschlaege.md`. *(Allgemeine Arbeitsweise/Haltung — „kein schnell & einfach",
+keine Garantien, keine Fake-Verknappung — steht in Kap. 2 Anti-Mission, das ist
+Leistungsabgrenzung.)*
 
 ---
 
@@ -278,18 +266,18 @@ Zeit, ohne dass am Ende ein Case entsteht — deshalb direkt mit der Pilot-Anspr
 starten.
 
 **Pilot-Angebot** (separat von den regulären Angeboten, siehe Kap. 5): kompakte
-Potenzialanalyse + ein fertig eingerichteter erster Automatisierungs-Schritt,
-kostenfrei/vergünstigt gegen Feedback, Testimonial und die Einwilligung, die Praxis
-**unter echtem Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte
-Zahl wirkt schnell wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel
-(Kap. 4).
+Potenzialanalyse + **2–3 zusammenhängende Automatisierungen in einem Themenfeld**
+(ein einzelner Schritt liefert zu wenig Substanz für eine Case Study), kostenfrei/
+vergünstigt gegen Feedback, Testimonial und die Einwilligung, die Praxis **unter echtem
+Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte Zahl wirkt schnell
+wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel (Kap. 4).
 
 ### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
 - Zielliste: **5–7 Praxen je Start-Segment** (Therapie/Physio, Longevity,
   Ernährungsberatung), primär aus dem eigenen Netzwerk, sonst DACH-weit remote
   ansprechbar (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
-- Pilot-Umfang je Segment grob festlegen (welcher Automatisierungs-Schritt ist
-  realistisch in 2–4 Wochen einzurichten).
+- Pilot-Umfang je Segment grob festlegen (welches Themenfeld mit 2–3 zusammenhängenden
+  Automatisierungen realistisch in 2–4 Wochen einzurichten ist).
 - Datenschutz-Mappe vorbereiten (AV-Verträge, EU-Hosting-Nachweis) — Antwort auf den
   Datenschutz-Einwand muss vom ersten Gespräch an belegbar sein, nicht nur behauptet.
 - Anschreiben je Segment personalisieren (Vorlage: `pilot-akquise.md`).
@@ -300,12 +288,12 @@ Zahl wirkt schnell wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits
 - 5–8 personalisierte Anschreiben/Woche, Ziel: 3–5 Erstgespräche über alle 3 Segmente.
 - Im Erstgespräch: Ausgangswerte messen (Messfrage 1), Situation in eigenen Worten
   erfassen, Einwilligung fürs Case-Prinzip grundsätzlich klären (Name statt
-  Anonymisierung).
-- **1 Pilot je Segment** verbindlich starten (Umfang begrenzt, ein
-  Automatisierungs-Schritt) — Ziel: 3 laufende Piloten am Ende dieser Phase.
+  Anonymisierung), zusätzliche Marktforschungs-Fragen stellen (siehe `pilot-akquise.md`).
+- **1 Pilot je Segment** verbindlich starten (Umfang begrenzt, 2–3 zusammenhängende
+  Automatisierungen) — Ziel: 3 laufende Piloten am Ende dieser Phase.
 
 ### Phase 3 — Tag 46–90: Umsetzung, Beweis, Case Study
-- Automatisierungs-Schritt liefern + Team einweisen.
+- Automatisierungen liefern + Team einweisen.
 - Wirkung messen (Messfragen 2–3), O-Ton-Zitat einholen.
 - Schriftliche Einwilligung einholen (Praxisname, Zahlen, Zitat — Vorlage unten).
 - Fall als **Situation → Konflikt → Lösung → Beweis** dokumentieren, unter echtem

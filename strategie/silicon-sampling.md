@@ -80,6 +80,48 @@ damit Ernährungsberatung erstmals vollwertige Stufe-2-Daten bekommt.
 echte Durchführung bedeutet reale API-Calls (Kosten, Laufzeit) über die
 Silicon-Sampling-Pipeline (`deep_dive.py`). Sag Bescheid, wenn das gestartet werden soll.
 
+## Vorschlag: dedizierter Prompt nur für Ernährungsberatung (Datenlücke schließen)
+
+*Angefragt 2026-07-13: separater, engerer Prompt speziell für Ernährungsberatung, um
+gezielt die fehlenden Stufe-2-Daten zu holen. Zusätzlich zur Basis-Struktur oben zwei
+weitere Erhebungs-Phasen:*
+
+**Phase 4 (neu) — Positionierungs-Check:** Der Persona wird die aktuelle Schirm-Formel
+wörtlich vorgelesen: „Ich helfe kleinen, inhabergeführten Gesundheits- und
+Behandlungsbetrieben (Wahlarzt / privat / Selbstzahler), die mit sensiblen
+Gesundheitsdaten arbeiten, ihren Alltag zu entlasten." Frage: „Trifft das auf Ihre Praxis
+zu? Was daran passt nicht, was fehlt?" — testet direkt, ob die aktuelle Positionierung
+(4 Anker-Kriterien, `segmente.md`) im Ernährungsberatungs-Segment trägt oder ob sie dort
+anders klingen müsste (z. B. weil viele Ernährungsberater:innen als Einzelpersonen ohne
+Team arbeiten — Passung zu „klein, 2–20 Mitarbeitende" prüfen).
+
+**Phase 5 (neu) — Segment-spezifischer Twist-Check:** Wird der vermutete Ernährungs-Twist
+(„wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content") von den Personas selbst als
+Kernschmerz bestätigt, oder gibt es einen anderen, bisher nicht dokumentierten Twist?
+
+**Umfang:** ~40–50 Personas, ausschließlich Ernährungsberatung/Diätologie — kein
+Vergleich zu anderen Segmenten nötig, die haben bereits Stufe-2-Daten aus Runde 1.
+
+## Vorschlag: Stufe-1-Scan der zukünftigen potenziellen Nischen (Ranking)
+
+*Angefragt 2026-07-13: sollen die zukünftigen potenziellen Nischen (Ergotherapie,
+Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/TCM, Hebammen,
+Massage/manuelle Therapie — siehe `segmente.md`) auch abgefragt werden, um zu sehen,
+welche am geeignetsten wäre? Ja, sinnvoll — aber als schlanker **Stufe-1-Scan** (wie die
+ursprüngliche Segmentauswahl-Runde), nicht als voller Stufe-2-Deep-Dive: Ziel ist ein
+grobes Opportunity-Ranking unter den 7 Kandidaten, nicht belastbare Preiszahlen. Erst wenn
+eine vierte Seite bei echter Traktion tatsächlich ansteht, würde das führende Segment
+einen vollen Stufe-2-Deep-Dive bekommen (analog zur jetzigen Ernährungsberatung-Runde).
+
+**Umfang-Vorschlag:** ~10–15 Personas je der 7 Nischen (analog zur ursprünglichen
+96-Personas-Stufe-1-Runde), gleiche Kernfragen: Leidensdruck, Offenheit,
+Zahlungsbereitschaft, Datenschutz-Hürde → Opportunity-Score.
+
+**Auch hier:** noch **nicht ausgeführt**, reine Prompt-Vorbereitung. Beide zusätzlichen
+Runden (Ernährungsberatung-Vertiefung + Zukunfts-Nischen-Scan) ließen sich in einem
+gemeinsamen Durchlauf mit der Runde-2-Studie oben kombinieren, um API-Calls/Kosten zu
+bündeln.
+
 ---
 
 ## Übersetzung auf die aktuelle Zielgruppe (Stand 2026-07-06)

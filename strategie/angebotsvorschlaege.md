@@ -28,9 +28,8 @@ mit den ersten echten Kunden validieren.*
 > Betreuung (Retainer)**
 
 Ein klarer Weg vom unverbindlichen Erstkontakt zur laufenden Zusammenarbeit — jede Stufe mit
-definiertem Ergebnis und transparentem Preis. **Das Pilot-Angebot ist bewusst kein Teil
-dieser Leiter**, sondern ein separates, zeitlich begrenztes Einstiegsangebot nur für die
-ersten Praxen (siehe eigener Abschnitt weiter unten).
+definiertem Ergebnis und transparentem Preis. Das Pilot-Angebot für die ersten Praxen steht
+in einem eigenen Abschnitt weiter unten.
 
 ---
 
@@ -82,9 +81,25 @@ zahlen will — kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
 - **Für wen:** Praxen, die spürbar entlasten und mehrere Abläufe ordnen wollen.
 - **Ergebnis:** Die wichtigsten organisatorischen Abläufe laufen strukturiert und teils automatisch —
   die Inhaberin ist nicht mehr der Flaschenhals.
-- **Leistungen:** **Strategie** (Priorisierung nach Hebel × Aufwand, Datenschutz-first) →
-  **Roadmap** → **Implementierung der ersten Automatisierungen** (No-Code/KI, in bestehende
-  Tools integriert) → Team-Einweisung.
+- **Ablauf:** **Strategie** (Priorisierung nach Hebel × Aufwand, Datenschutz-first) →
+  **Roadmap** → **Implementierung** → Team-Einweisung.
+
+**Was konkret umgesetzt wird (Bausteine, je nach Praxis kombiniert):**
+- **No-Code-Prozessautomatisierung:** Terminbuchung, Erinnerungen, Wartelisten-Nachbesetzung,
+  Anamnese-/Formularerfassung, wiederkehrende Abrechnungsschritte — als verbundene,
+  automatisch laufende Abläufe statt Einzeltools ohne Verbindung.
+- **KI-Agenten für wiederkehrende Kommunikation:** Erstbeantwortung häufiger Anfragen,
+  Entwürfe für Berichte/Rückmeldungen an Zuweiser:innen, Strukturierung von
+  Dokumentationsnotizen — die Praxisleitung prüft und gibt frei, schreibt nicht mehr
+  jedes Mal neu.
+- **Infrastruktur-Entscheidung Cloud vs. On-Premise:** je nach Sensibilität der Daten die
+  passende, rechtlich abgesicherte Lösung wählen (EU-Hosting wo möglich, AV-Verträge).
+- **Digitales Wissensmanagement:** ein einfaches, zentrales Team-Playbook für
+  wiederkehrende Abläufe — löst „das Wissen steckt nur in meinem Kopf".
+- **Rechtlicher Rahmen als Querschnitt, nicht als Extra-Leistung:** EU-AI-Act-Einstufung der
+  eingesetzten Tools, DSGVO-/Art.-9-konforme Datenflüsse und Haftungsfragen geklärt, bevor
+  etwas live geht.
+
 - **Preis-Orientierung:** Einmalprojekt, Fixpreis oder klar umrissenes Paket (siehe Tabelle).
 
 ## 3. Laufende Betreuung · *Retainer*
@@ -103,14 +118,18 @@ zahlen will — kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
 - **Für wen:** die ersten 3 Praxen aus den Start-Segmenten (Therapie-/Bewegungspraxen,
   Longevity/Med-Wellness, Ernährungsberatung), mit denen die ersten echten Referenzfälle
   entstehen.
-- **Ergebnis:** ein fertig eingerichteter erster Automatisierungs-Schritt — für Leonie ein
-  echter Case mit Zahlen, für die Praxis ein spürbarer Hebel ohne Risiko.
+- **Ergebnis:** ein verkürztes Automatisierungs-Projekt — **2–3 zusammenhängende
+  Automatisierungen in einem Themenfeld** (z. B. die gesamte Termin-Journey: Buchung,
+  Erinnerung, Lückenfüllung, Recall — oder Erstanamnese + Dokumentations-Vorlage +
+  Nachsorge), nicht nur ein einzelner Schritt. Ein einzelner Automatisierungs-Schritt liefert
+  zu wenig Substanz für eine belastbare Case Study (nur eine Zahl, kein zusammenhängendes
+  Vorher/Nachher) — das Bündel ermöglicht mehrere Messwerte und eine echte Geschichte.
 - **Konditionen:** kostenfrei oder stark reduziert, im Tausch gegen ehrliches Feedback, ein
   Testimonial **und die Einwilligung, die Praxis unter ihrem echten Namen** (nicht anonymisiert)
   als Case zu zeigen — Zahlen, Ablauf, Ergebnis.
 - **Hinweis:** bewusst getrennt von den regulären Angeboten oben — zeitlich befristet, klar
-  begrenzter Umfang (ein Automatisierungs-Schritt), nur für die Akquise-Startphase. Details
-  & Ablauf: `pilot-akquise.md`.
+  begrenzter Umfang (2–3 Automatisierungen, ein Themenfeld), nur für die Akquise-Startphase.
+  Details & Ablauf: `pilot-akquise.md`.
 
 ---
 
@@ -136,16 +155,28 @@ Nische für später (siehe `segmente.md`). Bei Bedarf dort nachschlagen.*
 - **Nicht zu billig:** es gibt eine „zu günstig → Qualität fraglich"-Schwelle. Transparente Fixpreise
   *nennen, bevor* gefragt wird.
 
-## Abgrenzung zum Angebot (was hier konkret nicht kaufbar ist)
+## Out of Scope — was im Praxis-Automatisierungs-Projekt NICHT enthalten ist
 
-- Keine Gesundheitsdaten in billige US-Cloud-Tools — auch nicht auf Kundenwunsch.
-- Kein Tool, an dem nur mitverdient wird — Empfehlung gehört der Praxis.
-- Kein Gratis-Aufbau ohne Vertrag (siehe Verkaufslogik oben) — Umsetzung gibt es nur mit
-  klarem Angebot und Verantwortung auf beiden Seiten.
+*Konkrete Abgrenzung des Leistungsumfangs — nicht Haltung/Anti-Mission (die steht oben
+unter Grundprinzipien).*
+
+- **Social-Media-Content-Erstellung** (laufende Postings, Redaktionsplan) — nicht Teil des
+  Projekts, auch wenn ein einzelner Automatisierungs-Baustein Content-Vorlagen erzeugen kann.
+- **Kundenzufriedenheitsumfragen durchführen** (als laufender Service) — die Automatisierung
+  dafür kann eingerichtet werden, das Auswerten/Betreiben ist Sache der Praxis.
+- **Grafikdesign, Branding, Website-Erstellung/-Pflege.**
+- **Steuerliche/buchhalterische Beratung** — Abrechnungs-*Automatisierung* ja, Steuerberatung nein.
+- **Medizinische/therapeutische Beratung jeder Art** — ausschließlich organisatorische/
+  administrative Prozesse.
+- **Allgemeiner IT-Support** (Hardware, Drucker, WLAN etc.) außerhalb der eingerichteten
+  Automatisierung.
+- **Laufender Betrieb/Wartung ohne Retainer** — nach Projektabschluss ist die laufende
+  Betreuung ein eigenes, separates Angebot (siehe oben), nicht automatisch inkludiert.
 
 *(Grundsätze zur allgemeinen Arbeitsweise — „kein schnell & einfach", „keine Garantien",
-„keine komplexe KI, wo ein simpler Ablauf reicht" — stehen oben unter Grundprinzipien; das
-ist Haltung, nicht Angebots-Abgrenzung.)*
+„keine komplexe KI, wo ein simpler Ablauf reicht", keine Gesundheitsdaten in billige
+US-Clouds, kein Tool an dem nur mitverdient wird — stehen oben unter Grundprinzipien; das
+ist Haltung, keine Leistungsabgrenzung.)*
 
 ## Eingebaute Einwandbehandlung (die 4 Zweifel der Zielgruppe)
 

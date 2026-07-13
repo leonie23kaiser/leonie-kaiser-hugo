@@ -13,14 +13,18 @@ Voice: Sie-Form, ruhig, kein Hype.*
 
 ## Das Pilot-Angebot (was Sie anbieten)
 
-Eine kompakte KI-Potenzialanalyse **plus einen ersten fertig eingerichteten
-Automatisierungs-Schritt** — kostenfrei oder stark vergünstigt. Im Gegenzug:
-ehrliches Feedback, ein Testimonial und die Einwilligung, die Praxis **unter ihrem
-echten Namen** (nicht anonymisiert) als Case zu zeigen — inklusive Zahlen.
+Eine kompakte KI-Potenzialanalyse **plus 2–3 zusammenhängende, fertig eingerichtete
+Automatisierungen in einem Themenfeld** (z. B. die gesamte Termin-Journey: Buchung,
+Erinnerung, Lückenfüllung, Recall — oder Erstanamnese + Dokumentations-Vorlage +
+Nachsorge) — kostenfrei oder stark vergünstigt. Im Gegenzug: ehrliches Feedback, ein
+Testimonial und die Einwilligung, die Praxis **unter ihrem echten Namen** (nicht
+anonymisiert) als Case zu zeigen — inklusive Zahlen.
 
-- **Für Sie:** der erste echte Praxis-Fall mit Vorher/Nachher-Zahlen für Ihre Story Bank.
+- **Für Sie:** der erste echte Praxis-Fall mit mehreren Vorher/Nachher-Werten für Ihre
+  Story Bank — ein einzelner Automatisierungs-Schritt liefert dafür zu wenig Substanz.
 - **Für die Praxis:** ein spürbarer erster Hebel, ohne Risiko.
-- Klar begrenzen: „ein Automatisierungs-Schritt, definierter Umfang" — kein offenes Fass.
+- Klar begrenzen: „2–3 zusammenhängende Automatisierungen, ein Themenfeld, definierter
+  Umfang" — kein offenes Fass.
 
 **Warum der echte Name statt Anonymisierung:** Eine anonymisierte Zahl („eine Physiopraxis
 mit 5 Mitarbeitenden spart X Stunden") wirkt schnell wie ein erfundenes Beispiel — genau das
@@ -46,8 +50,8 @@ in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor
 > **Pilotprojekt**.
 >
 > Konkret: Ich schaue mir mit Ihnen an, wo im Praxisalltag Zeit verloren geht, und
-> richte **einen ersten Automatisierungs-Schritt** fertig ein — datenschutzkonform,
-> ohne dass Sie zur IT-Abteilung werden. Für Sie kostenfrei; im Gegenzug würde ich mir
+> richte **die ersten zusammenhängenden Automatisierungs-Schritte** fertig ein —
+> datenschutzkonform. Für Sie kostenfrei; im Gegenzug würde ich mir
 > Ihr ehrliches Feedback und — wenn es Ihnen etwas gebracht hat — ein kurzes Testimonial
 > wünschen.
 >
@@ -60,6 +64,32 @@ in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor
 *(Segment-Twist je Ansprache: Physio/Therapie → „zwischen Behandlungen, Terminen und
 Nachsorge"; Longevity → „zwischen Erstgesprächen, Laborwerten und Kundenreise";
 Ernährungsberatung → „zwischen Beratungsprotokollen, Wochenplänen und Nachfassen".)*
+
+## Zusätzliche Fragen im Erstgespräch (Marktforschung nebenbei, keine separate Umfrage)
+
+Keine separate Marktumfrage — aber jedes Erstgespräch mit einem echten Interessenten ist
+eine Gelegenheit, über die Pflichtfelder des Potenzialanalyse-Tools hinaus ein paar Fragen
+zu stellen, die den Service verbessern und die Zielgruppe schärfer kennenlernen. Das Tool
+selbst erhebt bereits: Betrieb (Größe, Typ), Digitalisierungsstufe, Ziele, Engpässe, Quick
+Wins. Ergänzend im Gespräch (mündlich, nicht im Tool):
+
+- „Wie haben Sie versucht, das bisher zu lösen — was haben Sie schon probiert, und woran
+  ist es gescheitert?" (zeigt echte Alternativen/Konkurrenz, nicht nur den Status quo)
+- „Was hätte Sie bisher davon abgehalten, so etwas umzusetzen?" (Zeit, Geld, Vertrauen,
+  Unklarheit was „KI" überhaupt bedeutet — hilft, echte Kaufhürden statt vermuteter zu
+  kennen)
+- „Wie sind Sie auf mich aufmerksam geworden?" (Kanal-Tracking — welche Akquise-Kanäle
+  wirklich funktionieren)
+- „Wer wäre außer Ihnen noch an so einer Entscheidung beteiligt?" (Buy-in-Struktur —
+  besonders relevant bei Gemeinschaftspraxen mit mehreren Partner:innen)
+- „Wenn es funktioniert, wie zufrieden wären Sie, wenn Sie X Stunden pro Woche
+  zurückbekommen — was wäre Ihnen das wert?" (informelle Preis-Sondierung, ergänzt die
+  Van-Westendorp-Werte aus der Studie mit echten Reaktionen)
+
+*(Hinweis zum Tool selbst: Die Betriebstyp-Auswahl in `static/analyse/index.html` enthält
+noch „Ästhetische Praxis" und „Personal-Training/Fitness-Studio" — das gehört in den
+Scope der Website-Session; dort ansprechen, falls die Liste an die 3 Start-Segmente
+angepasst werden soll.)*
 
 ## Welche Daten erhoben werden (für die Case Study)
 
