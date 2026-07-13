@@ -19,6 +19,69 @@
   3. **Datenschutz als Beziehung, nicht als Behauptung** — die Hürde ist überall maximal und emotional; „datenschutzkonform" als bloßes Wort *erhöht* das Misstrauen.
 - **Realitätscheck:** Die mittlere Buchungswahrscheinlichkeit des angebotenen Gratis-Videocalls liegt segmentübergreifend bei nur 3,8–4,2 von 10. Conversion hängt an Angebots-Framing und Vertrauensaufbau, nicht an der Zielgruppenwahl allein.
 
+## Vorschlag: Stufe-2-Prompt für eine Runde 2 (3 aktuelle Start-Segmente)
+
+*Angefragt 2026-07-13. Empfehlung: ja, sinnvoll — v. a. weil Ernährungsberatung bisher
+**keine** eigenen Stufe-2-Daten hat (nur Stufe-1-Scan) und Physio/Longevity mit den
+**aktualisierten Schirm-Kriterien** (Mischpraxen drin, max. 20 statt 30 Mitarbeitende,
+Wahlarzt/privat/Selbstzahler statt nur Selbstzahler) noch nicht neu befragt wurden.
+Kern-Annahme dieser Runde: der homogene Kern-Schmerz ist zu ~90 % identisch über alle
+drei Segmente — die Studie sollte das prüfen, nicht voraussetzen.*
+
+**Segmente:** Therapie-/Bewegungspraxen (Physio als Aushängeschild, inkl. Ergo/Osteo/Podo),
+Longevity & Medical-Wellness, Ernährungsberatung/Diätologie. *(Kein Zahnarzt, keine
+Psychotherapie, keine Ästhetik — bewusst ausgeschlossen, siehe oben.)*
+
+**Methodik (unverändert zur Stufe 2 der ersten Runde, ESOMAR-konform):** dreistufige
+Mehrturn-Befragung je Persona — Phase 1 offen, *vor* jeder Konzept-/Angebotsnennung;
+Phase 2 Reaktion auf das wörtlich vorgelesene Angebot; Phase 3 Van-Westendorp-
+Preisschwellen aus dem Betriebsbudget. Keine Vorlage der Stufe-1- oder
+Erstrunden-Ergebnisse an die Personas — Pain Points und Einwände müssen frei entstehen.
+
+**Adaptierter Persona-Rahmen (gegenüber Runde 1 aktualisiert):**
+- Inhaber:in / mitarbeitende Leitung, Teamgröße 2–20 (statt bisher bis 30), DACH.
+- **Zahler-Mix erweitert:** nicht mehr „nur Selbstzahler", sondern „Wahlarzt / privat /
+  Selbstzahler" **inklusive Mischpraxen** mit spürbarem Privatanteil und
+  Veränderungsbereitschaft (reine Hochvolumen-Kassenpraxis weiterhin ausgeschlossen).
+- Keine eigene IT-Abteilung / kein:e interne:r Entwickler:in.
+
+**Prompt-Gerüst (für die Befragungs-Engine, z. B. `deep_dive.py`):**
+
+> Du befragst eine synthetische Persona: Inhaber:in oder mitarbeitende Leitung einer
+> kleinen, inhabergeführten Praxis im Segment **[Physio-/Therapiepraxis |
+> Longevity-/Medical-Wellness-Praxis | Ernährungsberatungs-/Diätologie-Praxis]**,
+> 2–20 Mitarbeitende, DACH-Raum. Die Praxis lebt (auch) von Wahlarzt-, Privat- oder
+> Selbstzahler-Kundschaft — das kann eine reine Privatordination oder eine Mischpraxis
+> mit spürbarem Privatanteil sein. Keine eigene IT-Abteilung.
+>
+> **Phase 1 (offen, ohne jede Erwähnung von KI/Angebot):** Was sind aktuell deine größten
+> Zeitfresser im Praxisalltag? Wo geht am meisten Zeit fürs Organisatorische statt fürs
+> Kerngeschäft verloren? Wie zufrieden bist du mit der aktuellen Kundenreise/Nachsorge?
+>
+> **Phase 2 (Reaktion auf das wörtliche Angebot):** Lies der Persona folgenden Text vor
+> und erfrage ehrliche Reaktion, Einwände, Buchungswahrscheinlichkeit (1–10): „Kostenlose
+> 30-minütige KI-Potenzialanalyse: Wir schauen gemeinsam, wo in Ihrem Praxisalltag Zeit
+> verloren geht und wo sich das mit datenschutzkonformer Automatisierung beheben lässt —
+> unverbindlich, mit ehrlicher Einschätzung, auch wenn sich nichts lohnt."
+>
+> **Phase 3 (Van Westendorp, aus dem Betriebsbudget):** Die vier Standard-Preisfragen für
+> ein „einmaliges Automatisierungs-Projekt" und einen „monatlichen Betreuungs-Retainer" —
+> zu teuer / teuer aber noch okay / günstig / zu günstig (Qualität fraglich).
+
+**Zusätzliche Auswertungsfrage gegenüber Runde 1:** Wie stark deckt sich der geäußerte
+Kernschmerz mit dem dokumentierten homogenen Kern-Schmerz (Termin-Engpass, Doku, Nachsorge/
+Recall, Flaschenhals-Leitung, Datenschutz)? Das prüft direkt die „~90 % identisch"-Annahme
+aus `segmente.md`.
+
+**Umfang-Vorschlag:** ~40–50 Personas je Segment (analog Physio/Longevity aus Runde 1),
+damit Ernährungsberatung erstmals vollwertige Stufe-2-Daten bekommt.
+
+**Hinweis:** Das ist der Prompt-Entwurf zur Freigabe — noch **nicht ausgeführt**. Eine
+echte Durchführung bedeutet reale API-Calls (Kosten, Laufzeit) über die
+Silicon-Sampling-Pipeline (`deep_dive.py`). Sag Bescheid, wenn das gestartet werden soll.
+
+---
+
 ## Übersetzung auf die aktuelle Zielgruppe (Stand 2026-07-06)
 
 Die Studie untersuchte 5 Segmente. So ordnen sie sich in die **aktuelle Positionierung**

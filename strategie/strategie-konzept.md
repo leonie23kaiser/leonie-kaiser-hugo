@@ -2,7 +2,7 @@
 
 *Internes Arbeitsdokument. Konsolidiert aus AGENTS.md (Brand Voice, kanonisch),
 brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampling.md
-(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-08.*
+(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-13.*
 
 > Preiszahlen sind synthetische Orientierungs-Korridore (Silicon Sampling / ESOMAR)
 > und mit echten Kundengesprächen zu validieren.
@@ -13,16 +13,18 @@ brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampl
 
 KI- und Business-Consultant für kleine, **inhabergeführte Gesundheits- und
 Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler) — privat bzw. selbst bezahlte
-Gesundheit, nicht reine Hochvolumen-Kassen-Akutmedizin. Zielbetriebe: 2–15 (max. ~30)
+Gesundheit, nicht reine Hochvolumen-Kassen-Akutmedizin. Zielbetriebe: 2–15 (max. ~20)
 Mitarbeitende, DACH-Raum (AT/DE/CH).
 
-**Kern-Nutzenversprechen:** mehr Zeit fürs Kerngeschäft und ein reibungsloses,
-professionelles Kundenerlebnis. KI ist Mittel zum Zweck — die Arbeit beginnt bei den
-Prozessen, nicht beim Tool. Das Persönliche bleibt geschützt: KI nimmt die Routine,
-nicht die Beziehung.
+**Kern-Nutzenversprechen:** mehr Zeit fürs Kerngeschäft, ein reibungsloses,
+professionelles Kundenerlebnis und spürbar zufriedenere Kundschaft. Und: freie Abende
+auch für die Inhaberin selbst — nicht nur schnellere Prozesse fürs Team, sondern
+weniger Admin-Überstunden für die Person an der Spitze. KI ist Mittel zum Zweck — die
+Arbeit beginnt bei den Prozessen, nicht beim Tool. Das Persönliche bleibt geschützt: KI
+nimmt die Routine, nicht die Beziehung.
 
-**Aktueller Stand:** noch keine Kunden. Fokus: die ersten 1–2 echten Praxis-Fälle mit
-Zahlen und Referenzen gewinnen (siehe Kapitel 7).
+**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **3** echten Praxis-Fälle (je
+einer aus jedem Start-Segment) mit Zahlen und Referenzen gewinnen (siehe Kapitel 7).
 
 Drei tragende Säulen:
 1. **Produktisieren statt beraten** — klare Pakete mit benannten Ergebnissen.
@@ -70,10 +72,15 @@ verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 > IT-Abteilung haben, ihren Alltag zu entlasten — damit wieder Zeit bleibt für das,
 > worum es wirklich geht.
 
-**5 Anker-Kriterien** (alle müssen passen): inhabergeführt · klein (2–15, max. ~30
+**5 Anker-Kriterien** (alle müssen passen): inhabergeführt · klein (2–15, max. ~20
 Mitarbeitende) · sensible **Gesundheitsdaten** (DSGVO Art. 9 — der Burggraben, nie
-weglassen) · keine IT-Abteilung · lebt (auch) von Wahlarzt-/Privat-/Selbstzahler-
-Kundschaft und konkurriert übers Erlebnis.
+weglassen) · keine eigene IT-Abteilung / kein:e interne:r Entwickler:in · lebt (auch)
+von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis.
+
+**Zu „keine IT-Abteilung":** kein Vorab-Filter für die Zielliste (dazu gibt es keine
+öffentliche Quelle), sondern ein Erstgesprächs-Signal und Verkaufsargument. Gemeint ist
+die Abwesenheit einer dedizierten technischen Rolle — eine Einzelperson, die nebenbei
+ein bisschen Admin/IT mitmacht, schließt niemanden aus. Details: `segmente.md`.
 
 **Erlebnis als Kaufgrund:** Wer privat/Wahlarzt zahlt, erwartet ein Premium-Erlebnis —
 genau da zieht das Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis".
@@ -113,8 +120,15 @@ größeren Entscheidungen mit echten Gesprächen validieren. Details:
 `strategie/silicon-sampling.md`.*
 
 **Archetyp „Martina, 47":** Inhaberin einer Privat-/Präventions-Physiopraxis mit fünf
-Mitarbeitenden. Kennt KI vom Hörensagen, entscheidet schnell bei klarem Nutzen +
-überschaubarem Aufwand, Datenschutz sehr wichtig, lebt von privat zahlender Kundschaft.
+Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
+entscheidet schnell bei klarem Nutzen + überschaubarem Aufwand, Datenschutz sehr
+wichtig, lebt von privat zahlender Kundschaft.
+
+**Zukünftige potenzielle Nischen** (nicht jetzt, nur zur Orientierung): Ergotherapie,
+Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/TCM, Hebammen,
+Massage/manuelle Therapie — sowie **Ästhetik/Medical-Beauty**, bewusst aus den 3
+Start-Seiten genommen, aber als potenzielle spätere Nische vorgemerkt. Details:
+`segmente.md`.
 
 ### Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
@@ -157,6 +171,13 @@ Nische ist DACH-weit). Stattdessen „Niederösterreich" bzw. „Österreich/DAC
 Ausnahme: rechtliche Pflichtangaben (Impressum WKÖ-Bezirk Wiener Neustadt,
 Datenschutzbehörde-Adresse) bleiben korrekt.
 
+**Zweiter Grund für die Regel:** Leonie arbeitet remote und ist nicht durchgehend in
+Österreich — eine Stadt zu nennen würde „vor Ort" suggerieren. Statt eines Orts explizit
+**„ortsunabhängig / remote, DACH-weit"** positionieren. Ausnahme: strukturierte,
+nicht-prosaische Profilfelder wie das Google-Business-Profile-Servicegebiet, wo Google
+ein reales Gebiet verlangt (das ist ein Datenfeld, kein Marketing-Fließtext, und
+bedeutet dort nicht „vor Ort").
+
 ### Ehrlichkeits-Regel: keine erfundenen Beweise
 Kein Fake-Social-Proof — weder als Text noch als strukturierte Daten (Schema.org).
 Sterne-Bewertungen, Kundenzahlen oder Fallstudien dürfen erst auftauchen, sobald sie
@@ -165,43 +186,68 @@ aber klar als solche gerahmt („Stimmen aus früheren Beratungen") — nicht al
 die KI-Arbeit ausgegeben, für die es noch keine Referenzen gibt.
 
 ### Leitmotiv & CTA
-Leitmotiv „Chaos reduzieren": klare Prozesse, weniger Zettelwirtschaft, Entlastung.
+Leitmotiv „Chaos reduzieren": klare Prozesse, weniger Zettelwirtschaft, Entlastung —
+**für das Team *und* für die Inhaberin selbst.** Nicht nur schnellere Abläufe fürs
+Personal, sondern spürbar zufriedenere Kundschaft *und* freie Abende für die Person an
+der Spitze, die sonst die Admin-Überstunden auffängt.
+
 **Ein CTA pro Seite:** kostenlose 30-Min-KI-Potenzialanalyse via Calendly — flankiert
 mit konkretem, branchenspezifischem Ergebnis + Referenz, nie mit „kostenlos, kein
 Verkaufsgespräch".
+
+### Offene Idee: FAQ „Was heißt datenschutzkonform konkret?"
+Bisher wird „datenschutzkonform" oft als Behauptung genannt, aber nicht erklärt — das
+erhöht eher Misstrauen als es abzubauen (siehe Kap. 3, Datenschutz-Absatz). Vorschlag
+für eine neue FAQ (Website `/faq/` und GBP-Q&A):
+„Was bedeutet datenschutzkonform bei Ihnen konkret?" → „Kein abstraktes Versprechen,
+sondern konkret: AV-Verträge mit allen eingesetzten Tools, EU-Hosting wo möglich, keine
+Gesundheitsdaten in billigen US-Blackbox-Clouds, klare Zuständigkeit bei Rückfragen."
+**Noch nicht umgesetzt** — Website-FAQ liegt im Scope der parallelen Website-Session,
+dort als Vorschlag einbringen.
 
 ---
 
 ## 5. Angebote & Preise
 
-Angebots-Architektur: **KI-Potenzialanalyse (Einstieg) → Pilot / erster Quick-Win →
-Praxis-Automatisierungs-Projekt → laufende Betreuung (Retainer).**
+Angebots-Architektur: **KI-Potenzialanalyse (Einstieg, kostenlos — der Nutzen selbst) →
+Praxis-Automatisierungs-Projekt (Strategie → Roadmap → Implementierung) → laufende
+Betreuung (Retainer).** Das **Pilot-Angebot ist bewusst kein Teil dieser Leiter**,
+sondern ein separates, zeitlich begrenztes Einstiegsangebot nur für die ersten 3
+Praxen (siehe Kapitel 7).
 
 1. **KI-Potenzialanalyse** — 30-Min-Videocall, Ist-Zustand + Zeitfresser + Datenschutz,
-   1–3 Quick-Win-Ideen, ehrliche Einschätzung. Kostenfrei.
-2. **Pilot-Angebot** (nur die ersten Praxen) — ein fertig eingerichteter Quick-Win,
-   kostenfrei/reduziert gegen Feedback, Testimonial und Zahlen-Erlaubnis.
-3. **Erster Quick-Win (Fixpaket)** — ein wiederkehrender Zeitfresser läuft automatisch,
-   Fixpreis am unteren Korridor-Rand.
-4. **Praxis-Automatisierungs-Projekt** — Potenzialanalyse → Roadmap → Implementierung →
+   1–3 konkrete Ansatzpunkte, ehrliche Einschätzung. Kostenfrei. Verkaufslogik: die
+   Analyse selbst ist der Wert (gebrandete PPTX) — kein Gratis-Aufbau ohne Vertrag.
+   Am Ende des Calls folgt ein konkretes Angebot für die Umsetzung, kein Quick-Win
+   geschenkt. Details/Ablauf: `angebotsvorschlaege.md`.
+2. **Praxis-Automatisierungs-Projekt** — Strategie → Roadmap → Implementierung →
    Team-Einweisung. Einmalprojekt.
-5. **Laufende Betreuung (Retainer)** — monatlicher Check-in, Optimierung, fester
+3. **Laufende Betreuung (Retainer)** — monatlicher Check-in, Optimierung, fester
    Ansprechpartner. Von Anfang an als Vertrauens-Anker.
+
+**Separat — Pilot-Angebot (nur die ersten 3 Praxen):** ein fertig eingerichteter erster
+Automatisierungs-Schritt, kostenfrei/reduziert gegen Feedback, Testimonial und die
+Einwilligung, die Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen.
 
 **Preis-Orientierung (synthetisch, zu validieren):**
 
 | Segment | Einmalprojekt | Retainer/Mo | Ideal |
 |---|---|---|---|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
-| Ästhetik | ~1.989 € | ~301 € | ~3.100 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
+| Ernährungsberatung / Diätologie | — | — | *nicht deep-dived, noch zu validieren* |
 
-Gesamt-Korridor: Einmalprojekt ~1.740–3.667 € · Retainer ~200–500 €/Monat.
-Quick-Win am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).
+*Ästhetik-Preiszahlen aus der Studie bewusst nicht mehr in der aktiven Tabelle — Ästhetik
+ist derzeit keine aktive Zielgruppe, nur eine potenzielle spätere Nische (Kap. 3).*
 
-**Nicht Teil des Angebots:** kein „schnell & einfach", keine Garantien, keine
-Fake-Verknappung; keine Gesundheitsdaten in billige US-Clouds; keine komplexe KI, wo
-ein simpler Ablauf reicht; kein Tool, an dem nur mitverdient wird.
+Gesamt-Korridor (Longevity/Physio): Einmalprojekt ~1.520–3.500 € · Retainer ~200–300 €/Monat.
+Erster Umsetzungsschritt am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).
+
+**Abgrenzung zum Angebot** (was konkret nicht kaufbar ist): keine Gesundheitsdaten in
+billige US-Clouds; kein Tool, an dem nur mitverdient wird; kein Gratis-Aufbau ohne
+Vertrag. *(Allgemeine Arbeitsweise — „kein schnell & einfach", keine Garantien, keine
+Fake-Verknappung, keine komplexe KI wo ein simpler Ablauf reicht — siehe Kap. 2
+Anti-Mission; das ist Haltung, keine Angebots-Abgrenzung.)*
 
 ---
 
@@ -221,68 +267,69 @@ reichen nicht": den Gratis-Call nie so bewerben, sondern mit konkretem Ergebnis 
 
 ## 7. Startplan: die ersten 90 Tage (0 → erste Referenzen)
 
-Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: 1–2 echte Fälle mit
-Vorher-/Nachher-Zahlen und Testimonials.
+Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **3 echte Fälle** (einer je
+Start-Segment: Therapie-/Bewegungspraxen, Longevity/Medical-Wellness, Ernährungsberatung)
+mit Vorher-/Nachher-Zahlen und namentlichen Testimonials.
 
-**Pilot-Angebot:** kompakte Potenzialanalyse + ein fertig eingerichteter Quick-Win,
-kostenfrei/vergünstigt gegen Feedback, Testimonial und (anonymisierte) Zahlen.
+**Keine getrennte Marktumfrage vorweg:** Die Pilot-Erstgespräche selbst sind schon die
+Marktvalidierung (gleiche Fragen zu Kernschmerz + Zahlungsbereitschaft + die 3
+Messfragen unten). Eine separate Runde mit 10–20 Interviews *vor* der Akquise kostet nur
+Zeit, ohne dass am Ende ein Case entsteht — deshalb direkt mit der Pilot-Ansprache
+starten.
 
-- **Tag 1–14:** Zielliste (15–20 Praxen aus den 3 Start-Segmenten — Therapie/Physio,
-  Longevity, Ernährungsberatung —, Netzwerk/lokal bevorzugt), Pilot-Quick-Win festlegen,
-  Datenschutz-Mappe vorbereiten, Anschreiben personalisieren.
-- **Tag 15–45:** 5–8 personalisierte Anschreiben/Woche, 3–5 Erstgespräche, Ausgangswerte
-  messen, 1–2 Piloten verbindlich starten (Umfang begrenzt).
-- **Tag 46–90:** Quick-Win liefern + Team einweisen, Wirkung messen, Testimonial +
-  Einwilligung, Fall als „Situation → Konflikt → Lösung → Beweis" dokumentieren, Retainer
-  anbieten.
+**Pilot-Angebot** (separat von den regulären Angeboten, siehe Kap. 5): kompakte
+Potenzialanalyse + ein fertig eingerichteter erster Automatisierungs-Schritt,
+kostenfrei/vergünstigt gegen Feedback, Testimonial und die Einwilligung, die Praxis
+**unter echtem Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte
+Zahl wirkt schnell wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel
+(Kap. 4).
 
-**3 Messfragen:** (vorher) Stunden/Woche fürs Organisatorische? — (nachher) Wie viele
-jetzt, was läuft automatisch? Nach wie vielen Tagen erste spürbare Entlastung?
+### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
+- Zielliste: **5–7 Praxen je Start-Segment** (Therapie/Physio, Longevity,
+  Ernährungsberatung), primär aus dem eigenen Netzwerk, sonst DACH-weit remote
+  ansprechbar (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
+- Pilot-Umfang je Segment grob festlegen (welcher Automatisierungs-Schritt ist
+  realistisch in 2–4 Wochen einzurichten).
+- Datenschutz-Mappe vorbereiten (AV-Verträge, EU-Hosting-Nachweis) — Antwort auf den
+  Datenschutz-Einwand muss vom ersten Gespräch an belegbar sein, nicht nur behauptet.
+- Anschreiben je Segment personalisieren (Vorlage: `pilot-akquise.md`).
+- Einwilligungs-Text vorbereiten (siehe unten), damit er im Erstgespräch schon
+  angesprochen werden kann — keine Überraschung erst nach getaner Arbeit.
 
-**Anschreiben-Vorlage & Details:** `strategie/pilot-akquise.md`.
+### Phase 2 — Tag 15–45: Ansprache & Erstgespräche
+- 5–8 personalisierte Anschreiben/Woche, Ziel: 3–5 Erstgespräche über alle 3 Segmente.
+- Im Erstgespräch: Ausgangswerte messen (Messfrage 1), Situation in eigenen Worten
+  erfassen, Einwilligung fürs Case-Prinzip grundsätzlich klären (Name statt
+  Anonymisierung).
+- **1 Pilot je Segment** verbindlich starten (Umfang begrenzt, ein
+  Automatisierungs-Schritt) — Ziel: 3 laufende Piloten am Ende dieser Phase.
 
----
+### Phase 3 — Tag 46–90: Umsetzung, Beweis, Case Study
+- Automatisierungs-Schritt liefern + Team einweisen.
+- Wirkung messen (Messfragen 2–3), O-Ton-Zitat einholen.
+- Schriftliche Einwilligung einholen (Praxisname, Zahlen, Zitat — Vorlage unten).
+- Fall als **Situation → Konflikt → Lösung → Beweis** dokumentieren, unter echtem
+  Praxisnamen in `brand_data.md`/`story_bank.md` eintragen.
+- Retainer anbieten, sobald der erste Nutzen sichtbar ist.
 
-## 8. Umsetzungs-Status Website (Stand 2026-07-08)
+### Welche Daten erhoben werden
+**Vorher:** Stunden/Woche fürs Organisatorische, Ausgangssituation in eigenen Worten,
+Praxis-Eckdaten (Name, Segment, Größe). **Nachher:** Stunden/Woche jetzt + was läuft
+automatisch, Tage bis zur ersten spürbaren Entlastung, O-Ton-Zitat, optional ein
+Vorher/Nachher-Screenshot des Ablaufs (ohne Patienten-/Kundendaten im Bild).
 
-Umgesetzt (auf Nische geschärft, Gendern neutral, kein „Wien" in SEO):
-- **3 Start-Praxisseiten:** Therapie-/Bewegungspraxen (Physio als Aushängeschild),
-  Longevity/Medical-Wellness, Ernährungsberatung/Diätologie — je mit Use Cases, FAQ und
-  **Beispielszenario** (klar als illustrativ gekennzeichnet, kein realer Kundenfall).
-  Daten in `data/branchen.yaml`.
-- **Ästhetik bewusst nicht als eigene Praxisseite** — schwächt den
-  Gesundheitsdaten-Anker und kippt optisch Richtung „Beauty" statt „Gesundheit" (siehe
-  Kapitel 3). Marktdaten bleiben in Kapitel 3/5 dokumentiert; erreichbar über
-  Blog/Einzelanfragen, kann bei Traktion als eigene Seite zurückkommen.
-- **Menü:** Dropdown „Für Ihre Praxis" (Desktop + Burger) verankert die drei Start-Praxisseiten.
-- **Blog:** `/journal/` → `/blog/` (URL + Permalink, mit Alias-Weiterleitung). Struktur
-  steht, wird als Nächstes mit Beiträgen befüllt (eigenes Konzept folgt).
-- **Aufgeräumt:** Seiten Psychotherapie, Coaching (außerhalb des Schirms) entfernt;
-  Doppelpunkt-Gendern site-weit bereinigt; „Mandant:innen" → „Kundschaft".
-- **SEO:** „Wien" aus Titeln, Descriptions, `seoHomeTitle`, Schema entfernt (→ „Praxen" /
-  „Niederösterreich" / „DACH"); rechtliche Wien-Angaben bleiben.
-- **Schema-Ehrlichkeit:** erfundene AggregateRating (5★) und Review-Ratings aus dem
-  Schema.org-Markup entfernt (Fake-Social-Proof, rechtlich/SEO-riskant); Tech-Jargon
-  (Agentic AI, Claude Code, Claude Architect, n8n, Make) aus `knowsAbout`/Offer-Texten
-  raus. Testimonials auf der Startseite jetzt ehrlich gerahmt als „Stimmen aus früheren
-  Beratungen" (2018–2026) statt als KI-Kundenstimmen ausgegeben.
-- **Technik:** tote CSS-Tokens (`--teal-50/--line/--ink`) in Branche- und
-  Referenzen-Layout auf echte Tokens gemappt; kaputte Branche-Querlinks gefixt.
+### Welche Einwilligung nötig ist
+Schriftlich (E-Mail reicht): Freigabe von Praxisname + Logo, den genannten Zahlen und
+dem Zitat für Website/LinkedIn/GBP, mit Widerrufsrecht. **Keine** Patienten-/Kundendaten
+der Praxis selbst — die Case Study zeigt nur die Zusammenarbeit mit der Praxisleitung.
+Volle Vorlage inkl. Musterformulierung: `strategie/pilot-akquise.md`.
 
-**Offen / später:**
-- Weitere Praxis-Arten nur bei echter Traktion (Osteopathie, Naturheilkunde, Massage …).
-- Ästhetik/Medical-Beauty als Blogpost-Thema statt eigener Seite.
-- Blog-Konzept + erste Beiträge (nächster Schritt).
-- Preise mit echten Gesprächen validieren.
-- Story Bank mit echten Pilot-Fällen füllen (ersetzt die Testimonials Schritt für
-  Schritt durch echte KI-Referenzen).
-- `/analyse/`-Tool: Doppelpunkt-Gendern im JS-Datenblock (Klient:innen, Ärzt:innen,
-  Selbstzahler:innen …) noch zu bereinigen — eigener, sorgfältiger Durchgang wegen der
-  vielen Wortzusammensetzungen.
+**Anschreiben-Vorlage & operative Details:** `strategie/pilot-akquise.md`.
 
 ---
 
 *Quellen: `AGENTS.md`, `strategie/brand_position.md`, `strategie/segmente.md`,
-`strategie/silicon-sampling.md`, `strategie/brand_data.md`, `strategie/pilot-akquise.md`.
-Marktzahlen synthetisch (ESOMAR ICC Code 2025), vor Festlegung mit echten Gesprächen
-validieren.*
+`strategie/silicon-sampling.md`, `strategie/brand_data.md`, `strategie/angebotsvorschlaege.md`,
+`strategie/pilot-akquise.md`. Marktzahlen synthetisch (ESOMAR ICC Code 2025), vor
+Festlegung mit echten Gesprächen validieren. Umsetzungs-Status der Website wird in der
+separaten Website-Session getrackt, nicht hier.*
