@@ -1,26 +1,36 @@
 # Angebotsvorschläge — Leonie Kaiser
 
-*Produktisierte Angebote für **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
+*Produktisierte Angebote für **Privatpraxen in Gesundheit & Wohlbefinden**
 (Selbstzahler, AT/DE/CH). Abgeleitet aus Positionierung, Brand Voice und der
 Silicon-Sampling-Studie. Preise sind **synthetische Orientierungs-Korridore (ESOMAR)** —
 mit den ersten echten Kunden validieren.*
 
-## Grundprinzipien (gelten für jedes Angebot)
+## Grundprinzipien (gelten für jedes Angebot — allgemeine Arbeitsweise)
 
 - **Produktisieren statt beraten:** klare Pakete mit benannten Ergebnissen — kein offenes
   „wir schauen mal". (Die Zielgruppe will Umsetzung, keine Workshops.)
 - **Erst Prozesse, dann Tool.** KI ist der Verstärker, nicht das Produkt.
 - **Datenschutz ist der Ausgangspunkt**, keine Option. Keine Gesundheitsdaten in billige US-Clouds.
-- **Ehrliches Nein:** „Das brauchen Sie nicht", wenn ein simpler Ablauf reicht.
+- **Ehrliches Nein:** „Das brauchen Sie nicht", wenn ein simpler Ablauf reicht — auch wo ein
+  simpler Ablauf statt komplexer KI reicht.
+- **Kein „schnell & einfach"-Versprechen, keine Erfolgs-Garantien, keine Fake-Verknappung.**
+  Echte Entlastung ist Arbeit, kein Wunder.
+- **Kundenzufriedenheit und hochwertiges Service** als eigenes Ziel — nicht nur schnellere
+  Prozesse für die Praxis, sondern spürbar zufriedenere Kundschaft *und* mehr freie Zeit
+  (auch Abende) für die Inhaberin selbst.
 - **Kern-Nutzenversprechen:** mehr Zeit fürs Kerngeschäft + ein reibungsloses, professionelles
   Kundenerlebnis. Das Persönliche bleibt — KI nimmt die Routine, nicht die Beziehung.
 
 ## Angebots-Architektur (Überblick)
 
-> **KI-Potenzialanalyse** (Einstieg) → **Erster Quick-Win** *oder* **Praxis-Automatisierungs-Projekt** → **Laufende Betreuung (Retainer)**
+> **KI-Potenzialanalyse** (Einstieg, kostenlos — der Nutzen selbst) → **Praxis-
+> Automatisierungs-Projekt** (Strategie → Roadmap → Implementierung) → **Laufende
+> Betreuung (Retainer)**
 
 Ein klarer Weg vom unverbindlichen Erstkontakt zur laufenden Zusammenarbeit — jede Stufe mit
-definiertem Ergebnis und transparentem Preis.
+definiertem Ergebnis und transparentem Preis. **Das Pilot-Angebot ist bewusst kein Teil
+dieser Leiter**, sondern ein separates, zeitlich begrenztes Einstiegsangebot nur für die
+ersten Praxen (siehe eigener Abschnitt weiter unten).
 
 ---
 
@@ -30,42 +40,54 @@ definiertem Ergebnis und transparentem Preis.
 - **Ergebnis:** Klarheit. Sie wissen nach 30 Minuten, wo der größte Zeit-Hebel liegt und was der
   erste sinnvolle Schritt ist.
 - **Leistungen:** 30-Min-Videocall · Aufnahme von Ist-Zustand, Zielen, größten Zeitfressern und
-  Datenschutz-Lage · 1–3 konkrete Quick-Win-Ideen · ehrliche Einschätzung (auch „lohnt sich nicht").
+  Datenschutz-Lage · 1–3 konkrete Ansatzpunkte · ehrliche Einschätzung (auch „lohnt sich nicht").
 - **Preis:** kostenfrei, unverbindlich.
 - **Framing (statt „kostenlos, kein Verkaufsgespräch"):** benanntes Ergebnis + ein konkretes,
   branchenspezifisches Beispiel + Referenz. Kein Abschlussdruck.
 
-## 2. Pilot-Angebot · *nur für die ersten Praxen*
+### Ablauf & Verkaufslogik der Potenzialanalyse
 
-- **Für wen:** 1–2 Praxen aus Longevity/Med-Wellness oder Ästhetik, mit denen die ersten echten
-  Referenzfälle entstehen.
-- **Ergebnis:** ein fertig eingerichteter erster Automatisierungs-Schritt — für Sie ein echter Case,
-  für die Praxis ein spürbarer Hebel ohne Risiko.
-- **Konditionen:** kostenfrei oder stark reduziert, im Tausch gegen ehrliches Feedback, Testimonial
-  und die Erlaubnis, (auf Wunsch anonymisierte) Zahlen zu nennen.
-- **Hinweis:** befristetes Einstiegsangebot, klar begrenzter Umfang (ein Quick-Win). Details: `pilot-akquise.md`.
+**Grundprinzip:** Die kostenlose Potenzialanalyse *ist* der Nutzen — kein verschenktes
+„Quick-Win-Einrichten" obendrauf. Kein Gratis-Aufbau ohne Vertrag (Risiko, Haftung, Zeit,
+Nachfass-Falle). Der Wert für die Praxis ist die **Klarheit**: vorher diffuses „irgendwas mit
+KI", nachher eine gebrandete PPTX, die schwarz auf weiß die größten Engpässe, die Lösung und
+das erwartbare Ergebnis zeigt.
 
-## 3. Erster Quick-Win · *Fixpaket, Einstieg in die Umsetzung*
+**Ablauf:**
+1. Potenzialanalyse-Gespräch (30 Min, kostenlos, Videocall) — Tool live ausfüllen → erzeugt
+   gebrandete PPTX.
+2. Am Ende des Calls die Folie „Wie es weitergehen kann" durchgehen (Strategie → Roadmap →
+   Implementierung).
+3. Konkretes Angebot statt Gratis-Arbeit: „Als Erstes setzen wir X um, kostet Y, dauert Z,
+   danach läuft es."
+4. Die Praxis zahlt für die Umsetzung — mit Vertrag, Verantwortung auf beiden Seiten.
 
-- **Für wen:** Praxen, die klein und risikoarm starten wollen.
-- **Ergebnis:** *ein* wiederkehrender Zeitfresser läuft ab jetzt automatisch (z. B. Terminerinnerung
-  + Lückenfüllung, oder automatisierte Nachsorge) — datenschutzkonform.
-- **Leistungen:** ein definierter Automatisierungs-Baustein, fertig eingerichtet · Einweisung des
-  Teams · Sie richten nichts selbst ein.
-- **Preis-Orientierung:** Fixpreis am unteren Korridor-Rand (siehe Preis-Tabelle) — bewusst
-  transparent, um den Folgekosten-Einwand zu entkräften.
+**Nachfassen löst sich von selbst:** Weil nichts gratis geliefert wird, gibt es nichts, dem
+man hinterherläuft. Der Nachfass gilt einem Angebot (professionell, erwartet), nicht einem
+verschenkten Ding (peinlich):
+- Im Call direkt: „Soll ich Ihnen ein konkretes Angebot schicken?" → Ja/Nein noch im Gespräch.
+- 1–2 Tage später: PPTX + schriftliches Angebot per Mail.
+- Nach ~5 Tagen: einmal kurz nachfassen — „Konnten Sie schon reinschauen?"
+- Kein „Ja" → kein Problem, gute Erfahrung bleibt, Empfehlungspotenzial.
 
-## 4. Praxis-Automatisierungs-Projekt · *das Aufbau-Projekt*
+**Kernunterschied:**
+- ✅ *Ratschlag/Angebot* (dieses Modell): die Praxis sieht das Potenzial und zahlt für die Umsetzung.
+- ❌ *Verworfen:* Gratis-Quick-Win einrichten — Arbeit ohne Vertrag, Haftungsrisiko, wird liegen gelassen.
+
+**Positionierung:** Ziel ist, dass die Praxis den Nutzen einer Zusammenarbeit sieht und dafür
+zahlen will — kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
+
+## 2. Praxis-Automatisierungs-Projekt · *das Aufbau-Projekt*
 
 - **Für wen:** Praxen, die spürbar entlasten und mehrere Abläufe ordnen wollen.
 - **Ergebnis:** Die wichtigsten organisatorischen Abläufe laufen strukturiert und teils automatisch —
   die Inhaberin ist nicht mehr der Flaschenhals.
-- **Leistungen:** Potenzialanalyse → **strategische Roadmap** (Priorisierung nach Hebel × Aufwand,
-  Datenschutz-first) → **Implementierung der ersten Automatisierungen** (No-Code/KI, in bestehende
+- **Leistungen:** **Strategie** (Priorisierung nach Hebel × Aufwand, Datenschutz-first) →
+  **Roadmap** → **Implementierung der ersten Automatisierungen** (No-Code/KI, in bestehende
   Tools integriert) → Team-Einweisung.
 - **Preis-Orientierung:** Einmalprojekt, Fixpreis oder klar umrissenes Paket (siehe Tabelle).
 
-## 5. Laufende Betreuung · *Retainer*
+## 3. Laufende Betreuung · *Retainer*
 
 - **Für wen:** Praxen, die wollen, dass die Systeme mitwachsen und jemand erreichbar bleibt.
 - **Ergebnis:** „Wer betreut das danach?" ist beantwortet — Sie stehen nie allein da.
@@ -76,6 +98,22 @@ definiertem Ergebnis und transparentem Preis.
 
 ---
 
+## Pilot-Angebot · *separat, nur für die ersten 3 Praxen — kein Teil der Angebots-Leiter*
+
+- **Für wen:** die ersten 3 Praxen aus den Start-Segmenten (Therapie-/Bewegungspraxen,
+  Longevity/Med-Wellness, Ernährungsberatung), mit denen die ersten echten Referenzfälle
+  entstehen.
+- **Ergebnis:** ein fertig eingerichteter erster Automatisierungs-Schritt — für Leonie ein
+  echter Case mit Zahlen, für die Praxis ein spürbarer Hebel ohne Risiko.
+- **Konditionen:** kostenfrei oder stark reduziert, im Tausch gegen ehrliches Feedback, ein
+  Testimonial **und die Einwilligung, die Praxis unter ihrem echten Namen** (nicht anonymisiert)
+  als Case zu zeigen — Zahlen, Ablauf, Ergebnis.
+- **Hinweis:** bewusst getrennt von den regulären Angeboten oben — zeitlich befristet, klar
+  begrenzter Umfang (ein Automatisierungs-Schritt), nur für die Akquise-Startphase. Details
+  & Ablauf: `pilot-akquise.md`.
+
+---
+
 ## Preis-Orientierung (synthetisch, Van Westendorp)
 
 **Korridore, keine exakten Zahlen** — aus der Studie abgeleitet, mit echten Kunden zu validieren.
@@ -83,22 +121,31 @@ definiertem Ergebnis und transparentem Preis.
 | Segment | Einmalprojekt (OPP) | Retainer/Monat (OPP) | Ideal-Preis (Projekt) |
 |---|:--:|:--:|:--:|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
-| Ästhetik | ~1.989 € | ~301 € | ~3.100 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
+| Ernährungsberatung / Diätologie | — | — | *nicht deep-dived, noch zu validieren* |
 
-- **Gesamt-Korridor Einmalprojekt:** ~1.740 – 3.667 € · **Retainer:** ~200 – 500 €/Monat.
-- **Quick-Win (Fixpaket):** am **unteren** Rand ansetzen (entkräftet den Folgekosten-Einwand).
-- **Segment-Logik:** Longevity und Ästhetik tragen den oberen Rand; Privat-Physio ist
-  preissensibler → dort schlank einsteigen.
+*Ästhetik-Preiszahlen aus der Studie (~1.989 €/~301 €/~3.100 €) bewusst aus der aktiven
+Preistabelle entfernt — Ästhetik ist derzeit keine aktive Zielgruppe, nur eine potenzielle
+Nische für später (siehe `segmente.md`). Bei Bedarf dort nachschlagen.*
+
+- **Gesamt-Korridor Einmalprojekt (Longevity/Physio):** ~1.520 – 3.500 € · **Retainer:** ~200 – 300 €/Monat.
+- **Erster Umsetzungsschritt im Rahmen des Automatisierungs-Projekts:** am **unteren** Rand
+  ansetzen (entkräftet den Folgekosten-Einwand).
+- **Segment-Logik:** Longevity trägt den oberen Rand; Privat-Physio ist preissensibler →
+  dort schlank einsteigen.
 - **Nicht zu billig:** es gibt eine „zu günstig → Qualität fraglich"-Schwelle. Transparente Fixpreise
   *nennen, bevor* gefragt wird.
 
-## Was NICHT Teil des Angebots ist (Anti-Mission)
+## Abgrenzung zum Angebot (was hier konkret nicht kaufbar ist)
 
-- Kein „schnell & einfach"-Versprechen, keine Erfolgs-Garantien, keine Fake-Verknappung.
 - Keine Gesundheitsdaten in billige US-Cloud-Tools — auch nicht auf Kundenwunsch.
-- Keine komplexe KI, wo ein simpler Ablauf reicht.
-- Kein Tool, an dem nur mitverdient wird — Empfehlung gehört dem Kunden.
+- Kein Tool, an dem nur mitverdient wird — Empfehlung gehört der Praxis.
+- Kein Gratis-Aufbau ohne Vertrag (siehe Verkaufslogik oben) — Umsetzung gibt es nur mit
+  klarem Angebot und Verantwortung auf beiden Seiten.
+
+*(Grundsätze zur allgemeinen Arbeitsweise — „kein schnell & einfach", „keine Garantien",
+„keine komplexe KI, wo ein simpler Ablauf reicht" — stehen oben unter Grundprinzipien; das
+ist Haltung, nicht Angebots-Abgrenzung.)*
 
 ## Eingebaute Einwandbehandlung (die 4 Zweifel der Zielgruppe)
 

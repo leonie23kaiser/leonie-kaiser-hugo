@@ -9,15 +9,17 @@ der Marke — wofür und wogegen sie steht. Klare Kante schlägt nett-zu-allen.*
 
 ## Mission (Wofür wir sind. Konkret.)
 
-Wir geben Inhaber:innen kleiner **Privatpraxen für Prävention, Ästhetik &
-Wohlbefinden** (privat/selbst bezahlte Gesundheit, keine Kassen-Akutmedizin) ihren
-Betrieb zurück — damit wieder sie führen statt zu verwalten. Wir bauen
-datenschutzkonforme Abläufe, die Termine, Aufnahme und wiederkehrende Verwaltung
-übernehmen, sodass der Betrieb auch ohne die Inhaberin als Flaschenhals läuft.
-Ergebnis: **mehr Zeit fürs Kerngeschäft und ein reibungsloses, professionelles
-Kundenerlebnis** — das, wovon Selbstzahler-Praxen leben. KI ist dabei Mittel, nicht
-Botschaft: Wir fangen bei den Prozessen an, nicht beim Tool. Und wir bleiben — die
-Systeme wachsen mit, niemand steht danach allein da.
+Wir geben Inhaber:innen kleiner **Privatpraxen in Gesundheit & Wohlbefinden**
+(privat/selbst bezahlte Gesundheit, keine Kassen-Akutmedizin) ihren Betrieb zurück —
+damit wieder sie führen statt zu verwalten. Wir bauen datenschutzkonforme Abläufe, die
+Termine, Aufnahme und wiederkehrende Verwaltung übernehmen, sodass der Betrieb auch
+ohne die Inhaberin als Flaschenhals läuft. Ergebnis: **mehr Zeit fürs Kerngeschäft, ein
+reibungsloses, professionelles Kundenerlebnis und spürbar zufriedenere Kundschaft** —
+das, wovon Selbstzahler-Praxen leben. Und: freie Abende auch für die Inhaberin selbst —
+nicht nur schnellere Prozesse fürs Team, sondern weniger Admin-Überstunden für die
+Person an der Spitze. KI ist dabei Mittel, nicht Botschaft: Wir fangen bei den
+Prozessen an, nicht beim Tool. Und wir bleiben — die Systeme wachsen mit, niemand
+steht danach allein da.
 
 **Und das Persönliche bleibt geschützt: KI nimmt die Routine, nicht die Beziehung.**
 

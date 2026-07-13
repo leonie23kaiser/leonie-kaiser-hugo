@@ -23,10 +23,17 @@ Details/Wording: `strategie/linkedin-profil.md`.
 
 **5 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
-2. klein (ca. 2–15, max ~30 Mitarbeitende)
+2. klein (ca. 2–15, max ~20 Mitarbeitende)
 3. sensible **Gesundheitsdaten** (DSGVO Art. 9) ← der Burggraben, **nie** weglassen
-4. keine IT-Abteilung
+4. keine eigene IT-Abteilung / kein:e interne:r Entwickler:in
 5. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
+
+**Zu Kriterium 4 — kein Vorab-Filter, sondern Erstgesprächs-Signal:** Von außen (Zielliste,
+Website) ist nicht erkennbar, ob eine Praxis eine IT-Abteilung hat — dazu gibt es keine
+öffentliche Quelle. Gemeint ist die Abwesenheit einer *dedizierten technischen Rolle*, die
+selbst Systeme bauen/warten könnte. Eine Einzelperson, die nebenbei ein bisschen Admin/IT
+mitmacht, schließt niemanden aus. In der Praxis zeigt sich das erst im Erstgespräch — und ist
+gleichzeitig ein Verkaufsargument („Sie werden nicht zur IT-Abteilung").
 
 **Mischpraxen:** drin, wenn Privatanteil **und** Veränderungsbereitschaft da sind.
 **Raus:** reine Hochvolumen-Kassen-Akutmedizin (kein Budget, keine Erlebnis-Motivation),
@@ -86,6 +93,14 @@ keine eigene Start-Seite.)*
 
 Nur bei **echter Traktion** (Anfragen, Empfehlungen) eine vierte Seite dazunehmen — und die
 Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
+
+**Zukünftige potenzielle Nischen (nicht jetzt, nur zur Orientierung):** aus Cluster A/B
+aktuell nicht bespielt — Ergotherapie, Logopädie, Osteopathie, Podologie, Heilpraktiker/
+Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie. Dazu explizit vorgemerkt:
+**Ästhetik/Medical-Beauty** — bewusst rausgenommen aus den 3 Start-Seiten (kippt Richtung
+„Beauty" statt „Gesundheit"), aber als potenzielle spätere Nische im Blick behalten, sobald
+eine der 3 aktuellen Seiten sich als nicht tragfähig erweist oder echte Traktion für eine
+vierte Seite da ist.
 
 ## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`)
 
