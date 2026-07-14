@@ -80,27 +80,70 @@ damit Ernährungsberatung erstmals vollwertige Stufe-2-Daten bekommt.
 echte Durchführung bedeutet reale API-Calls (Kosten, Laufzeit) über die
 Silicon-Sampling-Pipeline (`deep_dive.py`). Sag Bescheid, wenn das gestartet werden soll.
 
-## Vorschlag: dedizierter Prompt nur für Ernährungsberatung (Datenlücke schließen)
+## Ernährungsberatung/Diätologie — Deep Dive durchgeführt (2026-07-14)
 
-*Angefragt 2026-07-13: separater, engerer Prompt speziell für Ernährungsberatung, um
-gezielt die fehlenden Stufe-2-Daten zu holen. Zusätzlich zur Basis-Struktur oben zwei
-weitere Erhebungs-Phasen:*
+*48 Personas, echte kostenpflichtige API-Calls (Modell `claude-sonnet-4-6`), 5 Phasen
+(offen → Angebot → Van Westendorp → Positionierungs-Check → Twist-Check). Rohdaten
+offline, Report: `data/report_ernaehrung.md` (Pipeline-Verzeichnis, nicht im Repo).*
 
-**Phase 4 (neu) — Positionierungs-Check:** Der Persona wird die aktuelle Schirm-Formel
-wörtlich vorgelesen: „Ich helfe kleinen, inhabergeführten Gesundheits- und
-Behandlungsbetrieben (Wahlarzt / privat / Selbstzahler), die mit sensiblen
-Gesundheitsdaten arbeiten, ihren Alltag zu entlasten." Frage: „Trifft das auf Ihre Praxis
-zu? Was daran passt nicht, was fehlt?" — testet direkt, ob die aktuelle Positionierung
-(4 Anker-Kriterien, `segmente.md`) im Ernährungsberatungs-Segment trägt oder ob sie dort
-anders klingen müsste (z. B. weil viele Ernährungsberater:innen als Einzelpersonen ohne
-Team arbeiten — Passung zu „klein, 2–20 Mitarbeitende" prüfen).
+> ⚠️ Synthetische Daten, Hypothesen — vor Entscheidungen mit echten Interviews validieren.
 
-**Phase 5 (neu) — Segment-spezifischer Twist-Check:** Wird der vermutete Ernährungs-Twist
-(„wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content") von den Personas selbst als
-Kernschmerz bestätigt, oder gibt es einen anderen, bisher nicht dokumentierten Twist?
+**Steckbrief:** 48 Personas (27 = 56 % skeptisch/desinteressiert), Team 1–20 (Solo bis
+kleines Team), DACH.
 
-**Umfang:** ~40–50 Personas, ausschließlich Ernährungsberatung/Diätologie — kein
-Vergleich zu anderen Segmenten nötig, die haben bereits Stufe-2-Daten aus Runde 1.
+**Opportunity-Score: 9** (Leidensdruck 4/5 · Offenheit 2/5 · Zahlungsbereitschaft 2/5 ·
+Datenschutz-Hürde 5/5) — **niedrigstes Ergebnis der 3 aktiven Start-Segmente**, auf
+Augenhöhe mit dem bereits ausgeschlossenen Psychotherapie-Segment (Score 9) aus Runde 1.
+Ø Buchungs-Likelihood 3,9/10.
+
+**Van-Westendorp-Preisbereitschaft:**
+
+| | n valide | OPP | IPP | Akzeptanzspanne | Ø ideal |
+|---|:--:|:--:|:--:|:--:|:--:|
+| Einmalprojekt | 48 | 804 € | 1.506 € | 795 € – 1.818 € | 1.200 € |
+| Retainer/Monat | 48 | 151 € | 300 € | 149 € – 353 € | 280 € |
+
+Deutlich unter Physio (1.528 €/203 €) und Longevity (2.060 €/300 €).
+
+**Pain Points (nach Häufigkeit):** Krankenkassen-Abrechnung & Bürokratie (viele) ·
+administrativer Overhead/Rechnungen (viele) · Terminmanagement & Absagen (viele) ·
+Erstellung individueller Ernährungspläne (etwa die Hälfte) · ungeplante
+Klientenkommunikation zwischen Terminen/WhatsApp (etwa die Hälfte) · Tool-Fragmentierung
+(einige) · interne Team-Koordination bei Mehrpersonen-Praxen (einige) · Sichtbarkeit &
+unberechenbare Auslastung (einige).
+
+**⚠️ Positionierungs-Check — die aktuelle Schirm-Formel trifft nicht:** Trifft zu: 0 % ·
+Teilweise: 96 % · Nein: 4 %. Zentrale Kritikpunkte: „Behandlungsbetrieb" und „Wahlarzt"
+klingen nach Arztpraxis/Physiotherapie, nicht nach Ernährungsberatung; „privat/
+Selbstzahler" schließt Kassenmix-Praxen aus oder spricht sie nicht an; **die große
+Mehrheit ist Solo oder Solo-plus-eine** — „2–20 Mitarbeitende" erzeugt bei Solo-
+Praktiker:innen aktive Distanz („das ist eine andere Liga"). O-Töne: „'Behandlungsbetrieb'
+klingt nach Arztpraxis – ich berate, ich behandle nicht." / „2-20 Mitarbeitende – das ist
+nicht meine Welt, ich bin alleine." / „Wahlarzt und Selbstzahler ist eine Sprache aus der
+Medizin, nicht aus meiner Welt."
+
+**⚠️ Twist-Check — der vermutete Twist wird NICHT bestätigt:** Protokolle/Pläne-Zustimmung
+Ø 3,0/5, Sichtbarkeit-Zustimmung Ø 2,7/5 (beides nur mittelmäßig). Der tatsächlich
+dominante, am stärksten emotional besetzte Zeitfresser ist **Kassenabrechnung/
+Krankenkassen-Korrespondenz** (nicht in der bisherigen Twist-Formulierung enthalten),
+dazu ungeplante Klientenkommunikation zwischen Terminen und fehlende
+Follow-up-/Reaktivierungs-Struktur nach Paketabschluss.
+
+**Empfehlung aus der Studie:** Der Anker-Satz sollte für dieses Segment explizit
+Solo-Selbstständige ansprechen, auf „Behandlung"/„Wahlarzt" verzichten,
+Kassenabrechnung als konkreten Schmerzpunkt benennen, und Datenschutz mit konkreten
+Angaben (Serverstandort, Rechtsgrundlage) statt als Behauptung untermauern. Energie eher
+auf wachstumsorientierte Gründer:innen (DE/CH, Likelihood 6–7) statt auf die
+pensionsnahe, veränderungsmüde Gruppe (v. a. AT) richten.
+
+**Einordnung — zu entscheiden:** Das ist kein reines Copy-Problem, sondern eine
+grundsätzlich schwächere Opportunity als bei Physio/Longevity, UND die aktuelle
+Schirm-Sprache passt für dieses Segment schlecht. Zwei getrennte Fragen für Leonie:
+(1) Bleibt Ernährungsberatung Start-Segment trotz des niedrigsten Scores? (2) Falls ja,
+braucht die segment-spezifische Copy (`branchen.yaml`, `pilot-akquise.md`-Anschreiben)
+eine Solo-first-Anpassung, ohne den globalen Schirm für die anderen 2 Segmente
+anzufassen (Scheinwerfer-Prinzip). Noch nicht entschieden — Rückmeldung von Leonie
+ausständig.
 
 ## Vorschlag: Stufe-1-Scan der zukünftigen potenziellen Nischen (Ranking)
 

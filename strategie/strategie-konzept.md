@@ -221,10 +221,21 @@ Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen.
 |---|---|---|---|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
-| Ernährungsberatung / Diätologie | — | — | *nicht deep-dived, noch zu validieren* |
+| Ernährungsberatung / Diätologie | ~804 € | ~151 € | ~1.200 € |
 
 *Ästhetik-Preiszahlen aus der Studie bewusst nicht mehr in der aktiven Tabelle — Ästhetik
 ist derzeit keine aktive Zielgruppe, nur eine potenzielle spätere Nische (Kap. 3).*
+
+**⚠️ Ernährungsberatung deep-dived (2026-07-14, 48 Personas):** niedrigster
+Opportunity-Score (9) der 3 aktiven Segmente, deutlich schwächere Preisbereitschaft, UND
+die aktuelle Schirm-Sprache („Behandlungsbetrieb", „Wahlarzt/Selbstzahler", „2–20
+Mitarbeitende") trifft laut Studie bei 0 % der Personas voll zu (96 % nur teilweise) —
+die Mehrheit ist Solo und fühlt sich durch die Wortwahl nicht angesprochen. Der vermutete
+Twist (Protokolle/Pläne) wurde nicht bestätigt; tatsächlich dominiert Kassenabrechnung/
+Bürokratie. **Zwei offene Entscheidungen für Leonie:** (1) Ernährungsberatung trotz
+schwächstem Score als Start-Segment behalten? (2) Falls ja, Segment-Copy Solo-first
+anpassen (nur die Ernährungsberatung-Seite, nicht der globale Schirm). Details:
+`silicon-sampling.md`.
 
 Gesamt-Korridor (Longevity/Physio): Einmalprojekt ~1.520–3.500 € · Retainer ~200–300 €/Monat.
 Erster Umsetzungsschritt am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).

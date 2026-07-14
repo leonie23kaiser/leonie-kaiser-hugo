@@ -171,11 +171,16 @@ Automatisierung.
 |---|:--:|:--:|:--:|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
-| Ernährungsberatung / Diätologie | — | — | *nicht deep-dived, noch zu validieren* |
+| Ernährungsberatung / Diätologie | ~804 € | ~151 € | ~1.200 € |
 
 *Ästhetik-Preiszahlen aus der Studie (~1.989 €/~301 €/~3.100 €) bewusst aus der aktiven
 Preistabelle entfernt — Ästhetik ist derzeit keine aktive Zielgruppe, nur eine potenzielle
 Nische für später (siehe `segmente.md`). Bei Bedarf dort nachschlagen.*
+
+*⚠️ Ernährungsberatung deutlich unter den anderen 2 Segmenten (deep-dived 2026-07-14,
+48 Personas) — niedrigster Opportunity-Score (9) der 3 aktiven Segmente, größtenteils
+Solo-Praktiker:innen mit kleinerem Budget. Details, inkl. Hinweis dass die
+Segment-Positionierung selbst angepasst werden sollte: `silicon-sampling.md`.*
 
 - **Gesamt-Korridor Einmalprojekt (Longevity/Physio):** ~1.520 – 3.500 € · **Retainer:** ~200 – 300 €/Monat.
 - **Erster Umsetzungsschritt im Rahmen des Automatisierungs-Projekts:** am **unteren** Rand
