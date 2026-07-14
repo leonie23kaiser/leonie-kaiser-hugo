@@ -56,9 +56,27 @@ ist die **Spoke**, die Praxis-/Autoritätsseite der **Hub**. So entsteht topisch
 Autorität statt verstreuter Einzelposts.
 
 ### Säule A — Zeit & Abläufe („Chaos reduzieren")
-Der Kern-Schmerz: Termine, No-Shows, Doku, Nachsorge, „alles hängt an mir".
+Der Kern-Schmerz: Termine, No-Shows, Doku, Nachsorge (**Recall**), „alles hängt an mir".
 Breiteste Säule, ~90 % über alle Segmente identisch → einmal gut aufsetzen, oft nutzen.
 → **Verlinkt auf:** die drei Praxisseiten, je nach Segment-Twist.
+
+> **Ein großer Post oder mehrere normale? → Mehrere.** (Deine Frage.) Der Kern-Schmerz
+> hat mehrere Facetten (Termine, No-Shows, Doku, Recall, Flaschenhals) — jede ist eine
+> eigene Suchanfrage. **Ein Beitrag pro Facette** rankt besser (ein Keyword pro Post),
+> ist am Handy lesbar und lässt sich intern verlinken. Ein einzelner Riesen-Post würde
+> mehrere Keyword-Chancen in eine URL zwängen und sich selbst Konkurrenz machen. Später
+> können wir einen **Übersichts-/Pillar-Post** („Die 5 größten Zeitfresser in der
+> Praxis") darüberlegen, der auf die Einzelbeiträge verweist — Hub-and-Spoke.
+
+> **Was ist „Recall"?** Zwei verwandte, aber verschiedene Dinge — im Blog sauber zu
+> trennen (kein Wettbewerber tut das):
+> - **Terminerinnerung (Reminder):** erinnert an einen **schon gebuchten** Termin, damit
+>   er nicht vergessen wird → senkt No-Shows. Läuft 24–48 h vorher.
+> - **Recall (Reaktivierung/Nachsorge):** meldet sich bei Kundschaft, die **länger nicht
+>   da war** und keinen Folgetermin hat → holt Stammkundschaft zurück, bevor sie
+>   abwandert. „Wir haben Sie länger nicht gesehen — Zeit für den nächsten Check?"
+>
+> Reminder sichert den nächsten Termin, Recall den übernächsten. Praxen brauchen beides.
 
 ### Säule B — Datenschutz & EU AI Act
 Die größte Kaufbremse *und* Leonies stärkstes Verkaufsargument. Hier gewinnt der Blog
@@ -80,26 +98,45 @@ LinkedIn-Teilbarkeit. → **Verlinkt auf:** `/ueber-mich/`.
 rotiert der Scheinwerfer über die Segmente. Läuft ein Segment nicht, wird geschwenkt —
 ohne die Positionierung anzufassen.
 
+### Prozentuale Aufteilung (deine Frage)
+Richtwert über einen Zeitraum (z. B. je 10 Beiträge), keine starre Quote — die Mischung
+zählt, nicht die exakte Zahl:
+
+| Säule | Anteil | Warum |
+|---|---|---|
+| **A — Zeit & Abläufe** | **~40 %** | breitester Schmerz, meiste Suchanfragen, wiederverwendbar über alle Segmente |
+| **C — Praxis-Segmente** | **~30 %** | branchenspezifisch = stärkster Vertrauensanker; verteilt auf Physio/Longevity/Ernährung |
+| **B — Datenschutz & EU AI Act** | **~20 %** | größte Kaufbremse + stärkste Differenzierung; Autorität für `/eu-ai-act/` |
+| **D — Haltung** | **~10 %** | Persönlichkeit & LinkedIn-Reichweite; wenig SEO, aber wichtig fürs Vertrauen |
+
+Auf die ersten 10 Posts gerechnet: **A 4 · C 3 · B 2 · D 1** (D anteilig in #1/#9/#10
+mitgeführt). So bleibt der Fokus auf Traffic (A/C), ohne Vertrauen (B) und Gesicht (D)
+zu vernachlässigen.
+
 ---
 
 ## 4. Frequenz & Rhythmus
 
-**Empfehlung: zweistufig — Launch-Sprint, dann Dauerrhythmus.**
+**Festgelegt: 1 Beitrag pro Woche — dauerhaft.** (Entscheidung Leonie, 2026-07.)
 
 Weil das Schreiben mit KI-Unterstützung schneller geht, ist der Engpass **nicht die
 Produktion**, sondern deine **Sichtung und Freigabe** (HITL) — jeder Post soll deine
-Handschrift tragen, nicht nur „durchgewinkt" werden. Die Frequenz richtet sich also
-danach, wie viel du in Ruhe gegenlesen magst, nicht danach, wie schnell Text entsteht.
+Handschrift tragen, nicht nur „durchgewinkt" werden. Der Wochentakt ist so gewählt, dass
+er dauerhaft haltbar bleibt: Solange dir eine Wochen-Sichtung leichtfällt, bleibt es
+dabei. Wird es je zu eng, lieber ehrlich auf alle zwei Wochen gehen als die Qualität
+opfern — Verlässlichkeit schlägt Tempo.
 
-- **Launch-Sprint (Woche 1–10): 1 Beitrag pro Woche.** So sind die ersten 10 Posts in
-  gut zwei Monaten live, Google bekommt schnell eine Themen-Basis zu indexieren, und der
-  Blog wirkt von Anfang an lebendig statt halbleer. Das ist der Moment, in dem sich das
-  Schreib-Tempo am meisten auszahlt.
-- **Danach (ab Woche 11): 1 Beitrag alle 2 Wochen.** Verlässlich, dauerhaft haltbar,
-  genug für stetiges Wachstum ohne Druck. Lieber alle 14 Tage verlässlich als ein Monat
-  voll und dann Funkstille.
-- **Wenn dir wöchentlich dauerhaft leichtfällt:** gern beibehalten — mehr guter,
-  eigenständiger Content schadet nie. Nur nicht auf Kosten der Sichtung.
+### Launch: die ersten drei Posts gleichzeitig online
+Der Blog wird **nicht mit einem einzelnen Post eröffnet, sondern mit dreien auf einmal**
+(Entscheidung Leonie). Gründe:
+- Ein Blog mit nur einem Beitrag wirkt unfertig; drei Posts zeigen sofort Themenbreite
+  (Haltung, Zeit/Abläufe, Datenschutz) und dass hier regelmäßig etwas kommt.
+- Google bekommt gleich mehrere Seiten zum Indexieren und erste interne Verlinkung.
+- Die drei ersten Posts (#1 Vorstellung, #2 No-Shows Physio, #3 Datenschutz) decken je
+  eine andere Säule ab — ein runder erster Eindruck.
+
+**Ablauf:** #1–#3 fertigstellen, gemeinsam auf `draft: false` schalten und den Blog
+offiziell eröffnen (LinkedIn-Ankündigung). **Ab dann #4 ff. im Wochentakt.**
 
 **Grundregeln, unabhängig vom Takt:**
 - **Qualität vor Takt.** Ein guter, tiefer Beitrag schlägt vier dünne. Google belohnt
@@ -161,9 +198,16 @@ Die deutschen Top-Ergebnisse zu diesen Themen sind fast durchweg **Software-Anbi
 | Verkauft ein Produkt | Verkauft Klarheit — unabhängig vom Tool |
 
 **Leonies E-E-A-T-Kapital, das in die Beiträge gehört:** 7+ Jahre Business Consulting
-für Kleinbetriebe, EU-AI-Act-Kompetenz (Art. 4), Datenschutz als Haltung, Spezialisierung
-auf Gesundheits-/Wellness-Praxen. Das ist *Experience* und *Expertise* — sichtbar machen,
-nicht verstecken.
+für Kleinbetriebe, **Erfahrung aus der Pharma-Branche** (Verständnis für regulierte
+Umgebungen, Gesundheitsdaten und Qualitätsdenken), EU-AI-Act-Kompetenz (Art. 4),
+Datenschutz als Haltung, Spezialisierung auf Gesundheits-/Wellness-Praxen. Das ist
+*Experience* und *Expertise* — sichtbar machen, nicht verstecken.
+
+> **Hinweis zur Pharma-Erfahrung:** Sie ist ein **Autoritäts-Signal** (du kennst
+> regulierte, datensensible Umgebungen von innen) — nicht zu verwechseln mit der
+> Anti-Zielgruppe „große Pharma" aus der Positionierung. Du *bedienst* keine Pharma-
+> konzerne; deine Pharma-*Vergangenheit* macht dich bei Datenschutz und Sorgfalt
+> glaubwürdig. Genau so einbauen: als Herkunft deiner Sorgfalt, nicht als Zielmarkt.
 
 ---
 
@@ -216,9 +260,10 @@ Leonie sichtet nach. Zukünftiges `date` = geplante Veröffentlichung.
 
 ## 8. Die ersten 10 Beiträge (Redaktionsplan)
 
-Reihenfolge = Empfehlung. Start mit dem persönlichen Post (#1), dann abwechselnd
-Consideration-Fachbeiträge und ein Datenschutz-Anker. Alle Keywords sind
-Long-Tail-Vorschläge und vor dem Schreiben grob gegen die reale Suche zu prüfen.
+Reihenfolge = Empfehlung. **#1–#3 gehen gemeinsam zum Launch online** (Vorstellung +
+No-Shows + Datenschutz — je eine Säule), danach #4 ff. im Wochentakt. Alle Keywords sind
+Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche zu prüfen (wie das geht:
+siehe `strategie/blog-einzelkonzepte.md`, Abschnitt „Keyword gegen die reale Suche prüfen").
 
 | # | Working Title | Primär-Keyword | Intent | Säule | Verlinkt auf (Hub) |
 |---|---|---|---|---|---|
@@ -230,7 +275,7 @@ Long-Tail-Vorschläge und vor dem Schreiben grob gegen die reale Suche zu prüfe
 | **6** | Longevity-Praxis: fünf Tools, die nicht miteinander reden — und wie eine Kundenreise daraus wird | „Longevity Praxis Software verbinden" | Consideration | C | `/ki-fuer-longevity-praxen/` |
 | **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act Arztpraxis kleine Praxis" | Consideration | B | `/eu-ai-act/` |
 | **8** | Beratungsprotokolle in der Ernährungsberatung: Abende zurückgewinnen, ohne die persönliche Note zu verlieren | „Ernährungsberatung Dokumentation automatisieren" | Consideration | C | `/ki-fuer-ernaehrungsberatung-praxen/` |
-| **9** | Was kostet KI in einer kleinen Praxis — und woran Sie ein unseriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | A/D | `/#kontakt` + `/ueber-mich/` |
+| **9** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | A/D | `/#kontakt` + `/ueber-mich/` |
 | **10** | „Wir haben ChatGPT probiert, aber das war nichts Halbes und nichts Ganzes" — warum Tools ohne Prozess scheitern | „ChatGPT Praxis funktioniert nicht" | Consideration | A/D | `/ki-fuer-physiotherapie-praxen/` |
 
 **Verteilung:** Säule A 4× · B 2× · C 3× · D (anteilig in 1/9/10). Intent: Awareness 1 ·
@@ -274,14 +319,14 @@ Scheinwerfer. Schwache Beiträge überarbeiten (`lastmod` neu), nicht löschen.
 
 ## 10. Nächste Schritte
 
-1. **Dieses Konzept freigeben** (oder anpassen: Frequenz, Reihenfolge, Themen).
-2. **Einzelkonzepte erstellen** — pro Post ein kompaktes Briefing (Keyword-Check,
-   Search-Intent, Content-Gap, H1/H2/H3-Outline, interne Links). Liegt separat unter
-   `strategie/blog-einzelkonzepte.md`.
-3. **Launch-Sprint starten:** Post #1 (persönlicher Auftakt) ausarbeiten, dann im
-   Wochentakt #2–#10 nachziehen.
-4. Pro Beitrag der Weg: Einzelkonzept → Volltext → `draft: true` zur Sichtung →
-   Freigabe → HITL-Publishing (automatisches `journal-live`-Issue an Leonie).
+1. **Positionierung finalisieren** (Leonie macht noch kleine Anpassungen) — danach
+   Konzept und Einzelkonzepte gegen die finale Positionierung gegenprüfen.
+2. **Einzelkonzepte** für #1–#3 liegen vor (`strategie/blog-einzelkonzepte.md`);
+   #4–#10 folgen in gleicher Struktur auf Zuruf.
+3. **Launch-Paket bauen:** Volltexte #1–#3 ausarbeiten → gemeinsam `draft: true` zur
+   Sichtung → nach Freigabe zusammen online → Blog offiziell eröffnen.
+4. **Ab #4 Wochentakt.** Pro Beitrag der Weg: Einzelkonzept → Volltext → `draft: true`
+   zur Sichtung → Freigabe → HITL-Publishing (automatisches `journal-live`-Issue).
 
 ---
 

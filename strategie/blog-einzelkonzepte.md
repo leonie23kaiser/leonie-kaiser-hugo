@@ -19,6 +19,38 @@ und H1/H2/H3-Outline. Grundlage: `strategie/blog-konzept.md` (Gesamtstrategie),
 
 ---
 
+## Keyword gegen die reale Suche prüfen (Kurzanleitung)
+
+Die Keywords in diesem Doc sind begründete Vorschläge — **vor dem Schreiben** kurz gegen
+die echte Google-Suche gegenchecken. 10 Minuten pro Post genügen, alles kostenlos:
+
+1. **Google-Autocomplete.** Keyword ins Suchfeld tippen und schauen, was Google
+   automatisch vorschlägt — das sind reale, häufige Suchanfragen. Oft findet sich hier
+   eine bessere, konkretere Formulierung als die geplante.
+2. **„Ähnliche Fragen" / „Nutzer fragen auch" (People Also Ask).** Der aufklappbare
+   Frageblock mitten in den Suchergebnissen. Jede Frage ist ein potenzieller H2 oder
+   FAQ-Eintrag — **direkt als Struktur übernehmen.**
+3. **„Ähnliche Suchanfragen"** ganz unten auf der Ergebnisseite — liefert verwandte
+   Begriffe (semantische Keywords) für den Text.
+4. **Die Ergebnisseite selbst lesen.** Wer rankt auf Seite 1? Sind es Software-Anbieter
+   (dann haben wir eine inhaltliche Lücke, siehe Content-Gap) oder starke Fachartikel?
+   Passt die Antwortlänge zu unserem geplanten Beitrag? Ist die Suchintention wirklich
+   informierend (Blog-tauglich) oder rein kommerziell (dann eher eine Landingpage)?
+5. **Google Trends** (trends.google.com) — zeigt, ob ein Thema steigt oder fällt, und
+   erlaubt Vergleich zweier Formulierungen. Region auf Österreich/DACH stellen.
+6. **Kostenlose Keyword-Tools für Volumen-Schätzung:** Google Keyword Planner (mit
+   Google-Ads-Konto), AnswerThePublic (Fragen rund ums Thema), Ubersuggest (begrenzt
+   gratis). Zahlen sind grobe Richtwerte, keine Wahrheit — die Intention zählt mehr.
+7. **Sobald der Blog live ist: Google Search Console.** Das ehrlichste Werkzeug — zeigt,
+   für welche Begriffe die Seite *tatsächlich* erscheint. Nach 6–8 Wochen prüfen und die
+   Beiträge auf real gesuchte Formulierungen nachschärfen (`lastmod` neu).
+
+**Faustregel:** Lieber ein etwas kleineres, sehr konkretes Long-Tail-Keyword mit klarer
+Intention als ein großes, hart umkämpftes Kopf-Keyword. Wir gewinnen über Spezifik und
+Vertrauen, nicht über Volumen.
+
+---
+
 ## Post #1 — Vorstellung mit Leser-Hook
 
 ### Eckdaten
@@ -53,8 +85,11 @@ anonymen Anbieterstimme der Software-Konkurrenz — hier spricht ein Mensch mit 
   - H3: Sie sind Fachkraft, Chefin und Empfang zugleich
   - H3: Jedes neue Tool macht es kurz schlimmer, nicht besser
 - **H2: Wer ich bin — und warum mich genau das antreibt**
-  - Kurz und konkret: 7+ Jahre Business Consulting für Kleinbetriebe, der Weg zu KI,
-    warum Gesundheits-/Wellness-Praxen. Erfahrung benennen, ohne zu prahlen.
+  - Kurz und konkret: 7+ Jahre Business Consulting für Kleinbetriebe, Erfahrung aus der
+    Pharma-Branche (regulierte, datensensible Umgebungen — Herkunft meiner Sorgfalt beim
+    Datenschutz), der Weg zu KI, warum Gesundheits-/Wellness-Praxen. Erfahrung benennen,
+    ohne zu prahlen. *(Pharma als Autoritäts-Signal, nicht als Zielmarkt — siehe
+    Positionierung.)*
 - **H2: Wofür ich stehe (und wogegen)**
   - H3: Erst die Prozesse, dann das Tool
   - H3: Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte
