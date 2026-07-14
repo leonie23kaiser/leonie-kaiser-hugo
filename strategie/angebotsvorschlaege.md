@@ -84,21 +84,51 @@ zahlen will — kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
 - **Ablauf:** **Strategie** (Priorisierung nach Hebel × Aufwand, Datenschutz-first) →
   **Roadmap** → **Implementierung** → Team-Einweisung.
 
-**Was konkret umgesetzt wird (Bausteine, je nach Praxis kombiniert):**
-- **No-Code-Prozessautomatisierung:** Terminbuchung, Erinnerungen, Wartelisten-Nachbesetzung,
-  Anamnese-/Formularerfassung, wiederkehrende Abrechnungsschritte — als verbundene,
-  automatisch laufende Abläufe statt Einzeltools ohne Verbindung.
-- **KI-Agenten für wiederkehrende Kommunikation:** Erstbeantwortung häufiger Anfragen,
-  Entwürfe für Berichte/Rückmeldungen an Zuweiser:innen, Strukturierung von
-  Dokumentationsnotizen — die Praxisleitung prüft und gibt frei, schreibt nicht mehr
-  jedes Mal neu.
-- **Infrastruktur-Entscheidung Cloud vs. On-Premise:** je nach Sensibilität der Daten die
-  passende, rechtlich abgesicherte Lösung wählen (EU-Hosting wo möglich, AV-Verträge).
-- **Digitales Wissensmanagement:** ein einfaches, zentrales Team-Playbook für
-  wiederkehrende Abläufe — löst „das Wissen steckt nur in meinem Kopf".
-- **Rechtlicher Rahmen als Querschnitt, nicht als Extra-Leistung:** EU-AI-Act-Einstufung der
-  eingesetzten Tools, DSGVO-/Art.-9-konforme Datenflüsse und Haftungsfragen geklärt, bevor
-  etwas live geht.
+### Service-Katalog: was konkret umsetzbar ist
+
+*Ein Menü, kein Pflichtprogramm — jede Praxis wählt aus, was zu ihrem Kern-Schmerz passt
+(siehe Kap. 3 „homogener Kern-Schmerz"). Gruppiert nach dem, was es löst.*
+
+**1 · Termine & Anfragen** (löst: Termin-Engpass)
+- Automatisierte Terminbuchung (Selbstbuchungslink)
+- Intelligente Erinnerungen über den bevorzugten Kanal (SMS/E-Mail/WhatsApp)
+- Automatisches Nachbesetzen abgesagter Termine aus einer Warteliste
+- **Chatbot auf Website oder Social Media** für Erstanfragen (FAQ, Terminwunsch,
+  Preisauskunft)
+- KI-gestützte Erstbeantwortung wiederkehrender Anfragen
+
+**2 · Dokumentation & Wissen** (löst: Doku frisst Abende, Flaschenhals-Leitung)
+- Strukturierung von Behandlungsnotizen/Verlaufsdokumentation als Vorlage (keine
+  automatische Diagnose — die fachliche Beurteilung bleibt immer bei der Praxis)
+- Vorlagen-Bibliothek für wiederkehrende Dokumente (Berichte, Rückmeldungen an
+  Zuweiser:innen, individuelle Pläne)
+- Zentrales digitales Team-Playbook für wiederkehrende Abläufe — löst „das Wissen steckt
+  nur in meinem Kopf"
+
+**3 · Kundenbindung & Nachsorge** (löst: Nachsorge/Recall fällt hinten runter)
+- Automatisierte Nachsorge-/Recall-Sequenzen nach Behandlung/Beratung
+- Strukturierte Bewertungs- und Empfehlungsanfragen zum richtigen Zeitpunkt
+
+**4 · Vorlagen für Sichtbarkeit** (Werkzeuge zum Selbst-Befüllen, kein laufender
+Redaktionsservice)
+- Content-Bausteine/Vorlagen für Social Media und Newsletter
+- KI-gestützte Entwürfe für wiederkehrende Kommunikationstexte
+
+**5 · Technische & rechtliche Basis** (Querschnitt, in jedem Projekt enthalten)
+- Cloud (EU-Hosting) vs. On-Premise-Entscheidung je nach Datensensibilität
+- Team-Einführung in eingesetzte KI-Tools (z. B. Microsoft Copilot) inkl.
+  Datenschutz-Leitplanken
+- EU-AI-Act-Einstufung & DSGVO-/Art.-9-konforme Datenflüsse für alle eingesetzten Tools
+
+**Ablauf:** Strategie (welche Bausteine aus dem Katalog passen zum Kern-Schmerz dieser
+Praxis, priorisiert nach Hebel × Aufwand) → Roadmap → Implementierung → Team-Einweisung.
+
+**Explizit nicht dabei** (aus dem Katalog bewusst ausgeklammert): Social-Media-Content
+*laufend* redigieren/posten (die Vorlagen aus Punkt 4 schon, der Betrieb danach nicht),
+Kundenzufriedenheitsumfragen als laufender Service *durchführen* (die Automatisierung
+dafür schon), Grafikdesign/Branding/Website-Erstellung, Steuerberatung,
+medizinische/therapeutische Beratung, allgemeiner IT-Support außerhalb der eingerichteten
+Automatisierung.
 
 - **Preis-Orientierung:** Einmalprojekt, Fixpreis oder klar umrissenes Paket (siehe Tabelle).
 
@@ -155,28 +185,12 @@ Nische für später (siehe `segmente.md`). Bei Bedarf dort nachschlagen.*
 - **Nicht zu billig:** es gibt eine „zu günstig → Qualität fraglich"-Schwelle. Transparente Fixpreise
   *nennen, bevor* gefragt wird.
 
-## Out of Scope — was im Praxis-Automatisierungs-Projekt NICHT enthalten ist
-
-*Konkrete Abgrenzung des Leistungsumfangs — nicht Haltung/Anti-Mission (die steht oben
-unter Grundprinzipien).*
-
-- **Social-Media-Content-Erstellung** (laufende Postings, Redaktionsplan) — nicht Teil des
-  Projekts, auch wenn ein einzelner Automatisierungs-Baustein Content-Vorlagen erzeugen kann.
-- **Kundenzufriedenheitsumfragen durchführen** (als laufender Service) — die Automatisierung
-  dafür kann eingerichtet werden, das Auswerten/Betreiben ist Sache der Praxis.
-- **Grafikdesign, Branding, Website-Erstellung/-Pflege.**
-- **Steuerliche/buchhalterische Beratung** — Abrechnungs-*Automatisierung* ja, Steuerberatung nein.
-- **Medizinische/therapeutische Beratung jeder Art** — ausschließlich organisatorische/
-  administrative Prozesse.
-- **Allgemeiner IT-Support** (Hardware, Drucker, WLAN etc.) außerhalb der eingerichteten
-  Automatisierung.
-- **Laufender Betrieb/Wartung ohne Retainer** — nach Projektabschluss ist die laufende
-  Betreuung ein eigenes, separates Angebot (siehe oben), nicht automatisch inkludiert.
-
-*(Grundsätze zur allgemeinen Arbeitsweise — „kein schnell & einfach", „keine Garantien",
-„keine komplexe KI, wo ein simpler Ablauf reicht", keine Gesundheitsdaten in billige
-US-Clouds, kein Tool an dem nur mitverdient wird — stehen oben unter Grundprinzipien; das
-ist Haltung, keine Leistungsabgrenzung.)*
+*(Zusätzlich zum „Explizit nicht dabei" beim Service-Katalog oben: nach Projektabschluss
+ist die laufende Betreuung ein eigenes, separates Angebot (siehe Retainer oben), nicht
+automatisch inkludiert. Grundsätze zur allgemeinen Arbeitsweise — „kein schnell & einfach",
+„keine Garantien", keine Gesundheitsdaten in billige US-Clouds, kein Tool an dem nur
+mitverdient wird — stehen unter Grundprinzipien ganz oben; das ist Haltung, keine
+Leistungsabgrenzung.)*
 
 ## Eingebaute Einwandbehandlung (die 4 Zweifel der Zielgruppe)
 

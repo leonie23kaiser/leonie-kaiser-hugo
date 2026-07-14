@@ -229,13 +229,13 @@ ist derzeit keine aktive Zielgruppe, nur eine potenzielle spätere Nische (Kap. 
 Gesamt-Korridor (Longevity/Physio): Einmalprojekt ~1.520–3.500 € · Retainer ~200–300 €/Monat.
 Erster Umsetzungsschritt am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).
 
-**Out of Scope** (was im Automatisierungs-Projekt konkret nicht enthalten ist): Social-
-Media-Content-Erstellung, Kundenzufriedenheitsumfragen *durchführen*,
-Grafikdesign/Branding/Website, Steuerberatung, medizinische/therapeutische Beratung,
-allgemeiner IT-Support, laufender Betrieb ohne Retainer. Vollständige Liste:
-`angebotsvorschlaege.md`. *(Allgemeine Arbeitsweise/Haltung — „kein schnell & einfach",
-keine Garantien, keine Fake-Verknappung — steht in Kap. 2 Anti-Mission, das ist
-Leistungsabgrenzung.)*
+**Service-Katalog** (was im Automatisierungs-Projekt konkret umsetzbar ist, Menü nicht
+Pflichtprogramm): Termine & Anfragen (inkl. Chatbot auf Website/Social Media),
+Dokumentation & Wissen, Kundenbindung & Nachsorge, Vorlagen für Sichtbarkeit, technische &
+rechtliche Basis. Explizit nicht dabei: laufende Social-Media-Redaktion, laufende
+Kundenzufriedenheits*umfragen durchführen*, Grafikdesign/Branding/Website,
+Steuerberatung, medizinische/therapeutische Beratung, allgemeiner IT-Support. Vollständiger
+Katalog: `angebotsvorschlaege.md`.
 
 ---
 
