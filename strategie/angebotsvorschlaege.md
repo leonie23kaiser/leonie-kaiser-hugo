@@ -143,11 +143,10 @@ Automatisierung.
 
 ---
 
-## Pilot-Angebot · *separat, nur für die ersten 3 Praxen — kein Teil der Angebots-Leiter*
+## Pilot-Angebot · *separat, nur für die ersten 2 Praxen — kein Teil der Angebots-Leiter*
 
-- **Für wen:** die ersten 3 Praxen aus den Start-Segmenten (Therapie-/Bewegungspraxen,
-  Longevity/Med-Wellness, Ernährungsberatung), mit denen die ersten echten Referenzfälle
-  entstehen.
+- **Für wen:** die ersten 2 Praxen aus den Start-Segmenten (Therapie-/Bewegungspraxen,
+  Longevity/Med-Wellness), mit denen die ersten echten Referenzfälle entstehen.
 - **Ergebnis:** ein verkürztes Automatisierungs-Projekt — **2–3 zusammenhängende
   Automatisierungen in einem Themenfeld** (z. B. die gesamte Termin-Journey: Buchung,
   Erinnerung, Lückenfüllung, Recall — oder Erstanamnese + Dokumentations-Vorlage +
@@ -171,16 +170,12 @@ Automatisierung.
 |---|:--:|:--:|:--:|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
-| Ernährungsberatung / Diätologie | ~804 € | ~151 € | ~1.200 € |
 
-*Ästhetik-Preiszahlen aus der Studie (~1.989 €/~301 €/~3.100 €) bewusst aus der aktiven
-Preistabelle entfernt — Ästhetik ist derzeit keine aktive Zielgruppe, nur eine potenzielle
-Nische für später (siehe `segmente.md`). Bei Bedarf dort nachschlagen.*
-
-*⚠️ Ernährungsberatung deutlich unter den anderen 2 Segmenten (deep-dived 2026-07-14,
-48 Personas) — niedrigster Opportunity-Score (9) der 3 aktiven Segmente, größtenteils
-Solo-Praktiker:innen mit kleinerem Budget. Details, inkl. Hinweis dass die
-Segment-Positionierung selbst angepasst werden sollte: `silicon-sampling.md`.*
+*Ästhetik- und Ernährungsberatungs-Preiszahlen aus der Studie bewusst aus der aktiven
+Preistabelle entfernt — beide sind derzeit keine aktive Zielgruppe (Entscheidung
+2026-07-14: nur noch 2 Start-Segmente, siehe `segmente.md`), nur potenzielle
+Phase-2-Nischen. Ernährungsberatung: ~804 €/~151 €/~1.200 € (deep-dived 2026-07-14,
+48 Personas, niedrigster Score aller getesteten Segmente). Details: `silicon-sampling.md`.*
 
 - **Gesamt-Korridor Einmalprojekt (Longevity/Physio):** ~1.520 – 3.500 € · **Retainer:** ~200 – 300 €/Monat.
 - **Erster Umsetzungsschritt im Rahmen des Automatisierungs-Projekts:** am **unteren** Rand

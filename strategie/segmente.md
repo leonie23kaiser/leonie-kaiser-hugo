@@ -1,9 +1,16 @@
 # Segmente & Schirm — Zielgruppen-Schärfung
 
-*Stand: 2026-07-06. Verfeinert die Zielgruppe gegenüber `brand_position.md` und
+*Stand: 2026-07-14. Verfeinert die Zielgruppe gegenüber `brand_position.md` und
 `strategie-konzept.md`: breiterer, aber weiterhin scharfer Schirm, „Wahlarzt/privat/
 Selbstzahler" statt nur Selbstzahler, Mischpraxen drin. **Website-Session bitte mitziehen.**
 Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/ESOMAR).*
+
+> **Entscheidung 2026-07-14: nur noch 2 Start-Segmente (Physio, Longevity).**
+> Ernährungsberatung wurde deep-dived (Score 9, schwächster der 3) und ein Stufe-1-Scan
+> von 7 weiteren Nischen fand keine bessere Alternative — alle Solo-lastig, niedrigere
+> Preisklasse, hohe Datenschutz-Hürde, eher Folgesegmente als Kaltstart-Kandidaten.
+> Ernährungsberatung wandert zu den „Zukünftige potenzielle Nischen" — erst angehen,
+> sobald echte Referenzen aus Physio/Longevity da sind. Details: `silicon-sampling.md`.
 
 ## Der Schirm (ändert sich nie)
 
@@ -14,11 +21,10 @@ Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/E
 **Das ist die interne Strategie-Formel** — sie erklärt, wen wir meinen und warum. In der
 **externen Kurz-Copy** (LinkedIn-Headline, Banner, GBP-Beschreibung) wird daraus bewusst
 **„Privatpraxen in Gesundheit & Wohlbefinden"**: „Praxis" ist im Deutschen dehnbar genug für
-alle 3 Start-Segmente (auch Ernährungsberatung läuft als „Privatpraxis für Ernährungsberatung"
-in `branchen.yaml`), konkreter/griffiger als „Betriebe", und nennt keine Einzelsegmente — so
-muss bei einem Segment-Wechsel (Scheinwerfer-Prinzip) nichts umgeschrieben werden. Der volle
-Schirm-Wortlaut bleibt für längere Fließtexte (About-Section, Website-Unterseiten) reserviert.
-Details/Wording: `strategie/linkedin-profil.md`.
+jedes Start-Segment, egal wie viele es gerade sind, konkreter/griffiger als „Betriebe", und
+nennt keine Einzelsegmente — so muss bei einem Segment-Wechsel (Scheinwerfer-Prinzip) nichts
+umgeschrieben werden. Der volle Schirm-Wortlaut bleibt für längere Fließtexte (About-Section,
+Website-Unterseiten) reserviert. Details/Wording: `strategie/linkedin-profil.md`.
 
 **4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
@@ -63,8 +69,8 @@ Das ist das „Rad", das du nur einmal baust.
 ## Scheinwerfer-Prinzip (Flexibilität ohne Rebranding)
 
 Der **Schirm bleibt stabil** (Bio, GBP, Startseite). Im Content rotiert der **Scheinwerfer**
-über Segmente (diesen Monat Physio, nächsten Longevity, dann Ernährung …). Läuft ein Segment
-nicht → Scheinwerfer schwenken, **ohne** Positionierung/Bio/GBP anzufassen.
+über Segmente (diesen Monat Physio, nächsten Longevity …). Läuft ein Segment nicht →
+Scheinwerfer schwenken, **ohne** Positionierung/Bio/GBP anzufassen.
 
 ## Segment-Landkarte
 
@@ -75,35 +81,46 @@ Hebammen, Ernährungsberatung/Diätologie.
 **B. Prävention & Wohlbefinden (homogen-nah):**
 Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
 
-## Start-Unterseiten (genau 3)
+## Start-Unterseiten (genau 2)
 
 | Seite | deckt mit ab | Segment-Twist (die 10 %) |
 |---|---|---|
 | **Therapie- & Bewegungspraxen** *(Aushängeschild: Physio)* | Ergo, Osteo, Podo | Serientermine/Recall, Verordnung, Sport-Nachsorge |
 | **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
-| **Ernährungsberatung / Diätologie** | — | wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content |
 
 ## Erweitern
 
-Nur bei **echter Traktion** (Anfragen, Empfehlungen) eine vierte Seite dazunehmen — und die
-Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
+Eine dritte Seite kommt **erst, sobald echte Referenzen/Case Studies aus Physio und
+Longevity vorliegen** — nicht vorab geplant, sondern dann neu geprüft (welches Segment
+zu dem Zeitpunkt am meisten Anfragen/Empfehlungen zeigt).
 
-**Zukünftige potenzielle Nischen (nicht jetzt, nur zur Orientierung):** aus Cluster A/B
-aktuell nicht bespielt — Ergotherapie, Logopädie, Osteopathie, Podologie, Heilpraktiker/
-Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie.
+**Kandidaten für Phase 2** (alle bereits per Silicon Sampling geprüft, Scores 8–10,
+durchgängig niedriger als Physio/Longevity mit je 11 — Details: `silicon-sampling.md`):
 
-**Stufe-1-Scan durchgeführt (2026-07-14):** Alle 7 Nischen scoren bei 8–10 (Podologie am
-besten, Score 10) — **keine schlägt Physio/Longevity (je 11)**, und keine ist klar besser
-als Ernährungsberatung (Score 9). Durchgängiges Muster: Solo-Dominanz, niedrigere
-Preisklasse, hohe Datenschutz-Hürde — eher Folgesegmente nach etablierten Referenzen als
-Kaltstart-Kandidaten. Details: `silicon-sampling.md`.
+| Nische | Score |
+|---|:--:|
+| Podologie | 10 |
+| Ernährungsberatung / Diätologie | 9 |
+| Osteopathie | 9 |
+| Heilpraktiker/Naturheilkunde/TCM | 9 |
+| Hebammen | 9 |
+| Massage/manuelle Therapie | 9 |
+| Ergotherapie | 9 |
+| Logopädie | 8 |
 
-## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`)
+Durchgängiges Muster bei allen: Solo-Dominanz, niedrigere Preisklasse, hohe
+Datenschutz-Hürde — das sind Folgesegmente, die von Referenzen profitieren, nicht
+Kaltstart-Kandidaten.
 
-*Gleiches Format wie die bestehenden Physio-/Longevity-Einträge. Zum 1:1-Übernehmen in der
-Website-Session. Basis: homogener Kern-Schmerz + Ernährungs-Twist (wiederkehrende
-Protokolle/Pläne, Sichtbarkeit ohne Mehraufwand). Beispielszenario ist illustrativ, kein
-realer Kundenfall.*
+## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`, Phase 2)
+
+*Gleiches Format wie die bestehenden Physio-/Longevity-Einträge. **Nicht mehr aktiv
+verfolgen, bis Phase 2 ansteht** (siehe „Erweitern" oben) — Baustein bleibt hier
+aufbewahrt, damit er nicht neu geschrieben werden muss, wenn es soweit ist. Basis:
+homogener Kern-Schmerz + Ernährungs-Twist, allerdings zeigt der Deep Dive
+(`silicon-sampling.md`), dass die Solo-Struktur und der Kassenabrechnungs-Schmerz beim
+tatsächlichen Ausrollen stärker betont werden sollten als hier ursprünglich entworfen.
+Beispielszenario ist illustrativ, kein realer Kundenfall.*
 
 ```yaml
 - slug: ernaehrungsberatung

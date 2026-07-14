@@ -1,9 +1,14 @@
 # Pilot-Akquise: die ersten echten Praxis-Cases gewinnen
 
-*Operative Vorlage. Ziel: **3 Pilotprojekte**, eines je Start-Segment (Therapie-/
-Bewegungspraxen, Longevity/Medical-Wellness, Ernährungsberatung/Diätologie), um erste
-echte Fälle **mit Zahlen** und belastbare, namentliche Testimonials zu bekommen. In Brand
-Voice: Sie-Form, ruhig, kein Hype.*
+*Operative Vorlage. Ziel: **2 Pilotprojekte**, eines je Start-Segment (Therapie-/
+Bewegungspraxen, Longevity/Medical-Wellness), um erste echte Fälle **mit Zahlen** und
+belastbare, namentliche Testimonials zu bekommen. In Brand Voice: Sie-Form, ruhig, kein
+Hype.*
+
+> **Update 2026-07-14:** Ernährungsberatung wurde per Silicon Sampling geprüft (Score 9,
+> Solo-lastig, aktuelle Positionierungs-Sprache passt nicht gut) und ein Scan von 7
+> weiteren Nischen fand keine bessere Alternative — deshalb nur noch 2 Start-Segmente für
+> die Kaltstart-Phase. Details: `segmente.md`, `silicon-sampling.md`.
 
 > **Reihenfolge — kombinieren, nicht nacheinander:** keine separate Marktumfrage-Runde
 > (10–20 Interviews) *vor* der Pilot-Akquise. Die Erstgespräche mit potenziellen
@@ -33,11 +38,11 @@ Praxisnamen, echtem Logo (mit Einwilligung) ist der stärkere Vertrauensbeleg. W
 namentlich genannt werden will, wird kein Pilot-Case — dann eignet sich die Praxis für ein
 reguläres, bezahltes Projekt ohne Case-Study-Verpflichtung.
 
-**Wen ansprechen:** je 1 Praxis aus jedem der 3 Start-Segmente (Therapie-/Bewegungspraxen –
-Physio als Aushängeschild, Longevity/Medical-Wellness, Ernährungsberatung/Diätologie) —
-idealerweise aus dem eigenen Netzwerk, sonst DACH-weit remote. Persönliche Einführung
-schlägt Kaltakquise. *(Kein Wien-Fokus — Leonie arbeitet remote und ist nicht durchgehend
-in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor Ort".)*
+**Wen ansprechen:** je 1 Praxis aus jedem der 2 Start-Segmente (Therapie-/Bewegungspraxen –
+Physio als Aushängeschild, Longevity/Medical-Wellness) — idealerweise aus dem eigenen
+Netzwerk, sonst DACH-weit remote. Persönliche Einführung schlägt Kaltakquise. *(Kein
+Wien-Fokus — Leonie arbeitet remote und ist nicht durchgehend in Österreich; „lokal"
+heißt hier „übers Netzwerk gefunden", nicht „vor Ort".)*
 
 ## Anschreiben-Vorlage (E-Mail / LinkedIn-DM)
 
@@ -62,8 +67,7 @@ in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor
 > Leonie Kaiser
 
 *(Segment-Twist je Ansprache: Physio/Therapie → „zwischen Behandlungen, Terminen und
-Nachsorge"; Longevity → „zwischen Erstgesprächen, Laborwerten und Kundenreise";
-Ernährungsberatung → „zwischen Beratungsprotokollen, Wochenplänen und Nachfassen".)*
+Nachsorge"; Longevity → „zwischen Erstgesprächen, Laborwerten und Kundenreise".)*
 
 ## Zusätzliche Fragen im Erstgespräch (Marktforschung nebenbei, keine separate Umfrage)
 
@@ -87,9 +91,9 @@ Wins. Ergänzend im Gespräch (mündlich, nicht im Tool):
   Van-Westendorp-Werte aus der Studie mit echten Reaktionen)
 
 *(Hinweis zum Tool selbst: Die Betriebstyp-Auswahl in `static/analyse/index.html` enthält
-noch „Ästhetische Praxis" und „Personal-Training/Fitness-Studio" — das gehört in den
-Scope der Website-Session; dort ansprechen, falls die Liste an die 3 Start-Segmente
-angepasst werden soll.)*
+noch „Ästhetische Praxis", „Personal-Training/Fitness-Studio" und „Ernährungsberatung" —
+das gehört in den Scope der Website-Session; dort ansprechen, falls die Liste auf die
+jetzt 2 Start-Segmente angepasst werden soll.)*
 
 ## Welche Daten erhoben werden (für die Case Study)
 

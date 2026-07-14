@@ -2,7 +2,7 @@
 
 *Internes Arbeitsdokument. Konsolidiert aus AGENTS.md (Brand Voice, kanonisch),
 brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampling.md
-(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-13.*
+(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-14.*
 
 > Preiszahlen sind synthetische Orientierungs-Korridore (Silicon Sampling / ESOMAR)
 > und mit echten Kundengesprächen zu validieren.
@@ -23,7 +23,7 @@ weniger Admin-Überstunden für die Person an der Spitze. KI ist Mittel zum Zwec
 Arbeit beginnt bei den Prozessen, nicht beim Tool. Das Persönliche bleibt geschützt: KI
 nimmt die Routine, nicht die Beziehung.
 
-**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **3** echten Praxis-Fälle (je
+**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **2** echten Praxis-Fälle (je
 einer aus jedem Start-Segment) mit Zahlen und Referenzen gewinnen (siehe Kapitel 7).
 
 Drei tragende Säulen:
@@ -88,14 +88,16 @@ In der Copy daher immer **Erlebnis-Gewinn zusammen mit Zeit-Gewinn** nennen.
 
 ### Segment-Landkarte & Start-Seiten
 
-Drei Start-Segmente (mehr braucht es vorerst nicht — Erweiterung nur bei echter
-Traktion, dann neu geprüft):
+**Zwei Start-Segmente** (Entscheidung 2026-07-14, vorher drei — Ernährungsberatung
+wurde deep-dived und per Stufe-1-Scan gegen 7 Alternativ-Nischen getestet, siehe unten):
 
 | Seite | deckt mit ab | Segment-Twist |
 |---|---|---|
 | **Therapie- & Bewegungspraxen** *(Physio als Aushängeschild)* | Ergo, Osteopathie, Podologie | Serientermine/Recall, Verordnung, Sport-Nachsorge |
 | **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
-| **Ernährungsberatung / Diätologie** | — | wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content |
+
+Eine dritte Seite kommt **erst, sobald echte Referenzen aus Physio/Longevity vorliegen**
+— kein Vorab-Ausbauplan, Auswahl erst dann neu geprüft.
 
 **Scheinwerfer-Prinzip:** Der Schirm bleibt stabil (Bio, GBP, Startseite). Im Content
 (LinkedIn, Blog) rotiert der Scheinwerfer über Segmente — läuft eines nicht, wird
@@ -108,19 +110,18 @@ Segment-Landkarte: `strategie/segmente.md`.
 |---|---|---|---|
 | Longevity / Medical-Wellness (Premium) | 11 | 2.060 € | 300 € |
 | Physio-/Therapiepraxen | 11 | 1.528 € | 203 € |
-| Ernährungsberatung / Diätologie | *ausständig* | *ausständig* | *ausständig* |
-
-*Ernährungsberatung wurde in der Studie nur in Stufe 1 gescannt, nicht deep-dived — Score/
-Preise fehlen noch. Vorschlag für eine Stufe-2-Runde: siehe `strategie/silicon-sampling.md`.*
 
 **Archetyp „Martina, 47":** Inhaberin einer Privat-/Präventions-Physiopraxis mit fünf
 Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
 entscheidet schnell bei klarem Nutzen + überschaubarem Aufwand, Datenschutz sehr
 wichtig, lebt von privat zahlender Kundschaft.
 
-**Zukünftige potenzielle Nischen** (nicht jetzt, nur zur Orientierung): Ergotherapie,
-Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/TCM, Hebammen,
-Massage/manuelle Therapie. Details: `segmente.md`.
+**Kandidaten für Phase 2** (alle deep-dived/gescannt, Scores 8–10, durchgängig unter
+Physio/Longevity): Podologie (10), **Ernährungsberatung/Diätologie (9)**, Osteopathie (9),
+Heilpraktiker/Naturheilkunde/TCM (9), Hebammen (9), Massage/manuelle Therapie (9),
+Ergotherapie (9), Logopädie (8). Durchgängiges Muster: Solo-Dominanz, niedrigere
+Preisklasse, hohe Datenschutz-Hürde — eher Folgesegmente nach Referenzen als
+Kaltstart-Kandidaten. Details: `segmente.md`, `silicon-sampling.md`.
 
 ### Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
@@ -209,7 +210,7 @@ Betreuung (Retainer).**
 3. **Laufende Betreuung (Retainer)** — monatlicher Check-in, Optimierung, fester
    Ansprechpartner. Von Anfang an als Vertrauens-Anker.
 
-**Separat — Pilot-Angebot (nur die ersten 3 Praxen):** ein verkürztes
+**Separat — Pilot-Angebot (nur die ersten 2 Praxen):** ein verkürztes
 Automatisierungs-Projekt mit **2–3 zusammenhängenden Automatisierungen** in einem
 Themenfeld (nicht nur ein einzelner Schritt — sonst fehlt die Substanz für eine echte
 Case Study), kostenfrei/reduziert gegen Feedback, Testimonial und die Einwilligung, die
@@ -221,21 +222,12 @@ Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen.
 |---|---|---|---|
 | Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
-| Ernährungsberatung / Diätologie | ~804 € | ~151 € | ~1.200 € |
 
-*Ästhetik-Preiszahlen aus der Studie bewusst nicht mehr in der aktiven Tabelle — Ästhetik
-ist derzeit keine aktive Zielgruppe, nur eine potenzielle spätere Nische (Kap. 3).*
-
-**⚠️ Ernährungsberatung deep-dived (2026-07-14, 48 Personas):** niedrigster
-Opportunity-Score (9) der 3 aktiven Segmente, deutlich schwächere Preisbereitschaft, UND
-die aktuelle Schirm-Sprache („Behandlungsbetrieb", „Wahlarzt/Selbstzahler", „2–20
-Mitarbeitende") trifft laut Studie bei 0 % der Personas voll zu (96 % nur teilweise) —
-die Mehrheit ist Solo und fühlt sich durch die Wortwahl nicht angesprochen. Der vermutete
-Twist (Protokolle/Pläne) wurde nicht bestätigt; tatsächlich dominiert Kassenabrechnung/
-Bürokratie. **Zwei offene Entscheidungen für Leonie:** (1) Ernährungsberatung trotz
-schwächstem Score als Start-Segment behalten? (2) Falls ja, Segment-Copy Solo-first
-anpassen (nur die Ernährungsberatung-Seite, nicht der globale Schirm). Details:
-`silicon-sampling.md`.
+*Ästhetik- und Ernährungsberatungs-Preiszahlen aus der Studie bewusst nicht mehr in der
+aktiven Tabelle — beide sind derzeit keine aktive Zielgruppe, nur potenzielle
+Phase-2-Nischen (Kap. 3). Ernährungsberatung: ~804 €/~151 €/~1.200 € (deep-dived
+2026-07-14, 48 Personas, niedrigster Score aller getesteten Segmente). Details:
+`silicon-sampling.md`.*
 
 Gesamt-Korridor (Longevity/Physio): Einmalprojekt ~1.520–3.500 € · Retainer ~200–300 €/Monat.
 Erster Umsetzungsschritt am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).
@@ -266,9 +258,9 @@ reichen nicht": den Gratis-Call nie so bewerben, sondern mit konkretem Ergebnis 
 
 ## 7. Startplan: die ersten 90 Tage (0 → erste Referenzen)
 
-Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **3 echte Fälle** (einer je
-Start-Segment: Therapie-/Bewegungspraxen, Longevity/Medical-Wellness, Ernährungsberatung)
-mit Vorher-/Nachher-Zahlen und namentlichen Testimonials.
+Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **2 echte Fälle** (einer je
+Start-Segment: Therapie-/Bewegungspraxen, Longevity/Medical-Wellness) mit
+Vorher-/Nachher-Zahlen und namentlichen Testimonials.
 
 **Keine getrennte Marktumfrage vorweg:** Die Pilot-Erstgespräche selbst sind schon die
 Marktvalidierung (gleiche Fragen zu Kernschmerz + Zahlungsbereitschaft + die 3
@@ -284,9 +276,9 @@ Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte Zahl wirk
 wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel (Kap. 4).
 
 ### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
-- Zielliste: **5–7 Praxen je Start-Segment** (Therapie/Physio, Longevity,
-  Ernährungsberatung), primär aus dem eigenen Netzwerk, sonst DACH-weit remote
-  ansprechbar (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
+- Zielliste: **5–7 Praxen je Start-Segment** (Therapie/Physio, Longevity), primär aus
+  dem eigenen Netzwerk, sonst DACH-weit remote ansprechbar (kein Wien-/Vor-Ort-Fokus,
+  siehe Kap. 4 SEO-Regel).
 - Pilot-Umfang je Segment grob festlegen (welches Themenfeld mit 2–3 zusammenhängenden
   Automatisierungen realistisch in 2–4 Wochen einzurichten ist).
 - Datenschutz-Mappe vorbereiten (AV-Verträge, EU-Hosting-Nachweis) — Antwort auf den
@@ -296,12 +288,12 @@ wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel (Kap. 4).
   angesprochen werden kann — keine Überraschung erst nach getaner Arbeit.
 
 ### Phase 2 — Tag 15–45: Ansprache & Erstgespräche
-- 5–8 personalisierte Anschreiben/Woche, Ziel: 3–5 Erstgespräche über alle 3 Segmente.
+- 5–8 personalisierte Anschreiben/Woche, Ziel: 3–5 Erstgespräche über beide Segmente.
 - Im Erstgespräch: Ausgangswerte messen (Messfrage 1), Situation in eigenen Worten
   erfassen, Einwilligung fürs Case-Prinzip grundsätzlich klären (Name statt
   Anonymisierung), zusätzliche Marktforschungs-Fragen stellen (siehe `pilot-akquise.md`).
 - **1 Pilot je Segment** verbindlich starten (Umfang begrenzt, 2–3 zusammenhängende
-  Automatisierungen) — Ziel: 3 laufende Piloten am Ende dieser Phase.
+  Automatisierungen) — Ziel: 2 laufende Piloten am Ende dieser Phase.
 
 ### Phase 3 — Tag 46–90: Umsetzung, Beweis, Case Study
 - Automatisierungen liefern + Team einweisen.

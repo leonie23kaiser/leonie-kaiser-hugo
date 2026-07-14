@@ -12,7 +12,7 @@
 
 - **Wirtschaftlich stärkste Segmente (Studien-Rohbefund):** Longevity / Medical-Wellness (Premium), Zahnarzt und Ästhetik — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis). *Hinweis: Zahnarzt wurde später bewusst ausgeschlossen (Kassenlogik, kein Selbstzahler-Wohlbefinden) — siehe strategische Entscheidung unten.*
 - **Schwächstes Segment:** Psychotherapeutische Praxen — niedrigster Projektwert (820 €) und ein *kategorialer* (nicht taktischer) Widerstand gegen „KI im therapeutischen Kontext", der nicht durch besseres Verkaufen lösbar ist.
-- **Strategische Entscheidung (Leonie, aktualisiert 2026-07-06):** Schirm = **kleine, inhabergeführte Gesundheits- und Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler, sensible Gesundheitsdaten, keine IT-Abteilung); **Mischpraxen mit Privatanteil + Veränderungsbereitschaft ausdrücklich drin.** **3 Start-Segmente:** Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity/Medical-Wellness, Ernährungsberatung. **Ästhetik** bleibt erreichbar, aber **nur über Content** (Blog/Einzelanfragen), keine Start-Seite. **Ausgeschlossen:** reine Hochvolumen-Kassen-Akutmedizin, **Zahnärzte**, Kliniken, Apotheken, Pflege, **klinische Psychotherapie/Psychiatrie**, große Pharma. Details & Segment-Landkarte: `segmente.md`. *(Die Studien-Rohbefunde unten bleiben als Record unverändert — inkl. der ursprünglich mituntersuchten, jetzt ausgeschlossenen Segmente Zahnarzt & Psychotherapie.)*
+- **Strategische Entscheidung (Leonie, aktualisiert 2026-07-14):** Schirm = **kleine, inhabergeführte Gesundheits- und Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler, sensible Gesundheitsdaten); **Mischpraxen mit Privatanteil + Veränderungsbereitschaft ausdrücklich drin.** **2 Start-Segmente:** Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity/Medical-Wellness. **Ernährungsberatung** wurde deep-dived (Score 9) und gegen 7 weitere Nischen getestet (Stufe-1-Scan, Scores 8–10) — keine schlägt Physio/Longevity (je 11), daher als Phase-2-Kandidat zurückgestellt, bis echte Referenzen vorliegen. **Ästhetik** bleibt erreichbar, aber **nur über Content** (Blog/Einzelanfragen), keine Start-Seite. **Ausgeschlossen:** reine Hochvolumen-Kassen-Akutmedizin, **Zahnärzte**, Kliniken, Apotheken, Pflege, **klinische Psychotherapie/Psychiatrie**, große Pharma. Details & Segment-Landkarte: `segmente.md`. *(Die Studien-Rohbefunde unten bleiben als Record unverändert — inkl. der ursprünglich mituntersuchten, jetzt ausgeschlossenen Segmente Zahnarzt & Psychotherapie.)*
 - **Drei Kern-Hebel für Positionierung & Copy** (fließen in `AGENTS.md` ein):
   1. **Produktisieren statt beraten** — alle Segmente wollen *fertige Lösungen* mit klaren Deliverables, keine offenen Strategie-Mandate.
   2. **Branchenspezifische Referenzen** sind der stärkste Vertrauensanker — ein Generalist verliert das Erstgespräch.
@@ -136,14 +136,13 @@ Angaben (Serverstandort, Rechtsgrundlage) statt als Behauptung untermauern. Ener
 auf wachstumsorientierte Gründer:innen (DE/CH, Likelihood 6–7) statt auf die
 pensionsnahe, veränderungsmüde Gruppe (v. a. AT) richten.
 
-**Einordnung — zu entscheiden:** Das ist kein reines Copy-Problem, sondern eine
-grundsätzlich schwächere Opportunity als bei Physio/Longevity, UND die aktuelle
-Schirm-Sprache passt für dieses Segment schlecht. Zwei getrennte Fragen für Leonie:
-(1) Bleibt Ernährungsberatung Start-Segment trotz des niedrigsten Scores? (2) Falls ja,
-braucht die segment-spezifische Copy (`branchen.yaml`, `pilot-akquise.md`-Anschreiben)
-eine Solo-first-Anpassung, ohne den globalen Schirm für die anderen 2 Segmente
-anzufassen (Scheinwerfer-Prinzip). Noch nicht entschieden — Rückmeldung von Leonie
-ausständig.
+**Einordnung:** Das ist kein reines Copy-Problem, sondern eine grundsätzlich schwächere
+Opportunity als bei Physio/Longevity, UND die aktuelle Schirm-Sprache passt für dieses
+Segment schlecht. **Entschieden (2026-07-14):** Ernährungsberatung wird kein
+Start-Segment mehr — siehe Stufe-1-Scan unten, der auch keine bessere Alternative fand.
+Wird zu Phase-2-Kandidat, sobald echte Referenzen aus Physio/Longevity vorliegen; die
+hier dokumentierte Solo-first-Erkenntnis bleibt dann als Vorlage für die Copy-Anpassung
+gültig.
 
 ## Stufe-1-Scan der zukünftigen potenziellen Nischen — durchgeführt (2026-07-14)
 
@@ -180,24 +179,20 @@ etablierten Physio-/Longevity-Referenzen** als Kaltstart-Segment.
 Segmentwahl hinausgeht — kleinere Solo-lastige Therapie-/Beratungs-Nischen sind ohne
 Referenzen generell schwer kaltzustarten, unabhängig davon, welche man wählt. Das ist
 weniger ein „falsches Segment gewählt"-Problem als ein „Solo-Praxen brauchen zuerst
-Vertrauensbeweise"-Problem. Drei Optionen für Leonie:
-1. **Ernährungsberatung behalten**, Segment-Copy Solo-first anpassen (siehe oben) — hat
-   bereits echte Deep-Dive-Daten, kein Score-Vorteil bei den Alternativen.
-2. **Podologie testen** (knapp bester Alternativ-Score 10) — aber nur 1 Punkt besser,
-   mit eigener Polarisierungs-Problematik, würde einen vollen Deep-Dive + komplett neue
-   Segment-Seite bedeuten (Wechselkosten hoch für kleinen Score-Gewinn).
-3. **Auf 2 Start-Segmente reduzieren** (nur Physio + Longevity, beide Score 11) für die
-   Kaltstart-Phase, alle Solo-lastigen Nischen (inkl. Ernährungsberatung) als „Phase 2 nach
-   den ersten Referenzen" behandeln statt als paralleles Startsegment.
+Vertrauensbeweise"-Problem.
 
-**Noch nicht entschieden — Rückmeldung von Leonie ausständig.**
+**Entschieden (2026-07-14, Leonie): Option 3 — auf 2 Start-Segmente reduzieren** (nur
+Physio + Longevity, beide Score 11) für die Kaltstart-Phase. Alle Solo-lastigen Nischen
+(inkl. Ernährungsberatung und die 7 hier getesteten) werden als „Phase 2 nach den ersten
+Referenzen" behandelt, nicht als paralleles Startsegment. Details/Umsetzung:
+`segmente.md`, `strategie-konzept.md`.
 
 ---
 
 ## Übersetzung auf die aktuelle Zielgruppe (Stand 2026-07-06)
 
 Die Studie untersuchte 5 Segmente. So ordnen sie sich in die **aktuelle Positionierung**
-(Schirm + 3 Start-Segmente, siehe `segmente.md`) ein:
+(Schirm + 2 Start-Segmente, Stand 2026-07-14, siehe `segmente.md`) ein:
 
 | Studien-Segment | Score · Projekt-OPP | Aktueller Status |
 |---|---|---|
@@ -207,10 +202,10 @@ Die Studie untersuchte 5 Segmente. So ordnen sie sich in die **aktuelle Position
 | Zahnarztpraxen | 11 · 2.031 € | **ausgeschlossen** (Kassenlogik, kein Selbstzahler-Wohlbefinden) |
 | Psychotherapie / psychologische Praxen | 9 · 820 € | **ausgeschlossen** (kategorialer KI-Widerstand) |
 
-**Ernährungsberatung / Diätologie = Start-Segment 3, aber OHNE eigene Stufe-2-Daten**
-(in Stufe 1 gescannt, nicht deep-dived). Pain Points plausibel analog zum Therapie-Cluster
-(Doku, wiederkehrende Inhalte/Protokolle, Sichtbarkeit) — **vor größeren Entscheidungen mit
-echten Gesprächen validieren.**
+**Ernährungsberatung / Diätologie: Phase-2-Kandidat** (nicht mehr Start-Segment, seit
+2026-07-14). Deep Dive durchgeführt (48 Personas, Score 9) — siehe eigener Abschnitt
+oben. Ein Stufe-1-Scan von 7 weiteren Nischen fand keine bessere Alternative; alle
+Solo-lastigen Nischen werden erst nach echten Referenzen aus Physio/Longevity angegangen.
 
 **Zahler-Kriterium erweitert:** von „nur Selbstzahler" auf **„Wahlarzt / privat / Selbstzahler"**
 inkl. **Mischpraxen** mit Privatanteil + Veränderungsbereitschaft. Raus bleibt nur reine
