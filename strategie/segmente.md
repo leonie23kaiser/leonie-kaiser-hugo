@@ -92,6 +92,12 @@ Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
 aktuell nicht bespielt — Ergotherapie, Logopädie, Osteopathie, Podologie, Heilpraktiker/
 Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie.
 
+**Stufe-1-Scan durchgeführt (2026-07-14):** Alle 7 Nischen scoren bei 8–10 (Podologie am
+besten, Score 10) — **keine schlägt Physio/Longevity (je 11)**, und keine ist klar besser
+als Ernährungsberatung (Score 9). Durchgängiges Muster: Solo-Dominanz, niedrigere
+Preisklasse, hohe Datenschutz-Hürde — eher Folgesegmente nach etablierten Referenzen als
+Kaltstart-Kandidaten. Details: `silicon-sampling.md`.
+
 ## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`)
 
 *Gleiches Format wie die bestehenden Physio-/Longevity-Einträge. Zum 1:1-Übernehmen in der

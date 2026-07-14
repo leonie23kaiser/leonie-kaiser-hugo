@@ -145,25 +145,52 @@ eine Solo-first-Anpassung, ohne den globalen Schirm für die anderen 2 Segmente
 anzufassen (Scheinwerfer-Prinzip). Noch nicht entschieden — Rückmeldung von Leonie
 ausständig.
 
-## Vorschlag: Stufe-1-Scan der zukünftigen potenziellen Nischen (Ranking)
+## Stufe-1-Scan der zukünftigen potenziellen Nischen — durchgeführt (2026-07-14)
 
-*Angefragt 2026-07-13: sollen die zukünftigen potenziellen Nischen (Ergotherapie,
-Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/TCM, Hebammen,
-Massage/manuelle Therapie — siehe `segmente.md`) auch abgefragt werden, um zu sehen,
-welche am geeignetsten wäre? Ja, sinnvoll — aber als schlanker **Stufe-1-Scan** (wie die
-ursprüngliche Segmentauswahl-Runde), nicht als voller Stufe-2-Deep-Dive: Ziel ist ein
-grobes Opportunity-Ranking unter den 7 Kandidaten, nicht belastbare Preiszahlen. Erst wenn
-eine vierte Seite bei echter Traktion tatsächlich ansteht, würde das führende Segment
-einen vollen Stufe-2-Deep-Dive bekommen (analog zur jetzigen Ernährungsberatung-Runde).
+*84 Personas, 7 Nischen (Ergotherapie, Logopädie, Osteopathie, Podologie, Heilpraktiker/
+Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie), je 12 Personas. Ziel: Alternative
+für den 3. Start-Bereich finden, da Ernährungsberatung mit Score 9 am schwächsten
+abschnitt. Echte kostenpflichtige API-Calls (Modell `claude-sonnet-4-6`). Rohdaten
+offline, Report: `data_nischen/` (Pipeline-Verzeichnis, nicht im Repo).*
 
-**Umfang-Vorschlag:** ~10–15 Personas je der 7 Nischen (analog zur ursprünglichen
-96-Personas-Stufe-1-Runde), gleiche Kernfragen: Leidensdruck, Offenheit,
-Zahlungsbereitschaft, Datenschutz-Hürde → Opportunity-Score.
+> ⚠️ Synthetische Daten, Hypothesen — schlanker Scan (kein Preis-Deep-Dive), vor
+> Entscheidungen mit echten Interviews validieren.
 
-**Auch hier:** noch **nicht ausgeführt**, reine Prompt-Vorbereitung. Beide zusätzlichen
-Runden (Ernährungsberatung-Vertiefung + Zukunfts-Nischen-Scan) ließen sich in einem
-gemeinsamen Durchlauf mit der Runde-2-Studie oben kombinieren, um API-Calls/Kosten zu
-bündeln.
+**Ergebnis: keine der 7 Nischen ist eine klar bessere Alternative.**
+
+| # | Nische | Score | Ø Buchung | Eignung als 3. Start-Segment |
+|---|---|:--:|:--:|---|
+| 1 | Podologie | 10 | 3,8 | ungeeignet — hohe Polarisierung, Solo-Praktikerinnen resistent |
+| 2 | Ergotherapie | 9 | 3,5 | ungeeignet — hohe Datenschutz-Hürde, Übergabe-/Renten-Fälle nicht adressierbar |
+| 3 | Osteopathie | 9 | 4,2 | ungeeignet — Solo-lastig, ausgeprägte Berater-Skepsis |
+| 4 | Heilpraktiker/Naturheilkunde/TCM | 9 | 3,9 | ungeeignet — überwiegend Solo, KI-feindlich |
+| 5 | Hebammen | 9 | 4,1 | ungeeignet — höchste Datenschutz-Sensibilität aller verglichenen Segmente |
+| 6 | Massage/manuelle Therapie | 9 | 4,1 | ungeeignet — Solo-dominant, Technologie-Aversion |
+| 7 | Logopädie | 8 | 4,2 | ungeeignet — Solo-lastig, hohe Datenschutz-Hürde (CH, vulnerable Klientel) |
+
+*(Referenz: Physio Score 11 · Longevity Score 11 · Ernährungsberatung Score 9)*
+
+**Durchgängiges Muster über alle 7 Nischen:** Solo-Dominanz, geschätzte Preisklasse
+durchgehend „wie Ernährungsberatung oder darunter" (Projekt-OPP-Schätzungen 500–900 €,
+also unter Physio/Longevity), hohe Datenschutz-Hürde, spürbare KI-/Berater-Skepsis. Jede
+Nischen-Analyse kommt unabhängig zum selben Schluss: eher **Folgesegment nach
+etablierten Physio-/Longevity-Referenzen** als Kaltstart-Segment.
+
+**Einordnung:** Das deutet auf ein strukturelles Muster hin, das über die einzelne
+Segmentwahl hinausgeht — kleinere Solo-lastige Therapie-/Beratungs-Nischen sind ohne
+Referenzen generell schwer kaltzustarten, unabhängig davon, welche man wählt. Das ist
+weniger ein „falsches Segment gewählt"-Problem als ein „Solo-Praxen brauchen zuerst
+Vertrauensbeweise"-Problem. Drei Optionen für Leonie:
+1. **Ernährungsberatung behalten**, Segment-Copy Solo-first anpassen (siehe oben) — hat
+   bereits echte Deep-Dive-Daten, kein Score-Vorteil bei den Alternativen.
+2. **Podologie testen** (knapp bester Alternativ-Score 10) — aber nur 1 Punkt besser,
+   mit eigener Polarisierungs-Problematik, würde einen vollen Deep-Dive + komplett neue
+   Segment-Seite bedeuten (Wechselkosten hoch für kleinen Score-Gewinn).
+3. **Auf 2 Start-Segmente reduzieren** (nur Physio + Longevity, beide Score 11) für die
+   Kaltstart-Phase, alle Solo-lastigen Nischen (inkl. Ernährungsberatung) als „Phase 2 nach
+   den ersten Referenzen" behandeln statt als paralleles Startsegment.
+
+**Noch nicht entschieden — Rückmeldung von Leonie ausständig.**
 
 ---
 
