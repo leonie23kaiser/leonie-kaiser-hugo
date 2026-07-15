@@ -1,74 +1,72 @@
-# Praxis-Seiten (Nische: kleine Privatpraxen in Gesundheit & Wohlbefinden, Wahlarzt/privat/Selbstzahler).
-# Aktuelles Pilot-Set: Physiotherapie, Longevity/Medical-Wellness, Ernährungsberatung.
-# Ästhetik bewusst nicht als eigene Praxisseite (kann später als Blogpost wiederkehren).
+# Leistungs-Seiten (schmerz-geführt, aus service-katalog.md). Ersetzt die früheren
+# Praxis-/Segment-Seiten (die sind zurückgestellt, Phase 2).
+# Feld-Repurposing für das branche-Layout: slug/url/branche=Leistungsname, schmerz=gelöster
+# Schmerz, intro=Nutzensatz, usecases=Angebot, beispiel=fiktives Szenario, faq=Fragen.
 # Gendern: neutrale Form + Paarform, keine Sonderzeichen. Sie-Form. Brand Voice: AGENTS.md.
-# Beispielszenario ist bewusst als illustrativ gekennzeichnet – kein realer Kundenfall.
+# Beispielszenario ist bewusst illustrativ – kein realer Kundenfall.
 
-- slug: physiotherapie
-  url: /ki-fuer-physiotherapie-praxen/
-  branche: Privatpraxis für Präventions- und Sportphysiotherapie
-  branche_kurz: Physiotherapie-Praxis
-  zielperson: "die Leitung einer Privatpraxis für Präventions- und Sportphysiotherapie mit 3–10 Mitarbeitenden"
-  schmerz: "Terminanfragen bleiben liegen, die Dokumentation frisst die Abendstunden, und die Nachsorge fällt hinten runter."
+- slug: termine-anfragen
+  url: /leistungen/termine-und-anfragen/
+  branche: Termine & Anfragen
+  schmerz: "Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen laufen von Hand, und kurzfristige Absagen reißen Lücken in den Tag."
+  intro: "So gewinnen Sie den Empfang zurück – ohne dass jemand ständig ans Telefon muss."
   usecases:
-    - titel: "Terminanfragen schneller beantworten"
-      desc: "Anfragen werden vorqualifiziert und freundlich beantwortet, damit keine länger als zwei Stunden liegen bleibt – auch wenn am Empfang gerade niemand durchkommt."
-    - titel: "Dokumentation entlasten"
-      desc: "Gesprächsnotizen strukturiert ablegen und Behandlungsberichte vorbereiten – mit einem Setup, das Gesundheitsdaten von Grund auf richtig behandelt."
-    - titel: "Nachsorge und Recall automatisieren"
-      desc: "Wer war länger nicht da, wer braucht einen Anschlusstermin? Strukturierte Hinweise, ohne dass Sie selbst durch Listen klicken."
+    - titel: "Online-Terminbuchung"
+      desc: "Ein Selbstbuchungslink, in Ihr bestehendes System integriert. Ihre Kundschaft bucht selbst, Sie behalten die Kontrolle über den Kalender."
+    - titel: "Automatische Erinnerungen und Wartelisten-Nachbesetzung"
+      desc: "Erinnerungen über den bevorzugten Kanal senken die Ausfälle. Kurzfristig frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt."
+    - titel: "KI-Assistent für Erstanfragen"
+      desc: "Ein datenschutzkonformer Assistent auf Ihrer Website beantwortet Öffnungszeiten, Anfahrt, Preise und Terminwünsche – ohne medizinische Auskunft."
   beispiel:
-    ausgangssituation: "Eine Präventions-Physiopraxis mit fünf Mitarbeitenden. Terminanfragen bleiben liegen, weil am Empfang niemand durchkommt. Die Dokumentation frisst die Abende. Nachsorge und Reaktivierung fallen hinten runter – nach der Erstbehandlung hört die Praxis von vielen nichts mehr."
-    vorgehen: "Wir fangen bei den Abläufen an, nicht beim Tool. Erster Quick-Win: eine datenschutzkonforme Erstantwort, die jede Anfrage in unter zwei Stunden freundlich vorqualifiziert. Danach strukturierte Doku-Vorbereitung und ein automatischer Recall für die Stammkundschaft. Das Team wird eingewiesen – Sie richten nichts selbst ein."
-    ergebnis: "Keine liegengebliebenen Anfragen mehr, spürbar weniger Verwaltung pro Woche. Die Leitung ist nicht mehr der Flaschenhals und hat wieder Zeit für die eigentliche Arbeit am Menschen."
+    ausgangssituation: "Termine kommen über Telefon, WhatsApp und E-Mail herein. Erinnerungen laufen von Hand, kurzfristige Absagen reißen Lücken in den Tag, und die Rezeption wird ständig unterbrochen."
+    vorgehen: "Online-Buchung mit Selbstbuchungslink, automatische Erinnerungen über den bevorzugten Kanal, Wartelisten-Nachbesetzung für frei gewordene Slots – datenschutzkonform, das Team wird eingewiesen."
+    ergebnis: "Spürbar weniger Ausfälle, Lücken füllen sich von selbst, deutlich weniger Telefon-Pingpong – mehr Behandlungs- statt Organisationszeit pro Tag."
   faq:
-    - q: "Dürfen Gesundheitsdaten in ein KI-Tool?"
-      a: "Nicht ohne saubere Konfiguration. Gesundheitsdaten sind besondere Daten nach DSGVO Art. 9. Wir setzen für Sie Werkzeuge auf, die das von Grund auf richtig machen – mit EU-Hosting, wo möglich, und klaren Datenflüssen."
-    - q: "Brauche ich dafür eine eigene IT?"
-      a: "Nein. Die meisten Lösungen funktionieren ohne IT-Projekt – Schritt für Schritt eingeführt, mit Begleitung. Sie führen ein, ich begleite."
+    - q: "Ersetzt der KI-Assistent die persönliche Beratung?"
+      a: "Nein. Er übernimmt nur die immer gleichen Erstfragen und Terminwünsche. Die eigentliche Beratung – und alles Medizinische – bleibt bei Ihnen und Ihrem Team."
+    - q: "Was ist mit Termindaten und Datenschutz?"
+      a: "Datenschutz ist der Ausgangspunkt: EU-Hosting wo möglich, Auftragsverarbeitungsverträge mit allen eingesetzten Tools und klare Datenflüsse. Details auf der EU-AI-Act-Seite."
 
-- slug: longevity
-  url: /ki-fuer-longevity-praxen/
-  branche: Longevity- und Medical-Wellness-Praxis
-  branche_kurz: Longevity-Praxis
-  zielperson: "die Gründung oder Leitung einer Longevity- oder Medical-Wellness-Praxis im Premium-Segment"
-  schmerz: "Fünf Werkzeuge, die nicht miteinander reden, viel manuelle Nachverfolgung – und eine Praxis, die zu sehr an einzelnen Personen hängt."
+- slug: nachsorge-bindung
+  url: /leistungen/nachsorge-und-kundenbindung/
+  branche: Nachsorge & Kundenbindung
+  schmerz: "Nach der Behandlung reißt der Kontakt ab. Follow-ups und Recall laufen von Hand und verstreut über verschiedene Kanäle – und Kundschaft geht still verloren."
+  intro: "So bleibt der Kontakt bestehen, ohne dass jemand aktiv daran denken muss."
   usecases:
-    - titel: "Kundenreise ohne Medienbruch"
-      desc: "Ersttermin, Follow-up und Reaktivierung laufen strukturiert zusammen – statt über Buchungsapp, CRM, Notion und Excel verstreut, die nicht miteinander reden."
-    - titel: "Laborwerte und Berichte aufbereiten"
-      desc: "Werte und Verläufe strukturiert und verständlich aufbereiten – das spart pro Woche Stunden und kommt bei der Kundschaft klarer an. Datenschutzkonform aufgesetzt."
-    - titel: "Wissen sichern, Onboarding standardisieren"
-      desc: "Abläufe und Philosophie dokumentiert, damit neue Menschen im Team eigenständig hineinfinden und die Praxis nicht an einzelnen Köpfen hängt."
+    - titel: "Automatisierte Nachsorge-Sequenzen"
+      desc: "Nach Behandlung, Paket oder Erstberatung läuft die Nachsorge strukturiert – zur richtigen Zeit, im richtigen Ton, ohne manuelles Nachhalten."
+    - titel: "Reaktivierung früherer Kundschaft"
+      desc: "Wer länger nicht da war, bekommt zum passenden Zeitpunkt eine freundliche Erinnerung – Stammkundschaft, die sonst still verloren geht."
+    - titel: "Bewertungs- und Empfehlungsanfragen"
+      desc: "Automatisch zum richtigen Zeitpunkt nach dem Termin – einer der stärksten Hebel für neue Anfragen, ganz ohne zusätzlichen Aufwand."
   beispiel:
-    ausgangssituation: "Eine Longevity-Praxis im Premium-Segment. Die Kundendaten liegen in vier Systemen, die nicht miteinander reden. Follow-up nach Erstgesprächen passiert von Hand – und nach Woche zwölf verliert die Praxis viele, nicht aus Unzufriedenheit, sondern weil nichts sie aktiv hält."
-    vorgehen: "Erst die Abläufe ordnen, dann verbinden. Wir bauen eine durchgängige Kundenreise vom Ersttermin bis zur Reaktivierung – datenschutzkonform, in die bestehenden Werkzeuge integriert. Parallel: Laborwert-Aufbereitung und ein dokumentiertes Onboarding. Das Team wird eingewiesen."
-    ergebnis: "Weniger Medienbrüche, spürbar weniger manuelle Nachverfolgung. Bestandskundschaft wird verlässlich gehalten – und die Praxis hängt nicht mehr an einzelnen Personen."
+    ausgangssituation: "Nach der Behandlung reißt der Kontakt ab. Renewal-Erinnerungen und Follow-ups laufen manuell und verstreut über verschiedene Kanäle; Kundschaft geht still verloren."
+    vorgehen: "Automatisierte Nachsorge-Sequenz, Recall zum richtigen Zeitpunkt, Bewertungsanfrage nach dem Termin, Erinnerungen an auslaufende Mitgliedschaften – datenschutzkonform, das Team wird eingewiesen."
+    ergebnis: "Mehr Folgetermine, planbarere Auslastung, die Nachsorge läuft zuverlässig – ohne dass jemand aktiv daran denken muss."
   faq:
-    - q: "Was ist mit sensiblen Gesundheits- und Labordaten?"
-      a: "Sie sind der Ausgangspunkt, nicht die Option. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit sauberem Setup, EU-Hosting wo möglich und Auftragsverarbeitungsverträgen – belegt, nicht behauptet."
-    - q: "Lohnt sich das bei unserer Größe?"
-      a: "Gerade dann. Je stärker eine Praxis an einzelnen Personen hängt, desto größer ist der Hebel, Abläufe zu ordnen und mitwachsen zu lassen. Wir starten mit einem klar begrenzten ersten Schritt."
+    - q: "Wirken automatische Nachrichten nicht unpersönlich?"
+      a: "Nur, wenn sie schlecht gemacht sind. Die Entwürfe klingen nach Ihnen, nicht nach Maschine – und Sie geben frei, was rausgeht. KI nimmt die Routine, nicht die Beziehung."
+    - q: "Dürfen Kundendaten dafür verarbeitet werden?"
+      a: "Mit sauberem Setup ja: EU-Hosting wo möglich, Auftragsverarbeitungsverträge, klare Datenflüsse. Wir klären in der Potenzialanalyse, was geht und was nicht."
 
-- slug: ernaehrungsberatung
-  url: /ki-fuer-ernaehrungsberatung-praxen/
-  branche: Privatpraxis für Ernährungsberatung und Diätologie
-  branche_kurz: Ernährungsberatung
-  zielperson: "die Leitung einer Privatpraxis für Ernährungsberatung oder Diätologie mit 1–8 Mitarbeitenden"
-  schmerz: "Beratungsprotokolle und wiederkehrende Pläne fressen die Abende, das Nachfassen nach der Erstberatung bleibt liegen, und für Sichtbarkeit fehlt schlicht die Zeit."
+- slug: dokumentation-wissen
+  url: /leistungen/dokumentation-und-wissen/
+  branche: Dokumentation & Wissen
+  schmerz: "Befunde und Notizen werden abends nachgeschrieben, jede Person dokumentiert etwas anders, und kritisches Wissen steckt in einzelnen Köpfen."
+  intro: "So gewinnen Sie Ihre Abende zurück – und machen Vertretung und Einarbeitung leichter."
   usecases:
-    - titel: "Beratungsprotokolle effizient erstellen"
-      desc: "Aus Gesprächsnotizen wird ein strukturiertes Protokoll, das Sie nur noch gegenlesen – mit einem Setup, das Gesundheitsdaten von Grund auf richtig behandelt."
-    - titel: "Wiederkehrende Pläne und Vorlagen automatisieren"
-      desc: "Rezeptvorschläge, Wochenpläne und Standard-Aufklärungen als Vorlagen, die in Ihrer Sprache klingen – einmal aufgesetzt, immer wieder nutzbar."
-    - titel: "Nachsorge und Sichtbarkeit ohne Mehraufwand"
-      desc: "Follow-up nach der Erstberatung läuft strukturiert statt manuell. Aus einem Beratungsthema entstehen nebenbei Blog- oder Social-Inhalte."
+    - titel: "Notizen strukturieren"
+      desc: "Aus Gesprächs- und Behandlungsnotizen wird ein sauberes Protokoll, das Sie nur noch gegenlesen. Die fachliche Beurteilung bleibt immer bei Ihnen – keine automatische Diagnose."
+    - titel: "Vorlagen-Bibliothek"
+      desc: "Für Berichte, Rückmeldungen an Zuweiser, Aufklärungen und individuelle Pläne – einmal aufgesetzt, in Ihrer Sprache, immer wieder nutzbar."
+    - titel: "Team-Playbook und Onboarding"
+      desc: "Wiederkehrende Abläufe zentral und einfach abgelegt – löst „das Wissen steckt nur in meinem Kopf“ und macht Vertretung und Einarbeitung neuer Mitarbeitender deutlich leichter."
   beispiel:
-    ausgangssituation: "Eine Ernährungsberatungspraxis mit zwei Mitarbeitenden. Jedes Beratungsprotokoll wird von Hand nachgeschrieben, Rezeptvorschläge und Wochenpläne entstehen jedes Mal neu. Nach der Erstberatung hört die Praxis von vielen aus der Kundschaft nichts mehr, und für Sichtbarkeit bleibt keine Zeit."
-    vorgehen: "Wir fangen bei den Abläufen an, nicht beim Tool. Erster Quick-Win: eine datenschutzkonforme Vorlage für Beratungsprotokolle, die Notizen strukturiert und nur noch gegengelesen werden muss. Danach eine Bibliothek für Wochenpläne und Rezeptvorschläge sowie ein automatischer Recall für die Nachsorge. Das Team wird eingewiesen – Sie richten nichts selbst ein."
-    ergebnis: "Weniger Zeit pro Protokoll, spürbar weniger Abendarbeit. Die Nachsorge läuft zuverlässig, und aus den Beratungsthemen entstehen nebenbei Inhalte für Sichtbarkeit – ohne zusätzlichen Aufwand."
+    ausgangssituation: "Befunde und Notizen werden abends nachgeschrieben, jede Person dokumentiert etwas anders, und kritisches Wissen steckt in einzelnen Köpfen."
+    vorgehen: "Strukturierung der Notizen (Sie geben frei), eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Team-Playbook – alles Art.-9-konform aufgesetzt."
+    ergebnis: "Weniger Arbeit nach Feierabend, einheitliche Dokumentation, und Vertretung oder Onboarding neuer Leute wird deutlich einfacher."
   faq:
-    - q: "Dürfen Ernährungs- und Gesundheitsdaten in ein KI-Tool?"
-      a: "Nicht ohne saubere Konfiguration. Ernährungs- und Gesundheitsdaten sind besondere Daten nach DSGVO Art. 9. Wir setzen für Sie Werkzeuge auf, die das von Grund auf richtig machen – mit EU-Hosting, wo möglich, und klaren Datenflüssen."
-    - q: "Verliert die Beratung durch Vorlagen ihre persönliche Note?"
-      a: "Nein. Vorlagen übernehmen das Wiederkehrende – die Zeit, die Sie zurückbekommen, geht in die eigentliche Beratung und den persönlichen Kontakt."
+    - q: "Trifft die KI medizinische Entscheidungen?"
+      a: "Nein. Die KI strukturiert nur Ihre Notizen und bereitet Vorlagen vor. Die fachliche Beurteilung und jede Entscheidung bleiben vollständig bei Ihnen."
+    - q: "Sind Gesundheitsdaten dabei sicher?"
+      a: "Sie sind der Ausgangspunkt. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit EU-Hosting wo möglich, Auftragsverarbeitungsverträgen und klaren Datenflüssen – belegt, nicht behauptet."
