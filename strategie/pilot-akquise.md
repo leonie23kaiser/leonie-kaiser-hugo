@@ -1,8 +1,10 @@
 # Pilot-Akquise: die ersten echten Praxis-Cases gewinnen
 
-*Operative Vorlage. Ziel: **1–2 Pilotprojekte**, um erste echte Fälle **mit Zahlen** und
-belastbare, namentliche Testimonials zu bekommen. In Brand Voice: Sie-Form, ruhig, kein
-Hype.*
+*Operative Vorlage. Ziel: **3–5 Pilotprojekte** (gestaffelt bis Jahresende), um erste
+echte Fälle **mit Zahlen** und belastbare, namentliche Testimonials zu bekommen. Das
+Zeitfenster vor der offiziellen Zertifizierung ist ideal dafür — der Lehrgangsabschluss
+ist keine rechtliche Voraussetzung für Kunden (siehe `strategie-konzept.md`, Kap. 7). In
+Brand Voice: Sie-Form, ruhig, kein Hype.*
 
 > **Ausrichtung 2026-07-14: schmerz-geführt, breit akquirieren.** Nicht auf ein Segment
 > beschränken — angesprochen wird über den **homogenen Kern-Schmerz** (Termine, Nachsorge,

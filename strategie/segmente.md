@@ -19,7 +19,7 @@ Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/E
 
 > Ich helfe **kleinen, inhabergeführten Gesundheits- und Behandlungsbetrieben**
 > (Wahlarzt / privat / Selbstzahler), die mit **sensiblen Gesundheitsdaten** arbeiten,
-> ihren Alltag zu entlasten – damit wieder Zeit bleibt für das, worum es wirklich geht.
+> ihren Alltag zu entlasten – damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 
 **Das ist die interne Strategie-Formel** — sie erklärt, wen wir meinen und warum. In der
 **externen Kurz-Copy** (LinkedIn-Headline, Banner, GBP-Beschreibung) wird daraus bewusst
@@ -32,7 +32,7 @@ Website-Unterseiten) reserviert. Details/Wording: `strategie/linkedin-profil.md`
 **4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
 2. klein (ca. 2–15, max ~20 Mitarbeitende)
-3. sensible **Gesundheitsdaten** (DSGVO Art. 9) ← der Burggraben, **nie** weglassen
+3. sensible **Gesundheitsdaten** (DSGVO Art. 9)
 4. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
 
 **Gemeinschaftspraxen (mehrere Ärzt:innen/Partner:innen als Miteigentümer:innen):** zählen
@@ -53,8 +53,7 @@ reine Privatordination ohne Veränderungswillen.
 ## Erlebnis als Kaufgrund (Kommunikations-Anker)
 
 Wer privat / Wahlarzt zahlt, erwartet ein **Premium-Erlebnis**. Genau da zieht das
-Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis". Bei zugewiesenen, voll
-ausgelasteten Kassenpatienten ist der Erlebnis-Hebel schwächer. → In der Copy den
+Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis". → In der Copy den
 **Erlebnis-Gewinn immer zusammen mit dem Zeit-Gewinn** nennen.
 
 ## Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
@@ -64,7 +63,8 @@ ausgelasteten Kassenpatienten ist der Erlebnis-Hebel schwächer. → In der Copy
 2. **Doku frisst die Abende**
 3. **Nachsorge/Recall fällt hinten runter** – Stammkundschaft geht verloren
 4. **Die Leitung ist der Flaschenhals** (Behandlung + Führung + Verwaltung in einer Person)
-5. **Sensible Gesundheitsdaten** (DSGVO Art. 9)
+5. **Unsicherheit im Umgang mit sensiblen Gesundheitsdaten** – „Darf ich das in ein KI-Tool
+   geben? Wer haftet?" (DSGVO Art. 9)
 
 → Jede Unterseite/jeder Post = **dieser Kern + ein segment-spezifischer Twist** (die letzten 10 %).
 Das ist das „Rad", das du nur einmal baust.

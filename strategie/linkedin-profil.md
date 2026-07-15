@@ -33,8 +33,8 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 
 ## Info / Zusammenfassung
 
-> Ich helfe kleinen Privatpraxen für Prävention und Wohlbefinden, den Praxisalltag zu entlasten
-> – damit wieder Zeit bleibt für das, worum es wirklich geht.
+> Ich helfe kleinen Privatpraxen in Gesundheit & Wohlbefinden, den Praxisalltag zu entlasten
+> – damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 >
 > Termine, Aufnahme, Nachsorge, wiederkehrende Verwaltung: Vieles davon lässt sich
 > datenschutzkonform automatisieren. Das Ergebnis ist mehr Zeit fürs Kerngeschäft – und ein
