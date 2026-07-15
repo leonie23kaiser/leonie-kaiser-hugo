@@ -12,7 +12,7 @@
 
 - **Wirtschaftlich stärkste Segmente (Studien-Rohbefund):** Longevity / Medical-Wellness (Premium), Zahnarzt und Ästhetik — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis). *Hinweis: Zahnarzt wurde später bewusst ausgeschlossen (Kassenlogik, kein Selbstzahler-Wohlbefinden) — siehe strategische Entscheidung unten.*
 - **Schwächstes Segment:** Psychotherapeutische Praxen — niedrigster Projektwert (820 €) und ein *kategorialer* (nicht taktischer) Widerstand gegen „KI im therapeutischen Kontext", der nicht durch besseres Verkaufen lösbar ist.
-- **Strategische Entscheidung (Leonie, aktualisiert 2026-07-14):** Schirm = **kleine, inhabergeführte Gesundheits- und Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler, sensible Gesundheitsdaten); **Mischpraxen mit Privatanteil + Veränderungsbereitschaft ausdrücklich drin.** **2 Start-Segmente:** Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity/Medical-Wellness. **Ernährungsberatung** wurde deep-dived (Score 9) und gegen 7 weitere Nischen getestet (Stufe-1-Scan, Scores 8–10) — keine schlägt Physio/Longevity (je 11), daher als Phase-2-Kandidat zurückgestellt, bis echte Referenzen vorliegen. **Ästhetik** bleibt erreichbar, aber **nur über Content** (Blog/Einzelanfragen), keine Start-Seite. **Ausgeschlossen:** reine Hochvolumen-Kassen-Akutmedizin, **Zahnärzte**, Kliniken, Apotheken, Pflege, **klinische Psychotherapie/Psychiatrie**, große Pharma. Details & Segment-Landkarte: `segmente.md`. *(Die Studien-Rohbefunde unten bleiben als Record unverändert — inkl. der ursprünglich mituntersuchten, jetzt ausgeschlossenen Segmente Zahnarzt & Psychotherapie.)*
+- **Strategische Entscheidung (Leonie, final 2026-07-14): schmerz-geführt + Compliance-first.** Nicht auf einzelne Start-Segmente festlegen (synthetische Scores zu unsicher, Nische steht noch nicht fest), sondern **breit über den homogenen Kern-Schmerz starten** (Termine, Nachsorge, Doku, Abrechnung — in jedem Segment die Top-Zeitfresser) und **Datenschutz/EU AI Act als Differenzierungsmerkmal** besetzen (in jedem Segment die #1-Hürde). Schirm bleibt **kleine, inhabergeführte Gesundheitspraxen** (Wahlarzt/privat/Selbstzahler, sensible Gesundheitsdaten; Mischpraxen drin). Fachrichtung = Beispiel im Content, nicht Fundament (Scheinwerfer). **Priorisierte Zielsegmente für die Zeit mit Referenzen:** Tier 1 Physio + Medical-Wellness · Tier 2 Longevity (5.012 € Ticket, aber hohe Hürde) + Check-up/Sportmedizin · Tier 3 Solo-Nischen. Vollständige Landkarte: „Konsolidierte Zielsegment-Landkarte" unten. **Ausgeschlossen:** reine Hochvolumen-Kassen-Akutmedizin, **Zahnärzte**, Kliniken, Apotheken, Pflege, **klinische Psychotherapie/Psychiatrie**, große Pharma, Ästhetik (nur Content). *(Studien-Rohbefunde unten bleiben als Record unverändert.)*
 - **Drei Kern-Hebel für Positionierung & Copy** (fließen in `AGENTS.md` ein):
   1. **Produktisieren statt beraten** — alle Segmente wollen *fertige Lösungen* mit klaren Deliverables, keine offenen Strategie-Mandate.
   2. **Branchenspezifische Referenzen** sind der stärkste Vertrauensanker — ein Generalist verliert das Erstgespräch.
@@ -181,11 +181,80 @@ Referenzen generell schwer kaltzustarten, unabhängig davon, welche man wählt. 
 weniger ein „falsches Segment gewählt"-Problem als ein „Solo-Praxen brauchen zuerst
 Vertrauensbeweise"-Problem.
 
-**Entschieden (2026-07-14, Leonie): Option 3 — auf 2 Start-Segmente reduzieren** (nur
-Physio + Longevity, beide Score 11) für die Kaltstart-Phase. Alle Solo-lastigen Nischen
-(inkl. Ernährungsberatung und die 7 hier getesteten) werden als „Phase 2 nach den ersten
-Referenzen" behandelt, nicht als paralleles Startsegment. Details/Umsetzung:
-`segmente.md`, `strategie-konzept.md`.
+**Zwischenstand (2026-07-14, vormittags):** zunächst „auf 2 Start-Segmente reduzieren"
+(Physio + Longevity). Dieser Zwischenstand wurde am selben Tag durch die Prävention/
+Wellness-Runde (unten) und die finale **schmerz-geführte Positionierungs-Entscheidung**
+überholt — siehe „Konsolidierte Zielsegment-Landkarte" weiter unten.
+
+## Prävention & Wellness-Runde — durchgeführt (2026-07-14)
+
+*104 Personas. Ziel: Longevity und Medical-Wellness getrennt vergleichen (bisher als ein
+Segment geführt) + 2 neue Prävention-Kandidaten scannen. Longevity/Medical-Wellness =
+Deep Dive mit Van-Westendorp-Preis (je 40 Personas), Sportmedizin/Check-up =
+Stufe-1-Scan (je 8 Personas). Echte API-Calls (`claude-sonnet-4-6`), Rohdaten offline:
+`data_praevention/`, Report: `report_praevention.md`.*
+
+> ⚠️ **Wichtiger Vergleichsvorbehalt:** Die Scores dieser Runde (13/12/11/11) liegen über
+> denen der ersten Runde (Physio 11), sind aber **nicht direkt vergleichbar** — die
+> Personas wurden hier bewusst als „Premium, teambasiert, hoher Umsatz" charakterisiert,
+> was Zahlungsbereitschaft und Score mit anhebt. Verlässlich ist die **Reihenfolge
+> innerhalb dieser Runde**, nicht der absolute Cross-Run-Vergleich. Alle vier haben
+> maximale Datenschutz-Hürde (5) und verlangen belegbare Compliance.
+
+| Segment | Modus | Score | Projekt-OPP | Ø Buchung | Eignung |
+|---|---|:--:|:--:|:--:|---|
+| Longevity / Präventionsmedizin (ärztlich, datengetrieben) | deep | 13 | 5.012 € (ideal 8.500) | 3,4 | bedingt |
+| Medical-Wellness (IV, Hormone, erlebnisorientiert) | deep | 12 | 2.032 € (ideal 3.500) | 4,0 | bedingt |
+| Sportmedizin-Zentren | scan | 11 | ~1.800–2.400 € (geschätzt) | 3,8 | ungeeignet (Kaltstart) |
+| Check-up / Vorsorgemedizin (Executive Health) | scan | 11 | ~2.000 €+ (geschätzt) | 3,2 | ungeeignet (Kaltstart) |
+
+**Kernbefunde:**
+- **Das Trennen war aufschlussreich:** Longevity (rein ärztlich/datengetrieben) trägt ein
+  weit höheres Ticket (5.012 € vs. 2.032 €), ist aber der härteste Brocken — erwartet
+  Integrations-/API-Kompetenz, belegbare Compliance ab Gespräch 1, Referenzen als
+  „Hygienefaktor", Mehr-Inhaber-Entscheidungen, und hat die **niedrigste
+  Buchungsbereitschaft** (3,4). Medical-Wellness ist zugänglicher, moderateres Ticket,
+  bessere Buchung.
+- **„Wellness" als Schirm-Wort ist ein Risiko:** Longevity und Sportmedizin **lehnen die
+  Wellness-Sprache aktiv ab** (verstehen sich als medizinisch-diagnostisch). Ein Schirm
+  „Prävention & Wellness" würde ausgerechnet das wertvollste Segment abstoßen → spricht
+  für „Gesundheit & Wohlbefinden" statt „Wellness".
+- **Datenschutz ist überall die #1-Einstiegshürde** (Hürde 5/5 in allen vier), gekoppelt
+  an „kein-Verkaufsgespräch"-Skepsis — dasselbe Muster wie in allen bisherigen Runden.
+
+## Finale Positionierungs-Entscheidung (2026-07-14, Leonie): schmerz-geführt + Compliance-first
+
+Statt sich auf einzelne Start-Segmente festzulegen (die synthetischen Scores sind zu
+unsicher und die Nische steht noch nicht fest), **breit über den homogenen Kern-Schmerz
+starten** — Termine, Nachsorge/Recall, Dokumentation, Abrechnung sind in *jedem* Segment
+die Top-Zeitfresser — **und Datenschutz (EU AI Act & DSGVO) als das Differenzierungs-
+merkmal** besetzen, weil er in *jedem* Segment die #1-Hürde ist. Die Fachrichtung wird
+zum **Beispiel im Content**, nicht zum Fundament (Scheinwerfer-Prinzip). Sobald echte
+Referenzen da sind, gezielt die höher-priorisierten Segmente ansprechen.
+
+### Konsolidierte Zielsegment-Landkarte (alle Runden zusammengeführt)
+
+*Innerhalb-Runde-Ranking verlässlich, Cross-Run-Scores nur grob (siehe Vorbehalt oben).*
+
+**Tier 1 — zuerst ansprechen (gewinnbar + gutes Ticket, weiche Brand Voice passt):**
+- **Physiotherapie / Therapiepraxen** — Score 11, OPP 1.528 €. Zugänglich, klarer
+  Leidensdruck, ideales Aushängeschild.
+- **Medical-Wellness** (IV/Hormone/Membership) — Score 12, OPP 2.032 €. Passt unter
+  „Gesundheit & Wohlbefinden", Membership-Automatisierung als starker Hebel.
+
+**Tier 2 — das große Ticket, aber erst mit Referenzen + Compliance-Nachweis:**
+- **Longevity / Präventionsmedizin** — Score 13, OPP **5.012 €** (der Preis-Ausreißer nach
+  oben). Verlangt Technik-/Integrations- und Compliance-Reife; kein Wellness-Framing.
+- **Check-up / Vorsorgemedizin** & **Sportmedizin** — Score 11, aber Enterprise-Compliance
+  / KIS-Integration / Haftungstiefe → als Kaltstart ungeeignet, als späteres Ziel stark.
+
+**Tier 3 — nur bei konkreter Anfrage/Empfehlung (schwächer, solo-lastig):**
+- Podologie (10), Ernährungsberatung (9, deep-dived), Osteopathie/Ergotherapie/Hebammen/
+  Massage/Heilpraktiker (9), Logopädie (8). Durchgängig Solo-lastig, niedrigere
+  Preisklasse, hohe Datenschutz-Hürde.
+
+**Ausgeschlossen (aus Runde 1):** Zahnarzt (Kassenlogik), klinische Psychotherapie
+(kategorialer KI-Widerstand), Ästhetik (kippt Richtung „Beauty").
 
 ---
 

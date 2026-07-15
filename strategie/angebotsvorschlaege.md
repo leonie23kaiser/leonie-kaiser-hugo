@@ -1,9 +1,11 @@
 # Angebotsvorschläge — Leonie Kaiser
 
-*Produktisierte Angebote für **Privatpraxen in Gesundheit & Wohlbefinden**
-(Selbstzahler, AT/DE/CH). Abgeleitet aus Positionierung, Brand Voice und der
-Silicon-Sampling-Studie. Preise sind **synthetische Orientierungs-Korridore (ESOMAR)** —
-mit den ersten echten Kunden validieren.*
+*Produktisierte Angebote für **kleine Privatpraxen in Gesundheit & Wohlbefinden**
+(Selbstzahler, AT/DE/CH). **Schmerz-geführt + Compliance-first** (Entscheidung
+2026-07-14): Angebote positioniert um den überall gleichen Kern-Schmerz (Termine,
+Nachsorge, Doku, Abrechnung) mit Datenschutz/EU AI Act als Differenzierungsmerkmal,
+nicht um eine einzelne Fachrichtung. Preise sind **synthetische Orientierungs-Korridore
+(ESOMAR)** — mit den ersten echten Kunden validieren.*
 
 ## Grundprinzipien (gelten für jedes Angebot — allgemeine Arbeitsweise)
 

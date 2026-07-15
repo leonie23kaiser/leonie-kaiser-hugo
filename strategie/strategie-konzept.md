@@ -1,4 +1,4 @@
-# Strategisches Konzept — Leonie Kaiser · KI- & Business-Consulting
+# Strategisches Konzept — Leonie Kaiser · KI & Digitalisierung
 
 *Internes Arbeitsdokument. Konsolidiert aus AGENTS.md (Brand Voice, kanonisch),
 brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampling.md
@@ -11,27 +11,35 @@ brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampl
 
 ## 1. Kurzfassung
 
-KI- und Business-Consultant für kleine, **inhabergeführte Gesundheits- und
-Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler) — privat bzw. selbst bezahlte
-Gesundheit, nicht reine Hochvolumen-Kassen-Akutmedizin. Zielbetriebe: 2–15 (max. ~20)
-Mitarbeitende, DACH-Raum (AT/DE/CH).
+KI- & Digitalisierungs-Partnerin für kleine, **inhabergeführte Gesundheitspraxen**
+(Wahlarzt / privat / Selbstzahler) — privat bzw. selbst bezahlte Gesundheit, nicht reine
+Hochvolumen-Kassen-Akutmedizin. Zielpraxen: 2–15 (max. ~20) Mitarbeitende, DACH-Raum
+(AT/DE/CH).
+
+**Positionierungs-Achse: schmerz-geführt + Compliance-first** (Entscheidung 2026-07-14,
+nach mehreren Silicon-Sampling-Runden). Nicht auf eine einzelne Nische festgelegt,
+sondern positioniert um (a) den **homogenen Kern-Schmerz**, der in jedem Segment gleich
+ist (Termine, Nachsorge, Doku, Abrechnung), und (b) **Datenschutz / EU AI Act & DSGVO**
+als Differenzierungsmerkmal, weil das überall die #1-Hürde ist. Fachrichtung = Beispiel
+im Content, nicht Fundament.
 
 **Kern-Nutzenversprechen:** mehr Zeit fürs Kerngeschäft, ein reibungsloses,
 professionelles Kundenerlebnis und spürbar zufriedenere Kundschaft. Und: freie Abende
-auch für die Inhaberin selbst — nicht nur schnellere Prozesse fürs Team, sondern
-weniger Admin-Überstunden für die Person an der Spitze. KI ist Mittel zum Zweck — die
-Arbeit beginnt bei den Prozessen, nicht beim Tool. Das Persönliche bleibt geschützt: KI
-nimmt die Routine, nicht die Beziehung.
+auch für die Inhaberin selbst — weniger Admin-Überstunden für die Person an der Spitze.
+KI ist Mittel zum Zweck — die Arbeit beginnt bei den Prozessen, nicht beim Tool. Das
+Persönliche bleibt geschützt: KI nimmt die Routine, nicht die Beziehung.
 
-**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **2** echten Praxis-Fälle (je
-einer aus jedem Start-Segment) mit Zahlen und Referenzen gewinnen (siehe Kapitel 7).
+**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **1–2** echten Praxis-Fälle
+mit Zahlen und Referenzen gewinnen (breit über den Schmerz akquiriert, siehe Kapitel 7),
+dann gezielt die Tier-1-Zielsegmente bespielen.
 
 Drei tragende Säulen:
 1. **Produktisieren statt beraten** — klare Pakete mit benannten Ergebnissen.
-2. **Branchenspezifisch statt Generalist** — Referenzen aus der Praxiswelt sind der
-   stärkste Vertrauensanker.
-3. **Datenschutz als Haltung, nicht als Behauptung** — bei Gesundheitsdaten der
-   Ausgangspunkt; sichtbar belegt, nicht behauptet.
+2. **Schmerz-geführt + Compliance-first** — um den überall gleichen Kern-Schmerz herum
+   positionieren, Datenschutz als Differenzierungsmerkmal statt als Behauptung.
+3. **Referenzen schlagen Nischen-Rätselraten** — der erste echte Case ist wichtiger als
+   die perfekte Segmentwahl; die priorisierte Zielsegment-Landkarte (Kap. 3) steuert,
+   wen man *mit* Referenzen zuerst anspricht.
 
 ---
 
@@ -86,42 +94,50 @@ genau da zieht das Nutzenversprechen „reibungsloses, professionelles Kundenerl
 Bei zugewiesenen, voll ausgelasteten Kassenpatienten ist der Erlebnis-Hebel schwächer.
 In der Copy daher immer **Erlebnis-Gewinn zusammen mit Zeit-Gewinn** nennen.
 
-### Segment-Landkarte & Start-Seiten
+### Positionierungs-Achse: schmerz-geführt, nicht segment-geführt (Entscheidung 2026-07-14)
 
-**Zwei Start-Segmente** (Entscheidung 2026-07-14, vorher drei — Ernährungsberatung
-wurde deep-dived und per Stufe-1-Scan gegen 7 Alternativ-Nischen getestet, siehe unten):
+Nach mehreren Silicon-Sampling-Runden (Ernährungsberatung deep-dived, 7 Nischen
+gescannt, Longevity/Medical-Wellness getrennt + Sportmedizin/Check-up) ist die
+Positionierung **nicht** auf einzelne Start-Segmente gebaut. Grund: Die synthetischen
+Segment-Scores sind zu unsicher als Fundament — aber **jedes** Segment nennt denselben
+Kern-Schmerz (Termine, Nachsorge, Doku, Abrechnung) und dieselbe #1-Hürde (Datenschutz).
 
-| Seite | deckt mit ab | Segment-Twist |
-|---|---|---|
-| **Therapie- & Bewegungspraxen** *(Physio als Aushängeschild)* | Ergo, Osteopathie, Podologie | Serientermine/Recall, Verordnung, Sport-Nachsorge |
-| **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
+**Deshalb breit starten:**
+- **Achse 1 — der homogene Kern-Schmerz** (siehe unten): Website/Bio positionieren um die
+  überall gleichen Zeitfresser, nicht um eine Fachrichtung.
+- **Achse 2 — Compliance-first:** Datenschutz / EU AI Act & DSGVO als
+  Differenzierungsmerkmal, weil es in jedem Segment die größte Hürde *und* der größte
+  Vertrauensvorsprung ist.
+- Einzelne Fachrichtungen = **Beispiele im Content** (Scheinwerfer), nicht tragende
+  Struktur. So muss nichts umgeschrieben werden, wenn sich zeigt, welches Segment anbeißt.
 
-Eine dritte Seite kommt **erst, sobald echte Referenzen aus Physio/Longevity vorliegen**
-— kein Vorab-Ausbauplan, Auswahl erst dann neu geprüft.
+### Zielsegment-Landkarte (nach Score priorisiert — gezielt bespielen, sobald Referenzen da sind)
 
-**Scheinwerfer-Prinzip:** Der Schirm bleibt stabil (Bio, GBP, Startseite). Im Content
-(LinkedIn, Blog) rotiert der Scheinwerfer über Segmente — läuft eines nicht, wird
-geschwenkt, ohne Positionierung/Bio/GBP anzufassen. Details & vollständige
-Segment-Landkarte: `strategie/segmente.md`.
+*Aus allen Runden zusammengeführt (`silicon-sampling.md`). Innerhalb-Runde-Ranking
+verlässlich; Cross-Run-Scores nur grob (die Prävention-Personas wurden als „Premium/Team"
+charakterisiert, was ihre Scores mit anhebt).*
 
-### Segment-Priorisierung (Opportunity-Ranking, Studien-Rohbefund)
+**Tier 1 — zuerst ansprechen (gewinnbar + gutes Ticket):**
 
 | Segment | Score | Projekt-OPP | Retainer/Mo |
-|---|---|---|---|
-| Longevity / Medical-Wellness (Premium) | 11 | 2.060 € | 300 € |
-| Physio-/Therapiepraxen | 11 | 1.528 € | 203 € |
+|---|:--:|:--:|:--:|
+| Physiotherapie / Therapiepraxen (Aushängeschild) | 11 | 1.528 € | 203 € |
+| Medical-Wellness (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
+
+**Tier 2 — großes Ticket, aber erst mit Referenzen + belegbarer Compliance:**
+
+| Segment | Score | Projekt-OPP | Hürde |
+|---|:--:|:--:|---|
+| Longevity / Präventionsmedizin | 13 | **5.012 €** | Integrations-/Compliance-Nachweis Pflicht, kein Wellness-Framing |
+| Check-up / Vorsorgemedizin · Sportmedizin | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration, Haftungstiefe |
+
+**Tier 3 — nur bei konkreter Anfrage (schwächer, solo-lastig):** Podologie (10),
+Ernährungsberatung (9), Osteopathie/Ergo/Logo/Hebammen/Massage/Heilpraktiker (8–9).
 
 **Archetyp „Martina, 47":** Inhaberin einer Privat-/Präventions-Physiopraxis mit fünf
 Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
 entscheidet schnell bei klarem Nutzen + überschaubarem Aufwand, Datenschutz sehr
-wichtig, lebt von privat zahlender Kundschaft.
-
-**Kandidaten für Phase 2** (alle deep-dived/gescannt, Scores 8–10, durchgängig unter
-Physio/Longevity): Podologie (10), **Ernährungsberatung/Diätologie (9)**, Osteopathie (9),
-Heilpraktiker/Naturheilkunde/TCM (9), Hebammen (9), Massage/manuelle Therapie (9),
-Ergotherapie (9), Logopädie (8). Durchgängiges Muster: Solo-Dominanz, niedrigere
-Preisklasse, hohe Datenschutz-Hürde — eher Folgesegmente nach Referenzen als
-Kaltstart-Kandidaten. Details: `segmente.md`, `silicon-sampling.md`.
+wichtig, lebt von privat zahlender Kundschaft. Details: `segmente.md`, `silicon-sampling.md`.
 
 ### Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
@@ -258,9 +274,11 @@ reichen nicht": den Gratis-Call nie so bewerben, sondern mit konkretem Ergebnis 
 
 ## 7. Startplan: die ersten 90 Tage (0 → erste Referenzen)
 
-Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **2 echte Fälle** (einer je
-Start-Segment: Therapie-/Bewegungspraxen, Longevity/Medical-Wellness) mit
-Vorher-/Nachher-Zahlen und namentlichen Testimonials.
+Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **1–2 echte Fälle** mit
+Vorher-/Nachher-Zahlen und namentlichen Testimonials. **Breit über den Kern-Schmerz
+akquirieren** (nicht auf ein Segment beschränken) — wer zuerst anbeißt und einen echten
+Case liefert, zählt. Für die aktive Ansprache trotzdem bei den **Tier-1-Zielsegmenten
+(Physio, Medical-Wellness)** beginnen, weil dort am ehesten gewinnbar (Kap. 3).
 
 **Keine getrennte Marktumfrage vorweg:** Die Pilot-Erstgespräche selbst sind schon die
 Marktvalidierung (gleiche Fragen zu Kernschmerz + Zahlungsbereitschaft + die 3
@@ -276,24 +294,25 @@ Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte Zahl wirk
 wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel (Kap. 4).
 
 ### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
-- Zielliste: **5–7 Praxen je Start-Segment** (Therapie/Physio, Longevity), primär aus
-  dem eigenen Netzwerk, sonst DACH-weit remote ansprechbar (kein Wien-/Vor-Ort-Fokus,
-  siehe Kap. 4 SEO-Regel).
-- Pilot-Umfang je Segment grob festlegen (welches Themenfeld mit 2–3 zusammenhängenden
+- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, Medical-Wellness), aber offen
+  für jede kleine Gesundheitspraxis mit dem Kern-Schmerz — primär aus dem eigenen
+  Netzwerk, sonst DACH-weit remote (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
+- Pilot-Umfang grob festlegen (welches Themenfeld mit 2–3 zusammenhängenden
   Automatisierungen realistisch in 2–4 Wochen einzurichten ist).
-- Datenschutz-Mappe vorbereiten (AV-Verträge, EU-Hosting-Nachweis) — Antwort auf den
-  Datenschutz-Einwand muss vom ersten Gespräch an belegbar sein, nicht nur behauptet.
-- Anschreiben je Segment personalisieren (Vorlage: `pilot-akquise.md`).
+- **Datenschutz-Mappe vorbereiten** (AV-Verträge, EU-Hosting-Nachweis, EU-AI-Act-Einstufung)
+  — das ist bei Compliance-first-Positionierung das zentrale Vertrauensmittel und muss vom
+  ersten Gespräch an belegbar sein, nicht nur behauptet.
+- Schmerz-geführtes Anschreiben personalisieren (Vorlage: `pilot-akquise.md`).
 - Einwilligungs-Text vorbereiten (siehe unten), damit er im Erstgespräch schon
   angesprochen werden kann — keine Überraschung erst nach getaner Arbeit.
 
 ### Phase 2 — Tag 15–45: Ansprache & Erstgespräche
-- 5–8 personalisierte Anschreiben/Woche, Ziel: 3–5 Erstgespräche über beide Segmente.
+- 5–8 personalisierte Anschreiben/Woche, Ziel: 3–5 Erstgespräche.
 - Im Erstgespräch: Ausgangswerte messen (Messfrage 1), Situation in eigenen Worten
   erfassen, Einwilligung fürs Case-Prinzip grundsätzlich klären (Name statt
   Anonymisierung), zusätzliche Marktforschungs-Fragen stellen (siehe `pilot-akquise.md`).
-- **1 Pilot je Segment** verbindlich starten (Umfang begrenzt, 2–3 zusammenhängende
-  Automatisierungen) — Ziel: 2 laufende Piloten am Ende dieser Phase.
+- **1–2 Piloten** verbindlich starten (Umfang begrenzt, 2–3 zusammenhängende
+  Automatisierungen) — unabhängig vom Segment, wer echten Case-Wert liefert.
 
 ### Phase 3 — Tag 46–90: Umsetzung, Beweis, Case Study
 - Automatisierungen liefern + Team einweisen.

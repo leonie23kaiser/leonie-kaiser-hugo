@@ -5,12 +5,15 @@
 Selbstzahler" statt nur Selbstzahler, Mischpraxen drin. **Website-Session bitte mitziehen.**
 Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/ESOMAR).*
 
-> **Entscheidung 2026-07-14: nur noch 2 Start-Segmente (Physio, Longevity).**
-> Ernährungsberatung wurde deep-dived (Score 9, schwächster der 3) und ein Stufe-1-Scan
-> von 7 weiteren Nischen fand keine bessere Alternative — alle Solo-lastig, niedrigere
-> Preisklasse, hohe Datenschutz-Hürde, eher Folgesegmente als Kaltstart-Kandidaten.
-> Ernährungsberatung wandert zu den „Zukünftige potenzielle Nischen" — erst angehen,
-> sobald echte Referenzen aus Physio/Longevity da sind. Details: `silicon-sampling.md`.
+> **Finale Entscheidung 2026-07-14: schmerz-geführt starten, nicht segment-geführt.**
+> Nach mehreren Silicon-Sampling-Runden (Ernährungsberatung deep-dived, 7 Nischen
+> gescannt, Longevity/Medical-Wellness getrennt + 2 Prävention-Kandidaten) ist klar:
+> die synthetischen Segment-Scores sind zu unsicher, um darauf die Positionierung zu
+> bauen — aber **jedes Segment nennt denselben Kern-Schmerz und dieselbe #1-Hürde
+> (Datenschutz).** Deshalb: **breit über den Schmerz + Compliance-first starten**, die
+> Fachrichtung nur als Beispiel im Content nutzen (Scheinwerfer), und die Segmente als
+> **nach Score priorisierte Zielliste** führen (unten), die erst mit echten Referenzen
+> gezielt bespielt wird. Details: `silicon-sampling.md`.
 
 ## Der Schirm (ändert sich nie)
 
@@ -81,36 +84,41 @@ Hebammen, Ernährungsberatung/Diätologie.
 **B. Prävention & Wohlbefinden (homogen-nah):**
 Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
 
-## Start-Unterseiten (genau 2)
+## Start: schmerz-geführt, breit — keine festgelegten Start-Segmente
 
-| Seite | deckt mit ab | Segment-Twist (die 10 %) |
-|---|---|---|
-| **Therapie- & Bewegungspraxen** *(Aushängeschild: Physio)* | Ergo, Osteo, Podo | Serientermine/Recall, Verordnung, Sport-Nachsorge |
-| **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
+**Die Website/Bio startet NICHT mit einer festgelegten Nische**, sondern mit dem
+homogenen Kern-Schmerz oben + Compliance-first (Datenschutz/EU AI Act als
+Differenzierungsmerkmal). Zielgruppe breit: **kleine, inhabergeführte Gesundheitspraxen**
+mit sensiblen Gesundheitsdaten und Wahlarzt-/Privat-/Selbstzahler-Anteil. Einzelne
+Fachrichtungen tauchen als **Beispiele im Content** auf (Blog, LinkedIn, Beispiel-
+szenarien), nicht als tragende Struktur. So muss nichts umgeschrieben werden, wenn sich
+herausstellt, welches Segment tatsächlich anbeißt.
 
-## Erweitern
+## Zielsegment-Landkarte (nach Score priorisiert — gezielt bespielen, sobald Referenzen da sind)
 
-Eine dritte Seite kommt **erst, sobald echte Referenzen/Case Studies aus Physio und
-Longevity vorliegen** — nicht vorab geplant, sondern dann neu geprüft (welches Segment
-zu dem Zeitpunkt am meisten Anfragen/Empfehlungen zeigt).
+*Aus allen Silicon-Sampling-Runden zusammengeführt (`silicon-sampling.md`). Innerhalb-Runde-
+Ranking verlässlich, Cross-Run-Scores nur grob — die Personas der Prävention-Runde wurden
+als „Premium/Team" charakterisiert, was deren Scores mit anhebt.*
 
-**Kandidaten für Phase 2** (alle bereits per Silicon Sampling geprüft, Scores 8–10,
-durchgängig niedriger als Physio/Longevity mit je 11 — Details: `silicon-sampling.md`):
+**Tier 1 — zuerst ansprechen (gewinnbar + gutes Ticket, weiche Brand Voice passt):**
 
-| Nische | Score |
-|---|:--:|
-| Podologie | 10 |
-| Ernährungsberatung / Diätologie | 9 |
-| Osteopathie | 9 |
-| Heilpraktiker/Naturheilkunde/TCM | 9 |
-| Hebammen | 9 |
-| Massage/manuelle Therapie | 9 |
-| Ergotherapie | 9 |
-| Logopädie | 8 |
+| Segment | Score | Projekt-OPP | warum |
+|---|:--:|:--:|---|
+| **Physiotherapie / Therapiepraxen** (inkl. Ergo/Osteo/Podo) | 11 | 1.528 € | zugänglich, klarer Leidensdruck, ideales Aushängeschild |
+| **Medical-Wellness** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
 
-Durchgängiges Muster bei allen: Solo-Dominanz, niedrigere Preisklasse, hohe
-Datenschutz-Hürde — das sind Folgesegmente, die von Referenzen profitieren, nicht
-Kaltstart-Kandidaten.
+**Tier 2 — das große Ticket, aber erst mit Referenzen + belegbarer Compliance:**
+
+| Segment | Score | Projekt-OPP | Hürde |
+|---|:--:|:--:|---|
+| **Longevity / Präventionsmedizin** (ärztlich, datengetrieben) | 13 | **5.012 €** | Integrations-/API-Kompetenz + Compliance-Nachweis Pflicht; **kein Wellness-Framing** |
+| **Check-up / Vorsorgemedizin** (Executive Health) | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration erwartet |
+| **Sportmedizin-Zentren** | 11 | ~1.800–2.400 € | medizinisch-diagnostisches Selbstbild, Haftungstiefe |
+
+**Tier 3 — nur bei konkreter Anfrage/Empfehlung (schwächer, solo-lastig):**
+Podologie (10) · Ernährungsberatung/Diätologie (9, deep-dived) · Osteopathie (9) ·
+Heilpraktiker/Naturheilkunde/TCM (9) · Hebammen (9) · Massage/manuelle Therapie (9) ·
+Ergotherapie (9) · Logopädie (8). Durchgängig Solo-lastig, niedrigere Preisklasse.
 
 ## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`, Phase 2)
 
