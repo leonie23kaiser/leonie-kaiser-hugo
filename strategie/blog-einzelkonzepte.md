@@ -1,21 +1,30 @@
 # Blog-Einzelkonzepte — Leonie Kaiser Journal
 
 *Detail-Briefings pro Beitrag: Keyword, Search-Intent, Content-Gap, Meta, interne Links
-und H1/H2/H3-Outline. Grundlage: `strategie/blog-konzept.md` (Gesamtstrategie),
-`AGENTS.md` (Brand Voice, kanonisch). Stand: 2026-07-08.*
+und H1/H2/H3-Outline. Grundlage: `strategie/blog-konzept.md` (Gesamtstrategie, schmerz-
+geführtes Modell), `AGENTS.md` (Brand Voice, kanonisch). Stand: 2026-07-15.*
 
 > Suchvolumen und Wettbewerb sind vor dem Schreiben grob gegen die reale Google-Suche
 > (Autocomplete, „Ähnliche Fragen", Search Console) zu prüfen — die Keywords hier sind
 > begründete Vorschläge, keine gemessenen Zahlen.
 
+> **CTA-Grundsatz (alle Posts):** genau **ein** CTA — die kostenlose KI-Potenzialanalyse
+> (kanonisch in AGENTS.md §12; kein Newsletter vorhanden). Das *Framing* pro Post
+> variieren (segmentspezifisches Ergebnis + ggf. Referenz), damit der CTA passend statt
+> generisch wirkt — nie „kostenlos, kein Verkaufsgespräch".
+
+> **Diese drei sind das Launch-Paket** und decken je einen Typ/Pfad ab: #1 Haltung,
+> #2 Segment-Scheinwerfer (Physio), #3 Compliance. Erst diese drei ausarbeiten, dann
+> schaut Leonie, wie es ihr damit geht — **danach** #4–#10.
+
 **Status-Legende:** 🟢 fertig konzipiert · ⚪ folgt
 
-| # | Post | Status |
-|---|---|---|
-| 1 | Vorstellung + „Ohne mich läuft hier nichts" | 🟢 |
-| 2 | No-Shows Physiotherapie senken | 🟢 |
-| 3 | Patientendaten & ChatGPT / DSGVO Art. 9 | 🟢 |
-| 4–10 | (folgen in gleicher Struktur) | ⚪ |
+| # | Post | Typ / Pfad | Status |
+|---|---|---|---|
+| 1 | Vorstellung + „Ohne mich läuft hier nichts" | Haltung | 🟢 |
+| 2 | No-Shows Physiotherapie senken | Typ 2 · Scheinwerfer (Physio) | 🟢 |
+| 3 | Patientendaten & ChatGPT / DSGVO Art. 9 | Compliance | 🟢 |
+| 4–10 | (folgen nach dem Launch, in gleicher Struktur) | gemischt | ⚪ |
 
 ---
 
@@ -59,8 +68,8 @@ Vertrauen, nicht über Volumen.
 - **Sekundär/semantisch:** Flaschenhals Praxis, alles hängt an mir, KI-Beraterin
   vorstellen, erst Prozesse dann Tool, KI für kleine Gesundheitspraxen
 - **Target Intent:** Awareness (Problem-Erkennen + Vertrauen)
-- **Säule:** D (Haltung) mit A-Anker (Zeit & Abläufe)
-- **Typ/Länge:** Persönlicher/Haltungs-Post, **700–1.000 Wörter**, ~4 min
+- **Typ / Pfad:** Haltung & Persönliches (mit Schmerz-Aufhänger)
+- **Format/Länge:** Persönlicher/Haltungs-Post, **700–1.000 Wörter**, ~4 min
 - **Kategorie (Front-Matter):** „Haltung"
 
 ### Interne Links
@@ -84,12 +93,15 @@ anonymen Anbieterstimme der Software-Konkurrenz — hier spricht ein Mensch mit 
 - **H2: Warum in kleinen Praxen alles an der Leitung hängt**
   - H3: Sie sind Fachkraft, Chefin und Empfang zugleich
   - H3: Jedes neue Tool macht es kurz schlimmer, nicht besser
-- **H2: Wer ich bin — und warum mich genau das antreibt**
-  - Kurz und konkret: 7+ Jahre Business Consulting für Kleinbetriebe, Erfahrung aus der
-    Pharma-Branche (regulierte, datensensible Umgebungen — Herkunft meiner Sorgfalt beim
-    Datenschutz), der Weg zu KI, warum Gesundheits-/Wellness-Praxen. Erfahrung benennen,
-    ohne zu prahlen. *(Pharma als Autoritäts-Signal, nicht als Zielmarkt — siehe
-    Positionierung.)*
+- **H2: Wer ich bin — und warum mich gerade dieses Problem nicht loslässt**
+  - Kurz und konkret: 20+ Jahre Berufserfahrung, davon 10+ Jahre in regulierten
+    Gesundheits- und Pharmaunternehmen (Merck Healthcare, AbbVie, Baxter) in
+    Digitalisierung, Marketing und Projekten — dort den Umgang mit sensiblen Daten und
+    komplexen, regulierten Abläufen von innen kennengelernt. Danach Unternehmensberatung
+    für Kleinbetriebe, heute KI- und Prozessberatung für Praxen. Erfahrung benennen, ohne
+    zu prahlen. *(Ehrlich einordnen: Digitalisierung/Marketing/Projekte in regulierten
+    Konzernen, nicht klinische Patientendaten-Verarbeitung. Pharma als Autoritäts-Signal
+    und Herkunft der Datenschutz-Sorgfalt, nicht als Zielmarkt — siehe Positionierung.)*
 - **H2: Wofür ich stehe (und wogegen)**
   - H3: Erst die Prozesse, dann das Tool
   - H3: Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte
@@ -99,8 +111,8 @@ anonymen Anbieterstimme der Software-Konkurrenz — hier spricht ein Mensch mit 
 - **CTA:** Potenzialanalyse, gerahmt als „gemeinsam schauen, wo Ihre Praxis Zeit verliert".
 
 ### Meta-Description (Entwurf, 140–160)
-> Wer bin ich und warum helfe ich kleinen Gesundheitspraxen mit KI? Es beginnt bei einem
-> Satz, den viele Praxisleitungen kennen — und bei meiner Haltung dazu.
+> Wer steckt hinter dieser KI-Beratung? Warum ich kleinen Gesundheitspraxen helfe, ihren
+> Alltag zu entlasten — und wofür ich dabei stehe: erst die Prozesse, dann das Tool.
 
 *(FAQ-Block bei diesem persönlichen Post optional — Haltung statt How-to.)*
 
@@ -114,8 +126,8 @@ anonymen Anbieterstimme der Software-Konkurrenz — hier spricht ein Mensch mit 
   Terminerinnerung Physiotherapie, verpasste Termine Praxis, Patiententermine
   automatisieren, DSGVO-konforme Terminerinnerung
 - **Target Intent:** Consideration (Problem bekannt, Lösungswege werden verglichen)
-- **Säule:** A (Zeit & Abläufe) + C-Twist (Physio)
-- **Typ/Länge:** Standard-Fachbeitrag, **1.100–1.400 Wörter**, ~6 min
+- **Typ / Pfad:** Typ 2 · Segment-Scheinwerfer (Physio) — Schmerz-Thema am Segment gezeigt
+- **Format/Länge:** Standard-Fachbeitrag, **1.100–1.400 Wörter**, ~6 min
 - **Kategorie:** „Zeit & Abläufe"
 
 ### Interne Links
@@ -179,8 +191,8 @@ konkret, und die Reminder/Recall-Unterscheidung als eigener Erkenntnis-Punkt.
   darf ich Patientendaten in KI eingeben, ChatGPT Praxis Datenschutz, EU-Hosting KI-Tool,
   Auftragsverarbeitungsvertrag KI
 - **Target Intent:** Consideration (konkrete Sorge, sucht belastbare Antwort)
-- **Säule:** B (Datenschutz & EU AI Act)
-- **Typ/Länge:** Tiefer Leitfaden, **1.500–2.000 Wörter**, ~9 min — ein Ranking-Anker
+- **Typ / Pfad:** Compliance & EU AI Act (tragender Pfad)
+- **Format/Länge:** Tiefer Leitfaden, **1.500–2.000 Wörter**, ~9 min — ein Ranking-Anker
 - **Kategorie:** „Datenschutz & EU AI Act"
 
 ### Interne Links
@@ -194,8 +206,11 @@ Claims („100 % DSGVO-konform"). Kaum jemand erklärt der Praxisleitung **verst
 konkret**, was Art. 9 bedeutet, warum schon ein Terminanlass darunterfällt, und was ein
 sauberes Setup ausmacht (EU-Hosting, AVV, keine Trainings-Nutzung, Datenminimierung).
 Leonies Winkel: Datenschutz als Haltung, konkret belegt statt behauptet — genau ihr
-stärkstes Verkaufsargument, hier als Fachautorität ausgespielt. Keine Panikmache, keine
-Rechtsberatung — Orientierung mit klarem Hinweis, wo die Juristin/der DSB gefragt ist.
+stärkstes Verkaufsargument, hier als Fachautorität ausgespielt. **Autoritätsanker früh im
+Text:** Leonie kennt regulierte, datensensible Umgebungen aus 10+ Jahren in Gesundheits-
+und Pharmaunternehmen — sie weiß, wie ernst sensible Daten zu nehmen sind. Keine
+Panikmache, keine Rechtsberatung — Orientierung mit klarem Hinweis, wo die Juristin/der
+DSB gefragt ist.
 
 ### Outline
 **H1: Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet**
@@ -206,7 +221,7 @@ Rechtsberatung — Orientierung mit klarem Hinweis, wo die Juristin/der DSB gefr
 - **H2: Warum Gesundheitsdaten besonders geschützt sind (Art. 9 DSGVO)**
   - H3: Was „besondere Kategorien personenbezogener Daten" bedeutet
   - H3: Warum schon der Terminanlass oder eine Diagnose-Andeutung dazugehört
-- **H2: Was schiefgeht, wenn man Daten einfach einkippt**
+- **H2: Was schiefgeht, wenn Daten ungeprüft in ein KI-Tool gelangen**
   - H3: Daten, die zu Trainingszwecken weiterverwendet werden
   - H3: Serverstandort außerhalb der EU
   - H3: Kein Auftragsverarbeitungsvertrag (AVV)
@@ -233,9 +248,13 @@ Rechtsberatung — Orientierung mit klarem Hinweis, wo die Juristin/der DSB gefr
 
 ---
 
-## Posts #4–#10 — folgen
+## Posts #4–#10 — folgen nach dem Launch
 
 Gleiche Struktur (Eckdaten · interne Links · Content-Gap · Outline · Meta). Reihenfolge
-und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8.
-Werden auf Zuruf ausgearbeitet — sinnvoll erst nach Freigabe der ersten drei, damit
-Tonfall und Tiefe einmal justiert sind, bevor die restlichen sieben entstehen.
+und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8 — inklusive
+der **Chancen-Themen** (Typ 1), die neben den Schmerzpunkten laufen:
+- **Auffindbarkeit / GEO:** „Damit Ihre Praxis online und in KI-Antworten gut gefunden wird."
+- **Website-Chatbot / KI-Assistent:** besseres Kundenerlebnis, Anfragen sofort beantwortet.
+
+Werden **erst nach Freigabe der ersten drei** ausgearbeitet — so ist Tonfall und Tiefe
+einmal an #1–#3 justiert, bevor die restlichen entstehen.

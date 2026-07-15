@@ -1,9 +1,16 @@
 # Blog-Konzept — Leonie Kaiser Journal
 
-*SEO- & Redaktionsstrategie für den Blog auf leoniekaiser.com. Stand: 2026-07-08.
-Konsolidiert aus `AGENTS.md` (Brand Voice, kanonisch), `strategie/strategie-konzept.md`
-und `strategie/strategie-briefing-gesundheitsbetriebe.md`. Dies ist die Übersicht —
-die Ausarbeitung einzelner Artikel folgt in einem zweiten Schritt.*
+*SEO- & Redaktionsstrategie für den Blog auf leoniekaiser.com. Stand: 2026-07-15
+(schmerz-geführte Positionierung). Konsolidiert aus `AGENTS.md` (Brand Voice, kanonisch),
+`strategie/strategie-konzept.md` und `strategie/strategie-briefing-gesundheitsbetriebe.md`.
+Dies ist die Übersicht — die Ausarbeitung einzelner Artikel folgt in einem zweiten Schritt.*
+
+> **Positionierungs-Modell (schmerz-geführt):** Der Blog trägt den Scheinwerfer. Zwei
+> Post-Typen — breite **Schmerz-Themen-Posts** (Fundament, segment-neutral) und einzelne
+> **Segment-Beispiel-Posts** (Scheinwerfer auf ein Tier-1-Segment, ohne die Positionierung
+> darauf festzulegen) — plus **Compliance/EU AI Act** als eigener, tragender Content-Pfad.
+> Details siehe Abschnitt 3. *(Referenz-Files `strategie-konzept.md` „Positionierungs-Achse"
+> und `service-katalog.md` lagen im Repo noch nicht vor — bei Nachreichung Wortlaut angleichen.)*
 
 > Preis- und Marktzahlen aus den Strategie-Files sind synthetische Orientierungs-
 > Korridore (Silicon Sampling / ESOMAR) und mit echten Gesprächen zu validieren.
@@ -49,16 +56,23 @@ Wettbewerb aber schwach (siehe Content-Gap in Abschnitt 6).
 
 ---
 
-## 3. Themenblöcke (Content-Säulen)
+## 3. Struktur: der Blog trägt den Scheinwerfer
 
-Vier Säulen. Jede zahlt auf eine bestehende Seite ein (Hub-and-Spoke): Der Blogpost
-ist die **Spoke**, die Praxis-/Autoritätsseite der **Hub**. So entsteht topische
-Autorität statt verstreuter Einzelposts.
+Die Positionierung ist **schmerz-geführt** und bleibt breit: der Schirm sind kleine,
+inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler).
+**Der Blog ist der Ort, an dem der Scheinwerfer arbeitet** — er beleuchtet einzelne
+Segmente, ohne die Positionierung auf eines festzunageln. Der Schirm (Startseite, Bio,
+GBP) bleibt stabil; im Blog wird geschwenkt.
 
-### Säule A — Zeit & Abläufe („Chaos reduzieren")
-Der Kern-Schmerz: Termine, No-Shows, Doku, Nachsorge (**Recall**), „alles hängt an mir".
-Breiteste Säule, ~90 % über alle Segmente identisch → einmal gut aufsetzen, oft nutzen.
-→ **Verlinkt auf:** die drei Praxisseiten, je nach Segment-Twist.
+Daraus ergeben sich **zwei Post-Typen** plus **ein tragender Compliance-Pfad**:
+
+### Typ 1 — Schmerz-Themen-Posts (das Fundament, segment-neutral)
+Die breiten Kern-Schmerzen, die **für jede Gesundheitspraxis** gelten: Termine/No-Shows,
+Nachsorge/**Recall**, Dokumentation, „alles hängt an mir". Dazu die Chancen-Seite
+(Auffindbarkeit, Kundenerlebnis). Diese Posts **nennen kein Segment** — sie bauen die
+topische Autorität auf dem Kern-Schmerz auf (~90 % über alle Segmente identisch), sind
+wiederverwendbar und tragen den Blog.
+→ **Verlinkt auf:** Startseite/Schirm + passende Praxisseiten (ohne sich festzulegen).
 
 > **Ein großer Post oder mehrere normale? → Mehrere.** (Deine Frage.) Der Kern-Schmerz
 > hat mehrere Facetten (Termine, No-Shows, Doku, Recall, Flaschenhals) — jede ist eine
@@ -78,40 +92,39 @@ Breiteste Säule, ~90 % über alle Segmente identisch → einmal gut aufsetzen, 
 >
 > Reminder sichert den nächsten Termin, Recall den übernächsten. Praxen brauchen beides.
 
-### Säule B — Datenschutz & EU AI Act
-Die größte Kaufbremse *und* Leonies stärkstes Verkaufsargument. Hier gewinnt der Blog
-Vertrauen, das kein Wettbewerber liefert (die meisten werfen „DSGVO-konform" nur als
-Claim hin). → **Verlinkt auf:** `/eu-ai-act/` (Autoritäts-Pillar).
-
-### Säule C — Praxis-Segmente (branchenspezifisch)
-Derselbe Kern-Schmerz, aber in der Sprache je Segment: Physio/Therapie, Longevity/
-Medical-Wellness, Ernährungsberatung. Branchenspezifik ist laut Marktforschung der
-stärkste Vertrauensanker — ein Generalist verliert hier.
+### Typ 2 — Segment-Beispiel-Posts (der Scheinwerfer, Tier-1)
+Derselbe Kern-Schmerz, aber **an einem Segment gezeigt** — z. B. „KI in der Physiopraxis"
+oder „… in der Longevity-Praxis". Illustrativ, in der Sprache des Segments,
+branchenspezifisch (= stärkster Vertrauensanker). **Wichtig:** Diese Posts sind
+Scheinwerfer, keine Neu-Positionierung — sie legen den Schirm nicht auf ein Segment fest.
+Scheinwerfer bevorzugt auf die **Tier-1-Segmente** (Opportunity-Ranking: Physio/Therapie,
+Longevity/Medical-Wellness). Läuft ein Segment nicht → schwenken, ohne Bio/GBP anzufassen.
 → **Verlinkt auf:** die jeweils passende `/ki-fuer-…-praxen/`-Seite.
 
-### Säule D — Haltung & Hinter-den-Kulissen (Vertrauen/Shareable)
-Wofür Leonie steht: „erst Prozesse, dann Tool", „das brauchen Sie nicht", warum sie
-sich mit der eigenen Berater-Branche anlegt. Weniger SEO, mehr Persönlichkeit und
-LinkedIn-Teilbarkeit. → **Verlinkt auf:** `/ueber-mich/`.
+### Tragender Pfad — Compliance & EU AI Act (eigenständig, quer zu beiden Typen)
+**Kein Nebenthema, sondern eine eigene tragende Content-Schiene.** Datenschutz (DSGVO
+Art. 9), EU AI Act für kleine Praxen, AVV/EU-Hosting, Haftung. Das ist die größte
+Kaufbremse *und* Leonies stärkste Differenzierung — Vertrauen, das kein Wettbewerber
+liefert (die meisten werfen „DSGVO-konform" nur als Claim hin). Läuft parallel: sowohl als
+eigene Compliance-Posts als auch als fester Datenschutz-Abschnitt in Schmerz- und
+Segment-Posts. → **Verlinkt auf:** `/eu-ai-act/` (Autoritäts-Pillar).
 
-**Scheinwerfer-Prinzip:** Der Schirm (Positionierung, Bio) bleibt stabil. Im Blog
-rotiert der Scheinwerfer über die Segmente. Läuft ein Segment nicht, wird geschwenkt —
-ohne die Positionierung anzufassen.
+### + Haltung & Persönliches (kleiner, aber wichtig)
+Wofür Leonie steht: „erst Prozesse, dann Tool", „das brauchen Sie nicht", die
+Vorstellung. Wenig SEO, viel Persönlichkeit und LinkedIn-Reichweite.
+→ **Verlinkt auf:** `/ueber-mich/`.
 
-### Prozentuale Aufteilung (deine Frage)
-Richtwert über einen Zeitraum (z. B. je 10 Beiträge), keine starre Quote — die Mischung
-zählt, nicht die exakte Zahl:
+### Mischung (Richtwert, keine starre Quote)
 
-| Säule | Anteil | Warum |
+| Post-Typ / Pfad | Anteil | Warum |
 |---|---|---|
-| **A — Zeit & Abläufe** | **~40 %** | breitester Schmerz, meiste Suchanfragen, wiederverwendbar über alle Segmente |
-| **C — Praxis-Segmente** | **~30 %** | branchenspezifisch = stärkster Vertrauensanker; verteilt auf Physio/Longevity/Ernährung |
-| **B — Datenschutz & EU AI Act** | **~20 %** | größte Kaufbremse + stärkste Differenzierung; Autorität für `/eu-ai-act/` |
-| **D — Haltung** | **~10 %** | Persönlichkeit & LinkedIn-Reichweite; wenig SEO, aber wichtig fürs Vertrauen |
+| **Typ 1 — Schmerz-Themen (Fundament)** | **~40 %** | breitester Schmerz, meiste Suchanfragen, segment-neutral wiederverwendbar |
+| **Typ 2 — Segment-Beispiele (Scheinwerfer)** | **~30 %** | branchenspezifisch = stärkster Vertrauensanker; rotiert über Tier-1-Segmente |
+| **Compliance & EU AI Act (tragender Pfad)** | **~20 %** | größte Kaufbremse + stärkste Differenzierung; Autorität für `/eu-ai-act/` |
+| **Haltung & Persönliches** | **~10 %** | Persönlichkeit & LinkedIn-Reichweite; wenig SEO, aber wichtig fürs Vertrauen |
 
-Auf die ersten 10 Posts gerechnet: **A 4 · C 3 · B 2 · D 1** (D anteilig in #1/#9/#10
-mitgeführt). So bleibt der Fokus auf Traffic (A/C), ohne Vertrauen (B) und Gesicht (D)
-zu vernachlässigen.
+Auf 10 Posts gerechnet: **Typ 1 ×4 · Typ 2 ×3 · Compliance ×2 · Haltung ×1**. Fokus auf
+Traffic (Typ 1 + 2), ohne den tragenden Compliance-Pfad und das Gesicht zu vernachlässigen.
 
 ---
 
@@ -197,17 +210,26 @@ Die deutschen Top-Ergebnisse zu diesen Themen sind fast durchweg **Software-Anbi
 | Anonyme Anbieterstimme | Eine echte Beraterin mit Haltung und Gesicht |
 | Verkauft ein Produkt | Verkauft Klarheit — unabhängig vom Tool |
 
-**Leonies E-E-A-T-Kapital, das in die Beiträge gehört:** 7+ Jahre Business Consulting
-für Kleinbetriebe, **Erfahrung aus der Pharma-Branche** (Verständnis für regulierte
-Umgebungen, Gesundheitsdaten und Qualitätsdenken), EU-AI-Act-Kompetenz (Art. 4),
-Datenschutz als Haltung, Spezialisierung auf Gesundheits-/Wellness-Praxen. Das ist
-*Experience* und *Expertise* — sichtbar machen, nicht verstecken.
+**Leonies E-E-A-T-Kapital, das in die Beiträge gehört** (belegt über das LinkedIn-Profil):
+- **20+ Jahre Berufserfahrung**, davon **10+ Jahre in international regulierten Gesundheits-
+  und Pharmaunternehmen** — Merck Healthcare, AbbVie, Baxter, KED Pharmaceuticals — in
+  Digitalisierung, Marketing und Projektmanagement (u. a. Digital Transformation Lead).
+- **Vertrautheit mit sensiblen Daten und komplexen, regulierten Abläufen** aus genau
+  diesen Umgebungen — die Herkunft ihrer Datenschutz-Sorgfalt.
+- Mehrere Jahre **strategische Unternehmensberatung** für Solo-/Kleinbetriebe, heute
+  KI- und Prozessberatung.
+- **EU-AI-Act-Kompetenz (Art. 4)**, Datenschutz als Haltung, Spezialisierung auf
+  Gesundheits-/Wellness-Praxen. Mehrsprachig (DE/EN/ES).
 
-> **Hinweis zur Pharma-Erfahrung:** Sie ist ein **Autoritäts-Signal** (du kennst
-> regulierte, datensensible Umgebungen von innen) — nicht zu verwechseln mit der
-> Anti-Zielgruppe „große Pharma" aus der Positionierung. Du *bedienst* keine Pharma-
-> konzerne; deine Pharma-*Vergangenheit* macht dich bei Datenschutz und Sorgfalt
-> glaubwürdig. Genau so einbauen: als Herkunft deiner Sorgfalt, nicht als Zielmarkt.
+Das ist echtes *Experience*, *Expertise* und *Authoritativeness* — sichtbar machen, nicht
+verstecken.
+
+> **Hinweis zur Pharma-Erfahrung (Framing):** Sie ist ein **Autoritäts-Signal** — Leonie
+> kennt regulierte, datensensible Umgebungen von innen. Ehrlich einordnen: Ihr Feld war
+> **Digitalisierung, Marketing und Projekte** in regulierten Konzernen, nicht die
+> klinische Verarbeitung von Patientendaten. Und: nicht verwechseln mit der Anti-Zielgruppe
+> „große Pharma" — sie *bedient* keine Pharmakonzerne, ihre Pharma-*Vergangenheit* macht
+> sie bei Datenschutz und Sorgfalt glaubwürdig. Herkunft der Sorgfalt, nicht Zielmarkt.
 
 ---
 
@@ -227,9 +249,9 @@ Datenschutz als Haltung, Spezialisierung auf Gesundheits-/Wellness-Praxen. Das i
 ### Länge nach Typ
 | Typ | Wörter | Lesezeit | Wofür |
 |---|---|---|---|
-| **Standard-Fachbeitrag** | 900–1.400 | 4–6 min | die meisten Posts (Säule A/B/C) |
-| **Tiefer Leitfaden** | 1.500–2.200 | 7–10 min | Kern-Themen, die ranken sollen (z. B. Datenschutz) |
-| **Persönlicher/Haltungs-Post** | 600–1.000 | 3–4 min | Säule D, LinkedIn-tauglich |
+| **Standard-Fachbeitrag** | 900–1.400 | 4–6 min | die meisten Posts (Typ 1, Typ 2) |
+| **Tiefer Leitfaden** | 1.500–2.200 | 7–10 min | Kern-Themen, die ranken sollen (v. a. Compliance-Pfad) |
+| **Persönlicher/Haltungs-Post** | 600–1.000 | 3–4 min | Haltung & Persönliches, LinkedIn-tauglich |
 
 Kürzer als 600 Wörter rankt selten; länger als 2.200 verliert die Handy-Leserin. Im
 Zweifel: so lang wie nötig, um die Frage vollständig zu beantworten — nicht länger.
@@ -260,26 +282,40 @@ Leonie sichtet nach. Zukünftiges `date` = geplante Veröffentlichung.
 
 ## 8. Die ersten 10 Beiträge (Redaktionsplan)
 
-Reihenfolge = Empfehlung. **#1–#3 gehen gemeinsam zum Launch online** (Vorstellung +
-No-Shows + Datenschutz — je eine Säule), danach #4 ff. im Wochentakt. Alle Keywords sind
-Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche zu prüfen (wie das geht:
-siehe `strategie/blog-einzelkonzepte.md`, Abschnitt „Keyword gegen die reale Suche prüfen").
+Reihenfolge = Empfehlung. **#1–#3 gehen gemeinsam zum Launch online** und decken bewusst
+je einen anderen Typ/Pfad ab: **Haltung** (#1), **Segment-Scheinwerfer** (#2 Physio),
+**Compliance** (#3). Danach #4 ff. im Wochentakt. Alle Keywords sind Long-Tail-Vorschläge
+und vor dem Schreiben gegen die reale Suche zu prüfen (wie das geht: siehe
+`strategie/blog-einzelkonzepte.md`, Abschnitt „Keyword gegen die reale Suche prüfen").
 
-| # | Working Title | Primär-Keyword | Intent | Säule | Verlinkt auf (Hub) |
+| # | Working Title | Primär-Keyword | Intent | Typ / Pfad | Verlinkt auf (Hub) |
 |---|---|---|---|---|---|
-| **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt (und warum ich genau da ansetze) | „Praxis hängt an Inhaberin" | Awareness | D/A | `/ueber-mich/` |
-| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist) | „No-Shows Physiotherapie reduzieren" | Consideration | A/C | `/ki-fuer-physiotherapie-praxen/` |
-| **3** | Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet | „Patientendaten ChatGPT DSGVO" | Consideration | B | `/eu-ai-act/` |
-| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | A | `/ki-fuer-longevity-praxen/` |
-| **5** | Terminerinnerung vs. Recall: der Unterschied, den die meisten Praxen übersehen | „Recall Praxis automatisieren" | Consideration | A | `/ki-fuer-physiotherapie-praxen/` |
-| **6** | Longevity-Praxis: fünf Tools, die nicht miteinander reden — und wie eine Kundenreise daraus wird | „Longevity Praxis Software verbinden" | Consideration | C | `/ki-fuer-longevity-praxen/` |
-| **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act Arztpraxis kleine Praxis" | Consideration | B | `/eu-ai-act/` |
-| **8** | Beratungsprotokolle in der Ernährungsberatung: Abende zurückgewinnen, ohne die persönliche Note zu verlieren | „Ernährungsberatung Dokumentation automatisieren" | Consideration | C | `/ki-fuer-ernaehrungsberatung-praxen/` |
-| **9** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | A/D | `/#kontakt` + `/ueber-mich/` |
-| **10** | „Wir haben ChatGPT probiert, aber das war nichts Halbes und nichts Ganzes" — warum Tools ohne Prozess scheitern | „ChatGPT Praxis funktioniert nicht" | Consideration | A/D | `/ki-fuer-physiotherapie-praxen/` |
+| **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt (und warum ich genau da ansetze) | „Praxis hängt an Inhaberin" | Awareness | Haltung | `/ueber-mich/` |
+| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist) | „No-Shows Physiotherapie reduzieren" | Consideration | Typ 2 · Scheinwerfer (Physio) | `/ki-fuer-physiotherapie-praxen/` |
+| **3** | Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet | „Patientendaten ChatGPT DSGVO" | Consideration | Compliance | `/eu-ai-act/` |
+| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Typ 1 · Schmerz | Startseite + Praxisseite |
+| **5** | Terminerinnerung vs. Recall: der Unterschied, den die meisten Praxen übersehen | „Recall Praxis automatisieren" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
+| **6** | Longevity-Praxis: fünf Tools, die nicht miteinander reden — und wie eine Kundenreise daraus wird | „Longevity Praxis Software verbinden" | Consideration | Typ 2 · Scheinwerfer (Longevity) | `/ki-fuer-longevity-praxen/` |
+| **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act Arztpraxis kleine Praxis" | Consideration | Compliance | `/eu-ai-act/` |
+| **8** | Beratungsprotokolle in der Ernährungsberatung: Abende zurückgewinnen, ohne die persönliche Note zu verlieren | „Ernährungsberatung Dokumentation automatisieren" | Consideration | Typ 2 · Scheinwerfer (Ernährung) | `/ki-fuer-ernaehrungsberatung-praxen/` |
+| **9** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | Typ 1 · Schmerz | `/#kontakt` + `/ueber-mich/` |
+| **10** | „Wir haben ChatGPT probiert, aber das war nichts Halbes und nichts Ganzes" — warum Tools ohne Prozess scheitern | „ChatGPT Praxis funktioniert nicht" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
 
-**Verteilung:** Säule A 4× · B 2× · C 3× · D (anteilig in 1/9/10). Intent: Awareness 1 ·
-Consideration 7 · Decision 1 · +1 gemischt. Ausgewogen, mit klarem Consideration-Fokus.
+**Verteilung:** Typ 1 (Schmerz) 4× · Typ 2 (Scheinwerfer) 3× · Compliance 2× · Haltung 1×.
+Intent: Awareness 1 · Consideration 8 · Decision 1. Ausgewogen, mit klarem Consideration-
+Fokus — passt zur Mischung aus Abschnitt 3.
+
+**Themen-Pool für #4 ff. (Reihenfolge offen, nach den ersten drei).** Neben den obigen
+auch die **Chancen-Seite** bespielen — nicht nur Schmerz, sondern auch Wunsch/Gewinn:
+- **Auffindbarkeit / GEO (Typ 1):** „Damit Ihre Praxis online — und in KI-Antworten —
+  gut gefunden wird." Wie kleine Praxen in Google und AI Overviews sichtbar werden.
+  Consideration; verlinkt auf Startseite + `/eu-ai-act/` (seriöse, konforme Sichtbarkeit).
+- **Website-Chatbot / KI-Assistent (Typ 1/Typ 2):** „Anfragen sofort beantwortet — ohne
+  dass jemand am Empfang sitzt." Besseres Kundenerlebnis, datenschutzkonform gedacht.
+  Betont den Erlebnis-Gewinn zusammen mit der Entlastung.
+
+Diese zwei erweitern das Fundament um die positive, chancenorientierte Seite und sind gute
+Kandidaten für die erste Welle nach dem Launch.
 
 ### Zum Start-Post (#1) — Vorstellung, aber nicht nur über dich
 Deine Idee war goldrichtig, und dein Zusatzwunsch macht sie erst stark: **nicht „nur
@@ -310,23 +346,25 @@ Keine Vanity-Metriken. Drei Dinge genügen in der Startphase:
 1. **Rankt der Beitrag?** — Nach 6–8 Wochen in der Google Search Console prüfen: für
    welche Suchbegriffe erscheint er, auf welcher Position.
 2. **Führt er zur Analyse?** — Klicks auf den Calendly-CTA (das einzige Conversion-Ziel).
-3. **Wird er geteilt/erwähnt?** — v. a. bei den Haltungs-Posts (Säule D) auf LinkedIn.
+3. **Wird er geteilt/erwähnt?** — v. a. bei den Haltungs-Posts auf LinkedIn.
 
-Alle 4–6 Beiträge zurückschauen: Welche Säule/welches Segment zieht? Dorthin mehr
-Scheinwerfer. Schwache Beiträge überarbeiten (`lastmod` neu), nicht löschen.
+Alle 4–6 Beiträge zurückschauen: Welcher Typ/welches Segment zieht? Dorthin den
+Scheinwerfer schwenken. Schwache Beiträge überarbeiten (`lastmod` neu), nicht löschen.
 
 ---
 
 ## 10. Nächste Schritte
 
-1. **Positionierung finalisieren** (Leonie macht noch kleine Anpassungen) — danach
-   Konzept und Einzelkonzepte gegen die finale Positionierung gegenprüfen.
-2. **Einzelkonzepte** für #1–#3 liegen vor (`strategie/blog-einzelkonzepte.md`);
-   #4–#10 folgen in gleicher Struktur auf Zuruf.
+1. **Positionierung ist final** (schmerz-geführt) und hier eingearbeitet. Sobald
+   `strategie-konzept.md` „Positionierungs-Achse" + `service-katalog.md` im Repo liegen,
+   Wortlaut abgleichen.
+2. **Einzelkonzepte** für #1–#3 liegen vor (`strategie/blog-einzelkonzepte.md`), auf die
+   neue Struktur und das Feedback angepasst; #4–#10 **erst nach** den ersten drei.
 3. **Launch-Paket bauen:** Volltexte #1–#3 ausarbeiten → gemeinsam `draft: true` zur
    Sichtung → nach Freigabe zusammen online → Blog offiziell eröffnen.
-4. **Ab #4 Wochentakt.** Pro Beitrag der Weg: Einzelkonzept → Volltext → `draft: true`
-   zur Sichtung → Freigabe → HITL-Publishing (automatisches `journal-live`-Issue).
+4. **Dann Zwischenstopp:** Leonie schaut, wie es ihr mit #1–#3 geht, **bevor** #4 ff.
+   im Wochentakt starten. Pro Beitrag der Weg: Einzelkonzept → Volltext → `draft: true`
+   → Freigabe → HITL-Publishing (automatisches `journal-live`-Issue).
 
 ---
 
