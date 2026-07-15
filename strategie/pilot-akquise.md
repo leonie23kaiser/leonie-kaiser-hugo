@@ -1,9 +1,17 @@
 # Pilot-Akquise: die ersten echten Praxis-Cases gewinnen
 
-*Operative Vorlage. Ziel: **3 Pilotprojekte**, eines je Start-Segment (Therapie-/
-Bewegungspraxen, Longevity/Medical-Wellness, Ernährungsberatung/Diätologie), um erste
-echte Fälle **mit Zahlen** und belastbare, namentliche Testimonials zu bekommen. In Brand
-Voice: Sie-Form, ruhig, kein Hype.*
+*Operative Vorlage. Ziel: **3–5 Pilotprojekte** (gestaffelt bis Jahresende), um erste
+echte Fälle **mit Zahlen** und belastbare, namentliche Testimonials zu bekommen. Das
+Zeitfenster vor der offiziellen Zertifizierung ist ideal dafür — der Lehrgangsabschluss
+ist keine rechtliche Voraussetzung für Kunden (siehe `strategie-konzept.md`, Kap. 7). In
+Brand Voice: Sie-Form, ruhig, kein Hype.*
+
+> **Ausrichtung 2026-07-14: schmerz-geführt, breit akquirieren.** Nicht auf ein Segment
+> beschränken — angesprochen wird über den **homogenen Kern-Schmerz** (Termine, Nachsorge,
+> Doku, Abrechnung) + **Compliance-first** (Datenschutz als Vertrauensmittel). Wer zuerst
+> anbeißt und einen echten Case liefert, zählt. Für die aktive Ansprache trotzdem bei den
+> **Tier-1-Zielsegmenten (Physio, Medical-Wellness)** beginnen — dort am ehesten gewinnbar.
+> Priorisierte Zielsegment-Landkarte: `segmente.md`, `silicon-sampling.md`.
 
 > **Reihenfolge — kombinieren, nicht nacheinander:** keine separate Marktumfrage-Runde
 > (10–20 Interviews) *vor* der Pilot-Akquise. Die Erstgespräche mit potenziellen
@@ -13,14 +21,18 @@ Voice: Sie-Form, ruhig, kein Hype.*
 
 ## Das Pilot-Angebot (was Sie anbieten)
 
-Eine kompakte KI-Potenzialanalyse **plus einen ersten fertig eingerichteten
-Automatisierungs-Schritt** — kostenfrei oder stark vergünstigt. Im Gegenzug:
-ehrliches Feedback, ein Testimonial und die Einwilligung, die Praxis **unter ihrem
-echten Namen** (nicht anonymisiert) als Case zu zeigen — inklusive Zahlen.
+Eine kompakte KI-Potenzialanalyse **plus 2–3 zusammenhängende, fertig eingerichtete
+Automatisierungen in einem Themenfeld** (z. B. die gesamte Termin-Journey: Buchung,
+Erinnerung, Lückenfüllung, Recall — oder Erstanamnese + Dokumentations-Vorlage +
+Nachsorge) — kostenfrei oder stark vergünstigt. Im Gegenzug: ehrliches Feedback, ein
+Testimonial und die Einwilligung, die Praxis **unter ihrem echten Namen** (nicht
+anonymisiert) als Case zu zeigen — inklusive Zahlen.
 
-- **Für Sie:** der erste echte Praxis-Fall mit Vorher/Nachher-Zahlen für Ihre Story Bank.
+- **Für Sie:** der erste echte Praxis-Fall mit mehreren Vorher/Nachher-Werten für Ihre
+  Story Bank — ein einzelner Automatisierungs-Schritt liefert dafür zu wenig Substanz.
 - **Für die Praxis:** ein spürbarer erster Hebel, ohne Risiko.
-- Klar begrenzen: „ein Automatisierungs-Schritt, definierter Umfang" — kein offenes Fass.
+- Klar begrenzen: „2–3 zusammenhängende Automatisierungen, ein Themenfeld, definierter
+  Umfang" — kein offenes Fass.
 
 **Warum der echte Name statt Anonymisierung:** Eine anonymisierte Zahl („eine Physiopraxis
 mit 5 Mitarbeitenden spart X Stunden") wirkt schnell wie ein erfundenes Beispiel — genau das
@@ -29,11 +41,12 @@ Praxisnamen, echtem Logo (mit Einwilligung) ist der stärkere Vertrauensbeleg. W
 namentlich genannt werden will, wird kein Pilot-Case — dann eignet sich die Praxis für ein
 reguläres, bezahltes Projekt ohne Case-Study-Verpflichtung.
 
-**Wen ansprechen:** je 1 Praxis aus jedem der 3 Start-Segmente (Therapie-/Bewegungspraxen –
-Physio als Aushängeschild, Longevity/Medical-Wellness, Ernährungsberatung/Diätologie) —
-idealerweise aus dem eigenen Netzwerk, sonst DACH-weit remote. Persönliche Einführung
-schlägt Kaltakquise. *(Kein Wien-Fokus — Leonie arbeitet remote und ist nicht durchgehend
-in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor Ort".)*
+**Wen ansprechen:** breit — jede kleine Gesundheitspraxis mit dem Kern-Schmerz, Schwerpunkt
+aber auf **Tier 1 (Physio/Therapiepraxen, Medical-Wellness)**, weil dort am ehesten
+gewinnbar (siehe `segmente.md`). Idealerweise aus dem eigenen Netzwerk, sonst DACH-weit
+remote. Persönliche Einführung schlägt Kaltakquise. *(Kein Wien-Fokus — Leonie arbeitet
+remote und ist nicht durchgehend in Österreich; „lokal" heißt hier „übers Netzwerk
+gefunden", nicht „vor Ort".)*
 
 ## Anschreiben-Vorlage (E-Mail / LinkedIn-DM)
 
@@ -46,8 +59,8 @@ in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor
 > **Pilotprojekt**.
 >
 > Konkret: Ich schaue mir mit Ihnen an, wo im Praxisalltag Zeit verloren geht, und
-> richte **einen ersten Automatisierungs-Schritt** fertig ein — datenschutzkonform,
-> ohne dass Sie zur IT-Abteilung werden. Für Sie kostenfrei; im Gegenzug würde ich mir
+> richte **die ersten zusammenhängenden Automatisierungs-Schritte** fertig ein —
+> datenschutzkonform. Für Sie kostenfrei; im Gegenzug würde ich mir
 > Ihr ehrliches Feedback und — wenn es Ihnen etwas gebracht hat — ein kurzes Testimonial
 > wünschen.
 >
@@ -58,8 +71,33 @@ in Österreich; „lokal" heißt hier „übers Netzwerk gefunden", nicht „vor
 > Leonie Kaiser
 
 *(Segment-Twist je Ansprache: Physio/Therapie → „zwischen Behandlungen, Terminen und
-Nachsorge"; Longevity → „zwischen Erstgesprächen, Laborwerten und Kundenreise";
-Ernährungsberatung → „zwischen Beratungsprotokollen, Wochenplänen und Nachfassen".)*
+Nachsorge"; Longevity → „zwischen Erstgesprächen, Laborwerten und Kundenreise".)*
+
+## Zusätzliche Fragen im Erstgespräch (Marktforschung nebenbei, keine separate Umfrage)
+
+Keine separate Marktumfrage — aber jedes Erstgespräch mit einem echten Interessenten ist
+eine Gelegenheit, über die Pflichtfelder des Potenzialanalyse-Tools hinaus ein paar Fragen
+zu stellen, die den Service verbessern und die Zielgruppe schärfer kennenlernen. Das Tool
+selbst erhebt bereits: Betrieb (Größe, Typ), Digitalisierungsstufe, Ziele, Engpässe, Quick
+Wins. Ergänzend im Gespräch (mündlich, nicht im Tool):
+
+- „Wie haben Sie versucht, das bisher zu lösen — was haben Sie schon probiert, und woran
+  ist es gescheitert?" (zeigt echte Alternativen/Konkurrenz, nicht nur den Status quo)
+- „Was hätte Sie bisher davon abgehalten, so etwas umzusetzen?" (Zeit, Geld, Vertrauen,
+  Unklarheit was „KI" überhaupt bedeutet — hilft, echte Kaufhürden statt vermuteter zu
+  kennen)
+- „Wie sind Sie auf mich aufmerksam geworden?" (Kanal-Tracking — welche Akquise-Kanäle
+  wirklich funktionieren)
+- „Wer wäre außer Ihnen noch an so einer Entscheidung beteiligt?" (Buy-in-Struktur —
+  besonders relevant bei Gemeinschaftspraxen mit mehreren Partner:innen)
+- „Wenn es funktioniert, wie zufrieden wären Sie, wenn Sie X Stunden pro Woche
+  zurückbekommen — was wäre Ihnen das wert?" (informelle Preis-Sondierung, ergänzt die
+  Van-Westendorp-Werte aus der Studie mit echten Reaktionen)
+
+*(Hinweis zum Tool selbst: Die Betriebstyp-Auswahl in `static/analyse/index.html` enthält
+noch „Ästhetische Praxis", „Personal-Training/Fitness-Studio" und „Ernährungsberatung" —
+das gehört in den Scope der Website-Session; dort ansprechen, falls die Liste auf die
+jetzt 2 Start-Segmente angepasst werden soll.)*
 
 ## Welche Daten erhoben werden (für die Case Study)
 

@@ -1,39 +1,46 @@
 # Segmente & Schirm — Zielgruppen-Schärfung
 
-*Stand: 2026-07-06. Verfeinert die Zielgruppe gegenüber `brand_position.md` und
+*Stand: 2026-07-14. Verfeinert die Zielgruppe gegenüber `brand_position.md` und
 `strategie-konzept.md`: breiterer, aber weiterhin scharfer Schirm, „Wahlarzt/privat/
 Selbstzahler" statt nur Selbstzahler, Mischpraxen drin. **Website-Session bitte mitziehen.**
 Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/ESOMAR).*
 
+> **Finale Entscheidung 2026-07-14: schmerz-geführt starten, nicht segment-geführt.**
+> Nach mehreren Silicon-Sampling-Runden (Ernährungsberatung deep-dived, 7 Nischen
+> gescannt, Longevity/Medical-Wellness getrennt + 2 Prävention-Kandidaten) ist klar:
+> die synthetischen Segment-Scores sind zu unsicher, um darauf die Positionierung zu
+> bauen — aber **jedes Segment nennt denselben Kern-Schmerz und dieselbe #1-Hürde
+> (Datenschutz).** Deshalb: **breit über den Schmerz + Compliance-first starten**, die
+> Fachrichtung nur als Beispiel im Content nutzen (Scheinwerfer), und die Segmente als
+> **nach Score priorisierte Zielliste** führen (unten), die erst mit echten Referenzen
+> gezielt bespielt wird. Details: `silicon-sampling.md`.
+
 ## Der Schirm (ändert sich nie)
 
 > Ich helfe **kleinen, inhabergeführten Gesundheits- und Behandlungsbetrieben**
-> (Wahlarzt / privat / Selbstzahler), die mit **sensiblen Gesundheitsdaten** arbeiten und
-> **keine IT-Abteilung** haben, ihren Alltag zu entlasten – damit wieder Zeit bleibt für
-> das, worum es wirklich geht.
+> (Wahlarzt / privat / Selbstzahler), die mit **sensiblen Gesundheitsdaten** arbeiten,
+> ihren Alltag zu entlasten – damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 
 **Das ist die interne Strategie-Formel** — sie erklärt, wen wir meinen und warum. In der
 **externen Kurz-Copy** (LinkedIn-Headline, Banner, GBP-Beschreibung) wird daraus bewusst
 **„Privatpraxen in Gesundheit & Wohlbefinden"**: „Praxis" ist im Deutschen dehnbar genug für
-alle 3 Start-Segmente (auch Ernährungsberatung läuft als „Privatpraxis für Ernährungsberatung"
-in `branchen.yaml`), konkreter/griffiger als „Betriebe", und nennt keine Einzelsegmente — so
-muss bei einem Segment-Wechsel (Scheinwerfer-Prinzip) nichts umgeschrieben werden. Der volle
-Schirm-Wortlaut bleibt für längere Fließtexte (About-Section, Website-Unterseiten) reserviert.
-Details/Wording: `strategie/linkedin-profil.md`.
+jedes Start-Segment, egal wie viele es gerade sind, konkreter/griffiger als „Betriebe", und
+nennt keine Einzelsegmente — so muss bei einem Segment-Wechsel (Scheinwerfer-Prinzip) nichts
+umgeschrieben werden. Der volle Schirm-Wortlaut bleibt für längere Fließtexte (About-Section,
+Website-Unterseiten) reserviert. Details/Wording: `strategie/linkedin-profil.md`.
 
-**5 Anker-Kriterien (alle müssen passen):**
+**4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
 2. klein (ca. 2–15, max ~20 Mitarbeitende)
-3. sensible **Gesundheitsdaten** (DSGVO Art. 9) ← der Burggraben, **nie** weglassen
-4. keine eigene IT-Abteilung / kein:e interne:r Entwickler:in
-5. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
+3. sensible **Gesundheitsdaten** (DSGVO Art. 9)
+4. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
 
-**Zu Kriterium 4 — kein Vorab-Filter, sondern Erstgesprächs-Signal:** Von außen (Zielliste,
-Website) ist nicht erkennbar, ob eine Praxis eine IT-Abteilung hat — dazu gibt es keine
-öffentliche Quelle. Gemeint ist die Abwesenheit einer *dedizierten technischen Rolle*, die
-selbst Systeme bauen/warten könnte. Eine Einzelperson, die nebenbei ein bisschen Admin/IT
-mitmacht, schließt niemanden aus. In der Praxis zeigt sich das erst im Erstgespräch — und ist
-gleichzeitig ein Verkaufsargument („Sie werden nicht zur IT-Abteilung").
+**Gemeinschaftspraxen (mehrere Ärzt:innen/Partner:innen als Miteigentümer:innen):** zählen
+als „inhabergeführt", solange sie klein und eigenständig bleiben — gemeint ist der Gegensatz
+zu Kettenstrukturen/externen Investoren, nicht die exakte Anzahl der Eigentümer:innen. Bei
+Gemeinschaftspraxen ist die Entscheidungsstruktur nur wichtig für den Verkaufsprozess
+(mehrere Partner:innen müssen zustimmen, siehe `silicon-sampling.md` Entscheidungsstruktur),
+nicht für die Zielgruppen-Qualifikation selbst.
 
 **Mischpraxen:** drin, wenn Privatanteil **und** Veränderungsbereitschaft da sind.
 **Raus:** reine Hochvolumen-Kassen-Akutmedizin (kein Budget, keine Erlebnis-Motivation),
@@ -46,8 +53,7 @@ reine Privatordination ohne Veränderungswillen.
 ## Erlebnis als Kaufgrund (Kommunikations-Anker)
 
 Wer privat / Wahlarzt zahlt, erwartet ein **Premium-Erlebnis**. Genau da zieht das
-Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis". Bei zugewiesenen, voll
-ausgelasteten Kassenpatienten ist der Erlebnis-Hebel schwächer. → In der Copy den
+Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis". → In der Copy den
 **Erlebnis-Gewinn immer zusammen mit dem Zeit-Gewinn** nennen.
 
 ## Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
@@ -57,7 +63,8 @@ ausgelasteten Kassenpatienten ist der Erlebnis-Hebel schwächer. → In der Copy
 2. **Doku frisst die Abende**
 3. **Nachsorge/Recall fällt hinten runter** – Stammkundschaft geht verloren
 4. **Die Leitung ist der Flaschenhals** (Behandlung + Führung + Verwaltung in einer Person)
-5. **Sensible Gesundheitsdaten** (DSGVO Art. 9)
+5. **Unsicherheit im Umgang mit sensiblen Gesundheitsdaten** – „Darf ich das in ein KI-Tool
+   geben? Wer haftet?" (DSGVO Art. 9)
 
 → Jede Unterseite/jeder Post = **dieser Kern + ein segment-spezifischer Twist** (die letzten 10 %).
 Das ist das „Rad", das du nur einmal baust.
@@ -65,8 +72,8 @@ Das ist das „Rad", das du nur einmal baust.
 ## Scheinwerfer-Prinzip (Flexibilität ohne Rebranding)
 
 Der **Schirm bleibt stabil** (Bio, GBP, Startseite). Im Content rotiert der **Scheinwerfer**
-über Segmente (diesen Monat Physio, nächsten Longevity, dann Ernährung …). Läuft ein Segment
-nicht → Scheinwerfer schwenken, **ohne** Positionierung/Bio/GBP anzufassen.
+über Segmente (diesen Monat Physio, nächsten Longevity …). Läuft ein Segment nicht →
+Scheinwerfer schwenken, **ohne** Positionierung/Bio/GBP anzufassen.
 
 ## Segment-Landkarte
 
@@ -76,38 +83,52 @@ Hebammen, Ernährungsberatung/Diätologie.
 
 **B. Prävention & Wohlbefinden (homogen-nah):**
 Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
-*(Ästhetik/Medical-Beauty: nicht im Vordergrund — über Blog/Einzelanfragen erreichbar,
-keine eigene Start-Seite.)*
 
-## Start-Unterseiten (genau 3)
+## Start: schmerz-geführt, breit — keine festgelegten Start-Segmente
 
-| Seite | deckt mit ab | Segment-Twist (die 10 %) |
-|---|---|---|
-| **Therapie- & Bewegungspraxen** *(Aushängeschild: Physio)* | Ergo, Osteo, Podo | Serientermine/Recall, Verordnung, Sport-Nachsorge |
-| **Longevity & Medical-Wellness** | Präventionsmedizin | Multi-Tool-Kundenreise, Laborwerte, Retention (Premium) |
-| **Ernährungsberatung / Diätologie** | — | wiederkehrende Protokolle/Pläne, Sichtbarkeit/Content |
+**Die Website/Bio startet NICHT mit einer festgelegten Nische**, sondern mit dem
+homogenen Kern-Schmerz oben + Compliance-first (Datenschutz/EU AI Act als
+Differenzierungsmerkmal). Zielgruppe breit: **kleine, inhabergeführte Gesundheitspraxen**
+mit sensiblen Gesundheitsdaten und Wahlarzt-/Privat-/Selbstzahler-Anteil. Einzelne
+Fachrichtungen tauchen als **Beispiele im Content** auf (Blog, LinkedIn, Beispiel-
+szenarien), nicht als tragende Struktur. So muss nichts umgeschrieben werden, wenn sich
+herausstellt, welches Segment tatsächlich anbeißt.
 
-*(Ästhetik ist bewusst **nicht** unter den Start-Seiten — läuft über Content, nicht als eigene Seite.)*
+## Zielsegment-Landkarte (nach Score priorisiert — gezielt bespielen, sobald Referenzen da sind)
 
-## Erweitern
+*Aus allen Silicon-Sampling-Runden zusammengeführt (`silicon-sampling.md`). Innerhalb-Runde-
+Ranking verlässlich, Cross-Run-Scores nur grob — die Personas der Prävention-Runde wurden
+als „Premium/Team" charakterisiert, was deren Scores mit anhebt.*
 
-Nur bei **echter Traktion** (Anfragen, Empfehlungen) eine vierte Seite dazunehmen — und die
-Möglichkeiten dann neu prüfen. Kein Vorab-Ausbauplan.
+**Tier 1 — zuerst ansprechen (gewinnbar + gutes Ticket, weiche Brand Voice passt):**
 
-**Zukünftige potenzielle Nischen (nicht jetzt, nur zur Orientierung):** aus Cluster A/B
-aktuell nicht bespielt — Ergotherapie, Logopädie, Osteopathie, Podologie, Heilpraktiker/
-Naturheilkunde/TCM, Hebammen, Massage/manuelle Therapie. Dazu explizit vorgemerkt:
-**Ästhetik/Medical-Beauty** — bewusst rausgenommen aus den 3 Start-Seiten (kippt Richtung
-„Beauty" statt „Gesundheit"), aber als potenzielle spätere Nische im Blick behalten, sobald
-eine der 3 aktuellen Seiten sich als nicht tragfähig erweist oder echte Traktion für eine
-vierte Seite da ist.
+| Segment | Score | Projekt-OPP | warum |
+|---|:--:|:--:|---|
+| **Physiotherapie / Therapiepraxen** (inkl. Ergo/Osteo/Podo) | 11 | 1.528 € | zugänglich, klarer Leidensdruck, ideales Aushängeschild |
+| **Medical-Wellness** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
 
-## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`)
+**Tier 2 — das große Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
-*Gleiches Format wie die bestehenden Physio-/Longevity-Einträge. Zum 1:1-Übernehmen in der
-Website-Session. Basis: homogener Kern-Schmerz + Ernährungs-Twist (wiederkehrende
-Protokolle/Pläne, Sichtbarkeit ohne Mehraufwand). Beispielszenario ist illustrativ, kein
-realer Kundenfall.*
+| Segment | Score | Projekt-OPP | Hürde |
+|---|:--:|:--:|---|
+| **Longevity / Präventionsmedizin** (ärztlich, datengetrieben) | 13 | **5.012 €** | Integrations-/API-Kompetenz + Compliance-Nachweis Pflicht; **kein Wellness-Framing** |
+| **Check-up / Vorsorgemedizin** (Executive Health) | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration erwartet |
+| **Sportmedizin-Zentren** | 11 | ~1.800–2.400 € | medizinisch-diagnostisches Selbstbild, Haftungstiefe |
+
+**Tier 3 — nur bei konkreter Anfrage/Empfehlung (schwächer, solo-lastig):**
+Podologie (10) · Ernährungsberatung/Diätologie (9, deep-dived) · Osteopathie (9) ·
+Heilpraktiker/Naturheilkunde/TCM (9) · Hebammen (9) · Massage/manuelle Therapie (9) ·
+Ergotherapie (9) · Logopädie (8). Durchgängig Solo-lastig, niedrigere Preisklasse.
+
+## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`, Phase 2)
+
+*Gleiches Format wie die bestehenden Physio-/Longevity-Einträge. **Nicht mehr aktiv
+verfolgen, bis Phase 2 ansteht** (siehe „Erweitern" oben) — Baustein bleibt hier
+aufbewahrt, damit er nicht neu geschrieben werden muss, wenn es soweit ist. Basis:
+homogener Kern-Schmerz + Ernährungs-Twist, allerdings zeigt der Deep Dive
+(`silicon-sampling.md`), dass die Solo-Struktur und der Kassenabrechnungs-Schmerz beim
+tatsächlichen Ausrollen stärker betont werden sollten als hier ursprünglich entworfen.
+Beispielszenario ist illustrativ, kein realer Kundenfall.*
 
 ```yaml
 - slug: ernaehrungsberatung

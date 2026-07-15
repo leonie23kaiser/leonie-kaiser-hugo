@@ -7,9 +7,10 @@ than a decade in healthcare/pharma + business consulting + AI. Stand: 2026-07-09
 
 ### External short-copy rule (headline, banner, GBP) — set 2026-07-09
 
-"Practice"/"practices" is broad enough in German ("Praxis") to carry all 3 start segments —
-even nutrition counselling already runs as "Privatpraxis für Ernährungsberatung" in
-`branchen.yaml`. Rule: don't list individual segments in short copy (no "physio, longevity,
+"Practice"/"practices" is broad enough in German ("Praxis") to carry any start segment,
+regardless of the current count (as of 2026-07-14: 2, see `segmente.md`) — nutrition
+counselling ran for a while as "Privatpraxis für Ernährungsberatung" in `branchen.yaml`.
+Rule: don't list individual segments in short copy (no "physio, longevity,
 nutrition" — that would force a rewrite every time a segment rotates); use a neutral umbrella
 instead: **"private practices in health & wellbeing"**. The broader umbrella stays the
 **internal** strategy logic (`segmente.md`) for a future non-practice business — it doesn't

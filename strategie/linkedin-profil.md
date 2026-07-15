@@ -8,9 +8,10 @@ Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unte
 
 ### Externe Kurz-Copy-Regel (Headline, Banner, GBP) — festgelegt 2026-07-09
 
-„Praxis"/„Praxen" ist im Deutschen dehnbar genug, um **alle 3 Start-Segmente** zu tragen —
-auch Ernährungsberatung läuft schon in `branchen.yaml` als „Privatpraxis für Ernährungsberatung
-und Diätologie". **Praxen ist konkreter und griffiger als „Gesundheits- und
+„Praxis"/„Praxen" ist im Deutschen dehnbar genug, um **jedes Start-Segment zu tragen,
+unabhängig von der aktuellen Anzahl** (Stand 2026-07-14: 2, siehe `segmente.md`) —
+auch Ernährungsberatung lief zwischenzeitlich als „Privatpraxis für Ernährungsberatung
+und Diätologie" in `branchen.yaml`. **Praxen ist konkreter und griffiger als „Gesundheits- und
 Behandlungsbetriebe"** und deshalb in kurzer, externer Copy die bessere Wahl. Regel: **keine
 einzelnen Segmente auflisten** (kein „Physio, Longevity, Ernährung" nennen — das würde bei
 jedem Segment-Wechsel neuen Text erfordern), sondern ein neutraler Oberbegriff:
@@ -32,8 +33,8 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 
 ## Info / Zusammenfassung
 
-> Ich helfe kleinen Privatpraxen für Prävention und Wohlbefinden, den Praxisalltag zu entlasten
-> – damit wieder Zeit bleibt für das, worum es wirklich geht.
+> Ich helfe kleinen Privatpraxen in Gesundheit & Wohlbefinden, den Praxisalltag zu entlasten
+> – damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 >
 > Termine, Aufnahme, Nachsorge, wiederkehrende Verwaltung: Vieles davon lässt sich
 > datenschutzkonform automatisieren. Das Ergebnis ist mehr Zeit fürs Kerngeschäft – und ein
