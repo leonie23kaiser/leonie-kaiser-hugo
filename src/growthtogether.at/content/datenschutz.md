@@ -1,5 +1,5 @@
 ---
-title: "Datenschutzerklärung – Leonie Kaiser KI & Business Consulting"
+title: "Datenschutzerklärung – Leonie Kaiser KI & Digitalisierung"
 description: "Datenschutzerklärung gemäß DSGVO und österreichischem Datenschutzgesetz."
 type: "datenschutz"
 url: "/datenschutz/"

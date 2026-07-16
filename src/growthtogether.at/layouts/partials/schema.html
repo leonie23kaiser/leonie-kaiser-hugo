@@ -10,7 +10,7 @@
     "@id" $personId
     "name" "Leonie Kaiser"
     "jobTitle" "KI- & Digitalisierungs-Partnerin"
-    "description" "Leonie Kaiser ist KI-Beraterin mit über 20 Jahren Erfahrung. Spezialisierung auf KI-Einführung, No-Code-Automatisierung sowie EU AI Act & DSGVO Compliance für Privatpraxen in Prävention & Wohlbefinden."
+    "description" "Leonie Kaiser ist KI- & Digitalisierungs-Partnerin mit über 20 Jahren Erfahrung. Spezialisierung auf KI-Einführung, No-Code-Automatisierung sowie EU AI Act & DSGVO Compliance für kleine Gesundheitspraxen."
     "url" (printf "%sueber-mich/" $base)
     "image" (printf "%simages/Bild-1.png" $base)
     "sameAs" (slice "https://www.linkedin.com/in/leoniekaiser")
@@ -24,9 +24,9 @@
 {{- $org := dict
     "@type" "ProfessionalService"
     "@id" $orgId
-    "name" "Leonie Kaiser KI-Beratung"
+    "name" "Leonie Kaiser – KI & Digitalisierung"
     "alternateName" "Leonie Kaiser – KI & Digitalisierung"
-    "description" "KI-Beratung, Strategie und No-Code-Automatisierung für Privatpraxen in Prävention & Wohlbefinden. EU AI Act Compliance. Kostenfreie Potenzialanalyse."
+    "description" "KI & Digitalisierung, Strategie und No-Code-Automatisierung für kleine Gesundheitspraxen. EU AI Act Compliance. Kostenfreie Potenzialanalyse."
     "url" $base
     "logo" (printf "%simages/Logo.png" $base)
     "image" (printf "%simages/Bild-1.png" $base)
@@ -37,7 +37,7 @@
     "contactPoint" (dict "@type" "ContactPoint" "contactType" "customer service" "email" "hello@leoniekaiser.com" "telephone" "+436707756060" "availableLanguage" (slice "German" "English" "Spanish"))
     "hasOfferCatalog" (dict
       "@type" "OfferCatalog"
-      "name" "KI-Beratungsleistungen"
+      "name" "Leistungen für KI & Digitalisierung"
       "itemListElement" (slice
         (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR" "itemOffered" (dict "@type" "Service" "name" "KI-Potenzialanalyse" "description" "30-minütiges kostenloses Online-Gespräch zur Analyse des KI-Potenzials in Ihrer Praxis."))
         (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "KI-Strategie & Beratung" "description" "Maßgeschneiderte KI-Roadmap mit Maßnahmen, EU AI Act Compliance und persönlicher Begleitung."))
@@ -60,7 +60,7 @@
     "@type" "ContactPage"
     "@id" (printf "%s#contactpage" $base)
     "url" (printf "%s#kontakt" $base)
-    "name" "Kontakt – Leonie Kaiser KI-Beratung"
+    "name" "Kontakt – Leonie Kaiser KI & Digitalisierung"
     "description" "Kontaktformular und Terminbuchung für die kostenfreie KI-Potenzialanalyse."
     "isPartOf" (dict "@id" $siteId)
 -}}
