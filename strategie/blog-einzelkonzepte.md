@@ -2,7 +2,9 @@
 
 *Detail-Briefings pro Beitrag: Keyword, Search-Intent, Content-Gap, Meta, interne Links
 und H1/H2/H3-Outline. Grundlage: `strategie/blog-konzept.md` (Gesamtstrategie, schmerz-
-geführtes Modell), `AGENTS.md` (Brand Voice, kanonisch). Stand: 2026-07-15.*
+geführt + Compliance-first), `strategie/service-katalog.md` (Leistungen & Beispiel-Szenarien
+als Rohmaterial für die Outlines), `strategie/linkedin-profil.md` (E-E-A-T), `AGENTS.md`
+(Brand Voice, kanonisch). Stand: 2026-07-15.*
 
 > Suchvolumen und Wettbewerb sind vor dem Schreiben grob gegen die reale Google-Suche
 > (Autocomplete, „Ähnliche Fragen", Search Console) zu prüfen — die Keywords hier sind
@@ -168,8 +170,9 @@ konkret, und die Reminder/Recall-Unterscheidung als eigener Erkenntnis-Punkt.
 - **H2: Datenschutz: Warum schon der Terminanlass ein Gesundheitsdatum ist**
   - Kurz-Einordnung Art. 9, SMS/WhatsApp-Vorsicht, EU-Hosting/AVV. Verlinkt auf `/eu-ai-act/`.
 - **H2: So gehen wir das an — ein Beispielszenario** *(illustrativ gekennzeichnet)*
-  - Aus dem Physio-Beispiel in branchen.yaml: liegengebliebene Anfragen → Erstantwort
-    < 2 h → Recall. „Sie richten nichts selbst ein."
+  - Rohmaterial: `service-katalog.md` **Szenario A (Physiopraxis, Termin-Journey)** +
+    Physio-Beispiel in `branchen.yaml`: Online-Buchung → automatische Erinnerung →
+    Wartelisten-Nachbesetzung → Recall. „Sie richten nichts selbst ein."
 - **H2: Häufige Fragen** (FAQ / AI-Overview)
   - Wie viele No-Shows sind normal in einer Physiotherapie-Praxis?
   - Sind automatisierte Terminerinnerungen per SMS oder WhatsApp DSGVO-konform?

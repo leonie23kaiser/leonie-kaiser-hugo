@@ -5,12 +5,13 @@
 `strategie/strategie-konzept.md` und `strategie/strategie-briefing-gesundheitsbetriebe.md`.
 Dies ist die Übersicht — die Ausarbeitung einzelner Artikel folgt in einem zweiten Schritt.*
 
-> **Positionierungs-Modell (schmerz-geführt):** Der Blog trägt den Scheinwerfer. Zwei
-> Post-Typen — breite **Schmerz-Themen-Posts** (Fundament, segment-neutral) und einzelne
+> **Positionierungs-Achse (aus `strategie-konzept.md`): schmerz-geführt + Compliance-first.**
+> Der Blog trägt den Scheinwerfer. Zwei Post-Typen — breite **Schmerz-Themen-Posts**
+> (Fundament, segment-neutral, um den homogenen Kern-Schmerz herum) und einzelne
 > **Segment-Beispiel-Posts** (Scheinwerfer auf ein Tier-1-Segment, ohne die Positionierung
-> darauf festzulegen) — plus **Compliance/EU AI Act** als eigener, tragender Content-Pfad.
-> Details siehe Abschnitt 3. *(Referenz-Files `strategie-konzept.md` „Positionierungs-Achse"
-> und `service-katalog.md` lagen im Repo noch nicht vor — bei Nachreichung Wortlaut angleichen.)*
+> darauf festzulegen) — plus **Compliance / EU AI Act & DSGVO** als zweite Achse und
+> eigener, tragender Content-Pfad. Details siehe Abschnitt 3. Angebots-Rohmaterial für die
+> Beispiele: `strategie/service-katalog.md`.
 
 > Preis- und Marktzahlen aus den Strategie-Files sind synthetische Orientierungs-
 > Korridore (Silicon Sampling / ESOMAR) und mit echten Gesprächen zu validieren.
@@ -58,11 +59,14 @@ Wettbewerb aber schwach (siehe Content-Gap in Abschnitt 6).
 
 ## 3. Struktur: der Blog trägt den Scheinwerfer
 
-Die Positionierung ist **schmerz-geführt** und bleibt breit: der Schirm sind kleine,
-inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler).
-**Der Blog ist der Ort, an dem der Scheinwerfer arbeitet** — er beleuchtet einzelne
-Segmente, ohne die Positionierung auf eines festzunageln. Der Schirm (Startseite, Bio,
-GBP) bleibt stabil; im Blog wird geschwenkt.
+Die Positionierung ist **schmerz-geführt + Compliance-first** und bleibt breit: der Schirm
+sind kleine, inhabergeführte Gesundheitspraxen (Wahlarzt/privat/Selbstzahler). Positioniert
+wird um (a) den **homogenen Kern-Schmerz**, der in jedem Segment gleich ist (Termine,
+Nachsorge, Doku, Abrechnung), und (b) **Datenschutz / EU AI Act & DSGVO** als
+Differenzierungsmerkmal. Einzelne Fachrichtungen sind **Beispiele im Content**, nicht das
+Fundament. **Der Blog ist der Ort, an dem der Scheinwerfer arbeitet** — er beleuchtet
+einzelne Segmente, ohne die Positionierung auf eines festzunageln. Der Schirm (Startseite,
+Bio, GBP) bleibt stabil; im Blog wird geschwenkt.
 
 Daraus ergeben sich **zwei Post-Typen** plus **ein tragender Compliance-Pfad**:
 
@@ -92,13 +96,19 @@ wiederverwendbar und tragen den Blog.
 >
 > Reminder sichert den nächsten Termin, Recall den übernächsten. Praxen brauchen beides.
 
-### Typ 2 — Segment-Beispiel-Posts (der Scheinwerfer, Tier-1)
-Derselbe Kern-Schmerz, aber **an einem Segment gezeigt** — z. B. „KI in der Physiopraxis"
-oder „… in der Longevity-Praxis". Illustrativ, in der Sprache des Segments,
-branchenspezifisch (= stärkster Vertrauensanker). **Wichtig:** Diese Posts sind
-Scheinwerfer, keine Neu-Positionierung — sie legen den Schirm nicht auf ein Segment fest.
-Scheinwerfer bevorzugt auf die **Tier-1-Segmente** (Opportunity-Ranking: Physio/Therapie,
-Longevity/Medical-Wellness). Läuft ein Segment nicht → schwenken, ohne Bio/GBP anzufassen.
+### Typ 2 — Segment-Beispiel-Posts (der Scheinwerfer, Tier-1 zuerst)
+Derselbe Kern-Schmerz, aber **an einem Segment gezeigt** — z. B. „KI in der Physiopraxis".
+Illustrativ, in der Sprache des Segments, branchenspezifisch (= stärkster Vertrauensanker).
+**Wichtig:** Diese Posts sind Scheinwerfer, keine Neu-Positionierung — sie legen den Schirm
+nicht auf ein Segment fest. Scheinwerfer **bevorzugt auf die Tier-1-Segmente** der
+Zielsegment-Landkarte (`strategie-konzept.md`):
+- **Tier 1 (zuerst):** Physiotherapie/Therapiepraxen · Medical-Wellness (IV/Hormone/Membership).
+- **Tier 2 (erst mit Referenzen + belegbarer Compliance):** Longevity/Präventionsmedizin
+  (großes Ticket, aber Integrations-/Compliance-Nachweis Pflicht, **kein Wellness-Framing**),
+  Check-up/Sportmedizin.
+- **Tier 3 (nur auf konkrete Anfrage):** Ernährungsberatung, Podologie, Osteopathie u. a.
+
+Läuft ein Segment nicht → schwenken, ohne Bio/GBP anzufassen.
 → **Verlinkt auf:** die jeweils passende `/ki-fuer-…-praxen/`-Seite.
 
 ### Tragender Pfad — Compliance & EU AI Act (eigenständig, quer zu beiden Typen)
@@ -210,7 +220,8 @@ Die deutschen Top-Ergebnisse zu diesen Themen sind fast durchweg **Software-Anbi
 | Anonyme Anbieterstimme | Eine echte Beraterin mit Haltung und Gesicht |
 | Verkauft ein Produkt | Verkauft Klarheit — unabhängig vom Tool |
 
-**Leonies E-E-A-T-Kapital, das in die Beiträge gehört** (belegt über das LinkedIn-Profil):
+**Leonies E-E-A-T-Kapital, das in die Beiträge gehört** (belegt über
+`strategie/linkedin-profil.md`):
 - **20+ Jahre Berufserfahrung**, davon **10+ Jahre in international regulierten Gesundheits-
   und Pharmaunternehmen** — Merck Healthcare, AbbVie, Baxter, KED Pharmaceuticals — in
   Digitalisierung, Marketing und Projektmanagement (u. a. Digital Transformation Lead).
@@ -305,6 +316,15 @@ und vor dem Schreiben gegen die reale Suche zu prüfen (wie das geht: siehe
 Intent: Awareness 1 · Consideration 8 · Decision 1. Ausgewogen, mit klarem Consideration-
 Fokus — passt zur Mischung aus Abschnitt 3.
 
+> **Tier-Abgleich (nach Zielsegment-Landkarte):** Die Scheinwerfer-Posts hier stammen aus
+> der alten Annahme (Physio/Longevity/Ernährung als Start-Segmente). Nach der aktuellen
+> Priorisierung sind **Tier 1 = Physio + Medical-Wellness**. **#2 (Physio)** passt. **#6
+> (Longevity)** ist jetzt **Tier 2** — großes Ticket, aber erst mit Referenzen + Compliance-
+> Nachweis und **ohne Wellness-Framing**; als Scheinwerfer eher später oder durch einen
+> **Medical-Wellness-Post** ersetzen. **#8 (Ernährung)** ist **Tier 3** (nur auf Anfrage) —
+> als frühen Scheinwerfer eher zurückstellen. Da #4–#10 ohnehin erst nach dem Launch fix
+> geplant werden, justieren wir das dann; die ersten drei sind davon nicht betroffen.
+
 **Themen-Pool für #4 ff. (Reihenfolge offen, nach den ersten drei).** Neben den obigen
 auch die **Chancen-Seite** bespielen — nicht nur Schmerz, sondern auch Wunsch/Gewinn:
 - **Auffindbarkeit / GEO (Typ 1):** „Damit Ihre Praxis online — und in KI-Antworten —
@@ -368,7 +388,8 @@ Scheinwerfer schwenken. Schwache Beiträge überarbeiten (`lastmod` neu), nicht 
 
 ---
 
-*Quellen: `AGENTS.md` (kanonisch), `strategie/strategie-konzept.md`,
-`strategie/strategie-briefing-gesundheitsbetriebe.md`, `data/branchen.yaml`,
-`layouts/journal/single.html`. Marktzahlen synthetisch (ESOMAR ICC Code 2025), vor
-Festlegung mit echten Gesprächen validieren.*
+*Quellen: `AGENTS.md` (kanonisch), `strategie/strategie-konzept.md` (Positionierungs-Achse,
+Zielsegment-Landkarte), `strategie/service-katalog.md` (Leistungen & Beispiel-Szenarien),
+`strategie/linkedin-profil.md` (E-E-A-T), `strategie/strategie-briefing-gesundheitsbetriebe.md`,
+`data/branchen.yaml`, `layouts/journal/single.html`. Marktzahlen synthetisch (ESOMAR ICC
+Code 2025), vor Festlegung mit echten Gesprächen validieren.*
