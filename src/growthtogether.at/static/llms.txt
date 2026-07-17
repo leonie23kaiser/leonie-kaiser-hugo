@@ -38,8 +38,8 @@ Homepage: https://leoniekaiser.com/
 About: https://leoniekaiser.com/ueber-mich/
 FAQ: https://leoniekaiser.com/faq/
 EU AI Act Guide: https://leoniekaiser.com/eu-ai-act/
-References: https://leoniekaiser.com/referenzen/
 Blog (KI-Praxis): https://leoniekaiser.com/blog/
+Leistungen (Übersicht): https://leoniekaiser.com/leistungen/
 Leistung – Termine & Anfragen: https://leoniekaiser.com/leistungen/termine-und-anfragen/
 Leistung – Nachsorge & Kundenbindung: https://leoniekaiser.com/leistungen/nachsorge-und-kundenbindung/
 Leistung – Dokumentation & Wissen: https://leoniekaiser.com/leistungen/dokumentation-und-wissen/

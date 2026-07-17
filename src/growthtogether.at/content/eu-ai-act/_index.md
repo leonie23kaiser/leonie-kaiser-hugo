@@ -16,7 +16,7 @@ faqs:
   - q: "Welche Dokumentation brauche ich konkret?"
     a: "Eine schlanke KI-Richtlinie für Ihr Team, eine Liste der eingesetzten Tools mit Zweck und Datenquelle, sowie Hinweise auf KI-generierte Inhalte gegenüber Kundschaft. Wir setzen das gemeinsam Schritt für Schritt auf."
   - q: "Was passiert, wenn ich nichts mache?"
-    a: "Die Sanktionen reichen bei schweren Verstoßen bis zu 35 Mio. Euro oder 7% des Jahresumsatzes. Für kleine Praxen realistischer: Probleme mit Aufsichtsbehörden, Reputationsrisiko bei Kundschaft, Schwierigkeiten bei Audits oder Versicherungen."
+    a: "Die Sanktionen reichen bei schweren Verstößen bis zu 35 Mio. Euro oder 7 % des Jahresumsatzes; für KMU gilt jeweils der niedrigere Betrag (Art. 99 EU-Verordnung 2024/1689, gilt EU-weit – also auch in Österreich und Deutschland). Für kleine Praxen realistischer sind Probleme mit Aufsichtsbehörden, Reputationsrisiko bei der Kundschaft sowie Schwierigkeiten bei Audits oder Versicherungen."
   - q: "Ab wann gelten die Pflichten?"
     a: "Der EU AI Act ist stufenweise seit 2024 in Kraft. Verbote (z.B. Social Scoring) seit Februar 2025, Pflichten für General-Purpose-KI seit August 2025, vollständige Anwendbarkeit ab August 2026."
 ---

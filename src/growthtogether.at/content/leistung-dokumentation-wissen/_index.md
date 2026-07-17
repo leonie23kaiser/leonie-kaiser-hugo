@@ -1,6 +1,6 @@
 ---
 title: "Dokumentation & Wissen automatisieren – Abende zurückgewinnen"
-description: "Notizen strukturieren, Vorlagen-Bibliothek und digitales Team-Playbook – Art.-9-konform für kleine Gesundheitspraxen. Weniger Papierkram, leichtere Vertretung."
+description: "Notizen strukturieren, Vorlagen-Bibliothek und ein digitales Praxis-Handbuch fürs Team – Art.-9-konform für kleine Gesundheitspraxen. Weniger Papierkram, leichtere Vertretung."
 type: branche
 layout: single
 slug: leistungen/dokumentation-und-wissen
