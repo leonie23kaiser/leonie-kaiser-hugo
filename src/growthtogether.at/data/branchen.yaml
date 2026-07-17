@@ -15,12 +15,14 @@
       desc: "Ein Selbstbuchungslink, in Ihr bestehendes System integriert. Ihre Kundschaft bucht selbst, Sie behalten die Kontrolle über den Kalender."
     - titel: "Automatische Erinnerungen und Wartelisten-Nachbesetzung"
       desc: "Erinnerungen über den bevorzugten Kanal senken die Ausfälle. Kurzfristig frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt."
-    - titel: "KI-Assistent für Erstanfragen"
+    - titel: "Chat-Assistent für Erstanfragen"
       desc: "Ein datenschutzkonformer Assistent auf Ihrer Website beantwortet Öffnungszeiten, Anfahrt, Preise und Terminwünsche – ohne medizinische Auskunft."
+    - titel: "Telefonassistent (Voicebot)"
+      desc: "Nimmt Anrufe außerhalb der Öffnungszeiten entgegen, beantwortet Standardfragen und nimmt Terminwünsche auf – damit keine Anfrage verloren geht."
   beispiel:
     ausgangssituation: "Termine kommen über Telefon, WhatsApp und E-Mail herein. Erinnerungen laufen von Hand, kurzfristige Absagen reißen Lücken in den Tag, und die Rezeption wird ständig unterbrochen."
     vorgehen: "Online-Buchung mit Selbstbuchungslink, automatische Erinnerungen über den bevorzugten Kanal, Wartelisten-Nachbesetzung für frei gewordene Slots – datenschutzkonform, das Team wird eingewiesen."
-    ergebnis: "Spürbar weniger Ausfälle, Lücken füllen sich von selbst, deutlich weniger Telefon-Pingpong – mehr Behandlungs- statt Organisationszeit pro Tag."
+    ergebnis: "Spürbar weniger Ausfälle, Lücken füllen sich von selbst, deutlich weniger Rückfragen am Telefon – mehr Behandlungs- statt Organisationszeit pro Tag."
   faq:
     - q: "Ersetzt der KI-Assistent die persönliche Beratung?"
       a: "Nein. Er übernimmt nur die immer gleichen Erstfragen und Terminwünsche. Die eigentliche Beratung – und alles Medizinische – bleibt bei Ihnen und Ihrem Team."
@@ -30,13 +32,13 @@
 - slug: nachsorge-bindung
   url: /leistungen/nachsorge-und-kundenbindung/
   branche: Nachsorge & Kundenbindung
-  schmerz: "Nach der Behandlung reißt der Kontakt ab. Follow-ups und Recall laufen von Hand und verstreut über verschiedene Kanäle – und Kundschaft geht still verloren."
-  intro: "So bleibt der Kontakt bestehen, ohne dass jemand aktiv daran denken muss."
+  schmerz: "In vielen Praxen reißt der Kontakt nach der Behandlung ab – Follow-ups und Recall laufen von Hand und verstreut über verschiedene Kanäle."
+  intro: "Mit automatisierter Nachsorge bleibt der Kontakt bestehen, ohne dass jemand aktiv daran denken muss – und regelmäßige, gut getimte Erinnerungen erhöhen die Besuchsfrequenz Ihrer Stammkundschaft."
   usecases:
     - titel: "Automatisierte Nachsorge-Sequenzen"
       desc: "Nach Behandlung, Paket oder Erstberatung läuft die Nachsorge strukturiert – zur richtigen Zeit, im richtigen Ton, ohne manuelles Nachhalten."
     - titel: "Reaktivierung früherer Kundschaft"
-      desc: "Wer länger nicht da war, bekommt zum passenden Zeitpunkt eine freundliche Erinnerung – Stammkundschaft, die sonst still verloren geht."
+      desc: "Wer länger nicht da war, bekommt zum passenden Zeitpunkt eine freundliche Erinnerung – das reaktiviert Stammkundschaft und erhöht die Besuchsfrequenz."
     - titel: "Bewertungs- und Empfehlungsanfragen"
       desc: "Automatisch zum richtigen Zeitpunkt nach dem Termin – einer der stärksten Hebel für neue Anfragen, ganz ohne zusätzlichen Aufwand."
   beispiel:
@@ -45,28 +47,28 @@
     ergebnis: "Mehr Folgetermine, planbarere Auslastung, die Nachsorge läuft zuverlässig – ohne dass jemand aktiv daran denken muss."
   faq:
     - q: "Wirken automatische Nachrichten nicht unpersönlich?"
-      a: "Nur, wenn sie schlecht gemacht sind. Die Entwürfe klingen nach Ihnen, nicht nach Maschine – und Sie geben frei, was rausgeht. KI nimmt die Routine, nicht die Beziehung."
+      a: "Nur, wenn sie schlecht gemacht sind. Die Entwürfe klingen nach Ihnen, nicht nach Maschine – und Sie geben frei, was rausgeht. KI nimmt die Routine, nicht die persönliche Beziehung."
     - q: "Dürfen Kundendaten dafür verarbeitet werden?"
-      a: "Mit sauberem Setup ja: EU-Hosting wo möglich, Auftragsverarbeitungsverträge, klare Datenflüsse. Wir klären in der Potenzialanalyse, was geht und was nicht."
+      a: "Mit dem passenden Setup ja: EU-Hosting wo möglich, Auftragsverarbeitungsverträge, klar geregelte Datenflüsse. Welche Lösung zu Ihrer Praxis passt, klären wir im Rahmen der Beratung."
 
 - slug: dokumentation-wissen
   url: /leistungen/dokumentation-und-wissen/
   branche: Dokumentation & Wissen
-  schmerz: "Befunde und Notizen werden abends nachgeschrieben, jede Person dokumentiert etwas anders, und kritisches Wissen steckt in einzelnen Köpfen."
+  schmerz: "Befunde und Notizen werden abends nachgeschrieben, alle im Team dokumentieren auf ihre eigene Art, und wichtiges Wissen steckt in einzelnen Köpfen, Notizbüchern und verstreuten Dateien."
   intro: "So gewinnen Sie Ihre Abende zurück – und machen Vertretung und Einarbeitung leichter."
   usecases:
     - titel: "Notizen strukturieren"
       desc: "Aus Gesprächs- und Behandlungsnotizen wird ein sauberes Protokoll, das Sie nur noch gegenlesen. Die fachliche Beurteilung bleibt immer bei Ihnen – keine automatische Diagnose."
     - titel: "Vorlagen-Bibliothek"
       desc: "Für Berichte, Rückmeldungen an Zuweiser, Aufklärungen und individuelle Pläne – einmal aufgesetzt, in Ihrer Sprache, immer wieder nutzbar."
-    - titel: "Team-Playbook und Onboarding"
-      desc: "Wiederkehrende Abläufe zentral und einfach abgelegt – löst „das Wissen steckt nur in meinem Kopf“ und macht Vertretung und Einarbeitung neuer Mitarbeitender deutlich leichter."
+    - titel: "Praxis-Handbuch fürs Team"
+      desc: "Ein zentrales, lebendes Handbuch für die Praxis: wiederkehrende Abläufe (Terminvergabe, Abrechnung, Geräte), Vorlagen, Zuständigkeiten und Antworten auf häufige Fragen. So steckt Wissen nicht mehr nur in einzelnen Köpfen – Vertretung und Einarbeitung neuer Mitarbeitender werden deutlich leichter."
   beispiel:
-    ausgangssituation: "Befunde und Notizen werden abends nachgeschrieben, jede Person dokumentiert etwas anders, und kritisches Wissen steckt in einzelnen Köpfen."
-    vorgehen: "Strukturierung der Notizen (Sie geben frei), eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Team-Playbook – alles Art.-9-konform aufgesetzt."
-    ergebnis: "Weniger Arbeit nach Feierabend, einheitliche Dokumentation, und Vertretung oder Onboarding neuer Leute wird deutlich einfacher."
+    ausgangssituation: "Befunde und Notizen werden abends nachgeschrieben, alle im Team dokumentieren auf ihre eigene Art, und wichtiges Wissen steckt in einzelnen Köpfen, Notizbüchern und verstreuten Dateien."
+    vorgehen: "Strukturierung der Notizen (Sie geben frei), eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Praxis-Handbuch fürs Team – alles Art.-9-konform aufgesetzt."
+    ergebnis: "Weniger Arbeit nach Feierabend, einheitliche Dokumentation, und Vertretung oder Einarbeitung neuer Mitarbeitender wird deutlich einfacher."
   faq:
     - q: "Trifft die KI medizinische Entscheidungen?"
       a: "Nein. Die KI strukturiert nur Ihre Notizen und bereitet Vorlagen vor. Die fachliche Beurteilung und jede Entscheidung bleiben vollständig bei Ihnen."
     - q: "Sind Gesundheitsdaten dabei sicher?"
-      a: "Sie sind der Ausgangspunkt. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit EU-Hosting wo möglich, Auftragsverarbeitungsverträgen und klaren Datenflüssen – belegt, nicht behauptet."
+      a: "Datenschutz ist der Ausgangspunkt. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit EU-Hosting wo möglich, Auftragsverarbeitungsverträgen und klar geregelten Datenflüssen."
