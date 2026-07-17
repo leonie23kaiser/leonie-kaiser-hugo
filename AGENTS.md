@@ -122,6 +122,17 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
 - **Tool-/Produktnamen in Kundentexten** („Agentic AI“, „Claude Code“, „Claude
   Architect“, „n8n“, „Make“) – tool-agnostisch bleiben, den Nutzen nennen statt
   das Werkzeug. Ausnahme: interne Strategie-Dokumente.
+- **Salopp-bildhafte Metaphern** („Zeitfresser“, „frisst die Abende“, „fällt
+  hinten runter“, „bleibt liegen“, „Telefon-Pingpong“, „Chaos“) – seriös und
+  konkret benennen, was passiert, statt umgangssprachlicher Bilder.
+  (Leonie, 2026-07: „Ich möchte etwas seriöser klingen.“)
+- **Abwertende Abgrenzungs-Rhetorik** („billige US-Blackbox-Cloud“, „kein
+  abstraktes Versprechen“, „belegt, nicht behauptet“, „dokumentiert statt
+  vage“, „nicht nachträglich behauptet“, „schlank und gelebt schlägt dick und
+  Schubladen-Ware“, „Kein Verkaufsgespräch. Kein Hype.“) – nicht durch
+  Herabsetzung von Alternativen positionieren. Sagen, wie es ist, positiv und
+  sachlich formulieren. (Leonie, 2026-07: „Ich möchte es seriös nennen wie es
+  ist und nicht abfällig reden.“)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
