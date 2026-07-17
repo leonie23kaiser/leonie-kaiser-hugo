@@ -1,0 +1,99 @@
+{{ define "main" }}
+<!-- INTRO -->
+<section class="sec sec-white" style="padding-top:clamp(var(--s16),10vw,var(--s24))">
+  <div class="con" style="max-width:900px">
+    <div class="slabel">Leistungen</div>
+    <h1 class="stitle" style="font-size:clamp(1.75rem,3.5vw,2.6rem);line-height:1.15">Von der ersten Analyse bis zur laufenden Betreuung</h1>
+    <p class="sdesc seo-def lead-speakable">Alle Leistungen sind einzeln wählbar und kombinierbar – im Erstgespräch priorisieren wir gemeinsam die Bausteine mit dem größten Nutzen. Grundprinzip überall: erst die Prozesse, dann das Tool, und datenschutzkonform von Anfang an.</p>
+  </div>
+</section>
+
+<!-- PROZESS: 4 SCHRITTE -->
+<section class="sec sec-alt">
+  <div class="con">
+    <div class="slabel">So arbeiten wir zusammen</div>
+    <h2 class="stitle">In vier Schritten zu Ihrer Lösung</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:var(--s4);margin-top:var(--s8)">
+      <div style="padding:var(--s6);background:#fff;border:1px solid var(--divider);border-radius:var(--r-xl)">
+        <div style="display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;background:var(--lblue);color:var(--teal-d);border-radius:999px;font-family:var(--fd);font-weight:800;margin-bottom:var(--s3)">01</div>
+        <h3 style="font-family:var(--fd);font-weight:700;font-size:var(--lg);margin:0 0 var(--s2)">Potenzialanalyse</h3>
+        <p style="color:var(--muted);line-height:1.6;font-size:var(--sm);margin:0">30 Minuten, online, unverbindlich. Wir schauen gemeinsam auf Ihren Alltag und Ihre Ziele – und wo Digitalisierung und KI in Ihrer Praxis den größten Hebel haben.</p>
+      </div>
+      <div style="padding:var(--s6);background:#fff;border:1px solid var(--divider);border-radius:var(--r-xl)">
+        <div style="display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;background:var(--lblue);color:var(--teal-d);border-radius:999px;font-family:var(--fd);font-weight:800;margin-bottom:var(--s3)">02</div>
+        <h3 style="font-family:var(--fd);font-weight:700;font-size:var(--lg);margin:0 0 var(--s2)">KI-Strategie</h3>
+        <p style="color:var(--muted);line-height:1.6;font-size:var(--sm);margin:0">Auf Basis der Analyse entsteht ein klarer Fahrplan: welche Bausteine in welcher Reihenfolge, mit realistischem Zeitplan – abgestimmt auf Ihre Ressourcen und Ziele.</p>
+      </div>
+      <div style="padding:var(--s6);background:#fff;border:1px solid var(--divider);border-radius:var(--r-xl)">
+        <div style="display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;background:var(--lblue);color:var(--teal-d);border-radius:999px;font-family:var(--fd);font-weight:800;margin-bottom:var(--s3)">03</div>
+        <h3 style="font-family:var(--fd);font-weight:700;font-size:var(--lg);margin:0 0 var(--s2)">Digitalisierung &amp; Automatisierung</h3>
+        <p style="color:var(--muted);line-height:1.6;font-size:var(--sm);margin:0">Aus dem Plan wird Praxis: Prozesse werden digitalisiert und automatisiert, Tools datenschutzkonform aufgesetzt und Ihr Team eingewiesen.</p>
+      </div>
+      <div style="padding:var(--s6);background:#fff;border:1px solid var(--divider);border-radius:var(--r-xl)">
+        <div style="display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;background:var(--lblue);color:var(--teal-d);border-radius:999px;font-family:var(--fd);font-weight:800;margin-bottom:var(--s3)">04</div>
+        <h3 style="font-family:var(--fd);font-weight:700;font-size:var(--lg);margin:0 0 var(--s2)">Laufende Betreuung</h3>
+        <p style="color:var(--muted);line-height:1.6;font-size:var(--sm);margin:0">Auf Wunsch begleite ich Sie über die Einführung hinaus – für Anpassungen, neue Bausteine und Fragen aus dem Alltag.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE-BEREICHE -->
+<section class="sec sec-white">
+  <div class="conw">
+    <div class="slabel">Bereiche</div>
+    <h2 class="stitle">Was sich in Ihrer Praxis automatisieren lässt</h2>
+    <p class="sdesc seo-def" style="padding-left:2rem">Drei Bereiche mit eigener Detailseite – jeweils mit Praxisbeispiel und häufigen Fragen. Dazu zwei Querschnitts-Bereiche, die in vielen Projekten mitlaufen.</p>
+    <div class="sgrid" style="margin-top:var(--s8)">
+
+      {{ range $b := site.Data.branchen }}
+      <div class="scard reveal">
+        <div class="stag">{{ $b.branche }}</div>
+        <h3 class="stit">{{ $b.branche }}</h3>
+        <p class="sdsc">{{ $b.intro }}</p>
+        <ul class="sli">
+          {{ range $b.usecases }}<li>{{ .titel }}</li>{{ end }}
+        </ul>
+        <div class="sprice"><a href="{{ $b.url }}" style="color:inherit;text-decoration:none;">Mehr erfahren →</a></div>
+      </div>
+      {{ end }}
+
+      <div class="scard reveal">
+        <div class="stag">Sichtbarkeit</div>
+        <h3 class="stit">Inhalte &amp; Auffindbarkeit</h3>
+        <p class="sdsc">Werkzeuge zum Selbst-Befüllen – Vorlagen, die Ihnen die Vorbereitung abnehmen, statt eines laufenden Redaktionsservices.</p>
+        <ul class="sli">
+          <li>Content-Bausteine für Social Media &amp; Newsletter</li>
+          <li>KI-Entwürfe für wiederkehrende Texte</li>
+          <li>Auffindbarkeit in KI-Suchen (GEO)</li>
+        </ul>
+      </div>
+
+      <div class="scard reveal">
+        <div class="stag">In jedem Projekt</div>
+        <h3 class="stit">Technische &amp; rechtliche Basis</h3>
+        <p class="sdsc">Der Querschnitt, der immer dabei ist – damit alles sauber zusammenspielt und rechtlich abgesichert ist.</p>
+        <ul class="sli">
+          <li>Tool-Auswahl &amp; Integration bestehender Systeme</li>
+          <li>EU-Hosting vs. On-Premise, je nach Datensensibilität</li>
+          <li>EU-AI-Act-Einstufung &amp; DSGVO-konforme Datenflüsse</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="sec sec-alt">
+  <div class="con" style="text-align:center">
+    <div class="slabel">Ihr nächster Schritt</div>
+    <h2 class="stitle">Ihr nächster Schritt: die kostenfreie Potenzialanalyse</h2>
+    <p class="sdesc" style="margin-inline:auto;margin-bottom:var(--s6)">In 30 Minuten zeigen wir gemeinsam, wo Digitalisierung und KI in Ihrer Praxis am meisten bringen – unverbindlich, online, mit konkreten Empfehlungen für Ihre Praxis.</p>
+    <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" class="btnp" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:var(--s2)">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      Kostenfreie Potenzialanalyse buchen
+    </a>
+  </div>
+</section>
+{{ end }}
