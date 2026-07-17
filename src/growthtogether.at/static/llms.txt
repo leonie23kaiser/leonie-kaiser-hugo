@@ -2,27 +2,36 @@
 # https://leoniekaiser.com
 
 ## About
-Leonie Kaiser is an AI & Business Consultant based in Vienna, Austria,
-specializing in AI strategy, EU AI Act compliance, and agentic AI
-implementation using Claude Code and Claude Architect for small businesses
-and solo entrepreneurs in the DACH region and globally.
+Leonie Kaiser is an AI & Business Consultant based in Lower Austria (Niederösterreich),
+specializing in AI strategy, EU AI Act compliance, and process automation for small,
+owner-led health and wellness practices (Wahlarzt/private-pay/self-pay) in the
+DACH region (Austria, Germany, Switzerland).
 
 ## Services
 - AI Potential Analysis (free 30-minute consultation)
-- AI Strategy & Roadmap (customized for SMEs and Einzelunternehmer)
-- Agentic AI implementation with Claude Code & Claude Architect
-- EU AI Act compliance consulting
-- No-Code automation (n8n, Make) as supplementary tooling
+- AI Strategy & Roadmap, tailored to small private practices
+- Process automation (No-Code), tool-agnostic, chosen per use case
+- EU AI Act & GDPR compliance consulting
+- Implementation and team onboarding – no IT department required
 
 ## Expertise
-- Agentic AI systems (Claude Code, Claude Architect)
-- EU AI Act compliance and ethical AI deployment
-- KI strategy for Einzelunternehmer and KMU in Austria
-- 20+ years experience in global project management, product marketing, consulting
+- AI strategy for small, owner-led health and wellness practices
+- EU AI Act compliance and ethical, human-centered AI deployment
+- Process automation and No-Code implementation, integrated into existing tools
+- 20+ years experience in global project management, marketing, and consulting
+  (over a decade in regulated healthcare/pharma, several years in strategic
+  business consulting, today AI and process consulting)
 - Languages: German, English, Spanish
 
+## Target audience
+Small, owner-led private practices in prevention, therapy, and wellness –
+currently physiotherapy/movement practices, longevity & medical wellness, and
+nutrition counseling. Practices that rely (also) on private-pay clients, work
+with sensitive health data, and have no in-house IT department.
+
 ## Geography
-Vienna, Austria-based, serving DACH region and global clients remotely
+Lower Austria (Niederösterreich) based, serving the DACH region and remote
+clients
 
 ## Content
 Homepage: https://leoniekaiser.com/
@@ -42,4 +51,4 @@ Booking: https://calendly.com/leonie-kaiser/ki-potentialanalyse
 Email: hello@leoniekaiser.com
 
 ## Last Updated
-2026-06-08
+2026-07-10

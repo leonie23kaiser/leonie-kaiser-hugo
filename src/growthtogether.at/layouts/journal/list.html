@@ -15,7 +15,7 @@
         {{ with .Params.category }}<div class="stag">{{ . }}</div>{{ end }}
         <h2 class="sctit" style="font-family:var(--fd);font-size:clamp(1.1rem,1.5vw,1.35rem);line-height:1.25;margin:0">{{ .Title }}</h2>
         <p class="scdsc" style="color:var(--muted);font-size:var(--sm);margin:0;line-height:1.55">{{ .Params.summary | default (.Summary | plainify | truncate 160) }}</p>
-        <div style="display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--line)">
+        <div style="display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--divider)">
           <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
           {{ with .Params.readingTime }}<span aria-hidden="true">·</span><span>{{ . }} min Lesezeit</span>{{ end }}
         </div>
