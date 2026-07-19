@@ -1,0 +1,9 @@
+# Zwischenstaende / Laufzeit -- nicht ins Repo (Rohdaten stecken gemerged in sampling_pharma_kmu.json)
+checkpoints/
+run.log
+nohup.out
+__pycache__/
+*.pyc
+# niemals API-Keys
+*.env
+apikey*
