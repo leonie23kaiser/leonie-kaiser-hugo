@@ -105,9 +105,9 @@ Leonies Strategie-Unterlagen liegen **doppelt** vor:
 - **`docs/word/<name>.docx`** = Leonies persönliche Kopie für Google Drive.
   Nur Ausgabe, niemals Quelle. Wird **aus der `.md` generiert**.
 
-Betroffene Paare (Stand Juni 2026): `silicon-sampling-ergebnisse`,
-`positionierung`, `angebotsvorschlaege`. Zusätzlich: `AGENTS.md` (Repo-Quelle) →
-`docs/word/brand-voice.docx` (Leonies Drive-Kopie).
+Betroffene Paare (Stand Juli 2026): `silicon-sampling-ergebnisse`,
+`positionierung`, `angebotsvorschlaege`, `strategie-konzept`. Zusätzlich:
+`AGENTS.md` (Repo-Quelle) → `docs/word/brand-voice.docx` (Leonies Drive-Kopie).
 
 **Regel:** Jede inhaltliche Änderung zuerst in der `.md` machen, dann die `.docx`
 neu erzeugen, damit beide deckungsgleich bleiben. Niemals nur eine Seite ändern.
