@@ -1,45 +1,45 @@
 {
- "n": 37,
+ "n": 95,
  "pain_points": [
   [
    "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-   33
+   80
   ],
   [
    "Personal, Fachkraefte & Wissensbindung",
-   23
-  ],
-  [
-   "IT-/Systemfragmentierung & Datensilos",
-   14
+   59
   ],
   [
    "Dokumentation & Nachweispflichten",
-   14
+   40
+  ],
+  [
+   "IT-/Systemfragmentierung & Datensilos",
+   39
   ],
   [
    "Verwaltung & wiederkehrende Buerokratie",
-   11
+   29
   ],
   [
    "Wachstum, Skalierung & Nachfolge",
-   10
+   29
   ],
   [
    "Sonstiges",
-   9
+   29
   ],
   [
    "Vertrieb, Kunden & Kommunikation",
+   14
+  ],
+  [
+   "Kennzahlen, Finanzen & Steuerung",
    6
   ],
   [
    "Qualitaetsmanagement & QM-Prozesse",
-   2
-  ],
-  [
-   "Kennzahlen, Finanzen & Steuerung",
-   2
+   3
   ]
  ],
  "pain_quotes": {
@@ -56,7 +56,27 @@
    "Wir haben Projektdaten in einer Software, Finanzdaten in einer anderen, und dann nochmal alles irgendwie doppelt in Excel -- weil niemand dem System wirklich vertraut oder es nicht genau das kann, was wir brauchen.",
    "Wenn ich freitags wissen will, wie wir bei einem bestimmten Projekt wirklich stehen -- Kosten, Meilensteine, Ressourcen -- dann sitzt eine meiner Leute anderthalb Stunden und baut mir das zusammen. Das ist kein Einzelfall, das ist der Normalzustand.",
    "Das Frustrierendste ist ehrlich gesagt der administrative Aufwand rund um die Abrechnung. Wir sind im Homecare-Bereich, das heißt, wir haben mit Krankenkassen, Pflegekassen, verschiedensten Kostenträgern zu tun – und jeder hat seine eigenen Formulare, seine eigenen Fristen, seine eigene Logik.",
-   "sitzt irgendwer bei uns und kopiert Daten von einem System ins andere, oder macht Excel-Listen, die schon wieder veraltet sind bevor ich sie anschaue"
+   "sitzt irgendwer bei uns und kopiert Daten von einem System ins andere, oder macht Excel-Listen, die schon wieder veraltet sind bevor ich sie anschaue",
+   "Meine Leute verbringen manchmal halbe Tage damit, Daten aus einem System rauszuziehen und woanders einzupflegen",
+   "Was wirklich Zeit kostet ist dieses staendige manuelle Zusammensuchen von Informationen -- Angebotsstatus, Rechnungsstellung, welches Labor hat Kapazitaet, was ist noch offen.",
+   "Wenn ich wissen will was wir noch haben, muss ich entweder selbst reinschauen oder jemanden fragen der dann nachzaehlt. Das ist lachhaft fuer einen Betrieb in unserer Groesse",
+   "irgendwelche Listen die dreimal existieren -- einmal in Excel, einmal auf Papier, einmal im Kopf von irgendjemand",
+   "Das macht bei uns nicht nur ich, das machen mehrere Leute, und am Ende tippt irgendjemand Sachen doppelt ein oder die Versionsstände stimmen nicht überein.",
+   "Mehr Umsatz mit denselben Leuten -- das wäre schon das Ziel. Und da seh ich gerade nicht wie das gehen soll, wenn die Administration proportional mitwächst.",
+   "Wenn ich für einen Audit oder für ein Kundengespräch eine saubere Übersicht brauche, sitz ich oder jemand anderes erstmal eine halbe Stunde und baut die manuell zusammen",
+   "Jeden Montag frage ich die Teamleiter ab, was eigentlich automatisch sichtbar sein sollte.",
+   "Stundennachweise, Kostenpositionen dokumentieren, Änderungen an Protokollen nachverfolgen – das ist alles manuell, alles kleinteilig, und das macht mich und meine Projektleiterinnen wahnsinnig.",
+   "ich verbringe mindestens einen Drittel meiner Zeit mit Kram, der nichts mit der eigentlichen Arbeit zu tun hat. Angebote schreiben, nachfassen, Rechnungen kontrollieren, irgendwelche ISO-Dokumentationen pflegen...",
+   "Auftragseingang, Probenannahme, Befunderstellung und Rechnung endlich in einem durchgängigen Prozess laufen -- ohne dass jemand fünfmal dieselbe Information irgendwo eintippen muss.",
+   "Wir haben Ordner, wir haben Excel-Listen, wir haben teilweise E-Mail-Ketten die als \"Ablage\" funktionieren. Das ist... naja, das funktioniert, aber es ist nicht gut.",
+   "Jedes Quartal das gleiche Theater. Jemand aus dem Team verbringt zwei, drei Tage damit, Zahlen zusammenzuziehen, die eigentlich schon irgendwo vorhanden sind. Das ist schlicht Verschwendung.",
+   "dann sitzt irgendwer und tippt Sachen dreifach ab. Das ist schlicht Zeitverschwendung, das wissen alle im Team, aber man kommt nicht dazu, es grundlegend anzupacken, weil das Tagesgeschäft immer vordringlich ist.",
+   "Urlaubsanträge, Stundenaufzeichnungen, Krankmeldungen -- wir haben das schon teilweise digitalisiert, aber es gibt immer noch Reibung, immer noch Ausnahmen, immer noch Leute die irgendwas falsch ausfüllen.",
+   "Das kostet mich persönlich locker einen halben Tag pro Woche, wo ich einfach nur zusammensuche, was eigentlich zusammengehören sollte.",
+   "ohne dass ich jeden Montag manuell prüfe, wer was gelesen hat",
+   "der Aufwand rund um Ferien, Krankmeldungen, Lohnabrechnungen, das ewige Hin und Her mit der Pensionskasse, dem Steueramt. Wir haben eine KMU-Treuhaenderin, die uns hilft, aber trotzdem sitze ich da regelmaessig drin.",
+   "Antragsstellung, Nachfragen, Statusverfolgung, Widersprüche. Das kostet uns im Monat Stunden, die ich lieber woanders investieren würde.",
+   "ich würde sofort dafür sorgen, dass mein Team nicht mehr die gleichen Daten zweimal eingibt. Das ist so banal, so stupid, aber es passiert jeden Tag, und es kostet uns Stunden in der Woche, und am Ende sind die Daten trotzdem nicht konsistent."
   ],
   "Regulatorik & Zulassung (MDR/IVDR/GMP)": [
    "Ich lese abends Guidance Documents, weil tagsüber keine Zeit ist. Das ist auf Dauer nicht nachhaltig, aber wen soll ich damit beauftragen bei zwanzig Leuten?",
@@ -102,7 +122,74 @@
    "Wir finden niemanden, der sowohl das regulatorische Know-how mitbringt als auch halbwegs praxistauglich ist.",
    "Wir sind im Gesundheitsbereich, also LMIV, Kosmetikverordnung, SCCS-Bewertungen, das hört nicht auf. Ich hab eine Person, die sich fast ausschließlich darum kümmert. Die ist gut, aber sobald sich irgendwas ändert, fängt das Recherchieren und Dokumentieren von vorne an.",
    "der Aufwand, den wir betreiben, nur um sicherzustellen, dass wir compliant sind, der ist schlicht unverhältnismässig",
-   "Gute Leute zu finden, die sowohl das fachliche Verständnis für unsere Produkte mitbringen als auch mit der regulatorischen Realität umgehen können – das ist zermürbend"
+   "Gute Leute zu finden, die sowohl das fachliche Verständnis für unsere Produkte mitbringen als auch mit der regulatorischen Realität umgehen können – das ist zermürbend",
+   "Wir haben Daten, die ich dreimal in verschiedene Listen eintippe – einmal für die Buchhaltung, einmal für unsere eigene Übersicht, einmal weil irgendein Kunde oder Auditor ein bestimmtes Format will.",
+   "Am meisten frustriert mich ehrlich gesagt das Dokumentations- und Compliance-Chaos. Wir sind ein kleines Unternehmen, 24 Leute, und trotzdem haben wir denselben regulatorischen Druck wie große Player -- MDR, DSGVO, das ganze Programm.",
+   "Ich hänge da als Regulatory Affairs verantwortlich sehr viel Zeit in Aufgaben, die sich bei uns über Excel-Tabellen, E-Mail-Verläufe und verschiedene Ordnerstrukturen verteilen, die jeder ein bisschen anders pflegt.",
+   "Meine Mitarbeitenden verbringen echte Arbeitsstunden damit, Dinge zu dokumentieren, die keinen Mehrwert schaffen, nur Compliance sicherstellen. Das ist notwendig, aber es frisst.",
+   "Ich versuche da am Ball zu bleiben, aber das geht nur mit viel Eigenrecherche, weil wir uns keine externe Beratung leisten.",
+   "qualifiziertes Personal für diesen Bereich zu finden, das ist in den letzten Jahren brutal schwerer geworden. Regulatory Know-how, Branchenkenntnisse -- das wächst nicht auf Bäumen.",
+   "Die Regulatorik wird nicht leichter. MDR hat uns schon ordentlich Arbeit gemacht, und ich sehe nicht, dass das entspannter wird. Jede neue EU-Verordnung landet irgendwie auf meinem Tisch.",
+   "jemand schreibt ein Angebot in Word, das landet als PDF, dann gibt's eine Auftragsbestaetigung in Excel, der Analysestatus wird in einer anderen Tabelle gepflegt -- und am Ende weiss keiner so richtig auf einen Blick, wo welcher Auftrag gerade steht.",
+   "Die Anforderungen an Dokumentation, Nachweispflichten, Audit Trails -- das wird mehr, nicht weniger. Und gleichzeitig soll ich effizienter werden. Das ist ein echter Widerspruch, mit dem ich täglich jongliere.",
+   "Die Anforderungen werden nicht weniger, die werden mehr. LMIV, Health-Claims-Wahnsinn, jetzt noch die ganzen Nachhaltigkeitsgeschichten die kommen. Wir haben da keine eigene Stelle dafuer, das haengt an mir und einer Kollegin, die das nebenbei macht.",
+   "Jeder hat seine eigene Excel-Tabelle, und die stimmen nie überein.",
+   "Für uns als kleine CRO bedeutet das, wir müssen denselben Compliance-Aufwand stemmen wie ein großes Haus – mit einem Bruchteil der Mannschaft",
+   "meine Assistentin verbringt locker zwei Tage pro Woche damit, Versionen abzugleichen, Unterschriften einzuholen, Ordner zu führen. Das ist eine hochqualifizierte Person die Ordner schleppt.",
+   "Ich habe das Gefühl, wir laufen permanent hinterher. Wir haben einen externen Berater, der uns durch die technischen Dossiers führt, das kostet und kostet, und trotzdem bin ich nie sicher ob wir wirklich auf der sicheren Seite sind.",
+   "Gute Leute zu finden die auch noch den regulatorischen Kontext verstehen – das ist fast unmöglich.",
+   "sitze ich da mit meinen Lesezeichen, meinen ausgedruckten PDFs und meinen Excel-Tabellen – und muss das alles selbst zusammenhalten. Das ist eigentlich absurd für ein Unternehmen unserer Größe.",
+   "Die MDR hat uns schon einiges an Aufwand beschert, und das Gefühl, dass da nochmal was nachkommt, habe ich ständig im Hinterkopf.",
+   "Projektstand einer Studie liegt in drei verschiedenen Excel-Tabellen, jemand hat seine eigene Version auf dem Desktop gespeichert, und wenn ich eine aktuelle Übersicht brauche, muss ich erst fünf Leute fragen.",
+   "die regulatorischen Anforderungen werden nicht weniger, eher mehr, ohne dass wir dafür nennenswert mehr Ressourcen hätten.",
+   "Die Akkreditierungsanforderungen werden nicht weniger, eher mehr. Da ist man nie fertig, das frisst Ressourcen ohne direkten Gegenwert für den Kunden.",
+   "Wir verbrauchen enorm viel Zeit damit, Informationen zusammenzusuchen, die eigentlich schon irgendwo da sein sollten.",
+   "Die Regulatorik -- MDR, IVDR -- das aendert sich laufend, und wir muessen da immer auf dem neuesten Stand sein. Aber wie wir das intern nachhalten und kommunizieren, das ist... naja, suboptimal.",
+   "Projektstand eines Kunden -- wo stehen wir gerade, was hat wer wann gemacht, was fehlt noch? Das ist bei uns verteilt auf E-Mails, Excel-Listen, handschriftliche Notizen, manchmal auch einfach im Kopf der Kollegin, die gerade im Urlaub ist.",
+   "Ich weiß nie wirklich, ob wir bei einem Audit morgen alles sauber beisammen hätten. Das ist ein permanentes Unbehagen. Nicht weil wir schludern -- sondern weil die Informationen einfach verteilt sind, manche auf dem Server, manche noch physisch abgeheftet, und dann hat jemand krank gefehlt und weiß als Einziger, wo die Freigabe für diesen Lieferanten liegt.",
+   "Ich kriege keine guten Leute, die gleichzeitig Regulatorik-Kenntnisse und handwerkliche Fähigkeiten mitbringen. Der Markt gibt das einfach nicht her für uns als kleine Firma.",
+   "Wir haben Produkte, die regulatorisch gewisse Anforderungen haben -- Kennzeichnung, Sicherheitsdatenblätter, LMIV-Kram, was weiß ich. Das wälze größtenteils ich.",
+   "Das Groesste, was mich wirklich nervt, ist diese ewige Zettelwirtschaft und das Suchen. Wir arbeiten in einem regulierten Umfeld -- GMP, das ganze Drumherum -- und trotzdem laufen bei uns noch irrsinnig viele Informationen ueber E-Mail, Ausdrucke, Excel-Listen, die irgendjemand auf seinem Laufwerk hat.",
+   "Bevor wir einem Kunden irgendetwas bestaetigen oder vor einem Audit alles zusammenhaben, rennt jemand stundenlang durch Ordner.",
+   "Regulatorik wird auch nicht einfacher. Die Anforderungen nehmen zu, und ich habe nicht das Backoffice, das grosse Pharmakonzerne haben. Das laeuft bei uns auf dem Bueckel von wenigen.",
+   "Die Anforderungen steigen, aber die Ressourcen nicht proportional. Ich mache mir Sorgen, dass wir irgendwann strukturell nicht mehr mithalten können, ohne grundlegend etwas zu ändern.",
+   "Wenn ich fuer eine Auditsvorbereitung Zahlen brauche, sitze ich erstmal ein, zwei Tage und fuege manuell Informationen zusammen, die theoretisch irgendwo schon vorhanden sind. Das ist sinnverbrennend, keine andere Beschreibung.",
+   "jede Aenderung bedeutet: Dokumente ueberarbeiten, Nachweise, Schulungsnachweise, alles papierbasiert oder eben Excel. Mein Team ist klein, wir sind kein Konzern, der dafuer eine Abteilung hat. Das fressen manchmal Wochen im Quartal.",
+   "Regulatorik allgemein – GVP-Updates, FDA-Anforderungen für US-Kunden, GDPR – das frißt einfach Ressourcen ohne kommerziellen Gegenwert.",
+   "ich stehe regelmäßig da und frage mich, warum jemand eine Bestellung ausgelöst hat die ich nicht kannte, oder warum Lagerstände in Excel nicht mit dem übereinstimmen was tatsächlich rumsteht",
+   "Ich muss mir das selber erarbeiten, es gibt niemanden den ich einfach fragen kann. Das ist nicht das Kerngeschäft aber es hängt uns permanent rein.",
+   "ein erheblicher Teil meiner eigenen Arbeitszeit und die meiner qualifizierten Leute nicht in Produkt oder Kunden fließt, sondern in Nachweise, Formulare, Dokumentationspflichten",
+   "liege ich nachts manchmal wach und frage mich, ob irgendwo in unserer Kommunikation eine Formulierung steht, die uns Ärger macht. Das zieht Energie, die ich eigentlich woanders brauche.",
+   "verschwinden Stunden in Koordination, in Excel-Tabellen die niemand pflegt ausser der einen Person die sie angelegt hat, und in E-Mails die eigentlich Entscheide sein sollten aber keine werden",
+   "ich mache das nebenher, mit zu wenig Ressourcen, und laufe eigentlich immer leicht hinterher. Nicht weil wir es nicht ernst nehmen, sondern weil es schlicht kapazitätsmässig kaum machbar ist.",
+   "das Thema, das mich am meisten nervt, ist der Dokumentationsaufwand rund um Compliance und Qualitätsmanagement. Nicht die Compliance selbst, die verstehe ich und die ist in unserem Bereich absolut notwendig. Aber die Art, wie wir das organisieren müssen, mit Word-Dokumenten, die durch fünf Hände gehen, Versionskontrolle per E-Mail, SOPs die irgendwo auf einem Netzlaufwerk liegen und nie jemand sicher weiß, ob die wirklich aktuell sind -- das kostet uns unverhältnismäßig viel Zeit.",
+   "wenn ein Audit kommt, dann ist das jedes Mal eine kleine Katastrophe in der Vorbereitung, obwohl wir eigentlich gut aufgestellt sind.",
+   "Wir als Kleiner müssen das genauso umsetzen wie ein großer Konzern, haben aber nicht annähernd die Ressourcen dafür.",
+   "MDR, Dokumentationspflichten, Rueckverfolgbarkeit -- das frisst uns einfach Ressourcen, und die Leute, die das machen, koennten eigentlich Sinnvolleres tun. Da haben wir niemanden, der das wirklich strukturiert im Griff hat, das wurschtelt sich irgendwie durch.",
+   "Das kostet uns leicht eine ganze Arbeitswoche – für Dinge, die eigentlich kontinuierlich gepflegt sein sollten.",
+   "Regulatorik wird auch nicht weniger; was die EMA und anderen gerade alles aufgleisen, das kostet uns Aufwand, den wir nicht direkt verrechnen können.",
+   "ich frage mich, ob wir als mittelgrosses Unternehmen langfristig die Ressourcen haben, das alles seriös abzubilden. Wir können nicht einfach eine ganze Compliance-Abteilung aufbauen.",
+   "Jedes Jahr kommen neue Anforderungen, neue Formulare, neue Nachweispflichten -- und der Nutzen steht in keinem Verhältnis zu dem Aufwand, den kleine Betriebe wie wir da reinstecken müssen.",
+   "ICH muss das verfolgen, ICH muss sicherstellen, dass wir compliant sind, aber ich bin kein Jurist und kein Qualitätsmanager gleichzeitig. Bei 23 Leuten hat man halt keine dedizierte Compliance-Person, die das professionell aufgleist.",
+   "Dieses Excel-Kuddelmuddel in der Ressourcen- und Zeitplanung. Dass fünf Leute fünf verschiedene Versionen einer Tabelle haben und niemand weiss, welche die aktuelle ist -- das ist so simpel und so lästig, und trotzdem schleppe ich das seit Jahren mit mir rum.",
+   "der administrative Aufwand drumherum – Nachweise, Auditvorbereitungen, interne Dokumentation – das frisst Zeit, die eigentlich in die Arbeit für Kunden gehört.",
+   "der Aufwand für Compliance, für Produktkennzeichnung, für neue EU-Vorgaben -- der ist in den letzten Jahren spürbar gestiegen. Das bindet Ressourcen, die ich lieber woanders hätte.",
+   "Die Regulatorik wird nicht leichter, MDR hat uns schon beschäftigt, und ich seh nicht, dass das ruhiger wird",
+   "die Art, wie wir das heute umsetzen, ist... sagen wir mal altmodisch. Viel manueller Aufwand, viel E-Mail-Ping-Pong intern.",
+   "Wir sind ein Health-IT-Unternehmen, wir verkaufen Digitalisierung an andere – und intern laufen immer noch Sachen über Excel-Listen und E-Mail-Ketten, weil wir nie die Zeit hatten, das vernünftig aufzuräumen.",
+   "Wir haben einen Markt, der gerade stark reguliert wird – MDR, DSGVO, dann kommt irgendwann AI Act. Das bindet Energie, die ich lieber in Wachstum stecken würde.",
+   "Bei uns kommt ein Audit, und dann rennt man wieder zwei Wochen vorher hektisch durch die Unterlagen. Das sollte eigentlich kontinuierlich funktionieren, tut es aber nicht.",
+   "Mehr Umsatz wäre schön, aber mehr Projekte bedeuten bei unserer Struktur auch mehr Compliance-Last. Wenn ich nicht sicherstellen kann, dass die Prozesse sauber skalieren, will ich gar nicht wachsen.",
+   "Jedes Mal wenn sich irgendwo eine Verordnung aendert, muss ich schauen, was das fuer unsere Etiketten, unsere Produktblaetter, unsere Webseite bedeutet. Das macht niemand bei uns hauptberuflich, das haengt immer irgendwie an mir oder an unserem Produktverantwortlichen dran.",
+   "Wir arbeiten mit Excel-Listen, die jeder ein bisschen anders pflegt, und am Ende des Tages weiss ich oft nicht auf einen Blick, wo welches Projekt gerade steht",
+   "Der Markt fuer erfahrene Regulatory-Affairs-Spezialisten ist leergekaemmt. Ich kann nicht einfach irgendwen einstellen und erwarten, dass der in drei Monaten produktiv ist",
+   "Regulatorik wird nicht weniger. Die DiGA-Thematik, DSGVO, MDR – das alles läuft parallel, und ich hab kein eigenes Compliance-Team.",
+   "der Compliance-Aufwand waechst so, als waeren wir ein Konzern. Jedes Update bei den EU-Kosmetikverordnungen, jede neue EFSA-Guidance, jede Aenderung bei Health-Claims – das landet alles bei mir oder meinen zwei Leuten, und wir muessen das aufarbeiten, dokumentieren, intern kommunizieren, Prozesse anpassen. Das ist ein Fass ohne Boden.",
+   "intern den Überblick zu behalten, was wann erneuert werden muss, wer welche Schulung braucht -- das läuft bei uns noch zu sehr auf Zuruf.",
+   "Wir sind klein, haben keine eigene Regulatory-Stelle, das hängt alles an einer Person, die das nebenbei macht. Jedes Mal wenn etwas Neues kommt, bin ich die Erste, die sagt: 'wer macht das jetzt?' Und die Antwort ist meistens: alle ein bisschen, also eigentlich niemand richtig.",
+   "Ich habe das Gefühl, wir verbringen inzwischen fast gleich viel Zeit damit, Dinge zu dokumentieren und nachzuweisen, wie damit, sie eigentlich zu tun.",
+   "Das läuft bei uns über verschiedene Systeme und zum Teil noch über Excel-Listen und E-Mails. Nicht weil wir das so wollen, sondern weil es keine Lösung gibt, die das alles sauber abbildet, ohne dass man ein halbes Jahr Implementierungsprojekt stemmt.",
+   "Die MDR-Umstellung hat uns trotzdem ordentlich beschäftigt, und das hört ja nicht auf – es kommt immer wieder was Neues. Das frisst Kapazität, die wir eigentlich für sinnvollere Dinge brauchen könnten."
   ],
   "Wachstum, Skalierung & Nachfolge": [
    "Mehr Kunden bedeutet mehr Dokumentationsaufwand, mehr Audits, mehr Personalverantwortung.",
@@ -114,11 +201,31 @@
    "Wenn wir wachsen wollen – und der Druck kommt – dann reichen unsere aktuellen Strukturen nicht. Wir haben nichts, was wirklich skaliert. Kein vernünftiges System, das mit uns wächst.",
    "Wir kommen mit unseren halbgaren Prozessen irgendwie durch, aber verdoppeln kann ich das nicht einfach so.",
    "Mehr Projekte mit denselben halbfertigen Prozessen -- das macht mir mehr Angst als Freude.",
-   "Wachstum macht mir Sorgen, weil Wachstum bei uns automatisch mehr Komplexität bedeutet, mehr Regulierungsrisiko, mehr Angriffsfläche"
+   "Wachstum macht mir Sorgen, weil Wachstum bei uns automatisch mehr Komplexität bedeutet, mehr Regulierungsrisiko, mehr Angriffsfläche",
+   "keiner der bestehenden Prozesse ist darauf ausgelegt, dass plötzlich zwei neue Mitarbeitende ongeboardet werden müssen oder ein weiteres Produkt durch den QM-Prozess geschleust werden muss",
+   "Ich könnte morgen mehr Umsatz machen, aber ich hätte nicht die Prozesse dahinter, die das sauber auffangen. Das bremst mich bewusst.",
+   "Mehr Produkte, mehr Lieferanten, mehr Dokumentation – und ich sitze hier mit denselben Excel-Tabellen.",
+   "mit den jetzigen Strukturen -- mehr Auftraege bedeutet erstmal mehr Chaos, nicht mehr Gewinn.",
+   "Größer werden klingt gut, aber mit unserer aktuellen Infrastruktur würde das einfach heißen: mehr manuelle Prozesse, mehr Fehlerquellen, mehr Stress für dieselben Menschen.",
+   "Wenn ich wachse, brauch ich mehr Leute -- aber Leute sind das Engpassthema schlechthin. Das macht Wachstum fast paradox.",
+   "Mehr Umsatz klingt gut, aber wenn ich mir anschaue, was das an Verwaltungsaufwand zusätzlich bedeuten würde – ich weiß nicht, ob unsere Strukturen das gerade tragen könnten.",
+   "Mehr Projekte bedeutet bei uns gerade einfach mehr Chaos.",
+   "Den Fachkräftemangel spüren wir direkt – ich kann wachsen wollen so viel ich will, wenn ich niemanden finde der das trägt, ist das unrealistisch.",
+   "Die Strukturen, die ich hab, sind eigentlich für zehn Leute gemacht, nicht für achtzehn.",
+   "wenn wir jetzt auf das Doppelte skalieren müssten, würde das reißen. Ich weiß das.",
+   "Wir wachsen in eine Komplexität rein, für die wir organisatorisch nicht bereit sind.",
+   "ich weiss aus Erfahrung, dass wir bei einer weiteren Stufe Komplexität mit unseren jetzigen Strukturen schlicht an die Wand fahren würden. Die Prozesse skalieren nicht -- das ist meine eigentliche Sorge.",
+   "wenn ich mir vorstelle, dass wir auf 20 wachsen würden, dann wird mir schon unwohl -- nicht wegen der Leute, sondern wegen des Organisationsaufwands, der dann einfach explodiert.",
+   "Wir würden bei 20% mehr Volumen wahrscheinlich an mehreren Stellen gleichzeitig brechen.",
+   "Mit 31 Leuten merke ich schon, dass das, was bei 15 Leuten funktioniert hat, so nicht mehr geht",
+   "Wenn wir wachsen -- was der Geschäftsführer will -- dann skaliert unser jetziges System nicht. Das weiß ich. Das sag ich auch. Aber solange nichts brennt, passiert erstmal nix.",
+   "Wir finden kaum qualifizierte Mitarbeiter, und die die wir hätten wollen, gehen lieber zu einem großen Konzern. Das hemmt mich mehr als irgendein Prozessthema.",
+   "Wir könnten grösser werden, aber ich weiss nicht, ob ich das strukturell gerade auffangen kann, ohne dass die Qualität leidet oder ich selbst noch mehr im Betrieb hänge statt am Betrieb."
   ],
   "Qualitaetsmanagement & QM-Prozesse": [
    "gutes Fachpersonal im QM-Bereich zu finden – das ist mühsam. Die Leute mit echter GMP-Erfahrung wollen meist zu Pharmakonzernen, nicht zu einem kleinen CMO.",
-   "wir könnten mehr Projekte annehmen, aber ich habe Angst, Qualität zu verlieren. In unserem Geschäft ist ein einziger ernsthafter Compliance-Fehler existenzbedrohend."
+   "wir könnten mehr Projekte annehmen, aber ich habe Angst, Qualität zu verlieren. In unserem Geschäft ist ein einziger ernsthafter Compliance-Fehler existenzbedrohend.",
+   "Der Aufwand steht in keinem vernünftigen Verhältnis zur Unternehmensgröße. Ein Konzern mit 500 Leuten hat dafür eine eigene Abteilung. Ich hab... mich, meinen Qualitätsmanager und viel Abendarbeit."
   ],
   "Sonstiges": [
    "Wir haben 18 Leute, und trotzdem weiß ich manchmal nicht auf Anhieb, wer gerade an welchem Projekt hängt und wie weit das ist. Das ist eigentlich beschämend für eine Geschäftsführung.",
@@ -132,7 +239,32 @@
    "bei jeder mittelgroßen Frage wieder in der Mitte stehe und alle auf mich warten",
    "Das kostet uns absurd viel Zeit, einfach nur um den Überblick zu behalten. Nicht um wirklich Arbeit zu machen – nur um rauszufinden, *wo* die Arbeit eigentlich gerade steht.",
    "Wir sind 32 Leute, da ist jeder Abgang ein Problem. Und der Markt gibt nichts her momentan, gute Leute mit CRO-Erfahrung findet man nicht einfach so.",
-   "Ich merk das selbst -- ich lösche lieber Brände als dass ich vorausplane."
+   "Ich merk das selbst -- ich lösche lieber Brände als dass ich vorausplane.",
+   "Und gute Leute mit Spezialkenntnissen im Diagnostikbereich zu finden ist keine leichte Übung, gerade nicht in dieser Gehaltsklasse, die wir uns leisten können.",
+   "Das ist beschämend für ein Unternehmen, das selbst digitale Lösungen verkauft.",
+   "was mich am meisten nervt, ist das ewige Koordinations-Chaos. Wir haben 17 Leute, und trotzdem läuft erschreckend viel über \"kurze Absprachen\" im Flur, WhatsApp oder E-Mail-Ketten, die keiner mehr findet.",
+   "ich verschwende locker 20-30% meiner Woche damit, Informationen zusammenzusuchen, die irgendwo vorhanden sind, aber nicht dort wo ich gerade bin",
+   "gefuehlte 40 Prozent meiner Woche geht drauf fuer Kram, der eigentlich kein Mensch braucht",
+   "Die schiere Menge an Koordinationsaufwand, die entsteht, weil wir keine vernünftige gemeinsame Datenbasis haben.",
+   "eine einzige Ansicht, die mir zu jedem Zeitpunkt zeigt, welches Projekt wie läuft, wer daran arbeitet und ob wir auf Kurs sind -- ohne dass ich drei Leute fragen oder vier Dateien öffnen muss",
+   "dann habe ich drei E-Mail-Ketten, zwei Teams-Nachrichten und ein Telefonat, bevor überhaupt irgendjemand eine Entscheidung trifft. Das zieht sich.",
+   "auf irgendeinem geteilten Laufwerk, das seit 2019 keiner mehr aufgeräumt hat.",
+   "Und dann kommen noch die gesetzlichen Änderungen dazu, bei Hilfsmitteln, bei den Rahmenverträgen, da muss man ständig nachlaufen.",
+   "ich trau mich nicht, das aus der Hand zu geben, weil wenn was falsch ist, haftet am Ende sowieso ich",
+   "wenn ich jemanden hab, dann hängt plötzlich sehr viel an einer Person",
+   "Dass Entscheide wirklich getroffen werden -- schriftlich, mit Verantwortlichkeit, und ohne dass dieselbe Diskussion drei Monate später nochmals geführt wird.",
+   "Wir finden kaum jemanden, der sowohl die Branchenkenntnis als auch ein bisschen digitales Verständnis mitbringt. Das Feld ist eng.",
+   "Wenn wir wachsen wollen, brauchen wir Leute -- aber Fachleute im Pharmakovigilanz-Bereich findet man nicht einfach. Der Markt ist eng.",
+   "trotzdem hat man manchmal das Gefühl, für jede Entscheidung braucht es drei Runden mit drei Abteilungen. Das kostet mich persönlich viel Zeit, die ich lieber woanders investieren würde.",
+   "Was mich am meisten nervt, ist dieses ewige Zusammensuchen von Informationen, die eigentlich alle irgendwo existieren, aber nie dort, wo man sie gerade braucht.",
+   "Das ist nicht nur ineffizient, das ist auch fehleranfällig, und in unserem Bereich – Pharmakovigilanz – kann ein Fehler halt Konsequenzen haben.",
+   "Ich verliere manchmal Wochen damit, Positionen zu besetzen – nicht weil wir kein attraktiver Arbeitgeber wären, sondern weil der Markt schlicht leer ist.",
+   "Ich würde mir wünschen, dass meine Führungskräfte -- also die Ebene unter mir -- selbstständiger Entscheidungen treffen, ohne dass alles zu mir hochkommt.",
+   "dann such ich manchmal eine halbe Stunde bevor ich überhaupt anfangen kann, inhaltlich zu arbeiten",
+   "Ich sag was, wie es gemacht werden soll, und drei Wochen später mach ichs wieder anders raus. Das ist nicht Böswilligkeit, das ist einfach -- es fehlt die Infrastruktur, damit sich Abläufe wirklich einschleifen",
+   "Gute Leute finden, die sowohl IT-nah als auch gesundheitsaffin sind – das ist brutal schwierig. Wir verlieren Kandidaten an grössere Anbieter, einfach weil wir nicht mit dem Gehalt mitgehen können.",
+   "Gute Leute zu finden, die sowohl technisches Verständnis mitbringen als auch bereit sind, in einem regulierten Umfeld zu arbeiten – das ist wirklich schwierig geworden.",
+   "dass ich jederzeit in zwei Minuten weiß, wo wir kapazitätsmässig stehen -- was läuft, was reinkommt, wo es klemmt."
   ],
   "Personal, Fachkraefte & Wissensbindung": [
    "Wir haben viel implizites Wissen, das nur in den Köpfen einzelner Mitarbeiter steckt. Wenn jemand geht, ist das weg. Das ist ein echtes Problem.",
@@ -159,7 +291,49 @@
    "Ich finde kaum jemanden, der a) fachlich passt und b) bereit ist, in einem kleinen Betrieb wie unserem zu arbeiten. Die wollen alle große Namen.",
    "Urlaubsplanung, Stundenerfassung, Onboarding neuer Mitarbeiter -- das laeuft alles noch sehr manuell. Ich oder meine Assistentin sitzen dran, und das ist Zeit, die woanders fehlt.",
    "Neues Personal zu finden, das sich in diesem Regulierungsumfeld auskennt -- praktisch unmoeglich, oder sehr teuer.",
-   "gute Leute zu finden, die sowohl fachlich was können als auch in einem mittelständischen Betrieb arbeiten wollen, wo halt nicht alles perfekt organisiert ist. Das ist zäh."
+   "gute Leute zu finden, die sowohl fachlich was können als auch in einem mittelständischen Betrieb arbeiten wollen, wo halt nicht alles perfekt organisiert ist. Das ist zäh.",
+   "Wenn eine Schlüsselperson ausfällt – und das ist bei uns einer von zehn – dann spüren wir das sofort.",
+   "Kein richtiges Handbuch, das tatsächlich aktuell ist. Nur implizites Wissen in Köpfen.",
+   "Wer macht das alles, wenn ich morgen nicht mehr da bin? Das ist keine hypothetische Frage, ich bin sechzig.",
+   "Was Wissen und Verantwortung -- wer ist eigentlich zuständig wofür? Bei uns wächst die Aufgabenlast schneller als die Kopfzahl, und dann landet vieles bei wenigen Leuten.",
+   "Gute Leute für unsere Nische zu finden, die sowohl den Vertriebsdreh raus haben als auch medizinisches Fachwissen mitbringen – das dauert ewig und kostet unverhältnismäßig viel Energie.",
+   "Ich bin Leitung QM, aber ich beantworte auch Lieferantenanfragen, ich erkläre dem Verkauf was über Kennzeichnungspflichten, ich bin quasi die einzige, die weiss wo was steht. Das macht mich zum Flaschenhals, und das ist auf Dauer einfach nicht angenehm.",
+   "Qualifizierte Leute fuer ein Auftragslabor dieser Groesse zu kriegen ist schwierig, die gehen lieber zu den grossen Pharmakonzernen.",
+   "Den Flaschenhals hab ich nicht im Auftragseingang, sondern im Humankapital. Und qualifiziertes Personal in dem Bereich ist knapp, das sage ich ohne Übertreibung.",
+   "Wenn jemand geht, dann geht oft Wissen mit, das nirgends aufgeschrieben ist. Das haben wir zweimal schmerzhaft erlebt.",
+   "Rueckfragen von Mitarbeitern die eigentlich selbst Antworten wissen sollten",
+   "Ich führe Qualität, aber ich mach nebenbei auch Dinge, die eigentlich nichts mit QM zu tun haben – weil wir keine dedizierte Person dafür haben",
+   "Wir haben keinen strukturierten Prozess. Wenn jemand Neues kommt -- und wir suchen laufend, weil der Markt für Regulatory-Leute brutal eng ist -- dann hängt das Wissen in den Köpfen einzelner Leute.",
+   "Das Regulatory-Know-how sitzt halt bei mir im Kopf, und das ist auf Dauer keine tragfähige Situation.",
+   "Qualifizierte Leute für ein Auftragslabor in unserer Größe zu finden und zu halten -- das ist mittlerweile richtig zäh.",
+   "Und gute Leute zu finden, die sich in so einer Nische auskennen oder zumindest schnell einarbeiten lassen, das wird schwieriger. Nicht leichter.",
+   "Onboarding, Urlaubsplanung, wer ist wann für welche Analyse zuständig -- das ist bei uns alles irgendwie im Kopf von irgendjemandem. Wenn eine Schlüsselperson krank wird, merkt man sofort, wie fragil das ist.",
+   "wenn jemand geht, geht auch viel Wissen mit – nirgendwo vernünftig dokumentiert. Das ist ein echtes Klumpenrisiko.",
+   "Gute Laboranten und vor allem Leute, die auch analytisch denken können, findet man kaum noch. Und wenn ich jemanden einarbeite, stecke ich selbst viel Zeit rein -- und dann geht die Person nach zwei Jahren trotzdem wieder.",
+   "Onboarding neuer Leute dauert viel zu lang, weil nichts wirklich dokumentiert ist. Das Wissen steckt in den Koepfen der Erfahrenen.",
+   "die Dienstpläne, Urlaubsabsprachen, das läuft alles über WhatsApp-Gruppen und eine Excel-Datei, die mittlerweile aussieht wie ein Kunstwerk. Das kostet mich jede Woche locker einen halben Tag -- mindestens.",
+   "Das Wissen steckt dann im Kopf von zwei, drei Schluesselpersonen. Das beunruhigt mich.",
+   "Und wenn dann jemand geht, geht das Wissen mit – das ist ein echtes Risiko für uns.",
+   "Wir verlieren gelegentlich jemanden, und dann ist das Wissen weg, weil es eben in Koepfen und privaten Ordnern steckt und nicht im System.",
+   "Bei zehn Leuten ist jeder Ausfall eine Katastrophe. Und in der Pharmakovigilanz brauche ich ausgebildete Fachkräfte – die wachsen nicht auf Bäumen.",
+   "Gute Leute zu finden, die sowohl technisch was draufhaben als auch bereit sind, in einem kleinen Unternehmen ohne Konzernstrukturen zu arbeiten – das ist zäh.",
+   "Wenn ich morgen früh wissen will, wie unser Lagerbestand bei einem bestimmten Produkt ist, muss ich im Zweifel drei Leute fragen. Das ist nicht witzig bei 21 Mitarbeitenden.",
+   "Jemanden zu finden, der wirklich mitdenkt und nicht nur seinen Job macht -- das ist gerade brutal schwierig.",
+   "Wir können nicht einfach schnell neue Leute einholen. In unserem Bereich braucht jemand Monate, bis der wirklich produktiv ist -- GCP-Training, Einarbeitung in unsere Prozesse, erstmal nur unter Aufsicht arbeiten. Das begrenzt uns massiv.",
+   "Wenn ich wissen will, wie wir bei einem bestimmten Kunden stehen, was der in den letzten Monaten gekauft hat, ob da irgendwas offen ist -- dann muss ich drei Leute fragen oder selber suchen. Das ist absurd fuer ein Unternehmen unserer Groesse.",
+   "Und wenn jemand geht, geht das Wissen mit.",
+   "Gute Leute zu finden, die den Bereich verstehen -- also nicht nur Logistik allgemein, sondern mit Grundverstaendnis fuer Medizinprodukte -- das ist muehsam.",
+   "Wenn jemand geht, ist das Wissen weg. Wir haben keine richtige Wissensdatenbank, kein strukturiertes Onboarding. Ich weiß das, ich sage das seit zwei Jahren – aber irgendwie kommt man nie dazu, das systematisch anzugehen, weil das Tagesgeschäft immer Vorrang hat.",
+   "wenn jemand geht, hängt sehr viel implizites Wissen an Einzelpersonen. Da haben wir kein vernünftiges System dahinter.",
+   "wenn jemand geht, verliert man nicht nur die Stelle, sondern auch das Wissen. Das ist bei uns nicht gut dokumentiert genug, und das macht mir ehrlich gesagt Sorgen.",
+   "qualifizierte Laborleute zu finden -- und zu halten -- ist seit zwei, drei Jahren richtig schwierig.",
+   "qualifizierte Leute für QM in klinischen Studien sind dünn gesät, und wenn jemand geht, ist das Know-how weg. Keine vernünftige Dokumentation, kein ordentliches Onboarding-Material – das wird dann zum echten Problem.",
+   "wir haben kein sauber dokumentiertes 'So machen wir das hier.' Das steckt alles in den Koepfen von drei, vier Erfahrenen, und ich bin eine davon",
+   "wenn ich Urlaub, Krankheit, Fortbildungspflichten und die unterschiedlichen Qualifikationsprofile übereinanderlege, hab ich regelmäßig Puzzles auf dem Tisch, die ich nicht lösen kann ohne jemanden zu überlasten.",
+   "Ich weiss, was ich weiss. Aber wenn ich das nicht systematisch aufbereite und weitergebe, ist dieses Wissen weg, wenn ich mal krank bin oder weg bin. Und die Zeit fuer diese Aufbereitung haben wir eigentlich nie.",
+   "Und wenn jemand geht, hängt viel implizites Wissen an dieser einen Person. Das macht mir mehr Sorgen als irgendein Markttrend.",
+   "Wenn jemand geht oder neu kommt, dann liegt das Wissen sehr oft im Kopf dieser Person – nicht im System. Das ist ein echtes Risiko.",
+   "Wenn Leute in Rente gehen, kriegen wir das Know-how nicht einfach so ersetzt. Der Arbeitsmarkt für jemanden, der ERP bedienen kann *und* Medizinprodukteerfahrung mitbringt, ist nicht gerade üppig."
   ],
   "IT-/Systemfragmentierung & Datensilos": [
    "Wir haben unser CRM, unser ERP, ein QMS -- alles läuft, aber die Systeme reden kaum miteinander.",
@@ -176,7 +350,34 @@
    "Das Frustrierendste ist das ewige Zusammenstückeln von Informationen. Wir haben unser CRM, das kaum einer richtig nutzt, dann Excel-Listen, die jeder irgendwie anders pflegt, und am Ende ruf ich trotzdem jemanden an, weil ich dem Zeug nicht traue.",
    "Wir haben ein ERP, wir haben ein QMS, wir haben ein CRM -- und die reden nicht miteinander.",
    "ein zentrales, intelligentes System, das mir sagt, welcher Mitarbeiter, welches Dokument, welchen Status hat -- und das nicht in fünf verschiedenen Tools gleichzeitig, die nicht miteinander reden.",
-   "Ich hab ein ERP, ich hab ein CRM, ich hab unser QMS -- und die reden nicht miteinander. Wenn ich wissen will, wie ein bestimmtes Produkt läuft, welche Reklamationen es gab und was der Deckungsbeitrag ist, dann sitzt irgendwer bei mir eine halbe Stunde und bastelt das aus drei Systemen zusammen."
+   "Ich hab ein ERP, ich hab ein CRM, ich hab unser QMS -- und die reden nicht miteinander. Wenn ich wissen will, wie ein bestimmtes Produkt läuft, welche Reklamationen es gab und was der Deckungsbeitrag ist, dann sitzt irgendwer bei mir eine halbe Stunde und bastelt das aus drei Systemen zusammen.",
+   "Wir haben keine wirklich integrierten Systeme, das merkt man.",
+   "halb in unserem Warenwirtschaftssystem, halb in Excel, ein bisschen in geteilten Ordnern -- das ist ehrlich gesagt nicht mehr zeitgemäß",
+   "Wir haben ein ERP, ein QMS, ein CRM -- alles läuft, alles ist gepflegt, aber die kommunizieren nicht miteinander. Das heißt: Wenn ich wissen will, wo wir mit einem Kunden stehen, fange ich an, drei Tabs aufzumachen und manuell zusammenzusetzen, was eigentlich eine Sekunde dauern sollte.",
+   "Die Angst vor einem Integrationsprojekt, das den laufenden Betrieb stört oder -- schlimmer -- Datenintegrität gefährdet, hält mich davon ab. In einer regulierten Umgebung ist ein Systemfehler kein Ärgernis, das ist ein Compliance-Risiko.",
+   "Wir haben ein ERP, ein QMS, ein CRM – alles läuft ordentlich für sich, aber die Systeme reden nicht miteinander.",
+   "das ewige Zusammensuchen von Informationen, die eigentlich alle irgendwo vorhanden sind – aber eben in drei verschiedenen Systemen, die nicht miteinander reden",
+   "Daten, die man zweimal eingibt, weil System A nicht sauber mit System B redet. Das klingt banal, aber wenn das zehnmal am Tag passiert, summiert sich das enorm.",
+   "Ich sitze dann immer noch irgendwo und kopiere Daten von A nach B, oder eine Kollegin ruft beim Lieferanten an, weil die Sendungsverfolgung mal wieder nichts hergibt. Das ist Arbeitszeit, die einfach rausverpufft.",
+   "Excel hier, ein anderes System dort, nichts spricht wirklich miteinander.",
+   "Wir haben ein System für die Auftragsabwicklung, ein anderes für die Abrechnung mit den Kassen, dann noch Excel-Listen für die Tourenplanung, und am Ende tippt jemand dieselbe Information drei Mal in drei verschiedene Masken.",
+   "Wir haben unser Warenwirtschaftssystem, dann Excel-Listen fuer die Qualitaetsdokumentation, nochmal separate Listen fuer Lieferantenbewertungen, und jeder Bereich pflegt irgendwie sein eigenes Ding.",
+   "Wir haben ein ERP, ein QMS, ein CRM – jedes System macht seinen Job irgendwie, aber die reden nicht miteinander.",
+   "Ich glaube, wir verbrennen dort locker 20-30% Kapazität, die eigentlich für echte Arbeit da sein sollte.",
+   "Wir haben einfach zu viele kleine Einzellösungen die nicht miteinander reden. Die eine Kollegin pflegt eine Liste, ich hab meine eigene, der Versand hat wieder was anderes.",
+   "intern leben wir von Copy-Paste und halbgaren Insellösungen. Das ist schon fast peinlich, wenn ich ehrlich bin.",
+   "Wir haben drei Systeme – ERP, QMS, CRM – die eigentlich alle dasselbe wissen müssten, aber nicht miteinander reden. Das heißt, meine Leute tippen Daten mehrfach ein.",
+   "Wir haben unser QMS, unser ERP, unser CRM -- alle funktionieren gut in ihrem Bereich, aber die reden nicht miteinander. Wenn ich einen Überblick über einen Kunden brauche, dann frage ich drei Leute oder öffne vier Systeme.",
+   "Wir haben ein ERP, ein QMS, ein CRM – und die reden nicht miteinander. Das heißt, wenn ich wissen will, wie profitabel ein bestimmter Kundenbereich wirklich ist, sitze ich da und frickle manuell in Excel zusammen, was eigentlich aus drei Systemen automatisch kommen sollte.",
+   "Im Moment ist das in drei Systemen und zwei Köpfen verteilt -- und das macht mich wahnsinnig.",
+   "Wir haben gute Systeme – ERP, QMS, CRM – aber die reden nicht miteinander. Das heißt konkret, meine Mitarbeiter tippen dieselben Informationen manchmal dreimal ein, in drei verschiedenen Systemen.",
+   "jedes System sein eigenes Süppchen kocht. Wir haben ein CRM, wir haben ein QMS, wir haben das ERP -- und die reden nicht miteinander.",
+   "Ich sammel Zahlen aus mindestens vier verschiedenen Systemen, um dem Geschäftsführer eine vernünftige Pipeline-Übersicht hinzustellen. Das dauert jede Woche Stunden. Nicht weil die Daten nicht existieren – die existieren schon –, sondern weil nichts wirklich zusammenhängt.",
+   "Wir haben ein ERP, ein QMS, unser CRM – und die reden nicht miteinander. Wenn ich wissen will, wie ein bestimmtes Los gelaufen ist und was der Kunde dazu gemeldet hat, sitze ich bei drei verschiedenen Systemen und tippe Daten manuell zusammen.",
+   "die Systeme reden nicht wirklich miteinander. Immer noch Exporte, Importe, manuelle Korrekturen. Das ist kein grosses Drama, aber es summiert sich.",
+   "Wir sind ein Medizinprodukte-Hersteller mit MDR-Pflichten, also mit ernsthafter Regulatorik -- und ich führ das alles auf einem Stand, der eigentlich aus den Neunzigern stammt.",
+   "wir drei Systeme haben -- ERP, QMS, CRM -- und die reden nicht miteinander. Wenn ich wissen will, wie ein Kunde zu uns steht, also Bestellhistorie, offene Angebote, letzte Reklamation, dann sitze ich buchstäblich mit drei Fenstern nebeneinander und füge das in meinem Kopf zusammen.",
+   "Was mich wirklich nervt, ist dieses ewige Hin- und Herspringen zwischen den Systemen. Ich habe einen Auftrag im ERP, Qualitätsdokumentation im QMS, Kundenkommunikation im CRM – und die reden nicht miteinander. Also sitzt irgendwer bei uns und tippt Daten dreimal ab. Das ist schlicht verschwendete Zeit."
   ],
   "Vertrieb, Kunden & Kommunikation": [
    "Gute Vertriebs- und Pre-Sales-Leute mit Ahnung vom Gesundheitswesen -- die gibt es kaum, und wenn, dann sind die Vorstellungen manchmal weltfremd für ein Unternehmen unserer Größe.",
@@ -184,7 +385,16 @@
    "ich stecke viel zu viele Stunden in Dinge, die eigentlich keine Geschäftsführeraufgaben sind. Angebote zusammenstellen, Lieferpapiere nachverfolgen, Kunden hinterhertelefonierten weil irgendwo was klemmt -- das läuft alles über mich oder über eine von zwei Kolleginnen, die das nebenbei machen.",
    "Viel Zeit geht verloren bei der Kommunikation zwischen Einkauf, Lager und Kundenservice – also diese kleinen Abstimmungsschleifen, wer hat was bestellt, wann kommt das, was ist mit der Charge passiert.",
    "wir tippen Kundendaten an mehreren Stellen ein, einmal im Angebot, dann wieder im Auftrag, dann nochmal für die Rechnung. Kein System redet mit dem anderen. Das kostet Zeit und produziert Fehler.",
-   "der Vertrieb hängt viel zu sehr an mir persönlich. Das ist nicht gesund, das weiß ich. Wenn ich zwei Wochen krank bin oder im Urlaub, passiert da draußen... wenig."
+   "der Vertrieb hängt viel zu sehr an mir persönlich. Das ist nicht gesund, das weiß ich. Wenn ich zwei Wochen krank bin oder im Urlaub, passiert da draußen... wenig.",
+   "wenn dann ein Kunde anruft und fragt \"wann ist mein Ergebnis fertig\", dann fange ich erst mal an zu suchen. Das nervt mich persoenlich sehr.",
+   "Ich bin zu oft Verteiler für Informationen. Fragen, die eigentlich meine Leute selbst beantworten könnten -- Lieferstatus, wo steht welches Gerät, hat Kunde X die aktuelle Doku bekommen -- landen bei mir, weil wir keine gemeinsame Datenbasis haben.",
+   "Wir haben ein paar große Kunden, und wenn da einer wegbricht, ist das schmerzhaft",
+   "diese ewige Zettelwirtschaft bei Angeboten und Auftragserfassung. Ein Kunde ruft an, meine Kollegen schreiben was auf, ich schreibe was auf, das Ergebnis landet irgendwo in einem Ordner oder einer Excel-Datei, die drei verschiedene Leute irgendwie gleichzeitig befüllen.",
+   "Jedes Angebot ist irgendwie Handarbeit. Ich hab das Gefühl, da geht unverhältnismäßig viel Zeit drauf, die ich lieber in Kundengespräche stecken würde.",
+   "Mein Team verbringt sinnlos viel Zeit damit, dieselben Informationen immer wieder in unterschiedliche Masken zu tippen. Das ist kein Mehrwert, das ist pure Reibung.",
+   "Da hängen wir zu sehr an einzelnen Personen im Team, die das können. Wenn die krank sind oder kündigen, haben wir ein Problem.",
+   "Der Vertriebszyklus im Gesundheitswesen ist wahnsinnig lang. Spitäler und Kantone entscheiden langsam, sehr langsam. Das macht Forecasting zu einer Art Kaffeesatzleserei.",
+   "die ganze Angebots- und Auftragsadministration. Wir bekommen eine Anfrage rein, dann wird intern geprüft, ob wir das können, zu welchem Preis, mit welcher Durchlaufzeit -- das ist eigentlich Routine, aber es dauert trotzdem immer wieder zu lang, weil die Infos verteilt sind."
   ],
   "Dokumentation & Nachweispflichten": [
    "meine Leute teilweise mehr Zeit mit Nachweisen verbringen als mit den Kunden",
@@ -206,11 +416,42 @@
    "Was mich am meisten nervt, ist das ewige Zusammensuchen von Informationen. Wir haben Daten über laufende Studien in Excel-Tabellen, irgendetwas liegt im E-Mail-Postfach, manche Sachen stehen in einem Word-Dokument auf dem Laufwerk von irgendeinem Mitarbeiter – und wenn ich einen Überblick brauche, renn ich drei Leute an.",
    "der Aufwand für Dokumentation ist schon enorm.",
    "der Dokumentationsaufwand ist schlicht explodiert in den letzten Jahren. Die Anforderungen sind nicht per se falsch, aber der administrative Overhead frisst uns Kapazitaet",
-   "dieses ewige Dokumentations-Hamsterrad. Wir sind eine kleine CRO, zehn Leute, aber der regulatorische Overhead, den wir mitschleppen, ist kaum kleiner als bei einem Unternehmen mit hundert Mitarbeitenden."
+   "dieses ewige Dokumentations-Hamsterrad. Wir sind eine kleine CRO, zehn Leute, aber der regulatorische Overhead, den wir mitschleppen, ist kaum kleiner als bei einem Unternehmen mit hundert Mitarbeitenden.",
+   "Mit zehn Leuten stemmen wir denselben Dokumentationsaufwand wie viel größere Firmen. Ich verbringe Stunden mit QM-Dokumenten, Nachweisen, Aktualisierungen. Das ist nicht immer produktiv, das ist oft nur... Abhaken.",
+   "Ich verbringe einen erheblichen Teil meiner Woche damit, Dokumente zu suchen, zu versionieren oder Leute zu fragen, welche Version jetzt eigentlich die gültige ist.",
+   "Das kostet mich persönlich locker ein Drittel meiner Woche, und am Ende bin ich mir trotzdem nie hundertprozentig sicher, ob wir wirklich lückenlos dokumentiert sind.",
+   "Was mich wirklich nervt, ist dieses ewige Zusammensuchen von Informationen. Wir haben Qualitätsdokumente in einem Ordner, Lieferantendaten in Excel, irgendwelche Zertifikate per Mail, Prüfprotokolle ausgedruckt im Bundesordner.",
+   "Die Dokumentationspflichten wachsen, aber die Mitarbeiterzahl wächst nicht mit. Ich habe 21 Leute insgesamt, und gefühlt hängt ein Drittel meiner eigenen Zeit an Nachweisdokumentation, die niemand wirklich liest, aber jeder im Audit haben will.",
+   "Meine QM-Verantwortliche verbringt locker 30-40% ihrer Zeit damit, Dokumente zu pflegen, Versionen zu verwalten, irgendwas in Excel zu übertragen und dann nochmal in Word zu schreiben.",
+   "Wir haben ein QM-System das zum grossen Teil auf Papier läuft, Excel-Listen die irgendjemand vor acht Jahren angelegt hat und die seither irgendwie 'gepflegt' werden.",
+   "Akkreditierung, Normenanpassungen, Dokumentationspflichten -- das alles wächst, und der Aufwand dafür wächst überproportional mit.",
+   "Papierstapel, Unterschriften, Ablage. Ich weiß, das muss sein, aber ob es so aussehen muss, bezweifle ich.",
+   "Jede Kasse hat ihre eigenen Formulare, ihre eigenen Fristen, und wenn irgendwas nicht passt, dauert es Wochen bis der Widerspruch durch ist.",
+   "der Aufwand, den wir treiben, um das alles aktuell zu halten, der passiert zu einem Riesenanteil auf Papier und in Excel-Tabellen, die sich irgendwie widersprechen, weil jemand die eine Datei aktualisiert hat und die andere nicht. Das kostet uns realistisch gesehen eine halbe Stelle, die nichts anderes macht als hinterherräumen.",
+   "Wenn ich wissen will, wo eine Charge gerade steht, in welchem Status eine Dokumentation ist, ob ein Lieferant noch sein aktuelles Zertifikat eingereicht hat – dann muss ich mindestens drei Leute anrufen oder selber in Ordnern schauen.",
+   "neue Leute einarbeiten ohne vernünftige Dokumentation ist auch ein Krampf",
+   "Der Dokumentationsaufwand ist in den letzten Jahren nochmal gestiegen, ohne dass eine einzige Stunde Arbeit dabei rausgefallen wäre. Wir erfüllen Anforderungen, die niemand wirklich prüft, und trotzdem müssen sie erfüllt werden.",
+   "Wir haben Prozesse, die halb in unserem ERP leben, halb in Excel-Dateien, die irgendwo auf einem Netzlaufwerk liegen, und halb in den Köpfen von zwei, drei Leuten. Wenn dann ein Lieferant ein Audit ankündigt oder wir selbst geprüft werden, ist das jedes Mal ein hektisches Zusammenklauben von Belegen.",
+   "Der Dokumentationsaufwand wächst, aber unser Team wächst nicht proportional mit. Irgendwann reibt man sich da auf.",
+   "Das Documentation-Overhead frisst uns langsam auf.",
+   "Wir passen Dokumente an, die Dokumente, und dann kommen schon wieder neue Vorgaben. Mein Team verbringt locker einen Drittel der Zeit damit, Dinge zu aktualisieren, die wir eigentlich schon erledigt hatten.",
+   "ein Riesenteil unserer Kapazität fließt in das Erfassen, Prüfen, Ablegen und Suchen von Informationen, die im Grunde schon irgendwo im System stecken. Das ist strukturell bekloppt, aber wir kommen da nur langsam raus.",
+   "sitzt wieder ich oder eine erfahrene Kollegin stundenlang beim Einarbeiten, weil das Wissen nirgends wirklich strukturiert dokumentiert ist.",
+   "viel auf Papier, viel in Excel-Tabellen, die jeder ein bisschen anders pflegt -- das ist eigentlich ein Zustand, den ich nicht wirklich verteidigen kann",
+   "das größte Frustrations-Thema bei uns ist die Dokumentation. Wir haben 21 Leute, aber der Aufwand für das Verwalten von SOPs, Änderungshistorien, Schulungsnachweisen... das frisst uns lebendig.",
+   "Meine Leute dokumentieren teilweise mehr als sie produzieren – das ist kein Scherz. Und wenn dann eine Änderung kommt, muss alles nochmal durch, von vorne.",
+   "Meine Leute verbringen locker 20-25% ihrer Arbeitszeit mit Dokumentation und Abrechnung, die im Grunde nichts am Ergebnis für den Patienten ändert, aber halt sein muss.",
+   "Zuliefererdokumentation einholen, pruefen ob die aktuell ist, nachfassen wenn was fehlt. Das ist keine Rocket Science, aber es kostet meine Leute Stunden, die sie nicht haben.",
+   "Ich hab Daten in Excel, die hab ich auch im Papierordner, und dann fragt mich jemand aus dem Vertrieb was, und ich such erstmal zwanzig Minuten, bis ich die richtige Version gefunden hab.",
+   "Jede kleine Änderung an einer SOP, und ich bin eine halbe Stunde damit beschäftigt, sicherzustellen, dass die alte Version wirklich weg ist, die neue überall korrekt liegt, und alle -- wirklich alle -- das mitgekriegt haben."
   ],
   "Kennzahlen, Finanzen & Steuerung": [
    "Jedes Mal wenn ich dem Gesellschafter eine Übersicht geben muss, sitze ich oder meine Vertriebsassistentin zwei, drei Stunden dran, irgendwelche Zahlen aus verschiedenen Quellen zusammenzuziehen. Das ist lächerlich.",
-   "Ich sitze selbst manchmal am Wochenende und bastle Zahlen zusammen für die Geschäftsführung. Umsatz nach Projekten, Auslastung der Mitarbeiter – das müsste eigentlich automatisch irgendwo rauskommen, tut es aber nicht."
+   "Ich sitze selbst manchmal am Wochenende und bastle Zahlen zusammen für die Geschäftsführung. Umsatz nach Projekten, Auslastung der Mitarbeiter – das müsste eigentlich automatisch irgendwo rauskommen, tut es aber nicht.",
+   "Wenn ich dann wissen will, wo ein Auftrag gerade steht, muss ich rumfragen. Das kostet uns jeden Tag Zeit, die wir eigentlich nicht haben.",
+   "Ich würde von heute auf morgen wissen, wie viel mir welches Produkt wirklich einbringt -- nach Kosten, nach Aufwand, nach allem. Das weiß ich nämlich gerade nicht wirklich.",
+   "sitze ich jeden Montag da und puzzel mir Zahlen aus drei verschiedenen Quellen zusammen, um überhaupt einen halbwegs vollständigen Überblick zu haben. Das kostet mich locker zwei, drei Stunden pro Woche -- und das ist eigentlich verlorene Zeit.",
+   "ich frage dann Leute an, schreibe E-Mails, telefoniere -- das kostet mich locker ein bis zwei Stunden taeglich, die ich eigentlich nicht hab"
   ]
  },
  "wuensche_top": [
@@ -332,6 +573,64 @@
   4,
   4,
   4,
+  3,
+  3,
+  3,
+  4,
+  5,
+  3,
+  4,
+  4,
+  3,
+  4,
+  4,
+  4,
+  4,
+  4,
+  3,
+  3,
+  4,
+  4,
+  4,
+  4,
+  3,
+  4,
+  3,
+  3,
+  3,
+  4,
+  3,
+  3,
+  4,
+  4,
+  4,
+  3,
+  3,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  3,
+  3,
+  4,
+  3,
+  5,
+  4,
+  4,
+  3,
+  3,
+  3,
+  4,
+  3,
+  4,
+  6,
+  4,
+  4,
+  4,
+  3,
+  4,
   3
  ],
  "trust": [
@@ -359,6 +658,64 @@
   2,
   2,
   2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
   2,
   2,
   2,
@@ -410,7 +767,65 @@
   5,
   5,
   4,
-  5
+  5,
+  5,
+  5,
+  5,
+  5,
+  4,
+  5,
+  4,
+  5,
+  4,
+  5,
+  5,
+  5,
+  5,
+  5,
+  4,
+  4,
+  4,
+  4,
+  5,
+  5,
+  4,
+  4,
+  5,
+  4,
+  4,
+  5,
+  5,
+  5,
+  4,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  5,
+  4,
+  4,
+  5,
+  4,
+  4,
+  5,
+  4,
+  5,
+  5,
+  5,
+  5,
+  5,
+  4,
+  5,
+  4,
+  5,
+  5,
+  5,
+  5,
+  5,
+  4
  ],
  "digi": [
   2,
@@ -446,6 +861,64 @@
   2,
   2,
   2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  3,
+  2,
+  2,
+  2,
+  2,
+  2,
+  3,
+  2,
+  2,
+  2,
+  1,
   2,
   2,
   2,
@@ -488,23 +961,101 @@
   3,
   2,
   3,
+  3,
+  2,
+  2,
+  3,
+  3,
+  3,
+  3,
+  3,
+  4,
+  2,
+  2,
+  2,
+  3,
+  2,
+  3,
+  3,
+  2,
+  2,
+  3,
+  3,
+  2,
+  2,
+  3,
+  2,
+  1,
+  3,
+  3,
+  2,
+  3,
+  2,
+  2,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  4,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  2,
+  3,
+  3,
+  3,
+  3,
+  2,
+  3,
+  3,
+  3,
+  2,
+  3,
+  3,
+  3,
   3
  ],
  "decision_roles": [
   [
    "Geschäftsführung",
-   16
+   45
   ],
   [
    "Qualitätsverantwortliche",
-   7
+   14
   ],
   [
    "Geschäftsführer",
-   6
+   12
+  ],
+  [
+   "QM-Verantwortliche",
+   8
   ],
   [
    "externer Datenschutzbeauftragter",
+   7
+  ],
+  [
+   "Externer Datenschutzbeauftragter",
+   6
+  ],
+  [
+   "QM-Leitung",
+   6
+  ],
+  [
+   "Geschaeftsfuehrung",
+   5
+  ],
+  [
+   "Qualitätsverantwortlicher",
    4
   ],
   [
@@ -512,63 +1063,71 @@
    3
   ],
   [
-   "Qualitätsverantwortlicher",
+   "QM-Verantwortlicher",
    3
   ],
   [
-   "Externer Datenschutzbeauftragter",
-   2
+   "Geschäftsführung (Gesprächspartner selbst)",
+   3
   ],
   [
-   "QM-Leitung",
-   2
+   "Datenschutzbeauftragter",
+   3
   ],
   [
-   "QM-Verantwortliche",
-   2
+   "IT",
+   3
   ],
   [
-   "Interviewte Person (Gesprächspartner)",
-   1
-  ],
-  [
-   "Inhaber (Geschäftsleitung)",
-   1
-  ],
-  [
-   "IT (Doppelrolle)",
-   1
-  ],
-  [
-   "Teamleiterin Regulatory",
-   1
-  ],
-  [
-   "Gesprächspartner selbst (Vertrieb/Marketing)",
-   1
-  ],
-  [
-   "Geschäftsführer (Budget/Strategie)",
-   1
+   "Qualitätsmanager",
+   3
   ]
  ],
  "mood": [
   [
    "skeptisch",
-   37
+   92
+  ],
+  [
+   "offen",
+   3
   ]
  ],
  "reg_builders": [
   [
+   "Referenzen aus der Branche",
+   9
+  ],
+  [
    "Referenzen",
+   7
+  ],
+  [
+   "Zertifizierungen",
+   5
+  ],
+  [
+   "Auftragsverarbeitungsvertrag (AV-Vertrag)",
+   5
+  ],
+  [
+   "Referenzen aus dem Gesundheitsbereich",
    4
   ],
   [
    "Zertifizierungen des Anbieters",
+   4
+  ],
+  [
+   "Serverstandort",
+   4
+  ],
+  [
+   "Datenschutzvertrag (AV-Vertrag)",
    3
   ],
   [
-   "Referenzen aus der Branche",
+   "klare Vertragsgrundlagen",
    3
   ],
   [
@@ -580,44 +1139,20 @@
    2
   ],
   [
+   "Vertragliche Regelung",
+   2
+  ],
+  [
+   "Datenschutzfolgeabschätzung",
+   2
+  ],
+  [
+   "Nachweise/Zertifikate",
+   2
+  ],
+  [
    "Klarer Serverstandort",
    2
-  ],
-  [
-   "Referenzen aus dem Gesundheitsbereich",
-   2
-  ],
-  [
-   "Serverstandort",
-   2
-  ],
-  [
-   "Nachweise",
-   2
-  ],
-  [
-   "Zertifizierungen",
-   2
-  ],
-  [
-   "Verträge",
-   2
-  ],
-  [
-   "Datenschutzvertrag (AV-Vertrag)",
-   2
-  ],
-  [
-   "Wasserdichte Verträge (AV-Vertrag)",
-   1
-  ],
-  [
-   "Datenhaltung in der Schweiz oder zumindest EU",
-   1
-  ],
-  [
-   "Transparenz über Datenverwertung im Analyse-Schritt",
-   1
   ]
  ],
  "reg_quotes": [
@@ -657,54 +1192,496 @@
   "Nicht weil ich grundsaetzlich misstrauisch bin, sondern weil ich schon erlebt habe, was passiert wenn jemand Systemzugang hat und nicht weiss was er anfasst. Bei regulierten Daten bin ich schlicht vorsichtig -- das muss ich sein.",
   "Ich brauche konkrete Nachweise -- Zertifizierungen, Vertragsgrundlagen, nachvollziehbare technische Architektur. Und ich will wissen, wo die Daten liegen. Wenn die Antwort \"Cloud, irgendwo in den USA\" ist, ist das Gespräch vorbei.",
   "Ich bräuchte sehr klare Verträge, keine Datenweitergabe an Dritte, und ich will wissen, auf welcher Infrastruktur das läuft. \"DSGVO-konform\" als Buzzword reicht mir nicht.",
-  "Selbst wenn die Zahlen passen, brauche ich einen ordentlichen Vertrag mit klaren Haftungsregelungen. Das ist nicht verhandelbar."
+  "Selbst wenn die Zahlen passen, brauche ich einen ordentlichen Vertrag mit klaren Haftungsregelungen. Das ist nicht verhandelbar.",
+  "Ich will genau wissen, wo das landet, wer Zugriff hat, wie das technisch abgesichert ist. \"Datenschutzkonform\" als Versprechen reicht mir nicht – ich will das schwarz auf weiß und geprüft.",
+  "Jemand von außen, der 'reinschaut' -- das löst bei mir sofort die Frage aus: Welche Zertifizierungen hat der, welche Verträge, was passiert mit dem, was er sieht? Eine nette Webseite reicht mir da nicht.",
+  "Der Datenschutz ist bei uns kein Marketingpunkt, sondern echte Verpflichtung -- ich will wissen, wo Daten liegen und wer Zugriff hat.",
+  "wir mit Patientendaten-nahen Prozessen arbeiten und ein Fehler dort richtig wehtun kann. Da brauche ich Referenzen aus der Branche, klare Vertragsgrundlagen, und ich will wissen wo die Daten liegen.",
+  "Wir haben regulierte Produktdaten, Lieferantenverträge, Prüfprotokolle – das ist nicht einfach irgendwas. Ich müsste sehr genau wissen, wer das ist, welche Referenzen, welche vertraglichen Garantien.",
+  "Bei uns geht es um Patientendaten im weitesten Sinne, um Chargen, um Qualitätsdokumentation. Wenn da etwas schief läuft, ist das kein IT-Problem, das ist ein Compliance-Problem.",
+  "Wir haben Kundendaten, Analyseergebnisse, teilweise auch vertrauliche Entwicklungsdaten von Kunden aus der Pharmaindustrie. Da bin ich sehr vorsichtig. Das ist nicht persoenliche Abneigung gegen Externe, das ist einfach Realitaet -- unsere Kunden erwarten das von uns.",
+  "MDR ist kein normales Qualitätsmanagement. Wer das nicht kennt, richtet mehr Schaden an als Nutzen.",
+  "Wir haben Rezepturdaten, Lieferantenvertraege, Kundendaten -- das ist nicht trivial. Ich wuerde sehr genau hinschauen wer das ist, welche Referenzen, und vor allem: was passiert mit den Daten konkret. Ein nettes Pitch-Deck reicht da nicht.",
+  "Wir haben Kundendaten, Lieferantendaten, QM-relevante Dokumente – das ist nichts, was ich einfach jemandem hinlege. Da brauche ich konkrete Aussagen zu Datenhaltung, Zugriffsrechten, Zertifizierungen. Absichtserklärungen reichen mir nicht.",
+  "Ich brauch Referenzen aus dem Medizinprodukte-Umfeld, keine allgemeinen KI-Versprechen. Und einen klaren Datenverarbeitungsvertrag, bevor irgendjemand auch nur eine Datei von uns sieht.",
+  "Wer sieht welche Daten, wo liegen die, wie ist das vertraglich geregelt, gibt's eine Referenz aus einem vergleichbaren regulierten Umfeld? Ohne das ist das Gespräch für mich relativ schnell beendet.",
+  "'Datenschutz- und regulatorisch konform' als Behauptung reicht mir nicht -- das muss ich schwarz auf weiss sehen.",
+  "'Datenschutz- und regulatorisch konform' – das sagt jeder. Ich will wissen wer das konkret verantwortet wenn bei einer Inspektion etwas nicht stimmt.",
+  "Ich brauche klare Antworten: Wo liegen die Daten, wer hat Zugriff, was passiert wenn der Anbieter wegfällt. Ohne wasserdichte Antworten darauf kommt da niemand ran.",
+  "Wir haben Kundendaten, Analyseergebnisse, akkreditierungsrelevante Unterlagen -- das ist nicht trivial. Da brauch ich sehr konkrete Antworten zu Datenhaltung, Subauftragnehmern, wo das verarbeitet wird. Ein nettes Pitch-Deck reicht da nicht.",
+  "Wir bewegen uns im Medizinproduktebereich, da ist Datenschutz keine Floskel. Den müsste ich erstmal sehr genau unter die Lupe nehmen, bevor ich da jemandem Zugang gebe.",
+  "Wir haben Kundendaten, Analyseergebnisse, zum Teil sensible Industriedaten. Da bin ich vorsichtig. Das ist keine Paranoia, das ist Pflicht.",
+  "Datenschutz und Regulatorik sind bei uns keine Randthemen, das ist der Kern. Wir arbeiten mit Patientendaten, Sponsoren-Verträgen, vertraulichen Studiendaten. Da kann ich nicht einfach irgendwas einführen und hoffen, dass es passt.",
+  "Ich will wissen, wo die Daten liegen, wer Zugriff hat, was mit ihnen passiert. 'KI-konform und datenschutzgerecht' -- das sagt jeder. Nachweise sind eine andere Sache.",
+  "Wir arbeiten mit Kundendaten, die regulatorisch sensibel sind. MDR-Dokumentation, Zulassungsunterlagen. Da bin ich sehr vorsichtig, wer da reinschaut oder was davon irgendwo landet.",
+  "Wir haben Kassendaten, Patientendaten, das ist hochsensibel. Da brauch ich mehr als eine DSGVO-Erklärung – ich will wissen wer dahintersteht, Referenzen aus dem Gesundheitsbereich, und einen klaren Vertrag bevor irgendjemand irgendetwas sieht.",
+  "Datenschutz- und regulatorisch konform -- das sagt jeder. Meine technischen Dokumente, meine Risikoanalysen, meine Lieferantendaten, das ist hochsensibles Material.",
+  "Gerade bei regulierten Produkten -- wenn da was schiefläuft, ist das nicht einfach ein Fehler, das kann echte Konsequenzen haben.",
+  "Nicht grundsaetzlich nein, aber ich brauche klare Antworten: Wo liegen die Daten? Schweizer Server oder EU zumindest. Wer hat Zugriff. Und ich will das schriftlich, nicht nur muendlich versprochen.",
+  "Wer da rein will, braucht NDAs, klare Datenhaltung in der Schweiz oder EU, und muss nachweisen dass er die Branche kennt. Referenzen aus Pharma oder Medtech wären Pflicht.",
+  "wir mit Patientendaten-nahen Dokumenten arbeiten, GDP-Pflichten haben, und ich noch keinen Externen erlebt habe, der das wirklich verstanden hat bevor er Vorschlaege macht.",
+  "Wir arbeiten mit Patientendaten, mit vertraulichen Pharma-Kundendaten. Da kann ich nicht einfach irgendjemanden reinlassen, egal wie der das formuliert.",
+  "Gesundheitsprodukte, Chargendokumentation, Kundendaten -- das ist nicht trivial. Ich bräuchte sehr konkrete Antworten zu Datenhaltung, Zugriff, Subauftragsverarbeitung. Allgemeine Datenschutzbeteuerungen reichen mir nicht.",
+  "Ich brauch klare Antworten darauf, wo meine Daten liegen, wer Zugriff hat, ob das DSGVO-konform ist – und das nicht als PDF-Versprechen, sondern nachweisbar. Gerade weil wir Produktdaten haben, die auch IP-sensibel sind.",
+  "Ich werde nicht meine Kundendaten, Rezepturen oder Lieferantenverträge irgendwo in ein System kippen, weil mir jemand sagt, das sei sicher. Ich brauche Nachweise, Verträge, klare Verantwortlichkeiten -- und selbst dann bin ich vorsichtig.",
+  "Wer garantiert mir was, wenn etwas schiefläuft? Ein Vertrag auf Papier reicht mir nicht.",
+  "Ich brauche Referenzen aus dem regulierten Umfeld -- nicht aus der Logistik oder dem E-Commerce. Jemand der sagt \"wir kennen GCP und ICH E6\", und das auch belegen kann, nicht nur behauptet.",
+  "Wir haben Kundendaten, wir haben Produktdaten mit regulatorischen Anforderungen -- da kann ich nicht einfach irgendjemanden reinlassen. Da brauche ich klare Vertraege, klare Aussagen wo die Daten liegen, und am besten eine Referenz aus unserem Bereich. Ohne das geht gar nichts.",
+  "Wenn ein Prozess auditiert wird und das System nicht sauber dokumentiert ist, habe ich ein echtes Problem.",
+  "Ich würde konkrete Nachweise wollen: Zertifizierungen, Referenzen aus dem regulierten Bereich, klare Vertragsgrundlagen. Nicht einfach Vertrauen auf Zuruf.",
+  "Referenzen aus dem regulierten Umfeld, klare Aussagen zur Datenverarbeitung, Bereitschaft, einen Auftragsverarbeitungsvertrag zu machen -- das wäre das Minimum.",
+  "Wir haben Kundendaten, Analyseergebnisse, teils aus Pharma-Umfeld – da ist Datenschutz kein Lippenbekenntnis. Ich würde sehr genau schauen wollen: Wo liegen die Daten, wer hat Zugriff, wie ist das vertraglich geregelt.",
+  "Wir arbeiten mit Kundendaten, die teilweise unter Vertraulichkeitsvereinbarungen stehen, und mit Analyseergebnissen, die regulatorisch relevant sind. Ich kann da nicht einfach irgendjemanden drauflassen.",
+  "Ich habe schon erlebt, dass externe Dienstleister die Tragweite davon unterschätzen. Und wenn etwas schiefläuft, sitze ich als QM-Leiterin im Feuer, nicht der Externe.",
+  "Wir haben Kundendaten, Analyseergebnisse, teilweise vertrauliche Formulierungen aus Kundenverträgen. Da brauche ich belastbare Antworten zu Datenhaltung, Subauftragsverarbeitern, Serverstandort -- und das nicht als PDF-Anhang, sondern als echtes Gespräch.",
+  "Wir arbeiten mit Patientendaten, mit Sponsordaten, mit regulierten Dokumenten. Da brauche ich nicht nur ein nettes Gespräch, sondern wasserdichte Verträge, klare Datenhaltung in der Schweiz oder zumindest EU, und Referenzen aus dem klinischen Umfeld -- nicht irgendwelche Referenzen.",
+  "Bevor irgendjemand Fremdes auch nur in die Nähe unserer Daten kommt, brauche ich Referenzen aus dem Pharmabereich, einen sauberen Auftragsverarbeitungsvertrag, und ich will wissen, wo Daten liegen.",
+  "Referenzen aus dem Gesundheits- oder OTC-Bereich wären Pflicht, nicht Kür. Und ein klares, nachvollziehbares Datenschutzkonzept bevor überhaupt irgendwas geteilt wird.",
+  "Wenn ein Externes System irgendwie in QM-Prozesse eingreift, brauche ich das dokumentiert und validierbar.",
+  "Wir haben Daten, die unter GCP fallen, teilweise pseudonymisierte Studieninformationen, Sponsorenverträge mit NDAs. Da kann ich nicht einfach irgendjemanden reinlassen.",
+  "Referenzen aus dem Gesundheitsbereich wären Pflicht, nicht nett.",
+  "Studienrelevante Daten darf ich schlicht nicht irgendwo hinschicken.",
+  "Im regulierten Umfeld ist der Preis nicht das Hauptargument. Ich muss dem Auditor erklären können, wer da Zugriff auf was hat und warum das System validiert ist. Wenn das nicht mitgeliefert wird, ist mir der Preis egal – dann kommt es gar nicht in Frage.",
+  "Wir haben Kundendaten, Rezepturen, Lieferantenvertraege -- das ist nicht alles oeffentlich. Ich waere sehr zurueckhaltend, wer da Einblick bekommt. Referenzen, Vertrag, klare Abgrenzung -- das waere Mindestvoraussetzung.",
+  "Wir arbeiten mit Zulassungsdokumenten, technischen Dossiers, teilweise mit Informationen aus laufenden Zulassungsverfahren. Das ist nicht irgendwas.",
+  "Da reicht mir \"DSGVO-konform\" als Aussage nicht – ich will wissen: welche Infrastruktur, wo liegen die Daten, wer hat Zugriff, und was passiert bei einem Incident. Das muss ich prüfen können, nicht einfach glauben.",
+  "Datenschutz und Haftung. Wir arbeiten mit Produktdaten, Formulierungen, regulatorischen Bewertungen – das ist zum Teil sensibel. Wer haftet, wenn ein KI-System falsche Compliance-Einschaetzungen produziert und wir das nicht bemerken?",
+  "Da brauche ich sehr konkrete Antworten: Wo liegen die Daten, wer hat Zugriff, was passiert bei einem Sicherheitsvorfall. Allgemeine Aussagen reichen mir da nicht.",
+  "Einem Externen vertraue ich da erst nach konkreten Nachweisen: Referenzen aus der Branche, klare Vertragsgrundlage, keine Cloud-Lösungen, die irgendwo in Drittstaaten landen. Grundvertrauen bei Erstgespräch: eher tief.",
+  "Ich will genau wissen, wo Daten liegen, wer Zugriff hat, und das schriftlich. Da reicht mir 'DSGVO-konform' als Aussage nicht.",
+  "Wir haben Kundendaten, Produktdaten, die regulatorisch relevant sind. Ich bräuchte sehr konkrete Antworten zu Datenhaltung, Zugriff, Verträgen – bevor überhaupt irgendwas gezeigt wird. Ein nettes Gespräch reicht da nicht.",
+  "Wir haben Patientendaten im weitesten Sinne, wir haben regulatorische Dokumentation – das gibt man nicht einfach raus. Da müsste jemand erst mal sehr konkret erklären, wie das technisch und rechtlich sauber läuft. Allgemeine Aussagen wie \"datenschutzkonform\" reichen mir nicht."
  ],
  "vw_projekt": {
-  "n_valide": 37,
+  "n_valide": 95,
   "OPP": 12000,
-  "IPP": 22083,
+  "IPP": 21694,
   "PMC": 12000,
-  "PME": 23750,
+  "PME": 23889,
   "akzeptanzspanne": [
    12000,
-   23750
+   23889
   ],
-  "median_teuer_aber_ok": 30000
+  "median_teuer_aber_ok": 35000
  },
  "vw_retainer": {
-  "n_valide": 37,
-  "OPP": 450,
-  "IPP": 1167,
-  "PMC": 450,
-  "PME": 1380,
+  "n_valide": 95,
+  "OPP": 600,
+  "IPP": 1300,
+  "PMC": 600,
+  "PME": 1500,
   "akzeptanzspanne": [
-   450,
-   1380
+   600,
+   1500
   ],
   "median_teuer_aber_ok": 2000
  },
  "segmente": {
-  "Diagnostik-/IVD-Hersteller": {
-   "n": 9,
+  "Auftragslabor (Analytik / QC / Mikrobiologie)": {
+   "n": 11,
    "buchung_avg": 3.7,
+   "regulatorik_huerde_avg": 4.4,
+   "digitalreife_avg": 2.2,
+   "vw_projekt": {
+    "n_valide": 11,
+    "OPP": 7500,
+    "IPP": 22143,
+    "PMC": 7500,
+    "PME": 24000,
+    "akzeptanzspanne": [
+     7500,
+     24000
+    ],
+    "median_teuer_aber_ok": 30000
+   },
+   "vw_retainer": {
+    "n_valide": 11,
+    "OPP": 600,
+    "IPP": 1133,
+    "PMC": 600,
+    "PME": 1200,
+    "akzeptanzspanne": [
+     600,
+     1200
+    ],
+    "median_teuer_aber_ok": 2000
+   },
+   "top_pains": [
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     9
+    ],
+    [
+     "Vertrieb, Kunden & Kommunikation",
+     7
+    ],
+    [
+     "Dokumentation & Nachweispflichten",
+     7
+    ],
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     6
+    ]
+   ]
+  },
+  "Diagnostik-/IVD-Hersteller": {
+   "n": 11,
+   "buchung_avg": 3.5,
    "regulatorik_huerde_avg": 4.8,
    "digitalreife_avg": 2,
    "vw_projekt": {
-    "n_valide": 9,
+    "n_valide": 11,
     "OPP": 12500,
-    "IPP": 26667,
+    "IPP": 25833,
     "PMC": 12500,
-    "PME": 27500,
+    "PME": 26250,
     "akzeptanzspanne": [
      12500,
-     27500
+     26250
     ],
     "median_teuer_aber_ok": 42500
    },
    "vw_retainer": {
-    "n_valide": 9,
+    "n_valide": 11,
+    "OPP": 600,
+    "IPP": 1500,
+    "PMC": 600,
+    "PME": 1750,
+    "akzeptanzspanne": [
+     600,
+     1750
+    ],
+    "median_teuer_aber_ok": 2000
+   },
+   "top_pains": [
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     10
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     8
+    ],
+    [
+     "Dokumentation & Nachweispflichten",
+     5
+    ],
+    [
+     "IT-/Systemfragmentierung & Datensilos",
+     4
+    ]
+   ]
+  },
+  "Gesundheits-/OTC-Produkt-Anbieter (Wellness, Kosmetik-nah)": {
+   "n": 11,
+   "buchung_avg": 3.5,
+   "regulatorik_huerde_avg": 4.5,
+   "digitalreife_avg": 2.1,
+   "vw_projekt": {
+    "n_valide": 11,
+    "OPP": 12500,
+    "IPP": 18000,
+    "PMC": 12500,
+    "PME": 22143,
+    "akzeptanzspanne": [
+     12500,
+     22143
+    ],
+    "median_teuer_aber_ok": 30000
+   },
+   "vw_retainer": {
+    "n_valide": 11,
+    "OPP": 650,
+    "IPP": 1233,
+    "PMC": 650,
+    "PME": 1350,
+    "akzeptanzspanne": [
+     650,
+     1350
+    ],
+    "median_teuer_aber_ok": 2000
+   },
+   "top_pains": [
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     11
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     6
+    ],
+    [
+     "Dokumentation & Nachweispflichten",
+     5
+    ],
+    [
+     "Sonstiges",
+     5
+    ]
+   ]
+  },
+  "Grosshandel/Vertrieb medizinische Produkte & Hilfsmittel": {
+   "n": 11,
+   "buchung_avg": 3.9,
+   "regulatorik_huerde_avg": 4.9,
+   "digitalreife_avg": 2,
+   "vw_projekt": {
+    "n_valide": 11,
+    "OPP": 15000,
+    "IPP": 21000,
+    "PMC": 11667,
+    "PME": 24167,
+    "akzeptanzspanne": [
+     11667,
+     24167
+    ],
+    "median_teuer_aber_ok": 30000
+   },
+   "vw_retainer": {
+    "n_valide": 11,
+    "OPP": 700,
+    "IPP": 1292,
+    "PMC": 700,
+    "PME": 1500,
+    "akzeptanzspanne": [
+     700,
+     1500
+    ],
+    "median_teuer_aber_ok": 2150
+   },
+   "top_pains": [
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     9
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     7
+    ],
+    [
+     "Dokumentation & Nachweispflichten",
+     5
+    ],
+    [
+     "IT-/Systemfragmentierung & Datensilos",
+     5
+    ]
+   ]
+  },
+  "Nahrungsergaenzungs-/Supplement-Anbieter": {
+   "n": 10,
+   "buchung_avg": 3.4,
+   "regulatorik_huerde_avg": 4.1,
+   "digitalreife_avg": 2.1,
+   "vw_projekt": {
+    "n_valide": 10,
+    "OPP": 7000,
+    "IPP": 14250,
+    "PMC": 7000,
+    "PME": 21667,
+    "akzeptanzspanne": [
+     7000,
+     21667
+    ],
+    "median_teuer_aber_ok": 20000
+   },
+   "vw_retainer": {
+    "n_valide": 10,
+    "OPP": 450,
+    "IPP": 1000,
+    "PMC": 450,
+    "PME": 1350,
+    "akzeptanzspanne": [
+     450,
+     1350
+    ],
+    "median_teuer_aber_ok": 1750
+   },
+   "top_pains": [
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     10
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     5
+    ],
+    [
+     "IT-/Systemfragmentierung & Datensilos",
+     4
+    ],
+    [
+     "Verwaltung & wiederkehrende Buerokratie",
+     4
+    ]
+   ]
+  },
+  "Klinische-Studien-Dienstleister / kleine CRO": {
+   "n": 10,
+   "buchung_avg": 3.5,
+   "regulatorik_huerde_avg": 4.9,
+   "digitalreife_avg": 2,
+   "vw_projekt": {
+    "n_valide": 10,
+    "OPP": 6000,
+    "IPP": 21250,
+    "PMC": 6000,
+    "PME": 22500,
+    "akzeptanzspanne": [
+     6000,
+     22500
+    ],
+    "median_teuer_aber_ok": 30000
+   },
+   "vw_retainer": {
+    "n_valide": 10,
+    "OPP": 600,
+    "IPP": 1167,
+    "PMC": 600,
+    "PME": 1200,
+    "akzeptanzspanne": [
+     600,
+     1200
+    ],
+    "median_teuer_aber_ok": 2000
+   },
+   "top_pains": [
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     10
+    ],
+    [
+     "Verwaltung & wiederkehrende Buerokratie",
+     6
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     6
+    ],
+    [
+     "Wachstum, Skalierung & Nachfolge",
+     3
+    ]
+   ]
+  },
+  "Gesundheits-Software / Health-IT / e-Health": {
+   "n": 8,
+   "buchung_avg": 3.4,
+   "regulatorik_huerde_avg": 4.8,
+   "digitalreife_avg": 2.1,
+   "vw_projekt": {
+    "n_valide": 8,
+    "OPP": 15000,
+    "IPP": 27500,
+    "PMC": 15000,
+    "PME": 30000,
+    "akzeptanzspanne": [
+     15000,
+     30000
+    ],
+    "median_teuer_aber_ok": 38750
+   },
+   "vw_retainer": {
+    "n_valide": 8,
+    "OPP": 800,
+    "IPP": 1520,
+    "PMC": 800,
+    "PME": 2000,
+    "akzeptanzspanne": [
+     800,
+     2000
+    ],
+    "median_teuer_aber_ok": 2250
+   },
+   "top_pains": [
+    [
+     "IT-/Systemfragmentierung & Datensilos",
+     7
+    ],
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     7
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     5
+    ],
+    [
+     "Sonstiges",
+     4
+    ]
+   ]
+  },
+  "Medizinprodukte-Hersteller (Klasse I-IIb, klein/mittel)": {
+   "n": 7,
+   "buchung_avg": 3.6,
+   "regulatorik_huerde_avg": 4.9,
+   "digitalreife_avg": 1.9,
+   "vw_projekt": {
+    "n_valide": 7,
+    "OPP": 8000,
+    "IPP": 25000,
+    "PMC": 8000,
+    "PME": 25000,
+    "akzeptanzspanne": [
+     8000,
+     25000
+    ],
+    "median_teuer_aber_ok": 42500
+   },
+   "vw_retainer": {
+    "n_valide": 7,
+    "OPP": 700,
+    "IPP": 1367,
+    "PMC": 700,
+    "PME": 1500,
+    "akzeptanzspanne": [
+     700,
+     1500
+    ],
+    "median_teuer_aber_ok": 2150
+   },
+   "top_pains": [
+    [
+     "Dokumentation & Nachweispflichten",
+     5
+    ],
+    [
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     5
+    ],
+    [
+     "IT-/Systemfragmentierung & Datensilos",
+     3
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     2
+    ]
+   ]
+  },
+  "Regulatory-Affairs-Dienstleister (Zulassung/MDR/IVDR)": {
+   "n": 5,
+   "buchung_avg": 3.6,
+   "regulatorik_huerde_avg": 4.6,
+   "digitalreife_avg": 2.2,
+   "vw_projekt": {
+    "n_valide": 5,
+    "OPP": 12500,
+    "IPP": 24000,
+    "PMC": 12500,
+    "PME": 30000,
+    "akzeptanzspanne": [
+     12500,
+     30000
+    ],
+    "median_teuer_aber_ok": 30000
+   },
+   "vw_retainer": {
+    "n_valide": 5,
     "OPP": 750,
-    "IPP": 1625,
+    "IPP": 1575,
     "PMC": 750,
     "PME": 1750,
     "akzeptanzspanne": [
@@ -715,102 +1692,24 @@
    },
    "top_pains": [
     [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     8
-    ],
-    [
      "Personal, Fachkraefte & Wissensbindung",
-     7
-    ],
-    [
-     "Dokumentation & Nachweispflichten",
-     4
-    ],
-    [
-     "IT-/Systemfragmentierung & Datensilos",
-     3
-    ]
-   ]
-  },
-  "Nahrungsergaenzungs-/Supplement-Anbieter": {
-   "n": 7,
-   "buchung_avg": 3.4,
-   "regulatorik_huerde_avg": 4.1,
-   "digitalreife_avg": 2,
-   "vw_projekt": {
-    "n_valide": 7,
-    "OPP": 7000,
-    "IPP": 13500,
-    "PMC": 7000,
-    "PME": 17000,
-    "akzeptanzspanne": [
-     7000,
-     17000
-    ],
-    "median_teuer_aber_ok": 15000
-   },
-   "vw_retainer": {
-    "n_valide": 7,
-    "OPP": 450,
-    "IPP": 883,
-    "PMC": 450,
-    "PME": 1200,
-    "akzeptanzspanne": [
-     450,
-     1200
-    ],
-    "median_teuer_aber_ok": 1500
-   },
-   "top_pains": [
-    [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     7
-    ],
-    [
-     "Wachstum, Skalierung & Nachfolge",
-     3
-    ],
-    [
-     "IT-/Systemfragmentierung & Datensilos",
-     3
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     3
-    ]
-   ]
-  },
-  "Gesundheits-Software / Health-IT / e-Health": {
-   "n": 4,
-   "buchung_avg": 3.5,
-   "regulatorik_huerde_avg": 4.5,
-   "digitalreife_avg": 2.2,
-   "vw_projekt": {
-    "n_valide": 4
-   },
-   "vw_retainer": {
-    "n_valide": 4
-   },
-   "top_pains": [
-    [
-     "IT-/Systemfragmentierung & Datensilos",
-     4
+     5
     ],
     [
      "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     4
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
      3
     ],
     [
-     "Vertrieb, Kunden & Kommunikation",
+     "Verwaltung & wiederkehrende Buerokratie",
+     2
+    ],
+    [
+     "Sonstiges",
      2
     ]
    ]
   },
-  "Gesundheits-/OTC-Produkt-Anbieter (Wellness, Kosmetik-nah)": {
+  "Spezialisierter Gesundheits-Dienstleister (Homecare, Hilfsmittelversorgung)": {
    "n": 4,
    "buchung_avg": 3.8,
    "regulatorik_huerde_avg": 4.5,
@@ -823,221 +1722,79 @@
    },
    "top_pains": [
     [
+     "Verwaltung & wiederkehrende Buerokratie",
+     3
+    ],
+    [
+     "Dokumentation & Nachweispflichten",
+     3
+    ],
+    [
+     "Wachstum, Skalierung & Nachfolge",
+     2
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     2
+    ]
+   ]
+  },
+  "Pharmakovigilanz-Dienstleister": {
+   "n": 4,
+   "buchung_avg": 4.2,
+   "regulatorik_huerde_avg": 5,
+   "digitalreife_avg": 2.5,
+   "vw_projekt": {
+    "n_valide": 4
+   },
+   "vw_retainer": {
+    "n_valide": 4
+   },
+   "top_pains": [
+    [
      "Regulatorik & Zulassung (MDR/IVDR/GMP)",
      4
     ],
     [
      "IT-/Systemfragmentierung & Datensilos",
-     2
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     2
-    ],
-    [
-     "Sonstiges",
-     2
-    ]
-   ]
-  },
-  "Klinische-Studien-Dienstleister / kleine CRO": {
-   "n": 4,
-   "buchung_avg": 3.5,
-   "regulatorik_huerde_avg": 5,
-   "digitalreife_avg": 2,
-   "vw_projekt": {
-    "n_valide": 4
-   },
-   "vw_retainer": {
-    "n_valide": 4
-   },
-   "top_pains": [
-    [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     4
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     2
+     3
     ],
     [
      "Dokumentation & Nachweispflichten",
      2
     ],
     [
-     "Verwaltung & wiederkehrende Buerokratie",
-     1
-    ]
-   ]
-  },
-  "Auftragslabor (Analytik / QC / Mikrobiologie)": {
-   "n": 3,
-   "buchung_avg": 3.7,
-   "regulatorik_huerde_avg": 4.7,
-   "digitalreife_avg": 2.3,
-   "vw_projekt": {
-    "n_valide": 3
-   },
-   "vw_retainer": {
-    "n_valide": 3
-   },
-   "top_pains": [
-    [
-     "Vertrieb, Kunden & Kommunikation",
-     2
-    ],
-    [
      "Personal, Fachkraefte & Wissensbindung",
      2
-    ],
-    [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     2
-    ],
-    [
-     "Dokumentation & Nachweispflichten",
-     2
-    ]
-   ]
-  },
-  "Spezialisierter Gesundheits-Dienstleister (Homecare, Hilfsmittelversorgung)": {
-   "n": 2,
-   "buchung_avg": 3,
-   "regulatorik_huerde_avg": 5,
-   "digitalreife_avg": 2,
-   "vw_projekt": {
-    "n_valide": 2
-   },
-   "vw_retainer": {
-    "n_valide": 2
-   },
-   "top_pains": [
-    [
-     "Verwaltung & wiederkehrende Buerokratie",
-     2
-    ],
-    [
-     "Dokumentation & Nachweispflichten",
-     1
-    ],
-    [
-     "Wachstum, Skalierung & Nachfolge",
-     1
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     1
     ]
    ]
   },
   "Lohnhersteller / CMO fuer Pharma & Supplements": {
-   "n": 1,
-   "buchung_avg": 4,
-   "regulatorik_huerde_avg": 5,
+   "n": 3,
+   "buchung_avg": 3.7,
+   "regulatorik_huerde_avg": 4.7,
    "digitalreife_avg": 2,
    "vw_projekt": {
-    "n_valide": 1
+    "n_valide": 3
    },
    "vw_retainer": {
-    "n_valide": 1
+    "n_valide": 3
    },
    "top_pains": [
     [
-     "Verwaltung & wiederkehrende Buerokratie",
-     1
+     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
+     3
     ],
     [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     1
+     "Verwaltung & wiederkehrende Buerokratie",
+     2
+    ],
+    [
+     "Personal, Fachkraefte & Wissensbindung",
+     2
     ],
     [
      "Wachstum, Skalierung & Nachfolge",
-     1
-    ],
-    [
-     "Qualitaetsmanagement & QM-Prozesse",
-     1
-    ]
-   ]
-  },
-  "Regulatory-Affairs-Dienstleister (Zulassung/MDR/IVDR)": {
-   "n": 1,
-   "buchung_avg": 3,
-   "regulatorik_huerde_avg": 4,
-   "digitalreife_avg": 2,
-   "vw_projekt": {
-    "n_valide": 1
-   },
-   "vw_retainer": {
-    "n_valide": 1
-   },
-   "top_pains": [
-    [
-     "Verwaltung & wiederkehrende Buerokratie",
-     1
-    ],
-    [
-     "Sonstiges",
-     1
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     1
-    ]
-   ]
-  },
-  "Pharmakovigilanz-Dienstleister": {
-   "n": 1,
-   "buchung_avg": 4,
-   "regulatorik_huerde_avg": 5,
-   "digitalreife_avg": 2,
-   "vw_projekt": {
-    "n_valide": 1
-   },
-   "vw_retainer": {
-    "n_valide": 1
-   },
-   "top_pains": [
-    [
-     "Dokumentation & Nachweispflichten",
-     1
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     1
-    ],
-    [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     1
-    ]
-   ]
-  },
-  "Grosshandel/Vertrieb medizinische Produkte & Hilfsmittel": {
-   "n": 1,
-   "buchung_avg": 3,
-   "regulatorik_huerde_avg": 5,
-   "digitalreife_avg": 2,
-   "vw_projekt": {
-    "n_valide": 1
-   },
-   "vw_retainer": {
-    "n_valide": 1
-   },
-   "top_pains": [
-    [
-     "Dokumentation & Nachweispflichten",
-     1
-    ],
-    [
-     "Personal, Fachkraefte & Wissensbindung",
-     1
-    ],
-    [
-     "Regulatorik & Zulassung (MDR/IVDR/GMP)",
-     1
-    ],
-    [
-     "Sonstiges",
      1
     ]
    ]
