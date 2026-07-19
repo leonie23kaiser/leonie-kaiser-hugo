@@ -9,7 +9,7 @@
     <p class="sdesc lead-speakable">{{ $b.schmerz }} {{ $b.intro }}</p>
 
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Was dabei möglich ist</h2>
-    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Leistungen sind einzeln wählbar und kombinierbar – im Erstgespräch priorisieren wir gemeinsam die Bausteine mit dem größten Nutzen.</p>
+    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Bausteine sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse zeige ich Ihnen, welche davon für Ihre Praxis am meisten bringen.</p>
     <div style="display:grid;gap:var(--s4);margin-top:var(--s5)">
       {{ range $i, $uc := $b.usecases }}
       <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--divider);border-radius:var(--r-lg)">
@@ -45,16 +45,16 @@
     {{ end }}
 
     <aside style="margin-top:var(--s10);padding:var(--s6) var(--s8);background:var(--lblue);border-radius:var(--r-lg);border:1px solid var(--divider)">
-      <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);margin-bottom:var(--s2)">Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte</div>
-      <p style="color:var(--text);font-size:var(--sm);line-height:1.6;margin:0">EU-Hosting wo möglich, Auftragsverarbeitungsverträge mit allen eingesetzten Tools, EU AI Act &amp; DSGVO von Anfang an – und eine klare Zuständigkeit bei Rückfragen. Mehr dazu auf der <a href="/eu-ai-act/" style="color:var(--teal-d);font-weight:600">EU-AI-Act-Seite</a> und in den <a href="/faq/" style="color:var(--teal-d);font-weight:600">häufigen Fragen</a>.</p>
+      <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);margin-bottom:var(--s2)">Datenschutz ist die Grundlage, keine Nebensache</div>
+      <p style="color:var(--text);font-size:var(--sm);line-height:1.6;margin:0">EU-Hosting wo möglich, bei Bedarf auch eine lokale Lösung, bei der die Daten Ihre Praxis nicht verlassen. Dazu Auftragsverarbeitungsverträge mit allen eingesetzten Tools, EU AI Act &amp; DSGVO von Anfang an und eine feste Ansprechpartnerin für Ihre Datenschutz-Fragen. Mehr dazu auf der <a href="/eu-ai-act/" style="color:var(--teal-d);font-weight:600">EU-AI-Act-Seite</a> und in den <a href="/faq/" style="color:var(--teal-d);font-weight:600">häufigen Fragen</a>.</p>
     </aside>
 
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">So sieht unsere Zusammenarbeit aus</h2>
     <ol style="line-height:1.7;font-size:var(--base);color:var(--text);margin-top:var(--s4);padding-left:var(--s5)">
       <li><strong>Potenzialanalyse (30 Minuten, kostenfrei):</strong> Wir schauen gemeinsam auf Ihren Alltag und finden den ersten sinnvollen Schritt in Ihrer Praxis.</li>
-      <li><strong>KI-Strategie:</strong> Welche Werkzeuge passen zu Ihrem Setup? Tool-agnostisch ausgewählt, EU AI Act &amp; DSGVO konform aufgesetzt.</li>
-      <li><strong>Digitalisierung &amp; Automatisierung:</strong> Sie führen ein, ich begleite – Schritt für Schritt und in Ihrem Tempo.</li>
-      <li><strong>Laufende Betreuung (optional):</strong> Auf Wunsch begleite ich Sie über die Einführung hinaus – für Anpassungen, neue Bausteine und Fragen aus dem Alltag.</li>
+      <li><strong>Strategie-Erstellung:</strong> Welche Werkzeuge passen zu Ihrem Setup? Tool-agnostisch ausgewählt, EU AI Act &amp; DSGVO konform aufgesetzt.</li>
+      <li><strong>Implementierung:</strong> Ich setze die Lösung um und weise Sie und Ihr Team ein, Schritt für Schritt und in Ihrem Tempo.</li>
+      <li><strong>Laufende Betreuung (optional):</strong> Auf Wunsch begleite ich Sie über die Einführung hinaus, für Anpassungen, neue Bausteine und Fragen aus dem Alltag.</li>
     </ol>
 
     {{ with $b.faq }}
@@ -83,7 +83,7 @@
     {{ if $others }}
     <div style="margin-top:var(--s12)">
       <div class="slabel">Weitere Leistungen</div>
-      <h2 class="stitle" style="font-size:1.35rem">Was ich noch automatisiere</h2>
+      <h2 class="stitle" style="font-size:1.35rem">Weitere Leistungen für Ihre Praxis</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--s3);margin-top:var(--s4)">
         {{ range $others }}
         <a href="{{ .url }}" style="display:block;padding:var(--s4) var(--s5);border:1px solid var(--divider);border-radius:var(--r-lg);background:#fff;text-decoration:none;color:inherit;font-family:var(--fd);font-weight:700;font-size:var(--sm);line-height:1.3">

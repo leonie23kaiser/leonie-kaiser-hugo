@@ -1,5 +1,5 @@
 ---
-title: "Termine & Anfragen automatisieren – weniger No-Shows, weniger Telefon"
+title: "Termine & Anfragen automatisieren: weniger No-Shows, weniger Telefondienst"
 description: "Online-Terminbuchung, automatische Erinnerungen, Wartelisten-Nachbesetzung und ein KI-Assistent für Erstanfragen – datenschutzkonform für kleine Gesundheitspraxen."
 type: branche
 layout: single

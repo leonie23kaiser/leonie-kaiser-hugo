@@ -2,7 +2,7 @@
 # https://leoniekaiser.com
 
 ## About
-Leonie Kaiser is an AI & digitalization partner based in Lower Austria (Niederösterreich),
+Leonie Kaiser is an AI & digitalization expert based in Lower Austria (Niederösterreich),
 specializing in AI strategy, EU AI Act compliance, and process automation for small,
 owner-led health and wellness practices (Wahlarzt/private-pay/self-pay) in the
 DACH region (Austria, Germany, Switzerland).

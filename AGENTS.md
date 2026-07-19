@@ -133,6 +133,16 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Herabsetzung von Alternativen positionieren. Sagen, wie es ist, positiv und
   sachlich formulieren. (Leonie, 2026-07: „Ich möchte es seriös nennen wie es
   ist und nicht abfällig reden.“)
+- **Gedankenstriche (–) sehr sparsam.** Der Gedankenstrich gilt als typisches
+  Signal für KI-generierten Text. Stattdessen ganze Sätze, Punkt oder Komma
+  verwenden. Höchstens vereinzelt, nie mehrfach im selben Absatz.
+  (Leonie, 2026-07.)
+- **„in Klartext“ / „Klartext“** – nicht verwenden. Stattdessen „verständlich“,
+  „ohne Fachjargon“ o. Ä.
+- **Keine Angst-/Panik-Formulierungen** gegenüber der Kundschaft (z. B. bohrende
+  „Wer haftet, wenn etwas schiefgeht?“, „keine automatische Diagnose“,
+  Straf-/Sanktionsdrohungen). Sachlich informieren, nicht verunsichern.
+  (Leonie, 2026-07: „das schürt nur Ängste bei meinen Klienten“.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 

@@ -12,4 +12,4 @@ sitemap:
 ---
 
 Kurze, praxisnahe Beiträge zu KI im Alltag kleiner Gesundheits- und Wellness-Praxen.
-Ein Thema nach dem anderen, direkt umsetzbar, EU AI Act & DSGVO konform gedacht.
+Jeder Beitrag zeigt einen konkreten Schritt, den Sie direkt umsetzen können. EU AI Act und DSGVO immer mitgedacht.
