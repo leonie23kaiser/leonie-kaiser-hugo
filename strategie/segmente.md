@@ -44,7 +44,10 @@ nicht für die Zielgruppen-Qualifikation selbst.
 
 **Mischpraxen:** drin, wenn Privatanteil **und** Veränderungsbereitschaft da sind.
 **Raus:** reine Hochvolumen-Kassen-Akutmedizin (kein Budget, keine Erlebnis-Motivation),
-Zahnärzte, Kliniken, Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große Pharma.
+Zahnärzte, Kliniken, Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große
+**Pharmakonzerne**. *(Kleine/mittlere regulierte Pharma-/Gesundheits-KMU mit 10–50 MA sind
+seit 2026-07-20 ausdrücklich drin — Track B, siehe `strategie-konzept.md` und
+`zielgruppen-zwei-track.md`.)*
 
 **Filter neu gedacht:** nicht die *Zahlform* entscheidet, sondern *Haltung + Privatanteil*.
 Eine Mischpraxis mit Wahlarzt-Anteil und Änderungswillen ist ein besserer Kunde als eine

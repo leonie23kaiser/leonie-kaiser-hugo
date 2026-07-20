@@ -2,7 +2,7 @@
 
 *Internes Arbeitsdokument. Konsolidiert aus AGENTS.md (Brand Voice, kanonisch),
 brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampling.md
-(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-14.*
+(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-20.*
 
 > Preiszahlen sind synthetische Orientierungs-Korridore (Silicon Sampling / ESOMAR)
 > und mit echten Kundengesprächen zu validieren.
@@ -28,17 +28,26 @@ auch für die Inhaberin selbst — weniger Admin-Überstunden für die Person an
 KI ist Mittel zum Zweck — die Arbeit beginnt bei den Prozessen, nicht beim Tool. Das
 Persönliche bleibt geschützt: KI nimmt die Routine, nicht die Beziehung.
 
-**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **1–2** echten Praxis-Fälle
-mit Zahlen und Referenzen gewinnen (breit über den Schmerz akquiriert, siehe Kapitel 7),
-dann gezielt die Tier-1-Zielsegmente bespielen.
+**Zwei-Track-Strategie** (Entscheidung 2026-07-20): Neben dem Praxis-Kern läuft parallel
+ein zweiter, hochpreisiger Track auf **Pharma-/Gesundheits-KMU (10–50 MA)** — erschlossen
+warm über das eigene Branchennetzwerk aus einer ~20-jährigen Pharma-/Medtech-Laufbahn.
+Dort wirkt die frühere Berufslaufbahn als echter Wettbewerbsvorsprung (Insider-
+Glaubwürdigkeit im regulierten Umfeld), den eine reine KI-Weiterbildung nicht liefert.
+Details: Kapitel 3, `zielgruppen-zwei-track.md`.
 
-Drei tragende Säulen:
+**Aktueller Stand:** noch keine Kunden. Fokus: in **beiden Tracks je 1–2 echte Fälle** mit
+Zahlen und Referenzen gewinnen (siehe Kapitel 7) — Track A schmerz-geführt in den
+Praxis-Segmenten, Track B warm über das Netzwerk.
+
+Tragende Säulen:
 1. **Produktisieren statt beraten** — klare Pakete mit benannten Ergebnissen.
 2. **Schmerz-geführt + Compliance-first** — um den überall gleichen Kern-Schmerz herum
    positionieren, Datenschutz als Differenzierungsmerkmal statt als Behauptung.
 3. **Referenzen schlagen Nischen-Rätselraten** — der erste echte Case ist wichtiger als
    die perfekte Segmentwahl; die priorisierte Zielsegment-Landkarte (Kap. 3) steuert,
    wen man *mit* Referenzen zuerst anspricht.
+4. **Laufbahn als Moat (Track B)** — im regulierten KMU-Segment ist die eigene
+   Pharma-/Medtech-Vorgeschichte der Filter, der Generalisten aussortiert.
 
 ---
 
@@ -54,8 +63,10 @@ Kurz: kein Wunder, sondern Arbeit, die sich auszahlt.
 
 **Wen wir NICHT bedienen:** reine Hochvolumen-Kassen-Akutmedizin (ohne Privatanteil, ohne
 Veränderungsbereitschaft), Zahnärzte, Kliniken, Apotheken, Pflege, klinische
-Psychotherapie/Psychiatrie, große Pharmaunternehmen, Datenschutz-Ignorierer,
-„Tool-rein-fertig"-Gläubige.
+Psychotherapie/Psychiatrie, **große Pharmakonzerne**, Datenschutz-Ignorierer,
+„Tool-rein-fertig"-Gläubige. *(Präzisierung 2026-07-20: kleine/mittlere regulierte
+Pharma-/Gesundheits-KMU mit 10–50 MA sind ausdrücklich drin — das ist Track B, siehe
+Kapitel 3. Ausgeschlossen bleiben nur die großen Konzerne.)*
 
 **Mischpraxen ausdrücklich drin**, wenn Privatanteil (Wahlarzt/Selbstzahler) **und**
 Veränderungsbereitschaft da sind — eine Mischpraxis mit Privatanteil und Änderungswillen
@@ -133,6 +144,45 @@ Ernährungsberatung (9), Osteopathie/Ergo/Logo/Hebammen/Massage/Heilpraktiker (8
 Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
 entscheidet schnell bei klarem Nutzen + überschaubarem Aufwand, Datenschutz sehr
 wichtig, lebt von privat zahlender Kundschaft. Details: `segmente.md`, `silicon-sampling.md`.
+
+### Zwei-Track-Strategie: Praxen (Track A) + Pharma-/Gesundheits-KMU (Track B)
+
+*Entscheidung 2026-07-20. Solo-/Einzelunternehmer werden bewusst nicht mehr verfolgt
+(knappes Budget, „Zeit-Paradox", schwacher ROI, Laufbahn-Vorteil verpufft). Stattdessen
+zwei parallele Tracks. Volle Herleitung: `zielgruppen-zwei-track.md`.*
+
+- **Track A — Kern (sofort):** kleine, inhabergeführte Gesundheitspraxen. Schneller Weg
+  zu ersten zahlenden Referenzen, deckt sich mit der bestehenden schmerz-/compliance-
+  geführten Positionierung, Website und Markensprache. Das ist der bisher beschriebene
+  Praxis-Track (Schirm + Zielsegment-Landkarte oben).
+- **Track B — Hebel (parallel, warm):** **Pharma-/Gesundheits-KMU (10–50 MA)**, DACH.
+  Hohes Ticket, harter Fachfilter — genau da wirkt die eigene ~20-jährige Pharma-/Medtech-
+  Laufbahn (Projektmanagement/CMC, später Digital-Transformation-Lead) als seltene
+  Insider-Glaubwürdigkeit. Zugang **nicht kalt, sondern warm über das bestehende
+  Branchennetzwerk** — damit fällt die größte Hürde des Segments (Vertrauen +
+  Branchenreferenz) weitgehend weg, und das teuerste Segment wird eines der am leichtesten
+  zugänglichen.
+
+**Zahlenvergleich (synthetisch, Größenordnung):**
+
+| Kriterium | Solo *(raus)* | Kleine Praxen (Track A) | Pharma-/Gesundheits-KMU (Track B) |
+|---|---|---|---|
+| Projekt-Ticket | ~300–1.500 € | ~1.500–3.700 € | ~7.000–15.000 € (Median ~12.000 €) |
+| Retainer/Monat | ~150 € | ~200–500 € | ~600–1.500 € |
+| Entscheider je Deal | 1 | 1 | Ø 2,7 (GF + QM + oft Datenschutzbeauftragte:r) |
+| Einstiegshürde | niedrig | mittel | hoch (Branchenreferenz Pflicht) |
+| Fit zur eigenen Laufbahn | gering | mittel | sehr hoch |
+
+**Wichtige Einschränkung:** Referenzen sind **nicht track-übergreifend übertragbar** — ein
+Pharma-/Gesundheits-KMU will einen Beleg aus der eigenen Branche. Deshalb muss mindestens
+eine frühe Referenz **direkt aus Track B** stammen, sonst bleibt dieser Track verschlossen.
+
+**Netzwerk als Vertriebsinfrastruktur (Track B):** das ehemalige Kolleg:innen-Netzwerk aus
+regulierten Pharma-/Gesundheitsunternehmen auf LinkedIn kartieren (wer ist heute in einem
+kleineren regulierten Betrieb in GF, Qualitätsmanagement oder Regulatory Affairs?) →
+warmes Reconnect (kein Pitch) + regelmäßige fachliche Sichtbarkeit zu konkreten
+Regulatorik-/QM-/Dokumentations-Themen. Für Track A: lokale Empfehlungsketten,
+Multiplikatoren (Steuerberatung, Berufsverbände), Website/Content.
 
 ### Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
@@ -292,13 +342,28 @@ reichen nicht": den Gratis-Call nie so bewerben, sondern mit konkretem Ergebnis 
 
 ## 7. Startplan: die ersten 90 Tage (0 → erste Referenzen)
 
-Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **3–5 echte Fälle** mit
-Vorher-/Nachher-Zahlen und namentlichen Testimonials, gestaffelt bis Jahresende (das
-Zeitfenster vor der offiziellen Zertifizierung ist ideal für Gratis-/Günstig-Piloten).
-**Breit über den Kern-Schmerz akquirieren** (nicht auf ein Segment beschränken) — wer
-zuerst anbeißt und einen echten Case liefert, zählt. Für die aktive Ansprache trotzdem bei
-den **Tier-1-Zielsegmenten (Physio, Medical-Wellness)** beginnen, weil dort am ehesten
-gewinnbar (Kap. 3).
+Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **in beiden Tracks je 1–2
+echte Fälle** mit Vorher-/Nachher-Zahlen und namentlichen Testimonials, gestaffelt bis
+Jahresende (das Zeitfenster vor der offiziellen Zertifizierung ist ideal für Gratis-/
+Günstig-Piloten).
+
+- **Track A (Praxen):** breit über den Kern-Schmerz akquirieren — wer zuerst anbeißt und
+  einen echten Case liefert, zählt. Für die aktive Ansprache bei den **Tier-1-Segmenten
+  (Physio, Medical-Wellness)** beginnen, weil dort am ehesten gewinnbar (Kap. 3).
+- **Track B (Pharma-/Gesundheits-KMU):** **warm über das kartierte Branchennetzwerk** —
+  ehrliches Reconnect + Frage nach Empfehlungen zum Thema Audit-/Dokumentations-Entlastung,
+  kein Kaltakquise-Pitch. Mindestens **eine** frühe Referenz muss aus Track B selbst
+  stammen (Praxis-Referenzen zählen dort nicht).
+
+**Phase 2 (Monat 4–9):** auswerten, welcher Track besser konvertiert, wo die Marge liegt
+und welche Arbeit stimmiger ist — dann bewusst Fokus setzen (nicht vorher raten). Piloten
+zu festen, produktisierten Fixpreis-Paketen weiterentwickeln, synthetische Preiskorridore
+durch echte Abschlüsse ersetzen. **Phase 3 (ab Monat 10):** Skalierung über
+Empfehlungsstrukturen + Content, Ausbau der Retainer-Basis.
+
+*(Die folgenden 90-Tage-Phasen beschreiben primär den operativen Ablauf für Track A; für
+Track B gilt derselbe Rhythmus, nur mit warmer Netzwerk-Ansprache statt Kaltakquise —
+Details: `zielgruppen-zwei-track.md`.)*
 
 > **Zur Zertifizierung:** Der KI-Lehrgangs-Abschluss ist *keine rechtliche Voraussetzung*
 > für Kunden — er ist Kompetenz-/Vertrauens-Nachweis, kein Gewerbe-Tor. Rechtlich zählt die

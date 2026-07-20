@@ -63,12 +63,15 @@ verkaufen Arbeit, die sich auszahlt.
 
 - **Reine Hochvolumen-Kassen-Akutmedizin** (ohne Privatanteil, ohne Veränderungs-
   bereitschaft) — sowie Zahnärzte, Kliniken, Apotheken, Pflege, klinische
-  Psychotherapie/Psychiatrie und große Pharmaunternehmen. Unser Markt sind **kleine,
-  inhabergeführte Gesundheits- und Behandlungsbetriebe**, die (auch) von **Wahlarzt-/
-  Privat-/Selbstzahler-Kundschaft** leben und übers Erlebnis konkurrieren — **Mischpraxen
-  mit spürbarem Privatanteil und Veränderungsbereitschaft ausdrücklich drin.** *Test:*
-  Konkurriert der Betrieb übers Erlebnis, hat Marge und will etwas verändern? → drin.
-  Reine Hochvolumen-Kasse ohne Privatanteil? → raus. (Details & Segmente: `segmente.md`.)
+  Psychotherapie/Psychiatrie und **große Pharmakonzerne**. Unser Kern-Markt (Track A) sind
+  **kleine, inhabergeführte Gesundheits- und Behandlungsbetriebe**, die (auch) von
+  **Wahlarzt-/Privat-/Selbstzahler-Kundschaft** leben und übers Erlebnis konkurrieren —
+  **Mischpraxen mit spürbarem Privatanteil und Veränderungsbereitschaft ausdrücklich drin.**
+  *Test:* Konkurriert der Betrieb übers Erlebnis, hat Marge und will etwas verändern? →
+  drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus. (Details & Segmente:
+  `segmente.md`.) *(Seit 2026-07-20 zusätzlich Track B: kleine/mittlere regulierte
+  Pharma-/Gesundheits-KMU mit 10–50 MA, warm über Netzwerk — siehe
+  `strategie-konzept.md`, `zielgruppen-zwei-track.md`. Nur die großen Konzerne bleiben raus.)*
 - **Datenschutz-Ignorierer** — Betriebe, denen DSGVO und Gesundheitsdaten egal sind
   und die „mach mal schnell, ist nicht so wichtig" buchen wollen. Auf Lücken bauen wir
   nichts.
