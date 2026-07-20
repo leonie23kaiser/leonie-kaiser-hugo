@@ -3,9 +3,8 @@
 *Entwickelt im Brand-Position-Sparring (10 Fragen), 2026-06-30. Das ist die Haltung
 der Marke — wofür und wogegen sie steht. Klare Kante schlägt nett-zu-allen.*
 
-> **Quelldatei (Haltung).** Wird konsolidiert im
-> `strategie-briefing-gesundheitsbetriebe.md`. Änderungen an der Haltung hier zuerst,
-> dann das Briefing synchronisieren — nie nur im Briefing.
+> **Quelldatei (Haltung).** Wird konsolidiert im Master `strategie-konzept.md`.
+> Änderungen an der Haltung hier zuerst, dann im Master spiegeln — nie nur im Master.
 
 ## Mission (Wofür wir sind. Konkret.)
 
