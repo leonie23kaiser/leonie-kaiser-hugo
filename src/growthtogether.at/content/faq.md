@@ -20,7 +20,7 @@ faqs:
     a: "Der EU AI Act ist die europäische KI-Verordnung, die seit 2024 schrittweise in Kraft tritt. Als Praxis, die KI einsetzt, sind Sie betroffen. Die konkreten Pflichten hängen vom Risikoprofil der KI-Anwendung ab. In der Beratung klären wir gemeinsam, was für Ihren Einsatzbereich gilt und wie Sie compliance-konform arbeiten."
     cat: "compliance"
   - q: "Was kostet eine Umsetzung?"
-    a: "Für die Umsetzung gibt es klare Pakete: ein Fokus-Paket für einen Bereich, ein Praxis-Paket für mehrere Bereiche und optional eine laufende Betreuung. Der genaue Umfang und Preis werden nach der kostenfreien Potenzialanalyse festgelegt. Details finden Sie auf der Leistungsseite."
+    a: "Für die Umsetzung gibt es klare Pakete: ein Praxis-Start für einen Bereich, ein Praxis-Plus für mehrere Bereiche und optional eine laufende Betreuung. Der genaue Umfang und Preis werden nach der kostenfreien Potenzialanalyse festgelegt. Details finden Sie auf der Leistungsseite."
     cat: "kosten"
   - q: "Arbeiten Sie auch DSGVO-konform?"
     a: "Ja, vollständig. Alle empfohlenen Lösungen werden DSGVO-konform aufgesetzt, inklusive Auftragsverarbeitungsverträgen, EU-Hosting wo möglich und transparenter Datenflüsse. Datenschutz und Rechtssicherheit sind integraler Teil jeder Beratung."
