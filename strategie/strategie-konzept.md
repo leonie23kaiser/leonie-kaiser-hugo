@@ -75,6 +75,24 @@ ist ein besserer Kunde als eine reine Privatordination ohne Veränderungswillen.
 **Entscheidungs-Test:** Konkurriert der Betrieb übers Erlebnis, hat Marge und will etwas
 verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 
+### Abgrenzung zur virtuellen Assistenz (VA)
+
+Eine VA ist oft günstiger — aber sie *erledigt* Aufgaben: stundenweise, dauerhaft, jede
+Aufgabe neu, laufende Personalkosten. Wir sorgen dafür, dass Aufgaben **gar nicht erst
+anfallen**: einmal eingerichtete Abläufe laufen von selbst weiter, ohne laufende
+Arbeitszeit. Dazu zwei Dinge, die eine VA nicht leistet:
+
+1. **Strategie** — was in welcher Reihenfolge automatisiert wird, mit dem größten Hebel
+   zuerst (aus 20 Jahren Projektmanagement/Strategie).
+2. **Compliance-Verantwortung** — EU AI Act und DSGVO Art. 9 bei Gesundheitsdaten; eine
+   VA berät dazu nicht und übernimmt keine Verantwortung.
+
+Kernsatz (intern, nicht 1:1 auf die Website, Leonie 2026-07 „Differenzierungssatz nicht
+einbauen"): *„Eine VA erledigt Aufgaben — ich sorge dafür, dass sie gar nicht erst
+anfallen, strategisch geplant und rechtlich abgesichert."* Auf der Website nur als
+**Nutzen** transportieren (Abläufe laufen von selbst, Strategie + Datenschutz inklusive),
+nie offen gegen VAs positionieren.
+
 ---
 
 ## 3. Zielgruppe & Markt

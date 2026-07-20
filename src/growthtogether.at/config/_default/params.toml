@@ -1,6 +1,6 @@
-description = "KI-Beraterin für kleine Privatpraxen in Gesundheit & Wohlbefinden: KI-Strategie, No-Code-Automatisierung und EU AI Act Compliance im DACH-Raum. Kostenfreie Potenzialanalyse."
+description = "KI & Digitalisierung für kleine Gesundheitspraxen: Prozesse automatisieren, EU AI Act und DSGVO sicher umsetzen. Ortsunabhängig im DACH-Raum. Kostenfreie Potenzialanalyse."
 seoSiteTitle = "Leonie Kaiser"
-seoHomeTitle = "Leonie Kaiser – KI & Business Consulting für Praxen"
+seoHomeTitle = "Leonie Kaiser – KI & Digitalisierung für Praxen"
 
 # Farben laut Briefing
 brandTeal900   = "#086584"   # Primär / Buttons / Links
@@ -19,13 +19,13 @@ brandLine      = "#ece3d8"
 
 orgName  = "Leonie Kaiser"
 orgLegal = "Leonie Kaiser"
-orgRole  = "KI & Business Consultant"
+orgRole  = "KI- & Digitalisierungs-Expertin"
 orgCity  = "Niederösterreich"
 orgRegion= "AT-3"
 orgCountry="AT"
 
 authorName = "Leonie Kaiser"
-authorBio  = "KI & Business Consultant aus Niederösterreich. Über 20 Jahre globale Projekterfahrung – u. a. bei Merck, AbbVie, Baxter. Strategische, menschenzentrierte KI-Einführung für kleine Privatpraxen im DACH-Raum."
+authorBio  = "KI- & Digitalisierungs-Expertin aus Niederösterreich. Über 20 Jahre Projekterfahrung im Gesundheitsbereich, u. a. bei Merck, AbbVie, Baxter. Strategische, menschenzentrierte Digitalisierung und KI für kleine Gesundheitspraxen im DACH-Raum."
 
 email    = "hello@leoniekaiser.com"
 phone    = "+43 670 775 60 60"
