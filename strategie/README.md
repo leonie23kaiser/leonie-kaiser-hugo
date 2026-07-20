@@ -40,7 +40,7 @@ Anfrage generierbar, nicht dauerhaft im Repo.
 | [`service-katalog.md`](service-katalog.md) | Konkreter Service-Katalog, Retainer-Abdeckung, Beispiel-Szenarien. |
 | [`pilot-akquise.md`](pilot-akquise.md) | Operativ: Pilot-Akquise, Anschreiben, 3 Messfragen, Einwilligung. |
 | [`brand_data.md`](brand_data.md) | Belege, Methodik, Quellen-Hierarchie, Erfolgsmetriken. |
-| [`story_bank.md`](story_bank.md) | Zitierbare Mini-Geschichten (Situation→Konflikt→Lösung→Beweis). |
+| [`story_bank.md`](story_bank.md) | Zitierbare Mini-Geschichten (Situation→Konflikt→Lösung→Beweis) + fertige Spiegelgeschichten-Copy + Story-Workflow. |
 
 ### Fertige Copy (pro Kanal)
 | Datei | Zweck |
@@ -48,18 +48,19 @@ Anfrage generierbar, nicht dauerhaft im Repo.
 | [`linkedin-profil.md`](linkedin-profil.md) · [`linkedin-profil-en.md`](linkedin-profil-en.md) | LinkedIn-Headline, Info, Positionen (DE/EN). |
 | [`unternehmensbeschreibung.md`](unternehmensbeschreibung.md) | Verzeichnisse/Canva/Social + Farbpalette. |
 | [`google-business-profile.md`](google-business-profile.md) | GBP: Kategorien, Beschreibung, Leistungen, Q&A. |
-| [`empfehlungs-stories.md`](empfehlungs-stories.md) | Spiegelgeschichten in 3 Längen + Kanal-Plan. |
+
+*(Spiegelgeschichten-Copy ist in `story_bank.md` eingegliedert.)*
 
 ### Audits & Betrieb
 | Datei | Zweck |
 |---|---|
-| [`trust_audit.md`](trust_audit.md) · [`citation_audit.md`](citation_audit.md) | Trust- & Citation-Audits mit Maßnahmen. |
+| [`audits.md`](audits.md) | Trust-Triangle- + Citation-Magnet-Audit in einem, Wiedervorlage 2026-09-30. |
 | [`update-plan.md`](update-plan.md) | Wann was aktualisieren (Ereignis-/Zeit-getriggert). |
 
-### Archiv / überholt
+### Archiv
 | Datei | Zweck |
 |---|---|
-| [`strategie-briefing-gesundheitsbetriebe.md`](strategie-briefing-gesundheitsbetriebe.md) | **Überholt** (Stand 01.07.) — ersetzt durch `strategie-konzept.md`. Nur noch historisch. |
+| [`archiv/strategie-briefing-gesundheitsbetriebe.md`](archiv/strategie-briefing-gesundheitsbetriebe.md) | **Überholt** (01.07.) — ersetzt durch `strategie-konzept.md`. Nur historisch. |
 
 ---
 
