@@ -31,23 +31,23 @@ Website-Unterseiten) reserviert. Details/Wording: `strategie/linkedin-profil.md`
 
 **4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
-2. klein (ca. 2–15, max ~20 Mitarbeitende)
+2. klein (ca. **2–10, max ~12 Mitarbeitende** — die meisten kleinen Praxen sind solo bis ~8;
+   ab ~10–12 wird es eher eine größere Gemeinschaftspraxis mit komplexeren Strukturen)
 3. sensible **Gesundheitsdaten** (DSGVO Art. 9)
 4. lebt (auch) von **Wahlarzt-/Privat-/Selbstzahler**-Kundschaft und konkurriert übers Erlebnis
 
 **Gemeinschaftspraxen (mehrere Ärzt:innen/Partner:innen als Miteigentümer:innen):** zählen
-als „inhabergeführt", solange sie klein und eigenständig bleiben — gemeint ist der Gegensatz
-zu Kettenstrukturen/externen Investoren, nicht die exakte Anzahl der Eigentümer:innen. Bei
-Gemeinschaftspraxen ist die Entscheidungsstruktur nur wichtig für den Verkaufsprozess
-(mehrere Partner:innen müssen zustimmen, siehe `silicon-sampling.md` Entscheidungsstruktur),
-nicht für die Zielgruppen-Qualifikation selbst.
+als „inhabergeführt" (Gegensatz zu Ketten/Investoren), sind aber **aufwändiger** — mehrere
+Inhaber:innen müssen zustimmen, längerer Verkaufszyklus. Deshalb **Praxen mit nur einer
+Inhaberin/einem Inhaber bevorzugen**, Gemeinschaftspraxen eher hinten anstellen.
 
 **Mischpraxen:** drin, wenn Privatanteil **und** Veränderungsbereitschaft da sind.
 **Raus:** reine Hochvolumen-Kassen-Akutmedizin (kein Budget, keine Erlebnis-Motivation),
-Zahnärzte, Kliniken, Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große
-**Pharmakonzerne**. *(Kleine/mittlere regulierte Pharma-/Gesundheits-KMU mit 10–50 MA sind
-seit 2026-07-20 ausdrücklich drin — Track B, siehe `strategie-konzept.md` und
-`zielgruppen-zwei-track.md`.)*
+Kliniken, Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große **Pharmakonzerne**.
+*(Zahnärzte: nicht aktiv targetiert, aber **nicht dezidiert ausgeschlossen** — private
+Zahnarzt-/Wahlarzt-Zahnmedizin ist vorstellbar. Kleine/mittlere regulierte
+Pharma-/Gesundheits-KMU mit 10–50 MA sind seit 2026-07-20 ausdrücklich drin — Track B,
+siehe `strategie-konzept.md`, `zielgruppen-zwei-track.md`.)*
 
 **Filter neu gedacht:** nicht die *Zahlform* entscheidet, sondern *Haltung + Privatanteil*.
 Eine Mischpraxis mit Wahlarzt-Anteil und Änderungswillen ist ein besserer Kunde als eine
@@ -61,13 +61,16 @@ Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis". → In der 
 
 ## Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
-~90 % identisch über alle Behandlungs-/Therapiebetriebe:
-1. **Termin-Engpass** – Anfragen bleiben liegen, No-Shows, Lücken kosten Umsatz
-2. **Doku frisst die Abende**
-3. **Nachsorge/Recall fällt hinten runter** – Stammkundschaft geht verloren
-4. **Die Leitung ist der Flaschenhals** (Behandlung + Führung + Verwaltung in einer Person)
-5. **Unsicherheit im Umgang mit sensiblen Gesundheitsdaten** – „Darf ich das in ein KI-Tool
-   geben? Wer haftet?" (DSGVO Art. 9)
+~90 % identisch über alle Behandlungs-/Therapiebetriebe *(Formulierung wie auf der Website,
+sachlich — keine saloppen Wendungen)*:
+1. **Terminanfragen kosten Zeit** – über Telefon, WhatsApp, E-Mail; Erinnerungen manuell;
+   kurzfristige Absagen hinterlassen Lücken.
+2. **Dokumentation nach Feierabend** – Befunde, Berichte, Notizen oft erst am Abend.
+3. **Nachsorge kommt zu kurz** – nach der Behandlung reißt der Kontakt ab, Stammkundschaft
+   kommt seltener wieder.
+4. **Alles hängt an der Leitung** – Behandlung, Führung und Verwaltung in einer Person.
+5. **Unsicherheit bei Gesundheitsdaten** – „Welche Tools sind zulässig, und wie bleibt alles
+   DSGVO-konform?" (DSGVO Art. 9)
 
 → Jede Unterseite/jeder Post = **dieser Kern + ein segment-spezifischer Twist** (die letzten 10 %).
 Das ist das „Rad", das du nur einmal baust.
