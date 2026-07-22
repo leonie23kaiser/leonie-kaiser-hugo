@@ -3,7 +3,7 @@
 *Wie du dein Google-Unternehmensprofil auf die neue Positionierung bringst. Du bearbeitest
 es eingeloggt in Google (business.google.com bzw. direkt in der Google-Suche). Warum wichtig:
 Das Profil ist eine **starke Quelle für lokale *und* KI-Empfehlungen** — genau der Citation-Hebel
-aus dem `citation_audit.md`.*
+aus dem `audits.md` (Teil 2, Citation-Magnet).*
 
 ## Dein aktuelles Profil — IST → SOLL (priorisiert)
 

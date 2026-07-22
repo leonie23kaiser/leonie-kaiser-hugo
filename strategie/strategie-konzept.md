@@ -2,7 +2,7 @@
 
 *Internes Arbeitsdokument. Konsolidiert aus AGENTS.md (Brand Voice, kanonisch),
 brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampling.md
-(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-14.*
+(Marktforschung, synthetisch), Angebotsvorschläge und pilot-akquise.md. Stand: 2026-07-20.*
 
 > Preiszahlen sind synthetische Orientierungs-Korridore (Silicon Sampling / ESOMAR)
 > und mit echten Kundengesprächen zu validieren.
@@ -13,8 +13,14 @@ brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampl
 
 KI- & Digitalisierungs-Partnerin für kleine, **inhabergeführte Gesundheitspraxen**
 (Wahlarzt / privat / Selbstzahler) — privat bzw. selbst bezahlte Gesundheit, nicht reine
-Hochvolumen-Kassen-Akutmedizin. Zielpraxen: 2–15 (max. ~20) Mitarbeitende, DACH-Raum
+Hochvolumen-Kassen-Akutmedizin. Zielpraxen: **2–10 (max. ~12) Mitarbeitende**, DACH-Raum
 (AT/DE/CH).
+
+**Marken-/Gewerbe-Fahrplan:** aktuell freies Gewerbe „KI & Digitalisierung" (Bezeichnung
+„KI- & Digitalisierungs-Expertin"). **Ab November 2026** geplanter Wechsel der Sparte auf
+**Unternehmensberatung** → ab dann Bezeichnung **„KI & Business Consultant"**. Bis dahin
+bewusst kein „Consulting/Beratung" im Marken-Auftritt (Unternehmensberatung ist ein
+reglementiertes Gewerbe).
 
 **Positionierungs-Achse: schmerz-geführt + Compliance-first.** Nicht auf eine einzelne
 Nische festgelegt, sondern positioniert um (a) den **homogenen Kern-Schmerz**, der in jedem Segment gleich
@@ -28,17 +34,26 @@ auch für die Inhaberin selbst — weniger Admin-Überstunden für die Person an
 KI ist Mittel zum Zweck — die Arbeit beginnt bei den Prozessen, nicht beim Tool. Das
 Persönliche bleibt geschützt: KI nimmt die Routine, nicht die Beziehung.
 
-**Aktueller Stand:** noch keine Kunden. Fokus: die ersten **1–2** echten Praxis-Fälle
-mit Zahlen und Referenzen gewinnen (breit über den Schmerz akquiriert, siehe Kapitel 7),
-dann gezielt die Tier-1-Zielsegmente bespielen.
+**Zwei-Track-Strategie** (Entscheidung 2026-07-20): Neben dem Praxis-Kern läuft parallel
+ein zweiter, hochpreisiger Track auf **Pharma-/Gesundheits-KMU (10–50 MA)** — erschlossen
+warm über das eigene Branchennetzwerk aus einer ~20-jährigen Pharma-/Medtech-Laufbahn.
+Dort wirkt die frühere Berufslaufbahn als echter Wettbewerbsvorsprung (Insider-
+Glaubwürdigkeit im regulierten Umfeld), den eine reine KI-Weiterbildung nicht liefert.
+Details: Kapitel 3, `zielgruppen-zwei-track.md`.
 
-Drei tragende Säulen:
+**Aktueller Stand:** noch keine Kunden. Fokus: in **beiden Tracks je 1–2 echte Fälle** mit
+Zahlen und Referenzen gewinnen (siehe Kapitel 7) — Track A schmerz-geführt in den
+Praxis-Segmenten, Track B warm über das Netzwerk.
+
+Tragende Säulen:
 1. **Produktisieren statt beraten** — klare Pakete mit benannten Ergebnissen.
 2. **Schmerz-geführt + Compliance-first** — um den überall gleichen Kern-Schmerz herum
    positionieren, Datenschutz als Differenzierungsmerkmal statt als Behauptung.
 3. **Referenzen schlagen Nischen-Rätselraten** — der erste echte Case ist wichtiger als
    die perfekte Segmentwahl; die priorisierte Zielsegment-Landkarte (Kap. 3) steuert,
    wen man *mit* Referenzen zuerst anspricht.
+4. **Laufbahn als Moat (Track B)** — im regulierten KMU-Segment ist die eigene
+   Pharma-/Medtech-Vorgeschichte der Filter, der Generalisten aussortiert.
 
 ---
 
@@ -47,15 +62,22 @@ Drei tragende Säulen:
 **Mission:** Praxisleitungen ihren Betrieb zurückgeben, damit wieder sie führen statt zu
 verwalten. Datenschutzkonforme Abläufe, die Termine, Aufnahme und wiederkehrende
 Verwaltung übernehmen — der Betrieb läuft, ohne dass die Leitung der Flaschenhals ist.
+In vielen kleinen Praxen gehen Kapazitäten in Verwaltung und Koordination verloren — Zeit,
+in der keine Behandlung stattfinden kann und in der neue Kundschaft im schlimmsten Fall
+abgewiesen werden muss. Genau diese Zeit soll zurück ins Kerngeschäft und an die Kundschaft.
 
 **Anti-Mission:** gegen „schnell und einfach", gegen „Tool rein, fertig", gegen KI als
 Buzzword, gegen Angst-/Funnel-Marketing, gegen bequemen Umgang mit Gesundheitsdaten.
 Kurz: kein Wunder, sondern Arbeit, die sich auszahlt.
 
 **Wen wir NICHT bedienen:** reine Hochvolumen-Kassen-Akutmedizin (ohne Privatanteil, ohne
-Veränderungsbereitschaft), Zahnärzte, Kliniken, Apotheken, Pflege, klinische
-Psychotherapie/Psychiatrie, große Pharmaunternehmen, Datenschutz-Ignorierer,
-„Tool-rein-fertig"-Gläubige.
+Veränderungsbereitschaft), Kliniken, Apotheken, Pflege, klinische
+Psychotherapie/Psychiatrie, **große Pharmakonzerne**, Datenschutz-Ignorierer,
+„Tool-rein-fertig"-Gläubige. *(Präzisierung 2026-07-20: kleine/mittlere regulierte
+Pharma-/Gesundheits-KMU mit 10–50 MA sind ausdrücklich drin — das ist Track B, siehe
+Kapitel 3. Ausgeschlossen bleiben nur die großen Konzerne.)*
+*(Zahnärzte: nicht aktiv targetiert, aber **nicht dezidiert ausgeschlossen** — mit privaten
+Zahnarztpraxen/Wahlarzt-Zahnmedizin ist eine Zusammenarbeit vorstellbar.)*
 
 **Mischpraxen ausdrücklich drin**, wenn Privatanteil (Wahlarzt/Selbstzahler) **und**
 Veränderungsbereitschaft da sind — eine Mischpraxis mit Privatanteil und Änderungswillen
@@ -76,8 +98,7 @@ Arbeitszeit. Dazu zwei Dinge, die eine VA nicht leistet:
 2. **Compliance-Verantwortung** — EU AI Act und DSGVO Art. 9 bei Gesundheitsdaten; eine
    VA berät dazu nicht und übernimmt keine Verantwortung.
 
-Kernsatz (intern, nicht 1:1 auf die Website, Leonie 2026-07 „Differenzierungssatz nicht
-einbauen"): *„Eine VA erledigt Aufgaben — ich sorge dafür, dass sie gar nicht erst
+Kernsatz (intern): *„Eine VA erledigt Aufgaben — ich sorge dafür, dass sie gar nicht erst
 anfallen, strategisch geplant und rechtlich abgesichert."* Auf der Website nur als
 **Nutzen** transportieren (Abläufe laufen von selbst, Strategie + Datenschutz inklusive),
 nie offen gegen VAs positionieren.
@@ -87,8 +108,10 @@ nie offen gegen VAs positionieren.
 ## 3. Zielgruppe & Markt
 
 > Datenbasis-Hinweis: Zahlen aus synthetischer Marktforschung (Silicon Sampling,
-> KI-Personas, ESOMAR ICC Code 2025) — Hypothesen, keine echten Befragungen. Vor
-> größeren Entscheidungen mit 10–20 realen Interviews je Segment validieren.
+> KI-Personas, ESOMAR ICC Code 2025) — Hypothesen, keine echten Befragungen. Sie dienen
+> als grobe Orientierung. Validierung erfolgt **nicht** über eine separate, kostenpflichtige
+> Umfrage, sondern laufend über die echten Pilot-Erstgespräche und die per
+> Potenzialanalyse-Tool nebenbei erhobenen Daten (siehe Kapitel 7).
 
 ### Der Schirm (ändert sich nie)
 
@@ -96,14 +119,20 @@ nie offen gegen VAs positionieren.
 > privat / Selbstzahler), die mit sensiblen Gesundheitsdaten arbeiten, ihren Alltag zu
 > entlasten — damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 
-**4 Anker-Kriterien** (alle müssen passen): inhabergeführt · klein (2–15, max. ~20
+**4 Anker-Kriterien** (alle müssen passen): inhabergeführt · klein (2–10, max. ~12
 Mitarbeitende) · sensible **Gesundheitsdaten** (DSGVO Art. 9) · lebt (auch) von
 Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis.
 
+*Praxis-Größen zur Orientierung:* die meisten kleinen Gesundheitspraxen (Physio, Ernährung,
+Wahlarzt) sind **solo bis ~8 Mitarbeitende**; ab ~10–12 wird es eher eine größere
+Gemeinschaftspraxis/ein Zentrum mit komplexeren Strukturen. Der Fokus auf **2–10 (max. ~12)**
+passt zum eigenen Wohlfühl-Rahmen und hält die Entscheidungswege kurz.
+
 **Gemeinschaftspraxen** (mehrere Ärzt:innen/Partner:innen als Miteigentümer:innen)
-zählen als „inhabergeführt" — gemeint ist der Gegensatz zu Ketten/externen Investoren,
-nicht die Anzahl der Eigentümer:innen. Relevant für den Verkaufsprozess ist dort nur die
-Entscheidungsstruktur (mehrere Partner:innen müssen zustimmen). Details: `segmente.md`.
+zählen als „inhabergeführt" — gemeint ist der Gegensatz zu Ketten/externen Investoren.
+Aber: **sie sind aufwändiger**, weil mehrere Inhaber:innen zustimmen müssen (längerer
+Verkaufszyklus). Deshalb **Praxen mit nur einer Inhaberin/einem Inhaber bevorzugen**,
+Gemeinschaftspraxen eher hinten anstellen. Details: `segmente.md`.
 
 **Erlebnis als Kaufgrund:** Wer privat/Wahlarzt zahlt, erwartet ein Premium-Erlebnis —
 genau da zieht das Nutzenversprechen „reibungsloses, professionelles Kundenerlebnis".
@@ -152,17 +181,62 @@ Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
 entscheidet schnell bei klarem Nutzen + überschaubarem Aufwand, Datenschutz sehr
 wichtig, lebt von privat zahlender Kundschaft. Details: `segmente.md`, `silicon-sampling.md`.
 
+### Zwei-Track-Strategie: Praxen (Track A) + Pharma-/Gesundheits-KMU (Track B)
+
+*Entscheidung 2026-07-20. Solo-/Einzelunternehmer werden bewusst nicht mehr verfolgt
+(knappes Budget, „Zeit-Paradox", schwacher ROI, Laufbahn-Vorteil verpufft). Stattdessen
+zwei parallele Tracks. Volle Herleitung: `zielgruppen-zwei-track.md`.*
+
+- **Track A — Kern (sofort):** kleine, inhabergeführte Gesundheitspraxen. Schneller Weg
+  zu ersten zahlenden Referenzen, deckt sich mit der bestehenden schmerz-/compliance-
+  geführten Positionierung, Website und Markensprache. Das ist der bisher beschriebene
+  Praxis-Track (Schirm + Zielsegment-Landkarte oben).
+- **Track B — Hebel (parallel, warm):** **Pharma-/Gesundheits-KMU (10–50 MA)**, DACH.
+  Hohes Ticket, harter Fachfilter — genau da wirken die **~13 Jahre im regulierten Pharma-/
+  Medtech-Umfeld** (Projektmanagement/CMC, später Digital-Transformation-Lead; Teil einer
+  ~20-jährigen Berufslaufbahn inkl. Beratung) als seltene Insider-Glaubwürdigkeit. Zugang
+  **nicht kalt, sondern warm über das bestehende
+  Branchennetzwerk** — damit fällt die größte Hürde des Segments (Vertrauen +
+  Branchenreferenz) weitgehend weg, und das teuerste Segment wird eines der am leichtesten
+  zugänglichen.
+
+**Zahlenvergleich (synthetisch, Größenordnung):**
+
+| Kriterium | Solo *(raus)* | Kleine Praxen (Track A) | Pharma-/Gesundheits-KMU (Track B) |
+|---|---|---|---|
+| Projekt-Ticket | ~300–1.500 € | ~1.500–3.700 € | ~7.000–15.000 € (Median ~12.000 €) |
+| Retainer/Monat | ~150 € | ~200–500 € | ~600–1.500 € |
+| Entscheider je Deal | 1 | 1 | Ø 2,7 (GF + QM + oft Datenschutzbeauftragte:r) |
+| Einstiegshürde | niedrig | mittel | hoch (Branchenreferenz Pflicht) |
+| Fit zur eigenen Laufbahn | gering | mittel | sehr hoch |
+
+**Wichtige Einschränkung:** Referenzen sind **nicht track-übergreifend übertragbar** — ein
+Pharma-/Gesundheits-KMU will einen Beleg aus der eigenen Branche. Deshalb muss mindestens
+eine frühe Referenz **direkt aus Track B** stammen, sonst bleibt dieser Track verschlossen.
+
+**Netzwerk als Vertriebsinfrastruktur (Track B):** das ehemalige Kolleg:innen-Netzwerk aus
+regulierten Pharma-/Gesundheitsunternehmen auf LinkedIn kartieren (wer ist heute in einem
+kleineren regulierten Betrieb in GF, Qualitätsmanagement oder Regulatory Affairs?) →
+warmes Reconnect (kein Pitch) + regelmäßige fachliche Sichtbarkeit zu konkreten
+Regulatorik-/QM-/Dokumentations-Themen. Für Track A: lokale Empfehlungsketten,
+Multiplikatoren (Steuerberatung, Berufsverbände), Website/Content.
+
 ### Der homogene Kern-Schmerz (einmal bauen, überall wiederverwenden)
 
 ~90 % identisch über alle Behandlungs-/Therapiebetriebe — das ist das „Rad", das nur
 einmal gebaut wird; jede Unterseite/jeder Post ergänzt nur den letzten, segment-
-spezifischen Twist (die 10 %):
-1. **Termin-Engpass** — Anfragen bleiben liegen, No-Shows, Lücken kosten Umsatz
-2. **Doku frisst die Abende**
-3. **Nachsorge/Recall fällt hinten runter** — Stammkundschaft geht verloren
-4. **Die Leitung ist der Flaschenhals** (Behandlung + Führung + Verwaltung in einer Person)
-5. **Unsicherheit im Umgang mit sensiblen Gesundheitsdaten** — „Darf ich das überhaupt in
-   ein KI-Tool geben? Wer haftet, wenn etwas schiefgeht?" (DSGVO Art. 9)
+spezifischen Twist (die 10 %). *(Formulierung wie auf der Website, bewusst sachlich —
+keine saloppen Wendungen, siehe Kap. 4 Brand-Voice-Regel.)*
+1. **Terminanfragen kosten Zeit** — Anfragen über Telefon, WhatsApp und E-Mail,
+   Erinnerungen manuell, kurzfristige Absagen hinterlassen Lücken im Kalender.
+2. **Dokumentation nach Feierabend** — Befunde, Berichte und Notizen werden oft erst am
+   Abend geschrieben.
+3. **Nachsorge kommt zu kurz** — nach der Behandlung reißt der Kontakt ab, Stammkundschaft
+   kommt seltener wieder.
+4. **Alles hängt an der Leitung** — Behandlung, Führung und Verwaltung in einer Person;
+   fällt die Leitung aus, steht der Betrieb.
+5. **Unsicherheit bei Gesundheitsdaten** — „Welche Tools sind für Gesundheitsdaten
+   überhaupt zulässig, und wie bleibt dabei alles DSGVO-konform?" (DSGVO Art. 9)
 
 **Datenschutz:** in allen Segmenten die maximale Hürde — emotional und vertrauensbasiert,
 nicht rein juristisch. „Datenschutzkonform" als Behauptung erhöht das Misstrauen; es
@@ -174,7 +248,9 @@ Ein digitaler Ordner (in eigener, EU-gehosteter Cloud), einmal angelegt und pro 
 wiederverwendet. **Inhalt:**
 - **AV-Vertrag-Vorlage** (Auftragsverarbeitungsvertrag) — rechtlich nötig, sobald Leonie
   personenbezogene Daten im Auftrag einer Praxis verarbeitet. Nicht optional.
-- **Tool-Liste**: eingesetzte Tools, Hosting-Ort (EU/Nicht-EU), Link zu deren eigenem AV-Vertrag/DPA.
+- **Tool-Liste**: eingesetzte Tools, Hosting-Ort (EU/Nicht-EU), Link zum Auftragsverarbeitungs-
+  vertrag des jeweiligen Anbieters (englisch „DPA" = Data Processing Agreement = AV-Vertrag —
+  die Seite, auf der ein Tool-Anbieter seine Datenverarbeitung rechtlich zusichert).
 - **EU-AI-Act-Einstufung**: halbe Seite, welche Risiko-Stufe je Tool (für kleine Praxen meist „begrenzt/minimal").
 - **1-Seiten-Klartext für Kundschaft**: „So gehe ich mit Ihren Daten um."
 
@@ -185,8 +261,18 @@ wiederverwendet. **Inhalt:**
 wo möglich · AV-Verträge mit allen Tools · EU AI Act & DSGVO von Anfang an · klare
 Zuständigkeit bei Rückfragen" — plus die `/eu-ai-act/`-Seite und die „Was heißt
 datenschutzkonform"-FAQ. **Was in der Mappe bleibt** (nicht auf die Website): die Dokumente
-selbst — AV-Vertrag-Vorlage, Tool-Risiko-Einstufung, DPA-Links. Die sind Nachweis-Material
-im Verkaufsprozess, nicht Website-Inhalt.
+selbst — AV-Vertrag-Vorlage, Tool-Risiko-Einstufung, Anbieter-AV-Verträge. Die sind
+Nachweis-Material im Verkaufsprozess, nicht Website-Inhalt.
+
+**Wie viel Verantwortung trägt Leonie? (kurz, keine Rechtsberatung — mit Anwalt/WKÖ
+absichern.)** Die **Praxis bleibt die Verantwortliche** (Controller) für ihre Daten — das
+ist nicht abtretbar. Leonie ist beim Verarbeiten personenbezogener Daten im Auftrag
+**Auftragsverarbeiterin** und haftet für **ihren Teil**: sauberes Setup, AV-Vertrag,
+geeignete technische/organisatorische Maßnahmen, keine Lösung auf Datenschutz-Lücken. Sie
+übernimmt **nicht** die Gesamt-Haftung der Praxis. Konsequenzen bei Fehlern: Haftung/
+Schadenersatz für den eigenen Beitrag, im schlimmsten Fall DSGVO-Bußgelder und
+Reputationsschaden. Deshalb: **Berufshaftpflicht** abschließen, im Vertrag Leistungsumfang
+und Haftung klar begrenzen, und Datenschutz nie „mal eben" mitlaufen lassen.
 
 ---
 
@@ -194,6 +280,13 @@ im Verkaufsprozess, nicht Website-Inhalt.
 
 `AGENTS.md` ist kanonisch. Tonalität: Sie-Form, warm, ruhig, strukturiert, souverän;
 bodenständig, nie esoterisch/hype-ig.
+
+### Keine saloppen Wendungen (festgelegt 2026-07)
+Sachlich, ruhig, professionell — **keine flapsigen/umgangssprachlichen Formulierungen.**
+Nicht: „frisst die Abende", „fällt hinten runter", „geht unter", „Zettelwirtschaft" als
+Effekt-Wort. Stattdessen die nüchterne Website-Formulierung: „Dokumentation nach
+Feierabend", „Nachsorge kommt zu kurz", „alles hängt an der Leitung". Maßstab bei Zweifeln:
+das Doc mit den Website-Texten (dort ist die geprüfte, freigegebene Tonalität).
 
 ### Gendern-Regel (festgelegt 2026-07)
 **Neutrale Form + Paarform, keine Sonderzeichen** (kein Doppelpunkt, kein Sternchen).
@@ -255,42 +348,37 @@ Betreuung (Retainer).**
    Analyse"** — nimmt den „in 30 Min versteht die meine Praxis nicht"-Einwand vorweg.
    Verkaufslogik: die Analyse selbst ist der Wert (gebrandete PPTX) — kein Gratis-Aufbau
    ohne Vertrag. Details/Ablauf: `service-katalog.md`, `angebotsvorschlaege.md`.
-2. **Praxis-Automatisierungs-Projekt** — Strategie → Roadmap → Implementierung →
-   Team-Einweisung. Einmalprojekt. Konkrete Bausteine (No-Code-Prozessautomatisierung,
-   KI-Agenten für wiederkehrende Kommunikation, Cloud-/On-Premise-Entscheidung, digitales
-   Wissensmanagement, EU-AI-Act/DSGVO als Querschnitt): `angebotsvorschlaege.md`.
-3. **Laufende Betreuung (Retainer)** — monatlicher Check-in, Optimierung, fester
-   Ansprechpartner. Von Anfang an als Vertrauens-Anker.
+2. **Digitalisierung & Umsetzung** — Strategie → Roadmap → Implementierung →
+   Team-Einweisung. Als Website-Pakete: **Praxis-Start** (ein Leistungsbereich, ~1.490 €)
+   und **Praxis-Plus** (zwei bis drei Bereiche kombiniert, ~2.900–5.900 €). Konkrete
+   Bausteine: `service-katalog.md`, `angebotsvorschlaege.md`.
+3. **Laufende Betreuung (Retainer)** — monatlicher Check-in, Optimierung, feste
+   Ansprechpartnerin. Ab ~190 €/Monat. Von Anfang an als Vertrauens-Anker.
 
-**Separat — Pilot-Angebot (die ersten 3–5 Praxen, gestaffelt):** ein verkürztes
-Automatisierungs-Projekt mit **2–3 zusammenhängenden Automatisierungen** in einem
-Themenfeld (nicht nur ein einzelner Schritt — sonst fehlt die Substanz für eine echte
-Case Study), kostenfrei/reduziert gegen Feedback, Testimonial und die Einwilligung, die
-Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen. Gestaffelt starten
-(nicht alle gleichzeitig), damit aus den ersten gelernt wird.
+**Separat — Pilot-Angebot (die ersten 2–3 Praxen, gestaffelt):** ein **kostenfrei**
+umgesetztes Praxis-Start-Paket (ein Leistungsbereich, fertig eingerichtet und eingewiesen)
+im Austausch für Feedback und — bei Zufriedenheit — eine Referenz unter echtem Namen.
+Gestaffelt starten (nicht alle gleichzeitig), damit aus den ersten gelernt wird.
 
-**Preis-Orientierung (synthetisch, zu validieren) — nach Tier sortiert:**
+**Preise: die Website-Pakete sind der verbindliche Stand:**
 
-| Tier | Segment | Einmalprojekt | Retainer/Mo | Ideal |
-|---|---|:--:|:--:|:--:|
-| 1 | Medical-Wellness | ~2.032 € | ~304 € | ~3.500 € |
-| 1 | Physio-/Therapiepraxen | ~1.528 € | ~203 € | ~2.400 € |
-| 2 | Longevity / Präventionsmedizin | ~5.012 € | ~796 € | ~8.500 € |
-| 2 | Check-up · Sportmedizin | ~2.000 €+ | — | — |
-| 3 | Ernährungsberatung/Diätologie | ~804 € | ~151 € | ~1.200 € |
+| Paket | Umfang | Preis |
+|---|---|:--:|
+| Potenzialanalyse | 30 Min, Einstieg | kostenfrei |
+| Praxis-Start | ein Leistungsbereich | ~1.490 € |
+| Praxis-Plus | 2–3 Bereiche kombiniert | ~2.900–5.900 € |
+| Laufende Betreuung | monatlich, optional | ab ~190 €/Mo |
 
-*Tier 1 = jetzt ansprechen · Tier 2 = großes Ticket, aber erst mit Referenzen + belegbarer
-Compliance · Tier 3 = nur bei konkreter Anfrage. Longevity-Zahlen sind der Ausreißer nach
-oben (Premium/Team-Personas — Vergleichsvorbehalt in `silicon-sampling.md`). Ästhetik: keine
-aktive Zielgruppe.*
-
-Erster Umsetzungsschritt am unteren Rand ansetzen. Nicht zu billig (Qualitäts-Schwelle).
+*Synthetische Segment-Preiskorridore aus dem Silicon Sampling (Basis, nicht kundenseitig):
+Physio ~1.528 € · Medical-Wellness ~2.032 € · Longevity ~5.012 € (Premium-Ausreißer) ·
+Ernährungsberatung ~804 €. Sie stützen die Paketpreise, ersetzen sie aber nicht — die
+Pakete oben gelten. Details/Vorbehalt: `silicon-sampling.md`.*
 
 **Service-Katalog & Retainer-Abdeckung:** ausführlich als eigenes Dokument
-`strategie/service-katalog.md` (konkrete „das ist alles möglich"-Liste + was die laufende
-Betreuung abdeckt + Beispiel-Szenarien). Kurzüberblick: Termine & Anfragen (inkl. Chatbot),
-Dokumentation & Wissen, Kundenbindung & Nachsorge, Vorlagen für Sichtbarkeit, technische &
-rechtliche Basis.
+`strategie/service-katalog.md` (an die Website-Texte angeglichen). Kurzüberblick — vier
+Bereiche: **Termine & Anfragen** (inkl. Chat- und Telefonassistent), **Dokumentation &
+Wissen**, **Nachsorge & Kundenbindung**, **Sichtbarkeit** (Vorlagen + Auffindbarkeit in
+KI-Suchen/GEO) — plus **technische & rechtliche Basis** als Querschnitt in jedem Projekt.
 
 ---
 
@@ -298,7 +386,7 @@ rechtliche Basis.
 
 | Zweifel | Antwort |
 |---|---|
-| „Der Aufwand bleibt an mir hängen." | Sie richten ein, nicht die Praxisleitung. Team wird eingewiesen. |
+| „Der Aufwand bleibt an mir hängen." | **Ich** richte ein, nicht Sie — Ihr Team wird eingewiesen. („Ich" = Leonie, „Sie" = die Praxisleitung.) |
 | „Datenschutz bei sensiblen Daten?" | EU AI Act & DSGVO als Ausgangspunkt, sichtbar belegt. |
 | „Versteckte Folgekosten?" | Transparente Fixpreise, vorab genannt. |
 | „Wer betreut das danach?" | Der Retainer — als Anker von Anfang an. |
@@ -310,39 +398,54 @@ reichen nicht": den Gratis-Call nie so bewerben, sondern mit konkretem Ergebnis 
 
 ## 7. Startplan: die ersten 90 Tage (0 → erste Referenzen)
 
-Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **3–5 echte Fälle** mit
-Vorher-/Nachher-Zahlen und namentlichen Testimonials, gestaffelt bis Jahresende (das
-Zeitfenster vor der offiziellen Zertifizierung ist ideal für Gratis-/Günstig-Piloten).
-**Breit über den Kern-Schmerz akquirieren** (nicht auf ein Segment beschränken) — wer
-zuerst anbeißt und einen echten Case liefert, zählt. Für die aktive Ansprache trotzdem bei
-den **Tier-1-Zielsegmenten (Physio, Medical-Wellness)** beginnen, weil dort am ehesten
-gewinnbar (Kap. 3).
+Ziel der ersten Phase ist nicht Umsatz, sondern **Beweise**: **2–3 echte Fälle**
+(mindestens einer je Track) mit Vorher-/Nachher-Zahlen und namentlichen Testimonials,
+gestaffelt bis Jahresende (das Zeitfenster vor der offiziellen Zertifizierung ist ideal
+für die **kostenfreien Piloten**).
+
+- **Track A (Praxen):** breit über den Kern-Schmerz akquirieren — wer zuerst anbeißt und
+  einen echten Case liefert, zählt. Für die aktive Ansprache bei den **Tier-1-Segmenten
+  (Physio, Medical-Wellness)** beginnen, weil dort am ehesten gewinnbar (Kap. 3).
+- **Track B (Pharma-/Gesundheits-KMU):** **warm über das kartierte Branchennetzwerk** —
+  ehrliches Reconnect + Frage nach Empfehlungen zum Thema Audit-/Dokumentations-Entlastung,
+  kein Kaltakquise-Pitch. Mindestens **eine** frühe Referenz muss aus Track B selbst
+  stammen (Praxis-Referenzen zählen dort nicht).
+
+**Phase 2 (Monat 4–9):** auswerten, welcher Track besser konvertiert, wo die Marge liegt
+und welche Arbeit stimmiger ist — dann bewusst Fokus setzen (nicht vorher raten). Piloten
+zu festen, produktisierten Fixpreis-Paketen weiterentwickeln, synthetische Preiskorridore
+durch echte Abschlüsse ersetzen. **Phase 3 (ab Monat 10):** Skalierung über
+Empfehlungsstrukturen + Content, Ausbau der Retainer-Basis.
+
+*(Die folgenden 90-Tage-Phasen beschreiben primär den operativen Ablauf für Track A; für
+Track B gilt derselbe Rhythmus, nur mit warmer Netzwerk-Ansprache statt Kaltakquise —
+Details: `zielgruppen-zwei-track.md`.)*
 
 > **Zur Zertifizierung:** Der KI-Lehrgangs-Abschluss ist *keine rechtliche Voraussetzung*
 > für Kunden — er ist Kompetenz-/Vertrauens-Nachweis, kein Gewerbe-Tor. Rechtlich zählt die
 > Gewerbeberechtigung; Umsetzung/Automatisierung fällt unter das *freie* Gewerbe
 > „IT-Dienstleistung/ADV". Solange die Arbeit als Umsetzung (nicht reglementierte
-> „Unternehmensberatung") gerahmt ist, kann losgelegt werden. Gratis-/Günstig-Piloten sind
+> „Unternehmensberatung") gerahmt ist, kann losgelegt werden. Die kostenfreien Piloten sind
 > der ideale Brückenschritt bis zum Abschluss. *(Gewerbe-Abgrenzung mit WKÖ absichern.)*
 
-**Keine getrennte Marktumfrage vorweg:** Die Pilot-Erstgespräche selbst sind schon die
-Marktvalidierung (gleiche Fragen zu Kernschmerz + Zahlungsbereitschaft + die 3
-Messfragen unten). Eine separate Runde mit 10–20 Interviews *vor* der Akquise kostet nur
-Zeit, ohne dass am Ende ein Case entsteht — deshalb direkt mit der Pilot-Ansprache
-starten.
+**Keine separate Marktumfrage — und keine Investition dafür geplant:** Die synthetischen
+Silicon-Sampling-Zahlen werden **nicht** durch eine gesonderte, kostenpflichtige
+Interview-Runde validiert. Die **Pilot-Erstgespräche** und die per **Potenzialanalyse-Tool
+nebenbei erhobenen Fragen** sind die laufende Realitäts-Prüfung (gleiche Fragen zu
+Kernschmerz + Zahlungsbereitschaft + die 3 Messfragen unten). Wer die Zahlen ohnehin nur als
+grobe Orientierung nutzt und keine große Investition plant, braucht keine Vorab-Umfrage —
+direkt mit der Pilot-Ansprache starten.
 
-**Pilot-Angebot** (separat von den regulären Angeboten, siehe Kap. 5): kompakte
-Potenzialanalyse + **2–3 zusammenhängende Automatisierungen in einem Themenfeld**
-(ein einzelner Schritt liefert zu wenig Substanz für eine Case Study), kostenfrei/
-vergünstigt gegen Feedback, Testimonial und die Einwilligung, die Praxis **unter echtem
-Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte Zahl wirkt schnell
-wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel (Kap. 4).
+**Pilot-Angebot** (separat von den regulären Angeboten, siehe Kap. 5): ein **kostenfrei**
+umgesetztes Praxis-Start-Paket (ein Leistungsbereich, 2–3 zusammenhängende Automatisierungen)
+gegen Feedback, Testimonial und die Einwilligung, die Praxis **unter echtem Namen** (nicht
+anonymisiert) als Case zu zeigen.
 
 ### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
-- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, Medical-Wellness), aber offen
-  für jede kleine Gesundheitspraxis mit dem Kern-Schmerz — primär aus dem eigenen
-  Netzwerk, sonst DACH-weit remote (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
-- Pilot-Umfang grob festlegen (welches Themenfeld mit 2–3 zusammenhängenden
+- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, Medical-Wellness), Praxen mit
+  **einer Inhaberin/einem Inhaber** bevorzugt (kurze Entscheidungswege) — primär aus dem
+  eigenen Netzwerk, sonst DACH-weit remote (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
+- Pilot-Umfang grob festlegen (welcher Leistungsbereich mit 2–3 zusammenhängenden
   Automatisierungen realistisch in 2–4 Wochen einzurichten ist).
 - **Datenschutz-Mappe vorbereiten** (AV-Verträge, EU-Hosting-Nachweis, EU-AI-Act-Einstufung)
   — das ist bei Compliance-first-Positionierung das zentrale Vertrauensmittel und muss vom

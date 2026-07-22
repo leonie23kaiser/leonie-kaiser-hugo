@@ -1,52 +1,86 @@
-# strategie/ — Markt, Zielgruppe & Positionierung
+# strategie/ — zentrale Strategie-Ablage (Single Source of Truth)
 
-Strategische Quelle für **leoniekaiser.com**: Wer ist die Zielgruppe, wie ist
-Leonie positioniert, was sagen die Daten. Diese Dateien sind die **inhaltliche
-Grundlage** für die Website-Copy — die kanonische Brand Voice selbst liegt
-weiterhin in [`../AGENTS.md`](../AGENTS.md) und verweist auf diesen Ordner.
+**Das hier ist die zentrale Ablage für die gesamte Strategie.** Alle Claude-Threads und
+alle Personen greifen auf *diese* Dateien auf dem `main`-Branch zu — es gibt keine zweite
+Kopie irgendwo. Wer die aktuelle Strategie braucht, findet sie hier.
 
-## Inhalt
+> **Word-Dokumente (.docx) liegen NICHT im Repo.** Sie werden bei Bedarf aus diesen
+> `.md`-Dateien erzeugt (Download). Die `.md` sind immer die Wahrheit, das Word-Doc ist nur
+> eine Momentaufnahme zum Verschicken/Ausdrucken.
 
-| Datei | Rolle | Zweck | Status |
-|---|---|---|---|
-| [`strategie-briefing-gesundheitsbetriebe.md`](strategie-briefing-gesundheitsbetriebe.md) | **Konsolidiert — „lies das"** | Positionierungs- & Kommunikations-Leitfaden: bündelt Haltung + Markt + fertige Textbausteine + Preis-Korridore in einem Dokument. | ✅ |
-| [`brand_position.md`](brand_position.md) | Quelle (Haltung) | Brand Position — Mission/Anti-Mission, 3 Positionen, wen wir (nicht) bedienen. Aus dem 10-Fragen-Sparring. | ✅ |
-| [`silicon-sampling.md`](silicon-sampling.md) | Quelle (Markt) | Synthetische Marktforschung (200 Personas, 5 Segmente) — Pain Points, O-Töne, Preisbereitschaft, Segment-Ranking. ESOMAR. | ✅ |
-| [`brand_data.md`](brand_data.md) | Quelle (Belege/Geschichten) | Eigene Quellen, Methodik, Quellen-Hierarchie, Story Bank (Testimonials + Track Record), Erfolgsmetriken. Das, was KI als Quelle zitiert. | ✅ |
-| [`story_bank.md`](story_bank.md) | Quelle (Geschichten) | Zitierbare Mini-Geschichten (Situation→Konflikt→Lösung→Beweis): 4 echte Fälle + Ziel-Segment-Vorlagen zum Füllen. | ✅ |
-| [`pilot-akquise.md`](pilot-akquise.md) | Operativ | Vorlage: erste echte Praxis-Cases gewinnen — Pilot-Angebot, Anschreiben, 3 Messfragen. | ✅ |
-| [`empfehlungs-stories.md`](empfehlungs-stories.md) | Copy | Spiegelgeschichten (Situation→Konflikt→Lösung) in 3 Längen (A/B/C) + Kanal-Plan. Variante A → LinkedIn. | ✅ |
-| [`angebotsvorschlaege.md`](angebotsvorschlaege.md) | Angebot | Produktisierte Pakete (Analyse → Quick-Win/Projekt → Retainer), Preis-Korridore, Einwandbehandlung. | ✅ |
-| [`google-business-profile.md`](google-business-profile.md) | Kanal | GBP-Anpassung: Name-Regel, Kategorien, fertige Beschreibung, Leistungen, Bewertungen, Q&A. | ✅ |
-| [`trust_audit.md`](trust_audit.md) | Audit | Trust-Triangle-Audit (Frei): Authenticity/Logic/Empathy, Schwachstellen, Maßnahmen, Wiedervorlage 2026-09-30. | ✅ |
-| [`citation_audit.md`](citation_audit.md) | Audit | Citation-Magnet-Audit: wirst du von KI empfohlen? Score 3/10, VORHER→NACHHER-Sätze, 90-Tage-Plan. | ✅ |
-| [`update-plan.md`](update-plan.md) | Betrieb | Wann was aktualisieren (Ereignis- + Zeit-getriggert), Asana-Task-Liste, Validierungs-Meilenstein. | ✅ |
-| `segmente.md` | Quelle (geplant) | Zielpersonen-Steckbriefe je Säule (nur falls für Copy gebraucht) | geplant |
+---
 
-## Zusammenspiel der Dateien (Pflege)
+## Wo anfangen
 
-Zwei **Quellen** speisen ein **konsolidiertes** Dokument:
+👉 **[`strategie-konzept.md`](strategie-konzept.md) ist die Master-Datei — „lies das zuerst".**
+Sie konsolidiert alles: Positionierung, Zielgruppe (inkl. Zwei-Track), Angebot, Preise,
+Startplan. Alle anderen Dateien sind entweder **Detail-Quellen**, die sie speisen, oder
+**fertige Copy** für einen bestimmten Kanal.
 
-> `brand_position.md` (Haltung) + `silicon-sampling.md` (Markt) → `strategie-briefing-gesundheitsbetriebe.md`
+Für ein Gesamt-Word-Dokument (Konzept + Positionierung + Service-Katalog in einem): auf
+Anfrage generierbar, nicht dauerhaft im Repo.
 
-**Regel bei Änderungen:** Immer zuerst die **Quelle** ändern (Haltung in
-`brand_position.md`, Marktzahlen in `silicon-sampling.md`), dann das **Briefing
-synchronisieren**. Das Briefing ist die Fassung zum Vorzeigen und für den Doc-Export;
-es enthält Teile der Quellen bewusst doppelt. Nie nur im Briefing ändern — sonst
-driften Quelle und Zusammenfassung auseinander.
+---
 
-## Zielgruppe (Kurzfassung)
+## Inhalt (nach Rolle)
 
-Inhaber:innen kleiner **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
-(2–15 MA) im deutschsprachigen Raum (AT/DE/CH) — privat/selbst bezahlte Gesundheit &
-Wohlbefinden. Fokus-Segmente: **Longevity/Medical-Wellness**, **Ästhetik**,
-**Privat-/Präventions-Physio & Osteopathie** sowie **Wohlbefinden/Regeneration**.
-**Ausgeschlossen:** Kassen-Akutmedizin (Haus-/Fachärzte, Zahnärzte, Kliniken),
-Apotheken, Pflege, klinische Psychotherapie, große Pharma. Grundlage:
-`silicon-sampling.md`.
+### Master
+| Datei | Zweck |
+|---|---|
+| **[`strategie-konzept.md`](strategie-konzept.md)** | **Konsolidiertes Gesamt-Konzept.** Stand 2026-07-20. Hier zuerst nachschauen. |
 
-## Hinweis
+### Detail-Quellen (speisen das Konzept)
+| Datei | Zweck |
+|---|---|
+| [`segmente.md`](segmente.md) | Schirm, Anker-Kriterien, homogener Kern-Schmerz, Zielsegment-Landkarte (Tier 1/2/3). |
+| [`silicon-sampling.md`](silicon-sampling.md) | Synthetische Marktforschung, alle Runden (Scores, Preise, O-Töne). ESOMAR. |
+| [`zielgruppen-zwei-track.md`](zielgruppen-zwei-track.md) | Zwei-Track-Herleitung (Praxen + Pharma-/Gesundheits-KMU), Netzwerkaufbau. |
+| [`brand_position.md`](brand_position.md) | Haltung: Mission/Anti-Mission, wen wir (nicht) bedienen. |
+| [`angebotsvorschlaege.md`](angebotsvorschlaege.md) | Angebots-Architektur, Preis-Korridore, Einwandbehandlung. |
+| [`service-katalog.md`](service-katalog.md) | Konkreter Service-Katalog, Retainer-Abdeckung, Beispiel-Szenarien. |
+| [`pilot-akquise.md`](pilot-akquise.md) | Operativ: Pilot-Akquise, Anschreiben, 3 Messfragen, Einwilligung. |
+| [`brand_data.md`](brand_data.md) | Belege, Methodik, Quellen-Hierarchie, Erfolgsmetriken. |
+| [`story_bank.md`](story_bank.md) | Zitierbare Mini-Geschichten (Situation→Konflikt→Lösung→Beweis) + fertige Spiegelgeschichten-Copy + Story-Workflow. |
 
-Die Marktforschung beruht auf **synthetischen KI-Personas** (Silicon Sampling,
-ESOMAR ICC Code 2025). Ergebnisse sind Hypothesen, keine Fakten — vor großen
-Entscheidungen mit echten Gesprächen gegenprüfen.
+### Fertige Copy (pro Kanal)
+| Datei | Zweck |
+|---|---|
+| [`linkedin-profil.md`](linkedin-profil.md) · [`linkedin-profil-en.md`](linkedin-profil-en.md) | LinkedIn-Headline, Info, Positionen (DE/EN). |
+| [`unternehmensbeschreibung.md`](unternehmensbeschreibung.md) | Verzeichnisse/Canva/Social + Farbpalette. |
+| [`google-business-profile.md`](google-business-profile.md) | GBP: Kategorien, Beschreibung, Leistungen, Q&A. |
+
+*(Spiegelgeschichten-Copy ist in `story_bank.md` eingegliedert.)*
+
+### Audits & Betrieb
+| Datei | Zweck |
+|---|---|
+| [`audits.md`](audits.md) | Trust-Triangle- + Citation-Magnet-Audit in einem, Wiedervorlage 2026-09-30. |
+| [`update-plan.md`](update-plan.md) | Wann was aktualisieren (Ereignis-/Zeit-getriggert). |
+
+### Archiv
+| Datei | Zweck |
+|---|---|
+| [`archiv/strategie-briefing-gesundheitsbetriebe.md`](archiv/strategie-briefing-gesundheitsbetriebe.md) | **Überholt** (01.07.) — ersetzt durch `strategie-konzept.md`. Nur historisch. |
+
+---
+
+## So arbeiten mehrere Threads sauber auf denselben Dateien
+
+Damit nichts verloren geht (es gab schon einmal einen Merge-Datenverlust), gelten drei Regeln:
+
+1. **Immer erst holen, dann bearbeiten, direkt danach pushen.**
+   `git fetch origin main && git merge --no-edit origin/main` **vor** dem Editieren,
+   `git push` **sofort** nach dem Commit. Nicht lange mit uncommitteten Änderungen sitzen.
+2. **Bereichs-Ownership — nicht zwei Threads gleichzeitig dieselbe Datei.**
+   - Strategie-Thread → `strategie/` (dieser Ordner).
+   - Website-Thread → `src/growthtogether.at/` (Layouts, Content, `data/branchen.yaml`, Tool).
+   Braucht ein Thread etwas im anderen Bereich, per Prompt an den zuständigen Thread geben,
+   statt selbst reinzuschreiben.
+3. **Eine Wahrheit pro Thema.** Neue Erkenntnis → in die passende bestehende Datei
+   einarbeiten (und im Master `strategie-konzept.md` kurz spiegeln), **keine neue
+   Parallel-Datei** zum selben Thema anlegen. So bleibt die Dateizahl stabil.
+
+---
+
+*Brand Voice (kanonisch): [`../AGENTS.md`](../AGENTS.md). Marktzahlen synthetisch
+(ESOMAR ICC Code 2025) — vor größeren Entscheidungen mit echten Gesprächen validieren.*

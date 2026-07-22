@@ -4,7 +4,8 @@
       "WebFetch(domain:exe.dev)",
       "WebFetch(domain:angular.dev)",
       "WebFetch(domain:learn.microsoft.com)",
-      "WebFetch(domain:gohugo.io)"
+      "WebFetch(domain:gohugo.io)",
+      "Bash(cp /root/.claude/uploads/1319561e-4a71-5a60-ba7c-1584bdcc67fc/a3ffb32b-MaFoErstgespraecheLeonieKaiser.xlsx /tmp/claude-0/-home-user-leonie-kaiser-hugo/1319561e-4a71-5a60-ba7c-1584bdcc67fc/scratchpad/MaFo-Erstgespraeche_Leonie-Kaiser.xlsx)"
     ]
   }
 }

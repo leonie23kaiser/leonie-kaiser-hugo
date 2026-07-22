@@ -4,9 +4,8 @@
 
 *Stand: 2026-06-30 (Erhebung) · Strategie-Ebene aktualisiert 2026-07-06 · Methode: Silicon Sampling (synthetische Respondenten) · Zweistufig: Segment-Scan (Stufe 1) + Deep Dive (Stufe 2).*
 
-> **Quelldatei (Markt).** Wird konsolidiert im
-> `strategie-briefing-gesundheitsbetriebe.md`. Marktzahlen/O-Töne hier zuerst ändern,
-> dann das Briefing synchronisieren.
+> **Quelldatei (Markt).** Wird konsolidiert im Master `strategie-konzept.md`.
+> Marktzahlen/O-Töne hier zuerst ändern, dann im Master spiegeln.
 
 ## Kurzfassung & strategische Ableitung
 
