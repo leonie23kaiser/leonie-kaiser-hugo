@@ -7,8 +7,8 @@ keine saloppen Wendungen). Direkt als Angebots-/Website-Rohmaterial nutzbar. Sta
 > **Menü, kein Pflichtprogramm.** Alle Bausteine sind einzeln wählbar und kombinierbar. In
 > der kostenfreien Potenzialanalyse wird ausgewählt, welche für die jeweilige Praxis am
 > meisten bringen. Grundprinzip überall: **erst die Prozesse, dann das Tool** ·
-> **datenschutzkonform von Anfang an** (EU AI Act & DSGVO) · **ich richte ein, das Team wird
-> eingewiesen — Sie werden nicht zur IT-Abteilung.**
+> **datenschutzkonform von Anfang an** (EU AI Act & DSGVO) · **ich richte für Sie ein, das Team
+> wird eingewiesen — Sie werden nicht zur IT-Abteilung.**
 
 ---
 
@@ -18,8 +18,11 @@ keine saloppen Wendungen). Direkt als Angebots-/Website-Rohmaterial nutzbar. Sta
 Weniger Ausfälle, weniger Rückfragen am Telefon. Der Empfang läuft, ohne dass ständig jemand
 ans Telefon muss.
 - **Online-Terminbuchung** mit Selbstbuchungslink, in Ihr bestehendes System integriert.
-- **Automatische Erinnerungen & Wartelisten-Nachbesetzung** — Erinnerungen über den
-  bevorzugten Kanal, frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt.
+- **Automatische Terminerinnerungen** über den bevorzugten Kanal — weniger vergessene Termine,
+  weniger Nachtelefonieren.
+- **KI-gestützte Erstbeantwortung wiederkehrender Anfragen** (E-Mail, Kontaktformular) mit
+  vorbereiteten Antwortbausteinen — Standardfragen werden zuverlässig und einheitlich
+  beantwortet, Sie geben nur noch frei.
 - **Chat-Assistent für Erstanfragen** auf Ihrer Website (Öffnungszeiten, Anfahrt, Preise,
   Terminwünsche) — ohne medizinische Auskunft.
 - **Telefonassistent (Voicebot)** für Anrufe außerhalb der Öffnungszeiten — nimmt
@@ -99,8 +102,6 @@ Bedarf verweise ich an passende Spezialistinnen und Spezialisten.*
 - **Recruiting / HR-Beratung.**
 - **Allgemeiner IT-Support** (Hardware, Drucker, WLAN, Netzwerk) außerhalb der eingerichteten
   Automatisierung.
-- **Medizinische oder therapeutische Beratung jeder Art** — ausschließlich organisatorische/
-  administrative Prozesse.
 
 ---
 
@@ -115,12 +116,14 @@ Bedarf verweise ich an passende Spezialistinnen und Spezialisten.*
   verschickt das Team von Hand. Sagt jemand kurzfristig ab, bleibt der Termin meist
   unbesetzt, und die Rezeption wird über den Tag immer wieder unterbrochen.
 - **So setzen wir um:** Online-Terminbuchung mit Selbstbuchungslink, automatische
-  Erinnerungen über den bevorzugten Kanal und eine Warteliste, die frei gewordene Termine
-  selbstständig nachbesetzt. Alles datenschutzkonform aufgesetzt, das Team wird eingewiesen.
-- **Nachher:** spürbar weniger Ausfälle, freie Termine füllen sich von selbst, deutlich
-  weniger Rückfragen am Telefon — mehr Zeit für die Behandlung statt für die Organisation.
+  Terminerinnerungen über den bevorzugten Kanal und eine KI-gestützte Erstbeantwortung
+  wiederkehrender E-Mail- und Formularanfragen mit vorbereiteten Antwortbausteinen. Alles
+  datenschutzkonform aufgesetzt, das Team wird eingewiesen.
+- **Nachher:** spürbar weniger vergessene Termine, Standardanfragen werden zuverlässig und
+  einheitlich beantwortet, deutlich weniger Rückfragen am Telefon — mehr Zeit für die
+  Behandlung statt für die Organisation.
 
-### Szenario B — Medical-Wellness-Praxis: Nachsorge & Kundenbindung
+### Szenario B — privatärztliches Gesundheitszentrum: Nachsorge & Kundenbindung
 - **Vorher:** Nach der Behandlung reißt der Kontakt ab. Renewal-Erinnerungen und Follow-ups
   laufen manuell und verstreut über verschiedene Kanäle; Kundschaft geht still verloren.
 - **So setzen wir um:** eine automatisierte Nachsorge-Sequenz, ein Recall zum richtigen

@@ -164,7 +164,7 @@ charakterisiert, was ihre Scores mit anhebt).*
 | Segment | Score | Projekt-OPP | Retainer/Mo |
 |---|:--:|:--:|:--:|
 | Physiotherapie / Therapiepraxen (Aushängeschild) | 11 | 1.528 € | 203 € |
-| Medical-Wellness (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
+| Privatärztliche Gesundheitszentren (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
 
 **Tier 2 — großes Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
@@ -174,7 +174,9 @@ charakterisiert, was ihre Scores mit anhebt).*
 | Check-up / Vorsorgemedizin · Sportmedizin | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration, Haftungstiefe |
 
 **Tier 3 — nur bei konkreter Anfrage (schwächer, solo-lastig):** Podologie (10),
-Ernährungsberatung (9), Osteopathie/Ergo/Logo/Hebammen/Massage/Heilpraktiker (8–9).
+Ernährungsberatung (9), Osteopathie/Ergo/Logo/Hebammen/Massage/Heilpraktiker (8–9),
+private Zahnarzt-/Wahlarzt-Zahnmedizin (datenseitig stark; nur privat/Selbstzahler,
+nicht Kassenlogik).
 
 **Archetyp „Martina, 47":** Inhaberin einer Privat-/Präventions-Physiopraxis mit fünf
 Mitarbeitenden. Hat viel über KI gehört, aber selbst noch nichts ausprobiert;
@@ -370,7 +372,7 @@ Gestaffelt starten (nicht alle gleichzeitig), damit aus den ersten gelernt wird.
 | Laufende Betreuung | monatlich, optional | ab ~190 €/Mo |
 
 *Synthetische Segment-Preiskorridore aus dem Silicon Sampling (Basis, nicht kundenseitig):
-Physio ~1.528 € · Medical-Wellness ~2.032 € · Longevity ~5.012 € (Premium-Ausreißer) ·
+Physio ~1.528 € · privatärztliche Gesundheitszentren ~2.032 € · Longevity ~5.012 € (Premium-Ausreißer) ·
 Ernährungsberatung ~804 €. Sie stützen die Paketpreise, ersetzen sie aber nicht — die
 Pakete oben gelten. Details/Vorbehalt: `silicon-sampling.md`.*
 
@@ -386,7 +388,7 @@ KI-Suchen/GEO) — plus **technische & rechtliche Basis** als Querschnitt in jed
 
 | Zweifel | Antwort |
 |---|---|
-| „Der Aufwand bleibt an mir hängen." | **Ich** richte ein, nicht Sie — Ihr Team wird eingewiesen. („Ich" = Leonie, „Sie" = die Praxisleitung.) |
+| „Der Aufwand bleibt an mir hängen." | **Ich richte für Sie ein** — Ihr Team wird eingewiesen, Sie werden nicht zur IT-Abteilung. („Ich" = Leonie, „Sie" = die Praxisleitung.) |
 | „Datenschutz bei sensiblen Daten?" | EU AI Act & DSGVO als Ausgangspunkt, sichtbar belegt. |
 | „Versteckte Folgekosten?" | Transparente Fixpreise, vorab genannt. |
 | „Wer betreut das danach?" | Der Retainer — als Anker von Anfang an. |
@@ -405,7 +407,7 @@ für die **kostenfreien Piloten**).
 
 - **Track A (Praxen):** breit über den Kern-Schmerz akquirieren — wer zuerst anbeißt und
   einen echten Case liefert, zählt. Für die aktive Ansprache bei den **Tier-1-Segmenten
-  (Physio, Medical-Wellness)** beginnen, weil dort am ehesten gewinnbar (Kap. 3).
+  (Physio, privatärztliche Gesundheitszentren)** beginnen, weil dort am ehesten gewinnbar (Kap. 3).
 - **Track B (Pharma-/Gesundheits-KMU):** **warm über das kartierte Branchennetzwerk** —
   ehrliches Reconnect + Frage nach Empfehlungen zum Thema Audit-/Dokumentations-Entlastung,
   kein Kaltakquise-Pitch. Mindestens **eine** frühe Referenz muss aus Track B selbst
@@ -442,7 +444,7 @@ gegen Feedback, Testimonial und die Einwilligung, die Praxis **unter echtem Name
 anonymisiert) als Case zu zeigen.
 
 ### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
-- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, Medical-Wellness), Praxen mit
+- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, privatärztliche Gesundheitszentren), Praxen mit
   **einer Inhaberin/einem Inhaber** bevorzugt (kurze Entscheidungswege) — primär aus dem
   eigenen Netzwerk, sonst DACH-weit remote (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
 - Pilot-Umfang grob festlegen (welcher Leistungsbereich mit 2–3 zusammenhängenden

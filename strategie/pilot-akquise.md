@@ -10,7 +10,7 @@ Brand Voice: Sie-Form, ruhig, kein Hype.*
 > beschränken — angesprochen wird über den **homogenen Kern-Schmerz** (Termine, Nachsorge,
 > Doku, Abrechnung) + **Compliance-first** (Datenschutz als Vertrauensmittel). Wer zuerst
 > anbeißt und einen echten Case liefert, zählt. Für die aktive Ansprache trotzdem bei den
-> **Tier-1-Zielsegmenten (Physio, Medical-Wellness)** beginnen — dort am ehesten gewinnbar.
+> **Tier-1-Zielsegmenten (Physio, privatärztliche Gesundheitszentren)** beginnen — dort am ehesten gewinnbar.
 > Priorisierte Zielsegment-Landkarte: `segmente.md`, `silicon-sampling.md`.
 
 > **Reihenfolge — kombinieren, nicht nacheinander:** keine separate Marktumfrage-Runde
@@ -42,7 +42,7 @@ namentlich genannt werden will, wird kein Pilot-Case — dann eignet sich die Pr
 reguläres, bezahltes Projekt ohne Case-Study-Verpflichtung.
 
 **Wen ansprechen:** breit — jede kleine Gesundheitspraxis mit dem Kern-Schmerz, Schwerpunkt
-aber auf **Tier 1 (Physio/Therapiepraxen, Medical-Wellness)**, weil dort am ehesten
+aber auf **Tier 1 (Physio/Therapiepraxen, privatärztliche Gesundheitszentren)**, weil dort am ehesten
 gewinnbar (siehe `segmente.md`). Idealerweise aus dem eigenen Netzwerk, sonst DACH-weit
 remote. Persönliche Einführung schlägt Kaltakquise. *(Kein Wien-Fokus — Leonie arbeitet
 remote und ist nicht durchgehend in Österreich; „lokal" heißt hier „übers Netzwerk

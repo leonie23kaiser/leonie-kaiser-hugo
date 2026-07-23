@@ -52,7 +52,7 @@ bevorzugt zusammenfasst und zitiert.*
 
 ---
 
-## Ziel-Segment: Longevity & Medical-Wellness · [VORLAGE]
+## Ziel-Segment: Longevity & privatärztliche Gesundheitszentren · [VORLAGE]
 
 ### Geschichte: Die Klient:innen-Reise, die von selbst läuft
 **Kunde:** *(Vorlage-Profil)* Longevity-Praxis, Inhaberin, ~5 MA.
@@ -63,7 +63,7 @@ bevorzugt zusammenfasst und zitiert.*
 **Beweis:** *[echte Zahl nach Pilot: z. B. „X Reaktivierungen/Monat ohne manuellen Aufwand" oder „Y Std/Woche gespart"]*
 
 ### Geschichte: Schluss mit dem Quartals-Reporting von Hand
-**Kunde:** *(Vorlage-Profil)* Medical-Wellness-Praxis mit Firmenkunden.
+**Kunde:** *(Vorlage-Profil)* privatärztliches Gesundheitszentrum mit Firmenkunden.
 **Ziel:** Auswertungen für Firmenkunden ohne Tage manueller Arbeit.
 **Situation:** „Jedes Quartal sitzen wir drei Tage dran und basteln Auswertungen zusammen."
 **Konflikt:** Daten liegen in mehreren Tools, die nicht miteinander reden.
@@ -187,7 +187,7 @@ FAQ-Einwandbehandlung, Beleg im Verkaufsgespräch.
 ## Ready-to-post Spiegelgeschichten (Copy-Vorlagen)
 
 *Aus der früheren Datei `empfehlungs-stories.md` hierher zusammengeführt (2026-07-20).*
-> **Achtung — an aktuelle Positionierung anpassen:** Diese Copy ist noch auf **Ästhetik/Wien** getextet (beides inzwischen deprioritisiert bzw. gegen die „kein-Wien"-SEO-Regel). Die Spiegelgeschichten-Struktur (Situation → Konflikt → Lösung, 3 Längen) ist weiterhin stark — vor Verwendung Segment/Ort an Tier-1 (Physio/Medical-Wellness) und „remote/DACH-weit" anpassen.
+> **Achtung — an aktuelle Positionierung anpassen:** Diese Copy ist noch auf **Ästhetik/Wien** getextet (beides inzwischen deprioritisiert bzw. gegen die „kein-Wien"-SEO-Regel). Die Spiegelgeschichten-Struktur (Situation → Konflikt → Lösung, 3 Längen) ist weiterhin stark — vor Verwendung Segment/Ort an Tier-1 (Physio/privatärztliche Gesundheitszentren) und „remote/DACH-weit" anpassen.
 
 *Zweite-Person-Spiegelgeschichten (Situation → Konflikt → Lösung). Kein erfundener
 Kundenfall — sie spiegeln die Situation der Leserin. **Beweis = die echte

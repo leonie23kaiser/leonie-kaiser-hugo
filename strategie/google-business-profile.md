@@ -75,7 +75,7 @@ Google fragt). Vorschlag:
 
 **Kategorie „IT-Berater" / „Softwareberatung" (als Sekundär-Kategorie hinzufügen):**
 - **Praxis-Automatisierung** — *Aufbau-Projekt: Analyse → Roadmap → fertige Umsetzung der ersten
-  Abläufe (Termine, Aufnahme, Nachfassen). Ich richte ein, Ihr Team wird eingewiesen. EU AI Act &
+  Abläufe (Termine, Aufnahme, Nachfassen). Ich richte für Sie ein, Ihr Team wird eingewiesen. EU AI Act &
   DSGVO von Anfang an.*
 
 *(Falls du „IT-Berater" nicht als Kategorie anlegen willst, kannst du Praxis-Automatisierung auch

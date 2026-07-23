@@ -88,7 +88,7 @@ Physio, Ergo, Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/T
 Hebammen, Ernährungsberatung/Diätologie.
 
 **B. Prävention & Wohlbefinden (homogen-nah):**
-Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
+Longevity/privatärztliche Gesundheitszentren (IV/Hormone/Membership), Massage/manuelle Therapie.
 
 ## Start: schmerz-geführt, breit — keine festgelegten Start-Segmente
 
@@ -111,7 +111,7 @@ als „Premium/Team" charakterisiert, was deren Scores mit anhebt.*
 | Segment | Score | Projekt-OPP | warum |
 |---|:--:|:--:|---|
 | **Physiotherapie / Therapiepraxen** (inkl. Ergo/Osteo/Podo) | 11 | 1.528 € | zugänglich, klarer Leidensdruck, ideales Aushängeschild |
-| **Medical-Wellness** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
+| **Privatärztliche Gesundheitszentren** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
 
 **Tier 2 — das große Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
@@ -124,7 +124,9 @@ als „Premium/Team" charakterisiert, was deren Scores mit anhebt.*
 **Tier 3 — nur bei konkreter Anfrage/Empfehlung (schwächer, solo-lastig):**
 Podologie (10) · Ernährungsberatung/Diätologie (9, deep-dived) · Osteopathie (9) ·
 Heilpraktiker/Naturheilkunde/TCM (9) · Hebammen (9) · Massage/manuelle Therapie (9) ·
-Ergotherapie (9) · Logopädie (8). Durchgängig Solo-lastig, niedrigere Preisklasse.
+Ergotherapie (9) · Logopädie (8) · private Zahnarzt-/Wahlarzt-Zahnmedizin (datenseitig
+stark, aber nur privat/Selbstzahler — nicht Kassenlogik). Durchgängig Solo-lastig,
+niedrigere Preisklasse.
 
 ## Fertiger Baustein: Ernährungsberatung / Diätologie (für `branchen.yaml`, Phase 2)
 

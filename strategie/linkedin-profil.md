@@ -45,7 +45,7 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 > 🧭 Erst die Prozesse, dann das Tool. KI ist der Verstärker, nicht das Ziel.
 > 🔒 Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte – EU AI Act und DSGVO von Anfang an.
 > 💬 Ehrliches Nein: Reicht ein einfacher Ablauf, sage ich Ihnen das.
-> 🤝 Ich richte ein, Ihr Team wird eingewiesen – Sie werden nicht zur IT-Abteilung.
+> 🤝 Ich richte für Sie ein, Ihr Team wird eingewiesen – Sie werden nicht zur IT-Abteilung.
 >
 > Über 20 Jahre Berufserfahrung: mehr als ein Jahrzehnt in international regulierten Gesundheits-
 > und Pharmaunternehmen (u. a. Merck Healthcare, AbbVie, Baxter) – Digitalisierung, Marketing und

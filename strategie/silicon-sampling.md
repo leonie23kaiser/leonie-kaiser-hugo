@@ -235,11 +235,17 @@ Referenzen da sind, gezielt die höher-priorisierten Segmente ansprechen.
 
 *Innerhalb-Runde-Ranking verlässlich, Cross-Run-Scores nur grob (siehe Vorbehalt oben).*
 
+> **Begriffs-Zuordnung:** Das in den Studien-Runden verwendete Label **„Medical-Wellness"**
+> heißt in der Positionierung und den kundenseitigen Texten jetzt **„privatärztliche
+> Gesundheitszentren"** (IV/Hormone/Membership) — „Wellness" ist bewusst raus. Die
+> Roh-Tabellen unten behalten das ursprüngliche Studien-Label als Beleg.
+
 **Tier 1 — zuerst ansprechen (gewinnbar + gutes Ticket, weiche Brand Voice passt):**
 - **Physiotherapie / Therapiepraxen** — Score 11, OPP 1.528 €. Zugänglich, klarer
   Leidensdruck, ideales Aushängeschild.
-- **Medical-Wellness** (IV/Hormone/Membership) — Score 12, OPP 2.032 €. Passt unter
-  „Gesundheit & Wohlbefinden", Membership-Automatisierung als starker Hebel.
+- **Privatärztliche Gesundheitszentren** (IV/Hormone/Membership; Studien-Label
+  „Medical-Wellness") — Score 12, OPP 2.032 €. Passt unter „Gesundheit & Wohlbefinden",
+  Membership-Automatisierung als starker Hebel.
 
 **Tier 2 — das große Ticket, aber erst mit Referenzen + Compliance-Nachweis:**
 - **Longevity / Präventionsmedizin** — Score 13, OPP **5.012 €** (der Preis-Ausreißer nach
@@ -251,9 +257,13 @@ Referenzen da sind, gezielt die höher-priorisierten Segmente ansprechen.
 - Podologie (10), Ernährungsberatung (9, deep-dived), Osteopathie/Ergotherapie/Hebammen/
   Massage/Heilpraktiker (9), Logopädie (8). Durchgängig Solo-lastig, niedrigere
   Preisklasse, hohe Datenschutz-Hürde.
+- **Private Zahnarzt-/Wahlarzt-Zahnmedizin** — datenseitig stark (Score 11, OPP ~2.031 €),
+  aber nur im **privat/Selbstzahler**-Teil, **nicht** die Kassenlogik. Deshalb nicht Start-,
+  sondern Tier-3-Ziel bei konkreter Anfrage/Empfehlung.
 
-**Ausgeschlossen (aus Runde 1):** Zahnarzt (Kassenlogik), klinische Psychotherapie
-(kategorialer KI-Widerstand), Ästhetik (kippt Richtung „Beauty").
+**Ausgeschlossen:** klinische Psychotherapie (kategorialer KI-Widerstand), Ästhetik
+(kippt Richtung „Beauty"). *(Zahnarzt war früher komplett ausgeschlossen; jetzt als
+privat/Selbstzahler-Variante in Tier 3 wieder aufgenommen — siehe oben.)*
 
 ---
 
