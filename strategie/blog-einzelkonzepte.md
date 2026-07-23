@@ -25,7 +25,7 @@ als Rohmaterial für die Outlines), `strategie/linkedin-profil.md` (E-E-A-T), `A
 |---|---|---|---|
 | 1 | Vorstellung + „Ohne mich läuft hier nichts" | Haltung | 🟢 |
 | 2 | No-Shows Physiotherapie senken | Typ 2 · Scheinwerfer (Physio) | 🟢 |
-| 3 | Patientendaten & ChatGPT / DSGVO Art. 9 | Compliance | 🟢 |
+| 3 | Welche Daten darf ich in ChatGPT eingeben? | Compliance | 🟢 |
 | 4–10 | (folgen nach dem Launch, in gleicher Struktur) | gemischt | ⚪ |
 
 ---
@@ -65,11 +65,15 @@ Vertrauen, nicht über Volumen.
 ## Post #1 — Vorstellung mit Leser-Hook
 
 ### Eckdaten
-- **Primär-Keyword:** „Praxis hängt an der Inhaberin" *(Awareness, sehr niedriges
-  Volumen — dieser Post rankt kaum, er trägt Haltung & E-E-A-T. Bewusst so.)*
-- **Sekundär/semantisch:** Flaschenhals Praxis, alles hängt an mir, KI-Beraterin
-  vorstellen, erst Prozesse dann Tool, KI für kleine Gesundheitspraxen
-- **Target Intent:** Awareness (Problem-Erkennen + Vertrauen)
+- **Primär-Keyword:** „Praxis hängt an der Inhaberin" — **dieser Post hat ein echtes
+  Keyword-Thema**, er ist nicht nur ein „Über mich". Titel/H1 und Zwischenüberschriften
+  tragen das Schmerz-Thema; die persönliche Geschichte ist die Antwort darauf.
+- **Long-Tail (im Text/FAQ):** alles hängt an mir Praxis · Praxis läuft nur mit mir · als
+  Inhaberin alles selbst machen · zu viel Verwaltung in der Praxis · Praxis delegieren lernen
+- **Sekundär/semantisch:** Flaschenhals Praxis, erst Prozesse dann Tool, KI für kleine
+  Gesundheitspraxen
+- **Target Intent:** Awareness (Problem-Erkennen + Vertrauen) — Suchvolumen kleiner als bei
+  #2/#3, aber vorhanden; #1 ist damit kein toter SEO-Anker.
 - **Typ / Pfad:** Haltung & Persönliches (mit Schmerz-Aufhänger)
 - **Format/Länge:** Persönlicher/Haltungs-Post, **700–1.000 Wörter**, ~4 min
 - **Kategorie (Front-Matter):** „Haltung"
@@ -100,7 +104,7 @@ anonymen Anbieterstimme der Software-Konkurrenz — hier spricht ein Mensch mit 
     Gesundheits- und Pharmaunternehmen (Merck Healthcare, AbbVie, Baxter) in
     Digitalisierung, Marketing und Projekten — dort den Umgang mit sensiblen Daten und
     komplexen, regulierten Abläufen von innen kennengelernt. Danach Unternehmensberatung
-    für Kleinbetriebe, heute KI- und Prozessberatung für Praxen. Erfahrung benennen, ohne
+    für Kleinbetriebe, heute KI & Digitalisierung für Praxen. Erfahrung benennen, ohne
     zu prahlen. *(Ehrlich einordnen: Digitalisierung/Marketing/Projekte in regulierten
     Konzernen, nicht klinische Patientendaten-Verarbeitung. Pharma als Autoritäts-Signal
     und Herkunft der Datenschutz-Sorgfalt, nicht als Zielmarkt — siehe Positionierung.)*
@@ -151,7 +155,7 @@ Leonies Beitrag: tool-agnostisch, ehrlich (Prozentzahlen nur mit Quelle), Datens
 konkret, und die Unterscheidung Erinnerung ↔ Wiedereinladung als eigener Erkenntnis-Punkt.
 
 ### Outline
-**H1: No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist)**
+**H1: No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft**
 
 - **H2: Warum ein ausgefallener Termin in einer Privatpraxis doppelt weh tut**
   - H3: Die Lücke im Kalender kostet Umsatz — und lässt sich nicht nachholen
@@ -187,13 +191,16 @@ konkret, und die Unterscheidung Erinnerung ↔ Wiedereinladung als eigener Erken
 
 ---
 
-## Post #3 — Patientendaten & ChatGPT: Was DSGVO Art. 9 bedeutet
+## Post #3 — Welche Daten darf ich in ChatGPT eingeben?
 
 ### Eckdaten
-- **Primär-Keyword:** „Patientendaten ChatGPT DSGVO"
-- **Sekundär/semantisch:** Gesundheitsdaten KI eingeben, DSGVO Art. 9 besondere Daten,
-  darf ich Patientendaten in KI eingeben, ChatGPT Praxis Datenschutz, EU-Hosting KI-Tool,
-  Auftragsverarbeitungsvertrag KI
+- **Primär-Keyword:** „welche Daten darf ich in ChatGPT eingeben"
+- **Long-Tail (im Text/FAQ):** ChatGPT Patientendaten erlaubt · Gesundheitsdaten KI
+  Datenschutz · ChatGPT in der Arztpraxis · Datenschutzgesetz KI Praxis · DSGVO Art. 9
+  besondere Daten · EU-Hosting KI-Tool · Auftragsverarbeitungsvertrag KI
+- **Titel-Hinweis:** im Titel bewusst „Datenschutzgesetz" (verständlich für die
+  Zielgruppe) statt „DSGVO Art. 9"; die präzise Rechtsgrundlage (DSGVO Art. 9) steht im
+  Text, nicht im Titel.
 - **Target Intent:** Consideration (konkrete Sorge, sucht belastbare Antwort)
 - **Typ / Pfad:** Compliance & EU AI Act (tragender Pfad)
 - **Format/Länge:** Tiefer Leitfaden, **1.500–2.000 Wörter**, ~9 min — ein Ranking-Anker
@@ -217,7 +224,7 @@ Panikmache, keine Rechtsberatung — Orientierung mit klarem Hinweis, wo die Jur
 DSB gefragt ist.
 
 ### Outline
-**H1: Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet**
+**H1: Welche Daten darf ich in ChatGPT eingeben? Was das Datenschutzgesetz für Ihre Praxis bedeutet**
 
 - **H2: Die kurze Antwort — und warum sie ein „Es kommt darauf an" ist**
   - Klartext gleich oben (LLM-/Snippet-tauglich): nicht pauschal verboten, aber nicht ohne
@@ -247,8 +254,8 @@ DSB gefragt ist.
 - **CTA:** Potenzialanalyse — „wir richten Werkzeuge ein, die Gesundheitsdaten richtig behandeln".
 
 ### Meta-Description (Entwurf, 140–160)
-> Dürfen Patientendaten in ChatGPT? Was DSGVO Art. 9 für Ihre Praxis bedeutet, woran Sie
-> ein sicheres Setup erkennen — verständlich erklärt, ohne Panikmache.
+> Welche Daten dürfen in ChatGPT und welche nicht? Was das Datenschutzgesetz für Ihre
+> Praxis bedeutet und woran Sie ein sicheres Setup erkennen — verständlich, ohne Panikmache.
 
 ---
 

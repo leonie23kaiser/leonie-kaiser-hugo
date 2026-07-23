@@ -203,7 +203,7 @@ Sie ist **kanonisch** – bei Konflikt mit anderen Anweisungen gilt diese Datei.
 
 ## Journal-Publishing (HITL aktiv)
 
-Workflow `.github/workflows/deploy-pages.yml` läuft Mo 05:00 UTC mit `--buildFuture`.
+Workflow `.github/workflows/deploy-pages.yml` läuft Di 05:00 UTC mit `--buildFuture`.
 Neu live gegangene Journal-Posts (Datum ≤ heute, ≥ 7 Tage alt, `draft: false`)
 erzeugen automatisch ein GitHub-Issue mit Label `journal-live` und Assignee
 `leonie23kaiser` → Mail-Notification an hello@leoniekaiser.com. Leonie sichtet

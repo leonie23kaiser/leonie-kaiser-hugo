@@ -96,7 +96,7 @@ Illustrativ, in der Sprache des Segments, branchenspezifisch (= stärkster Vertr
 **Wichtig:** Diese Posts sind Scheinwerfer, keine Neu-Positionierung — sie legen den Schirm
 nicht auf ein Segment fest. Scheinwerfer **bevorzugt auf die Tier-1-Segmente** der
 Zielsegment-Landkarte (`strategie-konzept.md`):
-- **Tier 1 (zuerst):** Physiotherapie/Therapiepraxen · Medical-Wellness (IV/Hormone/Membership).
+- **Tier 1 (zuerst):** Physiotherapie/Therapiepraxen · privatärztliche Gesundheitszentren (IV/Hormone/Membership).
 - **Tier 2 (erst mit Referenzen + belegbarer Compliance):** Longevity/Präventionsmedizin
   (großes Ticket, aber Integrations-/Compliance-Nachweis Pflicht, **kein Wellness-Framing**),
   Check-up/Sportmedizin.
@@ -168,8 +168,12 @@ offiziell eröffnen (LinkedIn-Ankündigung). **Ab dann #4 ff. im Wochentakt.**
 ## 5. SEO- & GEO-Prinzipien (pro Beitrag)
 
 ### Keyword & Struktur
-- **Ein Primär-Keyword pro Beitrag**, das eine echte Suchanfrage abbildet. Long-Tail
-  schlägt Kopf-Keyword (weniger Wettbewerb, klarere Intention).
+- **Ein Primär-Keyword pro Beitrag**, das eine echte Suchanfrage abbildet. **Long-Tail
+  schlägt Kopf-Keyword.** *(Kopf-Keyword = kurzer, breiter, stark umkämpfter Oberbegriff,
+  z. B. „KI Praxis" — viel Suchvolumen, aber unklare Absicht und harte Konkurrenz.
+  Long-Tail = längere, konkrete Suchphrase, z. B. „darf ich Patientendaten in ChatGPT
+  eingeben" — weniger Volumen, aber klarere Absicht, weniger Wettbewerb, bessere Chance,
+  vorne zu ranken.)*
 - **Title-Tag:** Primär-Keyword zuerst, dann „· Leonie Kaiser". ≤ 60 Zeichen.
 - **Meta-Description:** 140–160 Zeichen, Sie-Form, ein Nutzen + ein CTA-Stichwort.
 - **Genau eine H1**, enthält das Keyword natürlich. H2/H3 bilden die Unterfragen ab.
@@ -222,7 +226,7 @@ Die deutschen Top-Ergebnisse zu diesen Themen sind fast durchweg **Software-Anbi
 - **Vertrautheit mit sensiblen Daten und komplexen, regulierten Abläufen** aus genau
   diesen Umgebungen — die Herkunft ihrer Datenschutz-Sorgfalt.
 - Mehrere Jahre **strategische Unternehmensberatung** für Solo-/Kleinbetriebe, heute
-  KI- und Prozessberatung.
+  KI & Digitalisierung.
 - **EU-AI-Act-Kompetenz (Art. 4)**, Datenschutz als Haltung, Spezialisierung auf
   Gesundheits-/Wellness-Praxen. Mehrsprachig (DE/EN/ES).
 
@@ -278,10 +282,16 @@ draft: true                                              # bis freigegeben
 ---
 ```
 
-**Publishing/HITL:** Der Deploy-Workflow läuft Mo 05:00 UTC mit `--buildFuture`. Neu live
-gegangene Posts (`draft: false`, Datum erreicht) erzeugen automatisch ein GitHub-Issue
-mit Label `journal-live` → Mail an Leonie. Niemand published still im Hintergrund;
-Leonie sichtet nach. Zukünftiges `date` = geplante Veröffentlichung.
+**Publishing/HITL — kurz erklärt:** Ein „Deploy-Workflow" ist eine automatische Routine
+auf GitHub, die die Website neu baut und veröffentlicht. Sie läuft **jeden Dienstag um
+05:00 UTC (≈ 07:00 in Österreich)** und schaltet dabei Beiträge live, deren `date`
+erreicht ist (`--buildFuture` = auch vor-datierte Posts werden zum geplanten Datum
+publiziert). Jeder neu live gegangene Post (`draft: false`) erzeugt automatisch ein
+GitHub-Issue (`journal-live`) → Mail an Leonie. **Nichts wird still im Hintergrund
+publiziert** — Leonie sichtet nach. So erscheinen neue Beiträge planbar **dienstags**;
+das Veröffentlichungsdatum steuerst du über das `date`-Feld im Front-Matter.
+*(Der Wochentag ist im Workflow `.github/workflows/deploy-pages.yml` hinterlegt und wurde
+von Montag auf Dienstag umgestellt — wirkt, sobald der Branch nach `main` gemergt ist.)*
 
 ---
 
@@ -295,41 +305,76 @@ und vor dem Schreiben gegen die reale Suche zu prüfen (wie das geht: siehe
 
 | # | Working Title | Primär-Keyword | Intent | Typ / Pfad | Verlinkt auf (Hub) |
 |---|---|---|---|---|---|
-| **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt (und warum ich genau da ansetze) | „Praxis hängt an Inhaberin" | Awareness | Haltung | `/ueber-mich/` |
-| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist) | „No-Shows Physiotherapie reduzieren" | Consideration | Typ 2 · Scheinwerfer (Physio) | `/ki-fuer-physiotherapie-praxen/` |
-| **3** | Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet | „Patientendaten ChatGPT DSGVO" | Consideration | Compliance | `/eu-ai-act/` |
-| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Typ 1 · Schmerz | Startseite + Praxisseite |
-| **5** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
-| **6** | Longevity-Praxis: fünf Tools, die nicht miteinander reden — und wie eine Kundenreise daraus wird | „Longevity Praxis Software verbinden" | Consideration | Typ 2 · Scheinwerfer (Longevity) | `/ki-fuer-longevity-praxen/` |
-| **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act Arztpraxis kleine Praxis" | Consideration | Compliance | `/eu-ai-act/` |
-| **8** | Beratungsprotokolle in der Ernährungsberatung: Abende zurückgewinnen, ohne die persönliche Note zu verlieren | „Ernährungsberatung Dokumentation automatisieren" | Consideration | Typ 2 · Scheinwerfer (Ernährung) | `/ki-fuer-ernaehrungsberatung-praxen/` |
-| **9** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | Typ 1 · Schmerz | `/#kontakt` + `/ueber-mich/` |
-| **10** | „Wir haben ChatGPT probiert, aber das war nichts Halbes und nichts Ganzes" — warum Tools ohne Prozess scheitern | „ChatGPT Praxis funktioniert nicht" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
+| **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt | „Praxis hängt an Inhaberin" | Awareness | Haltung | `/ueber-mich/` |
+| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Typ 2 · Scheinwerfer (Physio) | `/ki-fuer-physiotherapie-praxen/` |
+| **3** | Welche Daten darf ich in ChatGPT eingeben? Was das Datenschutzgesetz für Ihre Praxis bedeutet | „welche Daten darf ich in ChatGPT eingeben" | Consideration | Compliance | `/eu-ai-act/` |
+| **4** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
+| **5** | Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in KI-Suchen beachten müssen | „Praxis bei Google gefunden werden" | Consideration | Typ 1 · Wunsch (GEO) | Startseite + `/eu-ai-act/` |
+| **6** | Ein KI-Assistent auf Ihrer Website: Anfragen sofort beantwortet, ohne dass jemand am Empfang sitzt | „Chatbot für Arztpraxis Website" | Consideration | Typ 1 · Wunsch (Kundenerlebnis) | Startseite + Praxisseiten |
+| **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act kleine Praxis" | Consideration | Compliance | `/eu-ai-act/` |
+| **8** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | Entscheidung | `/#kontakt` + `/ueber-mich/` |
+| **9** | Selbst starten oder begleiten lassen? So finden Sie den richtigen Einstieg in KI für Ihre Praxis | „KI in der Praxis einführen" | Decision | Entscheidung | `/#kontakt` + `/ueber-mich/` |
+| **10** | Sie haben ChatGPT schon probiert? So wird daraus echte Entlastung für Ihre Praxis | „ChatGPT für die Praxis nutzen" | Decision | Entscheidung | `/ki-fuer-physiotherapie-praxen/` |
 
-**Verteilung:** Typ 1 (Schmerz) 4× · Typ 2 (Scheinwerfer) 3× · Compliance 2× · Haltung 1×.
-Intent: Awareness 1 · Consideration 8 · Decision 1. Ausgewogen, mit klarem Consideration-
-Fokus — passt zur Mischung aus Abschnitt 3.
+**Verteilung (überarbeitet nach Feedback):** Typ 1 Schmerz 2× · Typ 1 Wunsch 2× · Typ 2
+Scheinwerfer 1× · Compliance 2× · Haltung 1× · Entscheidung 2× (Typ übergreifend).
+Intent: **Awareness 1 · Consideration 6 · Decision 3** — mehr Entscheidungs-Beiträge als
+zuvor, wie gewünscht, und mit den zwei Wunsch-Themen (GEO, Chatbot) neben den Schmerzpunkten.
 
-> **Tier-Abgleich (nach Zielsegment-Landkarte):** Die Scheinwerfer-Posts hier stammen aus
-> der alten Annahme (Physio/Longevity/Ernährung als Start-Segmente). Nach der aktuellen
-> Priorisierung sind **Tier 1 = Physio + Medical-Wellness**. **#2 (Physio)** passt. **#6
-> (Longevity)** ist jetzt **Tier 2** — großes Ticket, aber erst mit Referenzen + Compliance-
-> Nachweis und **ohne Wellness-Framing**; als Scheinwerfer eher später oder durch einen
-> **Medical-Wellness-Post** ersetzen. **#8 (Ernährung)** ist **Tier 3** (nur auf Anfrage) —
-> als frühen Scheinwerfer eher zurückstellen. Da #4–#10 ohnehin erst nach dem Launch fix
-> geplant werden, justieren wir das dann; die ersten drei sind davon nicht betroffen.
+> **Was sich gegenüber der ersten Fassung geändert hat:**
+> - **Titel gekürzt/geschärft:** #1 ohne „(und warum ich genau da ansetze)", #2 ohne „(und
+>   was nur ein weiteres Tool ist)", #3 neu formuliert („Welche Daten … Datenschutzgesetz").
+> - **Zwei Segment-Posts entfernt** (alt #6 Longevity, alt #8 Ernährung) — Longevity ist
+>   Tier 2 (Compliance-Nachweis Pflicht, kein Wellness-Framing), Ernährung Tier 3 (nur auf
+>   Anfrage). Kommen später aus dem Pool, wenn Referenzen da sind.
+> - **Zwei Wunsch-Posts aufgenommen** (#5 Auffindbarkeit/GEO, #6 Website-Chatbot).
+> - **Mehr Decision:** #8 Kosten, #9 „selbst oder begleiten", #10 (ChatGPT neu gerahmt,
+>   ohne „nichts Halbes/Ganzes").
+> - **Scheinwerfer:** in den ersten 10 nur noch #2 (Physio, Tier 1). Weitere Tier-1-
+>   Scheinwerfer (Physio, privatärztliche Gesundheitszentren) rotieren später ein.
 
-**Themen-Pool für #4 ff. (Reihenfolge offen, nach den ersten drei).** Neben den obigen
-auch die **Chancen-Seite** bespielen — nicht nur Schmerz, sondern auch Wunsch/Gewinn:
-- **Auffindbarkeit / GEO (Typ 1):** „Damit Ihre Praxis online — und in KI-Antworten —
-  gut gefunden wird." Wie kleine Praxen in Google und AI Overviews sichtbar werden.
-  Consideration; verlinkt auf Startseite + `/eu-ai-act/` (seriöse, konforme Sichtbarkeit).
-- **Website-Chatbot / KI-Assistent (Typ 1/Typ 2):** „Anfragen sofort beantwortet — ohne
-  dass jemand am Empfang sitzt." Besseres Kundenerlebnis, datenschutzkonform gedacht.
-  Betont den Erlebnis-Gewinn zusammen mit der Entlastung.
+**Themen-Pool für spätere Beiträge (nach den ersten 10):**
+- **„Wissen sichern / Onboarding"** (alt #4): Wenn die erfahrenste Kraft geht, geht das
+  Wissen mit — Team-Playbook & Onboarding. Typ 1 Schmerz.
+- **Tier-1-Scheinwerfer privatärztliche Gesundheitszentren** (Nachsorge/Membership-Journey).
+- **Longevity-Scheinwerfer** (Tier 2, erst mit Referenz + Compliance-Nachweis).
+- Weitere Wunsch-Themen: siehe Vorschlagsliste unten.
 
-Diese zwei erweitern das Fundament um die positive, chancenorientierte Seite und sind gute
-Kandidaten für die erste Welle nach dem Launch.
+### Weitere Wunsch-/Chancen-Themen (Vorschläge)
+Deine Frage: „Hast du noch mehr Ideen für Posts, die die Wünsche ansprechen?" — ja, fünf
+gute Kandidaten, alle segment-neutral (Typ 1 · Wunsch), alle aus `service-katalog.md` belegt:
+
+1. **Mehr Weiterempfehlungen ohne Nachfragen** — „Wie Sie automatisch zum richtigen
+   Zeitpunkt um Google-Bewertungen und Empfehlungen bitten." (Empfehlungen = einer der
+   stärksten Hebel für neue Kundschaft.)
+2. **Der perfekte erste Eindruck** — „Eine automatische Willkommens-Strecke für neue
+   Kundschaft: professionell empfangen, bevor der erste Termin da ist." (Premium-Erlebnis.)
+3. **Nie wieder etwas übersehen** — „Alle Anfragen an einem Ort: Telefon, Mail, WhatsApp
+   und Formular gebündelt beantworten." (Ruhe am Empfang + schnelleres Antworten.)
+4. **Internationale Privatkundschaft gewinnen** — „Mehrsprachig kommunizieren, ohne
+   Übersetzungsbüro." (Passt zu Leonies DE/EN/ES — für privat zahlende, internationale Klientel.)
+5. **Aus einem Thema zehn Beiträge** — „Wie aus einem Behandlungsthema nebenbei Inhalte für
+   Website und Social entstehen." (Sichtbarkeit ohne Mehraufwand — Werkzeuge zum
+   Selbst-Befüllen, kein Redaktionsservice.)
+
+### Long-Tail-Keyword-Übersicht (pro Beitrag)
+Vorschläge — vor dem Schreiben gegen die reale Suche prüfen (Anleitung:
+`blog-einzelkonzepte.md`). Primär-Keyword = der Hauptbegriff für Titel/H1; Long-Tail =
+zusätzliche konkrete Suchphrasen, die im Text, in Zwischenüberschriften und im FAQ
+natürlich vorkommen sollten.
+
+| # | Primär-Keyword | Long-Tail-Varianten (semantisch, im Text/FAQ) |
+|---|---|---|
+| 1 | „Praxis hängt an der Inhaberin" | alles hängt an mir Praxis · Praxis läuft nur mit mir · als Inhaberin alles selbst machen · zu viel Verwaltung in der Praxis · Praxis delegieren lernen |
+| 2 | „No-Shows Physiotherapie reduzieren" | Terminausfälle Physiopraxis senken · Patienten erscheinen nicht zum Termin · Terminerinnerung Physiotherapie automatisch · Absagequote Praxis reduzieren |
+| 3 | „welche Daten darf ich in ChatGPT eingeben" | ChatGPT Patientendaten erlaubt · Gesundheitsdaten KI Datenschutz · ChatGPT in der Arztpraxis · Datenschutzgesetz KI Praxis · DSGVO Art. 9 besondere Daten |
+| 4 | „Patienten reaktivieren Praxis" | Patienten zurückgewinnen · ehemalige Kundschaft wieder einladen · Terminerinnerung automatisieren · Nachsorge Praxis automatisch · Stammkundschaft halten |
+| 5 | „Praxis bei Google gefunden werden" | lokale SEO Arztpraxis · Praxis Website Sichtbarkeit · Google Unternehmensprofil Praxis · in KI-Suche gefunden werden · Praxis online sichtbarer machen |
+| 6 | „Chatbot für Arztpraxis Website" | KI-Assistent Praxis Website · Anfragen automatisch beantworten Praxis · Chatbot Terminanfrage · Website-Chatbot DSGVO-konform · virtuelle Rezeption Praxis |
+| 7 | „EU AI Act kleine Praxis" | EU AI Act Arztpraxis 2026 · KI-Verordnung Gesundheitswesen · KI-Kompetenz Pflicht Praxis · was muss ich beim EU AI Act beachten · KI-Gesetz kleine Unternehmen |
+| 8 | „KI Beratung Kosten Praxis" | was kostet KI-Beratung · KI Beratung Preis kleine Praxis · Kosten Praxisautomatisierung · lohnt sich KI für kleine Praxis · seriöse KI-Beratung erkennen |
+| 9 | „KI in der Praxis einführen" | KI selbst einführen oder Beratung · wie fange ich mit KI an Praxis · erster Schritt KI Praxis · KI-Einführung begleiten lassen · KI Praxis wo anfangen |
+| 10 | „ChatGPT für die Praxis nutzen" | ChatGPT bringt nichts Praxis · ChatGPT richtig nutzen Praxis · warum ChatGPT allein nicht reicht · KI im Praxisalltag sinnvoll einsetzen · ChatGPT Praxis Beispiele |
 
 ### Zum Start-Post (#1) — Vorstellung, aber nicht nur über dich
 Deine Idee war goldrichtig, und dein Zusatzwunsch macht sie erst stark: **nicht „nur
@@ -347,9 +392,16 @@ ist #1 jetzt gebaut.
 - **Er etabliert E-E-A-T** (Experience/Expertise), auf das alle Fachbeiträge aufbauen und
   zurückverlinken — und ist **auf LinkedIn teilbar**.
 
-**Aber:** als *reiner* SEO-Anker rankt so ein Post schwach (Suchvolumen für „meine
-Intention" ist null). Er trägt die Haltung — ab **Post #2** (No-Shows Physio) holen die
-Fachbeiträge den Traffic. Deshalb steht #1 vorne und #2 direkt danach.
+- **Auch SEO, nicht nur Haltung:** Weil #1 nicht bei „meiner Intention" beginnt, sondern
+  beim Schmerz „Ohne mich läuft hier nichts", **hat er ein echtes Keyword-Thema** und wird
+  entsprechend optimiert (Primär: „Praxis hängt an der Inhaberin"; Long-Tail: „alles hängt
+  an mir Praxis", „Praxis läuft nur mit mir" — siehe Keyword-Übersicht). Die persönliche
+  Geschichte trägt die Haltung, das Schmerz-Thema trägt die Auffindbarkeit.
+
+Das Suchvolumen dieses Themas ist kleiner als bei No-Shows oder Datenschutz — deshalb holen
+**#2 und die Fachbeiträge** den größeren Traffic. Aber #1 ist damit **kein toter SEO-Anker**,
+sondern zahlt aufs Keyword-Thema ein und etabliert das E-E-A-T, auf das alle anderen
+aufbauen.
 
 ---
 

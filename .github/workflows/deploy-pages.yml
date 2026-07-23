@@ -8,8 +8,8 @@ on:
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
   schedule:
-    # Mo 05:00 UTC – future-dated Journal-Posts publishen
-    - cron: '0 5 * * 1'
+    # Di 05:00 UTC (≈ 07:00 AT) – future-dated Journal-Posts publishen
+    - cron: '0 5 * * 2'
 
 permissions:
   contents: read
