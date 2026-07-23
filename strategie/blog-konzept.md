@@ -6,12 +6,12 @@
 Dies ist die Übersicht — die Ausarbeitung einzelner Artikel folgt in einem zweiten Schritt.*
 
 > **Positionierungs-Achse (aus `strategie-konzept.md`): schmerz-geführt + Compliance-first.**
-> Der Blog trägt den Scheinwerfer. Zwei Post-Typen — breite **Schmerz-Themen-Posts**
-> (Fundament, segment-neutral, um den homogenen Kern-Schmerz herum) und einzelne
-> **Segment-Beispiel-Posts** (Scheinwerfer auf ein Tier-1-Segment, ohne die Positionierung
-> darauf festzulegen) — plus **Compliance / EU AI Act & DSGVO** als zweite Achse und
-> eigener, tragender Content-Pfad. Details siehe Abschnitt 3. Angebots-Rohmaterial für die
-> Beispiele: `strategie/service-katalog.md`.
+> Der Blog trägt den Scheinwerfer. Zwei Post-Typen — breite **Schmerz- & Wunsch-Themen-Posts**
+> (Fundament, segment-neutral: die überall gleichen Zeitfresser *und* die Kern-Wünsche wie
+> Auffindbarkeit und Kundenerlebnis) und einzelne **Segment-Beispiel-Posts** (Scheinwerfer
+> auf ein Tier-1-Segment, ohne die Positionierung darauf festzulegen) — plus **Compliance /
+> EU AI Act & DSGVO** als zweite Achse und eigener, tragender Content-Pfad. Details siehe
+> Abschnitt 3. Angebots-Rohmaterial für die Beispiele: `strategie/service-katalog.md`.
 
 > Preis- und Marktzahlen aus den Strategie-Files sind synthetische Orientierungs-
 > Korridore (Silicon Sampling / ESOMAR) und mit echten Gesprächen zu validieren.
@@ -39,10 +39,13 @@ KI bleibt Mittel zum Zweck. Das Thema ist immer der *Praxisalltag*, nicht die Te
 ## 2. Zielgruppe & Suchintention
 
 Leserin ist **„Martina, 47"** — Inhaberin/Leitung einer kleinen Privatpraxis
-(Prävention, Ästhetik, Wohlbefinden), 2–15 Mitarbeitende, kennt KI vom Hörensagen,
-entscheidet schnell bei klarem Nutzen und überschaubarem Aufwand, Datenschutz sehr
-wichtig. Sie liest **zwischen zwei Terminen am Handy** — also: schnell erfassbar,
-scanbar, kein Fließtext-Wall.
+(Prävention, Ästhetik, Wohlbefinden), 2–15 Mitarbeitende. **KI ist ihr längst ein
+Begriff** — sie hört es überall, hat ChatGPT & Co. wahrscheinlich schon selbst
+ausprobiert, weiß aber nicht, wie sie es wirklich sinnvoll und **verlässlich für ihre
+Praxis** einsetzen soll (und was mit den sensiblen Daten erlaubt ist). Sie entscheidet
+schnell bei klarem Nutzen und überschaubarem Aufwand, Datenschutz ist ihr sehr wichtig.
+Sie liest **zwischen zwei Terminen am Handy** — also: schnell erfassbar, scanbar, kein
+Fließtext-Wall.
 
 Wir bespielen bewusst alle drei **Buyer-Journey-Stufen**, mit klarem Schwerpunkt:
 
@@ -70,31 +73,22 @@ Bio, GBP) bleibt stabil; im Blog wird geschwenkt.
 
 Daraus ergeben sich **zwei Post-Typen** plus **ein tragender Compliance-Pfad**:
 
-### Typ 1 — Schmerz-Themen-Posts (das Fundament, segment-neutral)
-Die breiten Kern-Schmerzen, die **für jede Gesundheitspraxis** gelten: Termine/No-Shows,
-Nachsorge/**Recall**, Dokumentation, „alles hängt an mir". Dazu die Chancen-Seite
-(Auffindbarkeit, Kundenerlebnis). Diese Posts **nennen kein Segment** — sie bauen die
-topische Autorität auf dem Kern-Schmerz auf (~90 % über alle Segmente identisch), sind
-wiederverwendbar und tragen den Blog.
+### Typ 1 — Schmerz- und Wunsch-Themen-Posts (das Fundament, segment-neutral)
+Die breiten Themen, die **für jede Gesundheitspraxis** gelten — zwei Seiten derselben
+Medaille:
+- **Schmerz (das drückt heute):** Termine/No-Shows, Nachsorge und Wiedereinladung
+  (Kundschaft, die länger nicht da war, zurückholen), Dokumentation, „alles hängt an mir".
+- **Wunsch (das wollen sie erreichen):** online besser gefunden werden, ein reibungsloses,
+  professionelles Kundenerlebnis, freie Abende, eine Praxis, die auch ohne die Leitung
+  läuft. Der Erlebnis- und Gewinn-Gedanke gehört gleichberechtigt neben den Schmerz —
+  in der Copy immer **Zeit-Gewinn zusammen mit Erlebnis-Gewinn** nennen.
+
+Diese Posts **nennen kein Segment** — sie bauen die topische Autorität auf dem
+Kern-Schmerz und den Kern-Wünschen auf (~90 % über alle Segmente identisch), sind
+wiederverwendbar und tragen den Blog. Pro Thema **ein fokussierter Beitrag** (ein Keyword,
+am Handy lesbar) statt eines Riesen-Posts; ein Übersichts-Beitrag kann später mehrere
+bündeln (Hub-and-Spoke).
 → **Verlinkt auf:** Startseite/Schirm + passende Praxisseiten (ohne sich festzulegen).
-
-> **Ein großer Post oder mehrere normale? → Mehrere.** (Deine Frage.) Der Kern-Schmerz
-> hat mehrere Facetten (Termine, No-Shows, Doku, Recall, Flaschenhals) — jede ist eine
-> eigene Suchanfrage. **Ein Beitrag pro Facette** rankt besser (ein Keyword pro Post),
-> ist am Handy lesbar und lässt sich intern verlinken. Ein einzelner Riesen-Post würde
-> mehrere Keyword-Chancen in eine URL zwängen und sich selbst Konkurrenz machen. Später
-> können wir einen **Übersichts-/Pillar-Post** („Die 5 größten Zeitfresser in der
-> Praxis") darüberlegen, der auf die Einzelbeiträge verweist — Hub-and-Spoke.
-
-> **Was ist „Recall"?** Zwei verwandte, aber verschiedene Dinge — im Blog sauber zu
-> trennen (kein Wettbewerber tut das):
-> - **Terminerinnerung (Reminder):** erinnert an einen **schon gebuchten** Termin, damit
->   er nicht vergessen wird → senkt No-Shows. Läuft 24–48 h vorher.
-> - **Recall (Reaktivierung/Nachsorge):** meldet sich bei Kundschaft, die **länger nicht
->   da war** und keinen Folgetermin hat → holt Stammkundschaft zurück, bevor sie
->   abwandert. „Wir haben Sie länger nicht gesehen — Zeit für den nächsten Check?"
->
-> Reminder sichert den nächsten Termin, Recall den übernächsten. Praxen brauchen beides.
 
 ### Typ 2 — Segment-Beispiel-Posts (der Scheinwerfer, Tier-1 zuerst)
 Derselbe Kern-Schmerz, aber **an einem Segment gezeigt** — z. B. „KI in der Physiopraxis".
@@ -128,7 +122,7 @@ Vorstellung. Wenig SEO, viel Persönlichkeit und LinkedIn-Reichweite.
 
 | Post-Typ / Pfad | Anteil | Warum |
 |---|---|---|
-| **Typ 1 — Schmerz-Themen (Fundament)** | **~40 %** | breitester Schmerz, meiste Suchanfragen, segment-neutral wiederverwendbar |
+| **Typ 1 — Schmerz- & Wunsch-Themen (Fundament)** | **~40 %** | breitester Schmerz + Kern-Wünsche, meiste Suchanfragen, segment-neutral wiederverwendbar |
 | **Typ 2 — Segment-Beispiele (Scheinwerfer)** | **~30 %** | branchenspezifisch = stärkster Vertrauensanker; rotiert über Tier-1-Segmente |
 | **Compliance & EU AI Act (tragender Pfad)** | **~20 %** | größte Kaufbremse + stärkste Differenzierung; Autorität für `/eu-ai-act/` |
 | **Haltung & Persönliches** | **~10 %** | Persönlichkeit & LinkedIn-Reichweite; wenig SEO, aber wichtig fürs Vertrauen |
@@ -305,7 +299,7 @@ und vor dem Schreiben gegen die reale Suche zu prüfen (wie das geht: siehe
 | **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist) | „No-Shows Physiotherapie reduzieren" | Consideration | Typ 2 · Scheinwerfer (Physio) | `/ki-fuer-physiotherapie-praxen/` |
 | **3** | Darf ich Patientendaten in ChatGPT eingeben? Was DSGVO Art. 9 für Ihre Praxis bedeutet | „Patientendaten ChatGPT DSGVO" | Consideration | Compliance | `/eu-ai-act/` |
 | **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Typ 1 · Schmerz | Startseite + Praxisseite |
-| **5** | Terminerinnerung vs. Recall: der Unterschied, den die meisten Praxen übersehen | „Recall Praxis automatisieren" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
+| **5** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Typ 1 · Schmerz | `/ki-fuer-physiotherapie-praxen/` |
 | **6** | Longevity-Praxis: fünf Tools, die nicht miteinander reden — und wie eine Kundenreise daraus wird | „Longevity Praxis Software verbinden" | Consideration | Typ 2 · Scheinwerfer (Longevity) | `/ki-fuer-longevity-praxen/` |
 | **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wirklich wissen müssen | „EU AI Act Arztpraxis kleine Praxis" | Consideration | Compliance | `/eu-ai-act/` |
 | **8** | Beratungsprotokolle in der Ernährungsberatung: Abende zurückgewinnen, ohne die persönliche Note zu verlieren | „Ernährungsberatung Dokumentation automatisieren" | Consideration | Typ 2 · Scheinwerfer (Ernährung) | `/ki-fuer-ernaehrungsberatung-praxen/` |

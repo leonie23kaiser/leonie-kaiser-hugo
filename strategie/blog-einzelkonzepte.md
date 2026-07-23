@@ -134,7 +134,7 @@ anonymen Anbieterstimme der Software-Konkurrenz — hier spricht ein Mensch mit 
 
 ### Interne Links
 - **Hub:** `/ki-fuer-physiotherapie-praxen/` (deckt sich mit `schmerz:` in branchen.yaml)
-- **Weiter:** `/eu-ai-act/` (Datenschutz-Abschnitt), später Post #5 (Reminder vs. Recall)
+- **Weiter:** `/eu-ai-act/` (Datenschutz-Abschnitt), später Post #5 (Erinnern vs. Zurückholen)
 - **CTA:** Potenzialanalyse, flankiert mit dem Physio-Beispielszenario
 
 ### Content-Gap / einzigartiger Winkel
@@ -143,11 +143,12 @@ meetergo, termin-now, praxistermin-ki, patientify, comosio, fonea). Deren Lücke
 1. **Tool-first** statt prozess-first — jeder verkauft die eigene Software.
 2. **Unbelegte Wunder-Prozentzahlen** (29–80 % Reduktion) ohne saubere Quelle.
 3. **„DSGVO-konform" als leerer Claim** — kein Art.-9-Bezug, keine AVV-Erklärung.
-4. **Reminder und Recall werden vermischt** — niemand trennt „Termin nicht vergessen"
-   von „Nachsorge nach Behandlungsende". Genau diese Trennung ist Leonies Mehrwert.
+4. **Terminerinnerung und Wiedereinladung werden vermischt** — niemand trennt „an den
+   gebuchten Termin erinnern" von „Kundschaft, die länger nicht da war, zurückholen".
+   Genau diese Trennung ist Leonies Mehrwert.
 
 Leonies Beitrag: tool-agnostisch, ehrlich (Prozentzahlen nur mit Quelle), Datenschutz
-konkret, und die Reminder/Recall-Unterscheidung als eigener Erkenntnis-Punkt.
+konkret, und die Unterscheidung Erinnerung ↔ Wiedereinladung als eigener Erkenntnis-Punkt.
 
 ### Outline
 **H1: No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft (und was nur ein weiteres Tool ist)**
@@ -164,19 +165,19 @@ konkret, und die Reminder/Recall-Unterscheidung als eigener Erkenntnis-Punkt.
   - H3: Erinnerung im 24–48-Stunden-Fenster (der wirksamste Einzelhebel)
   - H3: Absage mit einem Klick — und eine Warteliste, die die Lücke füllt
   - H3: Erst der Ablauf, dann das Werkzeug (warum „Tool installieren" allein selten reicht)
-- **H2: Reminder ist nicht Recall — und Sie brauchen beides**
-  - H3: Terminerinnerung: den nächsten Termin absichern
-  - H3: Recall: die Stammkundschaft zurückholen, bevor sie abwandert
+- **H2: Erinnern ist nicht Zurückholen — und Sie brauchen beides**
+  - H3: Terminerinnerung: den nächsten, schon gebuchten Termin absichern
+  - H3: Wiedereinladung: die Stammkundschaft zurückholen, bevor sie abwandert
 - **H2: Datenschutz: Warum schon der Terminanlass ein Gesundheitsdatum ist**
   - Kurz-Einordnung Art. 9, SMS/WhatsApp-Vorsicht, EU-Hosting/AVV. Verlinkt auf `/eu-ai-act/`.
 - **H2: So gehen wir das an — ein Beispielszenario** *(illustrativ gekennzeichnet)*
   - Rohmaterial: `service-katalog.md` **Szenario A (Physiopraxis, Termin-Journey)** +
     Physio-Beispiel in `branchen.yaml`: Online-Buchung → automatische Erinnerung →
-    Wartelisten-Nachbesetzung → Recall. „Sie richten nichts selbst ein."
+    Wartelisten-Nachbesetzung → Wiedereinladung. „Sie richten nichts selbst ein."
 - **H2: Häufige Fragen** (FAQ / AI-Overview)
   - Wie viele No-Shows sind normal in einer Physiotherapie-Praxis?
   - Sind automatisierte Terminerinnerungen per SMS oder WhatsApp DSGVO-konform?
-  - Was ist der Unterschied zwischen einer Erinnerung und einem Recall?
+  - Was ist der Unterschied zwischen einer Terminerinnerung und einer Wiedereinladung?
   - Brauche ich dafür eine eigene IT?
 - **CTA:** Potenzialanalyse + konkretes Physio-Ergebnis.
 
