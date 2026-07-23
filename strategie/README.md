@@ -57,6 +57,11 @@ Anfrage generierbar, nicht dauerhaft im Repo.
 | [`audits.md`](audits.md) | Trust-Triangle- + Citation-Magnet-Audit in einem, Wiedervorlage 2026-09-30. |
 | [`update-plan.md`](update-plan.md) | Wann was aktualisieren (Ereignis-/Zeit-getriggert). |
 
+### Werkzeuge
+| Datei | Zweck |
+|---|---|
+| [`tools/docx-layout/`](tools/docx-layout/) | Word-Layout-Toolkit (Markdown → `.docx` im Teal-Branding). Jeder Thread nutzt **dieses** Skript, statt eigene Konverter zu bauen. Anleitung in der [README](tools/docx-layout/README.md). |
+
 ### Archiv
 | Datei | Zweck |
 |---|---|
