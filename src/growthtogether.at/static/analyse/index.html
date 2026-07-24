@@ -236,11 +236,11 @@
         <select id="betriebTyp" onchange="onTypChange()">
           <option value="">– bitte wählen –</option>
           <option value="physio_therapie">Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)</option>
-          <option value="medical_wellness">Privatärztliche Gesundheitszentren (IV, Hormone, Membership)</option>
+          <option value="medical_wellness">Privatärztliches Gesundheitszentrum</option>
           <option value="longevity_praevention">Longevity-/Präventionsmedizin-Praxis</option>
           <option value="executive_health">Check-up-/Vorsorgemedizin (Executive Health)</option>
           <option value="ernaehrung">Ernährungsberatung / Diätologie</option>
-          <option value="allgemein">Allgemeine Gesundheits-/Wellness-Praxis</option>
+          <option value="allgemein">Allgemeine Gesundheitspraxis</option>
         </select>
       </div>
       <div id="art9Hinweis" style="display:none; background:var(--teal-soft); border-radius:7px; padding:.75rem 1rem; font-size:.85rem; color:var(--text); margin-top:.25rem;"></div>
@@ -250,7 +250,7 @@
     <div class="section">
       <div class="section-title">2 · Datenschutz &amp; Offenheit</div>
       <div class="scale-row">
-        <div class="scale-label">Wie wichtig ist Ihnen Datenschutz bei diesem Thema?</div>
+        <div class="scale-label">Wie wichtig ist Ihnen Datenschutz?</div>
         <div class="scale-buttons" id="scaleDatenschutz" data-scale="datenschutz"></div>
       </div>
       <div class="scale-hint"><span>1 = unkritisch</span><span>5 = sehr hohe Priorität</span></div>
@@ -279,8 +279,8 @@
       <div class="pill-group" id="engpaesseGruppe"></div>
       <p class="hint" style="margin-top:.5rem">Kern-Engpässe (alle Typen) + typ-spezifische Engpässe (erscheinen nach Auswahl des Betriebstyps).</p>
       <div class="field" style="margin-top:.9rem">
-        <label for="kernschmerzNotiz">Kern-Schmerz in eigenen Worten (optional)</label>
-        <input type="text" id="kernschmerzNotiz" placeholder="z. B. O-Ton der Praxisleitung">
+        <label for="kernschmerzNotiz">Was kostet Sie im Alltag am meisten Zeit und Energie? (optional, O-Ton)</label>
+        <input type="text" id="kernschmerzNotiz" placeholder="Antwort der Praxisleitung in eigenen Worten">
       </div>
     </div>
 
@@ -334,7 +334,7 @@ document.getElementById("pwInput").addEventListener("keydown", e => {
 });
 
 // ── DATEN ─────────────────────────────────────────────────────────────────
-const LIB = {"kern_engpaesse":[{"id":"auslastung","titel":"Schwankende Auslastung & Neukundengewinnung","symptom":"Mal ist der Kalender voll, mal entstehen Lücken. Die Auslastung lässt sich schwer planen, und neue Anfragen kommen unregelmäßig herein.","ki_hebel":"Sichtbarkeit und Anfragefluss verstetigen: automatisierte Reaktivierung früherer Kundschaft, KI-gestützte Erstellung von Beiträgen für Social Media und Newsletter, bessere Auffindbarkeit auch in KI-Suchen, schnelle Erstreaktion auf Anfragen rund um die Uhr.","outcome":"Eine planbarere, gleichmäßigere Auslastung — weniger Leerlauf, weniger kurzfristige Akquise."},{"id":"termine_noshows","titel":"Terminanfragen kosten Zeit","symptom":"Termine werden per Telefon, WhatsApp und E-Mail vereinbart, Erinnerungen passieren manuell, und kurzfristige Absagen führen zu ungeplanten Lücken im Tag.","ki_hebel":"Automatisierte Terminbuchung mit Selbstbuchungslink, intelligente Erinnerungen über den bevorzugten Kanal, automatisches Nachbesetzen frei gewordener Termine aus einer Warteliste.","outcome":"Spürbar weniger Ausfälle, weniger Rückfragen am Telefon und mehr Behandlungs- statt Organisationszeit pro Tag."},{"id":"anfragen_kommunikation","titel":"Anfragen & Kommunikation","symptom":"Dieselben Fragen kommen immer wieder (Preise, Anfahrt, Kassenfrage, Ersttermin), und die Beantwortung kostet zwischen den Terminen viel Zeit.","ki_hebel":"KI-gestützte Erstbeantwortung wiederkehrender Anfragen per Chat oder Telefon außerhalb der Öffnungszeiten, vorbereitete Antwortbausteine, ein einfacher Bereich auf Ihrer Website mit den häufigsten Fragen.","outcome":"Anfragen werden schneller und einheitlich beantwortet, ohne dass Sie selbst ständig unterbrochen werden."},{"id":"dokumentation","titel":"Dokumentation nach Feierabend","symptom":"Befunde, Verlaufsnotizen, Abrechnungsvorbereitung und Berichte kosten abends Zeit, die eigentlich Feierabend wäre.","ki_hebel":"KI-gestützte Strukturierung von Notizen, eine Vorlagen-Bibliothek für Berichte und Rückmeldungen an zuweisende Ärztinnen und Ärzte, teil-automatisierte Vorbereitung der Abrechnung, bei sensiblen Gesundheitsdaten strikt Art.-9-konform.","outcome":"Weniger Dokumentationsaufwand nach Feierabend und eine klarere, schnellere Dokumentation."},{"id":"abhaengigkeit_inhaberin","titel":"Alles hängt an der Leitung","symptom":"Organisation, Kommunikation und Entscheidungen laufen über eine Person. Urlaub oder Krankheit bringen den Betrieb ins Stocken.","ki_hebel":"Wiederkehrende Abläufe in einem digitalen Praxis-Handbuch fürs Team festhalten und in klare, teilbare Prozesse überführen, sodass nicht mehr alles an einer einzigen Person hängt.","outcome":"Der Betrieb läuft auch ohne ständige Präsenz der Praxisleitung stabiler weiter."},{"id":"bindung_nachsorge","titel":"Nachsorge kommt zu kurz","symptom":"Nach Abschluss einer Behandlung oder eines Pakets endet der Kontakt oft. Folgetermine und Empfehlungen entstehen eher zufällig.","ki_hebel":"Automatisierte, persönliche Nachsorge-Sequenzen, Erinnerungen an Folgebehandlungen, strukturierte Empfehlungs- und Bewertungsanfragen zum richtigen Zeitpunkt.","outcome":"Mehr Folgetermine, mehr Empfehlungen und eine stärkere Bindung der bestehenden Kundschaft."}],"betriebstypen":{"physio_therapie":{"label":"Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)","art9":true,"art9_hinweis":"Sie führen echte Gesundheits- und Diagnosedaten. Art. 9 DSGVO (besondere Kategorien personenbezogener Daten) gilt vollumfänglich — jede Lösung wird von Beginn an datenschutzkonform aufgesetzt.","kontext":"Als Wahl- oder Privatpraxis tragen Sie Behandlung, Organisation und Abrechnung oft parallel. Serientermine, Verordnungen und Rückmeldungen an zuweisende Ärztinnen und Ärzte strukturieren den Alltag.","spezifische_engpaesse":[{"id":"physio_verordnung","titel":"Verordnungs- & Zuweiser-Kommunikation","symptom":"Behandlungspläne, Rückmeldungen an zuweisende Ärztinnen und Ärzte und Kassen-Formalitäten sind wiederkehrend und zeitintensiv.","ki_hebel":"Vorlagen und KI-gestützte Entwürfe für Behandlungspläne und strukturierte Rückmeldungen. Sie prüfen und geben frei, statt jedes Mal neu zu schreiben.","outcome":"Schnellere, einheitliche Zuweiser-Kommunikation bei voller fachlicher Kontrolle."}],"beispiel_quickwin":"Automatische Terminerinnerung plus Wartelisten-Nachbesetzung, bei typischen Ausfallquoten oft der schnellste spürbare Effekt."},"medical_wellness":{"label":"Privatärztliche Gesundheitszentren (IV, Hormone, Membership)","art9":true,"art9_hinweis":"Behandlungs-, Labor- und teils Hormondaten sind besondere Daten nach Art. 9 DSGVO. Datenschutz ist hier von Beginn an der Ausgangspunkt, bei anspruchsvoller Privatkundschaft zugleich ein Vertrauens- und Verkaufsargument.","kontext":"Premium-Positionierung mit privat zahlender Kundschaft, Mitgliedschaftsmodellen und langen Behandlungswegen. Nachsorge, Verlängerungen und ein durchgängig hochwertiges Erlebnis entscheiden über die Auslastung.","spezifische_engpaesse":[{"id":"mediwell_membership","titel":"Mitgliedschaften & Nachsorge","symptom":"Erinnerungen an auslaufende Mitgliedschaften und Nachfass-Nachrichten nach der Behandlung laufen manuell und verstreut über mehrere Kanäle, Kundschaft geht still verloren.","ki_hebel":"Eine automatisierte Nachsorge-Sequenz, ein Recall zum richtigen Zeitpunkt, eine Bewertungsanfrage nach dem Termin und Erinnerungen an auslaufende Mitgliedschaften, datenschutzkonform aufgesetzt.","outcome":"Mehr Folgetermine, planbarere Auslastung und eine Nachsorge, die zuverlässig läuft, ohne dass jemand aktiv daran denken muss."}],"beispiel_quickwin":"Automatisierte Nachsorge- und Verlängerungs-Erinnerung nach dem Termin, einer der stärksten Hebel für stabile Auslastung in diesem Segment."},"longevity_praevention":{"label":"Longevity-/Präventionsmedizin-Praxis","art9":true,"art9_hinweis":"Biomarker-, Labor- und teils Gendaten gehören zu den sensibelsten Gesundheitsdaten überhaupt. Art. 9 DSGVO, EU-AI-Act-Einstufung und ärztlich saubere, belegbare Datenflüsse sind Pflicht. Hier zählt medizinische Ernsthaftigkeit, kein Wellness-Versprechen.","kontext":"Ärztlich geführte, datengetriebene Praxis mit langen Kundenreisen über mehrere Systeme hinweg. Der Hebel liegt im verlässlichen Verbinden der Werkzeuge und im sauberen Umgang mit umfangreichen Gesundheitsdaten.","spezifische_engpaesse":[{"id":"longevity_integration","titel":"Datengetriebene Kundenreise & Integration","symptom":"Labor, Praxissoftware und Kommunikation reden nicht miteinander; Werte werden von Hand übertragen, und die lange Kundenreise ist schwer durchgängig zu begleiten.","ki_hebel":"Bestehende Werkzeuge sauber verbinden, wiederkehrende Aufbereitung von Befunden in verständliche Zusammenfassungen (Sie geben frei) und eine durchgängige, datenschutzkonforme Begleitung entlang der Reise.","outcome":"Weniger manuelles Übertragen, eine durchgängige Begleitung und mehr Zeit für die ärztliche Kernarbeit."}],"beispiel_quickwin":"Datenschutzkonforme Aufbereitung von Befund- und Laborergebnissen in eine verständliche, markenkonforme Zusammenfassung, fachlich von Ihnen freigegeben."},"executive_health":{"label":"Check-up-/Vorsorgemedizin (Executive Health)","art9":true,"art9_hinweis":"Umfassende Check-up- und Vorsorgedaten sind besonders schützenswert (Art. 9 DSGVO), die Kundschaft besonders diskretionssensibel. Höchste Datenschutz-Standards und eine saubere Anbindung an bestehende Systeme sind Voraussetzung, bevor etwas live geht.","kontext":"Hochwertige Vorsorgemedizin für eine anspruchsvolle, oft geschäftliche Kundschaft. Diskretion, reibungslose Abläufe und die Anbindung an bestehende Systeme bestimmen das Erlebnis.","spezifische_engpaesse":[{"id":"exec_journey","titel":"Reibungslose, diskrete Kundenreise","symptom":"Terminkoordination, Befundversand und Nachbetreuung für eine anspruchsvolle Kundschaft sind aufwändig und müssen jederzeit diskret und fehlerfrei laufen.","ki_hebel":"Automatisierte, diskrete Terminkoordination und Nachbetreuung sowie saubere, datenschutzkonforme Wege für den Befundversand, in bestehende Systeme integriert.","outcome":"Ein durchgängig reibungsloses, diskretes Erlebnis bei deutlich geringerem Koordinationsaufwand."}],"beispiel_quickwin":"Automatisierte, diskrete Terminkoordination und Nachbetreuung. Spürbare Entlastung bei gleichbleibend hohem Anspruch."},"ernaehrung":{"label":"Ernährungsberatung / Diätologie","art9":true,"art9_hinweis":"Diätologinnen und Diätologen sowie Ernährungswissenschaftlerinnen und -wissenschaftler verarbeiten Gesundheitsdaten, Art. 9 DSGVO gilt. Reine Ernährungstrainerinnen und -trainer bewegen sich je nach Tiefe der Daten an der Grenze; im Zweifel Art.-9-Standard anwenden.","kontext":"Die rechtliche Linie zwischen beratender Tätigkeit und Ernährungstraining bestimmt, wie sensibel die Daten sind und wie KI eingesetzt werden darf.","spezifische_engpaesse":[{"id":"ernaehrung_plaene","titel":"Erstellung & Pflege individueller Pläne","symptom":"Individuelle Ernährungspläne, Protokoll-Auswertung und Verlaufsbegleitung sind aufwändig und schwer skalierbar.","ki_hebel":"KI-gestützte Aufbereitung von Verlaufsprotokollen und Entwurf individueller Pläne als Vorlage, fachlich geprüft und freigegeben durch Sie, datenschutzkonform.","outcome":"Mehr Menschen individuell begleiten, ohne dass die Vorbereitung den ganzen Tag kostet."}],"beispiel_quickwin":"Strukturierte Erstanamnese per digitalem Fragebogen, der die Vorbereitung der ersten Sitzung halbiert."},"allgemein":{"label":"Allgemeine Gesundheits-/Wellness-Praxis","art9":true,"art9_hinweis":"Sobald Gesundheitsdaten verarbeitet werden, gilt Art. 9 DSGVO. Im Zweifel wird der strengere Standard angewendet. Das ist Teil des Vertrauens, das Sie Ihrer Kundschaft bieten.","kontext":"Sammelkategorie für kleine Gesundheits- und Wellness-Betriebe, die nicht eindeutig einem der Spezialtypen zuzuordnen sind.","spezifische_engpaesse":[],"beispiel_quickwin":"Notizen strukturiert aufbereiten zu einem sauberen Protokoll, das Sie nur noch gegenlesen. Einer der Hebel, die in fast jedem kleinen Gesundheitsbetrieb sofort wirken."}},"ziele":[{"id":"zeit","label":"Zeit zurückgewinnen / Entlastung","framing":"Weniger Organisation, mehr Zeit fürs Kerngeschäft und freie Abende für Sie selbst."},{"id":"auslastung","label":"Stabilere Auslastung","framing":"Eine planbarere, gleichmäßigere Auslastung über das Jahr."},{"id":"kapazitaet","label":"Mehr Kapazität ohne Mehrarbeit","framing":"Mehr Menschen begleiten, ohne länger zu arbeiten."},{"id":"qualitaet","label":"Bessere Kundenerfahrung","framing":"Schnellere Reaktion, persönlichere Betreuung, durchgängiges Erlebnis."},{"id":"vorsprung","label":"Vorsprung vor dem Wettbewerb","framing":"Früh und sauber aufgestellt sein, während andere noch zögern."},{"id":"bindung","label":"Stärkere Kundenbindung","framing":"Bestehende Kundschaft halten und zu Empfehlungen machen."}],"digitalisierungsstufen":[{"stufe":1,"label":"Früh digitalisiert","beschreibung":"Einzelne digitale Werkzeuge (E-Mail, Tabellen), vieles noch manuell.","einstieg":"Hier wirken schon einfache Automatisierungen stark, die Quick Wins liegen offen."},{"stufe":2,"label":"Teildigitalisiert","beschreibung":"Mehrere Programme im Einsatz, aber wenig Verbindung untereinander.","einstieg":"Der Hebel liegt im Verbinden des Vorhandenen und im Schließen der Lücken zwischen den Programmen."},{"stufe":3,"label":"Verbunden digitalisiert","beschreibung":"Cloud-Programme und erste automatische Abläufe, Zusammenarbeit funktioniert.","einstieg":"Jetzt lohnt der gezielte Einsatz von KI auf den verbleibenden, wertvollsten Engpässen."}]};
+const LIB = {"kern_engpaesse":[{"id":"termine","titel":"Termine & Anfragen kosten Zeit","symptom":"Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen laufen von Hand, und kurzfristige Absagen hinterlassen Lücken im Kalender.","ki_hebel":"Online-Terminbuchung mit Selbstbuchungslink, automatische Erinnerungen über den bevorzugten Kanal und eine KI-gestützte Erstbeantwortung wiederkehrender Anfragen per Chat oder Telefon, auch außerhalb der Öffnungszeiten.","outcome":"Weniger Ausfälle, weniger Rückfragen am Telefon und mehr Zeit für die Behandlung statt für die Organisation.","paket":"Praxis-Start · Termine & Anfragen"},{"id":"dokumentation","titel":"Dokumentation nach Feierabend","symptom":"Befunde, Berichte und Notizen entstehen oft erst am Abend, und jede Person im Team dokumentiert auf ihre eigene Art.","ki_hebel":"Notizen werden zu einem sauberen Protokoll strukturiert, das Sie nur noch prüfen. Dazu eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein digitales Praxis-Handbuch fürs Team.","outcome":"Weniger Arbeit nach Feierabend, eine einheitliche Dokumentation und leichtere Vertretung und Einarbeitung.","paket":"Praxis-Start · Dokumentation & Wissen"},{"id":"nachsorge","titel":"Nachsorge kommt zu kurz","symptom":"Nach der Behandlung endet der Kontakt oft. Folgetermine und Empfehlungen entstehen eher zufällig.","ki_hebel":"Automatisierte Nachsorge-Abläufe, Erinnerungen an Folgetermine zum richtigen Zeitpunkt und strukturierte Empfehlungs- und Bewertungsanfragen nach dem Termin.","outcome":"Mehr Folgetermine, mehr Empfehlungen und eine stärkere Bindung der bestehenden Kundschaft.","paket":"Praxis-Start · Nachsorge & Kundenbindung"},{"id":"sichtbarkeit","titel":"Sichtbarkeit ohne Mehraufwand","symptom":"Für Sichtbarkeit bleibt im Alltag kaum Zeit, und neue Anfragen kommen unregelmäßig herein.","ki_hebel":"Vorlagen und KI-Entwürfe für Beiträge und Newsletter, die nach Ihnen klingen, sowie eine bessere Auffindbarkeit in Suchmaschinen und KI-Suchen.","outcome":"Regelmäßigere Sichtbarkeit und eine gleichmäßigere Auslastung, ohne zusätzlichen Aufwand im Alltag.","paket":"Praxis-Start · Sichtbarkeit"},{"id":"leitung","titel":"Alles hängt an der Leitung","symptom":"Organisation, Kommunikation und Entscheidungen laufen über eine Person. Urlaub oder Krankheit bringen den Betrieb ins Stocken.","ki_hebel":"Wiederkehrende Abläufe werden in klare, teilbare Prozesse und ein digitales Praxis-Handbuch überführt, die auch das Team oder automatisierte Abläufe übernehmen.","outcome":"Der Betrieb läuft stabiler weiter, auch ohne ständige Präsenz der Leitung.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"betriebstypen":{"physio_therapie":{"label":"Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)","art9":true,"art9_hinweis":"Sie führen echte Gesundheits- und Diagnosedaten. Art. 9 DSGVO (besondere Kategorien personenbezogener Daten) gilt vollumfänglich. Jede Lösung wird von Beginn an datenschutzkonform aufgesetzt.","kontext":"Als Wahl- oder Privatpraxis tragen Sie Behandlung, Organisation und Abrechnung oft parallel. Serientermine, Verordnungen und Rückmeldungen an zuweisende Ärztinnen und Ärzte strukturieren den Alltag.","spezifische_engpaesse":[{"id":"physio_verordnung","titel":"Verordnungs- & Zuweiser-Kommunikation","symptom":"Behandlungspläne, Rückmeldungen an zuweisende Ärztinnen und Ärzte und wiederkehrende Formalitäten sind zeitintensiv.","ki_hebel":"Vorlagen und KI-gestützte Entwürfe für Behandlungspläne und strukturierte Rückmeldungen, die Sie nur noch prüfen, statt jedes Mal neu zu schreiben.","outcome":"Schnellere, einheitliche Zuweiser-Kommunikation bei voller fachlicher Kontrolle.","paket":"Praxis-Start · Dokumentation & Wissen"}],"beispiel_quickwin":"Automatische Terminerinnerung und eine Warteliste, aus der freie Termine nachbesetzt werden. Oft der schnellste spürbare Effekt."},"medical_wellness":{"label":"Privatärztliches Gesundheitszentrum","art9":true,"art9_hinweis":"Behandlungs- und Labordaten sind besondere Daten nach Art. 9 DSGVO. Datenschutz ist hier von Beginn an der Ausgangspunkt und bei anspruchsvoller Privatkundschaft zugleich ein Vertrauensargument.","kontext":"Premium-Positionierung mit privat zahlender Kundschaft, langen Behandlungswegen und wiederkehrender Betreuung. Nachsorge und ein durchgängig hochwertiges Erlebnis entscheiden über die Auslastung.","spezifische_engpaesse":[{"id":"mediwell_betreuung","titel":"Wiederkehrende Betreuung & Nachsorge","symptom":"Erinnerungen an Folgetermine und Nachfass-Nachrichten laufen manuell und verstreut über mehrere Kanäle, und Kundschaft geht still verloren.","ki_hebel":"Eine automatisierte Nachsorge-Sequenz, Erinnerungen an Folgetermine zum richtigen Zeitpunkt und eine Bewertungsanfrage nach dem Termin, datenschutzkonform aufgesetzt.","outcome":"Mehr Folgetermine, planbarere Auslastung und eine Nachsorge, die zuverlässig läuft, ohne dass jemand aktiv daran denken muss.","paket":"Praxis-Start · Nachsorge & Kundenbindung"}],"beispiel_quickwin":"Automatisierte Nachsorge- und Folgetermin-Erinnerung nach dem Termin. Einer der stärksten Hebel für stabile Auslastung in diesem Segment."},"longevity_praevention":{"label":"Longevity-/Präventionsmedizin-Praxis","art9":true,"art9_hinweis":"Biomarker-, Labor- und teils Gendaten gehören zu den sensibelsten Gesundheitsdaten überhaupt. Art. 9 DSGVO, EU-AI-Act-Einstufung und ärztlich saubere, belegbare Datenflüsse sind Pflicht. Hier zählt medizinische Ernsthaftigkeit.","kontext":"Ärztlich geführte, datengetriebene Praxis mit langen Kundenreisen über mehrere Systeme hinweg. Der Hebel liegt im verlässlichen Verbinden der Werkzeuge und im sauberen Umgang mit umfangreichen Gesundheitsdaten.","spezifische_engpaesse":[{"id":"longevity_integration","titel":"Datengetriebene Kundenreise & Integration","symptom":"Labor, Praxissoftware und Kommunikation sind nicht verbunden; Werte werden von Hand übertragen, und die lange Kundenreise ist schwer durchgängig zu begleiten.","ki_hebel":"Bestehende Werkzeuge sauber verbinden, wiederkehrende Aufbereitung von Befunden in verständliche Zusammenfassungen, die Sie nur noch prüfen, und eine durchgängige, datenschutzkonforme Begleitung entlang der Kundenreise.","outcome":"Weniger manuelles Übertragen, eine durchgängige Begleitung und mehr Zeit für die ärztliche Kernarbeit.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"beispiel_quickwin":"Datenschutzkonforme Aufbereitung von Befund- und Laborergebnissen in eine verständliche, markenkonforme Zusammenfassung, die Sie fachlich prüfen."},"executive_health":{"label":"Check-up-/Vorsorgemedizin (Executive Health)","art9":true,"art9_hinweis":"Umfassende Check-up- und Vorsorgedaten sind besonders schützenswert (Art. 9 DSGVO), die Kundschaft besonders diskretionssensibel. Höchste Datenschutz-Standards und eine saubere Anbindung an bestehende Systeme sind Voraussetzung, bevor etwas live geht.","kontext":"Hochwertige Vorsorgemedizin für eine anspruchsvolle, oft geschäftliche Kundschaft. Diskretion, reibungslose Abläufe und die Anbindung an bestehende Systeme bestimmen das Erlebnis.","spezifische_engpaesse":[{"id":"exec_journey","titel":"Reibungslose, diskrete Kundenreise","symptom":"Terminkoordination, Befundversand und Nachbetreuung für eine anspruchsvolle Kundschaft sind aufwändig und müssen jederzeit diskret und fehlerfrei laufen.","ki_hebel":"Automatisierte, diskrete Terminkoordination und Nachbetreuung sowie saubere, datenschutzkonforme Wege für den Befundversand, in bestehende Systeme integriert.","outcome":"Ein durchgängig reibungsloses, diskretes Erlebnis bei deutlich geringerem Koordinationsaufwand.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"beispiel_quickwin":"Automatisierte, diskrete Terminkoordination und Nachbetreuung. Spürbare Entlastung bei gleichbleibend hohem Anspruch."},"ernaehrung":{"label":"Ernährungsberatung / Diätologie","art9":true,"art9_hinweis":"Diätologinnen und Diätologen sowie Ernährungswissenschaftlerinnen und -wissenschaftler verarbeiten Gesundheitsdaten, Art. 9 DSGVO gilt. Reine Ernährungstrainerinnen und -trainer bewegen sich je nach Tiefe der Daten an der Grenze; im Zweifel Art.-9-Standard anwenden.","kontext":"Die rechtliche Linie zwischen beratender Tätigkeit und Ernährungstraining bestimmt, wie sensibel die Daten sind und wie KI eingesetzt werden darf.","spezifische_engpaesse":[{"id":"ernaehrung_plaene","titel":"Erstellung & Pflege individueller Pläne","symptom":"Individuelle Ernährungspläne, die Auswertung von Protokollen und die Verlaufsbegleitung sind aufwändig und schwer skalierbar.","ki_hebel":"KI-gestützte Aufbereitung von Verlaufsprotokollen und Entwürfe individueller Pläne als Vorlage, die Sie fachlich prüfen und freigeben, datenschutzkonform.","outcome":"Mehr Menschen individuell begleiten, ohne dass die Vorbereitung den ganzen Tag kostet.","paket":"Praxis-Start · Dokumentation & Wissen"}],"beispiel_quickwin":"Strukturierte Erstanamnese per digitalem Fragebogen, der die Vorbereitung der ersten Sitzung halbiert."},"allgemein":{"label":"Allgemeine Gesundheitspraxis","art9":true,"art9_hinweis":"Sobald Gesundheitsdaten verarbeitet werden, gilt Art. 9 DSGVO. Im Zweifel wird der strengere Standard angewendet. Das ist Teil des Vertrauens, das Sie Ihrer Kundschaft bieten.","kontext":"Sammelkategorie für kleine Gesundheitsbetriebe, die nicht eindeutig einem der Spezialtypen zuzuordnen sind.","spezifische_engpaesse":[],"beispiel_quickwin":"Notizen strukturiert zu einem sauberen Protokoll aufbereiten, das Sie nur noch prüfen. Einer der Hebel, die in fast jedem kleinen Gesundheitsbetrieb sofort wirken."}},"ziele":[{"id":"zeit","label":"Zeit zurückgewinnen / Entlastung","framing":"Weniger Organisation, mehr Zeit fürs Kerngeschäft und freie Abende für Sie selbst."},{"id":"auslastung","label":"Stabilere Auslastung","framing":"Eine planbarere, gleichmäßigere Auslastung über das Jahr."},{"id":"kapazitaet","label":"Mehr Kapazität ohne Mehrarbeit","framing":"Mehr Menschen begleiten, ohne länger zu arbeiten."},{"id":"qualitaet","label":"Bessere Kundenerfahrung","framing":"Schnellere Reaktion, persönlichere Betreuung, durchgängiges Erlebnis."},{"id":"vorsprung","label":"Vorsprung vor dem Wettbewerb","framing":"Früh und sauber aufgestellt sein, während andere noch zögern."},{"id":"bindung","label":"Stärkere Kundenbindung","framing":"Bestehende Kundschaft halten und zu Empfehlungen machen."}],"digitalisierungsstufen":[{"stufe":1,"label":"Frühe Digitalisierung","beschreibung":"Teilweise digitale Werkzeuge wie E-Mail und Tabellen; Daten werden oft manuell übertragen.","einstieg":"Hier wirken schon einfache Automatisierungen stark."},{"stufe":2,"label":"Teildigitalisierung","beschreibung":"Vermehrt digitale Werkzeuge und Programme im Einsatz; die Verbindung zwischen den Bereichen fehlt noch.","einstieg":"Der Hebel liegt im Verbinden des Vorhandenen."},{"stufe":3,"label":"Verbundene Digitalisierung","beschreibung":"Cloud-Programme erleichtern die Zusammenarbeit; erste automatische Prozesse sind im Einsatz.","einstieg":"Jetzt lohnt der gezielte KI-Einsatz auf den wertvollsten Engpässen."},{"stufe":4,"label":"Intelligente Digitalisierung","beschreibung":"Fortgeschrittene Technologien und Datenanalysen im Einsatz; erste KI-Tools automatisieren Aufgaben und erkennen Muster in Daten.","einstieg":"Bestehende KI-Ansätze gezielt ausbauen und absichern."},{"stufe":5,"label":"KI-getriebene Digitalisierung","beschreibung":"KI ist ein integraler Bestandteil der Arbeitsabläufe und verändert den Geschäftsbetrieb grundlegend.","einstieg":"Feinschliff, Governance und neue Anwendungsfälle."}]};
 
 // ── UI INITIALISIERUNG ────────────────────────────────────────────────────
 
@@ -541,10 +541,10 @@ function downloadMafoCsv() {
     d.kernschmerzNotiz,
   ].filter(Boolean).join(" — ");
 
-  const headers = ["Datum","Praxis (Kürzel/anonym)","Segment","Größe (MA)","Region","Kern-Schmerz","Zahlungsbereitschaft (Signal)","Datenschutz-Bedenken (1–5)","Offenheit KI (1–5)","Buchung","Nächster Schritt","Notizen"];
+  const headers = ["Datum","Praxis (Kürzel/anonym)","Segment","Größe (MA)","Region","Kern-Schmerz","Datenschutz-Bedenken (1–5)","Offenheit KI (1–5)","Buchung","Nächster Schritt","Notizen"];
   const row = [
     d.datum, d.unternehmen.name, d.unternehmen.typ_label, d.unternehmen.mitarbeiter,
-    d.unternehmen.ort, kernSchmerz, "", d.datenschutzWichtigkeit, d.offenheitKi, "", "", "",
+    d.unternehmen.ort, kernSchmerz, d.datenschutzWichtigkeit, d.offenheitKi, "", "", "",
   ];
 
   const csv = "﻿" + [headers, row].map(r => r.map(csvEscape).join(";")).join("\n");
@@ -646,11 +646,9 @@ async function buildPptx(d, logo) {
   for (let i = 0; i < d.engpaesse.length; i++) {
     await slideEngpass(pptx, d.engpaesse[i], i+1, d.engpaesse.length);
   }
-  await slideQuickwins(pptx, d);
-  await slideInvestition(pptx, d);
   await slideDatenschutz(pptx, d);
-  await slideNaechsteSchritte(pptx, d);
-  await slideKontakt(pptx, d, logo);
+  await slideQuickwins(pptx, d);
+  await slideAngebot(pptx, d, logo);
 
   const name = d.unternehmen.name.replace(/[^a-zA-Z0-9äöüÄÖÜß\s\-]/g, "").replace(/\s+/g,"_");
   await pptx.writeFile({ fileName: `KI-Potenzialanalyse_${name}.pptx` });
@@ -697,7 +695,7 @@ async function slideEinleitung(pptx, d) {
     { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
   s.addText([
-    { text: "KI verändert auch kleine Gesundheits- und Wellness-Betriebe und schafft echte Vorteile für die, die früh und überlegt handeln.", options: { breakLine: true } },
+    { text: "KI verändert auch kleine Gesundheitspraxen und schafft echte Vorteile für die, die früh und überlegt handeln.", options: { breakLine: true } },
     { text: "\n", options: { fontSize: 8 } },
     { text: "Diese erste Einschätzung gibt Ihnen einen sachlichen Überblick. In 30 Minuten schauen wir gemeinsam, wo in Ihrem Alltag Zeit verloren geht und wo KI Sie spürbar entlasten kann.", options: { breakLine: true } },
     { text: "\n", options: { fontSize: 8 } },
@@ -727,7 +725,7 @@ async function slideIstZustand(pptx, d) {
   s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 1.9, w: 5.4, h: 4.6, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
   const st = d.digitalisierung;
   s.addText([
-    { text: `Stufe ${st.stufe} von 3\n`, options: { fontSize: 15, bold: true, color: C.graublau, breakLine: true } },
+    { text: `Stufe ${st.stufe} von 5\n`, options: { fontSize: 15, bold: true, color: C.graublau, breakLine: true } },
     { text: st.label + "\n", options: { fontSize: 26, bold: true, color: C.teal, breakLine: true } },
     { text: "\n", options: { fontSize: 6 } },
     { text: st.beschreibung + "\n", options: { fontSize: 15, color: C.text, breakLine: true } },
@@ -782,6 +780,14 @@ async function slideEngpass(pptx, eng, idx, total) {
     { text: "\n", options: { fontSize: 5 } },
     { text: eng.outcome, options: { color: C.text, fontSize: 15, bold: true } },
   ], { x: 7.15, y: 4.05, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
+
+  // Passendes Paket
+  if (eng.paket) {
+    s.addText([
+      { text: "Passendes Paket:  ", options: { bold: true, color: C.graublau } },
+      { text: eng.paket, options: { color: C.blau, bold: true } },
+    ], { x: 0.9, y: 6.85, w: 11.5, h: 0.4, fontSize: 12, fontFace: "Arial" });
+  }
 }
 
 // ── FOLIE 5: QUICK WINS ───────────────────────────────────────────────────
@@ -812,35 +818,7 @@ async function slideQuickwins(pptx, d) {
   });
 }
 
-// ── FOLIE 5b: IHRE INVESTITION ────────────────────────────────────────────
-async function slideInvestition(pptx, d) {
-  const s = pptx.addSlide();
-  s.background = { color: "FFFFFF" };
-
-  s.addText("Ihre Investition",
-    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
-  s.addText("Transparente Pakete, keine versteckten Folgekosten.",
-    { x: 0.9, y: 1.7, w: 11.5, h: 0.7, fontSize: 16, color: C.graublau, fontFace: "Arial" });
-
-  const pakete = [
-    { titel: "Praxis-Start", scope: "Ein Leistungsbereich", preis: "ab 1.490 €", fill: C.hellgrau },
-    { titel: "Praxis-Plus", scope: "Zwei bis drei Bereiche kombiniert", preis: "2.900 – 5.900 €", fill: C.hellteal },
-    { titel: "Laufende Betreuung", scope: "Monatlicher Check-in, optional", preis: "ab 190 € / Monat", fill: C.hellgrau },
-  ];
-  const cw = 3.63, ch = 3.6, gap = 0.4, x0 = 0.9, y0 = 2.7;
-
-  pakete.forEach((p, i) => {
-    const l = x0 + i * (cw + gap);
-    s.addShape(pptx.ShapeType.roundRect, { x: l, y: y0, w: cw, h: ch, fill: { color: p.fill }, line: { color: p.fill } });
-    s.addText([
-      { text: p.titel + "\n", options: { bold: true, fontSize: 19, color: C.teal, breakLine: true } },
-      { text: p.scope + "\n\n", options: { fontSize: 13, color: C.text, breakLine: true } },
-      { text: p.preis, options: { bold: true, fontSize: 22, color: C.blau } },
-    ], { x: l + 0.3, y: y0 + 0.35, w: cw - 0.6, h: ch - 0.7, fontFace: "Arial", valign: "top", wrap: true });
-  });
-}
-
-// ── FOLIE 6: DATENSCHUTZ ─────────────────────────────────────────────────
+// ── FOLIE: DATENSCHUTZ ───────────────────────────────────────────────────
 async function slideDatenschutz(pptx, d) {
   const s = pptx.addSlide();
   s.background = { color: C.teal };
@@ -874,56 +852,47 @@ async function slideDatenschutz(pptx, d) {
   ], { x: 8.7, y: 2.65, w: 3.4, h: 3.8, fontFace: "Arial", valign: "top", wrap: true });
 }
 
-// ── FOLIE 7: NÄCHSTE SCHRITTE ─────────────────────────────────────────────
-async function slideNaechsteSchritte(pptx, d) {
+// ── FOLIE (SCHLUSS): ANGEBOT & NÄCHSTE SCHRITTE ───────────────────────────
+async function slideAngebot(pptx, d, logo) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  s.addText("Wie es weitergehen kann",
-    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
-
-  const schritte = [
-    { titel: "Potenzialanalyse", text: "Wir haben gemeinsam Ihren Ist-Zustand, Ihre Ziele und die größten Engpässe geklärt. Diesen Schritt haben Sie gerade abgeschlossen.", color: C.teal },
-    { titel: "Umsetzung", text: "Wir setzen die passenden Automatisierungen um, im Paket Praxis-Start oder Praxis-Plus, je nach Umfang. Erst die Abläufe, dann die Werkzeuge. Sie richten nichts selbst ein, das Team wird eingewiesen.", color: C.blau },
-    { titel: "Laufende Betreuung (optional)", text: "Auf Wunsch begleiten wir Ihre Abläufe weiter: monatlicher Check-in, Optimierung und eine feste Ansprechpartnerin bei Änderungen.", color: C.blau },
-  ];
-
-  let y = 2.1;
-  schritte.forEach((sch, i) => {
-    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y, w: 0.65, h: 0.65, fill: { color: sch.color }, line: { color: sch.color } });
-    s.addText(String(i+1), { x: 0.9, y, w: 0.65, h: 0.65, fontSize: 16, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
-    s.addText([
-      { text: sch.titel + "\n", options: { bold: true, fontSize: 19, color: sch.color, breakLine: true } },
-      { text: sch.text, options: { fontSize: 14, color: C.text } },
-    ], { x: 1.8, y: y - 0.05, w: 10.3, h: 1.5, fontFace: "Arial", valign: "top", wrap: true });
-    y += 1.6;
-  });
-}
-
-// ── FOLIE 8: KONTAKT ─────────────────────────────────────────────────────
-async function slideKontakt(pptx, d, logo) {
-  const s = pptx.addSlide();
-  s.background = { color: C.teal };
-
-  // Dekokreis unten rechts
-  s.addShape(pptx.ShapeType.ellipse, { x: 10.4, y: 5.3, w: 3.4, h: 3.4, fill: { color: C.blau }, line: { color: C.blau } });
-
-  // Logo auf weißem Kreis
   if (logo) {
-    s.addShape(pptx.ShapeType.ellipse, { x: 10.15, y: 0.7, w: 2.4, h: 2.4, fill: { color: C.weiss }, line: { color: C.weiss } });
-    s.addImage({ data: logo, x: 10.4, y: 0.95, w: 1.9, h: 1.9 });
+    s.addImage({ data: logo, x: 11.0, y: 0.5, w: 1.7, h: 1.7 });
   }
 
-  s.addText([
-    { text: "Jetzt gemeinsam starten\n", options: { fontSize: 40, bold: true, color: C.weiss, breakLine: true } },
-    { text: "Lassen Sie uns über Ihre Ziele sprechen. Unverbindlich.", options: { fontSize: 18, color: "DCECF0" } },
-  ], { x: 0.9, y: 2.4, w: 11, h: 1.4, fontFace: "Arial", valign: "top", wrap: true });
+  s.addText("Ihr Angebot & die nächsten Schritte",
+    { x: 0.9, y: 0.7, w: 9.8, h: 1.0, fontSize: 32, bold: true, color: C.teal, fontFace: "Arial" });
+  s.addText("Transparente Pakete, keine versteckten Folgekosten.",
+    { x: 0.9, y: 1.6, w: 9.8, h: 0.5, fontSize: 15, color: C.graublau, fontFace: "Arial" });
 
+  // Paket-Karten
+  const pakete = [
+    { titel: "Praxis-Start", scope: "Ein Leistungsbereich", preis: "ab 1.490 €", fill: C.hellgrau },
+    { titel: "Praxis-Plus", scope: "Zwei bis drei Bereiche kombiniert", preis: "2.900 – 5.900 €", fill: C.hellteal },
+    { titel: "Laufende Betreuung", scope: "Monatlicher Check-in, optional", preis: "ab 190 € / Monat", fill: C.hellgrau },
+  ];
+  const cw = 3.63, ch = 2.5, gap = 0.4, x0 = 0.9, y0 = 2.35;
+  pakete.forEach((p, i) => {
+    const l = x0 + i * (cw + gap);
+    s.addShape(pptx.ShapeType.roundRect, { x: l, y: y0, w: cw, h: ch, fill: { color: p.fill }, line: { color: p.fill } });
+    s.addText([
+      { text: p.titel + "\n", options: { bold: true, fontSize: 18, color: C.teal, breakLine: true } },
+      { text: p.scope + "\n\n", options: { fontSize: 12, color: C.text, breakLine: true } },
+      { text: p.preis, options: { bold: true, fontSize: 20, color: C.blau } },
+    ], { x: l + 0.28, y: y0 + 0.3, w: cw - 0.56, h: ch - 0.6, fontFace: "Arial", valign: "top", wrap: true });
+  });
+
+  // Nächste Schritte (kompakt)
+  s.addText("So geht es weiter", { x: 0.9, y: 5.15, w: 11.5, h: 0.4, fontSize: 16, bold: true, color: C.teal, fontFace: "Arial" });
   s.addText([
-    { text: "Leonie Kaiser\n", options: { fontSize: 20, bold: true, color: C.weiss, breakLine: true } },
-    { text: "KI- & Digitalisierungs-Expertin · ortsunabhängig, DACH-weit\n", options: { fontSize: 14, color: "DCECF0", breakLine: true } },
-    { text: "leoniekaiser.com", options: { fontSize: 14, color: C.weiss } },
-  ], { x: 0.95, y: 4.6, w: 10, h: 2, fontFace: "Arial", valign: "top", wrap: true });
+    { text: "1. Analyse — gerade gemeinsam abgeschlossen.\n", options: { breakLine: true } },
+    { text: "2. Umsetzung — ich richte die passenden Automatisierungen ein, Ihr Team wird eingewiesen.\n", options: { breakLine: true } },
+    { text: "3. Laufende Betreuung (optional) — auf Wunsch begleite ich Ihre Abläufe weiter.", options: {} },
+  ], { x: 0.9, y: 5.55, w: 11.5, h: 1.2, fontSize: 13.5, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+
+  s.addText("Leonie Kaiser · KI- & Digitalisierungs-Expertin · leoniekaiser.com",
+    { x: 0.9, y: 7.0, w: 11.5, h: 0.35, fontSize: 11, color: C.graublau, fontFace: "Arial" });
 }
 </script>
 </body>
