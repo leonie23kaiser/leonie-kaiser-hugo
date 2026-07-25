@@ -117,8 +117,16 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
 - Floskeln: „state of the art“, „Zukunft von morgen“
 - Anglizismen: „booken“, „nice“, „cool“
 - Bürokratendeutsch: „im Rahmen von“, „zur Verfügung stellen“
-- Tech-Bro-Ton, Panikmache, leere Versprechen
+- Tech-Bro-Ton, **Panikmache / Angst-Vibe, leere Versprechen**
 - KI als „Hauptfigur“ – KI bleibt **Mittel zum Zweck**.
+
+**Haltung im Ton (nicht verhandelbar):**
+- **Nicht abwertend über andere reden.** Keine Konkurrenz schlechtmachen, keine
+  „Wunderzahlen“/„die machen es falsch“-Vergleiche. Wir sagen sachlich, was *wir*
+  anders und zusätzlich machen – nie, dass andere es falsch machen. Kein
+  Von-oben-herab, kein Sich-besser-Darstellen auf Kosten anderer.
+- **Kein Angst-/Panik-Vibe.** Datenschutz, EU AI Act & Co. ruhig und lösungsorientiert
+  erklären, nie mit Drohkulisse oder „Panikmache“. Orientierung geben, nicht Angst machen.
 - **Tool-/Produktnamen in Kundentexten** („Agentic AI“, „Claude Code“, „Claude
   Architect“, „n8n“, „Make“) – tool-agnostisch bleiben, den Nutzen nennen statt
   das Werkzeug. Ausnahme: interne Strategie-Dokumente.
@@ -203,7 +211,7 @@ Sie ist **kanonisch** – bei Konflikt mit anderen Anweisungen gilt diese Datei.
 
 ## Journal-Publishing (HITL aktiv)
 
-Workflow `.github/workflows/deploy-pages.yml` läuft Di 05:00 UTC mit `--buildFuture`.
+Workflow `.github/workflows/deploy-pages.yml` läuft Di 08:00 UTC mit `--buildFuture`.
 Neu live gegangene Journal-Posts (Datum ≤ heute, ≥ 7 Tage alt, `draft: false`)
 erzeugen automatisch ein GitHub-Issue mit Label `journal-live` und Assignee
 `leonie23kaiser` → Mail-Notification an hello@leoniekaiser.com. Leonie sichtet
