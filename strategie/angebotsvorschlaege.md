@@ -148,7 +148,7 @@ Automatisierung.
 ## Pilot-Angebot · *separat, nur für die ersten 2 Praxen — kein Teil der Angebots-Leiter*
 
 - **Für wen:** die ersten 2 Praxen aus den Start-Segmenten (Therapie-/Bewegungspraxen,
-  Longevity/Med-Wellness), mit denen die ersten echten Referenzfälle entstehen.
+  Longevity/privatärztliche Gesundheitszentren), mit denen die ersten echten Referenzfälle entstehen.
 - **Ergebnis:** ein verkürztes Automatisierungs-Projekt — **2–3 zusammenhängende
   Automatisierungen in einem Themenfeld** (z. B. die gesamte Termin-Journey: Buchung,
   Erinnerung, Lückenfüllung, Recall — oder Erstanamnese + Dokumentations-Vorlage +
@@ -170,7 +170,7 @@ Automatisierung.
 
 | Segment | Einmalprojekt (OPP) | Retainer/Monat (OPP) | Ideal-Preis (Projekt) |
 |---|:--:|:--:|:--:|
-| Longevity / Medical-Wellness | ~2.060 € | ~300 € | ~3.500 € |
+| Longevity / privatärztliche Gesundheitszentren | ~2.060 € | ~300 € | ~3.500 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
 
 *Ästhetik- und Ernährungsberatungs-Preiszahlen aus der Studie bewusst aus der aktiven

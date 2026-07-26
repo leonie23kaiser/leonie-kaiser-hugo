@@ -102,7 +102,7 @@ Drucker, WLAN) außerhalb der eingerichteten Automatisierung.
 - **Nachher:** spürbar weniger No-Shows, Lücken füllen sich von selbst, deutlich weniger
   Telefon-Pingpong — mehr Behandlungs- statt Organisationszeit pro Tag.
 
-### Szenario B — Medical-Wellness-Praxis: Nachsorge & Membership
+### Szenario B — privatärztliches Gesundheitszentrum: Nachsorge & Membership
 - **Vorher:** Nach der Behandlung reißt der Kontakt ab. Renewal-Erinnerungen und Follow-ups
   laufen manuell und verstreut über verschiedene Kanäle; Kundschaft geht still verloren.
 - **So setzen wir um:** automatisierte Nachsorge-Sequenz, Recall zum richtigen Zeitpunkt,

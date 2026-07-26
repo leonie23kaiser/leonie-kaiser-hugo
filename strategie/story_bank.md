@@ -52,7 +52,7 @@ bevorzugt zusammenfasst und zitiert.*
 
 ---
 
-## Ziel-Segment: Longevity & Medical-Wellness · [VORLAGE]
+## Ziel-Segment: Longevity & privatärztliche Gesundheitszentren · [VORLAGE]
 
 ### Geschichte: Die Klient:innen-Reise, die von selbst läuft
 **Kunde:** *(Vorlage-Profil)* Longevity-Praxis, Inhaberin, ~5 MA.
@@ -63,7 +63,7 @@ bevorzugt zusammenfasst und zitiert.*
 **Beweis:** *[echte Zahl nach Pilot: z. B. „X Reaktivierungen/Monat ohne manuellen Aufwand" oder „Y Std/Woche gespart"]*
 
 ### Geschichte: Schluss mit dem Quartals-Reporting von Hand
-**Kunde:** *(Vorlage-Profil)* Medical-Wellness-Praxis mit Firmenkunden.
+**Kunde:** *(Vorlage-Profil)* privatärztliches Gesundheitszentrum mit Firmenkunden.
 **Ziel:** Auswertungen für Firmenkunden ohne Tage manueller Arbeit.
 **Situation:** „Jedes Quartal sitzen wir drei Tage dran und basteln Auswertungen zusammen."
 **Konflikt:** Daten liegen in mehreren Tools, die nicht miteinander reden.

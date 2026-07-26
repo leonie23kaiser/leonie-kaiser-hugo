@@ -7,7 +7,7 @@ Silicon-Sampling-Datenbasis bleibt gültig (auf Praxen kalibriert, synthetisch/E
 
 > **Finale Entscheidung 2026-07-14: schmerz-geführt starten, nicht segment-geführt.**
 > Nach mehreren Silicon-Sampling-Runden (Ernährungsberatung deep-dived, 7 Nischen
-> gescannt, Longevity/Medical-Wellness getrennt + 2 Prävention-Kandidaten) ist klar:
+> gescannt, Longevity/privatärztliche Gesundheitszentren getrennt + 2 Prävention-Kandidaten) ist klar:
 > die synthetischen Segment-Scores sind zu unsicher, um darauf die Positionierung zu
 > bauen — aber **jedes Segment nennt denselben Kern-Schmerz und dieselbe #1-Hürde
 > (Datenschutz).** Deshalb: **breit über den Schmerz + Compliance-first starten**, die
@@ -82,7 +82,7 @@ Physio, Ergo, Logopädie, Osteopathie, Podologie, Heilpraktiker/Naturheilkunde/T
 Hebammen, Ernährungsberatung/Diätologie.
 
 **B. Prävention & Wohlbefinden (homogen-nah):**
-Longevity/Medical-Wellness, Massage/manuelle Therapie, medizinische Wellness.
+Longevity/privatärztliche Gesundheitszentren, Massage/manuelle Therapie, medizinische Gesundheitsangebote.
 
 ## Start: schmerz-geführt, breit — keine festgelegten Start-Segmente
 
@@ -105,13 +105,13 @@ als „Premium/Team" charakterisiert, was deren Scores mit anhebt.*
 | Segment | Score | Projekt-OPP | warum |
 |---|:--:|:--:|---|
 | **Physiotherapie / Therapiepraxen** (inkl. Ergo/Osteo/Podo) | 11 | 1.528 € | zugänglich, klarer Leidensdruck, ideales Aushängeschild |
-| **Medical-Wellness** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
+| **privatärztliche Gesundheitszentren** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
 
 **Tier 2 — das große Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
 | Segment | Score | Projekt-OPP | Hürde |
 |---|:--:|:--:|---|
-| **Longevity / Präventionsmedizin** (ärztlich, datengetrieben) | 13 | **5.012 €** | Integrations-/API-Kompetenz + Compliance-Nachweis Pflicht; **kein Wellness-Framing** |
+| **Longevity / Präventionsmedizin** (ärztlich, datengetrieben) | 13 | **5.012 €** | Integrations-/API-Kompetenz + Compliance-Nachweis Pflicht; **kein Wohlfühl-Framing** |
 | **Check-up / Vorsorgemedizin** (Executive Health) | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration erwartet |
 | **Sportmedizin-Zentren** | 11 | ~1.800–2.400 € | medizinisch-diagnostisches Selbstbild, Haftungstiefe |
 

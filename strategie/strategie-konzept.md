@@ -117,13 +117,13 @@ charakterisiert, was ihre Scores mit anhebt).*
 | Segment | Score | Projekt-OPP | Retainer/Mo |
 |---|:--:|:--:|:--:|
 | Physiotherapie / Therapiepraxen (Aushängeschild) | 11 | 1.528 € | 203 € |
-| Medical-Wellness (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
+| privatärztliche Gesundheitszentren (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
 
 **Tier 2 — großes Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
 | Segment | Score | Projekt-OPP | Hürde |
 |---|:--:|:--:|---|
-| Longevity / Präventionsmedizin | 13 | **5.012 €** | Integrations-/Compliance-Nachweis Pflicht, kein Wellness-Framing |
+| Longevity / Präventionsmedizin | 13 | **5.012 €** | Integrations-/Compliance-Nachweis Pflicht, kein Wohlfühl-Framing |
 | Check-up / Vorsorgemedizin · Sportmedizin | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration, Haftungstiefe |
 
 **Tier 3 — nur bei konkreter Anfrage (schwächer, solo-lastig):** Podologie (10),
@@ -255,7 +255,7 @@ Praxis **unter echtem Namen** (nicht anonymisiert) als Case zu zeigen. Gestaffel
 
 | Tier | Segment | Einmalprojekt | Retainer/Mo | Ideal |
 |---|---|:--:|:--:|:--:|
-| 1 | Medical-Wellness | ~2.032 € | ~304 € | ~3.500 € |
+| 1 | privatärztliche Gesundheitszentren | ~2.032 € | ~304 € | ~3.500 € |
 | 1 | Physio-/Therapiepraxen | ~1.528 € | ~203 € | ~2.400 € |
 | 2 | Longevity / Präventionsmedizin | ~5.012 € | ~796 € | ~8.500 € |
 | 2 | Check-up · Sportmedizin | ~2.000 €+ | — | — |
@@ -297,7 +297,7 @@ Vorher-/Nachher-Zahlen und namentlichen Testimonials, gestaffelt bis Jahresende 
 Zeitfenster vor der offiziellen Zertifizierung ist ideal für Gratis-/Günstig-Piloten).
 **Breit über den Kern-Schmerz akquirieren** (nicht auf ein Segment beschränken) — wer
 zuerst anbeißt und einen echten Case liefert, zählt. Für die aktive Ansprache trotzdem bei
-den **Tier-1-Zielsegmenten (Physio, Medical-Wellness)** beginnen, weil dort am ehesten
+den **Tier-1-Zielsegmenten (Physio, privatärztliche Gesundheitszentren)** beginnen, weil dort am ehesten
 gewinnbar (Kap. 3).
 
 > **Zur Zertifizierung:** Der KI-Lehrgangs-Abschluss ist *keine rechtliche Voraussetzung*
@@ -321,7 +321,7 @@ Namen** (nicht anonymisiert) als Case zu zeigen — eine anonymisierte Zahl wirk
 wie ein erfundenes Beispiel und widerspricht der Ehrlichkeits-Regel (Kap. 4).
 
 ### Phase 1 — Tag 1–14: Zielliste & Vorbereitung
-- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, Medical-Wellness), aber offen
+- Zielliste: **10–15 Praxen**, Schwerpunkt Tier 1 (Physio, privatärztliche Gesundheitszentren), aber offen
   für jede kleine Gesundheitspraxis mit dem Kern-Schmerz — primär aus dem eigenen
   Netzwerk, sonst DACH-weit remote (kein Wien-/Vor-Ort-Fokus, siehe Kap. 4 SEO-Regel).
 - Pilot-Umfang grob festlegen (welches Themenfeld mit 2–3 zusammenhängenden

@@ -1,4 +1,4 @@
-# Brand Position: Leonie Kaiser — KI-Consulting für Gesundheits- & Wellness-Betriebe
+# Brand Position: Leonie Kaiser — KI-Consulting für Gesundheitsbetriebe
 
 *Entwickelt im Brand-Position-Sparring (10 Fragen), 2026-06-30. Das ist die Haltung
 der Marke — wofür und wogegen sie steht. Klare Kante schlägt nett-zu-allen.*

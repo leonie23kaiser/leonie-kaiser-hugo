@@ -39,7 +39,7 @@ driften Quelle und Zusammenfassung auseinander.
 
 Inhaber:innen kleiner **Privatpraxen für Prävention, Ästhetik & Wohlbefinden**
 (2–15 MA) im deutschsprachigen Raum (AT/DE/CH) — privat/selbst bezahlte Gesundheit &
-Wohlbefinden. Fokus-Segmente: **Longevity/Medical-Wellness**, **Ästhetik**,
+Wohlbefinden. Fokus-Segmente: **Longevity/privatärztliche Gesundheitszentren**, **Ästhetik**,
 **Privat-/Präventions-Physio & Osteopathie** sowie **Wohlbefinden/Regeneration**.
 **Ausgeschlossen:** Kassen-Akutmedizin (Haus-/Fachärzte, Zahnärzte, Kliniken),
 Apotheken, Pflege, klinische Psychotherapie, große Pharma. Grundlage:

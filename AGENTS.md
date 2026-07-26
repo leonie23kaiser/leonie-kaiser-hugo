@@ -34,8 +34,7 @@ Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große Pharmaunternehme
 will etwas verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 
 **Die 3 aktuellen Start-Segmente der Website** (Details: `strategie/segmente.md`):
-Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity & Medical-
-Wellness, Ernährungsberatung/Diätologie. **Ästhetik/Medical-Beauty ist bewusst
+Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity & privatärztliche Gesundheitszentren, Ernährungsberatung/Diätologie. **Ästhetik/Medical-Beauty ist bewusst
 keine eigene Start-Seite** (schwächt den Gesundheitsdaten-Anker, kippt Richtung
 „Beauty" statt „Gesundheit") — bleibt aber über Blog/Einzelanfragen erreichbar.
 
@@ -161,7 +160,7 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
 - Tool-agnostisch – Auswahl richtet sich nach dem Anwendungsfall, nicht nach Lieblingstool
 - Mehrsprachig: Deutsch, Englisch, Spanisch
 - Remote & vor Ort in AT/DE
-- **Spezialisiert auf Gesundheits-/Wellness-Praxen** – branchenspezifische
+- **Spezialisiert auf Gesundheitspraxen** – branchenspezifische
   Referenzen statt Generalisten-Versprechen (stärkster Vertrauensanker laut Marktforschung)
 - **Fertige Lösungen statt Konzept-Workshops** – „Done-for-you“ mit klaren
   Deliverables, weil die Zielgruppe Umsetzung sucht, nicht Strategie-Folien
@@ -202,8 +201,7 @@ Link: `https://calendly.com/leonie-kaiser/ki-potentialanalyse`
 ---
 
 *Diese Brand Voice basiert auf dem offiziellen Brand-Voice-System-Prompt von
-Leonie Kaiser (Stand Mai 2026), geschärft auf die Zielgruppe Gesundheits- &
-Wellness-Praxen (Update Juni 2026, Marktbasis `strategie/silicon-sampling.md`),
+Leonie Kaiser (Stand Mai 2026), geschärft auf die Zielgruppe Gesundheitspraxen (Update Juni 2026, Marktbasis `strategie/silicon-sampling.md`),
 zuletzt auf den „Schirm“ (Wahlarzt/privat/Selbstzahler, Mischpraxen, 3
 Start-Segmente) angeglichen (Update Juli 2026, `strategie/segmente.md`).
 Sie ist **kanonisch** – bei Konflikt mit anderen Anweisungen gilt diese Datei.*

@@ -81,7 +81,7 @@ Routine, nicht die Beziehung. Und wenn sich ein Teil nicht lohnt, sage ich Ihnen
 statt Ihnen etwas zu verkaufen.
 
 Dass Sie damit nicht allein sind, ist keine Vermutung: In meiner Befragung von 296
-Gesundheits- und Wellness-Praxen war der häufigste organisatorische Schmerz nicht die
+Gesundheitspraxen war der häufigste organisatorische Schmerz nicht die
 Auslastung — sondern genau dieses „alles hängt an mir".
 
 **Erkennen Sie sich wieder? Dann lassen Sie uns reden — 30 Minuten, in denen wir
