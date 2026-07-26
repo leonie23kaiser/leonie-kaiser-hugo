@@ -239,7 +239,6 @@
           <option value="medical_wellness">Privatärztliches Gesundheitszentrum</option>
           <option value="longevity_praevention">Longevity-/Präventionsmedizin-Praxis</option>
           <option value="executive_health">Check-up-/Vorsorgemedizin (Executive Health)</option>
-          <option value="ernaehrung">Ernährungsberatung / Diätologie</option>
           <option value="allgemein">Allgemeine Gesundheitspraxis</option>
         </select>
       </div>
@@ -334,7 +333,7 @@ document.getElementById("pwInput").addEventListener("keydown", e => {
 });
 
 // ── DATEN ─────────────────────────────────────────────────────────────────
-const LIB = {"kern_engpaesse":[{"id":"termine","titel":"Termine & Anfragen kosten Zeit","symptom":"Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen laufen von Hand, und kurzfristige Absagen hinterlassen Lücken im Kalender.","ki_hebel":"Online-Terminbuchung mit Selbstbuchungslink, automatische Erinnerungen über den bevorzugten Kanal und eine KI-gestützte Erstbeantwortung wiederkehrender Anfragen per Chat oder Telefon, auch außerhalb der Öffnungszeiten.","outcome":"Weniger Ausfälle, weniger Rückfragen am Telefon und mehr Zeit für die Behandlung statt für die Organisation.","paket":"Praxis-Start · Termine & Anfragen"},{"id":"dokumentation","titel":"Dokumentation nach Feierabend","symptom":"Befunde, Berichte und Notizen entstehen oft erst am Abend, und jede Person im Team dokumentiert auf ihre eigene Art.","ki_hebel":"Notizen werden zu einem sauberen Protokoll strukturiert, das Sie nur noch prüfen. Dazu eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein digitales Praxis-Handbuch fürs Team.","outcome":"Weniger Arbeit nach Feierabend, eine einheitliche Dokumentation und leichtere Vertretung und Einarbeitung.","paket":"Praxis-Start · Dokumentation & Wissen"},{"id":"nachsorge","titel":"Nachsorge kommt zu kurz","symptom":"Nach der Behandlung endet der Kontakt oft. Folgetermine und Empfehlungen entstehen eher zufällig.","ki_hebel":"Automatisierte Nachsorge-Abläufe, Erinnerungen an Folgetermine zum richtigen Zeitpunkt und strukturierte Empfehlungs- und Bewertungsanfragen nach dem Termin.","outcome":"Mehr Folgetermine, mehr Empfehlungen und eine stärkere Bindung der bestehenden Kundschaft.","paket":"Praxis-Start · Nachsorge & Kundenbindung"},{"id":"sichtbarkeit","titel":"Sichtbarkeit ohne Mehraufwand","symptom":"Für Sichtbarkeit bleibt im Alltag kaum Zeit, und neue Anfragen kommen unregelmäßig herein.","ki_hebel":"Vorlagen und KI-Entwürfe für Beiträge und Newsletter, die nach Ihnen klingen, sowie eine bessere Auffindbarkeit in Suchmaschinen und KI-Suchen.","outcome":"Regelmäßigere Sichtbarkeit und eine gleichmäßigere Auslastung, ohne zusätzlichen Aufwand im Alltag.","paket":"Praxis-Start · Sichtbarkeit"},{"id":"leitung","titel":"Alles hängt an der Leitung","symptom":"Organisation, Kommunikation und Entscheidungen laufen über eine Person. Urlaub oder Krankheit bringen den Betrieb ins Stocken.","ki_hebel":"Wiederkehrende Abläufe werden in klare, teilbare Prozesse und ein digitales Praxis-Handbuch überführt, die auch das Team oder automatisierte Abläufe übernehmen.","outcome":"Der Betrieb läuft stabiler weiter, auch ohne ständige Präsenz der Leitung.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"betriebstypen":{"physio_therapie":{"label":"Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)","art9":true,"art9_hinweis":"Sie führen echte Gesundheits- und Diagnosedaten. Art. 9 DSGVO (besondere Kategorien personenbezogener Daten) gilt vollumfänglich. Jede Lösung wird von Beginn an datenschutzkonform aufgesetzt.","kontext":"Als Wahl- oder Privatpraxis tragen Sie Behandlung, Organisation und Abrechnung oft parallel. Serientermine, Verordnungen und Rückmeldungen an zuweisende Ärztinnen und Ärzte strukturieren den Alltag.","spezifische_engpaesse":[{"id":"physio_verordnung","titel":"Verordnungs- & Zuweiser-Kommunikation","symptom":"Behandlungspläne, Rückmeldungen an zuweisende Ärztinnen und Ärzte und wiederkehrende Formalitäten sind zeitintensiv.","ki_hebel":"Vorlagen und KI-gestützte Entwürfe für Behandlungspläne und strukturierte Rückmeldungen, die Sie nur noch prüfen, statt jedes Mal neu zu schreiben.","outcome":"Schnellere, einheitliche Zuweiser-Kommunikation bei voller fachlicher Kontrolle.","paket":"Praxis-Start · Dokumentation & Wissen"}],"beispiel_quickwin":"Automatische Terminerinnerung und eine Warteliste, aus der freie Termine nachbesetzt werden. Oft der schnellste spürbare Effekt."},"medical_wellness":{"label":"Privatärztliches Gesundheitszentrum","art9":true,"art9_hinweis":"Behandlungs- und Labordaten sind besondere Daten nach Art. 9 DSGVO. Datenschutz ist hier von Beginn an der Ausgangspunkt und bei anspruchsvoller Privatkundschaft zugleich ein Vertrauensargument.","kontext":"Premium-Positionierung mit privat zahlender Kundschaft, langen Behandlungswegen und wiederkehrender Betreuung. Nachsorge und ein durchgängig hochwertiges Erlebnis entscheiden über die Auslastung.","spezifische_engpaesse":[{"id":"mediwell_betreuung","titel":"Wiederkehrende Betreuung & Nachsorge","symptom":"Erinnerungen an Folgetermine und Nachfass-Nachrichten laufen manuell und verstreut über mehrere Kanäle, und Kundschaft geht still verloren.","ki_hebel":"Eine automatisierte Nachsorge-Sequenz, Erinnerungen an Folgetermine zum richtigen Zeitpunkt und eine Bewertungsanfrage nach dem Termin, datenschutzkonform aufgesetzt.","outcome":"Mehr Folgetermine, planbarere Auslastung und eine Nachsorge, die zuverlässig läuft, ohne dass jemand aktiv daran denken muss.","paket":"Praxis-Start · Nachsorge & Kundenbindung"}],"beispiel_quickwin":"Automatisierte Nachsorge- und Folgetermin-Erinnerung nach dem Termin. Einer der stärksten Hebel für stabile Auslastung in diesem Segment."},"longevity_praevention":{"label":"Longevity-/Präventionsmedizin-Praxis","art9":true,"art9_hinweis":"Biomarker-, Labor- und teils Gendaten gehören zu den sensibelsten Gesundheitsdaten überhaupt. Art. 9 DSGVO, EU-AI-Act-Einstufung und ärztlich saubere, belegbare Datenflüsse sind Pflicht. Hier zählt medizinische Ernsthaftigkeit.","kontext":"Ärztlich geführte, datengetriebene Praxis mit langen Kundenreisen über mehrere Systeme hinweg. Der Hebel liegt im verlässlichen Verbinden der Werkzeuge und im sauberen Umgang mit umfangreichen Gesundheitsdaten.","spezifische_engpaesse":[{"id":"longevity_integration","titel":"Datengetriebene Kundenreise & Integration","symptom":"Labor, Praxissoftware und Kommunikation sind nicht verbunden; Werte werden von Hand übertragen, und die lange Kundenreise ist schwer durchgängig zu begleiten.","ki_hebel":"Bestehende Werkzeuge sauber verbinden, wiederkehrende Aufbereitung von Befunden in verständliche Zusammenfassungen, die Sie nur noch prüfen, und eine durchgängige, datenschutzkonforme Begleitung entlang der Kundenreise.","outcome":"Weniger manuelles Übertragen, eine durchgängige Begleitung und mehr Zeit für die ärztliche Kernarbeit.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"beispiel_quickwin":"Datenschutzkonforme Aufbereitung von Befund- und Laborergebnissen in eine verständliche, markenkonforme Zusammenfassung, die Sie fachlich prüfen."},"executive_health":{"label":"Check-up-/Vorsorgemedizin (Executive Health)","art9":true,"art9_hinweis":"Umfassende Check-up- und Vorsorgedaten sind besonders schützenswert (Art. 9 DSGVO), die Kundschaft besonders diskretionssensibel. Höchste Datenschutz-Standards und eine saubere Anbindung an bestehende Systeme sind Voraussetzung, bevor etwas live geht.","kontext":"Hochwertige Vorsorgemedizin für eine anspruchsvolle, oft geschäftliche Kundschaft. Diskretion, reibungslose Abläufe und die Anbindung an bestehende Systeme bestimmen das Erlebnis.","spezifische_engpaesse":[{"id":"exec_journey","titel":"Reibungslose, diskrete Kundenreise","symptom":"Terminkoordination, Befundversand und Nachbetreuung für eine anspruchsvolle Kundschaft sind aufwändig und müssen jederzeit diskret und fehlerfrei laufen.","ki_hebel":"Automatisierte, diskrete Terminkoordination und Nachbetreuung sowie saubere, datenschutzkonforme Wege für den Befundversand, in bestehende Systeme integriert.","outcome":"Ein durchgängig reibungsloses, diskretes Erlebnis bei deutlich geringerem Koordinationsaufwand.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"beispiel_quickwin":"Automatisierte, diskrete Terminkoordination und Nachbetreuung. Spürbare Entlastung bei gleichbleibend hohem Anspruch."},"ernaehrung":{"label":"Ernährungsberatung / Diätologie","art9":true,"art9_hinweis":"Diätologinnen und Diätologen sowie Ernährungswissenschaftlerinnen und -wissenschaftler verarbeiten Gesundheitsdaten, Art. 9 DSGVO gilt. Reine Ernährungstrainerinnen und -trainer bewegen sich je nach Tiefe der Daten an der Grenze; im Zweifel Art.-9-Standard anwenden.","kontext":"Die rechtliche Linie zwischen beratender Tätigkeit und Ernährungstraining bestimmt, wie sensibel die Daten sind und wie KI eingesetzt werden darf.","spezifische_engpaesse":[{"id":"ernaehrung_plaene","titel":"Erstellung & Pflege individueller Pläne","symptom":"Individuelle Ernährungspläne, die Auswertung von Protokollen und die Verlaufsbegleitung sind aufwändig und schwer skalierbar.","ki_hebel":"KI-gestützte Aufbereitung von Verlaufsprotokollen und Entwürfe individueller Pläne als Vorlage, die Sie fachlich prüfen und freigeben, datenschutzkonform.","outcome":"Mehr Menschen individuell begleiten, ohne dass die Vorbereitung den ganzen Tag kostet.","paket":"Praxis-Start · Dokumentation & Wissen"}],"beispiel_quickwin":"Strukturierte Erstanamnese per digitalem Fragebogen, der die Vorbereitung der ersten Sitzung halbiert."},"allgemein":{"label":"Allgemeine Gesundheitspraxis","art9":true,"art9_hinweis":"Sobald Gesundheitsdaten verarbeitet werden, gilt Art. 9 DSGVO. Im Zweifel wird der strengere Standard angewendet. Das ist Teil des Vertrauens, das Sie Ihrer Kundschaft bieten.","kontext":"Sammelkategorie für kleine Gesundheitsbetriebe, die nicht eindeutig einem der Spezialtypen zuzuordnen sind.","spezifische_engpaesse":[],"beispiel_quickwin":"Notizen strukturiert zu einem sauberen Protokoll aufbereiten, das Sie nur noch prüfen. Einer der Hebel, die in fast jedem kleinen Gesundheitsbetrieb sofort wirken."}},"ziele":[{"id":"zeit","label":"Zeit zurückgewinnen / Entlastung","framing":"Weniger Organisation, mehr Zeit fürs Kerngeschäft und freie Abende für Sie selbst."},{"id":"auslastung","label":"Stabilere Auslastung","framing":"Eine planbarere, gleichmäßigere Auslastung über das Jahr."},{"id":"kapazitaet","label":"Mehr Kapazität ohne Mehrarbeit","framing":"Mehr Menschen begleiten, ohne länger zu arbeiten."},{"id":"qualitaet","label":"Bessere Kundenerfahrung","framing":"Schnellere Reaktion, persönlichere Betreuung, durchgängiges Erlebnis."},{"id":"vorsprung","label":"Vorsprung vor dem Wettbewerb","framing":"Früh und sauber aufgestellt sein, während andere noch zögern."},{"id":"bindung","label":"Stärkere Kundenbindung","framing":"Bestehende Kundschaft halten und zu Empfehlungen machen."}],"digitalisierungsstufen":[{"stufe":1,"label":"Frühe Digitalisierung","beschreibung":"Teilweise digitale Werkzeuge wie E-Mail und Tabellen; Daten werden oft manuell übertragen.","einstieg":"Hier wirken schon einfache Automatisierungen stark."},{"stufe":2,"label":"Teildigitalisierung","beschreibung":"Vermehrt digitale Werkzeuge und Programme im Einsatz; die Verbindung zwischen den Bereichen fehlt noch.","einstieg":"Der Hebel liegt im Verbinden des Vorhandenen."},{"stufe":3,"label":"Verbundene Digitalisierung","beschreibung":"Cloud-Programme erleichtern die Zusammenarbeit; erste automatische Prozesse sind im Einsatz.","einstieg":"Jetzt lohnt der gezielte KI-Einsatz auf den wertvollsten Engpässen."},{"stufe":4,"label":"Intelligente Digitalisierung","beschreibung":"Fortgeschrittene Technologien und Datenanalysen im Einsatz; erste KI-Tools automatisieren Aufgaben und erkennen Muster in Daten.","einstieg":"Bestehende KI-Ansätze gezielt ausbauen und absichern."},{"stufe":5,"label":"KI-getriebene Digitalisierung","beschreibung":"KI ist ein integraler Bestandteil der Arbeitsabläufe und verändert den Geschäftsbetrieb grundlegend.","einstieg":"Feinschliff, Governance und neue Anwendungsfälle."}]};
+const LIB = {"kern_engpaesse":[{"id":"termine","titel":"Termine & Anfragen kosten Zeit","symptom":"Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen laufen von Hand, und kurzfristige Absagen hinterlassen Lücken im Kalender.","ki_hebel":"Online-Terminbuchung mit Selbstbuchungslink, automatische Erinnerungen über den bevorzugten Kanal und eine KI-gestützte Erstbeantwortung wiederkehrender Anfragen per Chat oder Telefon, auch außerhalb der Öffnungszeiten.","outcome":"Weniger Ausfälle, weniger Rückfragen am Telefon und mehr Zeit für die Behandlung statt für die Organisation.","paket":"Praxis-Start · Termine & Anfragen"},{"id":"dokumentation","titel":"Dokumentation nach Feierabend","symptom":"Befunde, Berichte und Notizen entstehen oft erst am Abend, und jede Person im Team dokumentiert auf ihre eigene Art.","ki_hebel":"Notizen werden zu einem sauberen Protokoll strukturiert, das Sie nur noch prüfen. Dazu eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein digitales Praxis-Handbuch fürs Team.","outcome":"Weniger Arbeit nach Feierabend, eine einheitliche Dokumentation und leichtere Vertretung und Einarbeitung.","paket":"Praxis-Start · Dokumentation & Wissen"},{"id":"nachsorge","titel":"Nachsorge kommt zu kurz","symptom":"Nach der Behandlung endet der Kontakt oft. Folgetermine und Empfehlungen entstehen eher zufällig.","ki_hebel":"Automatisierte Nachsorge-Abläufe, Erinnerungen an Folgetermine zum richtigen Zeitpunkt und strukturierte Empfehlungs- und Bewertungsanfragen nach dem Termin.","outcome":"Mehr Folgetermine, mehr Empfehlungen und eine stärkere Bindung der bestehenden Kundschaft.","paket":"Praxis-Start · Nachsorge & Kundenbindung"},{"id":"sichtbarkeit","titel":"Sichtbarkeit ohne Mehraufwand","symptom":"Für Sichtbarkeit bleibt im Alltag kaum Zeit, und neue Anfragen kommen unregelmäßig herein.","ki_hebel":"Vorlagen und KI-Entwürfe für Beiträge und Newsletter, die nach Ihnen klingen, sowie eine bessere Auffindbarkeit in Suchmaschinen und KI-Suchen.","outcome":"Regelmäßigere Sichtbarkeit und eine gleichmäßigere Auslastung, ohne zusätzlichen Aufwand im Alltag.","paket":"Praxis-Start · Sichtbarkeit"},{"id":"leitung","titel":"Alles hängt an der Leitung","symptom":"Organisation, Kommunikation und Entscheidungen laufen über eine Person. Urlaub oder Krankheit bringen den Betrieb ins Stocken.","ki_hebel":"Wiederkehrende Abläufe werden in klare, teilbare Prozesse und ein digitales Praxis-Handbuch überführt, die auch das Team oder automatisierte Abläufe übernehmen.","outcome":"Der Betrieb läuft stabiler weiter, auch ohne ständige Präsenz der Leitung.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"betriebstypen":{"physio_therapie":{"label":"Physio-/Therapiepraxis (inkl. Ergo, Logopädie, Osteopathie)","art9":true,"art9_hinweis":"Sie führen echte Gesundheits- und Diagnosedaten. Art. 9 DSGVO (besondere Kategorien personenbezogener Daten) gilt vollumfänglich. Jede Lösung wird von Beginn an datenschutzkonform aufgesetzt.","kontext":"Als Wahl- oder Privatpraxis tragen Sie Behandlung, Organisation und Abrechnung oft parallel. Serientermine, Verordnungen und Rückmeldungen an zuweisende Ärztinnen und Ärzte strukturieren den Alltag.","spezifische_engpaesse":[{"id":"physio_verordnung","titel":"Verordnungs- & Zuweiser-Kommunikation","symptom":"Behandlungspläne, Rückmeldungen an zuweisende Ärztinnen und Ärzte und wiederkehrende Formalitäten sind zeitintensiv.","ki_hebel":"Vorlagen und KI-gestützte Entwürfe für Behandlungspläne und strukturierte Rückmeldungen, die Sie nur noch prüfen, statt jedes Mal neu zu schreiben.","outcome":"Schnellere, einheitliche Zuweiser-Kommunikation bei voller fachlicher Kontrolle.","paket":"Praxis-Start · Dokumentation & Wissen"}],"beispiel_quickwin":"Automatische Terminerinnerung und eine Warteliste, aus der freie Termine nachbesetzt werden. Oft der schnellste spürbare Effekt."},"medical_wellness":{"label":"Privatärztliches Gesundheitszentrum","art9":true,"art9_hinweis":"Behandlungs- und Labordaten sind besondere Daten nach Art. 9 DSGVO. Datenschutz ist hier von Beginn an der Ausgangspunkt und bei anspruchsvoller Privatkundschaft zugleich ein Vertrauensargument.","kontext":"Premium-Positionierung mit privat zahlender Kundschaft, langen Behandlungswegen und wiederkehrender Betreuung. Nachsorge und ein durchgängig hochwertiges Erlebnis entscheiden über die Auslastung.","spezifische_engpaesse":[{"id":"mediwell_betreuung","titel":"Wiederkehrende Betreuung & Nachsorge","symptom":"Erinnerungen an Folgetermine und Nachfass-Nachrichten laufen manuell und verstreut über mehrere Kanäle, und Kundschaft geht still verloren.","ki_hebel":"Eine automatisierte Nachsorge-Sequenz, Erinnerungen an Folgetermine zum richtigen Zeitpunkt und eine Bewertungsanfrage nach dem Termin, datenschutzkonform aufgesetzt.","outcome":"Mehr Folgetermine, planbarere Auslastung und eine Nachsorge, die zuverlässig läuft, ohne dass jemand aktiv daran denken muss.","paket":"Praxis-Start · Nachsorge & Kundenbindung"}],"beispiel_quickwin":"Automatisierte Nachsorge- und Folgetermin-Erinnerung nach dem Termin. Einer der stärksten Hebel für stabile Auslastung in diesem Segment."},"longevity_praevention":{"label":"Longevity-/Präventionsmedizin-Praxis","art9":true,"art9_hinweis":"Biomarker-, Labor- und teils Gendaten gehören zu den sensibelsten Gesundheitsdaten überhaupt. Art. 9 DSGVO, EU-AI-Act-Einstufung und ärztlich saubere, belegbare Datenflüsse sind Pflicht. Hier zählt medizinische Ernsthaftigkeit.","kontext":"Ärztlich geführte, datengetriebene Praxis mit langen Kundenreisen über mehrere Systeme hinweg. Der Hebel liegt im verlässlichen Verbinden der Werkzeuge und im sauberen Umgang mit umfangreichen Gesundheitsdaten.","spezifische_engpaesse":[{"id":"longevity_integration","titel":"Datengetriebene Kundenreise & Integration","symptom":"Labor, Praxissoftware und Kommunikation sind nicht verbunden; Werte werden von Hand übertragen, und die lange Kundenreise ist schwer durchgängig zu begleiten.","ki_hebel":"Bestehende Werkzeuge sauber verbinden, wiederkehrende Aufbereitung von Befunden in verständliche Zusammenfassungen, die Sie nur noch prüfen, und eine durchgängige, datenschutzkonforme Begleitung entlang der Kundenreise.","outcome":"Weniger manuelles Übertragen, eine durchgängige Begleitung und mehr Zeit für die ärztliche Kernarbeit.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"beispiel_quickwin":"Datenschutzkonforme Aufbereitung von Befund- und Laborergebnissen in eine verständliche, markenkonforme Zusammenfassung, die Sie fachlich prüfen."},"executive_health":{"label":"Check-up-/Vorsorgemedizin (Executive Health)","art9":true,"art9_hinweis":"Umfassende Check-up- und Vorsorgedaten sind besonders schützenswert (Art. 9 DSGVO), die Kundschaft besonders diskretionssensibel. Höchste Datenschutz-Standards und eine saubere Anbindung an bestehende Systeme sind Voraussetzung, bevor etwas live geht.","kontext":"Hochwertige Vorsorgemedizin für eine anspruchsvolle, oft geschäftliche Kundschaft. Diskretion, reibungslose Abläufe und die Anbindung an bestehende Systeme bestimmen das Erlebnis.","spezifische_engpaesse":[{"id":"exec_journey","titel":"Reibungslose, diskrete Kundenreise","symptom":"Terminkoordination, Befundversand und Nachbetreuung für eine anspruchsvolle Kundschaft sind aufwändig und müssen jederzeit diskret und fehlerfrei laufen.","ki_hebel":"Automatisierte, diskrete Terminkoordination und Nachbetreuung sowie saubere, datenschutzkonforme Wege für den Befundversand, in bestehende Systeme integriert.","outcome":"Ein durchgängig reibungsloses, diskretes Erlebnis bei deutlich geringerem Koordinationsaufwand.","paket":"Praxis-Plus (mehrere Bereiche kombiniert)"}],"beispiel_quickwin":"Automatisierte, diskrete Terminkoordination und Nachbetreuung. Spürbare Entlastung bei gleichbleibend hohem Anspruch."},"allgemein":{"label":"Allgemeine Gesundheitspraxis","art9":true,"art9_hinweis":"Sobald Gesundheitsdaten verarbeitet werden, gilt Art. 9 DSGVO. Im Zweifel wird der strengere Standard angewendet. Das ist Teil des Vertrauens, das Sie Ihrer Kundschaft bieten.","kontext":"Sammelkategorie für kleine Gesundheitsbetriebe, die nicht eindeutig einem der Spezialtypen zuzuordnen sind.","spezifische_engpaesse":[],"beispiel_quickwin":"Notizen strukturiert zu einem sauberen Protokoll aufbereiten, das Sie nur noch prüfen. Einer der Hebel, die in fast jedem kleinen Gesundheitsbetrieb sofort wirken."}},"ziele":[{"id":"zeit","label":"Zeit zurückgewinnen / Entlastung","framing":"Weniger Organisation, mehr Zeit fürs Kerngeschäft und freie Abende für Sie selbst."},{"id":"auslastung","label":"Stabilere Auslastung","framing":"Eine planbarere, gleichmäßigere Auslastung über das Jahr."},{"id":"kapazitaet","label":"Mehr Kapazität ohne Mehrarbeit","framing":"Mehr Menschen begleiten, ohne länger zu arbeiten."},{"id":"qualitaet","label":"Bessere Kundenerfahrung","framing":"Schnellere Reaktion, persönlichere Betreuung, durchgängiges Erlebnis."},{"id":"vorsprung","label":"Vorsprung vor dem Wettbewerb","framing":"Früh und sauber aufgestellt sein, während andere noch zögern."},{"id":"bindung","label":"Stärkere Kundenbindung","framing":"Bestehende Kundschaft halten und zu Empfehlungen machen."}],"digitalisierungsstufen":[{"stufe":1,"label":"Frühe Digitalisierung","beschreibung":"Teilweise digitale Werkzeuge wie E-Mail und Tabellen; Daten werden oft manuell übertragen.","einstieg":"Hier wirken schon einfache Automatisierungen stark."},{"stufe":2,"label":"Teildigitalisierung","beschreibung":"Vermehrt digitale Werkzeuge und Programme im Einsatz; die Verbindung zwischen den Bereichen fehlt noch.","einstieg":"Der Hebel liegt im Verbinden des Vorhandenen."},{"stufe":3,"label":"Verbundene Digitalisierung","beschreibung":"Cloud-Programme erleichtern die Zusammenarbeit; erste automatische Prozesse sind im Einsatz.","einstieg":"Jetzt lohnt der gezielte KI-Einsatz auf den wertvollsten Engpässen."},{"stufe":4,"label":"Intelligente Digitalisierung","beschreibung":"Fortgeschrittene Technologien und Datenanalysen im Einsatz; erste KI-Tools automatisieren Aufgaben und erkennen Muster in Daten.","einstieg":"Bestehende KI-Ansätze gezielt ausbauen und absichern."},{"stufe":5,"label":"KI-getriebene Digitalisierung","beschreibung":"KI ist ein integraler Bestandteil der Arbeitsabläufe und verändert den Geschäftsbetrieb grundlegend.","einstieg":"Feinschliff, Governance und neue Anwendungsfälle."}]};
 
 // ── UI INITIALISIERUNG ────────────────────────────────────────────────────
 
@@ -564,16 +563,33 @@ function downloadMafoCsv() {
 
 // Farben
 const C = {
-  teal:     "086584",
-  blau:     "2E74B5",
-  graublau: "5B6572",
-  text:     "232A2E",
-  weiss:    "FFFFFF",
-  hellteal: "E6F1F3",
-  hellgrau: "F4F6F7",
-  tealDark: "064f68",
-  dcecf0:   "DCE CF0".replace(" ",""),
+  teal:       "086584",
+  blau:       "2E74B5",
+  graublau:   "5B6572",
+  text:       "232A2E",
+  weiss:      "FFFFFF",
+  hellteal:   "E6F1F3",
+  hellgrau:   "F4F6F7",
+  tealDark:   "064f68",
+  violet:     "6B2C8C",
+  violetSoft: "EFE6F6",
+  violetLine: "D9C5E8",
+  dcecf0:     "DCECF0",
 };
+
+async function loadImageB64(path, cacheKey) {
+  if (window[cacheKey]) return window[cacheKey];
+  try {
+    const resp = await fetch(path);
+    const blob = await resp.blob();
+    return new Promise((res, rej) => {
+      const fr = new FileReader();
+      fr.onload = () => { window[cacheKey] = fr.result; res(fr.result); };
+      fr.onerror = rej;
+      fr.readAsDataURL(blob);
+    });
+  } catch(e) { return null; }
+}
 
 // Helper: inches to EMU (PptxGenJS uses inches for positioning)
 function pct(val, total) { return (val / total * 100).toFixed(2) + "%"; }
@@ -622,7 +638,8 @@ async function generate() {
     if (d.quick_wins.length === 0) throw new Error("Bitte mindestens einen Quick Win eintragen.");
 
     const logo = await loadLogo();
-    await buildPptx(d, logo);
+    const bg = await loadImageB64("background.png", "_bgB64");
+    await buildPptx(d, logo, bg);
 
     msg.className = "status-msg ok";
     msg.textContent = "✓ PPTX erstellt und heruntergeladen.";
@@ -636,260 +653,299 @@ async function generate() {
   }
 }
 
-async function buildPptx(d, logo) {
+async function buildPptx(d, logo, bg) {
   const pptx = new PptxGenJS();
   pptx.layout = "LAYOUT_WIDE"; // 13.33 x 7.5 in
 
-  await slideTitel(pptx, d, logo);
+  await slideTitel(pptx, d, logo, bg);
   await slideEinleitung(pptx, d);
-  await slideIstZustand(pptx, d);
+  await slideDigitalisierung(pptx, d);
+  await slideZiele(pptx, d);
   for (let i = 0; i < d.engpaesse.length; i++) {
     await slideEngpass(pptx, d.engpaesse[i], i+1, d.engpaesse.length);
   }
   await slideDatenschutz(pptx, d);
-  await slideQuickwins(pptx, d);
+  await slidePraxisStart(pptx, d);
   await slideAngebot(pptx, d, logo);
+  await slideWeiter(pptx, d);
 
   const name = d.unternehmen.name.replace(/[^a-zA-Z0-9äöüÄÖÜß\s\-]/g, "").replace(/\s+/g,"_");
   await pptx.writeFile({ fileName: `KI-Potenzialanalyse_${name}.pptx` });
 }
 
+// Eyebrow-Zeile (kleine Violett-Überschrift)
+function eyebrow(s, text, x, y) {
+  s.addText(text.toUpperCase(), { x, y, w: 8, h: 0.35, fontSize: 12, bold: true, color: C.violet, charSpacing: 2, fontFace: "Arial" });
+}
+
 // ── FOLIE 1: TITEL ────────────────────────────────────────────────────────
-async function slideTitel(pptx, d, logo) {
+async function slideTitel(pptx, d, logo, bg) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  // Logo oben rechts
+  // Rechtes Bild-Band
+  if (bg) {
+    s.addImage({ data: bg, x: 9.53, y: 0, w: 3.8, h: 7.5, sizing: { type: "cover", w: 3.8, h: 7.5 } });
+  } else {
+    s.addShape(pptx.ShapeType.rect, { x: 9.53, y: 0, w: 3.8, h: 7.5, fill: { color: C.violetSoft }, line: { color: C.violetSoft } });
+  }
+  // Logo auf weißem Kreis im Band
   if (logo) {
-    s.addImage({ data: logo, x: 10.0, y: 0.55, w: 2.6, h: 2.6 });
+    s.addShape(pptx.ShapeType.ellipse, { x: 10.5, y: 0.7, w: 1.9, h: 1.9, fill: { color: C.weiss }, line: { color: C.weiss } });
+    s.addImage({ data: logo, x: 10.72, y: 0.92, w: 1.46, h: 1.46 });
   }
 
-  // Haupttitel
+  eyebrow(s, "KI-Potenzialanalyse", 0.9, 2.15);
   s.addText([
-    { text: "KI-Potenzialanalyse", options: { fontSize: 46, bold: true, color: C.teal, breakLine: true } },
-    { text: "Wo Künstliche Intelligenz in Ihrem Betrieb wirklich wirkt.", options: { fontSize: 20, color: C.graublau, bold: false } },
-  ], { x: 0.9, y: 2.2, w: 8.6, h: 2.2, fontFace: "Arial", valign: "top", wrap: true });
+    { text: "Wo Künstliche Intelligenz\n", options: { breakLine: true } },
+    { text: "in Ihrer Praxis wirklich wirkt.", options: {} },
+  ], { x: 0.9, y: 2.55, w: 8.2, h: 2.0, fontSize: 40, bold: true, color: C.teal, fontFace: "Arial", valign: "top", wrap: true });
 
-  // Betrieb-Meta
   const metaParts = [];
   if (d.unternehmen.ort) metaParts.push(d.unternehmen.ort);
   if (d.unternehmen.typ_label) metaParts.push(d.unternehmen.typ_label);
   if (d.unternehmen.mitarbeiter) metaParts.push(`${d.unternehmen.mitarbeiter} Personen`);
-
   s.addText([
-    { text: d.unternehmen.name, options: { fontSize: 22, bold: true, color: C.blau, breakLine: true } },
-    ...(metaParts.length ? [{ text: metaParts.join("  ·  "), options: { fontSize: 14, color: C.graublau } }] : []),
-  ], { x: 0.95, y: 5.5, w: 8.5, h: 1.6, fontFace: "Arial", valign: "top", wrap: true });
+    { text: d.unternehmen.name + "\n", options: { fontSize: 24, bold: true, color: C.blau, breakLine: true } },
+    ...(metaParts.length ? [{ text: metaParts.join("   ·   "), options: { fontSize: 15, color: C.graublau } }] : []),
+  ], { x: 0.9, y: 5.15, w: 8.2, h: 1.4, fontFace: "Arial", valign: "top", wrap: true });
 
-  // Footer
   s.addText("Leonie Kaiser · KI & Digitalisierung · EU AI Act & DSGVO konform",
-    { x: 0.95, y: 6.9, w: 11, h: 0.4, fontSize: 11, color: C.graublau, fontFace: "Arial" });
+    { x: 0.9, y: 6.95, w: 8.4, h: 0.4, fontSize: 11, color: C.graublau, fontFace: "Arial" });
 }
 
-// ── FOLIE 2: EINLEITUNG ───────────────────────────────────────────────────
+// ── FOLIE 2: EINLEITUNG (wenig Text, Bullets nutzen den Platz) ────────────
 async function slideEinleitung(pptx, d) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  s.addText("Worum es in dieser Analyse geht",
-    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+  eyebrow(s, "Worum es geht", 0.9, 0.7);
+  s.addText("Was Sie aus diesen 30 Minuten mitnehmen",
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
-  s.addText([
-    { text: "KI verändert auch kleine Gesundheitspraxen und schafft echte Vorteile für die, die früh und überlegt handeln.", options: { breakLine: true } },
-    { text: "\n", options: { fontSize: 8 } },
-    { text: "Diese erste Einschätzung gibt Ihnen einen sachlichen Überblick. In 30 Minuten schauen wir gemeinsam, wo in Ihrem Alltag Zeit verloren geht und wo KI Sie spürbar entlasten kann.", options: { breakLine: true } },
-    { text: "\n", options: { fontSize: 8 } },
-    { text: "Am Ende haben Sie eine erste Klarheit, wo der größte Hebel liegt, als Ausgangspunkt für Ihre nächste Entscheidung.", options: { bold: true } },
-  ], { x: 0.9, y: 1.9, w: 7.0, h: 4.8, fontSize: 16, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
-
-  // rechte Karte
-  s.addShape(pptx.ShapeType.roundRect, { x: 8.3, y: 1.9, w: 4.1, h: 4.6, fill: { color: C.hellteal }, line: { color: C.hellteal } });
-  const versp = [
-    { text: "Was Sie mitnehmen\n", options: { bold: true, fontSize: 16, color: C.teal, breakLine: true } },
-    ...["Erste Klarheit über Ihren Ist-Zustand","Konkrete Quick Wins für Ihren Betrieb","Eine erste Einschätzung & Empfehlung","Volle DSGVO- & Art.-9-Konformität"].map(t => ({
-      text: "•  " + t + "\n", options: { fontSize: 14, color: C.text }
-    }))
+  const items = [
+    "Erste Klarheit über Ihren Ist-Zustand",
+    "Konkrete Quick Wins für Ihre Praxis",
+    "Eine erste Einschätzung & Empfehlung",
+    "Volle DSGVO- & Art.-9-Konformität",
   ];
-  s.addText(versp, { x: 8.7, y: 2.25, w: 3.4, h: 4.0, fontFace: "Arial", valign: "top", wrap: true });
+  const ch = 1.05, gap = 0.28, y0 = 2.5, w = 11.5;
+  items.forEach((t, i) => {
+    const y = y0 + i * (ch + gap);
+    s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y, w, h: ch, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
+    s.addShape(pptx.ShapeType.ellipse, { x: 1.2, y: y + 0.27, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText("✓", { x: 1.2, y: y + 0.27, w: 0.5, h: 0.5, fontSize: 16, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(t, { x: 2.0, y, w: w - 1.4, h: ch, fontSize: 20, bold: true, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
+  });
+
+  s.addNotes(
+    "KI verändert auch kleine Gesundheitspraxen und schafft echte Vorteile für die, die früh und überlegt handeln. " +
+    "Diese erste Einschätzung gibt Ihnen einen sachlichen Überblick. In 30 Minuten schauen wir gemeinsam, wo in Ihrem Alltag Zeit verloren geht und wo KI Sie spürbar entlasten kann. " +
+    "Am Ende haben Sie eine erste Klarheit, wo der größte Hebel liegt, als Ausgangspunkt für Ihre nächste Entscheidung."
+  );
 }
 
-// ── FOLIE 3: IST-ZUSTAND ──────────────────────────────────────────────────
-async function slideIstZustand(pptx, d) {
+// ── FOLIE 3: DIGITALISIERUNG (eigene Folie) ───────────────────────────────
+async function slideDigitalisierung(pptx, d) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  s.addText("Ihr Ausgangspunkt",
-    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+  eyebrow(s, "Ihr Ausgangspunkt", 0.9, 0.7);
+  s.addText("Wo Ihre Praxis heute digital steht",
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
-  // Stufen-Karte
-  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 1.9, w: 5.4, h: 4.6, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
   const st = d.digitalisierung;
+  // 5-Punkte-Fortschritt
+  const total = 5, dotW = 0.55, gap = ((11.5 - total * dotW) / (total - 1));
+  for (let i = 1; i <= total; i++) {
+    const x = 0.9 + (i - 1) * (dotW + gap);
+    const on = i <= st.stufe;
+    s.addShape(pptx.ShapeType.ellipse, { x, y: 2.45, w: dotW, h: dotW, fill: { color: on ? C.teal : C.hellgrau }, line: { color: on ? C.teal : C.violetLine } });
+    s.addText(String(i), { x, y: 2.45, w: dotW, h: dotW, fontSize: 15, bold: true, color: on ? C.weiss : C.graublau, fontFace: "Arial", align: "center", valign: "middle" });
+  }
+
+  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 3.5, w: 11.5, h: 3.0, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
   s.addText([
-    { text: `Stufe ${st.stufe} von 5\n`, options: { fontSize: 15, bold: true, color: C.graublau, breakLine: true } },
-    { text: st.label + "\n", options: { fontSize: 26, bold: true, color: C.teal, breakLine: true } },
+    { text: `Stufe ${st.stufe} von 5\n`, options: { fontSize: 15, bold: true, color: C.violet, breakLine: true } },
+    { text: st.label + "\n", options: { fontSize: 28, bold: true, color: C.teal, breakLine: true } },
+    { text: "\n", options: { fontSize: 8 } },
+    { text: st.beschreibung + "\n", options: { fontSize: 18, color: C.text, breakLine: true } },
     { text: "\n", options: { fontSize: 6 } },
-    { text: st.beschreibung + "\n", options: { fontSize: 15, color: C.text, breakLine: true } },
-    { text: "\n", options: { fontSize: 6 } },
-    { text: st.einstieg, options: { fontSize: 15, color: C.blau, italic: true } },
-  ], { x: 1.25, y: 2.2, w: 4.7, h: 4.0, fontFace: "Arial", valign: "top", wrap: true });
+    { text: st.einstieg, options: { fontSize: 17, color: C.blau, italic: true } },
+  ], { x: 1.35, y: 3.85, w: 10.6, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
+}
 
-  // Ziele rechts
+// ── FOLIE 4: ZIELE (eigene Folie) ─────────────────────────────────────────
+async function slideZiele(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  eyebrow(s, "Ihr Ausgangspunkt", 0.9, 0.7);
   s.addText("Ihre wichtigsten Ziele",
-    { x: 6.7, y: 1.95, w: 5.7, h: 0.6, fontSize: 18, bold: true, color: C.blau, fontFace: "Arial" });
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
-  let y = 2.7;
-  d.ziele.forEach((z, i) => {
-    // Kreis
-    s.addShape(pptx.ShapeType.ellipse, { x: 6.7, y, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
-    s.addText(String(i+1), { x: 6.7, y, w: 0.5, h: 0.5, fontSize: 14, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+  const zl = d.ziele;
+  const ch = (6.5 - 2.5 - (zl.length - 1) * 0.3) / Math.max(zl.length, 1);
+  let y = 2.5;
+  zl.forEach((z, i) => {
+    s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y, w: 11.5, h: ch, fill: { color: C.hellteal }, line: { color: C.hellteal } });
+    s.addShape(pptx.ShapeType.ellipse, { x: 1.2, y: y + (ch - 0.55) / 2, w: 0.55, h: 0.55, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText(String(i + 1), { x: 1.2, y: y + (ch - 0.55) / 2, w: 0.55, h: 0.55, fontSize: 16, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
     s.addText([
-      { text: z.label + "\n", options: { bold: true, color: C.text, fontSize: 15, breakLine: true } },
-      { text: z.framing, options: { color: C.graublau, fontSize: 12 } },
-    ], { x: 7.4, y: y - 0.02, w: 5.0, h: 1.1, fontFace: "Arial", valign: "top", wrap: true });
-    y += 1.25;
+      { text: z.label + "\n", options: { bold: true, color: C.text, fontSize: 19, breakLine: true } },
+      { text: z.framing, options: { color: C.graublau, fontSize: 14 } },
+    ], { x: 2.0, y, w: 10.2, h: ch, fontFace: "Arial", valign: "middle", wrap: true });
+    y += ch + 0.3;
   });
 }
 
-// ── FOLIE 4: ENGPASS ──────────────────────────────────────────────────────
+// ── FOLIE 5..: ENGPASS ────────────────────────────────────────────────────
 async function slideEngpass(pptx, eng, idx, total) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  s.addText(`Engpass ${idx} von ${total}`,
-    { x: 0.9, y: 0.6, w: 9.5, h: 0.5, fontSize: 13, bold: true, color: C.graublau, fontFace: "Arial" });
+  eyebrow(s, `Engpass ${idx} von ${total}`, 0.9, 0.6);
   s.addText(eng.titel,
-    { x: 0.9, y: 1.05, w: 11.5, h: 1.1, fontSize: 30, bold: true, color: C.teal, fontFace: "Arial", wrap: true });
+    { x: 0.9, y: 0.98, w: 11.5, h: 1.1, fontSize: 32, bold: true, color: C.teal, fontFace: "Arial", wrap: true });
 
   s.addText([
-    { text: "Was Sie heute erleben\n", options: { bold: true, color: C.blau, fontSize: 14, breakLine: true } },
-    { text: eng.symptom, options: { color: C.text, fontSize: 15 } },
-  ], { x: 0.9, y: 2.25, w: 11.5, h: 1.1, fontFace: "Arial", valign: "top", wrap: true });
+    { text: "Was Sie heute erleben\n", options: { bold: true, color: C.violet, fontSize: 15, breakLine: true } },
+    { text: eng.symptom, options: { color: C.text, fontSize: 17 } },
+  ], { x: 0.9, y: 2.25, w: 11.5, h: 1.25, fontFace: "Arial", valign: "top", wrap: true });
 
   // KI-Hebel Karte
-  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 3.75, w: 5.6, h: 2.9, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
+  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 3.8, w: 5.6, h: 2.95, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
   s.addText([
-    { text: "Wie KI hier hilft\n", options: { bold: true, color: C.teal, fontSize: 15, breakLine: true } },
-    { text: "\n", options: { fontSize: 5 } },
-    { text: eng.ki_hebel, options: { color: C.text, fontSize: 14 } },
-  ], { x: 1.25, y: 4.05, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
+    { text: "Wie KI hier hilft\n", options: { bold: true, color: C.teal, fontSize: 16, breakLine: true } },
+    { text: "\n", options: { fontSize: 6 } },
+    { text: eng.ki_hebel, options: { color: C.text, fontSize: 15 } },
+  ], { x: 1.25, y: 4.1, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
 
-  // Outcome Karte
-  s.addShape(pptx.ShapeType.roundRect, { x: 6.8, y: 3.75, w: 5.6, h: 2.9, fill: { color: C.hellteal }, line: { color: C.hellteal } });
+  // Outcome Karte — hervorgehoben mit kräftigem Teal-Rahmen
+  s.addShape(pptx.ShapeType.roundRect, { x: 6.8, y: 3.8, w: 5.6, h: 2.95, fill: { color: C.hellteal }, line: { color: C.teal, width: 3 } });
   s.addText([
-    { text: "Ihr Ergebnis\n", options: { bold: true, color: C.teal, fontSize: 15, breakLine: true } },
-    { text: "\n", options: { fontSize: 5 } },
-    { text: eng.outcome, options: { color: C.text, fontSize: 15, bold: true } },
-  ], { x: 7.15, y: 4.05, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
-
-  // Passendes Paket
-  if (eng.paket) {
-    s.addText([
-      { text: "Passendes Paket:  ", options: { bold: true, color: C.graublau } },
-      { text: eng.paket, options: { color: C.blau, bold: true } },
-    ], { x: 0.9, y: 6.85, w: 11.5, h: 0.4, fontSize: 12, fontFace: "Arial" });
-  }
+    { text: "★  Ihr Ergebnis\n", options: { bold: true, color: C.teal, fontSize: 16, breakLine: true } },
+    { text: "\n", options: { fontSize: 6 } },
+    { text: eng.outcome, options: { color: C.text, fontSize: 16, bold: true } },
+  ], { x: 7.15, y: 4.1, w: 4.9, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
 }
 
-// ── FOLIE 5: QUICK WINS ───────────────────────────────────────────────────
-async function slideQuickwins(pptx, d) {
+// ── FOLIE: DATENSCHUTZ (weiß, nicht mehr hervorgehoben) ───────────────────
+async function slideDatenschutz(pptx, d) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  s.addText("Ihre Quick Wins",
-    { x: 0.9, y: 0.7, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
-  s.addText("Die ersten sinnvollen Schritte — schnell umsetzbar, sofort spürbar.",
-    { x: 0.9, y: 1.7, w: 11.5, h: 0.7, fontSize: 16, color: C.graublau, fontFace: "Arial" });
+  eyebrow(s, "Datenschutz", 0.9, 0.7);
+  s.addText("Von Anfang an mitgedacht",
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+
+  const art9 = d.unternehmen.art9;
+  const hinweis = d.unternehmen.art9_hinweis;
+  const leftText = [
+    { text: art9
+        ? "Sie arbeiten mit besonders sensiblen Gesundheitsdaten.\n"
+        : "Gesundheitsbezug verlangt besondere Sorgfalt.\n",
+      options: { fontSize: 19, bold: true, color: C.teal, breakLine: true } },
+  ];
+  if (hinweis) leftText.push({ text: "\n", options: { fontSize: 6 } }, { text: hinweis, options: { fontSize: 15, color: C.text } });
+  s.addText(leftText, { x: 0.9, y: 2.55, w: 6.6, h: 4.2, fontFace: "Arial", valign: "top", wrap: true });
+
+  // Violett-Box rechts
+  s.addShape(pptx.ShapeType.roundRect, { x: 7.9, y: 2.5, w: 4.5, h: 4.3, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
+  s.addText([
+    { text: "Worauf Sie sich verlassen können\n", options: { bold: true, fontSize: 16, color: C.violet, breakLine: true } },
+    ...[
+      "EU-Hosting, wo möglich",
+      "Auftragsverarbeitungsverträge mit allen Tools",
+      "Bei sensiblen Daten eine lokale Lösung, sodass die Daten die Praxis nicht verlassen",
+      "EU AI Act & DSGVO von Anfang an",
+      "Eine feste Ansprechpartnerin für Ihre Datenschutz-Fragen",
+    ].map(t => ({ text: "•  " + t + "\n", options: { fontSize: 14, color: C.text } })),
+  ], { x: 8.25, y: 2.85, w: 3.85, h: 3.7, fontFace: "Arial", valign: "top", wrap: true });
+}
+
+// ── FOLIE: PRAXIS-START (aus Quick Wins) ──────────────────────────────────
+async function slidePraxisStart(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: C.hellteal };
+
+  eyebrow(s, "Ihr erster Schritt", 0.9, 0.7);
+  s.addText("Das setzen wir im Praxis-Start um",
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
   const wins = d.quick_wins;
   const cols = wins.length <= 4 ? 2 : 3;
   const cw = (11.5 - (cols - 1) * 0.4) / cols;
-  const ch = 1.95;
-  const x0 = 0.9, y0 = 2.6;
-
+  const ch = 2.05;
+  const x0 = 0.9, y0 = 2.5;
   wins.forEach((w, i) => {
-    const col = i % cols;
-    const row = Math.floor(i / cols);
+    const col = i % cols, row = Math.floor(i / cols);
     const l = x0 + col * (cw + 0.4);
     const t = y0 + row * (ch + 0.35);
-    s.addShape(pptx.ShapeType.roundRect, { x: l, y: t, w: cw, h: ch, fill: { color: C.hellgrau }, line: { color: C.hellgrau } });
-    s.addShape(pptx.ShapeType.ellipse, { x: l+0.3, y: t+0.3, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
-    s.addText(String(i+1), { x: l+0.3, y: t+0.3, w: 0.5, h: 0.5, fontSize: 14, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
-    s.addText(w, { x: l+0.3, y: t+0.95, w: cw-0.6, h: ch-1.1, fontSize: 13.5, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+    s.addShape(pptx.ShapeType.roundRect, { x: l, y: t, w: cw, h: ch, fill: { color: C.weiss }, line: { color: C.weiss } });
+    s.addShape(pptx.ShapeType.ellipse, { x: l + 0.3, y: t + 0.3, w: 0.55, h: 0.55, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText(String(i + 1), { x: l + 0.3, y: t + 0.3, w: 0.55, h: 0.55, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(w, { x: l + 0.3, y: t + 1.0, w: cw - 0.6, h: ch - 1.15, fontSize: 15, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
   });
 }
 
-// ── FOLIE: DATENSCHUTZ ───────────────────────────────────────────────────
-async function slideDatenschutz(pptx, d) {
-  const s = pptx.addSlide();
-  s.background = { color: C.teal };
-
-  s.addText("Datenschutz von Anfang an mitgedacht",
-    { x: 0.9, y: 0.9, w: 11.5, h: 1.2, fontSize: 32, bold: true, color: C.weiss, fontFace: "Arial", wrap: true });
-
-  const art9 = d.unternehmen.art9;
-  const hinweis = d.unternehmen.art9_hinweis;
-
-  const leftText = [
-    {
-      text: art9
-        ? "Sie arbeiten mit besonders sensiblen Gesundheitsdaten.\n"
-        : "Auch wenn Sie keine Diagnosen führen — Gesundheitsbezug verlangt besondere Sorgfalt.\n",
-      options: { fontSize: 18, bold: true, color: C.weiss, breakLine: true }
-    },
-  ];
-  if (hinweis) leftText.push({ text: hinweis + "\n", options: { fontSize: 15, color: "DCE CF0".replace(" ",""), breakLine: true } });
-  leftText.push({ text: "Jede vorgeschlagene Lösung wird von Beginn an DSGVO- und EU-AI-Act-konform aufgesetzt: EU-Hosting wo möglich, bei sensiblen Fällen eine lokale Lösung, sodass die Daten die Praxis nicht verlassen.", options: { fontSize: 15, color: "DCECF0" } });
-
-  s.addText(leftText, { x: 0.9, y: 2.3, w: 7.0, h: 4.4, fontFace: "Arial", valign: "top", wrap: true });
-
-  // weiße Karte rechts
-  s.addShape(pptx.ShapeType.roundRect, { x: 8.3, y: 2.3, w: 4.1, h: 4.4, fill: { color: C.weiss }, line: { color: C.weiss } });
-  s.addText([
-    { text: "Worauf Sie sich verlassen\n", options: { bold: true, fontSize: 15, color: C.teal, breakLine: true } },
-    ...["EU-Hosting wo möglich","Auftragsverarbeitungsverträge mit allen Tools","EU AI Act & DSGVO von Anfang an","Klare Zuständigkeit bei Rückfragen"].map(t => ({
-      text: "•  " + t + "\n", options: { fontSize: 14, color: C.text }
-    }))
-  ], { x: 8.7, y: 2.65, w: 3.4, h: 3.8, fontFace: "Arial", valign: "top", wrap: true });
-}
-
-// ── FOLIE (SCHLUSS): ANGEBOT & NÄCHSTE SCHRITTE ───────────────────────────
+// ── FOLIE: ANGEBOT (Preise + Pilot-Hinweis) ───────────────────────────────
 async function slideAngebot(pptx, d, logo) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  if (logo) {
-    s.addImage({ data: logo, x: 11.0, y: 0.5, w: 1.7, h: 1.7 });
-  }
+  eyebrow(s, "Ihr Angebot", 0.9, 0.7);
+  s.addText("Transparente Pakete",
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
-  s.addText("Ihr Angebot & die nächsten Schritte",
-    { x: 0.9, y: 0.7, w: 9.8, h: 1.0, fontSize: 32, bold: true, color: C.teal, fontFace: "Arial" });
-  s.addText("Transparente Pakete, keine versteckten Folgekosten.",
-    { x: 0.9, y: 1.6, w: 9.8, h: 0.5, fontSize: 15, color: C.graublau, fontFace: "Arial" });
-
-  // Paket-Karten
   const pakete = [
-    { titel: "Praxis-Start", scope: "Ein Leistungsbereich", preis: "ab 1.490 €", fill: C.hellgrau },
-    { titel: "Praxis-Plus", scope: "Zwei bis drei Bereiche kombiniert", preis: "2.900 – 5.900 €", fill: C.hellteal },
-    { titel: "Laufende Betreuung", scope: "Monatlicher Check-in, optional", preis: "ab 190 € / Monat", fill: C.hellgrau },
+    { titel: "Praxis-Start", scope: "Ein Leistungsbereich", preis: "ab 1.490 €", fill: C.hellteal, line: C.teal },
+    { titel: "Praxis-Plus", scope: "Zwei bis drei Bereiche kombiniert", preis: "2.900 – 5.900 €", fill: C.hellgrau, line: C.hellgrau },
+    { titel: "Laufende Betreuung", scope: "Monatlicher Check-in, optional", preis: "ab 190 € / Monat", fill: C.hellgrau, line: C.hellgrau },
   ];
-  const cw = 3.63, ch = 2.5, gap = 0.4, x0 = 0.9, y0 = 2.35;
+  const cw = 3.63, ch = 2.75, gap = 0.4, x0 = 0.9, y0 = 2.45;
   pakete.forEach((p, i) => {
     const l = x0 + i * (cw + gap);
-    s.addShape(pptx.ShapeType.roundRect, { x: l, y: y0, w: cw, h: ch, fill: { color: p.fill }, line: { color: p.fill } });
+    s.addShape(pptx.ShapeType.roundRect, { x: l, y: y0, w: cw, h: ch, fill: { color: p.fill }, line: { color: p.line, width: p.line === C.teal ? 2.5 : 1 } });
     s.addText([
-      { text: p.titel + "\n", options: { bold: true, fontSize: 18, color: C.teal, breakLine: true } },
-      { text: p.scope + "\n\n", options: { fontSize: 12, color: C.text, breakLine: true } },
-      { text: p.preis, options: { bold: true, fontSize: 20, color: C.blau } },
-    ], { x: l + 0.28, y: y0 + 0.3, w: cw - 0.56, h: ch - 0.6, fontFace: "Arial", valign: "top", wrap: true });
+      { text: p.titel + "\n", options: { bold: true, fontSize: 20, color: C.teal, breakLine: true } },
+      { text: p.scope + "\n\n", options: { fontSize: 13, color: C.text, breakLine: true } },
+      { text: p.preis, options: { bold: true, fontSize: 22, color: C.blau } },
+    ], { x: l + 0.3, y: y0 + 0.35, w: cw - 0.6, h: ch - 0.6, fontFace: "Arial", valign: "top", wrap: true });
   });
 
-  // Nächste Schritte (kompakt)
-  s.addText("So geht es weiter", { x: 0.9, y: 5.15, w: 11.5, h: 0.4, fontSize: 16, bold: true, color: C.teal, fontFace: "Arial" });
+  // Pilot-Hinweis (nur Praxis-Start)
+  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 5.55, w: 11.5, h: 1.15, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
   s.addText([
-    { text: "1. Analyse — gerade gemeinsam abgeschlossen.\n", options: { breakLine: true } },
-    { text: "2. Umsetzung — ich richte die passenden Automatisierungen ein, Ihr Team wird eingewiesen.\n", options: { breakLine: true } },
-    { text: "3. Laufende Betreuung (optional) — auf Wunsch begleite ich Ihre Abläufe weiter.", options: {} },
-  ], { x: 0.9, y: 5.55, w: 11.5, h: 1.2, fontSize: 13.5, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+    { text: "Aktuell in der Pilotphase:  ", options: { bold: true, color: C.violet } },
+    { text: "Das Praxis-Start-Paket setze ich kostenfrei um, im Austausch für Ihr Feedback und ein Testimonial.", options: { color: C.text } },
+  ], { x: 1.25, y: 5.55, w: 10.8, h: 1.15, fontSize: 15, fontFace: "Arial", valign: "middle", wrap: true });
+}
+
+// ── FOLIE (SCHLUSS): SO GEHT ES WEITER ────────────────────────────────────
+async function slideWeiter(pptx, d, logo) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  eyebrow(s, "Nächste Schritte", 0.9, 0.55);
+  s.addText("So geht es weiter",
+    { x: 0.9, y: 0.9, w: 11.5, h: 0.9, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+
+  const schritte = [
+    "Ich schicke Ihnen diese Präsentation als PDF.",
+    "Sie entscheiden in Ruhe. Ich melde mich in zwei Tagen bei Ihnen.",
+    "Bei Zusage erhalten Sie den Beratervertrag.",
+    "Nach Unterschrift setze ich die vereinbarten Automatisierungen um und weise Ihr Team ein.",
+    "Nach der Umsetzung holen wir ein kurzes Testimonial ein: Vorher-/Nachher-Fragen, die Sie freigeben.",
+  ];
+  let y = 2.15;
+  const h = 0.82;
+  schritte.forEach((t, i) => {
+    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y, w: 0.6, h: 0.6, fill: { color: i === 0 ? C.teal : C.violet }, line: { color: i === 0 ? C.teal : C.violet } });
+    s.addText(String(i + 1), { x: 0.9, y, w: 0.6, h: 0.6, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(t, { x: 1.75, y: y - 0.05, w: 10.5, h: 0.9, fontSize: 16, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
+    y += h + 0.18;
+  });
 
   s.addText("Leonie Kaiser · KI- & Digitalisierungs-Expertin · leoniekaiser.com",
     { x: 0.9, y: 7.0, w: 11.5, h: 0.35, fontSize: 11, color: C.graublau, fontFace: "Arial" });
