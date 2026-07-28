@@ -1,5 +1,6 @@
 ---
 title: '„Ohne mich läuft hier nichts“ — warum in kleinen Praxen alles an der Leitung hängt'
+slug: "praxis-haengt-an-der-leitung"
 description: "Wer steckt hinter dieser KI-Beratung für Praxen? Warum ich kleine Gesundheitspraxen entlaste — und wofür ich stehe: erst die Prozesse, dann das Werkzeug."
 date: 2026-08-04
 lastmod: 2026-08-04
