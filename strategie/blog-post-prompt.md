@@ -9,13 +9,15 @@ Erst nach Leonies Rückmeldung folgt die Ausarbeitung.*
 
 ## Zwei-Phasen-Ablauf (wichtig)
 
-- **Phase 1 — Vorbereitung** (Schritte 0–2): Post identifizieren, Keyword prüfen, 3 Titel
-  vorschlagen → an Leonie übergeben, **STOPP**. Kein Volltext.
-- **Phase 2 — Ausarbeitung** (Schritte 3–7): erst nach Leonies Rückmeldung (Titelwahl,
-  Keyword-Ok, Anmerkungen) den vollständigen Draft schreiben, bauen, berichten.
+- **Phase 1 — Vorbereitung** (Schritte 0–2): Post identifizieren → **Keyword-Check zuerst**
+  (Claude liefert Seed-Begriffe, **Leonie misst das Volumen** und meldet zurück) → dann
+  **3 Headline-Vorschläge** aus dem validierten Keyword → an Leonie übergeben, **STOPP**.
+  Kein Volltext.
+- **Phase 2 — Ausarbeitung** (Schritte 3–7): erst nach Leonies Rückmeldung (Keyword-Ergebnis,
+  Titelwahl, Anmerkungen) den vollständigen Draft schreiben, bauen, berichten.
 
-So kann Leonie mit einem einzigen Satz starten („Bereite Blogpost #1 vor") und bekommt
-zurück, was sie entscheiden muss, bevor geschrieben wird.
+**Reihenfolge in Phase 1 ist bewusst: erst Keyword, dann Headline** — weil das validierte
+Keyword in der Headline vorkommen soll. Leonie startet mit „Bereite Blogpost #N vor".
 
 ---
 
@@ -41,34 +43,35 @@ Fehlt eine Quelldatei oder ist ein Wert unklar → nachfragen, nicht raten.
 Für Phase 1 genügt: die #N-Zeile aus `blog-konzept.md`, das Einzelkonzept #N, und
 `AGENTS.md` §13 (SEO-Disziplin: Keyword zuerst, Title-Tag ≤ 60 Zeichen, eine H1).
 
-## SCHRITT 2 — Keyword prüfen + 3 Titel vorschlagen
+## SCHRITT 2a — Keyword-/Long-Tail-Check ZUERST (Leonie misst das Volumen)
 
-**Keyword-Check (so weit ohne Bezahl-Tools möglich):**
-- Das Primär-Keyword aus dem Einzelkonzept per **Web-Suche** gegen die reale Google-Suche
-  halten: Wer rankt (Software-Anbieter = inhaltliche Lücke, oder starke Fachartikel)?
-  Welche verwandten Begriffe / „Ähnliche Fragen" tauchen auf? Ist die Suchintention
-  informierend (Blog-tauglich)?
-- Daraus eine kurze Einschätzung: Keyword so lassen, oder eine konkretere/natürlichere
-  Formulierung vorschlagen (mit Begründung).
-- **Grenze offen benennen:** Echte Suchvolumen-Zahlen brauchen ein Keyword-Tool (Google
-  Keyword Planner o. Ä.). Leonie fragen, ob sie das Volumen noch prüfen will oder ob die
-  qualitative Einschätzung reicht.
+Der **erste** inhaltliche Schritt, vor jeder Headline. Ablauf nach `strategie/keyword-check.md`:
+1. Claude liefert zu #N **4–6 Seed-Begriffe** (aus Primär-Keyword + Long-Tail des Einzelkonzepts,
+   ergänzt um naheliegende reale Suchvarianten).
+2. Claude macht **zusätzlich** eine eigene **qualitative SERP-Lesung** per Web-Suche: Wer
+   rankt (Software-Anbieter = Lücke, oder starke Fachartikel)? Welche „Ähnliche Fragen"
+   tauchen auf? Suchintention informierend (Blog-tauglich)?
+3. **Leonie prüft die Seeds in den Tools** (Google Keyword Planner = Volumen + Wettbewerb,
+   AnswerThePublic, Google Trends, Google-Autocomplete) und schickt das Report-Template
+   zurück. Claude misst das Volumen **nicht** selbst — das macht Leonie.
+4. **STOPP** und auf Leonies Keyword-Ergebnis warten, bevor Headlines kommen.
 
-**3 Titelvorschläge** liefern, die auf dem (ggf. geschärften) Keyword aufbauen — bewusst
-unterschiedlich:
-- eine **evokative** Variante (starker Hook, darf > 60 Zeichen sein — Google kürzt in der
-  SERP, für persönliche/Marken-Posts ok),
+## SCHRITT 2b — 3 Headline-Vorschläge (erst nach dem Keyword-Ergebnis)
+
+Aus dem validierten Keyword (das mit echtem Volumen + vertretbarem Wettbewerb) **3 Headlines**
+bauen — das Keyword kommt **in der Headline** vor. Bewusst unterschiedlich:
+- eine **evokative** Variante (starker Hook, darf > 60 Zeichen — Google kürzt in der SERP,
+  für persönliche/Marken-Posts ok),
 - eine **SEO-knappe** Variante (≤ 60 Zeichen, Keyword vorn, passt komplett in die SERP),
 - eine **such-/nutzenorientierte** Variante (nah an der realen Suchphrase).
-Zu jedem Titel: Zeichenzahl + welches Keyword er trägt. Eine Empfehlung aussprechen.
-*(Hinweis: Im Layout ist `title` zugleich H1 **und** `<title>`-Tag — es gibt kein
-separates SEO-Titel-Feld. Der gewählte Titel ist also beides.)*
+Zu jeder: Zeichenzahl + welches Keyword sie trägt + Empfehlung.
+*(Layout-Hinweis: `title` ist zugleich H1 **und** `<title>`-Tag — kein separates SEO-Feld.)*
 
 ## ÜBERGABE an Leonie (Ende Phase 1)
 
-Melde kompakt: (a) Keyword-Einschätzung + ob Volumen-Check gewünscht, (b) die 3 Titel mit
-Empfehlung, (c) sonstige Entscheidungen, die vor dem Schreiben helfen. Dann **STOPP** und
-auf Leonies Rückmeldung warten. **Noch keinen Volltext schreiben.**
+Nach dem Keyword-Ergebnis: die 3 Headlines mit Empfehlung + sonstige Entscheidungen melden,
+dann **STOPP**. **Noch keinen Volltext schreiben** — der kommt in Phase 2 nach Leonies
+Titelwahl.
 
 ---
 
