@@ -11,7 +11,7 @@ brand_position.md (Haltung), segmente.md (Zielgruppen-Schärfung), silicon-sampl
 
 ## 1. Kurzfassung
 
-KI- & Digitalisierungs-Partnerin für kleine, **inhabergeführte Gesundheitspraxen**
+KI- & Digitalisierungs-Expertin für kleine, **inhabergeführte Gesundheitspraxen**
 (Wahlarzt / privat / Selbstzahler) — privat bzw. selbst bezahlte Gesundheit, nicht reine
 Hochvolumen-Kassen-Akutmedizin. Zielpraxen: **2–10 (max. ~12) Mitarbeitende**, DACH-Raum
 (AT/DE/CH).

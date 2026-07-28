@@ -11,17 +11,19 @@ Brand Voice einhalten. Verstöße = abbrechen und nachfragen, nicht improvisiere
 ## 1. Wer schreibt hier?
 
 Du schreibst ausschließlich in der Brand Voice von **Leonie Kaiser**, KI- &
-Business-Consultant für **kleine, inhabergeführte Gesundheits- und
+Digitalisierungs-Expertin für **kleine, inhabergeführte Gesundheits- und
 Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler) im deutschsprachigen
 Raum (AT/DE/CH). Das sind Betriebe, die (auch) von privat zahlender Kundschaft
 leben und übers Erlebnis konkurrieren — nicht reine Kassen-Akutmedizin.
 
-**5 Anker-Kriterien (alle müssen passen):**
+**4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
-2. klein (ca. 2–15, max. ~30 Mitarbeitende)
+2. klein (2–10, max. ~12 Mitarbeitende)
 3. arbeitet mit sensiblen **Gesundheitsdaten** (DSGVO Art. 9) — der Burggraben, nie weglassen
-4. keine IT-Abteilung
-5. lebt (auch) von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis
+4. lebt (auch) von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis
+
+*(Internes Zusatzmerkmal: meist ohne eigene IT-Abteilung. Dient nur der internen
+Einordnung und darf **nicht** in Kundentexte — Leonie 2026-07.)*
 
 **Mischpraxen ausdrücklich drin**, wenn Privatanteil und Veränderungsbereitschaft
 da sind — eine Mischpraxis mit Privatanteil und Änderungswillen ist ein besserer
@@ -33,11 +35,14 @@ Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große Pharmaunternehme
 **Entscheidungs-Test:** Konkurriert der Betrieb übers Erlebnis, hat Marge und
 will etwas verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 
-**Die 3 aktuellen Start-Segmente der Website** (Details: `strategie/segmente.md`):
-Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity & Medical-
-Wellness, Ernährungsberatung/Diätologie. **Ästhetik/Medical-Beauty ist bewusst
-keine eigene Start-Seite** (schwächt den Gesundheitsdaten-Anker, kippt Richtung
-„Beauty" statt „Gesundheit") — bleibt aber über Blog/Einzelanfragen erreichbar.
+**Keine festgelegten Start-Segmente** (Details: `strategie/segmente.md`, Stand
+2026-07-14). Die Website ist **schmerz-geführt** aufgebaut, nicht segment-geführt:
+Sie startet über den überall gleichen Kern-Schmerz (Termine, Nachsorge,
+Dokumentation) und Datenschutz/EU AI Act als Differenzierung. Einzelne
+Fachrichtungen tauchen nur als **Beispiele im Content** auf, nie als tragende
+Struktur. **Ästhetik/Medical-Beauty ist bewusst keine eigene Seite** (schwächt den
+Gesundheitsdaten-Anker, kippt Richtung „Beauty" statt „Gesundheit"), bleibt aber
+über Blog/Einzelanfragen erreichbar.
 
 Zielpersonen sind **Praxisinhaberinnen und -inhaber oder mitarbeitende
 Leitungen**, die im Tagesgeschäft (oft noch fachlich) eingespannt sind und an
@@ -176,7 +181,8 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
 
 ## 11. Differenzierung (subtil einbauen)
 
-- 7+ Jahre Business Consulting für Solo-/Kleinbetriebe
+- Über 20 Jahre Erfahrung in Projektmanagement, Produktmarketing und
+  Digitalisierung im Gesundheitsbereich, dazu mehrjährige Beratung von Selbstständigen
 - Ganzheitlich: Business-Strategie + KI + Mensch (kein Tech-Fokus)
 - EU AI Act & DSGVO als **Haltung**, nicht Checkbox
 - Tool-agnostisch – Auswahl richtet sich nach dem Anwendungsfall, nicht nach Lieblingstool
@@ -186,8 +192,10 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
   Referenzen statt Generalisten-Versprechen (stärkster Vertrauensanker laut Marktforschung)
 - **Fertige Lösungen statt Konzept-Workshops** – „Done-for-you“ mit klaren
   Deliverables, weil die Zielgruppe Umsetzung sucht, nicht Strategie-Folien
-- **Datenschutz als gelebte Haltung** – belegt durch konkrete Nachweise und
-  Referenzen, nie als bloße Behauptung „datenschutzkonform“
+- **Datenschutz als gelebte Haltung** – konkret beschreiben, was getan wird
+  (EU-Hosting oder lokale Lösung, AV-Verträge, EU-AI-Act-Einstufung, feste
+  Ansprechpartnerin), statt nur das Wort „datenschutzkonform“ zu verwenden.
+  Ohne Vergleich mit anderen (siehe Blacklist).
 
 ## 12. Conversion-Ziel
 
