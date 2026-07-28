@@ -133,6 +133,14 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Herabsetzung von Alternativen positionieren. Sagen, wie es ist, positiv und
   sachlich formulieren. (Leonie, 2026-07: „Ich möchte es seriös nennen wie es
   ist und nicht abfällig reden.“)
+- **Implizite Unterstellungen gegenüber anderen** („Nachweis, nicht Behauptung“,
+  „Statt nur ‚datenschutzkonform‘ zu sagen …“, „bei mir bekommen Sie wirklich …“,
+  „anders als andere“, „keine leeren Versprechen“). Solche Formulierungen behaupten
+  indirekt, der Mitbewerb sei unehrlich, und wirken überheblich. **Nie** verwenden.
+  Den eigenen Nutzen aus sich heraus beschreiben, ohne Vergleich, ohne Gegenfolie.
+  Faustregel: Wenn ein Satz nur funktioniert, weil man sich jemand Schlechteren
+  danebendenkt, ist er falsch. (Leonie, 2026-07: „Solche Unterstellungen will ich
+  nie.“)
 - **Gedankenstriche (–) sehr sparsam.** Der Gedankenstrich gilt als typisches
   Signal für KI-generierten Text. Stattdessen ganze Sätze, Punkt oder Komma
   verwenden. Höchstens vereinzelt, nie mehrfach im selben Absatz.
