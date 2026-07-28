@@ -1,129 +1,161 @@
 # Blog-Post-Schreib-Prompt (Journal, leoniekaiser.com)
 
-*Wiederverwendbarer Prompt, um einen einzelnen Journal-Beitrag als Draft auszuarbeiten.
-Aufruf: einfach die Post-Nummer nennen (z. B. „Schreib Blogpost #4 nach diesem Prompt").
-Claude holt sich Titel, Keyword, Kategorie und Outline selbst aus den Konzept-Dateien.*
+*Wiederverwendbarer Prompt, um einen einzelnen Journal-Beitrag auszuarbeiten — in **zwei
+Phasen**. Aufruf: „**Bereite Blogpost #N vor**". Claude macht dann erst die Vorbereitung
+(Keyword-Check + 3 Titelvorschläge), meldet, was es von Leonie braucht, und **stoppt**.
+Erst nach Leonies Rückmeldung folgt die Ausarbeitung.*
 
 ---
 
+## Zwei-Phasen-Ablauf (wichtig)
+
+- **Phase 1 — Vorbereitung** (Schritte 0–2): Post identifizieren, Keyword prüfen, 3 Titel
+  vorschlagen → an Leonie übergeben, **STOPP**. Kein Volltext.
+- **Phase 2 — Ausarbeitung** (Schritte 3–7): erst nach Leonies Rückmeldung (Titelwahl,
+  Keyword-Ok, Anmerkungen) den vollständigen Draft schreiben, bauen, berichten.
+
+So kann Leonie mit einem einzigen Satz starten („Bereite Blogpost #1 vor") und bekommt
+zurück, was sie entscheiden muss, bevor geschrieben wird.
+
+---
+
+# PHASE 1 — VORBEREITUNG
+
 ## SCHRITT 0 — Post identifizieren (nur die Nummer nötig)
 
-Eingabe ist nur eine **Nummer N**. Ermittle selbst aus dem Repo:
-1. Öffne `strategie/blog-konzept.md`, Abschnitt 8 (Redaktionsplan-Tabelle). Nimm aus der
-   Zeile **#N**: Working Title, Primär-Keyword, Intent, Kategorie (· Segment), interne Links.
-2. Öffne `strategie/blog-einzelkonzepte.md` und suche das **ausgearbeitete Einzelkonzept
-   zu #N** (Eckdaten, Content-Gap, H1/H2/H3-Outline, Meta, Bild-Ideen).
+Eingabe ist nur eine **Nummer N**. Ermittle selbst:
+1. `strategie/blog-konzept.md`, Abschnitt 8 (Redaktionsplan): Zeile **#N** → Working Title,
+   Primär-Keyword, Intent, Kategorie (· Segment), interne Links.
+2. `strategie/blog-einzelkonzepte.md`: das **ausgearbeitete Einzelkonzept zu #N**
+   (Eckdaten, Content-Gap, H1/H2/H3-Outline, Meta, Bild-Ideen).
 
-> **BREMSE (nicht verhandelbar):** Existiert zu #N **kein ausgearbeitetes Einzelkonzept**
-> in `blog-einzelkonzepte.md`, dann **STOPP** — kurz melden „Für #N gibt es noch kein
-> Einzelkonzept, soll ich es zuerst ausarbeiten?" und **nicht** eigenmächtig eine Outline
-> erfinden. Hintergrund: Laut Plan werden zuerst #1–#3 gelauncht; #4 ff. werden erst
-> nachträglich einzeln ausgearbeitet. Nur mit vorliegendem Einzelkonzept weiterschreiben.
+> **BREMSE (nicht verhandelbar):** Gibt es zu #N **kein ausgearbeitetes Einzelkonzept**,
+> dann **STOPP** — melde „Für #N gibt es noch kein Einzelkonzept, soll ich es zuerst
+> ausarbeiten?" und **erfinde keine Outline**. (Laut Plan sind zuerst #1–#3 dran; #4 ff.
+> werden erst nachträglich einzeln ausgearbeitet.)
 
-Fehlt eine der Quell-Dateien oder ist ein Wert unklar → nachfragen, nicht raten.
+Fehlt eine Quelldatei oder ist ein Wert unklar → nachfragen, nicht raten.
 
-## SCHRITT 1 — Kontext aus dem Repo lesen (Pflicht, vor dem Schreiben)
+## SCHRITT 1 — Minimal-Kontext für die Vorbereitung
 
-**Vorab:**
-- **Branch:** Auf `claude/seo-blog-concept-m5v60r` arbeiten — dort liegen alle Konzepte,
-  `service-katalog.md` und `linkedin-profil.md` (noch nicht auf `main`).
-- **Hugo-Projektwurzel ist `src/growthtogether.at/`** — alle Layout-/Content-/Data-Pfade
-  mit diesem Prefix lesen.
+Für Phase 1 genügt: die #N-Zeile aus `blog-konzept.md`, das Einzelkonzept #N, und
+`AGENTS.md` §13 (SEO-Disziplin: Keyword zuerst, Title-Tag ≤ 60 Zeichen, eine H1).
+
+## SCHRITT 2 — Keyword prüfen + 3 Titel vorschlagen
+
+**Keyword-Check (so weit ohne Bezahl-Tools möglich):**
+- Das Primär-Keyword aus dem Einzelkonzept per **Web-Suche** gegen die reale Google-Suche
+  halten: Wer rankt (Software-Anbieter = inhaltliche Lücke, oder starke Fachartikel)?
+  Welche verwandten Begriffe / „Ähnliche Fragen" tauchen auf? Ist die Suchintention
+  informierend (Blog-tauglich)?
+- Daraus eine kurze Einschätzung: Keyword so lassen, oder eine konkretere/natürlichere
+  Formulierung vorschlagen (mit Begründung).
+- **Grenze offen benennen:** Echte Suchvolumen-Zahlen brauchen ein Keyword-Tool (Google
+  Keyword Planner o. Ä.). Leonie fragen, ob sie das Volumen noch prüfen will oder ob die
+  qualitative Einschätzung reicht.
+
+**3 Titelvorschläge** liefern, die auf dem (ggf. geschärften) Keyword aufbauen — bewusst
+unterschiedlich:
+- eine **evokative** Variante (starker Hook, darf > 60 Zeichen sein — Google kürzt in der
+  SERP, für persönliche/Marken-Posts ok),
+- eine **SEO-knappe** Variante (≤ 60 Zeichen, Keyword vorn, passt komplett in die SERP),
+- eine **such-/nutzenorientierte** Variante (nah an der realen Suchphrase).
+Zu jedem Titel: Zeichenzahl + welches Keyword er trägt. Eine Empfehlung aussprechen.
+*(Hinweis: Im Layout ist `title` zugleich H1 **und** `<title>`-Tag — es gibt kein
+separates SEO-Titel-Feld. Der gewählte Titel ist also beides.)*
+
+## ÜBERGABE an Leonie (Ende Phase 1)
+
+Melde kompakt: (a) Keyword-Einschätzung + ob Volumen-Check gewünscht, (b) die 3 Titel mit
+Empfehlung, (c) sonstige Entscheidungen, die vor dem Schreiben helfen. Dann **STOPP** und
+auf Leonies Rückmeldung warten. **Noch keinen Volltext schreiben.**
+
+---
+
+# PHASE 2 — AUSARBEITUNG (erst nach Leonies Rückmeldung)
+
+## SCHRITT 3 — Vollen Kontext lesen
+
+**Vorab:** Auf Branch `claude/seo-blog-concept-m5v60r` arbeiten (dort liegen Konzepte,
+`service-katalog.md`, `linkedin-profil.md`). Hugo-Projektwurzel ist `src/growthtogether.at/`.
 
 Lies vollständig:
 - `AGENTS.md` — kanonische Brand Voice, **bindend** (Ton, Gendern, Blacklist, „nicht
-  abwertend über andere / kein Panik-Vibe", CTA-Grundsatz, SEO-Disziplin).
-- `strategie/blog-konzept.md` — Gesamtstrategie: Zielgruppe „Martina, 47", Buyer-Journey,
-  Kategorien, Ehrlichkeits-Regel, Artikel-Aufbau & Länge nach Beitragsart.
-- `strategie/blog-einzelkonzepte.md` — das Einzelkonzept zu **genau diesem Post**: das ist
-  dein **inhaltliches Skelett** (Keyword, Content-Gap, Outline, interne Links, Bild-Ideen),
-  keine Vorlage zum Umformulieren.
-- `strategie/service-katalog.md` — Rohmaterial für Beispiele/Szenarien (falls im
-  Einzelkonzept ein Beispielszenario vorgesehen ist).
-- `strategie/linkedin-profil.md` — E-E-A-T-Fakten. **Nur wörtlich belegte Angaben**
-  verwenden, nichts dazuerfinden. (Leonie war im Marketing/Projekten in regulierten
-  Konzernen — **kein** klinischer Patientendaten-Bezug.)
-- `src/growthtogether.at/data/branchen.yaml` — falls der Post ein Segment-Label trägt
-  (z. B. Physiotherapie).
-- `src/growthtogether.at/layouts/journal/single.html` — technischer Rahmen: was
-  **automatisch** kommt (Kopfbereich mit Kategorie/Titel/Meta, CTA-Box am Ende, Tags,
-  „Mehr aus dem Journal") und was du im Markdown-Body selbst baust.
+  abwertend über andere / kein Panik-Vibe", CTA-Grundsatz).
+- `strategie/blog-konzept.md` — Zielgruppe „Martina, 47", Kategorien, Ehrlichkeits-Regel,
+  Aufbau & Länge nach Beitragsart.
+- `strategie/blog-einzelkonzepte.md` — das Einzelkonzept zu #N = **inhaltliches Skelett**
+  (keine Vorlage zum Umformulieren).
+- `strategie/service-katalog.md` — Rohmaterial für Beispiele/Szenarien (falls vorgesehen).
+- `strategie/linkedin-profil.md` — E-E-A-T-Fakten, **nur wörtlich Belegtes** (Leonie war im
+  Marketing/Projekten in regulierten Konzernen — **kein** klinischer Patientendaten-Bezug).
+- `src/growthtogether.at/data/branchen.yaml` — falls Segment-Label (z. B. Physiotherapie).
+- `src/growthtogether.at/layouts/journal/single.html` — technischer Rahmen: Kopfbereich,
+  **CTA-Box (automatisch)**, Tags, „Mehr aus dem Journal".
 
-**Ton-Referenz:** Es gibt (Stand jetzt) **noch keine veröffentlichten Journal-Posts** —
-Post #1 ist der erste. Nutze als Stimmen-Referenz `src/growthtogether.at/content/ueber-mich.md`
-und die Use-Case-/FAQ-Texte in `data/branchen.yaml` (dort steckt Leonies Stimme schon drin).
-Sobald echte Posts existieren, zusätzlich 1–2 davon lesen.
+**Ton-Referenz:** Solange es noch keine veröffentlichten Journal-Posts gibt, nutze
+`src/growthtogether.at/content/ueber-mich.md` und die Use-Case-/FAQ-Texte in
+`data/branchen.yaml` (dort steckt Leonies Stimme). Später 1–2 echte Posts lesen.
 
-## SCHRITT 2 — Keyword kurz gegenchecken
-
-Vor dem Volltext das Primär-Keyword aus dem Einzelkonzept gedanklich gegen eine reale
-Google-Suche prüfen (Autocomplete-Logik, „Ähnliche Fragen"). Fällt dir eine konkretere
-oder natürlichere Formulierung auf → **vorschlagen** statt stillschweigend zu übernehmen
-oder zu verwerfen.
-
-## SCHRITT 3 — Struktur des Beitrags (Vorgabe)
+## SCHRITT 4 — Struktur des Beitrags
 
 - **Einstieg:** 2–3 Sätze, die den Schmerz/Wunsch der Leserin aufgreifen, gern mit O-Ton.
 - **Fließtext mit H2/H3 laut Einzelkonzept-Outline.** Alle 2–3 Absätze ein optisches
-  Element (Hervorhebungs-/Callout-Box, Liste, Zwischen-Bild-Vorschlag), damit kein
-  „wall of text" entsteht.
+  Element (Hervorhebungs-/Callout-Box als Blockzitat, Liste, Zwischen-Bild-Marker), damit
+  kein „wall of text" entsteht.
 - **Beispielszenario-Box** nur, wenn im Einzelkonzept vorgesehen — explizit als
   *illustrativ* kennzeichnen (kein realer Kundenfall).
-- **FAQ-Block** am Ende, 3–5 Fragen, kurz und direkt (SEO/GEO). **Aber:** Wenn das
-  Einzelkonzept den FAQ-Block als *optional* markiert (z. B. beim persönlichen Post),
-  dann nur einbauen, wenn er echt hilft — sonst weglassen.
-- **Kein eigener CTA-Text** — die CTA-Box kommt automatisch aus dem Layout. Du lieferst
-  nur das **Framing im Schlussabsatz**, das zur Potenzialanalyse hinführt (konkretes,
-  branchenspezifisches Ergebnis) — **NIE** „kostenlos, kein Verkaufsgespräch".
-- **Am Ende zwei Bild-Ideen** (Motiv + Stimmung + Suchbegriffe für die Bilddatenbank) für
-  Hero- und Zwischenbild — keine Bilder selbst erzeugen/verlinken. Falls das Einzelkonzept
-  schon Bild-Ideen enthält, diese aufgreifen/verfeinern.
+- **FAQ-Block** am Ende, 3–5 Fragen (SEO/GEO). **Aber:** markiert das Einzelkonzept FAQ als
+  *optional* (z. B. persönlicher Post), nur einbauen, wenn er echt hilft.
+- **Kein eigener CTA-Text** — die CTA-Box kommt automatisch aus dem Layout. Nur das
+  **Framing im Schlussabsatz** hinführen (konkretes, branchenspezifisches Ergebnis) — **NIE**
+  „kostenlos, kein Verkaufsgespräch".
+- **Bild-Marker** als HTML-Kommentare an den Stellen für Hero-/Zwischenbild; die eigentlichen
+  Bild-Ideen kommen in den Report (keine Bilder erzeugen/verlinken).
 
-**Front Matter** nach dem Schema aus `blog-konzept.md` (Abschnitt 7):
-`title`, `description` (140–160 Zeichen), `date`, `lastmod`, `author: "Leonie Kaiser"`,
-`category` (eine der 6 Kategorien, aus Schritt 0), `readingTime` (aus Wortzahl ≈ 200
-Wörter/min), `tags`, `draft: true`.
-- **Titel-Tag ≤ 60 Zeichen** (AGENTS.md §13). Ist der Working Title länger (evokativ), zwei
-  Optionen: (a) langen, sprechenden Titel behalten (Google kürzt in der SERP — für
-  persönliche/Marken-Posts ok), oder (b) ein kürzeres `title` + die volle Phrase als erste
-  Zeile/H1 im Body. Im Zweifel Option (a), aber bewusst entscheiden und kurz vermerken.
+**Front Matter** (Schema aus `blog-konzept.md` Abschnitt 7):
+`title`, `slug`, `description` (140–160 Zeichen), `date`, `lastmod`, `author: "Leonie Kaiser"`,
+`category` (eine der 6 Kategorien), `readingTime` (Wortzahl ÷ ~200), `tags`, `draft: true`.
+- **`slug` IMMER explizit setzen** (z. B. `slug: "praxis-haengt-an-der-leitung"`). Grund:
+  Der Permalink ist `/blog/:slug/` — ohne `slug`-Feld baut Hugo die URL aus dem Titel,
+  inklusive Umlauten → hässliche, schlechte URL.
+- **Titel-Wert = der in Phase 1 gewählte Titel.** Enthält er Anführungszeichen, den
+  YAML-Wert in **Single Quotes** setzen und deutsche „…“ verwenden (sonst bricht das
+  Front-Matter). `date` auf einen **Dienstag** (Veröffentlichungs-Takt).
 
-## SCHRITT 4 — Ehrlichkeits-Regel (nicht verhandelbar)
+## SCHRITT 5 — Ehrlichkeits-Regel (nicht verhandelbar)
 
-Keine erfundenen Fallzahlen, Sterne, Referenzen oder Kundenstimmen. Prozentzahlen aus
-fremden Quellen nur mit Quellenangabe. Genau ein CTA-Framing pro Post, kein Newsletter.
-Nicht abwertend über Wettbewerb (AGENTS.md) — sachlich sagen, was Leonie *zusätzlich* bietet.
+Keine erfundenen Fallzahlen, Sterne, Referenzen, Kundenstimmen. Fremd-Prozentzahlen nur mit
+Quelle. Genau ein CTA-Framing, kein Newsletter. Nicht abwertend über Wettbewerb — sachlich
+sagen, was Leonie *zusätzlich* bietet.
 
-## SCHRITT 5 — Wie es NICHT klingen darf
+## SCHRITT 6 — Wie es NICHT klingen darf
 
-Der Text muss lesen, als hätte Leonie ihn selbst zwischen zwei Terminen runtergeschrieben —
-nicht wie ein generierter Ratgeberartikel. Konkret vermeiden:
-- Textbaustein-Einstiege wie „In der heutigen schnelllebigen Welt …", „Stellen Sie sich vor …".
-- Symmetrische Dreier-Aufzählungen und Floskeln wie „spielt eine entscheidende Rolle",
-  „ist von zentraler Bedeutung".
-- Weichspüler-Konjunktionen im Übermaß: „zudem", „darüber hinaus", „nicht zuletzt" als
-  Standard-Übergang zwischen jedem Absatz.
-- Künstliche Ausgewogenheit („einerseits … andererseits") ohne echten Standpunkt.
-- Ein Fazit-Absatz, der die Einleitung zusammenfasst („Zusammenfassend lässt sich sagen …").
-- Gleichförmige Satz- und Absatzlängen — stattdessen Rhythmus variieren, auch mal ein
-  kurzer Satz.
-- Hedging wie „Es ist wichtig zu beachten, dass …" statt einer klaren Aussage.
-- Generische Beispiele — stattdessen konkret aus `service-katalog.md` / dem Einzelkonzept.
+Der Text muss lesen, als hätte Leonie ihn zwischen zwei Terminen selbst geschrieben — nicht
+wie ein generierter Ratgeber. Vermeiden:
+- Baustein-Einstiege („In der heutigen schnelllebigen Welt …", „Stellen Sie sich vor …").
+- Symmetrische Dreier-Aufzählungen; Floskeln („spielt eine entscheidende Rolle").
+- Weichspüler-Übergänge im Übermaß („zudem", „darüber hinaus", „nicht zuletzt").
+- Künstliche Ausgewogenheit („einerseits … andererseits") ohne Standpunkt.
+- Zusammenfassungs-Fazit („Zusammenfassend lässt sich sagen …").
+- Gleichförmige Satz-/Absatzlängen — Rhythmus variieren, auch mal ein kurzer Satz.
+- Hedging („Es ist wichtig zu beachten, dass …") statt klarer Aussage.
+- Generische Beispiele — stattdessen konkret aus `service-katalog.md` / Einzelkonzept.
 
 Stattdessen: konkrete Praxisalltag-Details, klare Haltung („KI nicht um jeden Preis — erst
-die Prozesse, dann das Werkzeug"), Sie-Anrede, aktive Verben statt Substantivketten,
-gelegentlich direkte Ansprache der Leserin statt neutraler Beschreibung.
+die Prozesse, dann das Werkzeug"), Sie-Anrede, aktive Verben, gelegentlich direkte Ansprache.
 
-## SCHRITT 6 — Output
+## SCHRITT 7 — Output
 
-1. **Draft-Datei anlegen:** `src/growthtogether.at/content/journal/<slug>.md`
-   (Slug aus der URL im Einzelkonzept, z. B. `no-shows-physiotherapie-senken`). Vollständiger
-   Markdown-Body **inkl. Front Matter**, `draft: true`. `date` auf einen **Dienstag** setzen
-   (Launch-/Veröffentlichungs-Takt).
-2. **Bauen zur Kontrolle:** `hugo --source src/growthtogether.at -D` — muss fehlerfrei
-   durchlaufen (Draft rendert mit `-D`). Bei Fehlern fixen.
-3. **Nicht deployen, nicht nach `main` mergen** — Draft bleibt auf dem Branch, Leonie
-   sichtet. Commit klein und sprechend.
-4. **Kurz-Report** am Ende: welche internen Links (laut Einzelkonzept) gesetzt wurden und
-   welche noch nicht (z. B. Zielseite existiert nicht); getroffene Titel-Entscheidung
-   (Option a/b); die zwei Bild-Ideen; offene Punkte für Leonies Sichtung.
+1. **Draft-Datei anlegen:** `src/growthtogether.at/content/journal/<slug>.md`, vollständiger
+   Markdown-Body **inkl. Front Matter**, `draft: true`.
+2. **Build zur Kontrolle:** `hugo --source src/growthtogether.at -D -F` (extended;
+   `-F`/`--buildFuture` wegen des Zukunftsdatums). Muss fehlerfrei durchlaufen; prüfen, dass
+   der Post unter `/blog/<slug>/` rendert, Titel/Überschriften/interne Links/CTA-Box da sind.
+   *(Ist `hugo` im Container nicht installiert: extended-Binary von den GitHub-Releases laden
+   und lokal ausführen. Der CI-Deploy hat Hugo ohnehin — der Live-Build funktioniert also
+   unabhängig davon.)*
+3. **Nicht deployen, nicht nach `main` mergen.** Draft bleibt auf dem Branch; Leonie sichtet.
+   Commit klein und sprechend (die gebaute `public/`-Ausgabe nicht committen — ist ignoriert).
+4. **Kurz-Report:** gesetzte/offene interne Links, Titel-/Slug-Entscheidung, Build-Ergebnis,
+   die zwei Bild-Ideen, offene Punkte für Leonies Sichtung.
