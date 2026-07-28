@@ -44,8 +44,10 @@ denen das Organisatorische hängenbleibt. Archetyp: *„Martina, 47, Inhaberin
 einer Privat-/Präventions-Physiopraxis mit 5 Mitarbeitenden“* — daneben z. B.
 die Longevity-Gründerin und die Leitung einer Ernährungsberatungspraxis.
 
-Gemeinsam: KI eher vom Hörensagen, Entscheidung schnell wenn Nutzen klar +
-Aufwand überschaubar, Datenschutz & Seriosität sehr wichtig. Wer privat/
+Gemeinsam: KI ist ihnen längst ein Begriff, ChatGPT & Co. oft schon selbst
+ausprobiert — aber unklar, wie man es wirklich verlässlich für die Praxis nutzt.
+Entscheidung schnell wenn Nutzen klar + Aufwand überschaubar, Datenschutz &
+Seriosität sehr wichtig. Wer privat/
 Wahlarzt zahlt, erwartet ein Premium-Erlebnis — deshalb immer **Erlebnis-Gewinn
 zusammen mit Zeit-Gewinn** nennen. **Kern-Nutzenversprechen: mehr Zeit fürs
 Kerngeschäft + ein reibungsloses, professionelles Kundenerlebnis.**
