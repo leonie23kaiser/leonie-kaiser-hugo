@@ -43,7 +43,7 @@
     - titel: "Bewertungs- und Empfehlungsanfragen"
       desc: "Automatisch zum richtigen Zeitpunkt nach dem Termin, einer der stärksten Hebel für neue Anfragen, ganz ohne zusätzlichen Aufwand."
   beispiel:
-    ausgangssituation: "In einer Medical-Wellness-Praxis reißt der Kontakt nach der Behandlung ab. Renewal-Erinnerungen und Follow-ups müssen manuell durchgeführt werden und sind über verschiedene Kanäle verstreut. Dadurch werden sie leicht vergessen oder gehen unter, und Kundschaft geht still verloren."
+    ausgangssituation: "In einem privatärztlichen Gesundheitszentrum reißt der Kontakt nach der Behandlung ab. Renewal-Erinnerungen und Follow-ups müssen manuell durchgeführt werden und sind über verschiedene Kanäle verstreut. Dadurch werden sie leicht vergessen oder gehen unter, und Kundschaft geht still verloren."
     vorgehen: "Wir richten eine automatisierte Nachsorge-Sequenz ein, dazu einen Recall zum richtigen Zeitpunkt, eine Bewertungsanfrage nach dem Termin und Erinnerungen an auslaufende Mitgliedschaften. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
     ergebnis: "Es gibt mehr Folgetermine und eine planbarere Auslastung. Die Nachsorge läuft zuverlässig, ohne dass jemand aktiv daran denken und sie umsetzen muss."
   faq:

@@ -11,5 +11,5 @@ sitemap:
   priority: 0.8
 ---
 
-Kurze, praxisnahe Beiträge zu KI im Alltag kleiner Gesundheits- und Wellness-Praxen.
+Kurze, praxisnahe Beiträge zu KI im Alltag kleiner Gesundheitspraxen.
 Jeder Beitrag zeigt einen konkreten Schritt, den Sie direkt umsetzen können. EU AI Act und DSGVO immer mitgedacht.
