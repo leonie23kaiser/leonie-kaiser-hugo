@@ -63,6 +63,20 @@ dedizierten Blogartikel dieser Themenrunde.
 Unknown"**. Das sind Themen-Labels des SEO-Tools, keine echten Suchanfragen — niemand tippt
 „Praxisorganisation verbessern" exakt so. Das Thema dahinter bleibt aber valide (siehe unten).
 
+**Finale Keyword-Entscheidung für Post #1 (Abgleich mit `Blog_Posts_13.docx`):** Das Redaktions-
+Dokument für Post #1 („Vorstellung mit Leser-Hook") plant ohnehin ein eigenes, engeres
+Keyword-Set und stuft den Post selbst schon als **Awareness-Content mit bewusst kleinerem
+Suchvolumen, aber kein toter SEO-Anker** ein — das deckt sich exakt mit dem Nullvolumen-Befund.
+Empfehlung: **beim geplanten Set bleiben**, nicht auf „Praxismanagement"/„Praxismanagerin"
+ausweichen (siehe Runde 2 unten — reales Volumen, aber falsche Zielgruppe: Jobsuchende/
+Ausbildung statt Praxisinhaberinnen).
+
+- **Primär:** Praxis hängt an der Inhaberin
+- **Long-Tail:** alles hängt an mir Praxis · Praxis läuft nur mit mir · als Inhaberin alles
+  selbst machen · zu viel Verwaltung in der Praxis · Praxis delegieren lernen
+- **Sekundär/semantisch:** Flaschenhals Praxis, erst Prozesse dann Tool, KI für kleine
+  Gesundheitspraxen
+
 ## Runde 2: Reale Trends-/Planner-/Google-direkt-Daten für breitere Kopf-Begriffe (2026-07-30)
 
 *Nachdem die 6 Seed-Phrasen oben als Nullvolumen entlarvt wurden, wurden breitere,
