@@ -23,6 +23,16 @@ Keyword in der Headline vorkommen soll. Leonie startet mit „Bereite Blogpost #
 
 # PHASE 1 — VORBEREITUNG
 
+> **PFLICHTLEKTÜRE vor jedem Post / Keyword-Check:** Zuerst
+> `strategie/keyword-research-2026-07.md` lesen — dort stehen die bereits getrackten
+> Keywords (Anhang A + B), die reale Trends-/Planner-/Google-direkt-Recherche und die
+> **Warnung, dass mehrere volumenstarke Begriffe an der falschen Zielgruppe vorbeigehen**
+> (z. B. „Praxismanagerin"/„Praxismanagement" = Jobsuchende/Ausbildung; „Praxissoftware" =
+> Softwarekäufer; „Potenzialanalyse" allein = Schul-Assessments). Damit prüfen: Ist das
+> geplante Keyword schon getrackt? Passt es zu `AGENTS.md`/`segmente.md`? Passt die **reale
+> Suchintention** (laut Google-direkt) zur Zielgruppe (inhabergeführte Gesundheitspraxen)?
+> **Neue Recherche-Erkenntnisse immer in diese Datei ergänzen — keine neue Datei anlegen.**
+
 ## SCHRITT 0 — Post identifizieren (nur die Nummer nötig)
 
 Eingabe ist nur eine **Nummer N**. Ermittle selbst:

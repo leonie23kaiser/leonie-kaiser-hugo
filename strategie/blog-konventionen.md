@@ -13,6 +13,10 @@ Session vom 2026-07 an einem Ort zusammen. Stand: 2026-07-28.*
 
 ## 1. Ablauf pro Blogpost (zwei Phasen)
 
+> **Pflichtlektüre zuerst:** `strategie/keyword-research-2026-07.md` — bereits getrackte
+> Keywords (234, Anhang A+B), reale Recherche + Warnung zu volumenstarken Begriffen an der
+> falschen Zielgruppe. Neue Erkenntnisse dort ergänzen, keine neue Datei anlegen.
+
 1. **„Bereite Blogpost #N vor"** → Phase 1: **Keyword-Check zuerst** (Claude liefert Seeds
    + qualitative SERP-Lesung; **Leonie misst das Volumen** in Google Keyword Planner,
    AnswerThePublic, Google Trends, Google-Autocomplete — siehe `keyword-check.md`).
