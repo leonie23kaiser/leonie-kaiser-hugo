@@ -1,5 +1,5 @@
 ---
-title: '„Ohne mich läuft hier nichts“ — warum in kleinen Praxen alles an der Leitung hängt'
+title: '„Ohne mich läuft hier nichts“ — wenn alles an der Leitung hängt'
 slug: "praxis-haengt-an-der-leitung"
 description: "Wer steckt hinter dieser KI-Beratung für Praxen? Warum ich kleine Gesundheitspraxen entlaste — und wofür ich stehe: erst die Prozesse, dann das Werkzeug."
 date: 2026-08-04
@@ -31,7 +31,7 @@ In einem großen Betrieb gibt es für jede dieser Aufgaben eine eigene Rolle. In
 
 Viele Praxen versuchen, das mit Software zu lösen. Ein Buchungstool hier, eine App fürs Dokumentieren dort, dazu WhatsApp, E-Mail und ein Kalender, die nicht miteinander reden. Am Ende stehen fünf Werkzeuge im Einsatz — und trotzdem hängt weiter alles an Ihnen, weil niemand außer Ihnen den Überblick behält.
 
-> Ein Tool allein löst kein Chaos. Es beschleunigt nur das, was schon da ist. Deshalb fange ich nie beim Werkzeug an, sondern bei Ihren Abläufen.
+> Ein Tool allein bringt noch keine Ordnung. Es beschleunigt nur das, was schon da ist. Deshalb fange ich nie beim Werkzeug an, sondern bei Ihren Abläufen.
 
 ## Wer ich bin — und warum mich gerade dieses Problem nicht loslässt
 
@@ -59,7 +59,7 @@ Ich verdiene mein Geld nicht damit, Ihnen möglichst viel Technik zu verkaufen. 
 
 ## Was Sie hier im Journal erwartet
 
-Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation, Nachsorge — und darüber, wie Sie online besser gefunden werden. Immer praxisnah, immer mit dem Datenschutz im Blick. Wenn Sie sehen möchten, wie das an einem konkreten Beispiel aussieht, werfen Sie einen Blick auf die Seite für [Physiotherapie-Praxen](/ki-fuer-physiotherapie-praxen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
+Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation, Nachsorge — und darüber, wie Sie online besser gefunden werden. Immer praxisnah, immer mit dem Datenschutz im Blick. Wenn Sie sehen möchten, wo ich konkret ansetze, werfen Sie einen Blick auf meine [Leistungen](/leistungen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
 
 Der nächste Beitrag wird konkret: wie Sie No-Shows in der Praxis spürbar senken.
 
