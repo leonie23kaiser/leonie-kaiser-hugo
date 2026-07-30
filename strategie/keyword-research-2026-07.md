@@ -58,6 +58,40 @@ Behandlung, Führung und Verwaltung in einer Person") und zum O-Ton „Ohne mich
 nichts — das ist kein Betrieb, das bin ich." Guter, validierter Kandidat für den ersten
 dedizierten Blogartikel dieser Themenrunde.
 
+**Update 2026-07-30 — wichtige Korrektur:** Die 6 Phrasen oben zeigten in Google Trends
+(12 Monate, DE) durchgehend **0** und im Google Keyword Planner **kein Volumen / „Competition:
+Unknown"**. Das sind Themen-Labels des SEO-Tools, keine echten Suchanfragen — niemand tippt
+„Praxisorganisation verbessern" exakt so. Das Thema dahinter bleibt aber valide (siehe unten).
+
+## Runde 2: Reale Trends-/Planner-/Google-direkt-Daten für breitere Kopf-Begriffe (2026-07-30)
+
+*Nachdem die 6 Seed-Phrasen oben als Nullvolumen entlarvt wurden, wurden breitere,
+realistischere Kopf-Begriffe getestet — sowohl für Blogpost #1 als auch site-weit für die
+Kampagne. Wichtigster Befund: **hohes Suchvolumen heißt nicht automatisch richtige
+Zielgruppe** — bei mehreren Begriffen weicht die tatsächliche Suchintention (laut Google
+Ähnliche-Fragen/Ähnliche-Suchanfragen) stark von Leonies Zielgruppe ab.*
+
+| Begriff | Trends-Signal (DE, 12 Mon.) | Reale Suchintention laut Google-direkt | Passt zur Zielgruppe? |
+|---|---|---|---|
+| **praxismanagerin** | stark, konstant übers Jahr, Peak 100 | Gehalt, Stellenangebote, Ausbildung, IHK, Studium | **Nein** — Jobsuchende/Ausbildungsinteressierte, nicht Praxisinhaberinnen |
+| **praxismanagement** | solide, konstant | Weiterbildung, Gehalt, Studium, Quereinstieg (nur „Physiotherapie"-Variante trifft) | **Teilweise** — überwiegend Ausbildungs-/Karriere-Intent |
+| **eu ai act** | klar steigend, Spike Ende Juni/Anfang Juli 2026 (100/91) | Zusammenfassung, PDF, Umsetzung Deutschland, Risikoklassen, „is it mandatory" | **Ja** — passender Informations-Intent, allerdings großes/kompetitives Themenfeld (IBM, Deloitte tauchen mit auf) |
+| **ki beratung** | niedrig, leicht steigend | Mittelstand, Handwerk, für Unternehmen, Jobs, Deloitte | **Teilweise** — reale B2B-KI-Beratungs-Nachfrage, aber generisch/stark umkämpft, nicht gesundheitsspezifisch |
+| **dsgvo ki** | niedrig, aber real | Welches KI-Tool ist DSGVO-konform, Ist ChatGPT DSGVO-konform, KI und Datenschutz | **Ja** — trifft ihre Differenzierung fast direkt |
+| **praxissoftware** | niedrig, real | Vergleich, Tomedo, Medatixx, MEDISTAR, Zahnarzt, Hausarzt (Software-**Produkt**-Vergleiche) | **Nein** — Leute suchen Praxisverwaltungs-Software zum Kaufen, nicht KI-Beratung; würde außerdem gegen die „tool-agnostisch"-Positionierung aus `AGENTS.md` laufen |
+| **potenzialanalyse** (allein) | niedrig | Schule, 8. Klasse, Arbeitsagentur, Fragebogen PDF, Mitarbeiter-Test | **Nein** — der Begriff ist im Deutschen von Schul-/Personalauswahl-Assessments besetzt; **„KI-Potenzialanalyse" als zusammengesetzter Begriff verwenden**, nie „Potenzialanalyse" allein |
+| dsgvo (generisch, zum Vergleich) | riesig, dominant | — | zu breit, nur als Kontext-Baseline |
+
+**Konsequenz für Blogpost #1 und generell:** Begriffe mit Suchvolumen nicht blind übernehmen —
+immer die „Weitere Fragen" / „Wird auch oft gesucht"-Liste aus Google direkt gegenprüfen, ob
+die Suchintention zu **inhabergeführten Gesundheits-/Wellness-Praxen** passt (nicht zu
+Jobsuchenden, Softwarekäufer:innen oder Schul-Assessments). Für Blogpost #1 bleibt der
+inhaltliche Kern („Alles hängt an der Leitung", Delegieren, Entlasten) richtig — nur eben
+nicht unter den Kopf-Begriffen „Praxismanagerin"/„Praxismanagement" bewerben, da deren
+Publikum überwiegend ein anderes ist. **EU AI Act** ist der stärkste, zielgruppengerechte
+Befund dieser Runde und verdient Priorität — der Spike Ende Juni/Anfang Juli 2026 sollte bei
+Gelegenheit auf einen echten Auslöser (Frist, Nachrichtenereignis) geprüft werden.
+
 ## Offene Content-Lücken (Stand 2026-07-29)
 
 - Physio: jetzt gut bedient (eigene Themen-Cluster + Keywords vorhanden).
