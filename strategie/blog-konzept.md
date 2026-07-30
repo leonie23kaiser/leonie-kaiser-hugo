@@ -163,7 +163,7 @@ für LinkedIn/Social; für Google-Ranking ist der Wochentag zweitrangig.)*
 - **URL:** kurz, sprechend, Keyword enthalten (`/blog/no-shows-physiotherapie-senken/`).
 
 ### Interne Verlinkung (das Wichtigste)
-- **Jeder Beitrag verlinkt auf mindestens eine Hub-Seite** (Praxisseite oder
+- **Jeder Beitrag verlinkt auf mindestens eine Hub-Seite** (Leistungsseite oder
   `/eu-ai-act/`) — das baut die topische Autorität auf.
 - **Jeder Beitrag verlinkt auf 1–2 andere Beiträge** derselben Kategorie (sobald vorhanden).
 - Die Hub-Seiten bekommen später einen „Aus dem Journal"-Block, der zurück verlinkt.
@@ -181,7 +181,7 @@ für LinkedIn/Social; für Google-Ranking ist der Wochentag zweitrangig.)*
 ### Ehrlichkeit (nicht verhandelbar)
 Kein Fake-Social-Proof, weder im Text noch im Schema. Keine erfundenen Fallzahlen,
 Sterne oder Referenzen, solange es keine echten gibt. Beispielszenarien immer klar als
-**illustrativ** kennzeichnen (wie auf den Praxisseiten). Prozentzahlen aus fremden
+**illustrativ** kennzeichnen (wie auf den Leistungsseiten). Prozentzahlen aus fremden
 Quellen nur mit Quellenangabe.
 
 ---
@@ -292,24 +292,29 @@ Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche zu prüfen (An
 | # | Working Title | Primär-Keyword | Intent | Kategorie (· Segment) | Verlinkt auf |
 |---|---|---|---|---|---|
 | **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt | „Praxis hängt an der Inhaberin" | Awareness | KI in der Praxis (persönlich) | `/ueber-mich/` |
-| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Termine & Anfragen · Physiotherapie | `/ki-fuer-physiotherapie-praxen/` |
+| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Termine & Anfragen · Physiotherapie | `/leistungen/termine-und-anfragen/` |
 | **3** | Praxis-Alltag: Welche Daten darf ich in ChatGPT eingeben? | „welche Daten darf ich in ChatGPT eingeben" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
-| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Dokumentation & Wissen | Startseite + Praxisseite |
+| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Dokumentation & Wissen | Startseite + `/leistungen/dokumentation-und-wissen/` |
 | **5** | Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in KI-Suchen beachten müssen | „Praxis bei Google gefunden werden" | Consideration | Sichtbarkeit | Startseite + `/eu-ai-act/` |
-| **6** | Ein KI-Assistent auf Ihrer Website: Anfragen sofort beantwortet, ohne dass jemand am Empfang sitzt | „Chatbot für Arztpraxis Website" | Consideration | Termine & Anfragen | Startseite + Praxisseiten |
+| **6** | Ein KI-Assistent auf Ihrer Website: Anfragen sofort beantwortet, ohne dass jemand am Empfang sitzt | „Chatbot für Arztpraxis Website" | Consideration | Termine & Anfragen | Startseite + `/leistungen/termine-und-anfragen/` |
 | **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wissen müssen | „EU AI Act kleine Praxis" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
 | **8** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | KI in der Praxis | `/#kontakt` + `/ueber-mich/` |
 | **9** | Selbst starten oder begleiten lassen? So finden Sie den richtigen Einstieg in KI für Ihre Praxis | „KI in der Praxis einführen" | Decision | KI in der Praxis | `/#kontakt` + `/ueber-mich/` |
-| **10** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Kundenbindung & Nachsorge | `/ki-fuer-physiotherapie-praxen/` |
+| **10** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Kundenbindung & Nachsorge | `/leistungen/nachsorge-und-kundenbindung/` |
 
 **Schmerz ↔ Wunsch (ausgeglichen):** Schmerz-Themen #2/#4 (+ #1 als Aufhänger) · Wunsch-Themen
 #5/#6/#10 · Datenschutz #3/#7 · Einstieg/Entscheidung #8/#9. Intent: **Awareness 1 ·
 Consideration 7 · Decision 2**.
 
-**Zwei Hinweise zur Reihenfolge:**
+**Hinweise:**
+- **Hub-Links = Leistungsseiten (neu, Stand 2026-07):** Die Website hat keine
+  Praxis-Segmentseiten mehr — sie wurden durch **Leistungsseiten** ersetzt
+  (`/leistungen/termine-und-anfragen/`, `.../dokumentation-und-wissen/`,
+  `.../nachsorge-und-kundenbindung/`), die genau den Kategorien entsprechen. Jeder Post
+  verlinkt auf die passende Leistungsseite (oder `/eu-ai-act/`, `/ueber-mich/`); ein
+  Segment (z. B. Physiotherapie) bleibt nur **Label im Titel**.
 - **#10 „Termine erinnern, zurückholen"** stand vorher auf #4, überschneidet sich aber
-  thematisch mit #2 (No-Shows) — deshalb weiter nach hinten geschoben, damit die beiden
-  Termin-Themen nicht direkt aufeinanderfolgen.
+  thematisch mit #2 (No-Shows) — deshalb weiter nach hinten geschoben.
 - **#4 „Wissen sichern"** ist neu in den ersten 10 (Kategorie Dokumentation & Wissen).
 
 ### Weitere Wunsch-Themen (Vorschläge für später)

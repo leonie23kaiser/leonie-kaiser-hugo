@@ -110,7 +110,7 @@ Vertrauen, nicht über Volumen.
 
 ### Interne Links
 - **Hub:** `/ueber-mich/` (primär)
-- **Weiter:** eine Praxisseite als Beispiel (`/ki-fuer-physiotherapie-praxen/`),
+- **Weiter:** eine Leistungsseite als Beispiel (`/leistungen/termine-und-anfragen/`),
   `/eu-ai-act/` beim Datenschutz-Satz
 - **CTA:** Potenzialanalyse (Calendly)
 
@@ -180,7 +180,7 @@ Keyword — deshalb bekommt jede H2 einen suchbaren Kern.)*
 - **Kategorie:** „Termine & Anfragen"
 
 ### Interne Links
-- **Hub:** `/ki-fuer-physiotherapie-praxen/` (deckt sich mit `schmerz:` in branchen.yaml)
+- **Hub:** `/leistungen/termine-und-anfragen/` (deckt sich mit `schmerz:` in branchen.yaml)
 - **Weiter:** `/eu-ai-act/` (Datenschutz-Abschnitt), später Post #10 (Erinnern vs. Zurückholen)
 - **CTA:** Potenzialanalyse, flankiert mit dem Physio-Beispielszenario
 
@@ -222,7 +222,7 @@ Leonie weitermacht:
   - Kurz-Einordnung Art. 9, SMS/WhatsApp-Vorsicht, EU-Hosting/AVV. Verlinkt auf `/eu-ai-act/`.
 - **H2: So gehen wir das an — ein Beispielszenario** *(illustrativ gekennzeichnet)*
   - Rohmaterial: `service-katalog.md` **Szenario A (Physiopraxis, Termin-Journey)** +
-    Physio-Beispiel in `branchen.yaml`: Online-Buchung → automatische Erinnerung →
+    Termine-Beispiel in `branchen.yaml` (Leistung termine-anfragen): Online-Buchung → automatische Erinnerung →
     Wartelisten-Nachbesetzung. „Sie richten nichts selbst ein."
 - **H2: Häufige Fragen** (FAQ / AI-Overview)
   - Wie viele No-Shows sind normal in einer Physiotherapie-Praxis?
@@ -275,7 +275,7 @@ Leonie weitermacht:
 
 ### Interne Links
 - **Hub:** `/eu-ai-act/` (Autoritäts-Pillar)
-- **Weiter:** alle drei Praxisseiten (je nach Datentyp), Post #2 (Terminerinnerung)
+- **Weiter:** die passenden Leistungsseiten (je nach Datentyp), Post #2 (Terminerinnerung)
 - **CTA:** Potenzialanalyse, gerahmt als „datenschutzsichere Einrichtung"
 
 ### Content-Gap / einzigartiger Winkel
