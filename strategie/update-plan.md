@@ -9,12 +9,11 @@
 | Datei | Typ | Rhythmus |
 |---|---|---|
 | Testimonial- & Wirkungs-Tracker (xlsx) | **lebendig** | bei jedem Kunden |
-| `story_bank.md`, `brand_data.md` (Belege) | **lebendig** | nach jedem echten Fall |
-| `empfehlungs-stories.md` | **lebendig** | nach 1. Pilot (echte Zahl rein) |
+| `story_bank.md` (Belege + Copy), `brand_data.md` | **lebendig** | nach jedem echten Fall |
 | Website (`content/`) | **lebendig** | Website-Schritt + nach 1. Fällen |
-| `brand_position.md`, `AGENTS.md`, Briefing | halb-stabil | quartalsweise Review |
+| `brand_position.md`, `AGENTS.md`, `strategie-konzept.md` | halb-stabil | quartalsweise Review |
 | `silicon-sampling.md` (Rohdaten) | **Record** | nicht editieren — neu erheben/validieren |
-| `trust_audit.md`, `citation_audit.md` | Audit | alle 90 Tage |
+| `audits.md` | Audit | alle 90 Tage |
 
 ---
 
@@ -26,9 +25,9 @@
   fehlt die Vergleichszahl).
 
 ### ▶ Nach dem 1. echten Pilot
-- `story_bank.md`: die passende `[VORLAGE]` → `[ECHT]` umstellen, echte Zahl + O-Ton einsetzen.
+- `story_bank.md`: die passende `[VORLAGE]` → `[ECHT]` umstellen, echte Zahl + O-Ton einsetzen;
+  in der Spiegelgeschichten-Copy die Studien-Zeile durch die **echte Kundenzahl** ersetzen.
 - `brand_data.md`: den Fall in die Story Bank aufnehmen.
-- `empfehlungs-stories.md`: die Studien-Zeile durch die **echte Kundenzahl** ersetzen.
 - Website: erste echte Referenz einbauen (im Website-Schritt).
 
 ### ▶ Nach 3–5 echten Fällen
@@ -46,10 +45,10 @@
 
 - **Wöchentlich:** 1 LinkedIn-Post, der *eine* Position schärft (Start: Empfehlungs-Story A).
 - **Monatlich:** Tracker sichten, neue Stories ins Format gießen, kurzer Konsistenz-Check.
-- **90 Tage — Termin 2026-09-30:** `trust_audit.md` **und** `citation_audit.md` neu durchführen,
+- **90 Tage — Termin 2026-09-30:** `audits.md` neu durchführen (Trust + Citation),
   Ziel-Scores prüfen (Trust: Auth 8 / Logic 7 / Emp 9 · Citation: 3→7).
 - **Quartalsweise:** Passt Positionierung/Zielgruppe noch? `brand_position.md`, `AGENTS.md`,
-  Briefing kurz gegenlesen.
+  `strategie-konzept.md` kurz gegenlesen.
 - **~Jährlich / bei Marktverschiebung:** Silicon Sampling neu denken (neue Segmente? neue Preise?).
 
 ---
@@ -71,13 +70,13 @@ Menschen prüfst.
 |---|---|---|
 | Ausgangswerte messen (beim Projektstart) | bei jedem neuen Kunden | die 3 Fragen → Tracker |
 | Tracker füllen: Vorher/Nachher + O-Ton + Einwilligung | bei jedem Projektende | Fall-Typ: Ziel-Segment |
-| 1. Pilot → Story echt machen | nach 1. Pilot | story_bank + brand_data + empfehlungs-stories |
+| 1. Pilot → Story echt machen | nach 1. Pilot | story_bank + brand_data |
 | „Belegbare Aussagen" mit echten Zahlen | nach 3–5 Fällen | brand_data.md |
 | Hebel-vs-Hype: 8–10 Tools bewerten | diesen Monat | Excel-Vorlage füllen |
 | LinkedIn-Post (1 Position) | **wöchentlich** | Start: Empfehlungs-Story A |
 | Tracker + Stories sichten, Konsistenz-Check | **monatlich** | 30 Min |
-| Trust-Audit + Citation-Audit neu | **2026-09-30** | Ziel-Scores prüfen |
-| Positionierung/Zielgruppe-Review | **quartalsweise** | brand_position / AGENTS / Briefing |
+| Audits neu (Trust + Citation) | **2026-09-30** | `audits.md`, Ziel-Scores prüfen |
+| Positionierung/Zielgruppe-Review | **quartalsweise** | brand_position / AGENTS / strategie-konzept |
 | Validierung: 10–20 echte Interviews | nach ~5–10 Kunden | silicon-sampling.md real belegen |
 | Silicon Sampling neu denken | jährlich / bei Marktverschiebung | ggf. neue Segmente/Preise |
 | Website-Texte aktualisieren | Website-Schritt + nach 1. Fällen | echte Stimme + echte Belege |

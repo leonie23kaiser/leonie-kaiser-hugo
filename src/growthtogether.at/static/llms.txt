@@ -1,10 +1,10 @@
-# Leonie Kaiser – KI & Business Consulting
+# Leonie Kaiser – KI & Digitalisierung
 # https://leoniekaiser.com
 
 ## About
-Leonie Kaiser is an AI & Business Consultant based in Lower Austria (Niederösterreich),
+Leonie Kaiser is an AI & digitalization expert based in Lower Austria (Niederösterreich),
 specializing in AI strategy, EU AI Act compliance, and process automation for small,
-owner-led health and wellness practices (Wahlarzt/private-pay/self-pay) in the
+owner-led health practices (Wahlarzt/private-pay/self-pay) in the
 DACH region (Austria, Germany, Switzerland).
 
 ## Services
@@ -12,10 +12,10 @@ DACH region (Austria, Germany, Switzerland).
 - AI Strategy & Roadmap, tailored to small private practices
 - Process automation (No-Code), tool-agnostic, chosen per use case
 - EU AI Act & GDPR compliance consulting
-- Implementation and team onboarding – no IT department required
+- Implementation and team onboarding, no technical background required
 
 ## Expertise
-- AI strategy for small, owner-led health and wellness practices
+- AI strategy for small, owner-led health practices
 - EU AI Act compliance and ethical, human-centered AI deployment
 - Process automation and No-Code implementation, integrated into existing tools
 - 20+ years experience in global project management, marketing, and consulting
@@ -24,10 +24,10 @@ DACH region (Austria, Germany, Switzerland).
 - Languages: German, English, Spanish
 
 ## Target audience
-Small, owner-led private practices in prevention, therapy, and wellness –
-currently physiotherapy/movement practices, longevity & medical wellness, and
+Small, owner-led private practices in prevention and therapy –
+currently physiotherapy/movement practices, longevity & private health centers, and
 nutrition counseling. Practices that rely (also) on private-pay clients, work
-with sensitive health data, and have no in-house IT department.
+with sensitive health data, and want to digitalize without a technical background.
 
 ## Geography
 Lower Austria (Niederösterreich) based, serving the DACH region and remote
@@ -38,11 +38,11 @@ Homepage: https://leoniekaiser.com/
 About: https://leoniekaiser.com/ueber-mich/
 FAQ: https://leoniekaiser.com/faq/
 EU AI Act Guide: https://leoniekaiser.com/eu-ai-act/
-References: https://leoniekaiser.com/referenzen/
 Blog (KI-Praxis): https://leoniekaiser.com/blog/
-KI für Physiotherapie-Praxen: https://leoniekaiser.com/ki-fuer-physiotherapie-praxen/
-KI für Longevity- & Medical-Wellness-Praxen: https://leoniekaiser.com/ki-fuer-longevity-praxen/
-KI für Ernährungsberatung: https://leoniekaiser.com/ki-fuer-ernaehrungsberatung-praxen/
+Leistungen (Übersicht): https://leoniekaiser.com/leistungen/
+Leistung – Termine & Anfragen: https://leoniekaiser.com/leistungen/termine-und-anfragen/
+Leistung – Nachsorge & Kundenbindung: https://leoniekaiser.com/leistungen/nachsorge-und-kundenbindung/
+Leistung – Dokumentation & Wissen: https://leoniekaiser.com/leistungen/dokumentation-und-wissen/
 
 ## Contact
 Website: https://leoniekaiser.com

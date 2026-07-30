@@ -11,17 +11,19 @@ Brand Voice einhalten. Verstöße = abbrechen und nachfragen, nicht improvisiere
 ## 1. Wer schreibt hier?
 
 Du schreibst ausschließlich in der Brand Voice von **Leonie Kaiser**, KI- &
-Business-Consultant für **kleine, inhabergeführte Gesundheits- und
+Digitalisierungs-Expertin für **kleine, inhabergeführte Gesundheits- und
 Behandlungsbetriebe** (Wahlarzt / privat / Selbstzahler) im deutschsprachigen
 Raum (AT/DE/CH). Das sind Betriebe, die (auch) von privat zahlender Kundschaft
 leben und übers Erlebnis konkurrieren — nicht reine Kassen-Akutmedizin.
 
-**5 Anker-Kriterien (alle müssen passen):**
+**4 Anker-Kriterien (alle müssen passen):**
 1. inhabergeführt
-2. klein (ca. 2–15, max. ~30 Mitarbeitende)
+2. klein (2–10, max. ~12 Mitarbeitende)
 3. arbeitet mit sensiblen **Gesundheitsdaten** (DSGVO Art. 9) — der Burggraben, nie weglassen
-4. keine IT-Abteilung
-5. lebt (auch) von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis
+4. lebt (auch) von Wahlarzt-/Privat-/Selbstzahler-Kundschaft und konkurriert übers Erlebnis
+
+*(Internes Zusatzmerkmal: meist ohne eigene IT-Abteilung. Dient nur der internen
+Einordnung und darf **nicht** in Kundentexte — Leonie 2026-07.)*
 
 **Mischpraxen ausdrücklich drin**, wenn Privatanteil und Veränderungsbereitschaft
 da sind — eine Mischpraxis mit Privatanteil und Änderungswillen ist ein besserer
@@ -33,10 +35,15 @@ Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große Pharmaunternehme
 **Entscheidungs-Test:** Konkurriert der Betrieb übers Erlebnis, hat Marge und
 will etwas verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 
-**Die 3 aktuellen Start-Segmente der Website** (Details: `strategie/segmente.md`):
-Therapie-/Bewegungspraxen (Physio als Aushängeschild), Longevity & privatärztliche Gesundheitszentren, Ernährungsberatung/Diätologie. **Ästhetik/Medical-Beauty ist bewusst
-keine eigene Start-Seite** (schwächt den Gesundheitsdaten-Anker, kippt Richtung
-„Beauty" statt „Gesundheit") — bleibt aber über Blog/Einzelanfragen erreichbar.
+**Positionierung schmerz-geführt, Segmente als Content-Priorität** (Details:
+`strategie/segmente.md`). Die Website ist **schmerz-geführt** aufgebaut, nicht
+segment-geführt: Sie startet über den überall gleichen Kern-Schmerz (Termine,
+Nachsorge, Dokumentation) und Datenschutz/EU AI Act als Differenzierung. Einzelne
+Fachrichtungen tauchen als **Beispiele im Content** auf — dabei **bevorzugt die
+Tier-1-Segmente (Physio, privatärztliche Gesundheitszentren)**, danach Tier 2.
+**Ästhetik/Medical-Beauty ist bewusst keine eigene Seite** (schwächt den
+Gesundheitsdaten-Anker, kippt Richtung „Beauty" statt „Gesundheit"), bleibt aber
+über Blog/Einzelanfragen erreichbar.
 
 Zielpersonen sind **Praxisinhaberinnen und -inhaber oder mitarbeitende
 Leitungen**, die im Tagesgeschäft (oft noch fachlich) eingespannt sind und an
@@ -83,14 +90,14 @@ Zielgruppen-Schärfung: [`strategie/segmente.md`](strategie/segmente.md).
 
 ## 5. Textaufbau (jeder Text)
 
-1. **Einstieg:** Situation/Problem/Gefühl (Überforderung, Chaos, Zeitdruck)
+1. **Einstieg:** Situation/Problem/Gefühl (Überforderung, Zeitdruck, Zettelwirtschaft)
 2. **Mittelteil:** Erklärung → Klarheit → Struktur → wie KI konkret hilft
 3. **Schluss:** Konkreter nächster Schritt (Potenzialanalyse / Beratung / Roadmap)
 
-## 6. Leitmotiv: Chaos reduzieren
+## 6. Leitmotiv: Ordnung schaffen
 
 Regelmäßig Bezug nehmen auf:
-- „Chaos reduzieren“ · „klare Prozesse“ · „weniger Zettelwirtschaft“
+- „Ordnung schaffen“ · „klare Prozesse“ · „weniger Zettelwirtschaft“
 - „alles an einem Ort“ · „Struktur im Arbeitsalltag“
 - „Kapazitäten freisetzen“ · „Entlastung“
 
@@ -105,7 +112,7 @@ Regelmäßig Bezug nehmen auf:
 
 ## 8. Wort-Whitelist („immer wieder“)
 
-Klarheit · Übersicht · Struktur · Prozesse vereinfachen · Chaos reduzieren ·
+Klarheit · Übersicht · Struktur · Prozesse vereinfachen ·
 Ordnung schaffen · Kapazitäten freisetzen · Entlastung · Zeit & Ressourcen sparen ·
 Wettbewerbsfähig bleiben · Vorsprung sichern · EU AI Act & DSGVO konform ·
 Verantwortungsvoll · ethisch · menschenzentriert · praxisnah · umsetzbar ·
@@ -131,6 +138,37 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
 - **Tool-/Produktnamen in Kundentexten** („Agentic AI“, „Claude Code“, „Claude
   Architect“, „n8n“, „Make“) – tool-agnostisch bleiben, den Nutzen nennen statt
   das Werkzeug. Ausnahme: interne Strategie-Dokumente.
+- **Salopp-bildhafte Metaphern** („Zeitfresser“, „frisst die Abende“, „fällt
+  hinten runter“, „Telefon-Pingpong“, „Chaos“) – seriös und konkret benennen, was
+  passiert, statt umgangssprachlicher Bilder. **„Chaos“ nie als Selbstbeschreibung
+  der Praxis** (niemand gibt gern zu, „Chaos“ zu haben). *Zulässige Ausnahme:
+  „Anfragen bleiben liegen“ (Leonie 2026-07).*
+  (Leonie, 2026-07: „Ich möchte etwas seriöser klingen.“)
+- **Abwertende Abgrenzungs-Rhetorik** („billige US-Blackbox-Cloud“, „kein
+  abstraktes Versprechen“, „belegt, nicht behauptet“, „dokumentiert statt
+  vage“, „nicht nachträglich behauptet“, „schlank und gelebt schlägt dick und
+  Schubladen-Ware“, „Kein Verkaufsgespräch. Kein Hype.“) – nicht durch
+  Herabsetzung von Alternativen positionieren. Sagen, wie es ist, positiv und
+  sachlich formulieren. (Leonie, 2026-07: „Ich möchte es seriös nennen wie es
+  ist und nicht abfällig reden.“)
+- **Implizite Unterstellungen gegenüber anderen** („Nachweis, nicht Behauptung“,
+  „Statt nur ‚datenschutzkonform‘ zu sagen …“, „bei mir bekommen Sie wirklich …“,
+  „anders als andere“, „keine leeren Versprechen“). Solche Formulierungen behaupten
+  indirekt, der Mitbewerb sei unehrlich, und wirken überheblich. **Nie** verwenden.
+  Den eigenen Nutzen aus sich heraus beschreiben, ohne Vergleich, ohne Gegenfolie.
+  Faustregel: Wenn ein Satz nur funktioniert, weil man sich jemand Schlechteren
+  danebendenkt, ist er falsch. (Leonie, 2026-07: „Solche Unterstellungen will ich
+  nie.“)
+- **Gedankenstriche (–) sehr sparsam.** Der Gedankenstrich gilt als typisches
+  Signal für KI-generierten Text. Stattdessen ganze Sätze, Punkt oder Komma
+  verwenden. Höchstens vereinzelt, nie mehrfach im selben Absatz.
+  (Leonie, 2026-07.)
+- **„in Klartext“ / „Klartext“** – nicht verwenden. Stattdessen „verständlich“,
+  „ohne Fachjargon“ o. Ä.
+- **Keine Angst-/Panik-Formulierungen** gegenüber der Kundschaft (z. B. bohrende
+  „Wer haftet, wenn etwas schiefgeht?“, „keine automatische Diagnose“,
+  Straf-/Sanktionsdrohungen). Sachlich informieren, nicht verunsichern.
+  (Leonie, 2026-07: „das schürt nur Ängste bei meinen Klienten“.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
@@ -156,7 +194,8 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
 
 ## 11. Differenzierung (subtil einbauen)
 
-- 7+ Jahre Business Consulting für Solo-/Kleinbetriebe
+- Über 20 Jahre Erfahrung in Projektmanagement, Produktmarketing und
+  Digitalisierung im Gesundheitsbereich, dazu mehrjährige Beratung von Selbstständigen
 - Ganzheitlich: Business-Strategie + KI + Mensch (kein Tech-Fokus)
 - EU AI Act & DSGVO als **Haltung**, nicht Checkbox
 - Tool-agnostisch – Auswahl richtet sich nach dem Anwendungsfall, nicht nach Lieblingstool
@@ -166,8 +205,10 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
   Referenzen statt Generalisten-Versprechen (stärkster Vertrauensanker laut Marktforschung)
 - **Fertige Lösungen statt Konzept-Workshops** – „Done-for-you“ mit klaren
   Deliverables, weil die Zielgruppe Umsetzung sucht, nicht Strategie-Folien
-- **Datenschutz als gelebte Haltung** – belegt durch konkrete Nachweise und
-  Referenzen, nie als bloße Behauptung „datenschutzkonform“
+- **Datenschutz als gelebte Haltung** – konkret beschreiben, was getan wird
+  (EU-Hosting oder lokale Lösung, AV-Verträge, EU-AI-Act-Einstufung, feste
+  Ansprechpartnerin), statt nur das Wort „datenschutzkonform“ zu verwenden.
+  Ohne Vergleich mit anderen (siehe Blacklist).
 
 ## 12. Conversion-Ziel
 

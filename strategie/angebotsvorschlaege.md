@@ -196,7 +196,7 @@ Leistungsabgrenzung.)*
 
 ## Eingebaute Einwandbehandlung (die 4 Zweifel der Zielgruppe)
 
-- **„Der Aufwand bleibt an mir hängen."** → *Sie* richten ein, nicht die Inhaberin; Team wird eingewiesen.
+- **„Der Aufwand bleibt an mir hängen."** → **Ich richte für Sie ein**, nicht die Inhaberin; das Team wird eingewiesen.
 - **„Datenschutz bei sensiblen Daten?"** → EU-AI-Act/DSGVO als Ausgangspunkt, sichtbar belegt (nicht behauptet).
 - **„Versteckte Folgekosten?"** → transparente Fixpreise, vorab genannt.
 - **„Wer betreut das danach?"** → der Retainer, als Anker von Anfang an.

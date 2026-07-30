@@ -3,7 +3,7 @@
 *Wie du dein Google-Unternehmensprofil auf die neue Positionierung bringst. Du bearbeitest
 es eingeloggt in Google (business.google.com bzw. direkt in der Google-Suche). Warum wichtig:
 Das Profil ist eine **starke Quelle für lokale *und* KI-Empfehlungen** — genau der Citation-Hebel
-aus dem `citation_audit.md`.*
+aus dem `audits.md` (Teil 2, Citation-Magnet).*
 
 ## Dein aktuelles Profil — IST → SOLL (priorisiert)
 
@@ -75,7 +75,7 @@ Google fragt). Vorschlag:
 
 **Kategorie „IT-Berater" / „Softwareberatung" (als Sekundär-Kategorie hinzufügen):**
 - **Praxis-Automatisierung** — *Aufbau-Projekt: Analyse → Roadmap → fertige Umsetzung der ersten
-  Abläufe (Termine, Aufnahme, Nachfassen). Ich richte ein, Ihr Team wird eingewiesen. EU AI Act &
+  Abläufe (Termine, Aufnahme, Nachfassen). Ich richte für Sie ein, Ihr Team wird eingewiesen. EU AI Act &
   DSGVO von Anfang an.*
 
 *(Falls du „IT-Berater" nicht als Kategorie anlegen willst, kannst du Praxis-Automatisierung auch

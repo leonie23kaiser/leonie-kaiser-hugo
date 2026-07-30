@@ -1,6 +1,6 @@
 ---
-title: "Impressum – Leonie Kaiser KI & Business Consulting"
-description: "Impressum gemäß § 5 ECG und § 25 MedienG für Leonie Kaiser – KI & Business Consulting."
+title: "Impressum – Leonie Kaiser KI & Digitalisierung"
+description: "Impressum gemäß § 5 ECG und § 25 MedienG für Leonie Kaiser – KI & Digitalisierung."
 type: "impressum"
 url: "/impressum/"
 sitemap:
