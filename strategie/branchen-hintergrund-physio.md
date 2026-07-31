@@ -1,0 +1,76 @@
+# Branchen-Hintergrund: Digitalisierung in der Physiotherapie (DE)
+
+*Interne Hintergrund-Recherche für Blog & Positionierung — Stand erfasst 2026-07.
+Quelle: Fachmagazin bodymedia.de (2 Artikel + Branchenreport-Auswertung). **Zitierfähig
+mit Quellenangabe** (Ehrlichkeits-Regel). Neue Branchen-Erkenntnisse hier ergänzen.*
+
+> **Wichtige Einordnung (Leonie):**
+> - **Deutschland-Fokus.** Vieles (v. a. die **Telematikinfrastruktur / TI-Anschlusspflicht**)
+>   ist ein rein deutsches Thema — die Zielgruppe ist DACH, primär AT. TI daher nur als
+>   Kontext, nicht als eigenes Blogthema.
+> - **TI-Anschlusspflicht wurde von 1.1.2026 auf 1.10.2027 verschoben** → **jetzt NICHT
+>   ansprechen/targetieren.** Frühestens näher am neuen Termin relevant.
+> - **Artikel undatiert** — Aktualität unsicher. Zeitliche Anker: TI-Verschiebung (Nov 2025),
+>   Branchenreport 2025, Optica-Umfrage März 2025 → Material stammt vermutlich Ende 2025/2026.
+
+---
+
+## Quellen
+- bodymedia.de: „Wie steht es um die Digitalisierung in der Physiotherapie? Das sagen
+  Experten!" (2 Inhaber-Interviews).
+- bodymedia.de: „Warum die Physiotherapie bei der Digitalisierung hinterherhinkt".
+- **Branchenreport Physiotherapie 2025** (ETL ADVISION + Verlag für Prävention & Gesundheit)
+  — die Zahlen unten. Plus Optica-Umfrage (März 2025).
+
+---
+
+## Die wichtigsten Zahlen (Branchenreport Physiotherapie 2025, DE) — zitierfähig
+- **50.888** zugelassene Physiopraxen (+1,1 % z. Vj.).
+- **Überwiegend inhabergeführte Einzelunternehmen** (~¼ Personengesellschaft, nur ~6 %
+  Kapitalgesellschaft) → „persönliche Strukturen", hohes persönliches Risiko.
+- **Ø 5,44 therapeutische Mitarbeitende;** nur ~8 % der Praxen > 10 MA, ~5 % Ein-Personen →
+  **Gros bei 2–10 MA** (= genau Leonies Zielgröße). ~75 % der Therapeuten weiblich.
+- **Fachkräftemangel:** Teilzeitquote > 50 %, **221 Tage** bis eine offene Stelle besetzt ist,
+  geringe Akademisierung (7,5 % Hochschulabschluss).
+- **Recruiting:** > 80 % Mund-zu-Mund, dann **eigene Website**, Jobcenter; Social Media noch
+  untergeordnet.
+- **Wirtschaft:** Ø Jahresumsatz **415.000 €** (meist 100k–500k); nur 7,3 % > 1 Mio.; Margen
+  überschaubar (nur ~15 % Gewinn > 100k).
+- **Ausfallhonorare:** ~**60 %** der Praxen erheben eine Gebühr, **Ø 28 €**; ~10 % berechnen
+  40 €+. *(Direkt relevant für Blogpost #2 „No-Shows" / Ausfallgebühr — mit Quelle zitierbar.)*
+- **Taktung:** 51,8 % noch 20-Minuten-Rhythmus.
+- **~70 %** nutzen einen Abrechnungsdienstleister.
+- **Digitalisierung/TI:** ~47 % schätzen sich „gut/sehr gut" digitalisiert ein; **52,4 %
+  unentschlossen** bzgl. TI; **> 90 % bieten keine Videotherapie** an; nur ~3 % an TI
+  angeschlossen (Optica, März 2025).
+
+## Kernaussagen der Interviews & Analyse
+- **Interne Digitalisierung** (Doku, Organisation, Tablets) ist bei fortschrittlichen Praxen
+  schon weit; der große Schmerz bleibt die **Kassen-/Verordnungs-Bürokratie** (Papier,
+  physische Unterschriften, manuelle Abläufe).
+- **Wunsch der Inhaber:innen:** „**eine Software für alles**" / ein offenes zentrales CRM,
+  auf das alle Programme zugreifen — statt vieler Insellösungen ohne Schnittstellen.
+- **Größte Hürde ist nicht die Technik, sondern die Kultur/Bereitschaft:** Zeit, Personal
+  und Budget fließen eher in Therapie, Team und Räume; ältere Belegschaft (2023 schon
+  35.000 Physios > 60 J.); Datenschutz-/Cloud-Skepsis in DE tief verwurzelt.
+- **Fazit der Branche:** „Der Schlüssel liegt weniger in der Technik selbst, sondern in der
+  Bereitschaft, **Prozesse zu überdenken** und Tools gezielt **zur Entlastung** einzusetzen."
+  Tools als Entlastung/Qualität begreifen (kein Kostenfaktor), **Team schulen** (praktischer
+  Mehrwert), **Patienten aktiv einbinden**.
+
+---
+
+## Was das für Leonies Blog/Positionierung bedeutet
+- **Starke Bestätigung der Positionierung:** „Erst die Prozesse, dann das Tool" ist genau
+  das Fazit der Branche selbst (kultureller Wandel > Technik). Zitierfähiger Rückenwind.
+- **„Alles hängt an der Leitung" (Post #1) ist datenbelegt:** überwiegend inhabergeführte
+  Einzelunternehmen, kleine Teams, hohe Teilzeitquote, Ø 5,4 MA.
+- **Post #2 (No-Shows):** Ausfallhonorar-Zahlen (60 %, Ø 28 €) sind ein **zitierbarer** Beleg.
+- **Sichtbarkeit/Recruiting:** Website ist nach Mund-zu-Mund wichtigster Kanal → stützt das
+  Sichtbarkeits-/GEO-Thema (Post #5) und den Fachkräfte-Aspekt (Wissen sichern, Post #4).
+- **Datenschutz als Haltung** trifft die verwurzelte DE-Skepsis genau — Leonies
+  Differenzierung.
+- **Tonalität-Warnung (Brand Voice):** „hinterherhinkt", „digitales Versagen", Faxgerät-Spott
+  aus den Quellen **nicht übernehmen** — nicht abwertend über die Branche/Zielgruppe schreiben.
+  Positiv umdrehen: „Warum sich der Einstieg gerade jetzt lohnt."
+- **TI-Thema zurückstellen** (siehe Kasten oben) — auf 1.10.2027 verschoben, DE-spezifisch.
