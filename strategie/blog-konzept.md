@@ -330,6 +330,26 @@ Alle segment-neutral und aus `service-katalog.md` belegt:
 4. **Aus einem Thema zehn Beiträge** — „Wie aus einem Behandlungsthema nebenbei Inhalte für
    Website und Social entstehen." (Sichtbarkeit ohne Mehraufwand.)
 
+### Themen-Ideen aus Branchen-Recherche (bodymedia, 2026-07)
+Kandidaten aus Fachartikeln der Physio-Branche. **Regeln beim Aufgreifen:** eigener Winkel,
+nichts kopieren; **tool-agnostisch** (mehrere Quellen sind Advertorials von Software-Anbietern
+— nur die *Idee* nutzen, keine Produktnamen in Kundentexten, AGENTS §9); **Zahlen nur mit
+Quelle** (Ehrlichkeits-Regel); Compliance-Themen **ruhig statt angstmachend**; Fitness-Studio-
+Beispiele auf die Praxis übersetzen. Details/Quellen: `strategie/branchen-hintergrund-physio.md`.
+
+| Idee (Arbeitstitel) | Kategorie | Bezug / Winkel |
+|---|---|---|
+| **„Erst das Konzept, dann die KI"** | KI in der Praxis | Kern deiner Haltung. Der erste Schritt kostet nichts: leeres Blatt + ehrliche Fragen (Zielgruppe, Angebote, Kommunikationswege). „Daten ohne Kontext sind Lärm." Kann #10 schärfen/ersetzen. |
+| **KI-Einstieg ohne Technik-Angst** | KI in der Praxis | Erste Schritte: Grundverständnis, stabile digitale Basis, mit ChatGPT Routine-Texte üben, dann gezielt Tools; Team einbinden; Datenschutz. Überlappt mit #9 — evtl. zusammenführen. |
+| **Welche KI-Kompetenzen braucht eine Praxisleitung?** | Datenschutz & EU AI Act | **Neu.** Angelehnt an das „12-KI-Kompetenzen"-Modell + **EU AI Act Art. 4 (KI-Kompetenz-Pflicht)**. Eigene, kürzere Grafik/Framework (die Sowas-in-der-Richtung-Idee). Zitierfähig: „nur 6 % fühlen sich sicher", „45 % fehlerhafte KI-Antworten" (EBU-Studie), Quelle Annapureddy et al. 2025. |
+| **KI-Inhalte kennzeichnen: Pflichten für Praxen (Social Media & Website)** | Datenschutz & EU AI Act | **Neu, echte Content-Lücke.** EU-KI-VO Art. 50: Anbieter vs. Betreiber, Deepfakes/Bilder/Texte, wann kennzeichnen; „Vorher-Nachher"-Bilder im Marketing = Vertrauensfrage; Bußgeldrahmen sachlich nennen. Dein Compliance-Vorsprung. |
+| **Der digitale Assistent / Self-Service in der Praxis** | Termine & Anfragen | Verstärkt #6: Anfragen sofort beantwortet, Info-Touchpoint im Wartebereich entlastet den Empfang, bewirbt Zusatzleistungen ohne Verkaufsdruck. *(Quellen sind Produkte — nur das Prinzip.)* |
+| **„Nicht überall, wo KI draufsteht, ist sinnvolle KI drin"** | KI in der Praxis | Spezialisierte vs. generische KI, Tools kritisch auswählen. Passt gut als Abschnitt in „KI-Einstieg" oder „Kompetenzen" statt als eigener Post. |
+
+**Meine Empfehlung:** Die zwei **neuen** Compliance-Themen (KI-Kompetenzen · KI-Kennzeichnungspflicht)
+fest in den Plan aufnehmen — sie füllen echte Lücken und sind dein Vertrauens-/EU-AI-Act-Vorsprung.
+„Erst das Konzept" als Schärfung von #10. Rest in bestehende Posts einweben.
+
 ### Zum Start-Post (#1) — Vorstellung, aber nicht nur über dich
 Deine Idee war goldrichtig, und dein Zusatzwunsch macht sie erst stark: **nicht „nur
 über mich", sondern deine Geschichte an einem echten Leser-Schmerz andocken.** Genau so

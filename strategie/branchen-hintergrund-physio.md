@@ -74,3 +74,28 @@ mit Quellenangabe** (Ehrlichkeits-Regel). Neue Branchen-Erkenntnisse hier ergän
   aus den Quellen **nicht übernehmen** — nicht abwertend über die Branche/Zielgruppe schreiben.
   Positiv umdrehen: „Warum sich der Einstieg gerade jetzt lohnt."
 - **TI-Thema zurückstellen** (siehe Kasten oben) — auf 1.10.2027 verschoben, DE-spezifisch.
+
+---
+
+## Zusatz-Recherche: KI-Nutzung & Recht (bodymedia, 2026-07) — zitierfähig
+- **KI-Kompetenz-Lücke:** ~⅔ der Deutschen nutzen KI, aber **nur 6 % fühlen sich sicher**
+  im Umgang; ~25 % „mittelmäßig". (Basis für „KI-Kompetenzen"-Post.)
+- **Fehlerquote:** Studie der Europäischen Rundfunkunion (EBU) — **45 % fehlerhafte
+  KI-Antworten.** Plus: KI tut sich schwer mit PDFs; Halluzinationen (erfundene Quellen/Fälle).
+- **„12 KI-Kompetenzen"-Modell** (4 Phasen: Fundament · Umsetzung · Sicherheit/Verantwortung ·
+  Experte): Quelle *Annapureddy, Fornaroli, Gatica-Perez (2025): Generative AI Literacy —
+  Twelve Defining Competencies.* Gute Vorlage für eine eigene, praxis-zugeschnittene Grafik.
+- **EU-KI-Verordnung, Transparenz (Art. 50):** Unterscheidung **Anbieter** (Entwickler) vs.
+  **Betreiber** (Anwender — das ist die Praxis). KI-generierte/​manipulierte Bilder, Audio,
+  Video (Deepfakes) klar, maschinenlesbar, barrierefrei kennzeichnen. Texte: Pflicht v. a. bei
+  öffentlicher Meinungsbildung; **zur Sicherheit vollständig KI-generierte Texte kennzeichnen**;
+  keine Pflicht bei bloßer Hilfsarbeit (Übersetzung/Korrektur) oder starker redaktioneller
+  Bearbeitung. **Bußgeld: bis 15 Mio. € oder 3 % Weltjahresumsatz.**
+- **EU AI Act allgemein:** Compliance-Pflichten (Risikomanagement, Transparenz, **menschliche
+  Kontrolle**). Andockpunkt für „KI-Kompetenz-Pflicht" (Art. 4).
+- **Ethik-Beispiel (praxisnah):** KI-generierte „Vorher-Nachher"-Bilder oder Website-Texte
+  ohne Transparenz = Vertrauensrisiko. Passt zu deiner Ehrlichkeits-Regel.
+
+*Hinweis: heyRobin, airtango, medo.check, UnternehmensNavi u. a. in den Quellen sind
+Produkte/Anbieter — im Blog nur die zugrunde liegende Idee nutzen, tool-agnostisch, keine
+Produktnamen (AGENTS §9).*
