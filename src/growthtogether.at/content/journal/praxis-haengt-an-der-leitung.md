@@ -31,6 +31,8 @@ In einem großen Betrieb gibt es für jede dieser Aufgaben eine eigene Rolle. In
 
 Viele Praxen versuchen, das mit Software zu lösen. Ein Buchungstool hier, eine App fürs Dokumentieren dort, dazu WhatsApp, E-Mail und ein Kalender, die nicht miteinander reden. Am Ende stehen fünf Werkzeuge im Einsatz — und trotzdem hängt weiter alles an Ihnen, weil niemand außer Ihnen den Überblick behält.
 
+Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlungsverläufe, offene Rückfragen — das alles ist längst da, nur eben verstreut über Zettel, Köpfe und getrennte Programme. Was fehlt, ist nicht ein weiteres Tool, sondern ein klarer Ablauf, der diese Fäden zusammenführt.
+
 > Ein Tool allein bringt noch keine Ordnung. Es beschleunigt nur das, was schon da ist. Deshalb fange ich nie beim Werkzeug an, sondern bei Ihren Abläufen.
 
 ## Wer ich bin — und warum mich gerade dieses Problem nicht loslässt
@@ -48,6 +50,8 @@ Diese Frage treibt mich bis heute an. Das Muster ist fast überall dasselbe — 
 ### KI nicht um jeden Preis — erst die Prozesse, dann das Werkzeug
 
 KI ist ein Verstärker, kein Selbstzweck. Bevor wir über ein Tool sprechen, schauen wir uns an, wie Ihre Abläufe wirklich funktionieren. Oft zeigt sich dabei, dass ein einfacher, klar geordneter Prozess schon die halbe Entlastung bringt — und die Technik danach nur noch das Wiederkehrende übernimmt.
+
+Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geht nie darum, Ihr Team überflüssig zu machen, sondern darum, ihm die Zeit zurückzugeben, die heute in Koordination und Rückfragen versickert — Zeit, die dann wieder Ihrer Kundschaft gehört.
 
 ### Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte
 

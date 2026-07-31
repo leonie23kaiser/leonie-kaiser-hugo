@@ -289,44 +289,56 @@ Physiotherapie** (#2), **Datenschutz** (#3). Danach #4 ff. im Wochentakt. Alle K
 Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche zu prüfen (Anleitung:
 `strategie/blog-einzelkonzepte.md`, Abschnitt „Keyword gegen die reale Suche prüfen").
 
+Der Plan ist auf **18 Beiträge** gewachsen (die neuen Branchen-Recherche-Ideen sind fest
+eingeplant, siehe unten). **#1–#3 bleiben das Launch-Paket**; #4 ff. laufen im Wochentakt.
+Reihenfolge = Empfehlung, **bewusst abwechselnd** (Schmerz / Wunsch / Datenschutz), damit
+nie mehrere gleichartige Posts hintereinander kommen und die Segmente durchrotieren. Alle
+Keywords sind Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche zu prüfen
+(`strategie/keyword-check.md`).
+
 | # | Working Title | Primär-Keyword | Intent | Kategorie (· Segment) | Verlinkt auf |
 |---|---|---|---|---|---|
-| **1** | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt | „Praxis hängt an der Inhaberin" | Awareness | KI in der Praxis (persönlich) | `/ueber-mich/` |
-| **2** | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Termine & Anfragen · Physiotherapie | `/leistungen/termine-und-anfragen/` |
-| **3** | Praxis-Alltag: Welche Daten darf ich in ChatGPT eingeben? | „welche Daten darf ich in ChatGPT eingeben" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
-| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Dokumentation & Wissen | Startseite + `/leistungen/dokumentation-und-wissen/` |
+| **1** ⭐ | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt | „Praxis hängt an der Inhaberin" | Awareness | KI in der Praxis (persönlich) | `/ueber-mich/` · `/leistungen/` · `/eu-ai-act/` |
+| **2** ⭐ | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Termine & Anfragen · Physiotherapie | `/leistungen/termine-und-anfragen/` |
+| **3** ⭐ | Praxis-Alltag: Welche Daten darf ich in ChatGPT eingeben? | „welche Daten darf ich in ChatGPT eingeben" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
+| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Dokumentation & Wissen | `/leistungen/dokumentation-und-wissen/` |
 | **5** | Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in KI-Suchen beachten müssen | „Praxis bei Google gefunden werden" | Consideration | Sichtbarkeit | Startseite + `/eu-ai-act/` |
-| **6** | Ein KI-Assistent auf Ihrer Website: Anfragen sofort beantwortet, ohne dass jemand am Empfang sitzt | „Chatbot für Arztpraxis Website" | Consideration | Termine & Anfragen | Startseite + `/leistungen/termine-und-anfragen/` |
+| **6** 🆕 | Digitalisierung ist Chefsache: warum Entlastung bei der Leitung anfängt (nicht bei der Software) | „Digitalisierung Praxis Chefsache" | Awareness | KI in der Praxis / Dokumentation | `/ueber-mich/` + Post #1 |
 | **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wissen müssen | „EU AI Act kleine Praxis" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
-| **8** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | KI in der Praxis | `/#kontakt` + `/ueber-mich/` |
-| **9** | Selbst starten oder begleiten lassen? So finden Sie den richtigen Einstieg in KI für Ihre Praxis | „KI in der Praxis einführen" | Decision | KI in der Praxis | `/#kontakt` + `/ueber-mich/` |
-| **10** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Kundenbindung & Nachsorge | `/leistungen/nachsorge-und-kundenbindung/` |
+| **8** | Ein KI-Assistent auf Ihrer Website: Anfragen sofort beantwortet, ohne dass jemand am Empfang sitzt | „Chatbot für Arztpraxis Website" | Consideration | Termine & Anfragen | `/leistungen/termine-und-anfragen/` |
+| **9** 🆕 | Erst das Konzept, dann die KI: warum Ihre Praxis schon mehr Daten hat, als sie nutzt | „KI in Praxis einführen Konzept" | Consideration | KI in der Praxis | `/leistungen/` + Post #6 |
+| **10** 🆕 | Welche KI-Kompetenzen eine Praxisleitung wirklich braucht | „KI-Kompetenz Pflicht EU AI Act" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
+| **11** | Termine erinnern, Kundschaft zurückholen: die zwei Nachrichten, die Ihre Praxis automatisieren sollte | „Patienten reaktivieren Praxis" | Consideration | Kundenbindung & Nachsorge | `/leistungen/nachsorge-und-kundenbindung/` |
+| **12** 🆕 | KI-Inhalte richtig kennzeichnen: was Praxen auf Website & Social beachten müssen | „KI-Inhalte kennzeichnen Pflicht" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
+| **13** | Mehr Weiterempfehlungen — ohne ständiges Nachfragen | „mehr Google-Bewertungen Praxis" | Wunsch/Consideration | Kundenbindung & Nachsorge | `/leistungen/nachsorge-und-kundenbindung/` |
+| **14** 🆕 | „Nicht überall, wo KI draufsteht, ist sinnvolle KI drin": worauf Praxen mit Gesundheitsdaten achten | „KI Gesundheitsdaten DSGVO" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
+| **15** | Was kostet KI in einer kleinen Praxis — und woran Sie ein seriöses Angebot erkennen | „KI Beratung Kosten Praxis" | Decision | KI in der Praxis | `/#kontakt` + `/ueber-mich/` |
+| **16** | Selbst starten oder begleiten lassen? So finden Sie den richtigen Einstieg in KI für Ihre Praxis | „KI in der Praxis einführen" | Decision | KI in der Praxis | `/#kontakt` + `/ueber-mich/` |
+| **17** | Der perfekte erste Eindruck: eine automatische Willkommens-Strecke für neue Kundschaft | „Willkommens-Nachricht neue Patienten" | Wunsch/Consideration | Kundenbindung & Nachsorge | `/leistungen/nachsorge-und-kundenbindung/` |
+| **18** | Alle Anfragen an einem Ort: Telefon, Mail, WhatsApp und Formular gebündelt beantworten | „Praxis Anfragen bündeln" | Wunsch/Consideration | Termine & Anfragen | `/leistungen/termine-und-anfragen/` |
 
-**Schmerz ↔ Wunsch (ausgeglichen):** Schmerz-Themen #2/#4 (+ #1 als Aufhänger) · Wunsch-Themen
-#5/#6/#10 · Datenschutz #3/#7 · Einstieg/Entscheidung #8/#9. Intent: **Awareness 1 ·
-Consideration 7 · Decision 2**.
+⭐ = Launch-Paket (gemeinsam online). 🆕 = neu aus der Branchen-Recherche fest eingeplant.
+
+**Balance über die 18:** Schmerz #2/#4 (+#1 als Aufhänger) · Wunsch #5/#8/#11/#13/#17/#18 ·
+Datenschutz & EU AI Act #3/#7/#10/#12/#14 · Haltung/Einstieg #6/#9 · Decision #15/#16.
+Intent grob: **Awareness 2 · Consideration 12 · Decision 2** (+ Wunsch-lastige Consideration).
+Kein Datenschutz-Block am Stück — die fünf Compliance-Posts sind über den Plan verteilt.
 
 **Hinweise:**
-- **Hub-Links = Leistungsseiten (neu, Stand 2026-07):** Die Website hat keine
-  Praxis-Segmentseiten mehr — sie wurden durch **Leistungsseiten** ersetzt
-  (`/leistungen/termine-und-anfragen/`, `.../dokumentation-und-wissen/`,
-  `.../nachsorge-und-kundenbindung/`), die genau den Kategorien entsprechen. Jeder Post
-  verlinkt auf die passende Leistungsseite (oder `/eu-ai-act/`, `/ueber-mich/`); ein
-  Segment (z. B. Physiotherapie) bleibt nur **Label im Titel**.
-- **#10 „Termine erinnern, zurückholen"** stand vorher auf #4, überschneidet sich aber
-  thematisch mit #2 (No-Shows) — deshalb weiter nach hinten geschoben.
-- **#4 „Wissen sichern"** ist neu in den ersten 10 (Kategorie Dokumentation & Wissen).
-
-### Weitere Wunsch-Themen (Vorschläge für später)
-Alle segment-neutral und aus `service-katalog.md` belegt:
-
-1. **Mehr Weiterempfehlungen ohne Nachfragen** — „Wie Sie automatisch zum richtigen
-   Zeitpunkt um Google-Bewertungen und Empfehlungen bitten." (Empfehlungen = einer der
-   stärksten Hebel für neue Kundschaft.)
-2. **Der perfekte erste Eindruck** — „Eine automatische Willkommens-Strecke für neue
-   Kundschaft: professionell empfangen, bevor der erste Termin da ist."
-3. **Alle Anfragen an einem Ort** — „Telefon, Mail, WhatsApp und Formular gebündelt
-   beantworten — nichts geht mehr unter." (Ruhe am Empfang + schnelleres Antworten.)
+- **Hub-Links = Leistungsseiten (Stand 2026-07):** Die Website hat keine Praxis-Segmentseiten
+  mehr — sie wurden durch **Leistungsseiten** ersetzt (`/leistungen/termine-und-anfragen/`,
+  `.../dokumentation-und-wissen/`, `.../nachsorge-und-kundenbindung/`), die genau den
+  Kategorien entsprechen. Jeder Post verlinkt auf die passende Leistungsseite (oder
+  `/eu-ai-act/`, `/ueber-mich/`); ein Segment (z. B. Physiotherapie) bleibt nur **Label im Titel**.
+- **Neu eingeplant (🆕) aus der Branchen-Recherche:** #6 Digitalisierung ist Chefsache,
+  #9 Erst das Konzept, #10 KI-Kompetenzen, #12 KI-Kennzeichnung, #14 vertikale vs. horizontale
+  KI. Hintergrund & Quellen: Abschnitt „Themen-Ideen aus Branchen-Recherche" unten und
+  `strategie/branchen-hintergrund-physio.md`.
+- **Reihenfolge geändert:** „Termine erinnern/zurückholen" (früher #10) steht jetzt auf #11,
+  die Decision-Posts (Kosten, Einstieg) sind ans Ende gewandert — der Blog liefert erst
+  Substanz, bevor er auf die Analyse führt.
+- **Nach #18** kann der Plan aus dem Ideen-Pool unten weiterwachsen; #4 ff. bleiben flexibel,
+  falls die Akquise ein Segment/Thema vorzieht (Reihenfolge folgt der Akquise, Abschnitt 4).
 4. **Aus einem Thema zehn Beiträge** — „Wie aus einem Behandlungsthema nebenbei Inhalte für
    Website und Social entstehen." (Sichtbarkeit ohne Mehraufwand.)
 
@@ -348,9 +360,10 @@ Beispiele auf die Praxis übersetzen. Details/Quellen: `strategie/branchen-hinte
 | **Der digitale Assistent / Self-Service in der Praxis** | Termine & Anfragen | Verstärkt #6: Anfragen sofort beantwortet, Info-Touchpoint im Wartebereich entlastet den Empfang, bewirbt Zusatzleistungen ohne Verkaufsdruck. *(Quellen sind Produkte — nur das Prinzip.)* |
 | **„Nicht überall, wo KI draufsteht, ist sinnvolle KI drin"** | KI in der Praxis | Spezialisierte vs. generische KI, Tools kritisch auswählen. Passt gut als Abschnitt in „KI-Einstieg" oder „Kompetenzen" statt als eigener Post. |
 
-**Meine Empfehlung:** Die zwei **neuen** Compliance-Themen (KI-Kompetenzen · KI-Kennzeichnungspflicht)
-fest in den Plan aufnehmen — sie füllen echte Lücken und sind dein Vertrauens-/EU-AI-Act-Vorsprung.
-„Erst das Konzept" als Schärfung von #10. Rest in bestehende Posts einweben.
+**Status (2026-07):** Diese Kandidaten sind jetzt **fest im Redaktionsplan oben** verankert —
+Digitalisierung ist Chefsache (#6), Erst das Konzept (#9), KI-Kompetenzen (#10),
+KI-Kennzeichnung (#12), vertikale vs. horizontale KI (#14). „KI-Einstieg ohne Technik-Angst"
+bleibt als Backlog-Idee (überschneidet sich mit #9/#16 — bei Bedarf einweben statt eigener Post).
 
 ### Zum Start-Post (#1) — Vorstellung, aber nicht nur über dich
 Deine Idee war goldrichtig, und dein Zusatzwunsch macht sie erst stark: **nicht „nur
