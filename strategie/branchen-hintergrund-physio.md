@@ -99,3 +99,35 @@ mit Quellenangabe** (Ehrlichkeits-Regel). Neue Branchen-Erkenntnisse hier ergän
 *Hinweis: heyRobin, airtango, medo.check, UnternehmensNavi u. a. in den Quellen sind
 Produkte/Anbieter — im Blog nur die zugrunde liegende Idee nutzen, tool-agnostisch, keine
 Produktnamen (AGENTS §9).*
+
+---
+
+## Zusatz-Recherche II: Führung, Datensilos & vertikale KI (bodymedia, mittlere Relevanz, 2026-07)
+*Drei Advertorials mit Fitness-Studio-Beispielen — für die Physiopraxis „ummodeln" (Leonies
+Vorgabe). Tool-agnostisch. Der Gondro-Case („Vom Physiotherapeuten zum Unternehmer") wurde
+bewusst aussortiert (passt nicht).*
+
+- **Digitalisierung ist Chefsache (Digital Leadership):** Digitalisierung gelingt nur, wenn die
+  Leitung sie aktiv trägt — nicht als Nebenbei-Technikprojekt. Vier Rollen der Inhaberin:
+  **Impulsgeberin, Umsetzerin, Koordinatorin, Vorbild** fürs Team. Digitales Mindset:
+  **„Technik entlastet, sie ersetzt niemanden."** Blickwinkel gesamte Patient-Journey (erster
+  Kontakt → Behandlung → Nachsorge). → Starker Andockpunkt zu **Post #1** („alles hängt an der
+  Leitung") und Kategorie *Dokumentation & Wissen*.
+- **Datensilos / „viele Praxen haben längst Daten":** Der Engpass ist selten fehlende Daten,
+  sondern **verstreute** Daten (Termine, Doku, Abrechnung in getrennten Insellösungen ohne
+  Schnittstellen). Erst **definierte Prozesse** machen aus verstreuten Daten ein **360°-Bild**
+  vom Patienten. Reihenfolge: **erst Prozess/Konzept, dann Software kaufen** — deckt sich mit
+  „Erst das Konzept, dann die KI". Framing: gewonnene Zeit gehört dem Patienten (Qualität),
+  **nicht** dem Personalabbau.
+- **Vertikale vs. horizontale KI:** *Horizontal* = generische Alleskönner (offene Consumer-
+  Chatbots); *vertikal* = auf einen konkreten Zweck/Kontext zugeschnittene Lösungen.
+  Kernbotschaft für die Praxis: **Patientendaten gehören nicht in ein offenes Consumer-Tool**
+  (DSGVO-/Art.-9-Risiko). „KI ist Chefsache" wiederholt sich hier.
+- **Zitierfähige Anker (mit Quelle nennen):**
+  - **EU AI Act ab 2. August 2026:** neue Dokumentations-/Transparenzpflichten für KI, die
+    Gesundheitsdaten verarbeitet. *(Zeitanker sauber zitieren; deckt sich mit Art. 50 oben.)*
+  - **Qualtrics-Prognose 2026:** knapp **jeder fünfte Kunde** sieht keinen Nutzen in
+    KI-gestütztem Kundenservice → belegt: KI nur dort, wo sie spürbar hilft, nicht als
+    Selbstzweck. *(Nur mit Quellenangabe „Qualtrics 2026" verwenden.)*
+
+*Advertorial-Herkunft (medo.check u. a.) → weiterhin tool-agnostisch, keine Produktnamen.*
