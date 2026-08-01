@@ -547,8 +547,8 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-list li, .promo-list li span { text-align: left !important; }
   .promo-box h2, .promo-title { text-align: center !important; }
 
-  /* ── Contact image: mobile WebP ── */
-  .kcontact-img img { content: url('/images/mobile-background-bild.webp') !important; }
+  /* ── Contact image: auf Mobile dasselbe Bild wie Desktop (blau/lila, ohne Portrait).
+       Frueherer Override auf mobile-background-bild.webp entfernt (Leonie 2026-07). ── */
 
   .pstep {
     border: 2px solid var(--teal-d) !important;
