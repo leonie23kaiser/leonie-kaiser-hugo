@@ -2,14 +2,14 @@
 {{- $slug := .Params.branche_slug -}}
 {{- $b := index (where site.Data.branchen "slug" $slug) 0 -}}
 
-<section class="sec sec-white" style="padding-top:clamp(var(--s16),10vw,var(--s24))">
+<section class="sec sec-white" style="padding-top:calc(78px + clamp(var(--s10),5vw,var(--s16)))">
   <div class="con" style="max-width:820px">
     <div class="slabel">Leistung</div>
     <h1 class="stitle" style="font-size:clamp(1.75rem,3.5vw,2.6rem);line-height:1.15">{{ .Title }}</h1>
     <p class="sdesc lead-speakable">{{ $b.schmerz }} {{ $b.intro }}</p>
 
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Was dabei möglich ist</h2>
-    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Bausteine sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse zeige ich Ihnen, welche davon für Ihre Praxis am meisten bringen.</p>
+    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Maßnahmen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse zeige ich Ihnen, welche davon für Ihre Praxis am meisten bringen.</p>
     <div style="display:grid;gap:var(--s4);margin-top:var(--s5)">
       {{ range $i, $uc := $b.usecases }}
       <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--divider);border-radius:var(--r-lg)">
@@ -54,7 +54,7 @@
       <li><strong>Potenzialanalyse (30 Minuten, kostenfrei):</strong> Wir schauen gemeinsam auf Ihren Alltag und finden den ersten sinnvollen Schritt in Ihrer Praxis.</li>
       <li><strong>Strategie-Erstellung:</strong> Welche Werkzeuge passen zu Ihrem Setup? Tool-agnostisch ausgewählt, EU AI Act &amp; DSGVO konform aufgesetzt.</li>
       <li><strong>Implementierung:</strong> Ich setze die Lösung um und weise Sie und Ihr Team ein, Schritt für Schritt und in Ihrem Tempo.</li>
-      <li><strong>Laufende Betreuung (optional):</strong> Auf Wunsch begleite ich Sie über die Einführung hinaus, für Anpassungen, neue Bausteine und Fragen aus dem Alltag.</li>
+      <li><strong>Laufende Betreuung (optional):</strong> Auf Wunsch begleite ich Sie über die Einführung hinaus, für die laufende Wartung Ihrer Abläufe und als feste Ansprechpartnerin bei Fragen aus dem Alltag.</li>
     </ol>
 
     {{ with $b.faq }}
