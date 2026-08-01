@@ -1,214 +1,179 @@
-# Angebotsvorschläge — Leonie Kaiser
+# Angebots-Architektur & Verkaufslogik — Leonie Kaiser
 
-*Produktisierte Angebote für **kleine Privatpraxen in Gesundheit & Wohlbefinden**
-(Selbstzahler, AT/DE/CH). **Schmerz-geführt + Compliance-first** (Entscheidung
-2026-07-14): Angebote positioniert um den überall gleichen Kern-Schmerz (Termine,
-Nachsorge, Doku, Abrechnung) mit Datenschutz/EU AI Act als Differenzierungsmerkmal,
-nicht um eine einzelne Fachrichtung. Preise sind **synthetische Orientierungs-Korridore
-(ESOMAR)** — mit den ersten echten Kunden validieren.*
+*Internes Arbeitsdokument. Beschreibt **wie** die Angebote aufgebaut sind und **wie** aus
+der Potenzialanalyse ein Auftrag wird. Stand: 2026-07-24.*
 
-## Grundprinzipien (gelten für jedes Angebot — allgemeine Arbeitsweise)
+> **Abgrenzung zu den Nachbardokumenten — hier steht bewusst nichts doppelt:**
+> - **Was** konkret umsetzbar ist (Leistungsbereiche, Bausteine, Abgrenzungsliste) →
+>   [`service-katalog.md`](service-katalog.md)
+> - **Preise und Pakete** (verbindlich, auf der Website veröffentlicht) →
+>   [`strategie-konzept.md`](strategie-konzept.md), Kapitel „Angebote & Preise"
+> - **Zielgruppe und Segmente** → [`segmente.md`](segmente.md)
+> - **Pilot-Akquise im Detail** → [`pilot-akquise.md`](pilot-akquise.md)
+> - **Brand Voice (kanonisch)** → [`../AGENTS.md`](../AGENTS.md)
 
-- **Produktisieren statt beraten:** klare Pakete mit benannten Ergebnissen — kein offenes
-  „wir schauen mal". (Die Zielgruppe will Umsetzung, keine Workshops.)
+---
+
+## Grundprinzipien (gelten für jedes Angebot)
+
+- **Produktisieren statt beraten:** klare Pakete mit benannten Ergebnissen, kein offenes
+  „wir schauen mal". Die Zielgruppe will Umsetzung, keine Workshops.
 - **Erst Prozesse, dann Tool.** KI ist der Verstärker, nicht das Produkt.
-- **Datenschutz ist der Ausgangspunkt**, keine Option. Keine Gesundheitsdaten in billige US-Clouds.
-- **Ehrliches Nein:** „Das brauchen Sie nicht", wenn ein simpler Ablauf reicht — auch wo ein
-  simpler Ablauf statt komplexer KI reicht.
-- **Kein „schnell & einfach"-Versprechen, keine Erfolgs-Garantien, keine Fake-Verknappung.**
-  Echte Entlastung ist Arbeit, kein Wunder.
-- **Kundenzufriedenheit und hochwertiges Service** als eigenes Ziel — nicht nur schnellere
-  Prozesse für die Praxis, sondern spürbar zufriedenere Kundschaft *und* mehr freie Zeit
-  (auch Abende) für die Inhaberin selbst.
-- **Kern-Nutzenversprechen:** mehr Zeit fürs Kerngeschäft + ein reibungsloses, professionelles
-  Kundenerlebnis. Das Persönliche bleibt — KI nimmt die Routine, nicht die Beziehung.
+- **Datenschutz ist der Ausgangspunkt**, keine Option. Gesundheitsdaten nur in Systemen mit
+  klar geregeltem Speicherort und nachvollziehbaren Datenflüssen.
+- **Ehrliches Nein:** „Das brauchen Sie nicht", wenn ein einfacher Ablauf ohne KI reicht.
+- **Keine Erfolgs-Garantien, kein „schnell und einfach", keine künstliche Verknappung.**
+  Echte Entlastung ist Arbeit.
+- **Kern-Nutzenversprechen:** mehr Zeit fürs Kerngeschäft und ein reibungsloses,
+  professionelles Kundenerlebnis. Das Persönliche bleibt: KI nimmt die Routine, nicht die
+  Beziehung.
+
+---
 
 ## Angebots-Architektur (Überblick)
 
-> **KI-Potenzialanalyse** (Einstieg, kostenlos — der Nutzen selbst) → **Praxis-
-> Automatisierungs-Projekt** (Strategie → Roadmap → Implementierung) → **Laufende
-> Betreuung (Retainer)**
+> **Potenzialanalyse** (Einstieg, kostenfrei) → **Praxis-Start** (ein Leistungsbereich) bzw.
+> **Praxis-Plus** (mehrere Bereiche) → **Laufende Betreuung** (optional, monatlich)
 
-Ein klarer Weg vom unverbindlichen Erstkontakt zur laufenden Zusammenarbeit — jede Stufe mit
-definiertem Ergebnis und transparentem Preis. Das Pilot-Angebot für die ersten Praxen steht
-in einem eigenen Abschnitt weiter unten.
+Ein klarer Weg vom unverbindlichen Erstkontakt zur laufenden Zusammenarbeit, jede Stufe mit
+definiertem Ergebnis und transparentem Preis. Die aktuellen Preise stehen in
+`strategie-konzept.md` und auf der Website; sie werden **hier nicht wiederholt**, damit es
+keine zweite Wahrheit gibt.
+
+Das Pilot-Angebot steht bewusst **neben** dieser Leiter, nicht darin (siehe unten).
 
 ---
 
-## 1. KI-Potenzialanalyse für Ihre Praxis · *Einstieg*
+## 1 · Potenzialanalyse · *der Einstieg*
 
-- **Für wen:** Inhaber:innen, die wissen wollen, wo KI in ihrem Alltag wirklich hilft — und wo nicht.
-- **Ergebnis:** Klarheit. Sie wissen nach 30 Minuten, wo der größte Zeit-Hebel liegt und was der
-  erste sinnvolle Schritt ist.
-- **Leistungen:** 30-Min-Videocall · Aufnahme von Ist-Zustand, Zielen, größten Zeitfressern und
-  Datenschutz-Lage · 1–3 konkrete Ansatzpunkte · ehrliche Einschätzung (auch „lohnt sich nicht").
+- **Für wen:** Praxisleitungen, die wissen wollen, wo KI in ihrem Alltag wirklich hilft und
+  wo nicht.
+- **Ergebnis:** Klarheit. Nach 30 Minuten ist klar, wo der größte Zeit-Hebel liegt und was
+  der erste sinnvolle Schritt ist.
+- **Leistungen:** 30-Minuten-Videocall · Aufnahme von Ist-Zustand, Zielen, größten
+  Engpässen und Datenschutz-Lage · 1–3 konkrete Ansatzpunkte · ehrliche Einschätzung, auch
+  „lohnt sich nicht".
 - **Preis:** kostenfrei, unverbindlich.
-- **Framing (statt „kostenlos, kein Verkaufsgespräch"):** benanntes Ergebnis + ein konkretes,
-  branchenspezifisches Beispiel + Referenz. Kein Abschlussdruck.
+- **Framing:** benanntes Ergebnis plus ein konkretes, branchenspezifisches Beispiel. Kein
+  Abschlussdruck, keine Formulierung wie „kein Verkaufsgespräch" (siehe Blacklist in
+  `AGENTS.md`).
 
-### Ablauf & Verkaufslogik der Potenzialanalyse
+### Ablauf & Verkaufslogik *(Kernstück dieses Dokuments)*
 
-**Grundprinzip:** Die kostenlose Potenzialanalyse *ist* der Nutzen — kein verschenktes
-„Quick-Win-Einrichten" obendrauf. Kein Gratis-Aufbau ohne Vertrag (Risiko, Haftung, Zeit,
-Nachfass-Falle). Der Wert für die Praxis ist die **Klarheit**: vorher diffuses „irgendwas mit
-KI", nachher eine gebrandete PPTX, die schwarz auf weiß die größten Engpässe, die Lösung und
-das erwartbare Ergebnis zeigt.
+**Grundprinzip:** Die kostenfreie Potenzialanalyse **ist** der Nutzen. Es wird nichts
+zusätzlich verschenkt, insbesondere kein eingerichteter „Quick Win" ohne Vertrag (Risiko,
+Haftung, Zeitaufwand, Nachfass-Falle). Der Wert für die Praxis ist die **Klarheit**: vorher
+ein diffuses „irgendwas mit KI", nachher eine gebrandete Präsentation, die die größten
+Engpässe, die Lösung und das erwartbare Ergebnis zeigt.
 
 **Ablauf:**
-1. Potenzialanalyse-Gespräch (30 Min, kostenlos, Videocall) — Tool live ausfüllen → erzeugt
-   gebrandete PPTX.
-2. Am Ende des Calls die Folie „Wie es weitergehen kann" durchgehen (Strategie → Roadmap →
-   Implementierung).
+1. Potenzialanalyse-Gespräch (30 Min, kostenfrei, Videocall). Das Analyse-Tool wird live
+   ausgefüllt und erzeugt die gebrandete Präsentation.
+2. Am Ende des Calls die Schlussfolie „So geht es weiter" durchgehen
+   (Strategie → Umsetzung → laufende Betreuung).
 3. Konkretes Angebot statt Gratis-Arbeit: „Als Erstes setzen wir X um, kostet Y, dauert Z,
    danach läuft es."
-4. Die Praxis zahlt für die Umsetzung — mit Vertrag, Verantwortung auf beiden Seiten.
+4. Die Praxis zahlt für die Umsetzung, mit Vertrag und Verantwortung auf beiden Seiten.
 
 **Nachfassen löst sich von selbst:** Weil nichts gratis geliefert wird, gibt es nichts, dem
-man hinterherläuft. Der Nachfass gilt einem Angebot (professionell, erwartet), nicht einem
-verschenkten Ding (peinlich):
+man hinterherlaufen muss. Der Nachfass gilt einem Angebot, das ist professionell und wird
+erwartet.
 - Im Call direkt: „Soll ich Ihnen ein konkretes Angebot schicken?" → Ja/Nein noch im Gespräch.
-- 1–2 Tage später: PPTX + schriftliches Angebot per Mail.
-- Nach ~5 Tagen: einmal kurz nachfassen — „Konnten Sie schon reinschauen?"
-- Kein „Ja" → kein Problem, gute Erfahrung bleibt, Empfehlungspotenzial.
+- 1–2 Tage später: Präsentation und schriftliches Angebot per Mail.
+- Nach etwa 5 Tagen: einmal kurz nachfassen.
+- Kein „Ja" → kein Problem. Die gute Erfahrung bleibt, das Empfehlungspotenzial auch.
 
 **Kernunterschied:**
-- ✅ *Ratschlag/Angebot* (dieses Modell): die Praxis sieht das Potenzial und zahlt für die Umsetzung.
-- ❌ *Verworfen:* Gratis-Quick-Win einrichten — Arbeit ohne Vertrag, Haftungsrisiko, wird liegen gelassen.
+- ✅ *Angebot* (dieses Modell): die Praxis sieht das Potenzial und zahlt für die Umsetzung.
+- ❌ *Verworfen:* Gratis-Quick-Win einrichten. Arbeit ohne Vertrag, Haftungsrisiko, bleibt
+  erfahrungsgemäß liegen.
 
 **Positionierung:** Ziel ist, dass die Praxis den Nutzen einer Zusammenarbeit sieht und dafür
-zahlen will — kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
+zahlen möchte. Kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
 
-## 2. Praxis-Automatisierungs-Projekt · *das Aufbau-Projekt*
+---
 
-- **Für wen:** Praxen, die spürbar entlasten und mehrere Abläufe ordnen wollen.
-- **Ergebnis:** Die wichtigsten organisatorischen Abläufe laufen strukturiert und teils automatisch —
-  die Inhaberin ist nicht mehr der Flaschenhals.
-- **Ablauf:** **Strategie** (Priorisierung nach Hebel × Aufwand, Datenschutz-first) →
-  **Roadmap** → **Implementierung** → Team-Einweisung.
+## 2 · Umsetzung: Praxis-Start und Praxis-Plus
 
-### Service-Katalog: was konkret umsetzbar ist
+- **Für wen:** Praxen, die spürbar entlasten und ihre Abläufe ordnen wollen.
+- **Ergebnis:** Die wichtigsten organisatorischen Abläufe laufen strukturiert und teils
+  automatisch. Die Leitung ist nicht mehr der Engpass.
+- **Ablauf:** Strategie (Priorisierung nach Hebel × Aufwand, Datenschutz zuerst) → Roadmap →
+  Umsetzung → Team-Einweisung.
+- **Zuschnitt:** **Praxis-Start** deckt einen Leistungsbereich ab, **Praxis-Plus** kombiniert
+  zwei bis drei Bereiche.
+- **Welche Bausteine es gibt und was ausdrücklich nicht angeboten wird:**
+  → [`service-katalog.md`](service-katalog.md). *Hier bewusst nicht wiederholt.*
 
-*Ein Menü, kein Pflichtprogramm — jede Praxis wählt aus, was zu ihrem Kern-Schmerz passt
-(siehe Kap. 3 „homogener Kern-Schmerz"). Gruppiert nach dem, was es löst.*
+---
 
-**1 · Termine & Anfragen** (löst: Termin-Engpass)
-- Automatisierte Terminbuchung (Selbstbuchungslink)
-- Intelligente Erinnerungen über den bevorzugten Kanal (SMS/E-Mail/WhatsApp)
-- Automatisches Nachbesetzen abgesagter Termine aus einer Warteliste
-- **Chatbot auf Website oder Social Media** für Erstanfragen (FAQ, Terminwunsch,
-  Preisauskunft)
-- KI-gestützte Erstbeantwortung wiederkehrender Anfragen
+## 3 · Laufende Betreuung · *optional, monatlich*
 
-**2 · Dokumentation & Wissen** (löst: Doku frisst Abende, Flaschenhals-Leitung)
-- Strukturierung von Behandlungsnotizen/Verlaufsdokumentation als Vorlage (keine
-  automatische Diagnose — die fachliche Beurteilung bleibt immer bei der Praxis)
-- Vorlagen-Bibliothek für wiederkehrende Dokumente (Berichte, Rückmeldungen an
-  Zuweiser:innen, individuelle Pläne)
-- Zentrales digitales Team-Playbook für wiederkehrende Abläufe — löst „das Wissen steckt
-  nur in meinem Kopf"
-
-**3 · Kundenbindung & Nachsorge** (löst: Nachsorge/Recall fällt hinten runter)
-- Automatisierte Nachsorge-/Recall-Sequenzen nach Behandlung/Beratung
-- Strukturierte Bewertungs- und Empfehlungsanfragen zum richtigen Zeitpunkt
-
-**4 · Vorlagen für Sichtbarkeit** (Werkzeuge zum Selbst-Befüllen, kein laufender
-Redaktionsservice)
-- Content-Bausteine/Vorlagen für Social Media und Newsletter
-- KI-gestützte Entwürfe für wiederkehrende Kommunikationstexte
-
-**5 · Technische & rechtliche Basis** (Querschnitt, in jedem Projekt enthalten)
-- Cloud (EU-Hosting) vs. On-Premise-Entscheidung je nach Datensensibilität
-- Team-Einführung in eingesetzte KI-Tools (z. B. Microsoft Copilot) inkl.
-  Datenschutz-Leitplanken
-- EU-AI-Act-Einstufung & DSGVO-/Art.-9-konforme Datenflüsse für alle eingesetzten Tools
-
-**Ablauf:** Strategie (welche Bausteine aus dem Katalog passen zum Kern-Schmerz dieser
-Praxis, priorisiert nach Hebel × Aufwand) → Roadmap → Implementierung → Team-Einweisung.
-
-**Explizit nicht dabei** (aus dem Katalog bewusst ausgeklammert): Social-Media-Content
-*laufend* redigieren/posten (die Vorlagen aus Punkt 4 schon, der Betrieb danach nicht),
-Kundenzufriedenheitsumfragen als laufender Service *durchführen* (die Automatisierung
-dafür schon), Grafikdesign/Branding/Website-Erstellung, Steuerberatung,
-medizinische/therapeutische Beratung, allgemeiner IT-Support außerhalb der eingerichteten
-Automatisierung.
-
-- **Preis-Orientierung:** Einmalprojekt, Fixpreis oder klar umrissenes Paket (siehe Tabelle).
-
-## 3. Laufende Betreuung · *Retainer*
-
-- **Für wen:** Praxen, die wollen, dass die Systeme mitwachsen und jemand erreichbar bleibt.
-- **Ergebnis:** „Wer betreut das danach?" ist beantwortet — Sie stehen nie allein da.
-- **Leistungen:** monatlicher Check-in · laufende Optimierung/Anpassung · fester Ansprechpartner.
-- **Preis-Orientierung:** monatlich, als **kalkulierbare Betriebsausgabe** kommuniziert
-  („überschaubar, planbar").
+- **Für wen:** Praxen, die möchten, dass die eingerichteten Abläufe zuverlässig weiterlaufen
+  und jemand erreichbar bleibt.
+- **Ergebnis:** Die Frage „Wer betreut das danach?" ist beantwortet.
+- **Leistungen:** monatlicher Check-in · laufende Wartung und Optimierung bestehender
+  Abläufe · feste Ansprechpartnerin · Datenschutz-Nachpflege.
 - **Wichtig:** von Anfang an als Vertrauens-Anker anbieten, nicht als Zusatzverkauf.
+- **Abgrenzung:** Es geht um Wartung und Erreichbarkeit, **nicht** um laufend neue
+  Automatisierungen zum Monatspreis. Größere neue Bausteine sind ein eigenes Projekt.
 
 ---
 
-## Pilot-Angebot · *separat, nur für die ersten 2 Praxen — kein Teil der Angebots-Leiter*
+## Pilot-Angebot · *separat, kein Teil der Angebots-Leiter*
 
-- **Für wen:** die ersten 2 Praxen aus den Start-Segmenten (Therapie-/Bewegungspraxen,
-  Longevity/Med-Wellness), mit denen die ersten echten Referenzfälle entstehen.
-- **Ergebnis:** ein verkürztes Automatisierungs-Projekt — **2–3 zusammenhängende
-  Automatisierungen in einem Themenfeld** (z. B. die gesamte Termin-Journey: Buchung,
-  Erinnerung, Lückenfüllung, Recall — oder Erstanamnese + Dokumentations-Vorlage +
-  Nachsorge), nicht nur ein einzelner Schritt. Ein einzelner Automatisierungs-Schritt liefert
-  zu wenig Substanz für eine belastbare Case Study (nur eine Zahl, kein zusammenhängendes
-  Vorher/Nachher) — das Bündel ermöglicht mehrere Messwerte und eine echte Geschichte.
+- **Für wen:** die ersten Pilot-Praxen, mit denen die ersten echten Referenzfälle entstehen.
+- **Ergebnis:** ein verkürztes Umsetzungsprojekt mit **2–3 zusammenhängenden
+  Automatisierungen in einem Themenfeld** (zum Beispiel die gesamte Termin-Journey: Buchung,
+  Erinnerung, Nachbesetzung, Recall), nicht nur ein einzelner Schritt. Ein einzelner Schritt
+  liefert zu wenig Substanz für eine belastbare Case Study; das Bündel ermöglicht mehrere
+  Messwerte und ein zusammenhängendes Vorher/Nachher.
 - **Konditionen:** kostenfrei oder stark reduziert, im Tausch gegen ehrliches Feedback, ein
-  Testimonial **und die Einwilligung, die Praxis unter ihrem echten Namen** (nicht anonymisiert)
-  als Case zu zeigen — Zahlen, Ablauf, Ergebnis.
-- **Hinweis:** bewusst getrennt von den regulären Angeboten oben — zeitlich befristet, klar
-  begrenzter Umfang (2–3 Automatisierungen, ein Themenfeld), nur für die Akquise-Startphase.
-  Details & Ablauf: `pilot-akquise.md`.
+  Testimonial und die Einwilligung, die Praxis unter ihrem echten Namen als Case zu zeigen.
+- **Hinweis:** bewusst getrennt von den regulären Angeboten, zeitlich befristet, klar
+  begrenzter Umfang, nur für die Startphase. Details und Ablauf:
+  [`pilot-akquise.md`](pilot-akquise.md).
 
 ---
 
-## Preis-Orientierung (synthetisch, Van Westendorp)
+## Preis-Logik (nicht die Preise selbst)
 
-**Korridore, keine exakten Zahlen** — aus der Studie abgeleitet, mit echten Kunden zu validieren.
+Die **verbindlichen Preise** stehen in `strategie-konzept.md` und auf der Website. Hier nur
+die Überlegungen dahinter:
 
-| Segment | Einmalprojekt (OPP) | Retainer/Monat (OPP) | Ideal-Preis (Projekt) |
-|---|:--:|:--:|:--:|
-| Longevity / privatärztliche Gesundheitszentren | ~2.060 € | ~300 € | ~3.500 € |
-| Privat-/Präventions-Physio | ~1.528 € | ~203 € | ~2.400 € |
+- **Transparente Fixpreise nennen, bevor gefragt wird.** Das entkräftet den
+  Folgekosten-Einwand.
+- **Ein klares Hauptangebot** (Praxis-Start) als Einstieg, das größere Paket als Erweiterung
+  daneben, nicht als Standard.
+- **Es gibt eine Untergrenze:** zu niedrige Preise wecken Zweifel an der Qualität. Der
+  Einstiegspreis orientiert sich am Wert des Ergebnisses, nicht an der Stundenzahl.
+- **Herkunft der ursprünglichen Korridore:** synthetische Marktforschung (Van Westendorp,
+  Silicon Sampling, ESOMAR) in `silicon-sampling.md`. Das sind **Hypothesen**, keine echten
+  Befragungen. Sie waren die Ausgangsbasis für die heutigen Preise und werden laufend mit
+  echten Pilot-Gesprächen validiert.
 
-*Ästhetik- und Ernährungsberatungs-Preiszahlen aus der Studie bewusst aus der aktiven
-Preistabelle entfernt — beide sind derzeit keine aktive Zielgruppe (Entscheidung
-2026-07-14: nur noch 2 Start-Segmente, siehe `segmente.md`), nur potenzielle
-Phase-2-Nischen. Ernährungsberatung: ~804 €/~151 €/~1.200 € (deep-dived 2026-07-14,
-48 Personas, niedrigster Score aller getesteten Segmente). Details: `silicon-sampling.md`.*
+---
 
-- **Gesamt-Korridor Einmalprojekt (Longevity/Physio):** ~1.520 – 3.500 € · **Retainer:** ~200 – 300 €/Monat.
-- **Erster Umsetzungsschritt im Rahmen des Automatisierungs-Projekts:** am **unteren** Rand
-  ansetzen (entkräftet den Folgekosten-Einwand).
-- **Segment-Logik:** Longevity trägt den oberen Rand; Privat-Physio ist preissensibler →
-  dort schlank einsteigen.
-- **Nicht zu billig:** es gibt eine „zu günstig → Qualität fraglich"-Schwelle. Transparente Fixpreise
-  *nennen, bevor* gefragt wird.
+## Eingebaute Einwandbehandlung (die vier Zweifel der Zielgruppe)
 
-*(Zusätzlich zum „Explizit nicht dabei" beim Service-Katalog oben: nach Projektabschluss
-ist die laufende Betreuung ein eigenes, separates Angebot (siehe Retainer oben), nicht
-automatisch inkludiert. Grundsätze zur allgemeinen Arbeitsweise — „kein schnell & einfach",
-„keine Garantien", keine Gesundheitsdaten in billige US-Clouds, kein Tool an dem nur
-mitverdient wird — stehen unter Grundprinzipien ganz oben; das ist Haltung, keine
-Leistungsabgrenzung.)*
-
-## Eingebaute Einwandbehandlung (die 4 Zweifel der Zielgruppe)
-
-- **„Der Aufwand bleibt an mir hängen."** → **Ich richte für Sie ein**, nicht die Inhaberin; das Team wird eingewiesen.
-- **„Datenschutz bei sensiblen Daten?"** → EU-AI-Act/DSGVO als Ausgangspunkt, sichtbar belegt (nicht behauptet).
+- **„Der Aufwand bleibt an mir hängen."** → Ich richte ein, nicht die Praxisleitung. Das Team
+  wird eingewiesen.
+- **„Datenschutz bei sensiblen Daten?"** → EU AI Act und DSGVO als Ausgangspunkt, mit
+  konkreten Nachweisen: Auftragsverarbeitungsverträge, geregelter Speicherort,
+  Risiko-Einstufung vor dem Einsatz, feste Ansprechpartnerin.
 - **„Versteckte Folgekosten?"** → transparente Fixpreise, vorab genannt.
-- **„Wer betreut das danach?"** → der Retainer, als Anker von Anfang an.
-
-## Namens-/CTA-Hinweis
-
-- **CTA überall:** „KI-Potenzialanalyse für Ihre Praxis" — mit benanntem Ergebnis + Referenz,
-  nicht „kostenlos · kein Verkaufsgespräch".
-- Pakete konkret und ruhig benennen (kein Hype, keine Superlative, keine Anglizismen — siehe `AGENTS.md`).
+- **„Wer betreut das danach?"** → die laufende Betreuung, von Anfang an als Anker.
 
 ---
 
-*Quellen: `silicon-sampling.md` (Preise/Pain Points), `brand_position.md` (Haltung),
-`brand_data.md` (Methode), `pilot-akquise.md`. Brand Voice: `AGENTS.md`. Preise synthetisch/ESOMAR —
-vor Festlegung mit echten Gesprächen validieren.*
+## Namens- und CTA-Hinweis
+
+- **CTA überall:** „Kostenfreie Potenzialanalyse buchen", mit benanntem Ergebnis.
+- Pakete konkret und ruhig benennen: kein Hype, keine Superlative, keine Anglizismen und
+  keine Formulierungen, die sich gegen andere Anbieter richten (siehe `AGENTS.md`).
+
+---
+
+*Quellen: `service-katalog.md` (Leistungen), `strategie-konzept.md` (Preise, Positionierung),
+`segmente.md` (Zielgruppe), `silicon-sampling.md` (Marktforschung, synthetisch),
+`pilot-akquise.md` (Pilot-Ablauf). Brand Voice: `AGENTS.md`.*
