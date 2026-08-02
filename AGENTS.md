@@ -146,6 +146,10 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Faustregel: Wenn ein Satz nur funktioniert, weil man sich jemand Schlechteren
   danebendenkt, ist er falsch. (Leonie, 2026-07: „Solche Unterstellungen will ich
   nie.“)
+- **Keine reinen Beistrich-Aufzählungen** („Unverbindlich, online, mit konkreten
+  Empfehlungen", „klar, schnell, günstig"). Das letzte Glied mit **„und"**
+  anschließen: „Unverbindlich, online und mit konkreten Empfehlungen." Aneinander-
+  gereihte Wörter ohne Bindewort wirken abgehackt. (Leonie, 2026-07.)
 - **Gedankenstriche (–) sehr sparsam.** Der Gedankenstrich gilt als typisches
   Signal für KI-generierten Text. Stattdessen ganze Sätze, Punkt oder Komma
   verwenden. Höchstens vereinzelt, nie mehrfach im selben Absatz.
