@@ -32,8 +32,8 @@ der Potenzialanalyse ein Auftrag wird. Stand: 2026-07-24.*
 
 ## Angebots-Architektur (Überblick)
 
-> **Potenzialanalyse** (Einstieg, kostenfrei) → **Praxis-Start** (ein Leistungsbereich) bzw.
-> **Praxis-Plus** (mehrere Bereiche) → **Laufende Betreuung** (optional, monatlich)
+> **Potenzialanalyse** (Einstieg, kostenfrei) → **Praxis-Start** (bis zu 3 Automatisierungen)
+> bzw. **Praxis-Plus** (mehrere Automatisierungen) → **Laufende Betreuung** (optional, monatlich)
 
 Ein klarer Weg vom unverbindlichen Erstkontakt zur laufenden Zusammenarbeit, jede Stufe mit
 definiertem Ergebnis und transparentem Preis. Die aktuellen Preise stehen in
@@ -100,8 +100,9 @@ zahlen möchte. Kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
   automatisch. Die Leitung ist nicht mehr der Engpass.
 - **Ablauf:** Strategie (Priorisierung nach Hebel × Aufwand, Datenschutz zuerst) → Roadmap →
   Umsetzung → Team-Einweisung.
-- **Zuschnitt:** **Praxis-Start** deckt einen Leistungsbereich ab, **Praxis-Plus** kombiniert
-  zwei bis drei Bereiche.
+- **Zuschnitt:** **Praxis-Start** umfasst bis zu drei Automatisierungen, frei aus allen
+  Bereichen kombinierbar. **Praxis-Plus** kombiniert mehrere Automatisierungen über Bereiche
+  hinweg. Aufwändige Bausteine führen direkt zu Praxis-Plus (siehe Kalkulations-Konzept).
 - **Welche Bausteine es gibt und was ausdrücklich nicht angeboten wird:**
   → [`service-katalog.md`](service-katalog.md). *Hier bewusst nicht wiederholt.*
 
@@ -136,7 +137,82 @@ zahlen möchte. Kein Druck, sondern erlebte Klarheit führt zur Zusammenarbeit.
 
 ---
 
-## Preis-Logik (nicht die Preise selbst)
+## Kalkulations-Konzept (intern, nicht auf der Website)
+
+*Damit jedes Angebot nachvollziehbar und gleich kalkuliert wird. Grundlage ist ein
+kalkulatorischer **Stundensatz von 120 Euro**. Der steht nirgends auf der Website, dient
+aber als Rechengrundlage, damit die Paketpreise nicht willkürlich wirken.*
+
+### Aufwand je Baustein (Richtwerte inkl. Einrichtung, Test und Einweisung)
+
+**In jedem Projekt enthalten (Grundaufwand): 4 bis 6 Stunden**
+Analyse der Ist-Abläufe, Tool-Auswahl, Datenschutz-Setup, Auftragsverarbeitungsverträge,
+EU-AI-Act-Einstufung, Übergabe und Einweisung.
+
+| Baustein | Bereich | Aufwand |
+|---|---|:--:|
+| Automatische Terminerinnerungen | Termine | 2–3 h |
+| Wartelisten-Nachbesetzung | Termine | 3–4 h |
+| Online-Terminbuchung inkl. Integration | Termine | 4–6 h |
+| **Chat-Assistent auf der Website** | Termine | **8–12 h** |
+| **Telefonassistent (Voicebot)** | Termine | **12–16 h** |
+| Vorlagen-Bibliothek | Dokumentation | 4–6 h |
+| Notizen strukturieren (Setup + Vorlagen) | Dokumentation | 6–8 h |
+| Praxis-Handbuch fürs Team | Dokumentation | 6–10 h |
+| Bewertungs- und Empfehlungsanfragen | Nachsorge | 2–3 h |
+| Reaktivierung früherer Kundschaft | Nachsorge | 3–4 h |
+| Nachsorge-Sequenz | Nachsorge | 4–6 h |
+| Tonalität festlegen (Brand Voice) | Sichtbarkeit | 3–4 h |
+| KI-Entwürfe für wiederkehrende Texte | Sichtbarkeit | 3–5 h |
+| Vorlagen für Social Media und Newsletter | Sichtbarkeit | 4–6 h |
+| **Auffindbarkeit in KI-Suchen (GEO)** | Sichtbarkeit | **6–10 h** |
+
+**Fett markiert = aufwändige Bausteine.** Sie passen nicht in Praxis-Start, sondern führen
+direkt zu Praxis-Plus.
+
+### So entstehen die Paketpreise
+
+| Paket | Typischer Umfang | Stunden | Preis |
+|---|---|:--:|:--:|
+| **Praxis-Start** | Grundaufwand + bis zu 3 Standard-Bausteine (je bis ~4 h) | 12–14 h | **1.490 €** |
+| **Praxis-Plus (unteres Ende)** | Grundaufwand + 5–6 Standard-Bausteine *oder* 1 aufwändiger + 2–3 Standard | 24–26 h | **2.900 €** |
+| **Praxis-Plus (Mitte)** | mehrere Bereiche, 1–2 aufwändige Bausteine | 34–38 h | ca. **4.400 €** |
+| **Praxis-Plus (oberes Ende)** | umfangreiches Projekt, mehrere aufwändige Bausteine | 46–50 h | **5.900 €** |
+| **Laufende Betreuung** | ca. 1,5 h pro Monat (Check-in, Wartung, Erreichbarkeit) | 1,5 h/Monat | **ab 190 €/Monat** |
+
+### Faustregel fürs Angebot
+
+1. Bausteine aus der Potenzialanalyse auflisten.
+2. Stunden aus der Tabelle addieren, Grundaufwand dazu.
+3. Summe × 120 Euro rechnen.
+4. Auf das nächstliegende Paket runden, nicht cent-genau kalkulieren.
+5. Im Angebot **das Paket nennen, nicht die Stunden.** Der Stundensatz bleibt intern.
+
+**Beispiel:** Eine Praxis möchte Online-Terminbuchung (5 h), Terminerinnerungen (2,5 h) und
+eine Nachsorge-Sequenz (5 h). Mit Grundaufwand (5 h) sind das 17,5 Stunden, also rund
+2.100 Euro. Das liegt zwischen den Paketen: entweder auf Praxis-Start begrenzen (einen
+Baustein weglassen) oder als kleines Praxis-Plus zu 2.900 Euro anbieten, mit einem
+zusätzlichen Baustein als Mehrwert.
+
+**Wenn Kundschaft mischen will** (zum Beispiel Chat-Assistent plus GEO-Strategie): Beides
+sind aufwändige Bausteine, zusammen etwa 14–22 Stunden plus Grundaufwand. Das ist ein
+Praxis-Plus im mittleren Bereich, also rund 3.500 bis 4.400 Euro.
+
+### Grenzen der Kalkulation
+
+- **Nach unten:** Unter 1.490 Euro kein Projekt. Kleinere Anliegen führen erfahrungsgemäß
+  zu ähnlichem Abstimmungsaufwand bei deutlich schlechterem Verhältnis.
+- **Nach oben:** Über 5.900 Euro wird ein eigenes Angebot gerechnet, nicht mehr über die
+  Paketlogik.
+- **Puffer:** Bei Praxen mit vielen bestehenden Systemen oder unklaren Abläufen 20 Prozent
+  Aufschlag einplanen. Integrationen in gewachsene Strukturen kosten regelmäßig mehr Zeit
+  als geplant.
+- **Diese Zahlen sind eine Startbasis.** Nach den ersten drei echten Projekten prüfen, ob
+  die Stundenschätzungen stimmen, und die Tabelle nachziehen.
+
+---
+
+## Preis-Logik (Haltung)
 
 Die **verbindlichen Preise** stehen in `strategie-konzept.md` und auf der Website. Hier nur
 die Überlegungen dahinter:

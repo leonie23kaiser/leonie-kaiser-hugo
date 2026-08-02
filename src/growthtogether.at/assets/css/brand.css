@@ -233,6 +233,8 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .sprice{font-family:var(--fd);font-size:var(--lg);font-weight:800;
   color:var(--teal-d);margin-top:var(--s6);padding-top:var(--s5);border-top:1px solid var(--divider)}
 .spdesc{font-size:var(--xs);color:var(--muted);margin-top:var(--s1)}
+/* CTA unter dem Preis: einheitliche Hoehe, damit die Preiszeilen der Karten fluchten */
+.scta{min-height:46px;display:flex;align-items:center;margin-top:var(--s3)}
 .spricenote{font-size:var(--xs);color:inherit;font-weight:400;opacity:.7;margin-left:var(--s2)}
 
 /* ─── ABOUT ─── */
