@@ -15,7 +15,7 @@ faqs:
     a: "Nein, die Potenzialanalyse ist vollständig kostenlos und unverbindlich. Das 30-minütige Online-Gespräch gibt Ihnen eine erste klare Einschätzung, wo Digitalisierung und KI in Ihrer Praxis den größten Hebel haben."
     cat: "kosten"
   - q: "Was kostet eine Umsetzung?"
-    a: "Für die Umsetzung gibt es klare Pakete. Praxis-Start deckt einen Leistungsbereich ab und kostet 1.490 Euro. Praxis-Plus kombiniert zwei bis drei Bereiche und liegt je nach Umfang zwischen 2.900 und 5.900 Euro. Auf Wunsch kommt eine laufende Betreuung ab 190 Euro im Monat dazu. Den genauen Umfang legen wir nach der kostenfreien Potenzialanalyse gemeinsam fest."
+    a: "Für die Umsetzung gibt es klare Pakete. Praxis-Start umfasst bis zu drei Abläufe und kostet 1.490 Euro. Praxis-Plus kombiniert mehrere Abläufe über Bereiche hinweg und liegt je nach Umfang zwischen 2.900 und 5.900 Euro. Auf Wunsch kommt eine laufende Betreuung ab 190 Euro im Monat dazu. Den genauen Umfang legen wir nach der kostenfreien Potenzialanalyse gemeinsam fest."
     cat: "kosten"
   - q: "Für wen ist die Zusammenarbeit geeignet?"
     a: "Die Beratung richtet sich an kleine, inhabergeführte Privatpraxen in Gesundheit & Wohlbefinden im DACH-Raum. Für Praxisleitungen, die KI praxisnah und rechtssicher einsetzen möchten, ohne technisches Vorwissen, für spürbare Zeitersparnis, entlastete Teams und ein besseres Kundenerlebnis."
