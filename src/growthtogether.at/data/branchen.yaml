@@ -18,8 +18,10 @@
       desc: "Erinnerungen über den bevorzugten Kanal senken die Ausfälle. Kurzfristig frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt."
     - titel: "Chat-Assistent für Erstanfragen"
       desc: "Ein datenschutzkonformer Assistent auf Ihrer Website beantwortet Öffnungszeiten, Anfahrt, Preise und Terminwünsche, ohne medizinische Auskunft zu geben."
-    - titel: "E-Mail-Automatisierung mit Ampelsystem"
-      desc: "Eingehende Anfragen werden nach Themenbereich sortiert und nach Dringlichkeit bewertet, von grün bis rot. Zu jeder Anfrage liegt ein Antwortentwurf bereit, den Sie nur noch prüfen und freigeben."
+    - titel: "E-Mail-Assistent für eingehende Anfragen"
+      desc: "Jede eingehende Anfrage wird nach Thema und Dringlichkeit eingestuft: Standardfragen, die sich direkt beantworten lassen, Anfragen mit Klärungsbedarf und dringende Fälle. Zu jeder liegt ein Antwortentwurf in Ihrer Tonalität bereit, den Sie nur noch prüfen und freigeben. Angelernt wird der Assistent auf den Anfragen der letzten zwölf Monate."
+    - titel: "Telefonassistent für Anrufe außerhalb der Öffnungszeiten"
+      desc: "Nimmt Anrufe entgegen, wenn niemand am Empfang ist, beantwortet Standardfragen und nimmt Terminwünsche auf. So geht auch abends und am Wochenende keine Anfrage verloren."
   beispiel:
     ausgangssituation: "In einer kleinen Physiotherapiepraxis kommen die Terminanfragen über Telefon, WhatsApp und E-Mail herein. Die Erinnerungen verschickt das Team von Hand. Sagt jemand kurzfristig ab, bleibt der Termin meist unbesetzt, und die Rezeption wird über den Tag hinweg immer wieder unterbrochen."
     vorgehen: "Wir richten eine Online-Terminbuchung mit Selbstbuchungslink ein. Dazu kommen automatische Erinnerungen über den bevorzugten Kanal und eine Warteliste, die frei gewordene Termine selbstständig nachbesetzt. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
@@ -29,7 +31,7 @@
       a: "Ja. Sie geben vor, welche Fragen er übernimmt, typischerweise Öffnungszeiten, Anfahrt, Preise und Terminwünsche. Alles Weitere leitet er an Sie und Ihr Team weiter."
     - q: "Lässt sich die Online-Terminbuchung in mein bestehendes System einbinden?"
       a: "In der Regel ja. Die Buchung wird an Ihren bestehenden Kalender oder Ihre Praxissoftware angebunden, sodass Sie weiter an einer Stelle arbeiten und den Überblick behalten."
-    - q: "Woher weiß die E-Mail-Automatisierung, was dringend ist?"
+    - q: "Woher weiß der E-Mail-Assistent, was dringend ist?"
       a: "Sie lernt aus den Anfragen, die Ihre Praxis in den letzten zwölf Monaten tatsächlich bekommen hat. Daraus entstehen Ihre Themenbereiche und die Einstufung von grün bis rot. Die Regeln legen Sie fest und können sie jederzeit ändern. Nichts wird ungeprüft verschickt: Sie sehen den Antwortentwurf und geben ihn frei."
 
 - slug: nachsorge-bindung

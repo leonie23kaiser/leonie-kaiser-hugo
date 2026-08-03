@@ -378,7 +378,7 @@ Pakete oben gelten. Details/Vorbehalt: `silicon-sampling.md`.*
 
 **Service-Katalog & Retainer-Abdeckung:** ausführlich als eigenes Dokument
 `strategie/service-katalog.md` (an die Website-Texte angeglichen). Kurzüberblick — vier
-Bereiche: **Termine & Anfragen** (inkl. Chat-Assistent und E-Mail-Automatisierung), **Dokumentation &
+Bereiche: **Termine & Anfragen** (inkl. Chat-, E-Mail- und Telefonassistent), **Dokumentation &
 Wissen**, **Nachsorge & Kundenbindung**, **Sichtbarkeit** (Vorlagen + Auffindbarkeit in
 KI-Suchen/GEO) — plus **technische & rechtliche Basis** als Querschnitt in jedem Projekt.
 

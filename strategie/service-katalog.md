@@ -25,10 +25,12 @@ ans Telefon muss.
   beantwortet, Sie geben nur noch frei.
 - **Chat-Assistent für Erstanfragen** auf Ihrer Website (Öffnungszeiten, Anfahrt, Preise,
   Terminwünsche) — ohne medizinische Auskunft.
-- **E-Mail-Automatisierung mit Ampelsystem** — eingehende Anfragen werden nach
-  Themenbereich sortiert und nach Dringlichkeit bewertet (grün bis rot). Zu jeder Anfrage
-  liegt ein Antwortentwurf bereit, den die Praxis nur noch prüft und freigibt. Das Modell
-  wird auf den Kundeninteraktionen der letzten zwölf Monate angelernt.
+- **E-Mail-Assistent für eingehende Anfragen** — stuft jede Anfrage nach Thema und
+  Dringlichkeit ein (direkt beantwortbar / Klärungsbedarf / dringend) und legt einen
+  Antwortentwurf in der Tonalität der Praxis bereit, den sie nur noch prüft und freigibt.
+  Angelernt auf den Anfragen der letzten zwölf Monate.
+- **Telefonassistent (Voicebot)** für Anrufe außerhalb der Öffnungszeiten — nimmt
+  Standardfragen und Terminwünsche auf, damit keine Anfrage verloren geht.
 
 ### 2 · Dokumentation & Wissen — *löst: Dokumentation nach Feierabend, „alles hängt an der Leitung"*
 Kaum noch Papierkram nach Feierabend, einheitliche Dokumentation, leichtere Vertretung und
