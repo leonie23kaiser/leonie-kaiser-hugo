@@ -10,7 +10,7 @@
   url: /leistungen/termine-und-anfragen/
   branche: Termine & Anfragen
   schmerz: "Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen werden manuell verschickt, und kurzfristige Absagen hinterlassen Lücken im Kalender."
-  intro: "Gewinnen Sie den Empfang zurück, ohne dass jemand ständig ans Telefon muss."
+  intro: "Wickeln Sie die Terminkoordination reibungslos ab, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet."
   usecases:
     - titel: "Online-Terminbuchung"
       desc: "Ein Selbstbuchungslink, in Ihr bestehendes System integriert. Ihre Kundschaft bucht selbst, Sie behalten die Kontrolle über den Kalender."
@@ -29,6 +29,8 @@
       a: "Ja. Sie geben vor, welche Fragen er übernimmt, typischerweise Öffnungszeiten, Anfahrt, Preise und Terminwünsche. Alles Weitere leitet er an Sie und Ihr Team weiter."
     - q: "Lässt sich die Online-Terminbuchung in mein bestehendes System einbinden?"
       a: "In der Regel ja. Die Buchung wird an Ihren bestehenden Kalender oder Ihre Praxissoftware angebunden, sodass Sie weiter an einer Stelle arbeiten und den Überblick behalten."
+    - q: "Woher weiß die E-Mail-Automatisierung, was dringend ist?"
+      a: "Sie lernt aus den Anfragen, die Ihre Praxis in den letzten zwölf Monaten tatsächlich bekommen hat. Daraus entstehen Ihre Themenbereiche und die Einstufung von grün bis rot. Die Regeln legen Sie fest und können sie jederzeit ändern. Nichts wird ungeprüft verschickt: Sie sehen den Antwortentwurf und geben ihn frei."
 
 - slug: nachsorge-bindung
   url: /leistungen/nachsorge-und-kundenbindung/

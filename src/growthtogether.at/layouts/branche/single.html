@@ -9,7 +9,7 @@
     <p class="sdesc lead-speakable">{{ $b.schmerz }} {{ $b.intro }}</p>
 
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Was dabei möglich ist</h2>
-    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Automatisierungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse zeige ich Ihnen, welche davon für Ihre Praxis am meisten bringen.</p>
+    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Automatisierungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse finden wir gemeinsam heraus, welche davon für Ihre Praxis am meisten bringen.</p>
     <div style="display:grid;gap:var(--s4);margin-top:var(--s5)">
       {{ range $i, $uc := $b.usecases }}
       <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--divider);border-radius:var(--r-lg)">
@@ -25,20 +25,20 @@
     {{ with $b.beispiel }}
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">So könnte das in einer Praxis aussehen</h2>
     <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2);display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap">
-      <span style="display:inline-block;font-family:var(--fd);font-weight:700;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--teal-d);background:var(--lblue);border-radius:var(--r-full);padding:3px 12px">Beispielszenario</span>
+      <span style="display:inline-block;font-family:var(--fd);font-weight:700;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:#6B2C8C;background:#EFE6F6;border-radius:var(--r-full);padding:3px 12px">Beispielszenario</span>
       Ein illustratives Beispiel, das zeigt, wie eine Umsetzung aussehen kann.
     </p>
     <div style="display:grid;gap:var(--s3);margin-top:var(--s5)">
       <div style="padding:var(--s5);background:var(--lgreen);border:1px solid var(--divider);border-radius:var(--r-lg)">
-        <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);font-size:var(--sm);margin-bottom:var(--s2)">Vorher</div>
+        <div style="font-family:var(--fd);font-weight:700;color:#6B2C8C;font-size:var(--sm);margin-bottom:var(--s2)">Vorher</div>
         <p style="color:var(--text);line-height:1.6;font-size:var(--sm);margin:0">{{ .ausgangssituation }}</p>
       </div>
       <div style="padding:var(--s5);background:var(--lgreen);border:1px solid var(--divider);border-radius:var(--r-lg)">
-        <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);font-size:var(--sm);margin-bottom:var(--s2)">So setzen wir um</div>
+        <div style="font-family:var(--fd);font-weight:700;color:#6B2C8C;font-size:var(--sm);margin-bottom:var(--s2)">So setzen wir um</div>
         <p style="color:var(--text);line-height:1.6;font-size:var(--sm);margin:0">{{ .vorgehen }}</p>
       </div>
       <div style="padding:var(--s5);background:var(--lgreen);border:1px solid var(--divider);border-radius:var(--r-lg)">
-        <div style="font-family:var(--fd);font-weight:700;color:var(--teal-d);font-size:var(--sm);margin-bottom:var(--s2)">Nachher</div>
+        <div style="font-family:var(--fd);font-weight:700;color:#6B2C8C;font-size:var(--sm);margin-bottom:var(--s2)">Nachher</div>
         <p style="color:var(--text);line-height:1.6;font-size:var(--sm);margin:0">{{ .ergebnis }}</p>
       </div>
     </div>
