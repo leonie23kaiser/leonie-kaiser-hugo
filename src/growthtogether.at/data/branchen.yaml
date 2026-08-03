@@ -35,8 +35,8 @@
 - slug: nachsorge-bindung
   url: /leistungen/nachsorge-und-kundenbindung/
   branche: Nachsorge & Kundenbindung
-  schmerz: "Oftmals reißt der Kontakt nach der Behandlung ab. Follow-ups und Recall erfolgen manuell und verstreut über verschiedene Kanäle."
-  intro: "Mit automatisierter Nachsorge bleibt der Kontakt bestehen, ohne dass jemand aktiv daran denken und es umsetzen muss. Regelmäßige, gut getimte Erinnerungen erhöhen die Besuchsfrequenz Ihrer Stammkundschaft."
+  schmerz: "Oftmals reißt der Kontakt zur Kundschaft nach der Behandlung ab. Nachfassen und Wiedereinbestellung laufen von Hand und verstreut über verschiedene Kanäle."
+  intro: "Mit automatisierter Nachsorge bleibt der Kontakt bestehen, ohne dass jemand aktiv daran denken und es umsetzen muss. Regelmäßige Erinnerungen zum passenden Zeitpunkt erhöhen die Besuchsfrequenz Ihrer Stammkundschaft."
   usecases:
     - titel: "Automatisierte Nachsorge-Sequenzen"
       desc: "Nach Behandlung, Paket oder Erstberatung läuft die Nachsorge strukturiert, zur richtigen Zeit, im richtigen Ton, ohne manuelles Nachhalten."
@@ -45,14 +45,16 @@
     - titel: "Bewertungs- und Empfehlungsanfragen"
       desc: "Automatisch zum richtigen Zeitpunkt nach dem Termin, einer der stärksten Hebel für neue Anfragen, ganz ohne zusätzlichen Aufwand."
   beispiel:
-    ausgangssituation: "In einem privatärztlichen Gesundheitszentrum reißt der Kontakt nach der Behandlung ab. Renewal-Erinnerungen und Follow-ups müssen manuell durchgeführt werden und sind über verschiedene Kanäle verstreut. Dadurch werden sie leicht vergessen oder gehen unter, und Kundschaft geht still verloren."
-    vorgehen: "Wir richten eine automatisierte Nachsorge-Sequenz ein, dazu einen Recall zum richtigen Zeitpunkt, eine Bewertungsanfrage nach dem Termin und Erinnerungen an auslaufende Mitgliedschaften. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
+    ausgangssituation: "In einem privatärztlichen Gesundheitszentrum reißt der Kontakt zur Kundschaft nach der Behandlung ab. Erinnerungen an auslaufende Mitgliedschaften und das Nachfassen nach der Behandlung laufen von Hand und verstreut über verschiedene Kanäle. Dadurch werden sie leicht vergessen oder gehen unter, und Kundschaft geht still verloren."
+    vorgehen: "Wir richten eine automatisierte Nachsorge-Sequenz ein, dazu eine Wiedereinbestellung zum richtigen Zeitpunkt, eine Bewertungsanfrage nach dem Termin und Erinnerungen an auslaufende Mitgliedschaften. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
     ergebnis: "Es gibt mehr Folgetermine und eine planbarere Auslastung. Die Nachsorge läuft zuverlässig, ohne dass jemand aktiv daran denken und sie umsetzen muss."
   faq:
     - q: "Wirken automatische Nachrichten nicht unpersönlich?"
-      a: "Nicht, wenn sie gut gemacht sind. Die Nachrichten klingen nach Ihnen, nicht automatisiert, und Sie geben frei, was rausgeht. KI nimmt die Routine, nicht die persönliche Beziehung."
+      a: "Wir formulieren die Nachrichten gemeinsam, in Ihrer Tonalität und mit Ihren Worten. Damit klingen sie nach Ihrer Praxis und nicht nach Vorlage. Sie geben frei, was rausgeht. Automatisiert ist nur der Versand zum richtigen Zeitpunkt, nicht die Beziehung zu Ihrer Kundschaft."
     - q: "Dürfen Kundendaten dafür verarbeitet werden?"
       a: "Mit dem passenden Setup ja: EU-Hosting wo möglich, Auftragsverarbeitungsverträge und klar geregelte Datenflüsse. Welche Lösung zu Ihrer Praxis passt, klären wir gemeinsam."
+    - q: "Wie oft bekommt meine Kundschaft solche Nachrichten?"
+      a: "So selten wie möglich und so oft wie nötig. Wir legen gemeinsam fest, welcher Anlass welche Nachricht auslöst und wie viel Abstand dazwischen liegt. Wer bereits einen Folgetermin gebucht hat, wird nicht zusätzlich erinnert, und jede Nachricht lässt sich abbestellen."
 
 - slug: dokumentation-wissen
   url: /leistungen/dokumentation-und-wissen/
@@ -75,6 +77,8 @@
       a: "Ja, vollständig. Die KI bereitet Ihre Notizen und Vorlagen nur vor, Sie lesen gegen und geben frei. Die fachliche Beurteilung und jede Entscheidung bleiben bei Ihnen."
     - q: "Sind Gesundheitsdaten dabei sicher?"
       a: "Datenschutz ist die Grundlage. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit EU-Hosting wo möglich und, wenn die Daten besonders sensibel sind, auch mit lokalen Lösungen, bei denen die Daten Ihre Praxis nicht verlassen. Dazu kommen Auftragsverarbeitungsverträge und klar geregelte Datenflüsse."
+    - q: "Muss ich dafür meine Praxissoftware wechseln?"
+      a: "In aller Regel nicht. Die Lösung wird um Ihre bestehende Software herum gebaut, nicht andersherum. Sollte ein Wechsel wirklich sinnvoll sein, sage ich Ihnen das offen und mit Begründung, entscheiden tun Sie."
 
 - slug: sichtbarkeit-inhalte
   url: /leistungen/sichtbarkeit-und-inhalte/

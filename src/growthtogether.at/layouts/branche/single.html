@@ -9,7 +9,7 @@
     <p class="sdesc lead-speakable">{{ $b.schmerz }} {{ $b.intro }}</p>
 
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">Was dabei möglich ist</h2>
-    <p style="color:var(--muted);font-size:var(--sm);margin-top:var(--s2)">Alle Automatisierungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse finden wir gemeinsam heraus, welche davon für Ihre Praxis am meisten bringen.</p>
+    <p style="color:var(--muted);font-size:var(--base);line-height:1.7;margin-top:var(--s2)">Alle Automatisierungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse stellen wir gemeinsam fest, welche davon für Ihre Praxis den größten Nutzen bringen.</p>
     <div style="display:grid;gap:var(--s4);margin-top:var(--s5)">
       {{ range $i, $uc := $b.usecases }}
       <div style="padding:var(--s5);background:var(--surface);border:1px solid var(--divider);border-radius:var(--r-lg)">
@@ -51,7 +51,7 @@
 
     <h2 class="stitle" style="font-size:1.5rem;margin-top:var(--s10)">So sieht unsere Zusammenarbeit aus</h2>
     <ol style="line-height:1.7;font-size:var(--base);color:var(--text);margin-top:var(--s4);padding-left:var(--s5)">
-      <li><strong>Potenzialanalyse (30 Minuten, kostenfrei):</strong> Wir schauen gemeinsam auf Ihren Alltag und finden den ersten sinnvollen Schritt in Ihrer Praxis.</li>
+      <li><strong>Potenzialanalyse (30 Minuten, kostenfrei):</strong> Wir gehen gemeinsam Ihre Abläufe durch und finden den ersten sinnvollen Schritt für Ihre Praxis.</li>
       <li><strong>KI-Strategie:</strong> Welche Werkzeuge passen zu Ihrem Setup? Tool-agnostisch ausgewählt, EU AI Act &amp; DSGVO konform aufgesetzt.</li>
       <li><strong>Digitalisierung &amp; Automatisierung:</strong> Ich setze die Lösung um und weise Sie und Ihr Team ein, Schritt für Schritt und in Ihrem Tempo.</li>
       <li><strong>Laufende Betreuung (optional):</strong> Auf Wunsch begleite ich Sie über die Einführung hinaus, für die laufende Wartung Ihrer Abläufe und als feste Ansprechpartnerin bei Fragen aus dem Alltag.</li>
@@ -73,7 +73,7 @@
       <div class="slabel">Ihr nächster Schritt</div>
       <h2 class="stitle" style="font-size:1.5rem;margin-bottom:var(--s3)">Kostenfreie KI-Potenzialanalyse</h2>
       <p style="color:var(--muted);font-size:var(--sm);line-height:1.6;margin-bottom:var(--s5)">In 30 Minuten schauen wir gemeinsam, wo Digitalisierung und KI in Ihrer Praxis am meisten bringen. Kostenfrei, unverbindlich und online.</p>
-      <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" target="_blank" rel="noopener noreferrer" class="btnp" style="display:inline-flex;align-items:center;gap:var(--s2)">
+      <a href="https://calendly.com/leonie-kaiser/ki-potentialanalyse" target="_blank" rel="noopener noreferrer" class="btnp btnp-sm" style="display:inline-flex;align-items:center;gap:var(--s2)">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
         Termin buchen
       </a>
@@ -84,7 +84,7 @@
     <div style="margin-top:var(--s12)">
       <div class="slabel">Weitere Leistungen</div>
       <h2 class="stitle" style="font-size:1.35rem">Weitere Leistungen für Ihre Praxis</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--s3);margin-top:var(--s4)">
+      <div class="morelinks">
         {{ range $others }}
         <a href="{{ .url }}" style="display:block;padding:var(--s4) var(--s5);border:1px solid var(--divider);border-radius:var(--r-lg);background:#fff;text-decoration:none;color:inherit;font-family:var(--fd);font-weight:700;font-size:var(--sm);line-height:1.3">
           {{ .branche }}

@@ -111,6 +111,11 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
   border-radius:var(--r-full);text-decoration:none;font-size:var(--base);font-weight:700;
   display:inline-flex;align-items:center;gap:var(--s2)}
 .btnp:hover{background:#064e65;transform:translateY(-2px);box-shadow:var(--sh-lg)}
+/* Kompakter CTA-Button am Seitenende - gleiche Hoehe wie der Menue-Button (.ncta) */
+.btnp-sm{padding:var(--s2) var(--s6);font-size:var(--sm)}
+/* "Weitere Leistungen": die drei anderen Bereiche in einer Reihe, mobil gestapelt */
+.morelinks{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3);margin-top:var(--s4)}
+@media(max-width:600px){.morelinks{grid-template-columns:1fr}}
 .hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
 .hactions .btnp:hover,.btnp-pulse:hover{animation:none}
 @keyframes btnpPulse{
