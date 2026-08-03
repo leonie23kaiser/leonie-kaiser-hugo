@@ -4,53 +4,72 @@
 <meta charset="utf-8">
 <title>Service-Katalog · Leonie Kaiser</title>
 <style>
-  @page { size: A4; margin: 10mm 13mm; }
+  /* A4 einseitig. Fliesstext nirgends unter 11px, auch nicht in Zusatz-Boxen.
+     Der Inhalt wird ueber die volle Seitenhoehe verteilt (Flex-Spalte). */
+  @page { size: A4; margin: 11mm 13mm; }
   * { box-sizing: border-box; }
-  html,body { margin:0; padding:0; }
+  html, body { margin:0; padding:0; }
   body {
     font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color:#1d2228; font-size:10.2px; line-height:1.46;
+    color:#1d2228; font-size:11px; line-height:1.45;
+    height: 275mm;                 /* A4 minus Seitenraender */
+    display:flex; flex-direction:column;
   }
   .teal { color:#086584; }
   .violet { color:#530049; }
-  h1 { font-size:22px; margin:0 0 2px; color:#086584; letter-spacing:-.01em; }
-  h2 { font-size:13.5px; margin:11px 0 4px; color:#086584; padding-bottom:3px; border-bottom:2px solid #EDF7F2; }
-  h3 { font-size:11px; margin:0 0 3px; }
-  .eyebrow { font-size:8.5px; font-weight:800; letter-spacing:.13em; text-transform:uppercase; color:#CF982B; }
-  .sub { color:#5b6572; font-size:9.6px; }
-  .head { display:flex; justify-content:space-between; align-items:flex-end; border-bottom:3px solid #086584; padding-bottom:8px; margin-bottom:10px; }
-  .head .role { text-align:right; font-size:9px; color:#5b6572; line-height:1.4; }
-  .head .role b { color:#530049; font-size:11px; }
-  .intro { background:#EDF7F2; border:1px solid #d9ebe6; border-radius:8px; padding:7px 12px; font-size:9.5px; color:#374151; margin-bottom:9px; }
-
-  /* Überblick / 3 Schritte */
-  .overview { display:flex; gap:10px; margin-bottom:11px; }
-  .ov-card { flex:1; border:1px solid #ece3d8; border-radius:9px; padding:9px 11px; break-inside:avoid; }
-  .ov-card .ov-tag { font-size:8px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:#CF982B; }
-  .ov-card h3 { color:#086584; margin:2px 0 3px; }
-  .ov-card p { margin:0 0 6px; color:#374151; font-size:9.3px; }
-  .ov-card .ov-price { font-weight:800; color:#086584; font-size:12px; }
-  .ov-card .ov-note { font-size:8.6px; color:#5b6572; }
-
-  .area { break-inside: avoid; margin-bottom:8px; }
-  .area .solves { color:#5b6572; font-style:italic; font-size:8.8px; }
-  ul { margin:3px 0 0; padding-left:15px; }
-  li { margin:2px 0; }
+  h1 { font-size:23px; margin:0 0 2px; color:#086584; letter-spacing:-.01em; }
+  h2 { font-size:13.5px; margin:0 0 4px; color:#086584; padding-bottom:3px; border-bottom:2px solid #EDF7F2; }
+  h3 { font-size:12px; margin:0 0 3px; }
+  p  { margin:0; }
+  ul { margin:4px 0 0; padding-left:15px; }
+  li { margin:2.5px 0; }
   li b { color:#1d2228; }
-  .cols { display:flex; gap:16px; }
-  .cols > div { flex:1; }
-  .box { break-inside: avoid; border:1px solid #ece3d8; border-radius:8px; padding:9px 12px; margin-top:6px; }
-  .box.retainer { background:#faf7fc; border-color:#e7d6ef; }
-
-  .foot { margin-top:8px; border-top:2px solid #EDF7F2; padding-top:7px; display:flex; justify-content:space-between; align-items:center; font-size:8.6px; color:#5b6572; }
   a { color:#086584; text-decoration:none; }
 
-  .cta-btn-wrap { margin-top:9px; text-align:center; break-inside:avoid; }
-  .cta-btn {
-    display:inline-block; background:#530049; color:#fff !important; font-weight:800;
-    font-size:12px; padding:10px 26px; border-radius:999px; text-decoration:none;
-  }
-  .cta-sub { margin-top:5px; font-size:8.8px; color:#5b6572; }
+  .eyebrow { font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:#CF982B; }
+  .sub  { color:#5b6572; font-size:11px; }
+  .head { display:flex; justify-content:space-between; align-items:flex-end;
+          border-bottom:3px solid #086584; padding-bottom:8px; }
+  .head .role { text-align:right; font-size:11px; color:#5b6572; line-height:1.4; }
+  .head .role b { color:#530049; font-size:12.5px; }
+  .intro { background:#EDF7F2; border:1px solid #d9ebe6; border-radius:8px;
+           padding:8px 12px; font-size:11px; color:#374151; }
+
+  /* Preisboxen wie auf der Leistungsseite: Praxis-Start, Praxis-Plus, Laufende Betreuung */
+  .prices { display:flex; gap:10px; }
+  .pcard { flex:1; border:1px solid #ece3d8; border-radius:9px; padding:9px 11px;
+           display:flex; flex-direction:column; break-inside:avoid; }
+  .pcard.feat { border:2px solid #086584; }
+  .pcard .ptag { display:inline-block; align-self:flex-start; font-size:11px; font-weight:800;
+                 letter-spacing:.05em; text-transform:uppercase; color:#086584;
+                 background:#E7F4F4; border-radius:999px; padding:1px 8px; margin-bottom:4px; }
+  .pcard h3 { color:#1d2228; margin:0 0 2px; }
+  .pcard .pprice { font-weight:800; color:#086584; font-size:15px; margin-bottom:4px; }
+  .pcard p { color:#374151; font-size:11px; }
+
+  /* Leistungsbereiche: zwei Spalten, gleichmaessig ueber die Resthoehe verteilt */
+  .cols { display:flex; gap:16px; flex:1; }
+  .cols > div { flex:1; display:flex; flex-direction:column; justify-content:space-between; gap:10px; }
+  .area { break-inside:avoid; }
+  .area .solves { color:#5b6572; font-style:italic; font-size:11px; margin-top:2px; }
+
+  .basis { break-inside:avoid; border:1px solid #e7d6ef; background:#faf7fc;
+           border-radius:8px; padding:9px 12px; }
+  .basis h2 { border-bottom-color:#e7d6ef; }
+  .basis .inline { display:flex; gap:16px; }
+  .basis .inline > div { flex:1; }
+
+  .cta-btn-wrap { text-align:center; break-inside:avoid; }
+  .cta-btn { display:inline-block; background:#530049; color:#fff !important; font-weight:800;
+             font-size:13px; padding:10px 26px; border-radius:999px; text-decoration:none; }
+  .cta-sub { margin-top:5px; font-size:11px; color:#5b6572; }
+
+  .foot { border-top:2px solid #EDF7F2; padding-top:7px; display:flex;
+          justify-content:space-between; align-items:center; font-size:11px; color:#5b6572; }
+
+  /* Gleichmaessige vertikale Verteilung der Hauptbloecke */
+  body > * { margin-bottom:10px; }
+  body > *:last-child { margin-bottom:0; }
 </style>
 </head>
 <body>
@@ -66,28 +85,27 @@
   </div>
 
   <div class="intro">
-    Alle Leistungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse zeige ich Ihnen, welche Automatisierungen für Ihre Praxis am meisten bringen. Grundprinzip überall: erst die Prozesse, dann das Tool, und datenschutzkonform von Anfang an.
+    Alle Leistungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse finden wir gemeinsam heraus, welche Automatisierungen für Ihre Praxis den größten Nutzen bringen. Grundprinzip überall: erst die Prozesse, dann das Tool, und datenschutzkonform von Anfang an.
   </div>
 
-  <!-- ÜBERBLICK: 3 Schritte + Preise -->
-  <div class="overview">
-    <div class="ov-card">
-      <div class="ov-tag">Erstgespräch</div>
-      <h3>Potenzialanalyse</h3>
-      <p>30 Minuten, online, unverbindlich. Wir schauen gemeinsam, wo Digitalisierung und KI in Ihrer Praxis am meisten bringen.</p>
-      <div class="ov-price">kostenfrei</div>
+  <div class="prices">
+    <div class="pcard feat">
+      <span class="ptag">Bis zu 3 Automatisierungen</span>
+      <h3>Praxis-Start</h3>
+      <div class="pprice">€ 1.490</div>
+      <p>Bis zu drei Automatisierungen, frei aus allen Bereichen kombinierbar. Fertig eingerichtet, in Ihre Systeme integriert und inklusive Einweisung Ihres Teams.</p>
     </div>
-    <div class="ov-card">
-      <div class="ov-tag">Umsetzung</div>
-      <h3>Praxis-Start &amp; Praxis-Plus</h3>
-      <p><b>Praxis-Start:</b> bis zu drei Automatisierungen, frei aus allen Bereichen kombinierbar, fertig eingerichtet und in Ihre Systeme integriert.<br><b>Praxis-Plus:</b> mehrere Automatisierungen über Bereiche hinweg, je nach Umfang.</p>
-      <div class="ov-price">€ 1.490 · ab € 2.900</div>
+    <div class="pcard">
+      <span class="ptag">Mehrere Automatisierungen</span>
+      <h3>Praxis-Plus</h3>
+      <div class="pprice">€ 2.900 – 5.900</div>
+      <p>Mehrere Automatisierungen über Bereiche hinweg, nach der Potenzialanalyse priorisiert, mit Strategie, Umsetzung und Einweisung. Der Preis richtet sich nach dem Umfang.</p>
     </div>
-    <div class="ov-card">
-      <div class="ov-tag">Begleitung</div>
+    <div class="pcard">
+      <span class="ptag">Optional, monatlich</span>
       <h3>Laufende Betreuung</h3>
-      <p>Optional, monatlich. Laufende Wartung Ihrer Abläufe, Anpassungen und eine feste Ansprechpartnerin, wenn Sie langfristig begleitet werden möchten.</p>
-      <div class="ov-price">ab € 190 / Monat</div>
+      <div class="pprice">ab € 190 / Monat</div>
+      <p>Laufende Wartung Ihrer Abläufe und Anpassungen, wenn sie anfallen. Dazu eine feste Ansprechpartnerin, wenn Sie langfristig begleitet werden möchten.</p>
     </div>
   </div>
 
@@ -95,7 +113,7 @@
     <div>
       <div class="area">
         <h2>1 · Termine &amp; Anfragen</h2>
-        <div class="solves">Löst: Terminanfragen kosten Zeit.</div>
+        <div class="solves">Weniger Ausfälle, weniger Rückfragen am Telefon. Die Koordination läuft, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet.</div>
         <ul>
           <li><b>Online-Terminbuchung</b> mit Selbstbuchungslink, in Ihr bestehendes System integriert.</li>
           <li><b>Automatische Erinnerungen &amp; Wartelisten-Nachbesetzung</b> über den bevorzugten Kanal.</li>
@@ -105,18 +123,18 @@
       </div>
       <div class="area">
         <h2>2 · Dokumentation &amp; Wissen</h2>
-        <div class="solves">Löst: Dokumentation nach Feierabend, „alles hängt an der Leitung".</div>
+        <div class="solves">Kaum noch Papierkram nach Feierabend, einheitliche Dokumentation, und Vertretung oder Einarbeitung wird deutlich leichter.</div>
         <ul>
           <li><b>Notizen strukturieren:</b> Sie lesen gegen und geben frei, die fachliche Beurteilung bleibt bei Ihnen.</li>
-          <li><b>Vorlagen-Bibliothek</b> für Berichte, Rückmeldungen und individuelle Pläne.</li>
-          <li><b>Digitales Praxis-Handbuch für Ihr Team</b> für wiederkehrende Abläufe.</li>
+          <li><b>Vorlagen-Bibliothek</b> für Berichte, Rückmeldungen an Zuweiser und individuelle Pläne.</li>
+          <li><b>Digitales Praxis-Handbuch für Ihr Team</b> für wiederkehrende Abläufe, Zuständigkeiten und häufige Fragen.</li>
         </ul>
       </div>
     </div>
     <div>
       <div class="area">
         <h2>3 · Nachsorge &amp; Kundenbindung</h2>
-        <div class="solves">Löst: Nachsorge kommt zu kurz.</div>
+        <div class="solves">Der Kontakt zur Kundschaft bleibt bestehen, ohne extra Aufwand. Mehr Folgetermine und planbarere Auslastung.</div>
         <ul>
           <li><b>Automatisierte Nachsorge-Sequenzen</b> nach Behandlung, Paket oder Erstberatung.</li>
           <li><b>Reaktivierung früherer Kundschaft</b> zum passenden Zeitpunkt.</li>
@@ -124,37 +142,28 @@
         </ul>
       </div>
       <div class="area">
-        <h2>4 · Sichtbarkeit</h2>
+        <h2>4 · Sichtbarkeit &amp; Inhalte</h2>
         <div class="solves">Kein laufender Redaktionsservice, sondern Vorlagen, die Ihnen die Vorbereitung abnehmen.</div>
         <ul>
+          <li><b>Ihre Tonalität festlegen (Brand Voice)</b> als Vorgabe für jeden weiteren Text.</li>
           <li><b>Vorlagen</b> für Social Media und Newsletter.</li>
           <li><b>KI-Entwürfe</b> für wiederkehrende Texte, die nach Ihnen klingen.</li>
           <li><b>Auffindbarkeit in KI-Suchen (GEO).</b></li>
         </ul>
       </div>
-      <div class="area">
-        <h2>Technische &amp; rechtliche Basis</h2>
-        <div class="solves">Querschnitt, in jedem Projekt enthalten.</div>
-        <ul>
-          <li><b>Tool-Auswahl &amp; Integration</b> bestehender Systeme, tool-agnostisch.</li>
-          <li><b>EU-Hosting oder lokale Lösung</b>, je nach Sensibilität der Daten.</li>
-          <li><b>EU-AI-Act-Einstufung</b> und DSGVO-konforme Datenflüsse, bevor etwas live geht.</li>
-        </ul>
-      </div>
     </div>
   </div>
 
-  <div class="box retainer">
-    <h3 class="violet">Laufende Betreuung — ab € 190 / Monat (optional)</h3>
-    <div class="sub" style="margin-bottom:3px">Als kalkulierbare Betriebsausgabe, die Antwort auf „Wer betreut das danach?".</div>
-    <div class="cols">
+  <div class="basis">
+    <h2 class="violet">Technische &amp; rechtliche Basis <span class="sub">— in jedem Projekt inklusive</span></h2>
+    <div class="inline">
       <div><ul>
-        <li>Monatlicher Check-in: Was läuft, was hakt?</li>
-        <li>Laufende Optimierung bestehender Automatisierungen.</li>
+        <li><b>Tool-Auswahl &amp; Integration</b> in Ihre bestehenden Systeme, tool-agnostisch.</li>
+        <li><b>EU-Hosting oder lokale Lösung</b>, je nach Sensibilität Ihrer Daten.</li>
       </ul></div>
       <div><ul>
-        <li>Ansprechpartnerin bei Änderungen (neue Mitarbeitende, neues Tool).</li>
-        <li>Datenschutz-Nachpflege: AV-Verträge aktuell halten, neue Tools einstufen.</li>
+        <li><b>EU-AI-Act-Einstufung</b> jedes Tools, bevor es live geht.</li>
+        <li><b>DSGVO-konforme Datenflüsse</b> und Auftragsverarbeitungsverträge mit jedem Anbieter.</li>
       </ul></div>
     </div>
   </div>
@@ -166,7 +175,7 @@
 
   <div class="foot">
     <div>Leonie Kaiser · KI &amp; Digitalisierung · EU AI Act &amp; DSGVO konform</div>
-    <div>Stand: Juli 2026</div>
+    <div>Stand: August 2026</div>
   </div>
 </body>
 </html>
