@@ -115,6 +115,10 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .btnp-sm{padding:var(--s2) var(--s6);font-size:var(--sm)}
 /* "Weitere Leistungen": die drei anderen Bereiche in einer Reihe, mobil gestapelt */
 .morelinks{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3);margin-top:var(--s4)}
+
+/* Footer: zweite Linkzeile (EU AI Act, DSGVO) folgt der ersten rechtsbuendig,
+   mobil linksbuendig wie die uebrigen Links. */
+@media(max-width:700px){.footer-links-2{justify-content:flex-start!important;margin-top:0!important}}
 @media(max-width:600px){.morelinks{grid-template-columns:1fr}}
 .hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
 .hactions .btnp:hover,.btnp-pulse:hover{animation:none}
@@ -624,7 +628,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 }
 .um-hero-inner{
   max-width:1200px;margin-inline:auto;
-  display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(var(--s10),6vw,var(--s20));align-items:start;
+  display:grid;grid-template-columns:1fr 1.35fr;gap:clamp(var(--s10),6vw,var(--s20));align-items:start;
 }
 .um-photo{width:100%;max-width:400px;aspect-ratio:4/5;border-radius:var(--r-2xl);overflow:hidden;box-shadow:0 0 50px rgba(1,105,111,0.28),0 12px 40px rgba(0,0,0,0.12);margin-top:var(--s8);}
 .um-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}

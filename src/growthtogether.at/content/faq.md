@@ -11,9 +11,6 @@ faqs:
   - q: "Wie läuft die Zusammenarbeit ab?"
     a: "Am Anfang steht die kostenfreie, 30-minütige Potenzialanalyse online. Darauf folgt eine individuelle Roadmap mit konkreten Maßnahmen und einem realistischen Zeitplan. Anschließend setze ich die Lösung gemeinsam mit Ihnen um und begleite Sie, bis alles eigenständig läuft. Auf Wunsch bleibe ich auch danach an Ihrer Seite. Das Ganze ist EU AI Act und DSGVO konform und funktioniert ohne technisches Vorwissen."
     cat: "zusammenarbeit"
-  - q: "Kostet die KI-Potenzialanalyse etwas?"
-    a: "Nein, die Potenzialanalyse ist vollständig kostenlos und unverbindlich. Das 30-minütige Online-Gespräch gibt Ihnen eine erste klare Einschätzung, wo Digitalisierung und KI in Ihrer Praxis den größten Hebel haben."
-    cat: "kosten"
   - q: "Was kostet eine Umsetzung?"
     a: "Für die Umsetzung gibt es klare Pakete. Praxis-Start umfasst bis zu drei Automatisierungen und kostet 1.490 Euro. Praxis-Plus kombiniert mehrere Automatisierungen über Bereiche hinweg und liegt je nach Umfang zwischen 2.900 und 5.900 Euro. Auf Wunsch kommt eine laufende Betreuung ab 190 Euro im Monat dazu. Den genauen Umfang legen wir nach der kostenfreien Potenzialanalyse gemeinsam fest."
     cat: "kosten"
@@ -32,7 +29,7 @@ faqs:
   - q: "Was bedeutet „datenschutzkonform“ bei Ihnen konkret?"
     a: "Konkret bedeutet das: Auftragsverarbeitungsverträge mit allen eingesetzten Tools, EU-Hosting wo möglich, Gesundheitsdaten nur in Systemen mit klar geregeltem Speicherort und nachvollziehbaren Datenflüssen, und eine klare Zuständigkeit, wenn Sie Rückfragen haben."
     cat: "compliance"
-  - q: "Brauche ich dafür technisches Vorwissen?"
+  - q: "Brauche ich technisches Vorwissen für die Umsetzung?"
     a: "Nein. Die meisten Lösungen funktionieren ohne großes IT-Projekt. Ich richte ein, Ihr Team wird eingewiesen. Sie bekommen ein System, das Sie und Ihr Team im Alltag einfach nutzen können."
     cat: "tools"
 ---
