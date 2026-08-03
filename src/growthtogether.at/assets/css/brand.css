@@ -237,6 +237,17 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .scta{min-height:46px;display:flex;align-items:center;margin-top:var(--s3)}
 .spricenote{font-size:var(--xs);color:inherit;font-weight:400;opacity:.7;margin-left:var(--s2)}
 
+/* Schritte-Grid (Leistungsseite): 3 Boxen nebeneinander, die 4. ueber volle Breite.
+   Mobil stapeln alle untereinander. */
+.stepgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);margin-top:var(--s8)}
+.stepgrid .step-wide{grid-column:1/-1}
+@media(max-width:920px){.stepgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.stepgrid{grid-template-columns:1fr}.stepgrid .step-wide{grid-column:auto}}
+
+/* Karte, die im .sgrid zwei Spalten breit ist (z. B. "In jedem Projekt inklusive"). */
+.sgrid .scard-wide{grid-column:span 2}
+@media(max-width:600px){.sgrid .scard-wide{grid-column:auto}}
+
 /* ─── ABOUT ─── */
 .abgrid{display:grid;grid-template-columns:0.85fr 1.15fr;
   gap:clamp(var(--s12),6vw,var(--s20));align-items:start;margin-top:var(--s10)}

@@ -18,8 +18,8 @@
       desc: "Erinnerungen über den bevorzugten Kanal senken die Ausfälle. Kurzfristig frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt."
     - titel: "Chat-Assistent für Erstanfragen"
       desc: "Ein datenschutzkonformer Assistent auf Ihrer Website beantwortet Öffnungszeiten, Anfahrt, Preise und Terminwünsche, ohne medizinische Auskunft zu geben."
-    - titel: "Telefonassistent (Voicebot)"
-      desc: "Nimmt Anrufe außerhalb der Öffnungszeiten entgegen, beantwortet Standardfragen und nimmt Terminwünsche auf, damit keine Anfrage verloren geht."
+    - titel: "E-Mail-Automatisierung mit Ampelsystem"
+      desc: "Eingehende Anfragen werden nach Themenbereich sortiert und nach Dringlichkeit bewertet, von grün bis rot. Zu jeder Anfrage liegt ein Antwortentwurf bereit, den Sie nur noch prüfen und freigeben."
   beispiel:
     ausgangssituation: "In einer kleinen Physiotherapiepraxis kommen die Terminanfragen über Telefon, WhatsApp und E-Mail herein. Die Erinnerungen verschickt das Team von Hand. Sagt jemand kurzfristig ab, bleibt der Termin meist unbesetzt, und die Rezeption wird über den Tag hinweg immer wieder unterbrochen."
     vorgehen: "Wir richten eine Online-Terminbuchung mit Selbstbuchungslink ein. Dazu kommen automatische Erinnerungen über den bevorzugten Kanal und eine Warteliste, die frei gewordene Termine selbstständig nachbesetzt. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
@@ -62,14 +62,38 @@
       desc: "Aus Gesprächs- und Behandlungsnotizen wird ein sauberes Protokoll, das Sie nur noch gegenlesen. Die fachliche Beurteilung bleibt jederzeit bei Ihnen."
     - titel: "Vorlagen-Bibliothek"
       desc: "Für Berichte, Rückmeldungen an Zuweiser, Aufklärungen und individuelle Pläne. Einmal aufgesetzt, in Ihrer Sprache, immer wieder nutzbar."
-    - titel: "Praxis-Handbuch fürs Team"
+    - titel: "Praxis-Handbuch für Ihr Team"
       desc: "Ein zentrales, lebendes Handbuch für die Praxis: wiederkehrende Abläufe (Terminvergabe, Abrechnung, Geräte), Vorlagen, Zuständigkeiten und Antworten auf häufige Fragen. So steckt Wissen nicht mehr nur in einzelnen Köpfen, und Vertretung und Einarbeitung neuer Mitarbeitender werden deutlich leichter."
   beispiel:
     ausgangssituation: "In einer kleinen Gesundheitspraxis werden Befunde und Notizen abends nachgeschrieben. Alle im Team dokumentieren auf ihre eigene Art, und wichtiges Wissen steckt in einzelnen Köpfen, Notizbüchern und verstreuten Dateien."
-    vorgehen: "Wir bereiten Ihre Notizen strukturiert auf, sodass Sie sie nur noch gegenlesen und freigeben. Dazu kommen eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Praxis-Handbuch fürs Team. Alles wird Art.-9-konform aufgesetzt."
+    vorgehen: "Wir bereiten Ihre Notizen strukturiert auf, sodass Sie sie nur noch gegenlesen und freigeben. Dazu kommen eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Praxis-Handbuch für Ihr Team. Alles wird Art.-9-konform aufgesetzt."
     ergebnis: "Es bleibt kaum noch Arbeit nach Feierabend, die Dokumentation ist einheitlich, und Vertretung oder Einarbeitung neuer Mitarbeitender wird deutlich einfacher."
   faq:
     - q: "Behalte ich die Kontrolle über die Dokumentation?"
       a: "Ja, vollständig. Die KI bereitet Ihre Notizen und Vorlagen nur vor, Sie lesen gegen und geben frei. Die fachliche Beurteilung und jede Entscheidung bleiben bei Ihnen."
     - q: "Sind Gesundheitsdaten dabei sicher?"
       a: "Datenschutz ist die Grundlage. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit EU-Hosting wo möglich und, wenn die Daten besonders sensibel sind, auch mit lokalen Lösungen, bei denen die Daten Ihre Praxis nicht verlassen. Dazu kommen Auftragsverarbeitungsverträge und klar geregelte Datenflüsse."
+
+- slug: sichtbarkeit-inhalte
+  url: /leistungen/sichtbarkeit-und-inhalte/
+  branche: Sichtbarkeit & Inhalte
+  schmerz: "Beiträge, Newsletter und Website-Texte bleiben liegen, weil im Alltag die Zeit dafür fehlt. Was doch erscheint, klingt jedes Mal ein wenig anders, je nachdem, wer es geschrieben hat."
+  intro: "Sie bekommen Werkzeuge, mit denen Texte in Ihrer eigenen Sprache entstehen, statt jedes Mal vor einem leeren Blatt zu sitzen."
+  usecases:
+    - titel: "Ihre Tonalität festlegen (Brand Voice)"
+      desc: "Wir halten schriftlich fest, wie Ihre Praxis klingt: Ansprache, Fachtiefe, Wortwahl und was Sie bewusst nicht sagen. Diese Vorgabe steuert danach jeden KI-Entwurf."
+    - titel: "Vorlagen für Social Media und Newsletter"
+      desc: "Fertige Textgerüste für die Anlässe, die bei Ihnen regelmäßig wiederkehren, etwa Urlaubszeiten, neue Angebote oder Team-Neuzugänge. Sie füllen aus statt neu zu schreiben."
+    - titel: "KI-Entwürfe für wiederkehrende Texte"
+      desc: "Für Website-Abschnitte, Aushänge und Antworten auf Standardfragen entsteht ein Entwurf in Ihrer Tonalität, den Sie gegenlesen und freigeben."
+    - titel: "Auffindbarkeit in KI-Suchen (GEO)"
+      desc: "Ihre Website wird so aufbereitet, dass KI-Assistenten Ihr Angebot, Ihr Einzugsgebiet und Ihre Schwerpunkte korrekt wiedergeben, wenn jemand dort nach einer Praxis wie Ihrer sucht."
+  beispiel:
+    ausgangssituation: "Eine kleine Ernährungsberatungspraxis möchte regelmäßig sichtbar sein, schafft es aber nur alle paar Monate zu einem Beitrag. Die Texte schreiben je nach Zeit unterschiedliche Personen im Team, weshalb Ansprache und Fachtiefe stark schwanken. Auf Nachfrage bei KI-Assistenten wird die Praxis gar nicht oder mit veralteten Angaben genannt."
+    vorgehen: "Wir halten die Tonalität der Praxis schriftlich fest und bauen darauf Vorlagen für die wiederkehrenden Anlässe im Jahr auf. Dazu kommen KI-Entwürfe für Standardtexte und eine Aufbereitung der Website, damit Angebot, Einzugsgebiet und Schwerpunkte für KI-Suchen sauber hinterlegt sind. Das Team wird eingewiesen und arbeitet danach selbst mit den Vorlagen."
+    ergebnis: "Beiträge entstehen in deutlich kürzerer Zeit und klingen unabhängig von der schreibenden Person gleich. Die Praxis wird in KI-Suchen mit korrekten Angaben gefunden."
+  faq:
+    - q: "Übernehmen Sie das Schreiben laufend für mich?"
+      a: "Nein, das ist bewusst kein Redaktionsservice. Sie bekommen die Vorlagen und die Werkzeuge, damit Ihr Team selbst schnell zu guten Texten kommt. Wenn Sie eine laufende Betreuung möchten, halte ich die Vorlagen aktuell."
+    - q: "Merkt man den Texten an, dass KI im Spiel war?"
+      a: "Nicht, wenn die Tonalität sauber hinterlegt ist. Genau dafür ist die Brand Voice da. Jeder Entwurf geht ohnehin über Ihren Tisch, bevor er erscheint, und Sie entscheiden, was rausgeht."
