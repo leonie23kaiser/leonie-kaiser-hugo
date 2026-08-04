@@ -85,23 +85,25 @@
 - slug: sichtbarkeit-inhalte
   url: /leistungen/sichtbarkeit-und-inhalte/
   branche: Sichtbarkeit & Inhalte
-  schmerz: "Beiträge, Newsletter und Website-Texte bleiben liegen, weil im Alltag die Zeit dafür fehlt. Was doch erscheint, klingt jedes Mal ein wenig anders, je nachdem, wer es geschrieben hat."
-  intro: "Sie bekommen Werkzeuge, mit denen Texte in Ihrer eigenen Sprache entstehen, statt jedes Mal vor einem leeren Blatt zu sitzen."
+  schmerz: "Beiträge, Newsletter und Website-Texte bleiben liegen, weil im Alltag die Zeit dafür fehlt. Und die Texte, die es doch nach außen schaffen, klingen jedes Mal ein wenig anders, je nachdem, wer sie geschrieben hat."
+  intro: "Für Website-Texte, Newsletter, Social-Media-Beiträge und Aushänge in der Praxis erhalten Sie von mir Vorlagen und Textgerüste, mit denen neue Inhalte in Ihrer eigenen Sprache entstehen, statt jedes Mal vor einem leeren Blatt zu sitzen."
   usecases:
     - titel: "Ihre Tonalität festlegen (Brand Voice)"
-      desc: "Wir halten schriftlich fest, wie Ihre Praxis klingt: Ansprache, Fachtiefe, Wortwahl und was Sie bewusst nicht sagen. Diese Vorgabe steuert danach jeden KI-Entwurf."
+      desc: "Wir halten schriftlich fest, wie Ihre Praxis klingt: Ansprache, Fachtiefe, Wortwahl und welche Wörter und Ausdrücke Sie bewusst nicht verwenden möchten. Diese Vorgabe steuert danach jeden KI-Entwurf."
     - titel: "Vorlagen für Social Media und Newsletter"
       desc: "Fertige Textgerüste für die Anlässe, die bei Ihnen regelmäßig wiederkehren, etwa Urlaubszeiten, neue Angebote oder Team-Neuzugänge. Sie füllen aus statt neu zu schreiben."
     - titel: "KI-Entwürfe für wiederkehrende Texte"
       desc: "Für Website-Abschnitte, Aushänge und Antworten auf Standardfragen entsteht ein Entwurf in Ihrer Tonalität, den Sie gegenlesen und freigeben."
     - titel: "Auffindbarkeit in KI-Suchen (GEO)"
-      desc: "Ihre Website wird so aufbereitet, dass KI-Assistenten Ihr Angebot, Ihr Einzugsgebiet und Ihre Schwerpunkte korrekt wiedergeben, wenn jemand dort nach einer Praxis wie Ihrer sucht."
+      desc: "Immer mehr Menschen fragen KI-Assistenten statt einer Suchmaschine. Damit Ihre Praxis dort überhaupt als Antwort infrage kommt, müssen Angebot, Einzugsgebiet, Schwerpunkte und Öffnungszeiten maschinenlesbar auf Ihrer Website stehen. Genau das richte ich ein. Ob und wann ein Assistent Ihre Praxis nennt, entscheidet der Anbieter, nicht ich. Was ich zusichern kann: Ihre Angaben sind vollständig, aktuell und korrekt auslesbar, statt zu fehlen oder veraltet zu sein."
   beispiel:
-    ausgangssituation: "Eine kleine Ernährungsberatungspraxis möchte regelmäßig sichtbar sein, schafft es aber nur alle paar Monate zu einem Beitrag. Die Texte schreiben je nach Zeit unterschiedliche Personen im Team, weshalb Ansprache und Fachtiefe stark schwanken. Auf Nachfrage bei KI-Assistenten wird die Praxis gar nicht oder mit veralteten Angaben genannt."
+    ausgangssituation: "Eine Ergotherapie-Praxis mit vier Mitarbeitenden möchte regelmäßig sichtbar sein, schafft es aber nur alle paar Monate zu einem Beitrag. Die Texte schreiben je nach Zeit unterschiedliche Personen im Team, weshalb Ansprache und Fachtiefe stark schwanken. Angebot und Schwerpunkte stehen auf der Website nur als Fließtext, für KI-Assistenten sind sie kaum auslesbar."
     vorgehen: "Wir halten die Tonalität der Praxis schriftlich fest und bauen darauf Vorlagen für die wiederkehrenden Anlässe im Jahr auf. Dazu kommen KI-Entwürfe für Standardtexte und eine Aufbereitung der Website, damit Angebot, Einzugsgebiet und Schwerpunkte für KI-Suchen sauber hinterlegt sind. Das Team wird eingewiesen und arbeitet danach selbst mit den Vorlagen."
-    ergebnis: "Beiträge entstehen in deutlich kürzerer Zeit und klingen unabhängig von der schreibenden Person gleich. Die Praxis wird in KI-Suchen mit korrekten Angaben gefunden."
+    ergebnis: "Beiträge entstehen in deutlich kürzerer Zeit und klingen unabhängig von der schreibenden Person gleich. Angebot, Schwerpunkte und Einzugsgebiet sind sauber hinterlegt, sodass Suchmaschinen und KI-Assistenten korrekte Angaben vorfinden."
   faq:
     - q: "Übernehmen Sie das Schreiben laufend für mich?"
-      a: "Nein, das ist bewusst kein Redaktionsservice. Sie bekommen die Vorlagen und die Werkzeuge, damit Ihr Team selbst schnell zu guten Texten kommt. Wenn Sie eine laufende Betreuung möchten, halte ich die Vorlagen aktuell."
-    - q: "Merkt man den Texten an, dass KI im Spiel war?"
-      a: "Nicht, wenn die Tonalität sauber hinterlegt ist. Genau dafür ist die Brand Voice da. Jeder Entwurf geht ohnehin über Ihren Tisch, bevor er erscheint, und Sie entscheiden, was rausgeht."
+      a: "Nein, ich biete bewusst keinen Redaktionsservice an. Sie erhalten von mir die Vorlagen und die Werkzeuge, damit Ihr Team selbst schnell zu guten Texten kommt. Wenn Sie eine laufende Betreuung möchten, halte ich die Vorlagen für Sie aktuell."
+    - q: "Merkt man den Texten an, dass sie mit KI erstellt wurden?"
+      a: "Nicht, wenn die Tonalität sauber hinterlegt ist. Dafür legen wir gemeinsam Ihre Brand Voice fest, also die Tonalität Ihrer Praxis: wie Sie Ihre Kundschaft ansprechen, wie fachlich Sie schreiben und welche Wörter Sie bewusst vermeiden. Jeder Entwurf geht ohnehin über Ihren Tisch, bevor er erscheint, und Sie entscheiden, was rausgeht."
+    - q: "Wer pflegt die Texte ein, wenn sie fertig sind?"
+      a: "Das entscheiden Sie. Viele Praxen übernehmen das selbst, weil die Vorlagen genau dafür gemacht sind. Wenn Sie es lieber abgeben, richte ich die Veröffentlichung so ein, dass ein Beitrag mit wenigen Klicks live geht, oder übernehme das Einpflegen im Rahmen der laufenden Betreuung."

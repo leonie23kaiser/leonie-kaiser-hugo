@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="sec sec-white" style="padding-top:clamp(var(--s16),10vw,var(--s24))">
+<article class="sec sec-white" style="padding-top:calc(78px + clamp(var(--s10),5vw,var(--s16)))">
   <div class="con" style="max-width:760px">
     <div class="slabel">Journal{{ with .Params.category }} · {{ . }}{{ end }}</div>
     <h1 class="stitle" style="font-size:clamp(1.75rem,3.5vw,2.5rem);line-height:1.15">{{ .Title }}</h1>

@@ -115,10 +115,6 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .btnp-sm{padding:var(--s2) var(--s6);font-size:var(--sm)}
 /* "Weitere Leistungen": die drei anderen Bereiche in einer Reihe, mobil gestapelt */
 .morelinks{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3);margin-top:var(--s4)}
-
-/* Footer: zweite Linkzeile (EU AI Act, DSGVO) folgt der ersten rechtsbuendig,
-   mobil linksbuendig wie die uebrigen Links. */
-@media(max-width:700px){.footer-links-2{justify-content:flex-start!important;margin-top:0!important}}
 @media(max-width:600px){.morelinks{grid-template-columns:1fr}}
 .hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
 .hactions .btnp:hover,.btnp-pulse:hover{animation:none}
