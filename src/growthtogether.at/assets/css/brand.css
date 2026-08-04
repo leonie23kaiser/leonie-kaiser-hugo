@@ -799,3 +799,12 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--divider)}
 @media (max-width:900px){.jgrid{grid-template-columns:1fr 1fr}}
 @media (max-width:600px){.jgrid{grid-template-columns:1fr}}
+
+/* ---- Blog / Journal category filter (list.html) -------------------- */
+.jfilter{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s8)}
+.jf-btn{font-family:var(--fb);font-size:var(--sm);font-weight:600;color:var(--teal-d);
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--r-full);
+  padding:var(--s2) var(--s5);cursor:pointer;line-height:1.2;
+  transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.jf-btn:hover{background:var(--lblue)}
+.jf-btn.active{background:var(--teal-d);color:#fff;border-color:var(--teal-d)}

@@ -9,11 +9,20 @@
     {{ $posts := where .Site.RegularPages "Section" "journal" }}
     {{ $posts = where $posts "Params.draft" "!=" true }}
     {{ if $posts }}
+    {{ $cats := slice }}
+    {{ range $posts }}{{ with .Params.category }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+    {{ $cats = $cats | uniq | sort }}
+    {{ if gt (len $cats) 1 }}
+    <div class="jfilter" role="group" aria-label="Beiträge nach Kategorie filtern">
+      <button type="button" class="jf-btn active" data-cat="all">Alle</button>
+      {{ range $cats }}<button type="button" class="jf-btn" data-cat="{{ . | anchorize }}">{{ . }}</button>{{ end }}
+    </div>
+    {{ end }}
     <div class="jgrid">
       {{ range $posts.ByDate.Reverse }}
       {{ $cover := .Params.cover }}
       {{ $coverAlt := .Params.coverAlt | default .Title }}
-      <a href="{{ .RelPermalink }}" class="jcard">
+      <a href="{{ .RelPermalink }}" class="jcard" data-cat="{{ with .Params.category }}{{ . | anchorize }}{{ end }}">
         <div class="jcard-cover">
           {{ if $cover }}
             {{ if resources.Get $cover }}
