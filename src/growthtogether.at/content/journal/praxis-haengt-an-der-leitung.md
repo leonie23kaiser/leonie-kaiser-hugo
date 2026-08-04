@@ -5,6 +5,8 @@ description: "Wer steckt hinter dieser KI-Beratung für Praxen? Warum ich kleine
 date: 2026-08-04
 lastmod: 2026-08-04
 author: "Leonie Kaiser"
+cover: "images/blog/cover-praxis-leitung.png"
+coverAlt: "Freundliche Praxisleiterin mit Klemmbrett in einer hellen Praxis"
 category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]
