@@ -128,7 +128,12 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   „Renewal“ → *Verlängerung / auslaufende Mitgliedschaft*, „gut getimt“ →
   *zum passenden Zeitpunkt*, „No-Show“ → *Ausfall / nicht wahrgenommener
   Termin*, „Quick Win“ → *schneller erster Erfolg*. Eingebürgerte Fachbegriffe
-  (Brand Voice, Chat-Assistent, KI) bleiben. (Leonie, 2026-08.)
+  (Brand Voice, Chat-Assistent, KI, **Tool**) bleiben. (Leonie, 2026-08.)
+- **„Tool“ statt „Werkzeug“ für Software.** Im deutschen Alltags-/Bürodeutsch ist „Tool“
+  der Standardbegriff für Software/digitale Helfer („Marketing-Tool“, „Online-Tool“);
+  „Werkzeug“ wird fast nur für physische Gegenstände verwendet und klingt bei Software
+  ungewöhnlich. **„Tool“ ist hier also keine zu vermeidende Anglizismus, sondern die
+  richtige Wortwahl.** (Leonie, 2026-08 — Gegenbeispiel zur vorherigen Fehleinschätzung.)
 - Bürokratendeutsch: „im Rahmen von“, „zur Verfügung stellen“
 - Tech-Bro-Ton, **Panikmache / Angst-Vibe, leere Versprechen**
 - KI als „Hauptfigur“ – KI bleibt **Mittel zum Zweck**.
