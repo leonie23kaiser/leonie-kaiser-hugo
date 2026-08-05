@@ -1,208 +1,102 @@
 # Content Model
 
-Leonie's site has **no content collections** — it's a single-page builder. The editable copy lives in `data/site.yaml`. The two legal pages live in `content/` as standard Hugo pages.
+Leonie's site has **no content collections in the classic Hugo sense and no `data/site.yaml`.** The homepage is built by a hardcoded template (`layouts/_default/home.html`) that reads only `content/_index.md`'s front matter (title/description for SEO) — the sections themselves (hero, "Kennen Sie das?", Leistungen, Datenschutz, Über mich, Prozess, Testimonials, Potenzialanalyse-Promo, Kontakt) are written directly in the template's HTML, not pulled from a data file.
 
-## `data/site.yaml` — 11 top-level sections
+The one real data-driven pattern is `data/branchen.yaml`, which powers the four "Leistungsbereich" sub-pages via the `branche` layout.
 
-The page builder `layouts/_default/home.html` reads `site.Data.site` once and walks each section.
+## `content/` tree
 
-### `hero`
-
-```yaml
-hero:
-  badge: "Simply AI · Wien · Niederösterreich"
-  headline_line1: "KI-Strategie & Automatisierung"
-  headline_line2: "…einfach umgesetzt."
-  tagline: "..."            # one short line under headline
-  lead: "..."               # paragraph
-  cta_primary: "Kostenfreie Potenzialanalyse"
-  cta_primary_icon: "📅"     # emoji prefix on button
-  cta_primary_href: "#kontakt"
-  cta_secondary: "Leistungen ansehen"
-  cta_secondary_href: "#leistungen"
-  photo: "images/leonie-portrait-hero.jpg"      # JPEG fallback
-  photo_webp: "images/leonie-portrait-hero.webp" # WebP source
-  photo_alt: "Leonie Kaiser – KI & Business Consultant"
+```
+content/
+  _index.md                         → homepage front matter only (title/description)
+  ueber-mich.md                     → /ueber-mich/
+  faq.md                            → /faq/ (also feeds FAQPage JSON-LD, see below)
+  eu-ai-act/_index.md               → /eu-ai-act/  (type: eu-ai-act)
+  dsgvo/_index.md                   → /dsgvo/      (type: dsgvo)
+  leistungen/_index.md              → /leistungen/ (type: leistungen, overview page)
+  leistung-termine-anfragen/_index.md      → /leistungen/termine-und-anfragen/
+  leistung-dokumentation-wissen/_index.md  → /leistungen/dokumentation-und-wissen/
+  leistung-nachsorge-bindung/_index.md     → /leistungen/nachsorge-und-kundenbindung/
+  leistung-sichtbarkeit-inhalte/_index.md  → /leistungen/sichtbarkeit-und-inhalte/
+  journal/_index.md                 → /blog/ (list page, alias /journal/)
+  journal/<slug>.md                 → /blog/<slug>/ (individual posts)
+  impressum.md                      → /impressum/
+  datenschutz.md                    → /datenschutz/
 ```
 
-LCP image — the hero photo is preloaded as `fetchpriority=high` from `partials/head.html`.
+Each `leistung-*` folder's `type: branche` front matter is what routes it to `layouts/branche/single.html`, which then looks up its matching entry in `data/branchen.yaml` by `branche_slug`. The four "Leistungsbereich" content folders are otherwise near-empty — all the actual copy lives in `branchen.yaml`.
 
-### `stats`
+## `data/branchen.yaml` — the four Leistungsbereiche
 
-```yaml
-stats:
-  - { value: "20+", label: "Jahre Erfahrung" }
-  - { value: "3",   label: "Kernleistungen" }
-  - { value: "100%", label: "Remote & hybrid möglich" }
-```
-
-### `trust`
-
-List of strings rendered as a row of trust badges/pills under the hero.
+One list, one entry per Leistungsbereich (currently 4: Termine & Anfragen, Dokumentation & Wissen, Nachsorge & Kundenbindung, Sichtbarkeit & Inhalte). Read by `layouts/branche/single.html`, matched to the requesting page via `branche_slug` in the page's front matter.
 
 ```yaml
-trust:
-  - "20+ Jahre globale Projekterfahrung"
-  - "Merck · AbbVie · Baxter"
-  - "EU AI Act & DSGVO konform"
-  - "Remote & Hybrid · AT & DACH"
+- slug: termine-anfragen                # matches content front matter's branche_slug
+  url: /leistungen/termine-und-anfragen/
+  branche: "Termine & Anfragen"         # H1 / card title
+  schmerz: "..."                        # pain-point paragraph
+  intro: "..."                          # benefit one-liner
+  usecases:
+    - titel: "..."
+      desc: "..."
+  beispiel:                             # illustrative (not a real client) scenario
+    ausgangssituation: "..."
+    vorgehen: "..."
+    ergebnis: "..."
+  faq:
+    - q: "..."
+      a: "..."
 ```
 
-### `services` — the three core offers
+Editing conventions (per the file's own header comment): Sie-Form, gendered neutrally, no bullet-point fragments in `beispiel` (full sentences only), `Gedankenstriche` used sparingly, `beispiel` scenarios are explicitly illustrative and must never reference a real client. Brand voice rules are in `AGENTS.md` (repo root), which is canonical for wording.
 
-```yaml
-services:
-  eyebrow: "Leistungen & Preise"
-  heading: "Was ich für Sie tue"
-  sub: "..."
-  items:
-    - tag: "Gratis · Erstgespräch"   # pill above card title
-      tag_style: "gold"             # "gold" | "gold-on-featured"
-      title: "KI-Potenzialanalyse"
-      text: "..."
-      points:                       # bullet list inside card
-        - "Aktuellen Digitalisierungsgrad analysieren"
-        - "..."
-      price: "Kostenlos"
-      price_note: "30 Min. · Online · Unverbindlich"
-      featured: false               # the middle card is highlighted with featured: true
-```
+## `content/journal/` — blog posts
 
-Currently 3 items: KI-Potenzialanalyse (free), KI-Strategie & Beratung (featured), Umsetzung.
-
-### `about`
-
-```yaml
-about:
-  eyebrow: "Über mich"
-  heading: "Strategie, KI & die menschliche Komponente"
-  paragraphs:                       # list of strings, each becomes a <p>
-    - "..."
-    - "..."
-  pills_label: "Erfahrung aus Unternehmen wie:"
-  pills:                            # company logos as text pills
-    - "Merck"
-    - "AbbVie"
-    - "..."
-  values:                           # 3-column value cards
-    - { icon: "🧭", color: "teal",   title: "Strategisch", text: "..." }
-    - { icon: "🔬", color: "violet", title: "Forschungsbasiert", text: "..." }
-    - { icon: "💛", color: "gold",   title: "Menschlich", text: "..." }
-```
-
-### `cert` — current education / certificate-in-progress
-
-```yaml
-cert:
-  label: "Aktuell in Ausbildung"
-  title: "KI Consultant Zertifikatslehrgang"
-  tags:                  # 5 chips
-    - "..."
-  badge_label: "Zertifizierung"
-  badge_date: "Juni 2026"
-```
-
-### `about_extra` — portrait + Conscious Consultant badge
-
-```yaml
-about_extra:
-  portrait: "images/leonie-about-thoughtful.jpg"
-  portrait_webp: "images/leonie-about-thoughtful.webp"
-  portrait_alt: "..."
-  badge: "images/conscious-consultant-badge.jpg"
-  badge_webp: "images/conscious-consultant-badge.webp"
-  badge_alt: "..."
-  badge_caption: "Conscious Consultant Certified"
-```
-
-Rendered as a 4:5 portrait card with a 140 px (mobile: 100 px) round badge overlaid bottom-right.
-
-### `workshop` — free workshop teaser
-
-```yaml
-workshop:
-  eyebrow: "Kostenfreier Workshop"
-  kicker: "Your Unique Genius"
-  heading: "Finden Sie Ihre Einzigartigkeit – und gewinnen Sie die Kunden, die wirklich zu Ihnen passen."
-  lead: "..."
-  points:                # 3-bullet checklist
-    - "..."
-  cta_label: "Informiert bleiben"
-  cta_href: "#kontakt"
-  meta: "Online · Teilnahme kostenfrei · Nächster Termin folgt in Kürze"
-  image: "images/workshop-unique-genius.jpg"
-  image_alt: "..."
-```
-
-### `process` — 3-step engagement flow
-
-```yaml
-process:
-  eyebrow: "Mein Prozess"
-  heading: "In 3 Schritten zu Ihrer KI-Lösung"
-  sub: "..."
-  steps:
-    - { num: "1", title: "Potenzialanalyse", text: "..." }
-    - { num: "2", title: "Strategie", text: "..." }
-    - { num: "3", title: "Umsetzung", text: "..." }
-```
-
-### `testimonials` — placeholder until real ones land
-
-```yaml
-testimonials:
-  eyebrow: "Referenzen"
-  heading: "Was Kund:innen sagen"
-  placeholder_title: "Testimonials folgen in Kürze ✨"
-  placeholder_text: "..."
-```
-
-When real testimonials arrive, replace the placeholder with `items: [...]` (schema TBD when first ones come in).
-
-### `contact` — booking card + contact form copy
-
-```yaml
-contact:
-  eyebrow: "Kontakt"
-  heading: "Jetzt gemeinsam starten"
-  sub: "..."
-  card_title: "Kostenfreie KI-Potenzialanalyse"
-  card_text: "30 Minuten · Online · Völlig unverbindlich. Ich zeige Ihnen, ..."
-  card_cta: "Termin auswählen"            # links to params.toml → calendly
-  form_title: "Nachricht senden"
-  form_sub: "Ich antworte innerhalb von 24 Stunden."
-  form_success: "Danke! Ich melde mich innerhalb von 24 Stunden."
-  form_submit: "Nachricht absenden"
-```
-
-The Calendly URL itself is in `params.toml` (`calendly = "https://calendly.com/..."`).
-
-## `content/` — standalone pages
-
-### `content/_index.md`
+Front matter fields actually read by `layouts/journal/list.html` and `layouts/journal/single.html`:
 
 ```yaml
 ---
-title: "Leonie Kaiser – KI & Business Consulting"
-description: "..."
+title: "..."
+slug: "..."                 # explicit slug (permalink uses config.toml's journal permalink /blog/:slug/)
+description: "..."          # SEO + og:description
+date: 2026-08-04
+lastmod: 2026-08-04
+author: "Leonie Kaiser"      # defaults to "Leonie Kaiser" if omitted
+cover: "images/blog/cover-x.png"       # under assets/images/blog/
+coverAlt: "..."              # defaults to .Title if omitted
+coverCredit: "photographer / source"   # shown as a small credit line on the post
+category: "..."              # single category, shown as a filter pill on /blog/
+readingTime: 6                # minutes, shown as "N min Lesezeit"
+tags: ["...", "..."]          # feeds JSON-LD keywords
+draft: false
 ---
 ```
 
-Frontmatter only. The body comes from `home.html` walking `data/site.yaml`.
+`summary` (front matter, optional) overrides the auto-generated teaser on the list page; falls back to `.Summary | plainify | truncate 160`.
 
-### `content/impressum.md` and `content/datenschutz.md`
+Cover images live in `assets/images/blog/` and go through the `picture.html` pipeline. See `assets/images/blog/CREDITS.md` for image sourcing/licensing notes.
 
-Standard Hugo single pages — frontmatter (`title`, `description`) + Markdown body, rendered by `layouts/_default/single.html`.
+## `content/faq.md` — dual-source, keep in sync
 
-## When to add a new section
+**This file has a trap.** The `faqs:` front-matter list feeds *only* the Schema.org `FAQPage` JSON-LD. The visible FAQ accordion is hardcoded separately in `layouts/faq/single.html`. Both lists must stay identical (same questions, same order, matching answers) — the file itself has a comment warning about this. Whenever an FAQ answer changes, edit **both** files.
 
-1. Add a key to `data/site.yaml` with the field schema.
-2. Add a `<section>` block to `layouts/_default/home.html` reading `$s.<your-key>`.
-3. Add a `<section id="...">` anchor + a matching `[[main]]` entry in `menus.toml`.
-4. Style in `assets/css/brand.css`.
+## `content/eu-ai-act/_index.md` and `content/dsgvo/_index.md`
 
-Document the new section's schema here.
+Same pattern: `type: eu-ai-act` / `type: dsgvo` routes to a dedicated layout (`layouts/eu-ai-act/single.html`, `layouts/dsgvo/single.html`). Unlike `faq.md`, both layouts loop `.Params.faqs` directly (`{{ range .Params.faqs }}`) — **single source**, front matter drives both the visible accordion and the JSON-LD, no duplication trap here. Both feed `schema_type: "Article"` and get `BreadcrumbList` treatment via `partials/schema.html` — see [seo-jsonld.md](seo-jsonld.md).
 
-## When to introduce a real content collection
+## `content/impressum.md` and `content/datenschutz.md`
 
-E.g. blog posts, case studies, or workshop event pages — then create `content/blog/`, `content/cases/`, archetypes for each, and add a layout under `layouts/<section>/`. The `seo-jsonld.html` partial already has an `Article` branch ready for blog posts.
+Standard Hugo single pages — front matter (`title`, `description`, `type`, `url`, `sitemap`) + Markdown body, rendered by `layouts/_default/single.html`.
+
+## When to add a new Leistungsbereich
+
+1. Add an entry to `data/branchen.yaml` with a unique `slug`.
+2. Create `content/leistung-<name>/_index.md` with `type: branche`, `branche_slug: <slug>`, and matching `url`.
+3. Link it from `layouts/leistungen/single.html` (the overview page) and anywhere else that lists all Leistungsbereiche (e.g. `layouts/branche/single.html`'s cross-links, footer if applicable).
+4. Update `strategie/service-katalog.md` and `tools/pdf-templates/service-katalog/service-katalog.html` if the PDF catalogue should list it too — those are edited and regenerated by hand, not templated from `branchen.yaml`.
+
+## When to add a new standalone page type
+
+1. Add `content/<slug>/_index.md` (or `content/<slug>.md`) with a `type:` front-matter key.
+2. Add `layouts/<type>/single.html`.
+3. If it needs FAQ/Article/AboutPage JSON-LD, extend `partials/schema.html`'s conditionals (matched on `.Type`).

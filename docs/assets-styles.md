@@ -2,7 +2,7 @@
 
 ## CSS — `assets/css/brand.css`
 
-Single source of truth for all styles, ~490 lines. No CSS framework. All components inline in this one file.
+Single source of truth for all styles, ~830 lines and growing. No CSS framework. All components inline in this one file.
 
 ### Build behaviour
 
@@ -69,7 +69,7 @@ All new images should be rendered through `layouts/partials/picture.html`. It:
 ```go-html-template
 {{ partial "picture.html" (dict
   "src"    "images/leonie-portrait-hero.png"
-  "alt"    "Leonie Kaiser – KI & Business Consultant"
+  "alt"    "Leonie Kaiser – KI- & Digitalisierungs-Expertin"
   "sizes"  "(max-width: 700px) 100vw, 33vw"
   "widths" (slice 400 800 1200)
   "eager"  true
@@ -93,33 +93,39 @@ Leonie's repo has two image folders. **This is intentional but messy** — futur
 
 | Folder | Contents | Notes |
 |---|---|---|
-| `assets/images/` | Source PNGs (`leonie-kaiser-portrait.png`, `simply-ai-banner.png`, `workshop-unique-genius.png`, `logo.png`) + `reserve/` (10 alternates) | Goes through Hugo pipeline when referenced via `picture.html` |
-| `static/images/` | Pre-rendered `.jpg` + `.webp` pairs of currently active hero/about/banner photos + `og-default.png` | Copied as-is to `public/` — bypasses pipeline |
+| `assets/images/` | Testimonial photos (`Angela-Caine.png`, `Megan-Bailey.png`, `Mor-Yelvington.png`), `Bild-1.png`, `logo.png`, `leonie-kaiser-portrait.png`, `simply-ai-banner.png`, `workshop-unique-genius.png`, `reserve/` (alternates), and `blog/` (blog post covers + `CREDITS.md`) | Goes through Hugo's asset pipeline when referenced via `picture.html` |
+| `static/images/` | Pre-rendered `.png` + `.webp` pairs (`Bild-1`, `Bild-2`, `Logo`, `CCC-Stempel`, `background`, `leonie-portrait-hero`, `leonie-about-thoughtful`, `conscious-consultant-badge`, mobile-specific hero variants, `simply-ai-banner-new`, `workshop-unique-genius`) + `og-default.png`, plus a `blog/` subfolder with SVG placeholder covers | Copied as-is to `public/` — bypasses the pipeline entirely |
 
-The live `home.html` references the **`static/` pre-renders** directly via inline `<picture>` blocks, not via `picture.html`. This was a pragmatic shortcut from the photo-update commits (April 2026) to ship fast without re-rendering through Hugo.
+`home.html` and most other layouts reference the **`static/` pre-renders** directly via inline `<picture>` blocks, not via `picture.html`. This predates the current codebase and hasn't been cleaned up.
+
+**Blog covers are the one place doing it the "right" way already:** `content/journal/*.md`'s `cover:` front matter points at `assets/images/blog/`, and `layouts/journal/list.html`/`single.html` render them through `picture.html`. `static/images/blog/` also has a few SVG placeholder covers left over from before real cover photos existed — check `content/journal/*.md`'s `cover:` value to see which is actually live for a given post before assuming either is unused.
 
 **Future cleanup (no spec yet):**
-1. Move source PNGs from `assets/images/reserve/` and pre-renders from `static/images/` into a clean `assets/images/<section>/` layout.
-2. Replace inline `<picture>` blocks in `home.html` with `picture.html` partial calls.
-3. Delete the pre-rendered pairs in `static/`.
+1. Move remaining pre-renders from `static/images/` into `assets/images/<section>/`.
+2. Replace inline `<picture>` blocks in `home.html` (and other layouts) with `picture.html` partial calls.
+3. Delete the pre-rendered pairs in `static/` once migrated, and remove any now-unused SVG placeholder covers from `static/images/blog/`.
 
-Until then: when adding a new image, prefer the pipeline path (`assets/` + `picture.html`) for anything new. Don't add more pre-rendered pairs.
+Until then: when adding a new image, prefer the pipeline path (`assets/` + `picture.html`) — the blog cover pattern above is the template to copy. Don't add more pre-rendered pairs to `static/`.
 
 ### `assets/images/reserve/`
 
-The `reserve/` subfolder holds alternate / unused photos kept on disk for fast swaps without re-export from the source files. Examples: alternate hero portraits, the previous Simply AI banner, the previous workshop image. Do not delete — they're our fallback library.
+The `reserve/` subfolder holds 11 alternate / unused photos kept on disk for fast swaps without re-export from the source files. Examples: alternate hero portraits, the previous Simply AI banner, the previous workshop image. Do not delete — they're our fallback library.
 
 ## Static files
 
 Files in `static/` are copied as-is to `public/`. Currently:
 
-| File | Purpose |
+| File / folder | Purpose |
 |---|---|
 | `favicon.ico` / `favicon.svg` / `apple-touch-icon.png` | site icons, referenced from `head.html` |
-| `robots.txt` | search engine crawl rules |
+| `robots.txt` | search engine crawl rules — AI bots explicitly allowed |
+| `llms.txt` | AI/GEO plain-text site summary, hand-maintained (see [seo-jsonld.md](seo-jsonld.md)) |
+| `CNAME` | GitHub Pages custom domain file — `leoniekaiser.com` |
 | `fonts/*.woff2` | self-hosted webfonts |
-| `images/*.{jpg,webp}` | pre-rendered photo pairs (see above) |
-| `images/og-default.png` | OpenGraph fallback (1200×630) |
+| `images/*.{png,webp}` | pre-rendered photo pairs (see above) + `og-default.png` |
+| `images/blog/` | legacy SVG placeholder covers (mostly superseded by real photos, see above) |
+| `downloads/service-katalog.pdf` | downloadable service catalogue. **Generated**, not hand-edited: edit `tools/pdf-templates/service-katalog/service-katalog.html` and re-render (e.g. via a headless-Chromium `page.pdf()` script) — see recent commit history on that file for the render approach used. |
+| `analyse/` | standalone HTML micro-tool (Potenzialanalyse-Präsentationsgenerator), maintained separately from the main site templates |
 
 ## Adding a new image
 
