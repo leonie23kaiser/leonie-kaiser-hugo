@@ -114,6 +114,19 @@ draft: true
 - **Nicht deployen, nicht nach `main` mergen.** Draft bleibt auf dem Branch; `public/` nicht
   committen (ignoriert).
 
+### Artikel-Typografie (CSS, einmal fixiert)
+Der Artikeltext läuft durch `.page-content` (`layouts/journal/single.html`). Die Regeln dafür
+stehen in `assets/css/brand.css`, Abschnitt „Journal/Article body typography" (Ende der Datei):
+- **Überschriften-Abstand:** H2/H3 im Fließtext hatten ursprünglich **keinen** Abstand nach
+  oben (globaler `margin:0`-Reset) — dadurch klebten sie am vorherigen Absatz. Jetzt: H2
+  `margin-top: var(--s10)`, H3 `margin-top: var(--s8)`, erstes Element ohne Top-Abstand.
+- **Blockzitat (`>` im Markdown):** bekommt jetzt Teal-Balken links, hellgrüner Hintergrund,
+  kursiv — vorher unsichtbar (kein Rahmen, kein Abstand, sah wie normaler Text aus).
+- **Links im Fließtext:** Teal (`--teal-d`), unterstrichen — vorher browser-default (schwarz/blau).
+- Bei neuen Journal-/Artikel-Layouts (z. B. später `/dsgvo/`, `/eu-ai-act/` falls die auch
+  Markdown-Fließtext bekommen) prüfen, ob `.page-content` wiederverwendet werden kann, statt
+  denselben Abstands-Bug erneut einzubauen.
+
 ## 6. Kategorien, Balance, Publikation
 - **6 Kategorien** (an den Services): Termine & Anfragen · Dokumentation & Wissen ·
   Kundenbindung & Nachsorge · Sichtbarkeit · Datenschutz & EU AI Act · KI in der Praxis.
