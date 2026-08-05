@@ -56,42 +56,13 @@ unten. Bis dahin bewusst NICHT behaupten.)*
 
 ## Externe Branchendaten: Physiotherapie (real, nicht synthetisch)
 
-*Quelle: [Branchenreport Physiotherapie 2026](https://go.etl-advision.de/branchenreport-physiotherapie),
-ETL ADVISION. Erfasst am 2026-08-05. **Deutschland-weit** (nicht AT-spezifisch) — als
-Orientierung nutzen, nicht 1:1 auf Österreich übertragen. Stärkste Quellenstufe für
-Physio-Aussagen nach den eigenen Daten (Quellen-Hierarchie, Stufe 5 „Seriöse
-Branchen-Reports"). Ergänzt/bestätigt die Silicon-Sampling-Wahl von Physio als
-Tier-1-Segment mit echten Zahlen.*
-
-**Wirtschaftliche Eckdaten:**
-- **51.631 Physiotherapie-Praxen** in Deutschland, **+1,5 %** ggü. Vorjahr — stabil wachsender Markt.
-- Ø **Jahresumsatz je Praxis: ~471.000 €**; Umsatz je therapeutischer Vollzeitkraft: **~115.200 €**.
-- **86,8 % der Praxen bieten Selbstzahlerleistungen an** — passt direkt zur eigenen
-  Zielgruppen-Definition (privat/Selbstzahler-Anteil als Anker-Kriterium).
-- **58 % der Inhaber:innen bewerten ihre wirtschaftliche Lage als gut**, getragen vor
-  allem von Selbstzahlerleistungen — trotz Fachkräftemangel, steigender Kosten und
-  Teilzeit-Trend.
-- Für das laufende Jahr planen Praxen spürbare Investitionen in Weiterbildung, Geräte
-  **und Digitalisierung**.
-
-**Personal & Struktur:**
-- Mehr als die Hälfte der Beschäftigten arbeitet Teilzeit → weniger verfügbare
-  Arbeitskraft je Praxis trotz Praxenwachstum.
-- Fachkräftemangel bleibt strukturelles Thema der Branche.
-
-**KI & Digitalisierung — der wichtigste Beleg für die eigene Positionierung:**
-- **Über 80 % der befragten Praxen stehen dem Einsatz von KI in der Verwaltung**
-  (Dokumentation, Abrechnung) **offen gegenüber.** Reale, unabhängige Bestätigung des
-  Kern-Schmerzes „Dokumentation nach Feierabend" + der Compliance-first-Positionierung —
-  keine Hypothese mehr, sondern belegte Branchenzahl.
-- Ein Drittel der Praxen bewertet die Anbindung an die Telematikinfrastruktur weiterhin
-  kritisch — ein zusätzlicher, unbedienter Schmerzpunkt rund um Systeme/Integration.
-
-**Wie zitierfähig einsetzen:** Als **Fremdquelle mit Datum** kennzeichnen (nicht als
-eigene Studie ausgeben), z. B. „Laut Branchenreport Physiotherapie 2026 (ETL ADVISION)
-stehen über 80 % der Praxen dem KI-Einsatz in der Verwaltung offen gegenüber." Stützt/
-ersetzt NICHT die eigene Silicon-Sampling-Aussage zu Pain Points, sondern untermauert sie
-extern mit realen Zahlen.
+Vollständig gepflegt in [`branchen-hintergrund-physio.md`](branchen-hintergrund-physio.md)
+(Stufe-5-Quelle „Seriöse Branchen-Reports"). Neuester Stand: **Branchenreport
+Physiotherapie 2026** (ETL ADVISION, erfasst 2026-08-05) — Kernbefund:
+**über 80 % der Praxen stehen KI in der Verwaltung (Dokumentation, Abrechnung) offen
+gegenüber**, dazu 51.631 Praxen (+1,5 %), Ø Jahresumsatz ~471.000 €, 86,8 % mit
+Selbstzahlerleistungen. Deutschland-weit, nicht 1:1 auf AT übertragbar. Ergänzt/bestätigt
+die Silicon-Sampling-Wahl von Physio als Tier-1-Segment mit echten Zahlen.
 
 ---
 
