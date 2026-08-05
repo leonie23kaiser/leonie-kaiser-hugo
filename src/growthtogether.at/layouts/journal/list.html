@@ -9,15 +9,39 @@
     {{ $posts := where .Site.RegularPages "Section" "journal" }}
     {{ $posts = where $posts "Params.draft" "!=" true }}
     {{ if $posts }}
-    <div class="sgrid" style="margin-top:var(--s10)">
+    {{ $cats := slice }}
+    {{ range $posts }}{{ with .Params.category }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+    {{ $cats = $cats | uniq | sort }}
+    {{ if gt (len $cats) 1 }}
+    <div class="jfilter" role="group" aria-label="Beiträge nach Kategorie filtern">
+      <button type="button" class="jf-btn active" data-cat="all">Alle</button>
+      {{ range $cats }}<button type="button" class="jf-btn" data-cat="{{ . | anchorize }}">{{ . }}</button>{{ end }}
+    </div>
+    {{ end }}
+    <div class="jgrid">
       {{ range $posts.ByDate.Reverse }}
-      <a href="{{ .RelPermalink }}" class="scard" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:var(--s3)">
-        {{ with .Params.category }}<div class="stag">{{ . }}</div>{{ end }}
-        <h2 class="sctit" style="font-family:var(--fd);font-size:clamp(1.1rem,1.5vw,1.35rem);line-height:1.25;margin:0">{{ .Title }}</h2>
-        <p class="scdsc" style="color:var(--muted);font-size:var(--sm);margin:0;line-height:1.55">{{ .Params.summary | default (.Summary | plainify | truncate 160) }}</p>
-        <div style="display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--divider)">
-          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
-          {{ with .Params.readingTime }}<span aria-hidden="true">·</span><span>{{ . }} min Lesezeit</span>{{ end }}
+      {{ $cover := .Params.cover }}
+      {{ $coverAlt := .Params.coverAlt | default .Title }}
+      <a href="{{ .RelPermalink }}" class="jcard" data-cat="{{ with .Params.category }}{{ . | anchorize }}{{ end }}">
+        <div class="jcard-cover">
+          {{ if $cover }}
+            {{ if resources.Get $cover }}
+              {{ partial "picture.html" (dict "src" $cover "alt" $coverAlt "ratio" "16/9" "sizes" "(max-width:900px) 100vw, 33vw" "widths" (slice 400 800 1200)) }}
+            {{ else }}
+              <img src="{{ $cover | relURL }}" alt="{{ $coverAlt }}" loading="lazy" decoding="async">
+            {{ end }}
+          {{ else }}
+            <div class="jcard-ph">Titelbild folgt</div>
+          {{ end }}
+        </div>
+        <div class="jcard-body">
+          {{ with .Params.category }}<div class="stag" style="margin-bottom:0">{{ . }}</div>{{ end }}
+          <h2 class="jcard-tit">{{ .Title }}</h2>
+          <p class="jcard-dsc">{{ .Params.summary | default (.Summary | plainify | truncate 160) }}</p>
+          <div class="jcard-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+            {{ with .Params.readingTime }}<span aria-hidden="true">·</span><span>{{ . }} min Lesezeit</span>{{ end }}
+          </div>
         </div>
       </a>
       {{ end }}

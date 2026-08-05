@@ -68,6 +68,19 @@ document.querySelectorAll('.faq-cat').forEach(function(btn){
   });
 });
 
+// Blog/Journal category filter (only on journal list page)
+document.querySelectorAll('.jf-btn').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    document.querySelectorAll('.jf-btn').forEach(function(b){b.classList.remove('active');});
+    this.classList.add('active');
+    var cat=this.dataset.cat;
+    document.querySelectorAll('.jcard').forEach(function(card){
+      if(cat==='all'||(card.dataset.cat||'').indexOf(cat)>=0){card.style.display='';}
+      else{card.style.display='none';}
+    });
+  });
+});
+
 // Cookie banner + GA4 Consent Mode
 (function(){
   function applyConsent(choice){

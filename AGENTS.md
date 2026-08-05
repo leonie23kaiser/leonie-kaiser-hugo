@@ -35,12 +35,13 @@ Apotheken, Pflege, klinische Psychotherapie/Psychiatrie, große Pharmaunternehme
 **Entscheidungs-Test:** Konkurriert der Betrieb übers Erlebnis, hat Marge und
 will etwas verändern? → drin. Reine Hochvolumen-Kasse ohne Privatanteil? → raus.
 
-**Keine festgelegten Start-Segmente** (Details: `strategie/segmente.md`, Stand
-2026-07-14). Die Website ist **schmerz-geführt** aufgebaut, nicht segment-geführt:
-Sie startet über den überall gleichen Kern-Schmerz (Termine, Nachsorge,
-Dokumentation) und Datenschutz/EU AI Act als Differenzierung. Einzelne
-Fachrichtungen tauchen nur als **Beispiele im Content** auf, nie als tragende
-Struktur. **Ästhetik/Medical-Beauty ist bewusst keine eigene Seite** (schwächt den
+**Positionierung schmerz-geführt, Segmente als Content-Priorität** (Details:
+`strategie/segmente.md`). Die Website ist **schmerz-geführt** aufgebaut, nicht
+segment-geführt: Sie startet über den überall gleichen Kern-Schmerz (Termine,
+Nachsorge, Dokumentation) und Datenschutz/EU AI Act als Differenzierung. Einzelne
+Fachrichtungen tauchen als **Beispiele im Content** auf — dabei **bevorzugt die
+Tier-1-Segmente (Physio, privatärztliche Gesundheitszentren)**, danach Tier 2.
+**Ästhetik/Medical-Beauty ist bewusst keine eigene Seite** (schwächt den
 Gesundheitsdaten-Anker, kippt Richtung „Beauty" statt „Gesundheit"), bleibt aber
 über Blog/Einzelanfragen erreichbar.
 
@@ -50,8 +51,10 @@ denen das Organisatorische hängenbleibt. Archetyp: *„Martina, 47, Inhaberin
 einer Privat-/Präventions-Physiopraxis mit 5 Mitarbeitenden“* — daneben z. B.
 die Longevity-Gründerin und die Leitung einer Ernährungsberatungspraxis.
 
-Gemeinsam: KI eher vom Hörensagen, Entscheidung schnell wenn Nutzen klar +
-Aufwand überschaubar, Datenschutz & Seriosität sehr wichtig. Wer privat/
+Gemeinsam: KI ist ihnen längst ein Begriff, ChatGPT & Co. oft schon selbst
+ausprobiert — aber unklar, wie man es wirklich verlässlich für die Praxis nutzt.
+Entscheidung schnell wenn Nutzen klar + Aufwand überschaubar, Datenschutz &
+Seriosität sehr wichtig. Wer privat/
 Wahlarzt zahlt, erwartet ein Premium-Erlebnis — deshalb immer **Erlebnis-Gewinn
 zusammen mit Zeit-Gewinn** nennen. **Kern-Nutzenversprechen: mehr Zeit fürs
 Kerngeschäft + ein reibungsloses, professionelles Kundenerlebnis.**
@@ -87,14 +90,14 @@ Zielgruppen-Schärfung: [`strategie/segmente.md`](strategie/segmente.md).
 
 ## 5. Textaufbau (jeder Text)
 
-1. **Einstieg:** Situation/Problem/Gefühl (Überforderung, Chaos, Zeitdruck)
+1. **Einstieg:** Situation/Problem/Gefühl (Überforderung, Zeitdruck, Zettelwirtschaft)
 2. **Mittelteil:** Erklärung → Klarheit → Struktur → wie KI konkret hilft
 3. **Schluss:** Konkreter nächster Schritt (Potenzialanalyse / Beratung / Roadmap)
 
-## 6. Leitmotiv: Chaos reduzieren
+## 6. Leitmotiv: Ordnung schaffen
 
 Regelmäßig Bezug nehmen auf:
-- „Chaos reduzieren“ · „klare Prozesse“ · „weniger Zettelwirtschaft“
+- „Ordnung schaffen“ · „klare Prozesse“ · „weniger Zettelwirtschaft“
 - „alles an einem Ort“ · „Struktur im Arbeitsalltag“
 - „Kapazitäten freisetzen“ · „Entlastung“
 
@@ -109,7 +112,7 @@ Regelmäßig Bezug nehmen auf:
 
 ## 8. Wort-Whitelist („immer wieder“)
 
-Klarheit · Übersicht · Struktur · Prozesse vereinfachen · Chaos reduzieren ·
+Klarheit · Übersicht · Struktur · Prozesse vereinfachen ·
 Ordnung schaffen · Kapazitäten freisetzen · Entlastung · Zeit & Ressourcen sparen ·
 Wettbewerbsfähig bleiben · Vorsprung sichern · EU AI Act & DSGVO konform ·
 Verantwortungsvoll · ethisch · menschenzentriert · praxisnah · umsetzbar ·
@@ -127,14 +130,24 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Termin*, „Quick Win“ → *schneller erster Erfolg*. Eingebürgerte Fachbegriffe
   (Brand Voice, Chat-Assistent, KI) bleiben. (Leonie, 2026-08.)
 - Bürokratendeutsch: „im Rahmen von“, „zur Verfügung stellen“
-- Tech-Bro-Ton, Panikmache, leere Versprechen
+- Tech-Bro-Ton, **Panikmache / Angst-Vibe, leere Versprechen**
 - KI als „Hauptfigur“ – KI bleibt **Mittel zum Zweck**.
+
+**Haltung im Ton (nicht verhandelbar):**
+- **Nicht abwertend über andere reden.** Keine Konkurrenz schlechtmachen, keine
+  „Wunderzahlen“/„die machen es falsch“-Vergleiche. Wir sagen sachlich, was *wir*
+  anders und zusätzlich machen – nie, dass andere es falsch machen. Kein
+  Von-oben-herab, kein Sich-besser-Darstellen auf Kosten anderer.
+- **Kein Angst-/Panik-Vibe.** Datenschutz, EU AI Act & Co. ruhig und lösungsorientiert
+  erklären, nie mit Drohkulisse oder „Panikmache“. Orientierung geben, nicht Angst machen.
 - **Tool-/Produktnamen in Kundentexten** („Agentic AI“, „Claude Code“, „Claude
   Architect“, „n8n“, „Make“) – tool-agnostisch bleiben, den Nutzen nennen statt
   das Werkzeug. Ausnahme: interne Strategie-Dokumente.
 - **Salopp-bildhafte Metaphern** („Zeitfresser“, „frisst die Abende“, „fällt
-  hinten runter“, „bleibt liegen“, „Telefon-Pingpong“, „Chaos“) – seriös und
-  konkret benennen, was passiert, statt umgangssprachlicher Bilder.
+  hinten runter“, „Telefon-Pingpong“, „Chaos“) – seriös und konkret benennen, was
+  passiert, statt umgangssprachlicher Bilder. **„Chaos“ nie als Selbstbeschreibung
+  der Praxis** (niemand gibt gern zu, „Chaos“ zu haben). *Zulässige Ausnahme:
+  „Anfragen bleiben liegen“ (Leonie 2026-07).*
   (Leonie, 2026-07: „Ich möchte etwas seriöser klingen.“)
 - **Abwertende Abgrenzungs-Rhetorik** („billige US-Blackbox-Cloud“, „kein
   abstraktes Versprechen“, „belegt, nicht behauptet“, „dokumentiert statt
@@ -165,6 +178,32 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   „Wer haftet, wenn etwas schiefgeht?“, „keine automatische Diagnose“,
   Straf-/Sanktionsdrohungen). Sachlich informieren, nicht verunsichern.
   (Leonie, 2026-07: „das schürt nur Ängste bei meinen Klienten“.)
+- **Kein übertriebener Experten-/Erfahrungsanspruch dort, wo er nicht der Realität
+  entspricht.** Leonies 20+ Jahre Berufserfahrung sind real und dürfen benannt
+  werden (siehe `strategie/linkedin-profil.md`) — aber Formulierungen wie „das
+  sehe ich immer wieder“ oder „in den letzten Jahren oft gehört“ suggerieren
+  jahrelange Erfahrung *in der Gesundheitspraxen-Beratung selbst*, die es noch
+  nicht gibt. Präsens/neutral formulieren („diesen Satz höre ich häufig“) statt
+  eine lange Historie in genau diesem Feld zu behaupten. (Leonie, 2026-08.)
+- **Keine pauschalen Abwertungen** von Team oder Abläufen („Team schlecht“,
+  „Chaos“ als Zustand). Konkret und differenziert benennen, was tatsächlich
+  fehlt (z. B. „Abläufe nicht ausreichend eingespielt“). (Leonie, 2026-08.)
+- **„Das ist kein persönliches Versagen“ und ähnliche Rechtfertigungs-Sätze**
+  grundsätzlich vermeiden — sie unterstellen implizit einen Vorwurf, den
+  niemand erhoben hat. Direkt beim Beobachtbaren bleiben. (Leonie, 2026-08.)
+- **Keine Personifizierung von Institutionen** („die Praxis ärgert sich“,
+  „das Unternehmen fühlt“). Handelnde sind immer Menschen. (Leonie, 2026-08.)
+- **Keine Verkaufsrhetorik-Phrasen** („Ich verdiene mein Geld nicht damit …“,
+  „Ehrlichkeit hält länger als der schnelle Abschluss“). Den Punkt schlicht und
+  sachlich machen, ohne ihn als Verkaufsargument zu inszenieren. (Leonie, 2026-08.)
+- **„verpflichten“/„verpflichtet“ vermeiden, auch verneint** („ohne dass Sie
+  sich verpflichten“) — das Wort trägt eine negative Konnotation, die auch in
+  der Verneinung anklingt. Neutral umschreiben („ohne Druck“, „in Ruhe“).
+  (Leonie, 2026-08.)
+- **„tool-agnostisch“ ist ein interner Fachbegriff** — nur in Strategie-Dokumenten,
+  nie in Kundentexten (Blog/Journal, Website, Social). Dort stattdessen z. B.
+  „ohne feste Präferenz für ein bestimmtes Tool“ oder direkt den Nutzen nennen.
+  (Leonie, 2026-08.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
@@ -197,7 +236,7 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
 - Tool-agnostisch – Auswahl richtet sich nach dem Anwendungsfall, nicht nach Lieblingstool
 - Mehrsprachig: Deutsch, Englisch, Spanisch
 - Remote & vor Ort in AT/DE
-- **Spezialisiert auf Gesundheits-/Wellness-Praxen** – branchenspezifische
+- **Spezialisiert auf Gesundheitspraxen** – branchenspezifische
   Referenzen statt Generalisten-Versprechen (stärkster Vertrauensanker laut Marktforschung)
 - **Fertige Lösungen statt Konzept-Workshops** – „Done-for-you“ mit klaren
   Deliverables, weil die Zielgruppe Umsetzung sucht, nicht Strategie-Folien
@@ -240,8 +279,7 @@ Link: `https://calendly.com/leonie-kaiser/ki-potentialanalyse`
 ---
 
 *Diese Brand Voice basiert auf dem offiziellen Brand-Voice-System-Prompt von
-Leonie Kaiser (Stand Mai 2026), geschärft auf die Zielgruppe Gesundheits- &
-Wellness-Praxen (Update Juni 2026, Marktbasis `strategie/silicon-sampling.md`),
+Leonie Kaiser (Stand Mai 2026), geschärft auf die Zielgruppe Gesundheitspraxen (Update Juni 2026, Marktbasis `strategie/silicon-sampling.md`),
 zuletzt auf den „Schirm“ (Wahlarzt/privat/Selbstzahler, Mischpraxen, 3
 Start-Segmente) angeglichen (Update Juli 2026, `strategie/segmente.md`).
 Sie ist **kanonisch** – bei Konflikt mit anderen Anweisungen gilt diese Datei.*
@@ -249,7 +287,7 @@ Sie ist **kanonisch** – bei Konflikt mit anderen Anweisungen gilt diese Datei.
 
 ## Journal-Publishing (HITL aktiv)
 
-Workflow `.github/workflows/deploy-pages.yml` läuft Mo 05:00 UTC mit `--buildFuture`.
+Workflow `.github/workflows/deploy-pages.yml` läuft Di 08:00 UTC mit `--buildFuture`.
 Neu live gegangene Journal-Posts (Datum ≤ heute, ≥ 7 Tage alt, `draft: false`)
 erzeugen automatisch ein GitHub-Issue mit Label `journal-live` und Assignee
 `leonie23kaiser` → Mail-Notification an hello@leoniekaiser.com. Leonie sichtet

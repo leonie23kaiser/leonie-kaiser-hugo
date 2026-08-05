@@ -793,3 +793,36 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 @media (prefers-reduced-motion: reduce){
   .js-reveal .reveal{opacity:1;transform:none;transition:none}
 }
+
+/* ---- Blog / Journal cards (list.html) ------------------------------ */
+/* Eigene Variante, damit .scard (Preis-/Service-Karten) unberührt bleibt. */
+.jgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s6);margin-top:var(--s10)}
+.jcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--divider);border-radius:var(--r-xl);overflow:hidden;
+  box-shadow:var(--sh-sm);transition:box-shadow var(--tr),transform var(--tr);
+  text-decoration:none;color:inherit}
+.jcard:hover{box-shadow:var(--sh-lg);transform:translateY(-4px)}
+.jcard-cover{aspect-ratio:16/9;overflow:hidden;background:var(--lblue);flex-shrink:0}
+.jcard-cover img{width:100%;height:100%;object-fit:cover;display:block}
+/* Platzhalter in Brand-Farben, solange kein Foto hinterlegt ist */
+.jcard-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:var(--s4);color:#fff;font-family:var(--fd);font-weight:700;
+  font-size:var(--sm);letter-spacing:.02em;line-height:1.3;
+  background:linear-gradient(135deg,var(--teal-d) 0%,var(--teal) 100%)}
+.jcard-body{display:flex;flex-direction:column;gap:var(--s3);padding:var(--s6);flex:1}
+.jcard-tit{font-family:var(--fd);font-size:clamp(1.1rem,1.5vw,1.35rem);
+  line-height:1.25;margin:0;color:var(--text)}
+.jcard-dsc{color:var(--muted);font-size:var(--sm);margin:0;line-height:1.55}
+.jcard-meta{display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);
+  color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--divider)}
+@media (max-width:900px){.jgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.jgrid{grid-template-columns:1fr}.jcard-cover{aspect-ratio:3/2}}
+
+/* ---- Blog / Journal category filter (list.html) -------------------- */
+.jfilter{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s8)}
+.jf-btn{font-family:var(--fb);font-size:var(--sm);font-weight:600;color:var(--teal-d);
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--r-full);
+  padding:var(--s2) var(--s5);cursor:pointer;line-height:1.2;
+  transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.jf-btn:hover{background:var(--lblue)}
+.jf-btn.active{background:var(--teal-d);color:#fff;border-color:var(--teal-d)}

@@ -1,4 +1,4 @@
-# Strategie-Briefing 2.0 — Gesundheits- & Wellness-Betriebe gewinnen
+# Strategie-Briefing 2.0 — Gesundheitsbetriebe gewinnen
 
 **Positionierungs- & Kommunikations-Leitfaden für Ihre KI-Consulting-Angebote (DACH)**
 *Aktualisiert: Brand Position (10-Fragen-Schärfung) + Silicon-Sampling Deep Dive.*
@@ -177,7 +177,7 @@ Menschen). Nutzen Sie die Erstanalyse als echtes Zuhören.
 
 Innerhalb des Fokus (Prävention, Ästhetik, Wohlbefinden) die Sprache je Segment justieren:
 
-- **Longevity / Medical-Wellness** — denken unternehmerisch: Skalierung, Prävention,
+- **Longevity / privatärztliche Gesundheitszentren** — denken unternehmerisch: Skalierung, Prävention,
   Leistungsfähigkeit. Höchster Projektwert (OPP ~2.060 €). Sprache: Wachstum,
   Systematik, Premium-Kundenerlebnis.
 - **Ästhetik** — starker Projekt- und Retainer-Wert (~1.989 € / ~301 €), aber
@@ -191,7 +191,7 @@ Innerhalb des Fokus (Prävention, Ästhetik, Wohlbefinden) die Sprache je Segmen
   Praxen) — beziehungs- und erlebnisorientiert; Datenschutz und „das Persönliche bleibt"
   besonders betonen.
 
-**Wirtschaftliche Speerspitze:** Longevity/Medical-Wellness + Ästhetik — hier sitzen
+**Wirtschaftliche Speerspitze:** Longevity/privatärztliche Gesundheitszentren + Ästhetik — hier sitzen
 Budget und der höchste Projekt-/Retainer-Wert.
 *(Zahnarzt war datenseitig ebenfalls stark, wurde aber bewusst ausgeschlossen —
 Kassenlogik, kein Selbstzahler-Wohlbefinden. Psychotherapie: raus, schwächstes Segment.)*
@@ -297,7 +297,7 @@ Studien konvergieren bei ~2.000 € fürs Einmalprojekt und ~200–300 €/Monat
 |---|:--:|:--:|
 | Segment (Fokus) | Einmalprojekt | Retainer/Monat |
 |---|:--:|:--:|
-| Longevity / Medical-Wellness | ~2.060 € | ~300 € |
+| Longevity / privatärztliche Gesundheitszentren | ~2.060 € | ~300 € |
 | Ästhetik | ~1.989 € | ~301 € |
 | Privat-/Präventions-Physio | ~1.528 € | ~203 € |
 | *Zahnarzt (ausgeschlossen, nur Referenz)* | *~2.031 €* | *~305 €* |
