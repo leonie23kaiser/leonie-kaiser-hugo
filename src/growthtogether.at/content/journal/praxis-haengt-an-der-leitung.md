@@ -1,7 +1,7 @@
 ---
 title: '„Ohne mich läuft hier nichts“ — wenn alles an der Leitung hängt'
 slug: "praxis-haengt-an-der-leitung"
-description: "Wer steckt hinter dieser KI-Beratung für Praxen? Warum ich kleine Gesundheitspraxen entlaste — und wofür ich stehe: erst die Prozesse, dann das Werkzeug."
+description: "Warum in kleinen Praxen so viel an der Leitung hängt, was wirklich hilft — und wer hinter dieser KI-Beratung für kleine Gesundheitspraxen steht."
 date: 2026-08-04
 lastmod: 2026-08-04
 author: "Leonie Kaiser"
@@ -61,7 +61,9 @@ Diese Frage treibt mich bis heute an. Das Muster ist fast überall ähnlich — 
 
 ### KI nicht um jeden Preis — erst die Prozesse, dann das Werkzeug
 
-KI ist ein Verstärker, kein Selbstzweck. Bevor wir über ein Tool sprechen, schauen wir uns an, wie Ihre Abläufe wirklich funktionieren. Oft zeigt sich dabei, dass ein einfacher, klar geordneter Prozess schon die halbe Entlastung bringt — und die Technik danach nur noch das Wiederkehrende übernimmt.
+KI ist ein Verstärker, kein Selbstzweck. Bevor wir über ein Werkzeug sprechen, schauen wir uns an, wie Ihre Abläufe wirklich funktionieren. Oft zeigt sich dabei, dass ein einfacher, klar geordneter Prozess schon die halbe Entlastung bringt — und die Technik danach nur noch das Wiederkehrende übernimmt.
+
+Damit stehe ich nicht allein: Auch die Branchen-Berichterstattung zur Physiotherapie kommt zu dem Schluss, dass der Schlüssel weniger in der Technik selbst liegt als in der Bereitschaft, die eigenen Abläufe zu überdenken *(bodymedia.de, mit Bezug auf den Branchenreport Physiotherapie 2025)*.
 
 Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geht nie darum, Ihr Team überflüssig zu machen, sondern darum, ihm — und Ihnen als Leitung — die Zeit zurückzugeben, die heute in Koordination und Rückfragen versickert.
 
@@ -79,7 +81,7 @@ Ein Beispiel, wie ein solcher erster Schritt typischerweise läuft — bewusst v
 
 In einer kleinen Praxis steht das Telefon kaum still. Anfragen kommen parallel per Mail, WhatsApp und Formular, und trotzdem gehen Rückrufe unter. Der erste Reflex ist verständlich: „Wir brauchen ein neues Buchungstool.“
 
-Bevor wir über Technik reden, schauen wir uns den Ablauf an. Und meist zeigt sich: Es fehlt nicht ein bestimmtes Tool, sondern eine klare Regel, wer wann welche Anfrage beantwortet und wo sie sichtbar landet. Schon das Bündeln aller Kanäle an einem Ort und eine einfache Reihenfolge nehmen spürbar Druck vom Empfang — noch bevor irgendeine KI im Spiel ist.
+Bevor wir über Technik reden, schauen wir uns den Ablauf an. Und meist zeigt sich: Es fehlt nicht ein bestimmtes Werkzeug, sondern eine klare Regel, wer wann welche Anfrage beantwortet und wo sie sichtbar landet. Schon das Bündeln aller Kanäle an einem Ort und eine einfache Reihenfolge nehmen spürbar Druck vom Empfang — noch bevor irgendeine KI im Spiel ist.
 
 Erst wenn dieser Ablauf steht, stellt sich die Frage nach dem Werkzeug. Jetzt kann Technik das Wiederkehrende übernehmen: etwa eine automatische Eingangsbestätigung, damit niemand im Ungewissen wartet, oder eine Erinnerung vor dem Termin. Dann verstärkt das Werkzeug einen guten Prozess, statt einen unklaren zu beschleunigen. Das ist der Unterschied.
 
@@ -95,7 +97,7 @@ Der nächste Beitrag wird konkret: wie Sie No-Shows in der Praxis spürbar senke
 Ein guter Test: Fragen Sie sich, was tatsächlich liegen bleibt, wenn Sie einen Tag ausfallen. Bleibt viel liegen, laufen zu viele Rückfragen und Entscheidungen ausschließlich über Sie — genau da lohnt sich der erste Blick auf die Abläufe.
 
 **Kann ich meine Praxis auch ohne KI effizienter machen?**
-Ja, sehr oft sogar. Viele Zeitfresser entstehen nicht durch fehlende Technik, sondern durch unklare Abläufe und doppelte Arbeit. Ein aufgeräumter Prozess bringt spürbar Entlastung, bevor überhaupt ein Tool ins Spiel kommt.
+Ja, sehr oft sogar. Viele Zeitfresser entstehen nicht durch fehlende Technik, sondern durch unklare Abläufe und doppelte Arbeit. Ein aufgeräumter Prozess bringt spürbar Entlastung, bevor überhaupt ein Werkzeug ins Spiel kommt.
 
 **Darf ich als Gesundheitspraxis überhaupt KI einsetzen?**
 Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließen. Datenschutz und der EU AI Act sind für mich bei jedem Setup der erste Gedanke — mehr dazu auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [DSGVO](/dsgvo/).

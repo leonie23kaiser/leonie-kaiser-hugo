@@ -172,3 +172,7 @@ die Prozesse, dann das Werkzeug"), Sie-Anrede, aktive Verben, gelegentlich direk
    Commit klein und sprechend (die gebaute `public/`-Ausgabe nicht committen — ist ignoriert).
 4. **Kurz-Report:** gesetzte/offene interne Links, Titel-/Slug-Entscheidung, Build-Ergebnis,
    die zwei Bild-Ideen, offene Punkte für Leonies Sichtung.
+5. **Die `description` (Kurzzusammenfassung, erscheint oberhalb des Titelbilds) immer
+   zusammen mit dem Volltext an Leonie ausgeben** — nicht nur im Front-Matter verstecken,
+   sondern im Chat sichtbar mitliefern, damit sie beim Sichten sofort mitgeprüft werden kann.
+   (Leonie, 2026-08.)
