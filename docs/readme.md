@@ -13,8 +13,8 @@ Hugo root: `src/growthtogether.at/`.
 | [Layouts & Templates](layouts-templates.md) | `home.html`, page-type layouts, partials, shortcodes |
 | [Assets & Styles](assets-styles.md) | `brand.css`, image pipeline, `picture.html` partial |
 | [SEO & JSON-LD](seo-jsonld.md) | Meta tags, OG/Twitter cards, `schema.html`'s `@graph` |
-| [Content Workflow](content-workflow.md) | How to edit copy, swap images |
-| [Deploy](deploy.md) | ⚠️ Stale — actual deploy is GitHub Pages, see the Deploy section below |
+| [Content Workflow](content-workflow.md) | How to edit homepage/Leistungsbereich/blog copy, swap images, "who edits what" table |
+| [Deploy](deploy.md) | GitHub Pages workflow, cron-published blog posts, HITL notify, pre/post-deploy checklist |
 | [ALEXANDER.md](ALEXANDER.md) | Original briefing notes (kept for context) |
 
 ## Quick start
@@ -41,9 +41,7 @@ No content collections in the classic sense, no taxonomies (`disableKinds = ["ta
 
 ## Deploy
 
-**Live deploy is GitHub Pages**, via `.github/workflows/deploy-pages.yml`, on the `leoniekaiser.com` custom domain (`static/CNAME`).
-
-**[deploy.md](deploy.md) is stale and describes a different, no-longer-current setup** (Azure Static Web Apps + rsync-to-KAS fallback, growthtogether.at DNS) — that wasn't in scope for this pass to fix, but don't trust it for the actual deploy path. Go by `.github/workflows/deploy-pages.yml` and `static/CNAME` directly, or ask to have `deploy.md` brought current too.
+**Live deploy is GitHub Pages**, via `.github/workflows/deploy-pages.yml`, on the `leoniekaiser.com` custom domain (`static/CNAME`). Push to `main` touching `src/growthtogether.at/**` triggers it; a weekly cron also runs it to publish future-dated blog posts on schedule. Full detail, including the pre-deploy checklist and the HITL review issue for newly-live posts, in [deploy.md](deploy.md).
 
 ## Reference repository
 

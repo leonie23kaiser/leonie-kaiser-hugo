@@ -1,171 +1,68 @@
 # Deploy
 
-Leonie's site has **two deploy paths**:
+**Live deploy is GitHub Pages.** No Azure, no rsync, no KAS hosting — those were an earlier, since-abandoned plan. If you're reading old commit history or notes that mention Azure Static Web Apps, workload identity federation, or an rsync-to-KAS deploy: that infrastructure doesn't exist anymore, don't act on it.
 
-1. **Azure Static Web Apps** (active CI/CD target) — auto-deploys on push to `main`.
-2. **rsync-to-KAS** (legacy, still serving live traffic) — manual fallback until DNS-Cutover.
+## Workflow — `.github/workflows/deploy-pages.yml`
 
-DNS for `growthtogether.at` still points to KAS. Cutover to SWA is pending Leonie's go-ahead (registrar access + final domain decision).
-
-## Active — Azure Static Web Apps (CI/CD)
-
-### Resources
-
-| Item | Value |
-|---|---|
-| Azure Account | `office@projekt-entwicklung.at` |
-| Subscription | `Azure subscription 1` (`ee869573-d7f5-422f-af3e-3d9d450a834d`) |
-| Tenant | `08dd661d-3de5-4275-8753-d2dd426670b2` |
-| Resource Group | `rg-leonie-growthtogether` (West Europe) |
-| SWA Resource | `swa-growthtogether` (Free SKU) |
-| Default hostname | `https://purple-island-01f081e03.7.azurestaticapps.net/` |
-| Managed Identity | `mi-github-leonie` (Client-ID `26ad15bb-5552-4e93-a11d-1bc30b15844c`) |
-| Identity role | Contributor on `rg-leonie-growthtogether` |
-
-### Workload Identity Federation (no secrets in CI)
-
-Federated credential on `mi-github-leonie`:
-
-- **Subject:** `repo:aeshilion/leonie-kaiser-hugo:ref:refs/heads/main`
-- **Issuer:** `https://token.actions.githubusercontent.com`
-- **Audience:** `api://AzureADTokenExchange`
-
-GitHub repo secrets (no client secret — OIDC only):
-
-- `AZURE_CLIENT_ID` — Managed Identity Client-ID
-- `AZURE_TENANT_ID`
-- `AZURE_SUBSCRIPTION_ID`
-
-### Workflow
-
-`.github/workflows/deploy-swa.yml`:
-
-```
-on: push to main, paths: src/growthtogether.at/** + workflow file
-→ checkout
-→ Hugo 0.135.0 extended (peaceiris/actions-hugo@v3)
-→ hugo --source src/growthtogether.at --minify --gc
-→ azure/login@v2 with WIF (id-token: write)
-→ az staticwebapp secrets list → SWA deployment token
-→ Azure/static-web-apps-deploy@v1, app_location=src/growthtogether.at/public, skip_app_build=true
+```yaml
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/growthtogether.at/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 2'   # Tuesday 08:00 UTC
 ```
 
-First deploy (commit `e84984e`) verified green, default hostname returns 200.
+Three triggers:
+1. **Push to `main`** touching `src/growthtogether.at/**` or the workflow file itself.
+2. **Manual dispatch** (`workflow_dispatch` — run from the Actions tab or `gh workflow run deploy-pages.yml`).
+3. **Weekly cron, Tuesdays 08:00 UTC** — exists specifically to publish **future-dated blog posts** on schedule (see below). This means the site can go live with new content even without a push, on that day.
 
-### Trigger a deploy
+### Build job
+
+```bash
+hugo --source src/growthtogether.at --minify --gc --buildFuture --baseURL "https://leoniekaiser.com/"
+```
+
+Hugo 0.135.0 extended, installed fresh each run (`.deb` package, not a cached action). `--buildFuture` is what makes the cron trigger meaningful — without it, future-dated journal posts wouldn't publish until a push happened after their date.
+
+### Deploy job
+
+Standard `actions/deploy-pages@v4` after `actions/upload-pages-artifact@v3` uploads `src/growthtogether.at/public`. Custom domain is `leoniekaiser.com`, set via `static/CNAME` — not configured through this workflow.
+
+### Notify job — HITL for journal posts
+
+Runs after every successful deploy. Scans `content/journal/*.md`, and for any post whose `date` falls within the last 7 days (i.e. just went live) and isn't a draft, opens a GitHub issue titled `Journal live: <slug>` (label `journal-live`, assigned to `leonie23kaiser`) if one doesn't already exist for that post. This is the **human-in-the-loop check** for blog content — a post can go live automatically via the Tuesday cron without anyone pushing, so this is how Leonie finds out and can review/pull it if needed.
+
+**Never bypass this notify step for customer-visible posts.** If you build a different publishing path for journal content, it must open the same kind of review issue — see `CLAUDE.md`'s HITL-Notification section.
+
+## Trigger a deploy
 
 - **Automatic:** push to `main` touching `src/growthtogether.at/**`.
-- **Manual:** `gh workflow run deploy-swa.yml --ref main` (or run from GitHub UI).
+- **Automatic (content only, no push):** the Tuesday cron, if any journal post's `date` has arrived.
+- **Manual:** `gh workflow run deploy-pages.yml --ref main`, or from the GitHub Actions UI.
 
-### Pre-deploy checklist
+## Pre-deploy checklist
 
-1. Local build green: `hugo --source src/growthtogether.at --minify` exit 0.
-2. Local browse: `hugo server --source src/growthtogether.at` on `http://localhost:1313`.
-3. Mobile check (iPhone 14 emulation), all sections render.
-4. JSON-LD validates (Schema.org Validator).
-5. Lighthouse mobile — target SEO ≥ 95, Performance ≥ 90.
-6. **Explicit go-ahead from Emanuel before pushing to `main`.** Live site is a paying client.
+1. Local build green: `hugo --source src/growthtogether.at --minify` exits 0, no warnings that matter.
+2. Local browse: `hugo server --source src/growthtogether.at -D` on `http://localhost:1313`, check the changed pages.
+3. JSON-LD still validates if `schema.html` or any front matter it reads changed (Schema.org Validator or Google's Rich Results Test).
+4. **Explicit go-ahead from Leonie before pushing to `main`.** Live site is a paying client — this is a hard rule, not a suggestion.
 
-### Post-deploy checks
+## Post-deploy checks
 
-1. Watch GitHub Actions run: `gh run watch` or web UI.
-2. `curl -I https://purple-island-01f081e03.7.azurestaticapps.net/` — expect `200 OK`.
-3. Browse default hostname in incognito — confirm fresh content.
-4. Test `/impressum/` and `/datenschutz/` — `200 OK`.
-5. Once DNS is switched: same checks against `https://growthtogether.at/`.
+1. Watch the GitHub Actions run (Actions tab, or `gh run watch` if you have `gh` available).
+2. Browse `https://leoniekaiser.com/` — confirm the change is live (GitHub Pages CDN can take a minute or two to reflect a new deploy).
+3. Spot-check any page you changed, plus `/impressum/` and `/datenschutz/` as a baseline sanity check.
+4. If a journal post just went live via the Tuesday cron, expect a `journal-live` issue — that's the review prompt, not a bug.
 
-### Rollback
+## Rollback
 
-SWA keeps previous deployments — revert by re-running the workflow on a previous commit, or `git revert` and push. Worst case: switch DNS back to KAS (still serving the last rsync'd build until decommissioned).
+GitHub Pages serves whatever the last successful `deploy-pages.yml` run published. To roll back: `git revert` the offending commit(s) on `main` and push (triggers a new deploy with the reverted content), or re-run the workflow against an earlier commit via `workflow_dispatch` on that ref. There's no separate "previous deployment" UI to click back to — the fix is always a new deploy from the desired source state.
 
-## Pending — DNS-Cutover (Phase 6 step 6)
+## Branch strategy note
 
-**Blocked on Leonie:**
-
-- Decision: `growthtogether.at` (current) vs. `leoniekaiser.com` (alternative).
-- Registrar/DNS access (currently All-Inkl. KAS DNS).
-- Confirmation that MX/SPF/DMARC exist and what the current values are (must NOT be touched).
-- Subdomain inventory (anything besides apex + `www`?).
-
-**Switch procedure (when ready):**
-
-1. In Azure Portal → SWA `swa-growthtogether` → Custom domains → Add `growthtogether.at`.
-2. Azure issues a TXT validation record (`_dnsauth.growthtogether.at` with a token).
-3. At All-Inkl. KAS DNS:
-   - Add `TXT _dnsauth` with the Azure-provided token.
-   - For apex `growthtogether.at`: ALIAS / ANAME → `purple-island-01f081e03.7.azurestaticapps.net` (KAS doesn't support ALIAS — fallback: A-records to SWA's published IPs, or migrate DNS to Cloudflare).
-   - For `www`: CNAME → `purple-island-01f081e03.7.azurestaticapps.net`.
-   - **Leave MX, SPF (TXT), DMARC (TXT) untouched.**
-4. Wait for Azure to validate the TXT record (minutes to a few hours).
-5. Azure auto-issues Let's Encrypt cert.
-6. Verify `https://growthtogether.at/` resolves to SWA (`curl -I` should show Azure server headers).
-7. Keep KAS rsync alive ~1–2 weeks as fallback. Then decommission.
-
-**If switching to `leoniekaiser.com` instead:**
-
-- Update `baseURL` in `src/growthtogether.at/config/_default/config.toml`.
-- Update absolute URLs in `data/site.yaml` and `partials/seo-jsonld.html`.
-- Add Custom Domain `leoniekaiser.com` in Azure SWA.
-- Set 301 redirect from `growthtogether.at` → `leoniekaiser.com` (either via SWA `staticwebapp.config.json` once both domains are bound, or at the registrar level).
-- Optional: rename `src/growthtogether.at/` → `src/leoniekaiser.com/` (convention only).
-
-## Legacy — rsync to All-Inkl. KAS
-
-Still serving `https://growthtogether.at/` until DNS-Cutover. Don't deploy here unless explicitly asked.
-
-### Hosting
-
-- **Provider:** All-Inkl.com (KAS)
-- **Account:** w02124ee (shared with mountaingolf.eu / dasAuto)
-- **SSH host:** `w01b2e95.kasserver.com`
-- **SSH user:** `ssh-w02124ee`
-- **Webroot:** `www/htdocs/w02124ee/growthtogether.at/`
-- **TLS:** Let's Encrypt via KAS auto-issuance
-
-Credentials: `kobra-knowledge/quick.md` and `~/.config/shelley/AGENTS.md` (`mountaingolf` codeword).
-
-### Manual deploy command
-
-```bash
-hugo --source src/growthtogether.at --minify --baseURL https://growthtogether.at/
-
-rsync -avz --delete src/growthtogether.at/public/ \
-  ssh-w02124ee@w01b2e95.kasserver.com:www/htdocs/w02124ee/growthtogether.at/
-```
-
-With `sshpass`:
-
-```bash
-sshpass -p '<password>' rsync -avz --delete \
-  src/growthtogether.at/public/ \
-  ssh-w02124ee@w01b2e95.kasserver.com:www/htdocs/w02124ee/growthtogether.at/
-```
-
-### Decommission plan (post-cutover)
-
-1. After DNS cutover + 1–2 weeks of SWA stability: archive last KAS `public/` snapshot locally.
-2. Remove KAS webroot contents (or replace with a `410 Gone` placeholder).
-3. Remove this section from the docs once decommissioned.
-
-## Cost
-
-| Item | Cost |
-|---|---|
-| Azure SWA Free tier | € 0 / month (100 GB bandwidth, 0.5 GB storage) |
-| Custom domain on SWA | included |
-| Workload Identity | included (no Azure AD premium needed) |
-| KAS hosting | shared account, no Leonie-specific cost line |
-
-The migration is a **workflow play**, not a cost play — auto-deploy on push, no manual rsync, branch previews possible.
-
-## Tmux dev session
-
-For active work, keep a long-running Hugo dev server in a tmux session `hugo-leonie` on port 1314:
-
-```bash
-tmux new -s hugo-leonie
-cd ~/diamonds/kunden/kobra/leonie-kaiser-hugo
-hugo server --source src/growthtogether.at -D --port 1314
-```
-
-Detach: `Ctrl-b d`. Reattach: `tmux attach -t hugo-leonie`.
+Session convention in this repo (see `CLAUDE.md`): develop on a feature branch, only fast-forward/push to `main` on explicit request, since a push to `main` touching `src/growthtogether.at/**` immediately triggers a live deploy. Changes to `docs/`, `strategie/`, or other paths outside `src/growthtogether.at/**` don't trigger the workflow at all — those can be pushed to `main` more freely without a "deploy" implication, but still follow whatever explicit instruction was given for that session.
