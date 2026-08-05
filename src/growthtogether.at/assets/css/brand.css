@@ -826,3 +826,20 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   transition:background var(--tr),color var(--tr),border-color var(--tr)}
 .jf-btn:hover{background:var(--lblue)}
 .jf-btn.active{background:var(--teal-d);color:#fff;border-color:var(--teal-d)}
+
+/* ---- Journal/Article body typography (.page-content, journal/single.html) --- */
+.page-content h2{font-size:var(--xl);font-weight:800;margin-top:var(--s10);margin-bottom:var(--s4)}
+.page-content h3{font-size:var(--lg);font-weight:700;margin-top:var(--s8);margin-bottom:var(--s3)}
+.page-content h2:first-child,.page-content h3:first-child{margin-top:0}
+.page-content p{margin-bottom:var(--s5)}
+.page-content ul,.page-content ol{margin:0 0 var(--s5);padding-left:var(--s6)}
+.page-content li{margin-bottom:var(--s2)}
+.page-content a{color:var(--teal-d);text-decoration:underline;text-underline-offset:2px}
+.page-content a:hover{color:#064e65}
+.page-content strong{color:var(--text)}
+.page-content blockquote{margin:var(--s6) 0;padding:var(--s5) var(--s6);
+  border-left:3px solid var(--teal-d);background:var(--lgreen);
+  border-radius:0 var(--r-lg) var(--r-lg) 0;color:var(--text);font-style:italic}
+.page-content blockquote p{margin-bottom:0}
+.page-content figure{margin:var(--s8) auto}
+.page-content figure figcaption{text-align:center}
