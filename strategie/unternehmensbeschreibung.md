@@ -9,7 +9,7 @@ Sie-Form, Brand Voice (`AGENTS.md`), externe Kurz-Copy **Praxen in Gesundheit & 
 
 ## Unternehmensbeschreibung (~400 Zeichen)
 
-> Leonie Kaiser · KI & Business Consulting hilft kleinen Privatpraxen in Gesundheit &
+> Leonie Kaiser · KI & Digitalisierung hilft kleinen Privatpraxen in Gesundheit &
 > Wohlbefinden, ihren Arbeitsalltag zu entlasten: Termine, Aufnahme und Verwaltung laufen
 > zuverlässig und datenschutzkonform ab. Das schafft mehr Zeit fürs Kerngeschäft und ein
 > reibungsloses Kundenerlebnis. Über 20 Jahre Berufserfahrung, davon
@@ -18,7 +18,7 @@ Sie-Form, Brand Voice (`AGENTS.md`), externe Kurz-Copy **Praxen in Gesundheit & 
 
 **Kurz-Variante (~280 Zeichen):**
 
-> KI & Business Consulting aus Niederösterreich für kleine Privatpraxen in Gesundheit &
+> KI & Digitalisierung aus Niederösterreich für kleine Privatpraxen in Gesundheit &
 > Wohlbefinden. Ich richte datenschutzkonforme, automatisierte Abläufe ein – mehr Zeit fürs
 > Kerngeschäft, ein reibungsloses Kundenerlebnis. Mehr als ein Jahrzehnt Erfahrung im regulierten Gesundheits- und Pharmaumfeld.
 

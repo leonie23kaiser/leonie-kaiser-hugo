@@ -21,15 +21,16 @@ in Headline/Banner auf.
 
 ## Slogan / Headline
 
-> KI & Business Consulting für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
+> KI & Digitalisierung für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
 > fürs Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
 
 **Job Title** (im Erfahrungs-Eintrag): **bleibt „KI Consulting | Strategie & Business"** —
 unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 
 **Fixpunkt für alle Touchpoints (Headline, Banner, Website-Untertitel):**
-„KI & Business Consulting" bleibt die Konstante — der Zielgruppen-Zusatz dahinter ist
-**„für kleine Privatpraxen in Gesundheit & Wohlbefinden"**.
+„KI & Digitalisierung" bleibt die Konstante — der Zielgruppen-Zusatz dahinter ist
+**„für kleine Privatpraxen in Gesundheit & Wohlbefinden"**. *(Bis Nov. 2026 — danach
+„KI & Business Consultant", siehe `strategie-konzept.md` Kap. 1 Marken-/Gewerbe-Fahrplan.)*
 
 ## Info / Zusammenfassung
 
