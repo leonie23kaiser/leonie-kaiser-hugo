@@ -155,6 +155,7 @@ EU-AI-Act-Einstufung, Übergabe und Einweisung.
 | Wartelisten-Nachbesetzung | Termine | 3–4 h |
 | Online-Terminbuchung inkl. Integration | Termine | 4–6 h |
 | **Chat-Assistent auf der Website** | Termine | **8–12 h** |
+| **E-Mail-Assistent (Einstufung + Antwortentwürfe)** | Termine | **8–12 h** |
 | **Telefonassistent (Voicebot)** | Termine | **12–16 h** |
 | Vorlagen-Bibliothek | Dokumentation | 4–6 h |
 | Notizen strukturieren (Setup + Vorlagen) | Dokumentation | 6–8 h |

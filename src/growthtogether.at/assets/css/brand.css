@@ -111,6 +111,11 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
   border-radius:var(--r-full);text-decoration:none;font-size:var(--base);font-weight:700;
   display:inline-flex;align-items:center;gap:var(--s2)}
 .btnp:hover{background:#064e65;transform:translateY(-2px);box-shadow:var(--sh-lg)}
+/* Kompakter CTA-Button am Seitenende - gleiche Hoehe wie der Menue-Button (.ncta) */
+.btnp-sm{padding:var(--s2) var(--s6);font-size:var(--sm)}
+/* "Weitere Leistungen": die drei anderen Bereiche in einer Reihe, mobil gestapelt */
+.morelinks{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3);margin-top:var(--s4)}
+@media(max-width:600px){.morelinks{grid-template-columns:1fr}}
 .hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
 .hactions .btnp:hover,.btnp-pulse:hover{animation:none}
 @keyframes btnpPulse{
@@ -236,6 +241,17 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 /* CTA unter dem Preis: einheitliche Hoehe, damit die Preiszeilen der Karten fluchten */
 .scta{min-height:46px;display:flex;align-items:center;margin-top:var(--s3)}
 .spricenote{font-size:var(--xs);color:inherit;font-weight:400;opacity:.7;margin-left:var(--s2)}
+
+/* Schritte-Grid (Leistungsseite): 3 Boxen nebeneinander, die 4. ueber volle Breite.
+   Mobil stapeln alle untereinander. */
+.stepgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);margin-top:var(--s8)}
+.stepgrid .step-wide{grid-column:1/-1}
+@media(max-width:920px){.stepgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.stepgrid{grid-template-columns:1fr}.stepgrid .step-wide{grid-column:auto}}
+
+/* Karte, die im .sgrid zwei Spalten breit ist (z. B. "In jedem Projekt inklusive"). */
+.sgrid .scard-wide{grid-column:span 2}
+@media(max-width:600px){.sgrid .scard-wide{grid-column:auto}}
 
 /* ─── ABOUT ─── */
 .abgrid{display:grid;grid-template-columns:0.85fr 1.15fr;
@@ -608,7 +624,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 }
 .um-hero-inner{
   max-width:1200px;margin-inline:auto;
-  display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(var(--s10),6vw,var(--s20));align-items:start;
+  display:grid;grid-template-columns:1fr 1.35fr;gap:clamp(var(--s10),6vw,var(--s20));align-items:start;
 }
 .um-photo{width:100%;max-width:400px;aspect-ratio:4/5;border-radius:var(--r-2xl);overflow:hidden;box-shadow:0 0 50px rgba(1,105,111,0.28),0 12px 40px rgba(0,0,0,0.12);margin-top:var(--s8);}
 .um-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
@@ -777,3 +793,36 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 @media (prefers-reduced-motion: reduce){
   .js-reveal .reveal{opacity:1;transform:none;transition:none}
 }
+
+/* ---- Blog / Journal cards (list.html) ------------------------------ */
+/* Eigene Variante, damit .scard (Preis-/Service-Karten) unberührt bleibt. */
+.jgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s6);margin-top:var(--s10)}
+.jcard{display:flex;flex-direction:column;background:var(--surface);
+  border:1px solid var(--divider);border-radius:var(--r-xl);overflow:hidden;
+  box-shadow:var(--sh-sm);transition:box-shadow var(--tr),transform var(--tr);
+  text-decoration:none;color:inherit}
+.jcard:hover{box-shadow:var(--sh-lg);transform:translateY(-4px)}
+.jcard-cover{aspect-ratio:16/9;overflow:hidden;background:var(--lblue);flex-shrink:0}
+.jcard-cover img{width:100%;height:100%;object-fit:cover;display:block}
+/* Platzhalter in Brand-Farben, solange kein Foto hinterlegt ist */
+.jcard-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  text-align:center;padding:var(--s4);color:#fff;font-family:var(--fd);font-weight:700;
+  font-size:var(--sm);letter-spacing:.02em;line-height:1.3;
+  background:linear-gradient(135deg,var(--teal-d) 0%,var(--teal) 100%)}
+.jcard-body{display:flex;flex-direction:column;gap:var(--s3);padding:var(--s6);flex:1}
+.jcard-tit{font-family:var(--fd);font-size:clamp(1.1rem,1.5vw,1.35rem);
+  line-height:1.25;margin:0;color:var(--text)}
+.jcard-dsc{color:var(--muted);font-size:var(--sm);margin:0;line-height:1.55}
+.jcard-meta{display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);
+  color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--divider)}
+@media (max-width:900px){.jgrid{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.jgrid{grid-template-columns:1fr}.jcard-cover{aspect-ratio:3/2}}
+
+/* ---- Blog / Journal category filter (list.html) -------------------- */
+.jfilter{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s8)}
+.jf-btn{font-family:var(--fb);font-size:var(--sm);font-weight:600;color:var(--teal-d);
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--r-full);
+  padding:var(--s2) var(--s5);cursor:pointer;line-height:1.2;
+  transition:background var(--tr),color var(--tr),border-color var(--tr)}
+.jf-btn:hover{background:var(--lblue)}
+.jf-btn.active{background:var(--teal-d);color:#fff;border-color:var(--teal-d)}

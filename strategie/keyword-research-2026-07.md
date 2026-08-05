@@ -98,7 +98,7 @@ Zielgruppe** — bei mehreren Begriffen weicht die tatsächliche Suchintention (
 
 **Konsequenz für Blogpost #1 und generell:** Begriffe mit Suchvolumen nicht blind übernehmen —
 immer die „Weitere Fragen" / „Wird auch oft gesucht"-Liste aus Google direkt gegenprüfen, ob
-die Suchintention zu **inhabergeführten Gesundheits-/Wellness-Praxen** passt (nicht zu
+die Suchintention zu **inhabergeführten Gesundheitspraxen** passt (nicht zu
 Jobsuchenden, Softwarekäufer:innen oder Schul-Assessments). Für Blogpost #1 bleibt der
 inhaltliche Kern („Alles hängt an der Leitung", Delegieren, Entlasten) richtig — nur eben
 nicht unter den Kopf-Begriffen „Praxismanagerin"/„Praxismanagement" bewerben, da deren

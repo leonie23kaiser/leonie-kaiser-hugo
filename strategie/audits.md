@@ -199,7 +199,7 @@ ungenutzte Hebel.
 **Titel:** „Sie brauchen wahrscheinlich weniger KI, als man Ihnen verkauft."
 **Aufbau:**
 - Hook: „Ein unbequemer Satz für eine KI-Beraterin: Die meisten Praxen brauchen nicht mehr KI. Sie brauchen erst mal Ordnung."
-- Beleg (eigene Daten): „In meiner Befragung von 296 Gesundheits-/Wellness-Praxen war der häufigste Schmerz nicht fehlende Kundschaft — sondern Verwaltung und ‚alles hängt an mir'."
+- Beleg (eigene Daten): „In meiner Befragung von 296 Gesundheitspraxen war der häufigste Schmerz nicht fehlende Kundschaft — sondern Verwaltung und ‚alles hängt an mir'."
 - Position: „KI ist nur der Verstärker. Auf ein chaotisches Ablaufsystem gesetzt, macht sie das Chaos schneller."
 - Schluss/CTA (leise): „Deshalb fange ich bei den Prozessen an, nicht beim Tool — und sage auch mal: Das brauchen Sie nicht."
 → Verkörpert Haltung + eigene Daten + Stimme in einem Post. Genau das, was zitiert wird.

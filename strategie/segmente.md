@@ -111,13 +111,13 @@ als „Premium/Team" charakterisiert, was deren Scores mit anhebt.*
 | Segment | Score | Projekt-OPP | warum |
 |---|:--:|:--:|---|
 | **Physiotherapie / Therapiepraxen** (inkl. Ergo/Osteo/Podo) | 11 | 1.528 € | zugänglich, klarer Leidensdruck, ideales Aushängeschild |
-| **Privatärztliche Gesundheitszentren** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
+| **privatärztliche Gesundheitszentren** (IV/Hormone/Membership) | 12 | 2.032 € | passt unter „Gesundheit & Wohlbefinden", Membership-Automatisierung |
 
 **Tier 2 — das große Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
 | Segment | Score | Projekt-OPP | Hürde |
 |---|:--:|:--:|---|
-| **Longevity / Präventionsmedizin** (ärztlich, datengetrieben) | 13 | **5.012 €** | Integrations-/API-Kompetenz + Compliance-Nachweis Pflicht; **kein Wellness-Framing** |
+| **Longevity / Präventionsmedizin** (ärztlich, datengetrieben) | 13 | **5.012 €** | Integrations-/API-Kompetenz + Compliance-Nachweis Pflicht; **kein Wohlfühl-Framing** |
 | **Check-up / Vorsorgemedizin** (Executive Health) | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration erwartet |
 | **Sportmedizin-Zentren** | 11 | ~1.800–2.400 € | medizinisch-diagnostisches Selbstbild, Haftungstiefe |
 
