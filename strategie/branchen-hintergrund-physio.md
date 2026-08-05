@@ -131,3 +131,42 @@ bewusst aussortiert (passt nicht).*
     Selbstzweck. *(Nur mit Quellenangabe „Qualtrics 2026" verwenden.)*
 
 *Advertorial-Herkunft (medo.check u. a.) → weiterhin tool-agnostisch, keine Produktnamen.*
+
+---
+
+## Update: Branchenreport Physiotherapie 2026 (ETL ADVISION) — neuere Zahlen
+
+*Quelle: [Branchenreport Physiotherapie 2026](https://go.etl-advision.de/branchenreport-physiotherapie),
+ETL ADVISION. Erfasst am 2026-08-05. Löst den 2025er-Report oben bei überlappenden
+Kennzahlen ab (Praxenzahl, Umsatz) — die 2025er-Detailwerte (Ausfallhonorare, Taktung,
+Recruiting-Kanäle) bleiben als einzige Quelle dafür oben stehen, nicht ersetzt.*
+
+**Wirtschaftliche Eckdaten:**
+- **51.631 Physiotherapie-Praxen** in Deutschland, **+1,5 %** ggü. Vorjahr (2025: 50.888,
+  +1,1 %) — Wachstum setzt sich fort.
+- Ø **Jahresumsatz je Praxis: ~471.000 €** (2025: 415.000 €); Umsatz je therapeutischer
+  Vollzeitkraft: **~115.200 €**.
+- **86,8 % der Praxen bieten Selbstzahlerleistungen an** — passt direkt zur eigenen
+  Zielgruppen-Definition (privat/Selbstzahler-Anteil als Anker-Kriterium).
+- **58 % der Inhaber:innen bewerten ihre wirtschaftliche Lage als gut**, getragen vor
+  allem von Selbstzahlerleistungen — trotz Fachkräftemangel, steigender Kosten und
+  Teilzeit-Trend.
+- Für das laufende Jahr planen Praxen spürbare Investitionen in Weiterbildung, Geräte
+  **und Digitalisierung**.
+
+**Personal & Struktur:** weiterhin Teilzeitquote > 50 % und anhaltender
+Fachkräftemangel — deckt sich mit den 2025er-Zahlen oben.
+
+**KI & Digitalisierung — der wichtigste neue Befund:**
+- **Über 80 % der befragten Praxen stehen dem Einsatz von KI in der Verwaltung**
+  (Dokumentation, Abrechnung) **offen gegenüber.** Reale, unabhängige Bestätigung des
+  Kern-Schmerzes „Dokumentation nach Feierabend" + der Compliance-first-Positionierung —
+  keine Hypothese aus dem Silicon Sampling mehr, sondern eine belegte Branchenzahl.
+- Ein Drittel der Praxen bewertet die Anbindung an die Telematikinfrastruktur weiterhin
+  kritisch (deckt sich mit der TI-Zurückhaltung oben) — TI-Thema bleibt zurückgestellt.
+
+**Wie zitierfähig einsetzen:** als **Fremdquelle mit Datum** kennzeichnen, z. B. „Laut
+Branchenreport Physiotherapie 2026 (ETL ADVISION) stehen über 80 % der Praxen dem
+KI-Einsatz in der Verwaltung offen gegenüber." Ergänzt/bestätigt die Silicon-Sampling-Wahl
+von Physio als Tier-1-Segment mit echten Zahlen — ersetzt aber nicht die eigene
+Pain-Point-Aussage aus der Studie.

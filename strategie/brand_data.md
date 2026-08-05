@@ -54,6 +54,18 @@ unten. Bis dahin bewusst NICHT behaupten.)*
 
 ---
 
+## Externe Branchendaten: Physiotherapie (real, nicht synthetisch)
+
+Vollständig gepflegt in [`branchen-hintergrund-physio.md`](branchen-hintergrund-physio.md)
+(Stufe-5-Quelle „Seriöse Branchen-Reports"). Neuester Stand: **Branchenreport
+Physiotherapie 2026** (ETL ADVISION, erfasst 2026-08-05) — Kernbefund:
+**über 80 % der Praxen stehen KI in der Verwaltung (Dokumentation, Abrechnung) offen
+gegenüber**, dazu 51.631 Praxen (+1,5 %), Ø Jahresumsatz ~471.000 €, 86,8 % mit
+Selbstzahlerleistungen. Deutschland-weit, nicht 1:1 auf AT übertragbar. Ergänzt/bestätigt
+die Silicon-Sampling-Wahl von Physio als Tier-1-Segment mit echten Zahlen.
+
+---
+
 ## Methodik (reproduzierbare Schritte)
 
 ### A) Der Beratungs- & Umsetzungs-Prozess
