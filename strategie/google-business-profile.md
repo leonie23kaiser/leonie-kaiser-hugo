@@ -23,7 +23,7 @@ sauber gesetzt · Öffnungszeiten, Website und Telefon vorhanden.
 8. **Buchung:** Calendly-Link der Potenzialanalyse hinterlegen.
 9. **Name — niedrige Priorität, aber Vorsicht:** „Leonie Kaiser KI-Beratung" ist grenzwertig
    (Keyword im Namen). Kein Notfall — aber **mach es nicht schlimmer**. Sauber wäre dein echter
-   Brand „Leonie Kaiser · KI & Business Consulting". Achtung: Namensänderung kann eine erneute
+   Brand „Leonie Kaiser · KI & Digitalisierung". Achtung: Namensänderung kann eine erneute
    Google-Verifizierung auslösen — nur ändern, wenn dir das den Aufwand wert ist.
 
 ---
@@ -31,7 +31,7 @@ sauber gesetzt · Öffnungszeiten, Website und Telefon vorhanden.
 ## ⚠️ Zur Namens-Regel allgemein
 
 **Nur deinen echten Firmennamen verwenden** — z. B. „Leonie Kaiser" oder „Leonie Kaiser · KI &
-Business Consulting". **Keine Keywords in den Namen stopfen** (nicht „Leonie Kaiser KI-Beratung
+Digitalisierung". **Keine Keywords in den Namen stopfen** (nicht „Leonie Kaiser KI-Beratung
 für Praxen Wien"). Google verbietet das und **sperrt** Profile dafür. Keywords gehören in
 Beschreibung und Leistungen, nie in den Namen.
 

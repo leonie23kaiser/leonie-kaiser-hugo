@@ -1,4 +1,4 @@
-# Brand Data: Leonie Kaiser — KI & Business Consulting
+# Brand Data: Leonie Kaiser — KI & Digitalisierung
 
 *Welche EIGENEN Daten, Methoden und Geschichten die Marke hat — das, was eine KI als
 Quelle zitieren kann. Entwickelt im Brand-Data-Sparring, 2026-06-30.*
