@@ -44,6 +44,13 @@ Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlun
 
 ## Wer ich bin — und warum mich gerade dieses Problem nicht loslässt
 
+<figure style="max-width:400px;margin:var(--s6) auto;text-align:center">
+  <picture>
+    <source srcset="/images/Bild-2.webp" type="image/webp">
+    <img src="/images/Bild-2.png" alt="Leonie Kaiser, Gründerin von Leonie Kaiser KI &amp; Digitalisierung, im Porträt" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+  </picture>
+</figure>
+
 Ich bin Leonie Kaiser und begleite kleine Gesundheitspraxen dabei, ihren Alltag mit klaren Abläufen und KI zu entlasten.
 
 Über 20 Jahre Berufserfahrung, davon mehr als ein Jahrzehnt in international regulierten Gesundheits- und Pharmaunternehmen — unter anderem bei Merck, AbbVie und Baxter, in Digitalisierung, Marketing und Projektmanagement. Dort habe ich gelernt, wie wichtig klare, verlässliche Abläufe in komplexen Organisationen sind — und dass gute Organisation kein Selbstzweck ist, sondern Menschen den Rücken freihält. Danach habe ich Selbstständige und kleine Betriebe begleitet — immer mit derselben Frage im Kopf: Wie bauen wir Abläufe, die tragen, statt die Leitung zum Engpass zu machen?
