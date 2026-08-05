@@ -111,6 +111,11 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
   border-radius:var(--r-full);text-decoration:none;font-size:var(--base);font-weight:700;
   display:inline-flex;align-items:center;gap:var(--s2)}
 .btnp:hover{background:#064e65;transform:translateY(-2px);box-shadow:var(--sh-lg)}
+/* Kompakter CTA-Button am Seitenende - gleiche Hoehe wie der Menue-Button (.ncta) */
+.btnp-sm{padding:var(--s2) var(--s6);font-size:var(--sm)}
+/* "Weitere Leistungen": die drei anderen Bereiche in einer Reihe, mobil gestapelt */
+.morelinks{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s3);margin-top:var(--s4)}
+@media(max-width:600px){.morelinks{grid-template-columns:1fr}}
 .hactions .btnp,.btnp-pulse{animation:btnpPulse 2.2s ease-in-out infinite;box-shadow:0 0 0 0 rgba(83,0,73,.55)}
 .hactions .btnp:hover,.btnp-pulse:hover{animation:none}
 @keyframes btnpPulse{
@@ -233,7 +238,20 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
 .sprice{font-family:var(--fd);font-size:var(--lg);font-weight:800;
   color:var(--teal-d);margin-top:var(--s6);padding-top:var(--s5);border-top:1px solid var(--divider)}
 .spdesc{font-size:var(--xs);color:var(--muted);margin-top:var(--s1)}
+/* CTA unter dem Preis: einheitliche Hoehe, damit die Preiszeilen der Karten fluchten */
+.scta{min-height:46px;display:flex;align-items:center;margin-top:var(--s3)}
 .spricenote{font-size:var(--xs);color:inherit;font-weight:400;opacity:.7;margin-left:var(--s2)}
+
+/* Schritte-Grid (Leistungsseite): 3 Boxen nebeneinander, die 4. ueber volle Breite.
+   Mobil stapeln alle untereinander. */
+.stepgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4);margin-top:var(--s8)}
+.stepgrid .step-wide{grid-column:1/-1}
+@media(max-width:920px){.stepgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.stepgrid{grid-template-columns:1fr}.stepgrid .step-wide{grid-column:auto}}
+
+/* Karte, die im .sgrid zwei Spalten breit ist (z. B. "In jedem Projekt inklusive"). */
+.sgrid .scard-wide{grid-column:span 2}
+@media(max-width:600px){.sgrid .scard-wide{grid-column:auto}}
 
 /* ─── ABOUT ─── */
 .abgrid{display:grid;grid-template-columns:0.85fr 1.15fr;
@@ -547,8 +565,8 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
   .promo-list li, .promo-list li span { text-align: left !important; }
   .promo-box h2, .promo-title { text-align: center !important; }
 
-  /* ── Contact image: mobile WebP ── */
-  .kcontact-img img { content: url('/images/mobile-background-bild.webp') !important; }
+  /* ── Contact image: auf Mobile dasselbe Bild wie Desktop (blau/lila, ohne Portrait).
+       Frueherer Override auf mobile-background-bild.webp entfernt (Leonie 2026-07). ── */
 
   .pstep {
     border: 2px solid var(--teal-d) !important;
@@ -606,7 +624,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 }
 .um-hero-inner{
   max-width:1200px;margin-inline:auto;
-  display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(var(--s10),6vw,var(--s20));align-items:start;
+  display:grid;grid-template-columns:1fr 1.35fr;gap:clamp(var(--s10),6vw,var(--s20));align-items:start;
 }
 .um-photo{width:100%;max-width:400px;aspect-ratio:4/5;border-radius:var(--r-2xl);overflow:hidden;box-shadow:0 0 50px rgba(1,105,111,0.28),0 12px 40px rgba(0,0,0,0.12);margin-top:var(--s8);}
 .um-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}

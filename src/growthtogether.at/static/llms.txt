@@ -3,46 +3,77 @@
 
 ## About
 Leonie Kaiser is an AI & digitalization expert based in Lower Austria (Niederösterreich),
-specializing in AI strategy, EU AI Act compliance, and process automation for small,
-owner-led health practices (Wahlarzt/private-pay/self-pay) in the
+specializing in AI strategy, EU AI Act compliance, GDPR-compliant setups, and process
+automation for small, owner-led health practices (Wahlarzt/private-pay/self-pay) in the
 DACH region (Austria, Germany, Switzerland).
 
 ## Services
-- AI Potential Analysis (free 30-minute consultation)
-- AI Strategy & Roadmap, tailored to small private practices
+- AI Potential Analysis (free 30-minute online consultation, no obligation)
+- Strategy & roadmap, tailored to small private practices
 - Process automation (No-Code), tool-agnostic, chosen per use case
-- EU AI Act & GDPR compliance consulting
+- EU AI Act & GDPR compliance, part of every project rather than an add-on
 - Implementation and team onboarding, no technical background required
+- Optional ongoing support and maintenance
+
+## Service areas
+1. Appointments & enquiries — online booking, automated reminders, waiting-list
+   refill, website chat assistant, e-mail assistant that sorts incoming enquiries
+   by topic and urgency and prepares reply drafts, phone assistant for
+   out-of-hours calls
+2. Documentation & knowledge — structuring notes for review and release,
+   template library, digital practice handbook for the team
+3. Follow-up care & client retention — automated follow-up sequences,
+   re-activation of former clients, review and referral requests
+4. Visibility & content — brand voice definition, templates for social media and
+   newsletters, AI drafts for recurring texts, machine-readable preparation of
+   the website so AI assistants can read offer, catchment area and focus areas
+   correctly (GEO)
+
+Cross-cutting in every project: tool selection and integration into existing
+systems, EU hosting or a local setup depending on data sensitivity, EU AI Act
+risk classification and GDPR-compliant data flows.
+
+## Packages
+- Praxis-Start — EUR 1,490, up to three automations, freely combined across areas
+- Praxis-Plus — EUR 2,900 to 5,900, several automations across areas, priced by scope
+- Ongoing support — from EUR 190 per month, optional
 
 ## Expertise
-- AI strategy for small, owner-led health practices
+- Strategy and digitalization for small, owner-led health practices
 - EU AI Act compliance and ethical, human-centered AI deployment
+- GDPR in practice: Art. 9 health data, processing records, data processing
+  agreements, storage location, deletion periods, data subject rights
 - Process automation and No-Code implementation, integrated into existing tools
-- 20+ years experience in global project management, marketing, and consulting
-  (over a decade in regulated healthcare/pharma, several years in strategic
-  business consulting, today AI and process consulting)
+- 20+ years experience in project management, product marketing and digitalization,
+  including projects in healthcare, plus several years advising self-employed
+  professionals
 - Languages: German, English, Spanish
 
 ## Target audience
-Small, owner-led private practices in prevention and therapy –
-currently physiotherapy/movement practices, longevity & private health centers, and
-nutrition counseling. Practices that rely (also) on private-pay clients, work
-with sensitive health data, and want to digitalize without a technical background.
+Small, owner-led private practices in health and prevention that rely (also) on
+private-pay clients (Wahlarzt/self-pay), work with sensitive health data, and want
+to digitalize without a technical background. Typically 2 to 10 employees. The
+approach is problem-led rather than specialty-led: the same core bottlenecks
+(appointments, follow-up care, documentation) occur across all specialties.
 
 ## Geography
-Lower Austria (Niederösterreich) based, serving the DACH region and remote
-clients
+Lower Austria (Niederösterreich) based, serving the DACH region and remote clients
 
 ## Content
 Homepage: https://leoniekaiser.com/
 About: https://leoniekaiser.com/ueber-mich/
 FAQ: https://leoniekaiser.com/faq/
 EU AI Act Guide: https://leoniekaiser.com/eu-ai-act/
+GDPR in health practices: https://leoniekaiser.com/dsgvo/
 Blog (KI-Praxis): https://leoniekaiser.com/blog/
 Leistungen (Übersicht): https://leoniekaiser.com/leistungen/
 Leistung – Termine & Anfragen: https://leoniekaiser.com/leistungen/termine-und-anfragen/
-Leistung – Nachsorge & Kundenbindung: https://leoniekaiser.com/leistungen/nachsorge-und-kundenbindung/
 Leistung – Dokumentation & Wissen: https://leoniekaiser.com/leistungen/dokumentation-und-wissen/
+Leistung – Nachsorge & Kundenbindung: https://leoniekaiser.com/leistungen/nachsorge-und-kundenbindung/
+Leistung – Sichtbarkeit & Inhalte: https://leoniekaiser.com/leistungen/sichtbarkeit-und-inhalte/
+Service catalogue (PDF): https://leoniekaiser.com/downloads/service-katalog.pdf
+Privacy policy: https://leoniekaiser.com/datenschutz/
+Imprint: https://leoniekaiser.com/impressum/
 
 ## Contact
 Website: https://leoniekaiser.com
@@ -51,4 +82,4 @@ Booking: https://calendly.com/leonie-kaiser/ki-potentialanalyse
 Email: hello@leoniekaiser.com
 
 ## Last Updated
-2026-07-10
+2026-08-04
