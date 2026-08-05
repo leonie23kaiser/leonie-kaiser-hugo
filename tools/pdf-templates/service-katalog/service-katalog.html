@@ -1,7 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="de">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"/>
 <title>Service-Katalog · Leonie Kaiser</title>
 <style>
   /* A4 einseitig. Fliesstext nirgends unter 11px, auch nicht in Zusatz-Boxen.
@@ -11,7 +12,7 @@
   html, body { margin:0; padding:0; }
   body {
     font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color:#1d2228; font-size:11px; line-height:1.45;
+    color:#1d2228; font-size:12.1px; line-height:1.42;
     height: 275mm;                 /* A4 minus Seitenraender */
     display:flex; flex-direction:column;
   }
@@ -36,25 +37,23 @@
            padding:8px 12px; font-size:11px; color:#374151; }
 
   /* Preisboxen wie auf der Leistungsseite: Praxis-Start, Praxis-Plus, Laufende Betreuung */
-  .prices { display:flex; gap:10px; }
-  .pcard { flex:1; border:1px solid #ece3d8; border-radius:9px; padding:9px 11px;
+  .prices { display:flex; gap:10px; margin-bottom:15px; }
+  .pcard { flex:1; border:1.5px solid #d9c5e8; border-radius:9px; padding:11px 13px;
            display:flex; flex-direction:column; break-inside:avoid; }
-  .pcard.feat { border:2px solid #086584; }
   .pcard .ptag { display:inline-block; align-self:flex-start; font-size:11px; font-weight:800;
-                 letter-spacing:.05em; text-transform:uppercase; color:#086584;
-                 background:#E7F4F4; border-radius:999px; padding:1px 8px; margin-bottom:4px; }
-  .pcard h3 { color:#1d2228; margin:0 0 2px; }
-  .pcard .pprice { font-weight:800; color:#086584; font-size:15px; margin-bottom:4px; }
-  .pcard p { color:#374151; font-size:11px; }
+                 letter-spacing:.05em; text-transform:uppercase; color:#6B2C8C;
+                 background:#EFE6F6; border-radius:999px; padding:1px 8px; margin-bottom:5px; }
+  .pcard h3 { color:#1d2228; margin:0 0 3px; }
+  .pcard .pprice { font-weight:800; color:#6B2C8C; font-size:16px; margin-bottom:5px; }
+  .pcard p { color:#374151; }
 
   /* Leistungsbereiche: zwei Spalten, gleichmaessig ueber die Resthoehe verteilt */
-  .cols { display:flex; gap:16px; flex:1; }
-  .cols > div { flex:1; display:flex; flex-direction:column; justify-content:space-between; gap:10px; }
+  .cols { display:grid; grid-template-columns:1fr 1fr; column-gap:18px; row-gap:12px; }
   .area { break-inside:avoid; }
-  .area .solves { color:#5b6572; font-style:italic; font-size:11px; margin-top:2px; }
+  .area .solves { color:#5b6572; font-style:italic; margin-top:3px; }
 
   .basis { break-inside:avoid; border:1px solid #e7d6ef; background:#faf7fc;
-           border-radius:8px; padding:9px 12px; }
+           border-radius:8px; padding:10px 13px; margin-top:2px; }
   .basis h2 { border-bottom-color:#e7d6ef; }
   .basis .inline { display:flex; gap:16px; }
   .basis .inline > div { flex:1; }
@@ -64,118 +63,112 @@
              font-size:13px; padding:10px 26px; border-radius:999px; text-decoration:none; }
   .cta-sub { margin-top:5px; font-size:11px; color:#5b6572; }
 
-  .foot { border-top:2px solid #EDF7F2; padding-top:7px; display:flex;
+  .foot { border-top:2px solid #EDF7F2; padding-top:5px; display:flex;
           justify-content:space-between; align-items:center; font-size:11px; color:#5b6572; }
 
   /* Gleichmaessige vertikale Verteilung der Hauptbloecke */
-  body > * { margin-bottom:10px; }
+  body > * { margin-bottom:6px; }
   body > *:last-child { margin-bottom:0; }
 </style>
 </head>
 <body>
-  <div class="head">
-    <div>
-      <div class="eyebrow">Service-Katalog</div>
-      <h1>KI &amp; Digitalisierung für Gesundheitspraxen</h1>
-      <div class="sub">Was sich in Ihrer Praxis automatisieren lässt — datenschutzkonform von Anfang an.</div>
+<div class="head">
+<div>
+<div class="eyebrow">Service-Katalog</div>
+<h1>KI &amp; Digitalisierung für Gesundheitspraxen</h1>
+<div class="sub">Was sich in Ihrer Praxis automatisieren lässt — datenschutzkonform von Anfang an.</div>
+</div>
+<div class="role">
+<b>Leonie Kaiser</b><br/>KI- &amp; Digitalisierungs-Expertin<br/>ortsunabhängig, DACH-weit<br/>leoniekaiser.com
     </div>
-    <div class="role">
-      <b>Leonie Kaiser</b><br>KI- &amp; Digitalisierungs-Expertin<br>ortsunabhängig, DACH-weit<br>leoniekaiser.com
-    </div>
-  </div>
-
-  <div class="intro">
+</div>
+<div class="intro">
     Alle Leistungen sind einzeln wählbar und kombinierbar. In der kostenfreien Potenzialanalyse finden wir gemeinsam heraus, welche Automatisierungen für Ihre Praxis den größten Nutzen bringen. Grundprinzip: erst die Prozesse, dann das Tool, datenschutzkonform.
   </div>
+<div class="prices">
+<div class="pcard">
+<span class="ptag">Bis zu 3 Automatisierungen</span>
+<h3>Praxis-Start</h3>
+<div class="pprice">€ 1.490</div>
+<p>Bis zu drei Automatisierungen, frei aus allen Bereichen kombinierbar. Fertig eingerichtet, in Ihre Systeme integriert und inklusive Einweisung Ihres Teams.</p>
+</div>
+<div class="pcard">
+<span class="ptag">Individuelle Lösung</span>
+<h3>Praxis-Plus</h3>
+<div class="pprice">€ 2.900 – 5.900</div>
+<p>Mehrere Automatisierungen über Bereiche hinweg, nach der Potenzialanalyse priorisiert, mit Strategie, Umsetzung und Einweisung. Der Preis richtet sich nach dem Umfang.</p>
+</div>
+<div class="pcard">
+<span class="ptag">Optional</span>
+<h3>Laufende Betreuung</h3>
+<div class="pprice">ab € 190 / Monat</div>
+<p>Laufende Wartung Ihrer Abläufe und Anpassungen, wenn sie anfallen. Dazu eine feste Ansprechpartnerin, wenn Sie langfristig begleitet werden möchten.</p>
+</div>
+</div>
+<div class="cols">
 
-  <div class="prices">
-    <div class="pcard feat">
-      <span class="ptag">Bis zu 3 Automatisierungen</span>
-      <h3>Praxis-Start</h3>
-      <div class="pprice">€ 1.490</div>
-      <p>Bis zu drei Automatisierungen, frei aus allen Bereichen kombinierbar. Fertig eingerichtet, in Ihre Systeme integriert und inklusive Einweisung Ihres Teams.</p>
-    </div>
-    <div class="pcard">
-      <span class="ptag">Individuelle Lösung</span>
-      <h3>Praxis-Plus</h3>
-      <div class="pprice">€ 2.900 – 5.900</div>
-      <p>Mehrere Automatisierungen über Bereiche hinweg, nach der Potenzialanalyse priorisiert, mit Strategie, Umsetzung und Einweisung. Der Preis richtet sich nach dem Umfang.</p>
-    </div>
-    <div class="pcard">
-      <span class="ptag">Optional</span>
-      <h3>Laufende Betreuung</h3>
-      <div class="pprice">ab € 190 / Monat</div>
-      <p>Laufende Wartung Ihrer Abläufe und Anpassungen, wenn sie anfallen. Dazu eine feste Ansprechpartnerin, wenn Sie langfristig begleitet werden möchten.</p>
-    </div>
-  </div>
+<div class="area">
+<h2>1 · Termine &amp; Anfragen</h2>
+<div class="solves">Weniger Ausfälle, weniger Rückfragen am Telefon. Die Koordination läuft, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet.</div>
+<ul>
+<li><b>Online-Terminbuchung</b> mit Selbstbuchungslink.</li>
+<li><b>Automatische Erinnerungen &amp; Wartelisten-Nachbesetzung.</b></li>
+<li><b>Chat-Assistent</b> auf Ihrer Website für Erstanfragen.</li>
+<li><b>E-Mail-Assistent:</b> stuft eingehende Anfragen nach Dringlichkeit ein und erstellt einen Antwortentwurf in Ihrer Tonalität.</li>
+<li><b>Telefonassistent</b> für Anrufe außerhalb der Öffnungszeiten.</li>
+</ul>
+</div>
+<div class="area">
+<h2>2 · Dokumentation &amp; Wissen</h2>
+<div class="solves">Kaum noch Papierkram nach Feierabend, einheitliche Dokumentation, und Vertretung oder Einarbeitung wird deutlich leichter.</div>
+<ul>
+<li><b>Notizen strukturieren:</b> Sie lesen gegen und geben frei, die fachliche Beurteilung bleibt bei Ihnen.</li>
+<li><b>Vorlagen-Bibliothek</b> für Berichte, Rückmeldungen an Zuweiser und individuelle Pläne.</li>
+<li><b>Digitales Praxis-Handbuch für Ihr Team</b> für wiederkehrende Abläufe, Zuständigkeiten und häufige Fragen.</li>
+</ul>
+</div>
 
-  <div class="cols">
-    <div>
-      <div class="area">
-        <h2>1 · Termine &amp; Anfragen</h2>
-        <div class="solves">Weniger Ausfälle, weniger Rückfragen am Telefon. Die Koordination läuft, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet.</div>
-        <ul>
-          <li><b>Online-Terminbuchung</b> mit Selbstbuchungslink.</li>
-          <li><b>Automatische Erinnerungen &amp; Wartelisten-Nachbesetzung.</b></li>
-          <li><b>Chat-Assistent</b> auf Ihrer Website für Erstanfragen.</li>
-          <li><b>E-Mail-Assistent:</b> stuft eingehende Anfragen nach Dringlichkeit ein und erstellt einen Antwortentwurf in Ihrer Tonalität.</li>
-          <li><b>Telefonassistent</b> für Anrufe außerhalb der Öffnungszeiten.</li>
-        </ul>
-      </div>
-      <div class="area">
-        <h2>2 · Dokumentation &amp; Wissen</h2>
-        <div class="solves">Kaum noch Papierkram nach Feierabend, einheitliche Dokumentation, und Vertretung oder Einarbeitung wird deutlich leichter.</div>
-        <ul>
-          <li><b>Notizen strukturieren:</b> Sie lesen gegen und geben frei, die fachliche Beurteilung bleibt bei Ihnen.</li>
-          <li><b>Vorlagen-Bibliothek</b> für Berichte, Rückmeldungen an Zuweiser und individuelle Pläne.</li>
-          <li><b>Digitales Praxis-Handbuch für Ihr Team</b> für wiederkehrende Abläufe, Zuständigkeiten und häufige Fragen.</li>
-        </ul>
-      </div>
-    </div>
-    <div>
-      <div class="area">
-        <h2>3 · Nachsorge &amp; Kundenbindung</h2>
-        <div class="solves">Der Kontakt zur Kundschaft bleibt bestehen, ohne extra Aufwand. Mehr Folgetermine und planbarere Auslastung.</div>
-        <ul>
-          <li><b>Automatisierte Nachsorge-Sequenzen</b> nach Behandlung, Programm oder Erstberatung.</li>
-          <li><b>Reaktivierung früherer Kundschaft</b> zum passenden Zeitpunkt, damit Ihre Praxis in Erinnerung bleibt statt in Vergessenheit zu geraten.</li>
-          <li><b>Bewertungs- und Empfehlungsanfragen</b> automatisch nach dem Termin.</li>
-        </ul>
-      </div>
-      <div class="area">
-        <h2>4 · Sichtbarkeit &amp; Inhalte</h2>
-        <div class="solves">Kein laufender Redaktionsservice, sondern Vorlagen, die Ihnen die Vorbereitung abnehmen.</div>
-        <ul>
-          <li><b>Ihre Tonalität festlegen (Brand Voice)</b> als Vorgabe für jeden weiteren Text.</li>
-          <li><b>Vorlagen</b> für Social Media und Newsletter.</li>
-          <li><b>KI-Entwürfe</b> für wiederkehrende Texte, die nach Ihnen klingen.</li>
-          <li><b>Auffindbarkeit in KI-Suchen (GEO).</b></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <div class="basis">
-    <h2 class="violet">Technische &amp; rechtliche Basis <span class="sub">— in jedem Projekt inklusive</span></h2>
-    <div class="inline">
-      <div><ul>
-        <li><b>Tool-Auswahl &amp; Integration</b> in Ihre bestehenden Systeme, tool-agnostisch.</li>
-        <li><b>EU-Hosting oder lokale Lösung</b>, je nach Sensibilität Ihrer Daten.</li>
-      </ul></div>
-      <div><ul>
-        <li><b>EU-AI-Act-Einstufung &amp; DSGVO-konforme Datenflüsse:</b> jedes Tool wird vor dem Einsatz geprüft, inklusive Auftragsverarbeitungsverträgen mit jedem Anbieter.</li>
-      </ul></div>
-    </div>
-  </div>
+<div class="area">
+<h2>3 · Nachsorge &amp; Kundenbindung</h2>
+<div class="solves">Der Kontakt zur Kundschaft bleibt bestehen, ohne extra Aufwand. Mehr Folgetermine und planbarere Auslastung.</div>
+<ul>
+<li><b>Automatisierte Nachsorge-Sequenzen</b> nach Behandlung, Programm oder Erstberatung.</li>
+<li><b>Reaktivierung früherer Kundschaft</b> zum passenden Zeitpunkt, damit Ihre Praxis in Erinnerung bleibt statt in Vergessenheit zu geraten.</li>
+<li><b>Bewertungs- und Empfehlungsanfragen</b> automatisch nach dem Termin.</li>
+</ul>
+</div>
+<div class="area">
+<h2>4 · Sichtbarkeit &amp; Inhalte</h2>
+<div class="solves">Kein laufender Redaktionsservice, sondern Vorlagen, die Ihnen die Vorbereitung abnehmen.</div>
+<ul>
+<li><b>Ihre Tonalität festlegen (Brand Voice)</b> als Vorgabe für jeden weiteren Text.</li>
+<li><b>Vorlagen</b> für Social Media und Newsletter.</li>
+<li><b>KI-Entwürfe</b> für wiederkehrende Texte, die nach Ihnen klingen.</li>
+<li><b>Auffindbarkeit in KI-Suchen (GEO).</b></li>
+</ul>
+</div>
 
-  <div class="cta-btn-wrap">
-    <a class="cta-btn" href="https://calendly.com/leonie-kaiser/ki-potentialanalyse">Kostenfreie Potenzialanalyse buchen →</a>
-    <div class="cta-sub">30 Minuten · online · unverbindlich &nbsp;·&nbsp; leoniekaiser.com</div>
-  </div>
-
-  <div class="foot">
-    <div>Leonie Kaiser · KI &amp; Digitalisierung · EU AI Act &amp; DSGVO konform</div>
-    <div>Stand: August 2026</div>
-  </div>
+</div>
+<div class="basis">
+<h2 class="violet">Technische &amp; rechtliche Basis <span class="sub">— in jedem Projekt inklusive</span></h2>
+<div class="inline">
+<div><ul>
+<li><b>Tool-Auswahl &amp; Integration</b> in Ihre bestehenden Systeme, tool-agnostisch.</li>
+<li><b>EU-Hosting oder lokale Lösung</b>, je nach Sensibilität Ihrer Daten.</li>
+</ul></div>
+<div><ul>
+<li><b>EU-AI-Act-Einstufung &amp; DSGVO-konforme Datenflüsse:</b> jedes Tool wird vor dem Einsatz geprüft, inklusive Auftragsverarbeitungsverträgen mit jedem Anbieter.</li>
+</ul></div>
+</div>
+</div>
+<div class="cta-btn-wrap">
+<a class="cta-btn" href="https://calendly.com/leonie-kaiser/ki-potentialanalyse">Kostenfreie Potenzialanalyse buchen →</a>
+<div class="cta-sub">30 Minuten · online · unverbindlich  ·  leoniekaiser.com</div>
+</div>
+<div class="foot">
+<div>Leonie Kaiser · KI &amp; Digitalisierung · EU AI Act &amp; DSGVO konform</div>
+<div>Stand: August 2026</div>
+</div>
 </body>
 </html>
