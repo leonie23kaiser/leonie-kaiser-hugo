@@ -828,8 +828,8 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .jf-btn.active{background:var(--teal-d);color:#fff;border-color:var(--teal-d)}
 
 /* ---- Journal/Article body typography (.page-content, journal/single.html) --- */
-.page-content h2{font-size:var(--xl);font-weight:800;margin-top:var(--s10);margin-bottom:var(--s4)}
-.page-content h3{font-size:var(--lg);font-weight:700;margin-top:var(--s8);margin-bottom:var(--s3)}
+.page-content h2{font-size:var(--lg);font-weight:800;margin-top:var(--s10);margin-bottom:var(--s4);clear:both}
+.page-content h3{font-size:clamp(1.05rem,1rem + .3vw,1.25rem);font-weight:700;margin-top:var(--s8);margin-bottom:var(--s3);clear:both}
 .page-content h2:first-child,.page-content h3:first-child{margin-top:0}
 .page-content p{margin-bottom:var(--s5)}
 .page-content ul,.page-content ol{margin:0 0 var(--s5);padding-left:var(--s6)}
@@ -843,3 +843,8 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .page-content blockquote p{margin-bottom:0}
 .page-content figure{margin:var(--s8) auto}
 .page-content figure figcaption{text-align:center}
+.page-content figure.float-right{float:right;margin:var(--s2) 0 var(--s5) var(--s8);max-width:280px}
+.page-content figure.float-left{float:left;margin:var(--s2) var(--s8) var(--s5) 0;max-width:280px}
+@media(max-width:640px){
+  .page-content figure.float-right,.page-content figure.float-left{float:none;margin:var(--s8) auto;max-width:280px}
+}

@@ -1,7 +1,7 @@
 ---
 title: '„Ohne mich läuft hier nichts“ — wenn alles an der Leitung hängt'
 slug: "praxis-haengt-an-der-leitung"
-description: "Warum in kleinen Praxen so viel an der Leitung hängt, was wirklich hilft — und wer hinter dieser KI-Beratung für kleine Gesundheitspraxen steht."
+description: "Warum in kleinen Praxen so viel an der Leitung hängt, was wirklich hilft — und wer als KI- & Digitalisierungs-Expertin für kleine Praxen dahintersteht."
 date: 2026-08-04
 lastmod: 2026-08-04
 author: "Leonie Kaiser"
@@ -11,6 +11,8 @@ coverCredit: "pixelshot / Canva Pro"
 category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]
+ctaHeadline: "Nächster Schritt: Damit nicht mehr alles an Ihnen hängt"
+ctaText: "In 30 Minuten zeigen wir gemeinsam, wo Sie als Leitung am meisten entlastet werden. Kostenfrei, unverbindlich, online."
 draft: false
 ---
 
@@ -42,9 +44,9 @@ Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlun
 
 > Ein gutes Tool kann Abläufe spürbar erleichtern und beschleunigen — aber erst, wenn klar ist, welcher Ablauf eigentlich dahintersteht. Deshalb schaue ich mir immer zuerst Ihre Abläufe an, bevor wir über ein Tool sprechen.
 
-## Wer ich bin — und warum mich gerade dieses Problem nicht loslässt
+## Wer ich bin — und warum mich gerade dieses Thema nicht loslässt
 
-<figure style="max-width:400px;margin:var(--s6) auto;text-align:center">
+<figure class="float-right">
   <picture>
     <source srcset="/images/Bild-2.webp" type="image/webp">
     <img src="/images/Bild-2.png" alt="Leonie Kaiser, Gründerin von Leonie Kaiser KI &amp; Digitalisierung, im Porträt" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
@@ -69,7 +71,7 @@ Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geh
 
 ### Datenschutz ist der Ausgangspunkt
 
-Sie arbeiten mit Gesundheitsdaten. Für mich heißt das: Datenschutz ist bei jeder Lösung, die ich mit Ihnen aufsetze, der erste Gedanke — ob es dabei um ein KI-System geht oder um einen einfachen Ablauf. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis konkret bedeutet, lesen Sie auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [DSGVO](/dsgvo/).
+Sie arbeiten mit Gesundheitsdaten. Für mich heißt das: Datenschutz ist bei jeder Lösung, die ich mit Ihnen aufsetze, der erste Gedanke — ob es dabei um ein KI-System geht oder um einen einfachen Ablauf. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis konkret bedeutet, lesen Sie auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum <a href="/dsgvo/">DSGVO</a>.
 
 ### Wenn KI nicht die Lösung ist, sage ich es
 
@@ -83,9 +85,9 @@ In einer kleinen Praxis steht das Telefon kaum still. Anfragen kommen parallel p
 
 Bevor wir über Technik reden, schauen wir uns den Ablauf an. Und meist zeigt sich: Es fehlt nicht ein bestimmtes Tool, sondern eine klare Regel, wer wann welche Anfrage beantwortet und wo sie sichtbar landet. Schon das Bündeln aller Kanäle an einem Ort und eine einfache Reihenfolge nehmen spürbar Druck vom Empfang — noch bevor irgendeine KI im Spiel ist.
 
-Erst wenn dieser Ablauf steht, stellt sich die Frage nach dem Tool. Jetzt kann Technik das Wiederkehrende übernehmen: etwa eine automatische Eingangsbestätigung, damit niemand im Ungewissen wartet, oder eine Erinnerung vor dem Termin. Dann verstärkt das Tool einen guten Prozess, statt einen unklaren zu beschleunigen. Das ist der Unterschied.
+Erst wenn dieser Ablauf steht, stellt sich die Frage nach der passenden Software. Jetzt kann sie das Wiederkehrende übernehmen: etwa eine automatische Eingangsbestätigung, damit niemand im Ungewissen wartet, oder eine Erinnerung vor dem Termin. So verstärkt sie einen guten Prozess, statt einen unklaren zu beschleunigen. Das ist der Unterschied.
 
-## Was Sie hier im Journal erwartet
+## Was Sie hier im Blog erwartet
 
 Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation, Nachsorge — dazu, wie Sie mit Ihrer Kundschaft klarer kommunizieren und wie Sie online besser gefunden werden. Immer praxisnah, immer mit dem Datenschutz im Blick. Wenn Sie sehen möchten, wo ich konkret ansetze, werfen Sie einen Blick auf meine [Leistungen](/leistungen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
 
@@ -100,8 +102,8 @@ Ein guter Test: Fragen Sie sich, was tatsächlich liegen bleibt, wenn Sie einen 
 Ja, sehr oft sogar. Viele Zeitfresser entstehen nicht durch fehlende Technik, sondern durch unklare Abläufe und doppelte Arbeit. Ein aufgeräumter Prozess bringt spürbar Entlastung, bevor überhaupt ein Tool ins Spiel kommt.
 
 **Darf ich als Gesundheitspraxis überhaupt KI einsetzen?**
-Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließen. Datenschutz und der EU AI Act sind für mich bei jedem Setup der erste Gedanke — mehr dazu auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [DSGVO](/dsgvo/).
+Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließen. Datenschutz und der EU AI Act sind für mich bei jedem Setup der erste Gedanke — mehr dazu auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum <a href="/dsgvo/">DSGVO</a>.
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie das Gefühl kennen, dass zu viel an Ihnen hängt — dann lassen Sie uns einmal gemeinsam draufschauen, wo Ihre Praxis im Alltag Zeit verliert und an welcher Stelle sich der erste Schritt am meisten lohnt. In Ruhe, ohne Druck.
+Wenn Sie das Gefühl kennen, dass zu viel an Ihnen hängt — dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse gemeinsam an: wo Ihre Praxis im Alltag Zeit verliert und an welcher Stelle sich der erste Schritt am meisten lohnt. In Ruhe, ohne Druck.

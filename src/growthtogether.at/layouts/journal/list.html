@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="sec sec-white" style="padding-top:calc(78px + clamp(var(--s10),5vw,var(--s16)))">
   <div class="conw">
-    <div class="slabel">Journal</div>
+    <div class="slabel">Blog</div>
     <h1 class="stitle">{{ .Title }}</h1>
     {{ with .Description }}<p class="sdesc">{{ . }}</p>{{ end }}
     {{ .Content }}

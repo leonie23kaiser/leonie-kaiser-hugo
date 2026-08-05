@@ -120,9 +120,23 @@ stehen in `assets/css/brand.css`, Abschnitt „Journal/Article body typography" 
 - **Überschriften-Abstand:** H2/H3 im Fließtext hatten ursprünglich **keinen** Abstand nach
   oben (globaler `margin:0`-Reset) — dadurch klebten sie am vorherigen Absatz. Jetzt: H2
   `margin-top: var(--s10)`, H3 `margin-top: var(--s8)`, erstes Element ohne Top-Abstand.
+- **Überschriften-Größe:** H2 = `var(--lg)`, H3 = ein Stück kleiner (`clamp(1.05rem,1rem + .3vw,1.25rem)`).
+  H2 war anfangs `var(--xl)` — praktisch so groß wie die H1 der Seite, kaum zu unterscheiden.
 - **Blockzitat (`>` im Markdown):** bekommt jetzt Teal-Balken links, hellgrüner Hintergrund,
   kursiv — vorher unsichtbar (kein Rahmen, kein Abstand, sah wie normaler Text aus).
 - **Links im Fließtext:** Teal (`--teal-d`), unterstrichen — vorher browser-default (schwarz/blau).
+- **Bild im Fließtext, Text drumherum:** `<figure class="float-right">` bzw. `float-left`
+  (Klassen in `brand.css`) — auf Mobile automatisch nicht mehr geflotet, sondern zentriert
+  (`@media max-width:640px`). H2/H3 haben `clear:both`, damit eine Überschrift nie neben
+  einem geflloteten Bild "klemmt".
+- **Goldmark-Link-Bug (wichtig für Formulierungen):** Hugo/Goldmark fügt bei jedem
+  Markdown-Link (`[Text](/url/)`) ein unsichtbares Newline direkt vor dem schließenden
+  `</a>` ein. Folgt danach ein Leerzeichen + Wort, gleicht sich das aus (sieht normal aus).
+  **Folgt aber direkt ein Satzzeichen ohne Leerzeichen** (z. B. `[DSGVO](/dsgvo/).`), rendert
+  der Browser eine sichtbare Lücke vor dem Satzzeichen. **Workaround:** an solchen Stellen
+  rohes HTML statt Markdown-Syntax verwenden — `<a href="/dsgvo/">DSGVO</a>.` (funktioniert,
+  weil `markup.goldmark.renderer.unsafe = true` gesetzt ist). Betrifft potenziell jeden
+  Blogpost, nicht nur diesen. (Leonie, 2026-08.)
 - Bei neuen Journal-/Artikel-Layouts (z. B. später `/dsgvo/`, `/eu-ai-act/` falls die auch
   Markdown-Fließtext bekommen) prüfen, ob `.page-content` wiederverwendet werden kann, statt
   denselben Abstands-Bug erneut einzubauen.
