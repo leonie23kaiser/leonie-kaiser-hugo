@@ -169,6 +169,32 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   „Wer haftet, wenn etwas schiefgeht?“, „keine automatische Diagnose“,
   Straf-/Sanktionsdrohungen). Sachlich informieren, nicht verunsichern.
   (Leonie, 2026-07: „das schürt nur Ängste bei meinen Klienten“.)
+- **Kein übertriebener Experten-/Erfahrungsanspruch dort, wo er nicht der Realität
+  entspricht.** Leonies 20+ Jahre Berufserfahrung sind real und dürfen benannt
+  werden (siehe `strategie/linkedin-profil.md`) — aber Formulierungen wie „das
+  sehe ich immer wieder“ oder „in den letzten Jahren oft gehört“ suggerieren
+  jahrelange Erfahrung *in der Gesundheitspraxen-Beratung selbst*, die es noch
+  nicht gibt. Präsens/neutral formulieren („diesen Satz höre ich häufig“) statt
+  eine lange Historie in genau diesem Feld zu behaupten. (Leonie, 2026-08.)
+- **Keine pauschalen Abwertungen** von Team oder Abläufen („Team schlecht“,
+  „Chaos“ als Zustand). Konkret und differenziert benennen, was tatsächlich
+  fehlt (z. B. „Abläufe nicht ausreichend eingespielt“). (Leonie, 2026-08.)
+- **„Das ist kein persönliches Versagen“ und ähnliche Rechtfertigungs-Sätze**
+  grundsätzlich vermeiden — sie unterstellen implizit einen Vorwurf, den
+  niemand erhoben hat. Direkt beim Beobachtbaren bleiben. (Leonie, 2026-08.)
+- **Keine Personifizierung von Institutionen** („die Praxis ärgert sich“,
+  „das Unternehmen fühlt“). Handelnde sind immer Menschen. (Leonie, 2026-08.)
+- **Keine Verkaufsrhetorik-Phrasen** („Ich verdiene mein Geld nicht damit …“,
+  „Ehrlichkeit hält länger als der schnelle Abschluss“). Den Punkt schlicht und
+  sachlich machen, ohne ihn als Verkaufsargument zu inszenieren. (Leonie, 2026-08.)
+- **„verpflichten“/„verpflichtet“ vermeiden, auch verneint** („ohne dass Sie
+  sich verpflichten“) — das Wort trägt eine negative Konnotation, die auch in
+  der Verneinung anklingt. Neutral umschreiben („ohne Druck“, „in Ruhe“).
+  (Leonie, 2026-08.)
+- **„tool-agnostisch“ ist ein interner Fachbegriff** — nur in Strategie-Dokumenten,
+  nie in Kundentexten (Blog/Journal, Website, Social). Dort stattdessen z. B.
+  „ohne feste Präferenz für ein bestimmtes Tool“ oder direkt den Nutzen nennen.
+  (Leonie, 2026-08.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 

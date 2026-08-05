@@ -5,6 +5,23 @@
     <h1 class="stitle" style="font-size:clamp(1.75rem,3.5vw,2.5rem);line-height:1.15">{{ .Title }}</h1>
     {{ with .Description }}<p class="sdesc">{{ . }}</p>{{ end }}
 
+    {{ $cover := .Params.cover }}
+    {{ if $cover }}
+    <figure style="margin:var(--s6) 0 0">
+      <div style="border-radius:var(--r-xl);overflow:hidden">
+        {{ $coverAlt := .Params.coverAlt | default .Title }}
+        {{ if resources.Get $cover }}
+          {{ partial "picture.html" (dict "src" $cover "alt" $coverAlt "ratio" "16/9" "sizes" "(max-width:760px) 100vw, 760px" "widths" (slice 400 800 1200) "eager" true) }}
+        {{ else }}
+          <img src="{{ $cover | relURL }}" alt="{{ $coverAlt }}" loading="eager">
+        {{ end }}
+      </div>
+      {{ with .Params.coverCredit }}
+      <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2)">Bild: {{ . }}</figcaption>
+      {{ end }}
+    </figure>
+    {{ end }}
+
     <div style="display:flex;gap:var(--s4);flex-wrap:wrap;align-items:center;font-size:var(--xs);color:var(--muted);margin:var(--s5) 0 var(--s8);padding-block:var(--s4);border-top:1px solid var(--divider);border-bottom:1px solid var(--divider)">
       <span><strong style="color:var(--text)">Von {{ .Params.author | default "Leonie Kaiser" }}</strong></span>
       <span aria-hidden="true">·</span>

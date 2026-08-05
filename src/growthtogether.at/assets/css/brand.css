@@ -798,7 +798,7 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 .jcard-meta{display:flex;gap:var(--s3);align-items:center;font-size:var(--xs);
   color:var(--muted);margin-top:auto;padding-top:var(--s3);border-top:1px solid var(--divider)}
 @media (max-width:900px){.jgrid{grid-template-columns:1fr 1fr}}
-@media (max-width:600px){.jgrid{grid-template-columns:1fr}}
+@media (max-width:600px){.jgrid{grid-template-columns:1fr}.jcard-cover{aspect-ratio:3/2}}
 
 /* ---- Blog / Journal category filter (list.html) -------------------- */
 .jfilter{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s8)}
