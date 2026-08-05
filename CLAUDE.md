@@ -4,7 +4,7 @@ Guidance for Claude Code when working in this repository.
 
 ## Project
 
-Hugo static-site for **Leonie Kaiser — KI & Business Consulting** (live: leoniekaiser.com).
+Hugo static-site for **Leonie Kaiser — KI & Digitalisierung** (live: leoniekaiser.com).
 
 - Hugo project root: `src/growthtogether.at/`
 - Live deployment: **GitHub Pages** (`.github/workflows/deploy-pages.yml`) on the **leoniekaiser.com** custom domain via `static/CNAME`. After client sign-off the DNS is moved to **leoniekaiser.com**.

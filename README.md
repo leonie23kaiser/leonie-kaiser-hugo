@@ -1,6 +1,6 @@
 # leoniekaiser.com
 
-Hugo-Site für **Leonie Kaiser — KI & Business Consulting**. Live unter
+Hugo-Site für **Leonie Kaiser — KI & Digitalisierung**. Live unter
 [leoniekaiser.com](https://leoniekaiser.com), gehostet auf GitHub Pages.
 
 Zielgruppe: kleine Dienstleistungsunternehmen (3–20 MA), v.a. Beratung,
