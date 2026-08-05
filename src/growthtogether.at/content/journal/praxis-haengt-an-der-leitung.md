@@ -63,7 +63,7 @@ Diese Frage treibt mich bis heute an. Das Muster ist fast überall ähnlich — 
 
 KI ist ein Verstärker, kein Selbstzweck. Bevor wir über ein Tool sprechen, schauen wir uns an, wie Ihre Abläufe wirklich funktionieren. Oft zeigt sich dabei, dass ein einfacher, klar geordneter Prozess schon die halbe Entlastung bringt — und die Technik danach nur noch das Wiederkehrende übernimmt.
 
-Damit stehe ich nicht allein: Auch die Branchen-Berichterstattung zur Physiotherapie kommt zu dem Schluss, dass der Schlüssel weniger in der Technik selbst liegt als in der Bereitschaft, die eigenen Abläufe zu überdenken *(bodymedia.de, mit Bezug auf den Branchenreport Physiotherapie 2025)*.
+Damit stehe ich nicht allein: Ein aktueller Branchenreport zur Physiotherapie zeigt, dass die Zurückhaltung beim KI-Einsatz selten an der Technik selbst liegt — sondern an offenen Fragen zur Integration in bestehende Abläufe, zum Aufwand der Einführung und zum tatsächlichen Nutzen *(Branchenreport Physiotherapie 2026, ETL ADVISION)*.
 
 Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geht nie darum, Ihr Team überflüssig zu machen, sondern darum, ihm — und Ihnen als Leitung — die Zeit zurückzugeben, die heute in Koordination und Rückfragen versickert.
 

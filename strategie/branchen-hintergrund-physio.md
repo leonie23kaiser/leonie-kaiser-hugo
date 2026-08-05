@@ -164,6 +164,13 @@ Fachkräftemangel — deckt sich mit den 2025er-Zahlen oben.
   keine Hypothese aus dem Silicon Sampling mehr, sondern eine belegte Branchenzahl.
 - Ein Drittel der Praxen bewertet die Anbindung an die Telematikinfrastruktur weiterhin
   kritisch (deckt sich mit der TI-Zurückhaltung oben) — TI-Thema bleibt zurückgestellt.
+- **Was die 41 % Unentschlossenen zögern lässt (S. 53, „Interpretation der Ergebnisse"):**
+  nicht die Technik selbst, sondern offene Fragen zu Datenschutz/DSGVO, Zuverlässigkeit der
+  Systeme, **Integration in bestehende Praxissoftware**, Kosten-Nutzen-Verhältnis und Angst
+  vor zusätzlichem Aufwand in der Einführungsphase. Der Report selbst sieht hier „großen
+  Informations- und Schulungsbedarf". **Direkt zitierfähig aus der Primärquelle** (kein
+  Umweg über bodymedia.de) für „erst die Abläufe klären, dann das Tool" — verwendet in
+  Post #1, Abschnitt „KI nicht um jeden Preis" (2026-08).
 
 **Wie zitierfähig einsetzen:** als **Fremdquelle mit Datum** kennzeichnen, z. B. „Laut
 Branchenreport Physiotherapie 2026 (ETL ADVISION) stehen über 80 % der Praxen dem
