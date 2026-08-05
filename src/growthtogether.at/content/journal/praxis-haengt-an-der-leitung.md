@@ -67,7 +67,7 @@ Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geh
 
 ### Datenschutz ist der Ausgangspunkt
 
-Sie arbeiten mit Gesundheitsdaten. Für mich heißt das: Datenschutz ist bei jeder Lösung, die ich mit Ihnen aufsetze, der erste Gedanke — ob es dabei um ein KI-System geht oder um einen einfachen Ablauf. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis konkret bedeutet, lesen Sie auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [Datenschutz](/datenschutz/).
+Sie arbeiten mit Gesundheitsdaten. Für mich heißt das: Datenschutz ist bei jeder Lösung, die ich mit Ihnen aufsetze, der erste Gedanke — ob es dabei um ein KI-System geht oder um einen einfachen Ablauf. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis konkret bedeutet, lesen Sie auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [DSGVO](/dsgvo/).
 
 ### Wenn KI nicht die Lösung ist, sage ich es
 
@@ -98,7 +98,7 @@ Ein guter Test: Fragen Sie sich, was tatsächlich liegen bleibt, wenn Sie einen 
 Ja, sehr oft sogar. Viele Zeitfresser entstehen nicht durch fehlende Technik, sondern durch unklare Abläufe und doppelte Arbeit. Ein aufgeräumter Prozess bringt spürbar Entlastung, bevor überhaupt ein Tool ins Spiel kommt.
 
 **Darf ich als Gesundheitspraxis überhaupt KI einsetzen?**
-Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließen. Datenschutz und der EU AI Act sind für mich bei jedem Setup der erste Gedanke — mehr dazu auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [Datenschutz](/datenschutz/).
+Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließen. Datenschutz und der EU AI Act sind für mich bei jedem Setup der erste Gedanke — mehr dazu auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum [DSGVO](/dsgvo/).
 
 ## Ein erster Schritt, ganz unverbindlich
 
