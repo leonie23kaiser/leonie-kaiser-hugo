@@ -11,7 +11,7 @@ coverCredit: "pixelshot / Canva Pro"
 category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]
-draft: true
+draft: false
 ---
 
 „Ohne mich läuft hier nichts.“ Diesen Satz höre ich häufig — von Therapeutinnen, von Ärzten mit eigener Praxis, von Menschen, die ihr Fach lieben und trotzdem abends erschöpft am Schreibtisch sitzen. Meist wird er halb stolz, halb resigniert gesagt. Und meistens stimmt er.
