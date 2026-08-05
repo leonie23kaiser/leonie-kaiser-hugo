@@ -100,7 +100,7 @@ Claude selbst hat **kein Langzeitgedächtnis** zwischen Chats. Jeder neue Chat s
 - `AGENTS.md` + `CLAUDE.md` → deine Brand-Voice & Konventionen (siehe oben)
 - `content/journal/*.md` → alle bisherigen Journal-Posts (Claude liest sie als Referenz für Stil und Themen)
 - `content/faq/*.md` → bestehende FAQ-Fragen (damit er keine Dopplungen baut)
-- `data/branchen.yaml` → deine Branchen-Texte (Physio, Psycho, Coaching, Ernährungsberatung)
+- `data/branchen.yaml` → deine Leistungsbereich-Texte (Termine & Anfragen, Dokumentation & Wissen, Nachsorge & Kundenbindung, Sichtbarkeit & Inhalte)
 - Git-Historie → alle früheren Änderungen sind nachvollziehbar
 
 Wenn du in einem neuen Chat schreibst *„schreib einen Journal-Post wie den letzten"*, schaut Claude in den Ordner, liest die letzten Posts, übernimmt Stil + Aufbau. Genau dafür ist die GitHub-Anbindung gemacht.
