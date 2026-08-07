@@ -9,7 +9,7 @@ category: "Termine & Anfragen"
 readingTime: 7
 tags: ["No-Shows", "Terminplanung", "Physiotherapie"]
 ctaHeadline: "Nächster Schritt: Weniger leere Termine in Ihrem Kalender"
-ctaText: "In 30 Minuten zeigen wir gemeinsam, wie sich Terminausfälle in Ihrer Praxis spürbar senken lassen. Kostenfrei, unverbindlich, online."
+ctaText: "In 30 Minuten schauen wir gemeinsam, wo in Ihrer Terminorganisation das größte Potenzial liegt. Kostenfrei, unverbindlich, online."
 draft: true
 ---
 
@@ -51,7 +51,7 @@ Wer absagen möchte, muss oft anrufen. Das funktioniert nur während der Öffnun
 
 Für alle drei Gründe gibt es eine wirksame Antwort. Wichtig ist nur die richtige Reihenfolge.
 
-### Erinnerung im 24–48-Stunden-Fenster (der wirksamste Einzelhebel)
+### Erinnerung im 24–48-Stunden-Fenster (die wirksamste einzelne Maßnahme)
 
 Eine Erinnerung ein bis zwei Tage vor dem Termin bringt die größte Wirkung. Früh genug, um noch reagieren zu können. Spät genug, um den Termin präsent zu halten.
 
@@ -69,7 +69,7 @@ Für Sie als Praxis ist die Warteliste vor allem ein Weg, die Lücke zu schließ
 
 ### Ausfallgebühr als Option — wenn, dann sauber vereinbart
 
-Eine Ausfallgebühr, fachlich auch Ausfallhonorar genannt, kann ein sinnvoller ergänzender Baustein sein. Sie ersetzt aber weder Erinnerung noch Warteliste. Laut Branchenreport Physiotherapie 2025 (ETL ADVISION) erheben rund 60% der Praxen eine solche Gebühr, im Schnitt 28€, rund jede zehnte Praxis mehr als 40€. Wichtig ist die Vereinbarung vorab, etwa als kurze Klausel bei der Terminbuchung, dazu eine faire Frist. Für die Zahlung selbst hat sich eine einfache Rechnung im Nachhinein bewährt, etwa per Überweisung oder Zahlungslink. Die genaue Formulierung der Klausel gehört in eine Rechtsberatung.
+Eine Ausfallgebühr, fachlich auch Ausfallhonorar genannt, kann ein sinnvoller ergänzender Baustein sein. Sie ersetzt aber weder Erinnerung noch Warteliste. Laut Branchenreport Physiotherapie 2025 (ETL ADVISION) erheben rund 60% der Praxen eine solche Gebühr, im Schnitt 28€, rund jede zehnte Praxis mehr als 40€. Wichtig ist die Vereinbarung vorab, etwa als kurze Klausel bei der Terminbuchung, dazu eine faire Frist: Üblich ist eine Absagefrist von 24 Stunden vor dem Termin, erst danach greift die Gebühr. Für die Zahlung selbst hat sich eine einfache Rechnung im Nachhinein bewährt, etwa per Überweisung oder Zahlungslink. Die genaue Formulierung der Klausel gehört in eine Rechtsberatung.
 
 ## Datenschutz: warum schon der Terminanlass ein Gesundheitsdatum ist
 
@@ -83,12 +83,12 @@ Für den Alltag bedeutet das vor allem zwei Dinge. Erstens: In eine Erinnerung g
 
 Wie sieht das in der Praxis konkret aus? Bevor über Software gesprochen wird, schauen wir uns den bestehenden Ablauf an. Wer erinnert aktuell woran? Wie läuft eine Absage heute ab? Was passiert mit einem frei gewordenen Termin? Ein Tool allein löst keine Terminausfälle, wenn die Reihenfolge dahinter unklar bleibt.
 
-Ein Beispiel, bewusst vereinfacht: Eine Physiotherapie-Praxis bucht Termine online. Zwei Tage vorher geht automatisch eine Erinnerung raus, mit einem Absage-Link. Sagt jemand ab, rückt automatisch die nächste Person von der Warteliste nach, inklusive einer freundlichen Nachricht mit der Möglichkeit, gleich zuzusagen. Die Praxis selbst muss dafür nichts mehr manuell erledigen, und die Kundschaft auf der Warteliste erlebt eine Praxis, die schnell reagiert statt tagelang zu schweigen.
+Ein Beispiel, bewusst vereinfacht: Eine Physiotherapie-Praxis ermöglicht die Terminbuchung online. Zwei Tage vor dem Termin geht automatisch eine Erinnerung raus, mit einem Absage-Link. Sagt jemand ab, geht automatisch eine Nachricht an mehrere wartende Personen gleichzeitig raus: der Termin ist frei geworden, wer zuerst zusagt, bekommt ihn. Alle anderen erhalten kurz danach eine Rückmeldung, dass der Termin bereits vergeben ist. Die Praxis selbst muss dafür nichts mehr manuell erledigen, und die Kundschaft auf der Warteliste erlebt eine Praxis, die schnell reagiert statt tagelang zu schweigen.
 
 ## Häufige Fragen
 
 **Wie viele No-Shows sind normal in einer Physiotherapie-Praxis?**
-Eine allgemeingültige Zahl gibt es dafür nicht, jede Praxis tickt anders. Ein guter Anhaltspunkt: Fallen mehrmals pro Woche Termine ohne Absage aus, lohnt sich ein genauerer Blick auf Erinnerung und Absage-Prozess. Oft reicht schon die Umstellung auf ein engeres Erinnerungsfenster, um die Zahl spürbar zu senken.
+Eine allgemeingültige Zahl gibt es dafür nicht, jede Praxis tickt anders. Ein guter Anhaltspunkt: Fallen mehrmals pro Woche Termine ohne Absage aus, lohnt sich ein genauerer Blick auf Erinnerung und Absage-Prozess. Oft reicht schon eine Verschiebung des Erinnerungszeitpunkts, weg von einer Erinnerung direkt nach der Buchung oder gar keiner Erinnerung, hin zu ein bis zwei Tagen vor dem Termin, um die Zahl spürbar zu senken.
 
 **Sind automatisierte Terminerinnerungen per SMS oder WhatsApp DSGVO-konform?**
 Grundsätzlich ja, mit den richtigen Voraussetzungen. Entscheidend sind Anbieter, Serverstandort und eine saubere Auftragsverarbeitung. Bei WhatsApp lohnt ein genauerer Blick, da der Anbieter außerhalb der EU sitzt.
@@ -97,10 +97,10 @@ Grundsätzlich ja, mit den richtigen Voraussetzungen. Entscheidend sind Anbieter
 Üblich sind Beträge im niedrigen zweistelligen Bereich. Laut Branchenreport Physiotherapie 2025 liegt der Durchschnitt bei 28€, rund jede zehnte Praxis verlangt mehr als 40€. Wichtig ist eine vorab vereinbarte, faire Regel. Für die genaue Formulierung empfiehlt sich Rechtsberatung.
 
 **Was können Sie tun, wenn ein Termin versäumt wird?**
-Ein kurzer, freundlicher Kontakt klärt meist schon den Grund. Bei wiederholten Ausfällen hilft ein Blick auf die vereinbarte Regelung. Die freigewordene Zeit lässt sich über die Warteliste oft direkt neu besetzen, sodass der Ausfall selten ganz verloren geht.
+Ein kurzer Anruf oder eine kurze Nachricht direkt danach klärt meist schon, was passiert ist, und zeigt der Kundschaft, dass sie wahrgenommen wird. Bei wiederholten Ausfällen hilft ein Blick auf die vereinbarte Regelung. Bleibt noch genug Vorlauf, lässt sich die frei gewordene Zeit oft manuell neu besetzen, etwa indem die Praxis wartende Kundschaft anruft. Ist der Ausfall sehr kurzfristig, reicht die Zeit dafür meist nicht mehr, genau hier setzt eine automatische Warteliste an.
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie das Gefühl kennen, dass zu viele Termine in Ihrer Praxis ausfallen, ohne dass rechtzeitig jemand Bescheid gibt, dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse gemeinsam an: welche Ausfälle sich in Ihrer Praxis am ehesten vermeiden lassen und wo der erste Schritt am meisten bringt.
+Wenn Sie das Gefühl kennen, dass zu viele Termine in Ihrer Praxis ausfallen, ohne dass rechtzeitig jemand Bescheid gibt, dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse gemeinsam an: wo in Ihrer Terminorganisation mit Digitalisierung und KI am meisten Potenzial steckt und wie ein erster Schritt aussehen kann.
 
 Im nächsten Beitrag geht es um eine andere Alltagsfrage: welche Daten Sie bedenkenlos in ChatGPT eingeben können, und wovon Sie besser die Finger lassen.
