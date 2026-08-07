@@ -173,6 +173,10 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Empfehlungen", „klar, schnell, günstig"). Das letzte Glied mit **„und"**
   anschließen: „Unverbindlich, online und mit konkreten Empfehlungen." Aneinander-
   gereihte Wörter ohne Bindewort wirken abgehackt. (Leonie, 2026-07.)
+- **Keine aneinandergereihten Halbsätze mit Beistrichen statt ganzer Sätze**
+  (z. B. „Wer absagen möchte, muss oft anrufen, während der Öffnungszeiten, im
+  besten Fall sofort durchkommen.“). Stattdessen kurze, vollständige Sätze
+  schreiben, notfalls mehrere hintereinander. (Leonie, 2026-08.)
 - **Gedankenstriche (–) sehr sparsam.** Der Gedankenstrich gilt als typisches
   Signal für KI-generierten Text. Stattdessen ganze Sätze, Punkt oder Komma
   verwenden. Höchstens vereinzelt, nie mehrfach im selben Absatz.
