@@ -43,14 +43,15 @@ bigger client base yet?")*
 
 ## Headline
 
-> AI & Business Consulting for small private practices in health & wellbeing | More time for
+> AI & Digitalization for small private practices in health & wellbeing | More time for
 > your core work – implemented privacy-compliant (EU AI Act & GDPR)
 
 **Job Title** (in the experience entry): **stays "AI Consulting | Strategy & Business"** —
 leave unchanged. The headline carries the audience, not the title.
 
-**Fixed point across all touchpoints** (headline, banner, website subtitle): "AI & Business
-Consulting" stays constant — only the audience add-on after it gets updated.
+**Fixed point across all touchpoints** (headline, banner, website subtitle): "AI &
+Digitalization" stays constant — only the audience add-on after it gets updated. *(Until
+Nov. 2026 — then "AI & Business Consultant", see `strategie-konzept.md` ch. 1.)*
 
 ## About / Summary
 

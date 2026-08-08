@@ -164,13 +164,13 @@ charakterisiert, was ihre Scores mit anhebt).*
 | Segment | Score | Projekt-OPP | Retainer/Mo |
 |---|:--:|:--:|:--:|
 | Physiotherapie / Therapiepraxen (Aushängeschild) | 11 | 1.528 € | 203 € |
-| Privatärztliche Gesundheitszentren (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
+| privatärztliche Gesundheitszentren (IV/Hormone/Membership) | 12 | 2.032 € | 304 € |
 
 **Tier 2 — großes Ticket, aber erst mit Referenzen + belegbarer Compliance:**
 
 | Segment | Score | Projekt-OPP | Hürde |
 |---|:--:|:--:|---|
-| Longevity / Präventionsmedizin | 13 | **5.012 €** | Integrations-/Compliance-Nachweis Pflicht, kein Wellness-Framing |
+| Longevity / Präventionsmedizin | 13 | **5.012 €** | Integrations-/Compliance-Nachweis Pflicht, kein Wohlfühl-Framing |
 | Check-up / Vorsorgemedizin · Sportmedizin | 11 | ~2.000 €+ | Enterprise-Compliance, KIS-Integration, Haftungstiefe |
 
 **Tier 3 — nur bei konkreter Anfrage (schwächer, solo-lastig):** Podologie (10),
@@ -378,7 +378,7 @@ Pakete oben gelten. Details/Vorbehalt: `silicon-sampling.md`.*
 
 **Service-Katalog & Retainer-Abdeckung:** ausführlich als eigenes Dokument
 `strategie/service-katalog.md` (an die Website-Texte angeglichen). Kurzüberblick — vier
-Bereiche: **Termine & Anfragen** (inkl. Chat- und Telefonassistent), **Dokumentation &
+Bereiche: **Termine & Anfragen** (inkl. Chat-, E-Mail- und Telefonassistent), **Dokumentation &
 Wissen**, **Nachsorge & Kundenbindung**, **Sichtbarkeit** (Vorlagen + Auffindbarkeit in
 KI-Suchen/GEO) — plus **technische & rechtliche Basis** als Querschnitt in jedem Projekt.
 

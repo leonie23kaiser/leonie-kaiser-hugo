@@ -126,7 +126,7 @@ zitieren dürfen.
 Vor der Veröffentlichung eines Cases schriftlich (E-Mail reicht, kein Notar nötig)
 bestätigen lassen — kurzer Text, den die Praxisleitung per Antwort-Mail freigibt:
 
-> „Ich bin einverstanden, dass Leonie Kaiser · KI & Business Consulting die
+> „Ich bin einverstanden, dass Leonie Kaiser · KI & Digitalisierung die
 > Zusammenarbeit mit [Praxisname] als Case Study auf Website, LinkedIn und Google
 > Business Profile veröffentlicht — inklusive Praxisname, Ort, genannter Kennzahlen
 > und des folgenden Zitats: „[Zitat]". Diese Einwilligung gilt bis auf Widerruf."

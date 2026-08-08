@@ -36,7 +36,7 @@ Anfrage generierbar, nicht dauerhaft im Repo.
 | [`silicon-sampling.md`](silicon-sampling.md) | Synthetische Marktforschung, alle Runden (Scores, Preise, O-Töne). ESOMAR. |
 | [`zielgruppen-zwei-track.md`](zielgruppen-zwei-track.md) | Zwei-Track-Herleitung (Praxen + Pharma-/Gesundheits-KMU), Netzwerkaufbau. |
 | [`brand_position.md`](brand_position.md) | Haltung: Mission/Anti-Mission, wen wir (nicht) bedienen. |
-| [`angebotsvorschlaege.md`](angebotsvorschlaege.md) | Angebots-Architektur, Preis-Korridore, Einwandbehandlung. |
+| [`angebotsvorschlaege.md`](angebotsvorschlaege.md) | Angebots-Architektur, Verkaufslogik der Potenzialanalyse, Einwandbehandlung. Preise stehen in `strategie-konzept.md`. |
 | [`service-katalog.md`](service-katalog.md) | Konkreter Service-Katalog, Retainer-Abdeckung, Beispiel-Szenarien. |
 | [`pilot-akquise.md`](pilot-akquise.md) | Operativ: Pilot-Akquise, Anschreiben, 3 Messfragen, Einwilligung. |
 | [`brand_data.md`](brand_data.md) | Belege, Methodik, Quellen-Hierarchie, Erfolgsmetriken. |

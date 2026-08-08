@@ -1,10 +1,10 @@
 # leoniekaiser.com
 
-Hugo-Site für **Leonie Kaiser — KI & Business Consulting**. Live unter
+Hugo-Site für **Leonie Kaiser — KI & Digitalisierung**. Live unter
 [leoniekaiser.com](https://leoniekaiser.com), gehostet auf GitHub Pages.
 
-Zielgruppe: kleine Dienstleistungsunternehmen (3–20 MA), v.a. Beratung,
-Gesundheit, wissensintensive Services. Voice: Sie-Form, B2B, DSGVO/EU-AI-Act-konform.
+Zielgruppe: kleine, inhabergeführte Gesundheitspraxen (Wahlarzt/privat/Selbstzahler),
+2–10 (max. ~12) Mitarbeitende, DACH-Raum. Voice: Sie-Form, B2B, DSGVO/EU-AI-Act-konform.
 
 ## Status
 

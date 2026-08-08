@@ -25,6 +25,10 @@ ans Telefon muss.
   beantwortet, Sie geben nur noch frei.
 - **Chat-Assistent für Erstanfragen** auf Ihrer Website (Öffnungszeiten, Anfahrt, Preise,
   Terminwünsche) — ohne medizinische Auskunft.
+- **E-Mail-Assistent für eingehende Anfragen** — stuft jede Anfrage nach Thema und
+  Dringlichkeit ein (direkt beantwortbar / Klärungsbedarf / dringend) und legt einen
+  Antwortentwurf in der Tonalität der Praxis bereit, den sie nur noch prüft und freigibt.
+  Angelernt auf den Anfragen der letzten zwölf Monate.
 - **Telefonassistent (Voicebot)** für Anrufe außerhalb der Öffnungszeiten — nimmt
   Standardfragen und Terminwünsche auf, damit keine Anfrage verloren geht.
 

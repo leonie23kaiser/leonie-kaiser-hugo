@@ -21,15 +21,16 @@ in Headline/Banner auf.
 
 ## Slogan / Headline
 
-> KI & Business Consulting für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
+> KI & Digitalisierung für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
 > fürs Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
 
 **Job Title** (im Erfahrungs-Eintrag): **bleibt „KI Consulting | Strategie & Business"** —
 unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 
 **Fixpunkt für alle Touchpoints (Headline, Banner, Website-Untertitel):**
-„KI & Business Consulting" bleibt die Konstante — der Zielgruppen-Zusatz dahinter ist
-**„für kleine Privatpraxen in Gesundheit & Wohlbefinden"**.
+„KI & Digitalisierung" bleibt die Konstante — der Zielgruppen-Zusatz dahinter ist
+**„für kleine Privatpraxen in Gesundheit & Wohlbefinden"**. *(Bis Nov. 2026 — danach
+„KI & Business Consultant", siehe `strategie-konzept.md` Kap. 1 Marken-/Gewerbe-Fahrplan.)*
 
 ## Info / Zusammenfassung
 
@@ -61,7 +62,7 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 
 ## Aktuelle Rolle — Leonie Kaiser Consulting (KI Consulting | Strategie & Business)
 
-> Ich begleite kleine Privatpraxen für Prävention und Wohlbefinden dabei, ihren Praxisalltag zu
+> Ich begleite kleine Privatpraxen in Gesundheit und Wohlbefinden dabei, ihren Praxisalltag zu
 > entlasten – datenschutzkonform, für mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
 >
 > • Kostenfreie KI-Potenzialanalyse: wo im Praxisalltag Zeit verloren geht und wo KI wirklich hilft
@@ -162,7 +163,7 @@ Digitalisierung, Prozesse) ausgerichtet — keine erfundenen Erfolge.*
 
 **Überblick (fertig zum Einfügen):**
 
-> Ich unterstütze kleine Privatpraxen für Prävention und Wohlbefinden dabei, ihren Praxisalltag zu
+> Ich unterstütze kleine Privatpraxen in Gesundheit und Wohlbefinden dabei, ihren Praxisalltag zu
 > entlasten – datenschutzkonform und ohne technisches Vorwissen. Termine, Aufnahme, Nachsorge und
 > wiederkehrende Verwaltung lassen sich automatisieren, sodass wieder Zeit bleibt für das, worum es
 > wirklich geht: die Menschen. Ich fange bei Ihren Prozessen an, nicht beim Tool, und sage ehrlich,

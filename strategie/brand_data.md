@@ -1,4 +1,4 @@
-# Brand Data: Leonie Kaiser — KI & Business Consulting
+# Brand Data: Leonie Kaiser — KI & Digitalisierung
 
 *Welche EIGENEN Daten, Methoden und Geschichten die Marke hat — das, was eine KI als
 Quelle zitieren kann. Entwickelt im Brand-Data-Sparring, 2026-06-30.*
@@ -15,7 +15,7 @@ Quelle zitieren kann. Entwickelt im Brand-Data-Sparring, 2026-06-30.*
 Was Leonie an eigenem, belegbarem Material hat — geordnet nach Zitierstärke:
 
 1. **Silicon-Sampling-Marktforschung (Eigenstudie).** 296 synthetische Personas
-   (96 Segment-Scan + 200 Deep Dive) aus dem Gesundheits- & Wellness-Sektor DACH.
+   (96 Segment-Scan + 200 Deep Dive) aus dem Gesundheitssektor DACH.
    Liefert: Pain-Point-Ranking, Einwände im O-Ton, Van-Westendorp-Preiskorridore,
    Segment-Unterschiede. → `strategie/silicon-sampling.md`. *(Synthetisch, ESOMAR —
    als Hypothese kennzeichnen. Trotzdem: proprietäre Marktforschung, die kaum ein
@@ -41,7 +41,7 @@ Was Leonie an eigenem, belegbarem Material hat — geordnet nach Zitierstärke:
 Was Leonie schon **mit eigenen Daten** behaupten kann (aus der Silicon-Sampling-Studie,
 als Hypothese gekennzeichnet):
 
-- „In meiner Befragung von 296 Personas aus dem Gesundheits-/Wellness-Sektor war
+- „In meiner Befragung von 296 Personas aus dem Gesundheitssektor war
   **Verwaltung, Bürokratie & Abrechnung der häufigste organisatorische Schmerz
   (~88 %)** — nicht fehlende Auslastung."
 - „**~72 % verbinden ihre Zukunftssorge mit Personal & Organisation**, nicht mit zu
@@ -51,6 +51,18 @@ als Hypothese gekennzeichnet):
 
 *(Kund:innen-Zahlen wie „X Stunden/Woche gespart" folgen — Erhebung ab sofort, siehe
 unten. Bis dahin bewusst NICHT behaupten.)*
+
+---
+
+## Externe Branchendaten: Physiotherapie (real, nicht synthetisch)
+
+Vollständig gepflegt in [`branchen-hintergrund-physio.md`](branchen-hintergrund-physio.md)
+(Stufe-5-Quelle „Seriöse Branchen-Reports"). Neuester Stand: **Branchenreport
+Physiotherapie 2026** (ETL ADVISION, erfasst 2026-08-05) — Kernbefund:
+**über 80 % der Praxen stehen KI in der Verwaltung (Dokumentation, Abrechnung) offen
+gegenüber**, dazu 51.631 Praxen (+1,5 %), Ø Jahresumsatz ~471.000 €, 86,8 % mit
+Selbstzahlerleistungen. Deutschland-weit, nicht 1:1 auf AT übertragbar. Ergänzt/bestätigt
+die Silicon-Sampling-Wahl von Physio als Tier-1-Segment mit echten Zahlen.
 
 ---
 
@@ -124,7 +136,7 @@ Kund:innen-Zahl behaupten, die nicht erhoben wurde.
 ## Story Bank
 
 *Ehrlich eingeordnet: Diese Fälle stammen aus Leonies **früherer Beratung** selbstständiger
-Gesundheits-/Wellness-Anbieter:innen — noch **nicht** aus dem neuen Ziel-Markt
+Gesundheitsanbieter:innen — noch **nicht** aus dem neuen Ziel-Markt
 (Privatpraxen für Prävention, Ästhetik & Wohlbefinden). Sie belegen das **Fundament**: überforderten Solo-
 Selbstständigen Struktur, Systeme und Klarheit geben. Jeder Fall hat eine
 **„Für Ihre Praxis"-Brücke**, die die Dynamik auf eine Praxis überträgt. Rollen
