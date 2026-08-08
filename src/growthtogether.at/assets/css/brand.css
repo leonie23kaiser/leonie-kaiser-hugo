@@ -848,3 +848,18 @@ footer{background:#1a1a1a;color:rgba(255,255,255,.45);
 @media(max-width:640px){
   .page-content figure.float-right,.page-content figure.float-left{float:none;margin:var(--s8) auto;max-width:280px}
 }
+
+/* ---- Mini-Steps (inline Prozess-Grafik in Artikeln, z. B. journal) --- */
+.mini-steps{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center;
+  gap:var(--s4);margin:var(--s6) 0;padding:var(--s6);background:var(--lgreen);border-radius:var(--r-xl)}
+.mini-step{flex:0 1 150px;text-align:center}
+.mini-step-num{width:40px;height:40px;border-radius:var(--r-full);background:var(--teal-d);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-weight:800;
+  margin:0 auto var(--s3)}
+.mini-step-label{font-weight:700;font-size:var(--sm);margin-bottom:var(--s1)}
+.mini-step-desc{font-size:var(--xs);color:var(--muted);line-height:1.4}
+.mini-step-arrow{align-self:center;color:var(--border);flex:0 0 auto;display:flex;margin-top:8px}
+@media(max-width:640px){
+  .mini-steps{flex-direction:column;align-items:center}
+  .mini-step-arrow{transform:rotate(90deg);margin:0}
+}

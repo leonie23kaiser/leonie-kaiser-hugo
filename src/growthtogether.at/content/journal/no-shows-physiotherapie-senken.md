@@ -85,6 +85,26 @@ Wie sieht das in der Praxis konkret aus? Bevor über Software gesprochen wird, s
 
 Ein Beispiel, bewusst vereinfacht: Eine Physiotherapie-Praxis ermöglicht die Terminbuchung online. Zwei Tage vor dem Termin geht automatisch eine Erinnerung raus, mit einem Absage-Link. Sagt jemand ab, geht automatisch eine Nachricht an mehrere wartende Personen gleichzeitig raus: der Termin ist frei geworden, wer zuerst zusagt, bekommt ihn. Alle anderen erhalten kurz danach eine Rückmeldung, dass der Termin bereits vergeben ist. Die Praxis selbst muss dafür nichts mehr manuell erledigen, und die Kundschaft auf der Warteliste erlebt eine Praxis, die schnell reagiert statt tagelang zu schweigen.
 
+<div class="mini-steps">
+  <div class="mini-step">
+    <div class="mini-step-num">1</div>
+    <div class="mini-step-label">Erinnerung</div>
+    <div class="mini-step-desc">1–2 Tage vor dem Termin, automatisch</div>
+  </div>
+  <div class="mini-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></div>
+  <div class="mini-step">
+    <div class="mini-step-num">2</div>
+    <div class="mini-step-label">Absage-Link</div>
+    <div class="mini-step-desc">Ein Klick genügt, der Termin wird frei</div>
+  </div>
+  <div class="mini-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></div>
+  <div class="mini-step">
+    <div class="mini-step-num">3</div>
+    <div class="mini-step-label">Warteliste</div>
+    <div class="mini-step-desc">Wartende Kundschaft wird automatisch informiert</div>
+  </div>
+</div>
+
 ## Häufige Fragen
 
 **Wie viele No-Shows sind normal in einer Physiotherapie-Praxis?**
