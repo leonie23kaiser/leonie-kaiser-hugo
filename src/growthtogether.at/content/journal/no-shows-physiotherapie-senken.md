@@ -90,19 +90,19 @@ Ein Beispiel, bewusst vereinfacht: Eine Physiotherapie-Praxis ermöglicht die Te
 
 <div class="mini-steps">
   <div class="mini-step">
-    <div class="mini-step-num">1</div>
+    <div class="mini-step-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div>
     <div class="mini-step-label">Erinnerung</div>
     <div class="mini-step-desc">1–2 Tage vor dem Termin, automatisch</div>
   </div>
   <div class="mini-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></div>
   <div class="mini-step">
-    <div class="mini-step-num">2</div>
+    <div class="mini-step-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
     <div class="mini-step-label">Absage-Link</div>
     <div class="mini-step-desc">Ein Klick genügt, der Termin wird frei</div>
   </div>
   <div class="mini-step-arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></div>
   <div class="mini-step">
-    <div class="mini-step-num">3</div>
+    <div class="mini-step-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
     <div class="mini-step-label">Warteliste</div>
     <div class="mini-step-desc">Wartende Kundschaft wird automatisch informiert</div>
   </div>
