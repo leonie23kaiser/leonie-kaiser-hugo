@@ -257,5 +257,37 @@ Keywords) — generelle Tool-Grenze, kein AT-spezifisches Datenproblem.
 
 ---
 
+## Post #3: „Welche Daten darf ich in ChatGPT eingeben?" (2026-08-08)
+
+*Seeds aus dem Redaktionsplan (`Blog_Posts_13.docx`/`blog-einzelkonzepte.md`), Recherche über
+2 Tage (AnswerThePublic-artiges Tool war nach Testabo-Ablauf zunächst noch mit 3 Gratis-
+Suchen/Tag nutzbar, aber Sprache/Land standen beim ersten Versuch versehentlich auf
+Englisch/USA — Suchen verpufft. Die Tiefen-GEO-Prompt-Recherche (ChatGPT-/Gemini-Sheets wie
+bei Post #1) ist inzwischen komplett gesperrt („Keine Prompts freigeschaltet"), nicht nur
+tageslimitiert. Datengrundlage daher: Google Trends (12 Mon., DE), Google-Keyword-Planer-
+Forecast, die kleine „Google"-Volumenzeile in den xlsx-Exports, und vollständig Google direkt
+(Autocomplete/„Ähnliche Fragen"/„Ähnliche Suchanfragen") für alle 6.*
+
+| Keyword | Volumen/Trend | Reale Suchintention (Google direkt) | Intent-Verdikt |
+|---|---|---|---|
+| **welche Daten darf ich in ChatGPT eingeben** | 0 (Trends, Planer, Google-Volumen) | Welche Daten nicht geben, was passiert bei Eingabe, Kundendaten in ChatGPT | **Passt** — trifft den geplanten Post-Fokus direkt |
+| **ist ChatGPT DSGVO-konform** | **Real: 70/Monat, CPC $12,24** — stärkster Fund des Sets | ChatGPT Business/Team datenschutzkonform, Kundendaten, Versionsvergleich (Copilot/Gemini), eigenes Google-AI-Overview vorhanden | **Passt sehr gut** — sauberer B2B-Compliance-Intent |
+| **ChatGPT Datenschutz Praxis** | 0 | „Wie kann ChatGPT in der Praxis angewendet werden?" — **Praxis" hier eventuell im Sinn von „praktische Anwendung", nicht „Arztpraxis"* | **Nuance beachten** — Doppeldeutigkeit von „Praxis" im Deutschen; im Text früh auf Gesundheitspraxis festlegen |
+| **Gesundheitsdaten in ChatGPT eingeben** | 0 | Massiv von **„ChatGPT Health"** (OpenAIs Gesundheits-Feature, Jan. 2026 gelauncht) dominiert — API/App/Demo/Waitlist; „Kann ChatGPT Diagnosen stellen?" klingt nach Patient:innen, nicht Praxisinhaberinnen | **Passt nicht sauber** — Produkt-Feature-Kollision, falsche Zielgruppe (Konsument:innen statt B2B) |
+| **Auftragsverarbeitungsvertrag ChatGPT** | 0 | Gemischt: „Kann ChatGPT Verträge erstellen?" (falsche Bedeutung von „Vertrag") vs. „OpenAI DPA"/„Ist ChatGPT Team DSGVO-konform?" (richtige Bedeutung) | **Passt teilweise** — im Titel/H2 präzise „Auftragsverarbeitungsvertrag"/„DPA" verwenden, nicht nur „Vertrag" |
+| **sensible Daten KI Tool** | 0 | Generische DSGVO-Grundlagen („Was sind sensible Daten"), kein KI-Bezug in den Anschlussfragen | **Passt teilweise** — eher als Grundlagen-Baustein im Text nutzbar, kein starkes eigenständiges Keyword |
+
+**Finale Keyword-Entscheidung für Post #3:** Der Redaktionsplan sieht „welche Daten darf ich
+in ChatGPT eingeben" als Primär-Keyword vor — das bleibt inhaltlich richtig, weil es dem
+geplanten Fokus (praktische Eintipp-Orientierung, nicht Rechtsberatung) entspricht. **Empfehlung
+zur Ergänzung:** „ist ChatGPT DSGVO-konform" ist die einzige Phrase im ganzen Set mit echtem,
+validiertem Suchvolumen UND sauberem B2B-Intent — verdient einen prominenten Platz (frühe H2,
+eigener FAQ-Eintrag, evtl. im Title-Tag mit), nicht nur eine Nebenerwähnung. „Gesundheitsdaten
+in ChatGPT eingeben" würde ich als eigenständiges Keyword meiden (ChatGPT-Health-Kollision) —
+das Thema „Gesundheitsdaten" im Text stattdessen über „besondere Kategorien"/Art. 9 einführen,
+nicht über diese Wortfolge.
+
+---
+
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
 `segmente.md`, `service-katalog.md`, `angebotsvorschlaege.md`, `AGENTS.md`.*
