@@ -3,10 +3,10 @@ name: blog-post
 description: >-
   Geführter, mehrstufiger Ablauf für einen neuen Blogpost auf leoniekaiser.com — vom
   Redaktionsplan über Keyword-Check, Headline-Auswahl und Outline-Freigabe bis zum fertigen
-  Text, Bildvorgaben, Word-Export und Hugo-Build-Check. Jeder Schritt wartet auf Leonies
-  Freigabe, bevor der nächste beginnt. Use when: "nächsten Blogpost schreiben", "Post #<N>
-  starten", "blog post erstellen", "weiter im Redaktionsplan", oder wenn ein Blogpost-Text
-  fehlt/überarbeitet werden soll.
+  Text (inkl. Word-Doc zum Korrekturlesen), Bildvorgaben und Hugo-Build-Check. Jeder Schritt
+  wartet auf Leonies Freigabe, bevor der nächste beginnt. Use when: "nächsten Blogpost
+  schreiben", "Post #<N> starten", "blog post erstellen", "weiter im Redaktionsplan", oder
+  wenn ein Blogpost-Text fehlt/überarbeitet werden soll.
 ---
 
 # blog-post — Geführter Blogpost-Workflow
@@ -75,10 +75,19 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
   `draft: true`).
 - FAQ-Block nur wenn er echten SEO/GEO-Wert hat (bei stark persönlichen Posts optional).
 
-### Schritt 6 — Text + Kurzzusammenfassung gemeinsam liefern
-- **Immer beides zusammen ausgeben:** den vollständigen Beitragstext **und** die
-  `description` (die Kurzzusammenfassung, die auf der Seite oberhalb des Titelbilds
-  erscheint) — sichtbar im Chat, nicht nur im Front-Matter versteckt. (Leonie, 2026-08.)
+### Schritt 6 — Text + Kurzzusammenfassung + Word-Doc gemeinsam liefern
+- **Immer alle drei zusammen ausgeben:** den vollständigen Beitragstext, die `description`
+  (die Kurzzusammenfassung, die auf der Seite oberhalb des Titelbilds erscheint — sichtbar im
+  Chat, nicht nur im Front-Matter versteckt) **und** das Word-Doc zum Korrekturlesen.
+  (Leonie, 2026-08.)
+- **Word-Doc-Export gehört hierher, nicht ans Ende:** Zweck ist Korrekturlesen des Texts, das
+  passiert direkt bei der Textabgabe, nicht erst nach Bildern/Build-Check. Über den
+  bestehenden `md2docx.js`-Konverter (Pfad im Scratchpad der Session) in ein .docx wandeln —
+  Front-Matter/HTML-Kommentare vorher entfernen, H1 + Kurzzusammenfassung oben einfügen. Vor
+  dem Versand per `zipfile`/Textsuche prüfen, dass kein Absatz beim Konvertieren verloren
+  ging. Bei späteren Text-Überarbeitungsrunden (nach Feedback) das Doc erneut mitliefern, wenn
+  sich der Text spürbar geändert hat. (Leonie, 2026-08 — Korrektur: ursprünglich war das
+  Schritt 8, ergibt aber nur beim Textentstehen Sinn.)
 
 ### Schritt 7 — Bildvorgaben (erst jetzt, nach dem Text)
 - Bewusst **nach** dem fertigen Text, nicht davor — Bildideen müssen zum tatsächlichen Winkel
@@ -86,23 +95,19 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
 - **Hero + optional 1 Zwischenbild** vorschlagen (Motiv, Stimmung, Suchbegriffe — siehe
   Vorlage in `blog-einzelkonzepte.md`, Abschnitt „Bild-Ideen"). Leonie sucht/liefert das
   passende Foto; danach `cover`/`coverAlt`/`coverCredit` im Front-Matter ergänzen.
-- ALT-Texte und (falls Stockfoto) Bildunterschrift mit Quelle liefern.
+- ALT-Texte und (falls Stockfoto/KI-generiert) Bildunterschrift mit Quelle liefern — bei
+  KI-generierten Bildern als „© KI-generiert mit ‹Tool›, ‹Jahr›" (siehe
+  `assets/images/blog/CREDITS.md`).
 - Mobile Kartenansicht (`/blog/`-Übersicht) und Post-Seite jeweils per Screenshot prüfen,
   sobald ein echtes Bild vorliegt.
 
-### Schritt 8 — Word-Doc exportieren
-- Über den bestehenden `md2docx.js`-Konverter (Pfad im Scratchpad der Session) in ein .docx
-  wandeln — Front-Matter/HTML-Kommentare vorher entfernen, H1 + Kurzzusammenfassung oben
-  einfügen (siehe Schritt 6). Vor dem Versand per `zipfile`/Textsuche prüfen, dass kein Absatz
-  beim Konvertieren verloren ging.
-
-### Schritt 9 — Build-Check
+### Schritt 8 — Build-Check
 - `hugo --source src/growthtogether.at -D --buildFuture --minify --quiet` — muss fehlerfrei
   durchlaufen. Prüfen: Post rendert unter `/blog/<slug>/`, Titel/Überschriften/interne
   Links/CTA-Box vorhanden, Cover korrekt (falls gesetzt).
 - Bei Zweifeln an Layout/Abstand: kurz mit Playwright-Screenshot verifizieren, nicht raten.
 
-### Schritt 10 — Übergabe
+### Schritt 9 — Übergabe
 - **Nicht deployen, nicht nach `main` mergen** ohne Leonies ausdrückliches Go — Draft bleibt
   auf dem Branch (`draft: true`), sie sichtet zuerst.
 - Kurz-Report: gesetzte/offene interne Links, Titel-/Slug-Entscheidung, Build-Ergebnis, Datei-
