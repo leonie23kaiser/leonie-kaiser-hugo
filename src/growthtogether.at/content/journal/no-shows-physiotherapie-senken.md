@@ -5,6 +5,9 @@ description: "No-Shows kosten Ihre Physiotherapie-Praxis Zeit und Umsatz. Was ge
 date: 2026-08-11
 lastmod: 2026-08-11
 author: "Leonie Kaiser"
+cover: "images/blog/cover-no-shows.png"
+coverAlt: "Frau sitzt vor einem Bildschirm mit einem digitalen Terminkalender"
+coverCredit: "Kaspars Grinvalds / Canva Pro"
 category: "Termine & Anfragen"
 readingTime: 7
 tags: ["No-Shows", "Terminplanung", "Physiotherapie"]
