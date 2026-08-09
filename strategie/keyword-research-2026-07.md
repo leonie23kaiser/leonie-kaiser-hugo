@@ -259,6 +259,10 @@ Keywords) — generelle Tool-Grenze, kein AT-spezifisches Datenproblem.
 
 ## Post #3: „Welche Daten darf ich in ChatGPT eingeben?" (2026-08-08)
 
+**Status: ✅ Keyword-Check abgeschlossen (2026-08-09)** — alle 6 Seeds geprüft (Google
+Keyword Planner, Trends, Google direkt; AnswerThePublic-Tiefenrecherche gesperrt, s. u.).
+Bereit für Schritt 3 (Headline-Vorschläge) im `blog-post`-Skill.
+
 *Seeds aus dem Redaktionsplan (`Blog_Posts_13.docx`/`blog-einzelkonzepte.md`), Recherche über
 2 Tage (AnswerThePublic-artiges Tool war nach Testabo-Ablauf zunächst noch mit 3 Gratis-
 Suchen/Tag nutzbar, aber Sprache/Land standen beim ersten Versuch versehentlich auf
