@@ -257,5 +257,50 @@ Keywords) — generelle Tool-Grenze, kein AT-spezifisches Datenproblem.
 
 ---
 
+## Post #3 — Keyword-Check (2026-08-08)
+
+*Blogpost #3 „Praxis-Alltag: Welche Daten darf ich in ChatGPT eingeben?" — Ablauf nach
+`keyword-check.md`. AnswerThePublic zu diesem Zeitpunkt nicht verfügbar (Testabo
+abgelaufen, GEO-Prompt-Recherche gesperrt).*
+
+**Seeds:** welche Daten darf ich in ChatGPT eingeben · ist ChatGPT DSGVO-konform ·
+ChatGPT Datenschutz Praxis · Gesundheitsdaten in ChatGPT eingeben ·
+Auftragsverarbeitungsvertrag ChatGPT · sensible Daten KI Tool
+
+**Google Keyword Planner / Trends / Google-Volumen:**
+
+| Keyword | Volumen | Trends (DE, 12 Mon.) |
+|---|---|---|
+| welche Daten darf ich in ChatGPT eingeben | kein Volumen | 0 |
+| **ist ChatGPT DSGVO-konform** | **70/Monat, CPC $12,24** | 0 |
+| ChatGPT Datenschutz Praxis | kein Volumen | 0 |
+| Gesundheitsdaten in ChatGPT eingeben | kein Volumen | 0 |
+| Auftragsverarbeitungsvertrag ChatGPT | kein Volumen | 0 |
+| sensible Daten KI Tool | kein Volumen | 0 |
+
+Einziger Begriff mit echtem, validiertem Suchvolumen: **„ist ChatGPT DSGVO-konform"**.
+
+**Google direkt (Intent-Check):**
+- welche Daten darf ich in ChatGPT eingeben → passt
+- ist ChatGPT DSGVO-konform → passt sehr gut, B2B-Compliance-Intent, eigenes AI-Overview
+- ChatGPT Datenschutz Praxis → Nuance: „Praxis" evtl. als „praktische Anwendung"
+  missverstehbar, im Text früh auf Gesundheitspraxis festlegen
+- Gesundheitsdaten in ChatGPT eingeben → passt nicht sauber, kollidiert mit OpenAIs
+  „ChatGPT Health"-Feature (Patienten- statt Praxis-Intent)
+- Auftragsverarbeitungsvertrag ChatGPT → teilweise, im Titel präzise „DPA"/
+  „Auftragsverarbeitungsvertrag" verwenden statt nur „Vertrag"
+- sensible Daten KI Tool → teilweise, eher Grundlagen-Baustein als eigenes Keyword
+
+**Entscheidung:**
+- **Primär-Keyword bleibt** „welche Daten darf ich in ChatGPT eingeben" (passt zum
+  geplanten Fokus, deckt sich mit dem Redaktionsplan).
+- **„ist ChatGPT DSGVO-konform" zusätzlich prominent platzieren** (frühe H2 + eigener
+  FAQ-Eintrag) — einziges Keyword mit echtem, validiertem Volumen und sauberem Intent.
+- **„Gesundheitsdaten in ChatGPT eingeben" nicht als Keyword verwenden** (ChatGPT-
+  Health-Kollision) — Thema stattdessen über „besondere Kategorien"/Art. 9 einführen,
+  ohne diese Phrase als Ziel-Keyword zu setzen.
+
+---
+
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
 `segmente.md`, `service-katalog.md`, `angebotsvorschlaege.md`, `AGENTS.md`.*
