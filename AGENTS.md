@@ -268,6 +268,14 @@ Link: `https://calendly.com/leonie-kaiser/ki-potentialanalyse`
 > mit Versprechen. Der CTA selbst (Potenzialanalyse) bleibt; nur das Drumherum
 > entscheidet über die Buchung. Quelle: `strategie/silicon-sampling.md`.
 
+**Potenzialanalyse immer allgemein/unverbindlich beschreiben.** Die Potenzialanalyse
+ist ein **erstes, unverbindliches Gespräch** zum Status quo und zu möglichen
+Ansatzpunkten — **keine Detailanalyse und keine konkrete Lösungsausarbeitung**.
+Schluss-CTAs dürfen also z. B. „wo Ihre Praxis beim Thema X steht und welche
+Ansatzpunkte es gibt" versprechen, aber **nicht** „welche Tools zu Ihnen passen"
+oder „wie die Einrichtung im Detail läuft" — das sind Zusagen, die eine
+30-Minuten-Erstanalyse nicht einhalten kann. (Leonie, 2026-08.)
+
 ## 13. SEO/GEO-Disziplin (kurz)
 
 - Title-Tags: primäres Keyword zuerst, dann „· Leonie Kaiser“
