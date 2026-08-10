@@ -50,6 +50,21 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
 - Prüfen, ob unter `strategie/blog-einzelkonzepte.md` schon ein Einzelkonzept für diesen Post
   existiert — falls ja, dessen Keyword-Vorschlag und Bild-Ideen als Ausgangspunkt nehmen.
 
+### Schritt 1b — Einzelkonzept erarbeiten (nur falls in Schritt 1 keins gefunden wurde)
+- Gleiche Struktur wie die bestehenden Einzelkonzepte zu #1–#3 (siehe `blog-einzelkonzepte.md`):
+  Eckdaten (Primär-Keyword-Vorschlag, Long-Tail, Target Intent, Format/Länge, Kategorie),
+  interne Links, Content-Gap/einzigartiger Winkel, H1/H2/H3-Outline-Skizze,
+  Meta-Description-Entwurf, Bild-Ideen.
+- Rohmaterial: `service-katalog.md` (Bausteine/Szenarien), `data/branchen.yaml` (Schmerz/
+  Usecases/FAQ der passenden Leistungsseite), `AGENTS.md` §10 (O-Töne), vorhandene
+  Keyword-Recherche in `keyword-research-2026-07.md` Anhang B (falls dort ein passendes
+  Themen-Cluster existiert).
+- **Muss vor dem Keyword-Check stehen**, nicht danach — der Primär-Keyword-Vorschlag und die
+  Outline-Skizze liefern erst die Grundlage, aus der sich sinnvolle Seed-Begriffe für Schritt 2
+  ableiten lassen. (Leonie, 2026-08.)
+- Nach Fertigstellung in `blog-einzelkonzepte.md` ergänzen (dauerhafte Ablage, gleiche Datei,
+  nicht neu anlegen) und **kurz von Leonie bestätigen lassen**, bevor es mit Schritt 2 weitergeht.
+
 ### Schritt 2 — Keyword-Check anstoßen
 - 4–6 **Seed-Begriffe** zum Thema vorschlagen (aus dem Redaktionsplan-Keyword abgeleitet).
 - Das Report-Template aus `strategie/keyword-check.md` ausgeben (Kurzform ab dem zweiten Mal,

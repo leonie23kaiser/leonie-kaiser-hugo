@@ -340,7 +340,68 @@ klarem Hinweis, wo die Juristin/der DSB gefragt ist.
 
 ---
 
-## Posts #4–#10 — folgen nach dem Launch
+## Post #4 — Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit
+
+### Eckdaten
+- **Primär-Keyword:** „Wissen sichern Praxis Onboarding" (Redaktionsplan-Vorschlag, im
+  Keyword-Check noch gegen echte Suchdaten zu prüfen)
+- **Long-Tail-Kandidaten** (aus `keyword-research-2026-07.md` Anhang B, unvalidiert):
+  Praxiswissen sichern Team, Einarbeitung neue Mitarbeiterin Praxis, Vertretung Praxis
+  erleichtern, digitales Praxishandbuch, Wissen im Kopf einer Person Praxis-Risiko
+- **Target Intent:** Consideration
+- **Format/Länge:** Standard-Fachbeitrag, **1.100–1.400 Wörter**, ~7 min (wie #1/#2, kein
+  tiefer Leitfaden wie #3)
+- **Kategorie:** „Dokumentation & Wissen"
+
+### Interne Links
+- **Hub:** `/leistungen/dokumentation-und-wissen/`
+- **Weiter:** `/eu-ai-act/` (kurzer Datenschutz-Absatz, Art. 9 bei Behandlungsnotizen im
+  Handbuch), Post #1 (Praxis hängt an der Leitung — thematisch verwandt)
+- **CTA:** Potenzialanalyse, allgemein/unverbindlich (siehe `AGENTS.md` §12)
+
+### Content-Gap / einzigartiger Winkel
+Viele Anbieter verkaufen generische Praxishandbuch-Vorlagen oder -Software. Leonies Winkel,
+sachlich statt abwertend: **erst die Abläufe klären, dann das Tool** (gleiches Prinzip wie
+#1/#2/#3) — ein Handbuch nützt nichts, wenn niemand weiß, was eigentlich reinsoll. Zweiter
+Punkt, direkt aus `branchen.yaml`-FAQ: **KI bereitet nur vor, die fachliche Beurteilung
+bleibt immer bei der Praxis** — wichtig, um keine Sorge vor Kontrollverlust zu wecken.
+
+### Outline
+**H1: Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe**
+
+- **H2: Was passiert, wenn eine erfahrene Kraft geht** — Einstieg mit O-Ton „Wenn meine
+  langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit." (`AGENTS.md` §10)
+- **H2: Warum das Wissen einer Praxis oft nur in Köpfen steckt**
+  - H3: Rückfragen häufen sich, weil niemand sonst die Antwort kennt
+  - H3: Vertretung und Einarbeitung dauern länger als nötig
+- **H2: Was ein digitales Praxis-Handbuch leistet — und was nicht**
+  - H3: Wiederkehrende Abläufe einmal sauber festhalten
+  - H3: Die fachliche Beurteilung bleibt immer bei Ihnen
+- **H2: Wie Sie anfangen, ohne alles auf einmal zu dokumentieren**
+  - H3: Erst die häufigsten Rückfragen, dann der Rest
+- **H2: Datenschutz: was ins Handbuch darf und was nicht** *(kurz halten, wie bei #3)*
+- **H2: Wie wir das in der Praxis lösen** *(Beispielszenario, illustrativ — Rohmaterial:
+  `service-katalog.md` Szenario C)*
+- **H2: Häufige Fragen**
+  - Muss ich alles auf einmal dokumentieren?
+  - Behalte ich die Kontrolle über die Dokumentation?
+  - Was, wenn sich ein Ablauf später ändert?
+  - Brauche ich dafür eine neue Software?
+- **CTA:** Potenzialanalyse, allgemein (kein „welche Tools passen"-Versprechen)
+
+### Meta-Description (Entwurf, 140–160)
+> Wenn eine erfahrene Kraft geht, geht oft auch das Wissen. Wie ein digitales
+> Praxis-Handbuch Vertretung und Einarbeitung leichter macht, und wo Sie anfangen.
+
+### Bild-Ideen
+- **Hero:** ruhige Übergabe-Szene im Team, z. B. zwei Personen gemeinsam an einem Tablet/
+  Ordner, oder ein offenes Praxis-Handbuch am Empfang — hell, kollegial, kein Abschieds-
+  Drama. Suchbegriffe: „Praxis Team Übergabe", „Handbuch Ordner Empfang".
+- **Zwischenbild:** kein zwingender Bedarf, ggf. später entscheiden (wie bei Post #1).
+
+---
+
+## Posts #5–#10 — folgen nach #4
 
 Gleiche Struktur (Eckdaten · interne Links · Content-Gap · Outline · Meta). Reihenfolge
 und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8 — inklusive
@@ -349,5 +410,4 @@ der **Wunsch-Themen**, die neben den Schmerz-Themen laufen:
 - **Website-Assistent (#6):** besseres Kundenerlebnis, Anfragen sofort beantwortet.
 - **Termine erinnern & Kundschaft zurückholen (#10):** die zwei Nachrichten-Typen sauber getrennt.
 
-Werden **erst nach Freigabe der ersten drei** ausgearbeitet — so ist Tonfall und Tiefe
-einmal an #1–#3 justiert, bevor die restlichen entstehen.
+Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4.
