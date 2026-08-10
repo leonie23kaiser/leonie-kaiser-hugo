@@ -5,6 +5,9 @@ description: "Welche Daten Sie bedenkenlos in ChatGPT eingeben können, welche b
 date: 2026-08-18
 lastmod: 2026-08-18
 author: "Leonie Kaiser"
+cover: "images/blog/cover-chatgpt-daten.png"
+coverAlt: "Physiotherapeutin mit weißem Kittel schaut konzentriert auf ihren Laptop"
+coverCredit: "Wavebreakmedia / Getty Images"
 category: "Datenschutz & EU AI Act"
 readingTime: 7
 tags: ["ChatGPT", "Datenschutz", "DSGVO"]
