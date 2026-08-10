@@ -343,7 +343,8 @@ klarem Hinweis, wo die Juristin/der DSB gefragt ist.
 ## Post #4 — Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit
 
 ### Eckdaten
-- **Primär-Keyword:** „Wissen sichern Praxis Onboarding" (Redaktionsplan-Vorschlag, im
+- **Primär-Keyword:** „Wissen sichern Praxis" (angepasst von Leonie — im Post geht es primär
+  ums Wissen-Sichern selbst, Onboarding ist nur ein Anwendungsfall davon, nicht der Kern; im
   Keyword-Check noch gegen echte Suchdaten zu prüfen)
 - **Long-Tail-Kandidaten** (aus `keyword-research-2026-07.md` Anhang B, unvalidiert):
   Praxiswissen sichern Team, Einarbeitung neue Mitarbeiterin Praxis, Vertretung Praxis
@@ -377,9 +378,11 @@ bleibt immer bei der Praxis** — wichtig, um keine Sorge vor Kontrollverlust zu
 - **H2: Was ein digitales Praxis-Handbuch leistet — und was nicht**
   - H3: Wiederkehrende Abläufe einmal sauber festhalten
   - H3: Die fachliche Beurteilung bleibt immer bei Ihnen
-- **H2: Wie Sie anfangen, ohne alles auf einmal zu dokumentieren**
-  - H3: Erst die häufigsten Rückfragen, dann der Rest
 - **H2: Datenschutz: was ins Handbuch darf und was nicht** *(kurz halten, wie bei #3)*
+  - H3: Wie Sie anfangen, ohne gleich alles zu dokumentieren *(vormals eigenes H2 — jetzt
+    hier eingeordnet, weil der Einstiegspunkt „erst die unkritischen Abläufe, dann die
+    sensiblen" den Datenschutz-Bogen direkt weiterspinnt; „häufigste Rückfragen zuerst"
+    bleibt als Stichwort im Fließtext, nicht als eigene H3)
 - **H2: Wie wir das in der Praxis lösen** *(Beispielszenario, illustrativ — Rohmaterial:
   `service-katalog.md` Szenario C)*
 - **H2: Häufige Fragen**

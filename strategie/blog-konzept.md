@@ -301,7 +301,7 @@ Keywords sind Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche 
 | **1** ⭐ | „Ohne mich läuft hier nichts" — warum in kleinen Praxen alles an der Leitung hängt | „Praxis hängt an der Inhaberin" | Awareness | KI in der Praxis (persönlich) | `/ueber-mich/` · `/leistungen/` · `/eu-ai-act/` |
 | **2** ⭐ | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Termine & Anfragen · Physiotherapie | `/leistungen/termine-und-anfragen/` |
 | **3** ⭐ | Praxis-Alltag: Welche Daten darf ich in ChatGPT eingeben? | „welche Daten darf ich in ChatGPT eingeben" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
-| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis Onboarding" | Consideration | Dokumentation & Wissen | `/leistungen/dokumentation-und-wissen/` |
+| **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis" | Consideration | Dokumentation & Wissen | `/leistungen/dokumentation-und-wissen/` |
 | **5** | Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in KI-Suchen beachten müssen | „Praxis bei Google gefunden werden" | Consideration | Sichtbarkeit | Startseite + `/eu-ai-act/` |
 | **6** 🆕 | Digitalisierung ist Chefsache: warum Entlastung bei der Leitung anfängt (nicht bei der Software) | „Digitalisierung Praxis Chefsache" | Awareness | KI in der Praxis / Dokumentation | `/ueber-mich/` + Post #1 |
 | **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wissen müssen | „EU AI Act kleine Praxis" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |

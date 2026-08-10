@@ -63,7 +63,10 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
   Outline-Skizze liefern erst die Grundlage, aus der sich sinnvolle Seed-Begriffe für Schritt 2
   ableiten lassen. (Leonie, 2026-08.)
 - Nach Fertigstellung in `blog-einzelkonzepte.md` ergänzen (dauerhafte Ablage, gleiche Datei,
-  nicht neu anlegen) und **kurz von Leonie bestätigen lassen**, bevor es mit Schritt 2 weitergeht.
+  nicht neu anlegen).
+- **Immer den vollständigen Einzelkonzept-Inhalt direkt im Chat zeigen** (nicht nur „ist in
+  der Datei ergänzt" melden) und auf Leonies Freigabe warten, bevor es mit Schritt 2
+  weitergeht — auch bei künftigen Posts #5–#18. (Leonie, 2026-08.)
 
 ### Schritt 2 — Keyword-Check anstoßen
 - 4–6 **Seed-Begriffe** zum Thema vorschlagen (aus dem Redaktionsplan-Keyword abgeleitet).

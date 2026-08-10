@@ -271,10 +271,13 @@ Link: `https://calendly.com/leonie-kaiser/ki-potentialanalyse`
 **Potenzialanalyse immer allgemein/unverbindlich beschreiben.** Die Potenzialanalyse
 ist ein **erstes, unverbindliches Gespräch** zum Status quo und zu möglichen
 Ansatzpunkten — **keine Detailanalyse und keine konkrete Lösungsausarbeitung**.
-Schluss-CTAs dürfen also z. B. „wo Ihre Praxis beim Thema X steht und welche
-Ansatzpunkte es gibt" versprechen, aber **nicht** „welche Tools zu Ihnen passen"
-oder „wie die Einrichtung im Detail läuft" — das sind Zusagen, die eine
-30-Minuten-Erstanalyse nicht einhalten kann. (Leonie, 2026-08.)
+**Bezug auf das Post-Thema ist ausdrücklich erwünscht** — der Schluss-CTA darf und soll
+an das Thema des Beitrags anknüpfen (z. B. „wo Ihre Praxis beim Thema X steht und welche
+Ansatzpunkte es gibt"). **Nicht erlaubt** sind konkrete Informationen/Ergebnisse, die im
+Beitrag selbst behandelt wurden, als Zusage für das Gespräch — also nicht „welche Tools zu
+Ihnen passen" oder „wie die Einrichtung im Detail läuft", weil eine 30-Minuten-Erstanalyse
+das nicht einhalten kann. Kurz: **Thema ja, konkrete Session-Inhalte als Versprechen nein.**
+(Leonie, 2026-08.)
 
 ## 13. SEO/GEO-Disziplin (kurz)
 
