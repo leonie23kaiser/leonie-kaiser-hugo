@@ -13,7 +13,7 @@ readingTime: 7
 tags: ["No-Shows", "Terminplanung", "Physiotherapie"]
 ctaHeadline: "Nächster Schritt: Weniger leere Termine in Ihrem Kalender"
 ctaText: "In 30 Minuten schauen wir gemeinsam, wo in Ihrer Terminorganisation das größte Potenzial liegt. Kostenfrei, unverbindlich, online."
-draft: true
+draft: false
 ---
 
 Im Kalender steht ein Name, ein Termin, fest eingetragen. Doch die Behandlungszeit bleibt frei: Die Kundin oder der Kunde erscheint einfach nicht, ohne Bescheid, ohne Absage. Für eine kleine Physiotherapie-Praxis ist das mehr als ein einzelner Ausfall. Es ist Behandlungszeit, die für den Rest des Tages verloren ist.
