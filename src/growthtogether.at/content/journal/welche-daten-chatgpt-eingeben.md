@@ -46,6 +46,14 @@ Die einfachste Lösung ist meist auch die wirksamste: Die KI braucht den echten 
 
 Ein Punkt dabei wird oft übersehen: Auch ohne Namen kann eine Angabe wieder einer Person zuordenbar sein, wenn genügend Kontext vorhanden ist, zum Beispiel eine seltene Diagnose in einer kleinen Praxis mit wenigen Behandlungsfällen dieser Art. Im Zweifel hilft die Gegenfrage: Könnte jemand aus dem Praxisumfeld anhand der Angaben erraten, um wen es geht? Falls ja, ist noch nicht genug weggelassen.
 
+<figure style="margin:var(--s6) 0">
+  <picture>
+    <source srcset="/images/blog/grafik-daten-chatgpt.webp" type="image/webp">
+    <img src="/images/blog/grafik-daten-chatgpt.png" alt="Gegenüberstellung: Unkritische Daten (Entwurf ohne Namen, Standardformulierung, allgemeine Aufklärung) und heikle Daten (Name plus Diagnose, Name plus Termin, vollständige Patientenakte)" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+  </picture>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+</figure>
+
 ## Kurz eingeordnet: das Datenschutzgesetz
 
 Warum wird das Thema Datenschutz überhaupt so genau genommen? Das Datenschutzgesetz (DSGVO, Art. 9) stuft Gesundheitsdaten als „besondere Kategorie personenbezogener Daten" ein, strenger geschützt als etwa ein Name oder eine Adresse allein. Schon der Anlass eines Termins kann dazugehören, sobald er eine erkennbare Person betrifft. Das ist der Grund, warum „Frau Mayer, Rückenschmerzen" anders zu behandeln ist als ein anonymer Übungstext.
