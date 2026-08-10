@@ -13,7 +13,7 @@ readingTime: 7
 tags: ["ChatGPT", "Datenschutz", "DSGVO"]
 ctaHeadline: "Nächster Schritt: ChatGPT & Co. sicher in Ihrer Praxis einsetzen"
 ctaText: "In 30 Minuten schauen wir gemeinsam, wo Ihre Praxis beim Thema Digitalisierung steht und welche Ansatzpunkte es gibt. Kostenfrei, unverbindlich, online."
-draft: true
+draft: false
 ---
 
 „Darf ich das überhaupt eingeben?" Diese Frage höre ich oft, sobald eine Praxis anfängt, ChatGPT im Alltag einzusetzen. Meist kommt sie kurz nach der ersten Begeisterung: ein Antwortentwurf, ein Text für die Website, ein Formulierungsvorschlag — und dann die kurze Unsicherheit, ob da gerade etwas Heikles im Chatfenster gelandet ist. Eine Regel, die man sich einmal merkt und dann im Alltag anwenden kann, wäre praktisch. Genau die gibt es, ohne Juristendeutsch.
