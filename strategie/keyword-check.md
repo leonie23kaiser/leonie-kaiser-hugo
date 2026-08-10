@@ -75,3 +75,30 @@ Google direkt (Autocomplete / Ähnliche Fragen / Ähnliche Suchanfragen):
 
 **Ab dem zweiten Mal** genügt diese Kurzform — Claude schreibt nur noch die Zeilen mit
 den Tool-Namen und Leonie füllt die Ergebnisse ein.
+
+---
+
+## Zielgruppen-Intent-Check (Pflichtschritt, bevor ein Keyword übernommen wird)
+
+*Aus der Recherche zu Post #1 gelernt (siehe `strategie/keyword-research-2026-07.md`,
+„Runde 2"): **hohes Suchvolumen heißt nicht automatisch richtige Zielgruppe.** Ein
+Keyword erst dann als gut bewerten, wenn auch geprüft ist, WER laut den „Ähnliche
+Fragen"/„Ähnliche Suchanfragen" wirklich sucht — nicht nur ob überhaupt gesucht wird.*
+
+Bereits gefundene Fallen (zur Orientierung, bei jedem neuen Begriff neu denken):
+- „Praxismanagerin"/„Praxismanagement" — starkes Volumen, aber die Ähnliche-Fragen drehten
+  sich um Gehalt, Stellenangebote, Ausbildung, IHK: Jobsuchende/Auszubildende, nicht
+  Praxisinhaberinnen.
+- „Praxissoftware" — reale Nachfrage, aber nach konkreten Konkurrenzprodukten (Tomedo,
+  Medatixx, MEDISTAR) zum Kaufen/Vergleichen, nicht nach Beratung — würde außerdem gegen die
+  „tool-agnostisch"-Positionierung in `AGENTS.md` laufen.
+- „Potenzialanalyse" allein (ohne „KI-") ist im Deutschen stark von Schul-/
+  Personalauswahl-Assessments besetzt (Schule, 8. Klasse, Arbeitsagentur).
+
+**Check:** Passt die reale Suchintention laut Google direkt zu einer inhabergeführten
+Gesundheits-/Wellness-Praxis mit sensiblen Patientendaten (Anker-Kriterien in
+`strategie/segmente.md`, Zielgruppe/Anti-Zielgruppe in `AGENTS.md` §1) — oder nach etwas
+anderem (Job, Software-Kauf, Ausbildung, ein anderes Berufsfeld, Konsument:innen statt B2B)?
+Verdikt pro Keyword: **passt** / **passt teilweise** / **passt nicht**, mit Begründung aus
+den echten Daten. Nie eine Zahl oder Suchintention raten, wenn keine Daten geliefert wurden —
+ehrlich „kein Volumen"/„nicht durchgeführt" schreiben.
