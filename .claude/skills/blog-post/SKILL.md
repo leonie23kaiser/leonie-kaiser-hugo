@@ -92,12 +92,20 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
 ### Schritt 7 — Bildvorgaben (erst jetzt, nach dem Text)
 - Bewusst **nach** dem fertigen Text, nicht davor — Bildideen müssen zum tatsächlichen Winkel
   passen, der sich durch Leonies Feedback in Schritt 4/5 noch verschoben haben kann.
+- **Zuerst selbst in `src/growthtogether.at/assets/images/blog/` nachschauen**, ob für diesen
+  Post schon ein Bild liegt (Leonie legt Fotos manchmal vorab dort ab, auch ohne es zu sagen —
+  Dateiname orientiert sich meist am Slug/Thema). Falls ja: direkt verwenden (inkl. Eintrag in
+  `CREDITS.md`, falls dort noch nicht vermerkt), nicht erst nachfragen oder ein neues Bild
+  vorschlagen. Erst wenn dort nichts Passendes liegt, Hero + optional 1 Zwischenbild
+  vorschlagen. (Leonie, 2026-08.)
 - **Hero + optional 1 Zwischenbild** vorschlagen (Motiv, Stimmung, Suchbegriffe — siehe
   Vorlage in `blog-einzelkonzepte.md`, Abschnitt „Bild-Ideen"). Leonie sucht/liefert das
   passende Foto; danach `cover`/`coverAlt`/`coverCredit` im Front-Matter ergänzen.
-- ALT-Texte und (falls Stockfoto/KI-generiert) Bildunterschrift mit Quelle liefern — bei
-  KI-generierten Bildern als „© KI-generiert mit ‹Tool›, ‹Jahr›" (siehe
-  `assets/images/blog/CREDITS.md`).
+- **Für jedes Bild (Cover wie Zwischenbild) immer einen ALT-Text mitliefern** — der Text, der
+  angezeigt wird, falls das Bild nicht lädt, und der von Screenreadern vorgelesen wird. Kommt
+  ins `coverAlt`-Feld bzw. `alt`-Attribut, nicht optional. (Leonie, 2026-08.)
+- (Falls Stockfoto/KI-generiert) Bildunterschrift mit Quelle liefern — bei KI-generierten
+  Bildern als „© KI-generiert mit ‹Tool›, ‹Jahr›" (siehe `assets/images/blog/CREDITS.md`).
 - Mobile Kartenansicht (`/blog/`-Übersicht) und Post-Seite jeweils per Screenshot prüfen,
   sobald ein echtes Bild vorliegt.
 
