@@ -293,9 +293,10 @@ Fallback in `layouts/journal/single.html` ist nur Notnagel.
 - **„kostenfrei" nie als Hauptargument im Fließtext.** Die Rahmendaten stehen
   als dezente Zeile unter dem Button (Layout).
 - **Nur versprechen, was die Potenzialanalyse abdeckt:** eine Einordnung, wo
-  die Praxis digital steht; die zwei bis drei größten Zeitfresser; wo KI
-  ansetzen könnte und wo nicht; eine erste Datenschutz-Einordnung; ein
-  möglicher erster Schritt; die Zusammenfassung im Anschluss.
+  die Praxis digital steht; die zwei bis drei Abläufe, die am meisten Zeit
+  kosten; wo KI ansetzen könnte und wo nicht; eine erste
+  Datenschutz-Einordnung; ein möglicher erster Schritt; die Zusammenfassung
+  im Anschluss.
 - **Nicht versprechen:** welche konkreten Tools passen, wie die Einrichtung
   abläuft, Zeitersparnis in Prozent, Erfolgsgarantien.
 - **Sprache:** „Praxis", nicht „Unternehmen". „ich", nicht „wir". Kein „zeigen
