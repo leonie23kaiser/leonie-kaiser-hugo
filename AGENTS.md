@@ -173,6 +173,10 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Empfehlungen", „klar, schnell, günstig"). Das letzte Glied mit **„und"**
   anschließen: „Unverbindlich, online und mit konkreten Empfehlungen." Aneinander-
   gereihte Wörter ohne Bindewort wirken abgehackt. (Leonie, 2026-07.)
+- **Keine aneinandergereihten Halbsätze mit Beistrichen statt ganzer Sätze**
+  (z. B. „Wer absagen möchte, muss oft anrufen, während der Öffnungszeiten, im
+  besten Fall sofort durchkommen.“). Stattdessen kurze, vollständige Sätze
+  schreiben, notfalls mehrere hintereinander. (Leonie, 2026-08.)
 - **Gedankenstriche (–) sehr sparsam.** Der Gedankenstrich gilt als typisches
   Signal für KI-generierten Text. Stattdessen ganze Sätze, Punkt oder Komma
   verwenden. Höchstens vereinzelt, nie mehrfach im selben Absatz.
@@ -263,6 +267,14 @@ Link: `https://calendly.com/leonie-kaiser/ki-potentialanalyse`
 > einem **konkreten, branchenspezifischen Ergebnis** und einer **Referenz** statt
 > mit Versprechen. Der CTA selbst (Potenzialanalyse) bleibt; nur das Drumherum
 > entscheidet über die Buchung. Quelle: `strategie/silicon-sampling.md`.
+
+**Potenzialanalyse immer allgemein/unverbindlich beschreiben.** Die Potenzialanalyse
+ist ein **erstes, unverbindliches Gespräch** zum Status quo und zu möglichen
+Ansatzpunkten — **keine Detailanalyse und keine konkrete Lösungsausarbeitung**.
+Schluss-CTAs dürfen also z. B. „wo Ihre Praxis beim Thema X steht und welche
+Ansatzpunkte es gibt" versprechen, aber **nicht** „welche Tools zu Ihnen passen"
+oder „wie die Einrichtung im Detail läuft" — das sind Zusagen, die eine
+30-Minuten-Erstanalyse nicht einhalten kann. (Leonie, 2026-08.)
 
 ## 13. SEO/GEO-Disziplin (kurz)
 
