@@ -293,5 +293,43 @@ nicht über diese Wortfolge.
 
 ---
 
+## Post #4: „Wissen sichern / Praxishandbuch / Einarbeitung & Vertretung" (2026-08-11)
+
+**Status: ⏳ Keyword-Check größtenteils abgeschlossen** — Google Keyword Planner, Trends und
+Google direkt für alle 6 Seeds + Vergleichsbegriffe liegen vor. Offen: restliche
+AnswerThePublic-Suchen (Leonie liefert morgen nach, dürfte am Gesamtbild nichts ändern).
+
+*Seeds: Wissen sichern Praxis · Praxiswissen sichern Team · Einarbeitung neue Mitarbeiterin
+Praxis · Vertretung Praxis erleichtern · digitales Praxishandbuch erstellen · Praxishandbuch
+Vorlage. AnswerThePublic-Tiefenrecherche weiterhin gesperrt (Testabo abgelaufen).*
+
+| Keyword | Volumen/Trend | Reale Suchintention (Google direkt) | Intent-Verdikt |
+|---|---|---|---|
+| **Wissen sichern Praxis** | 0 (Planer, Trends); Autocomplete findet keine passenden Vorschläge | „Ähnliche Suchanfragen" sind Wissensmanagement-Theorie (Wissenstransfer, SECI-Modell, Wissenslandkarte) | **Passt nicht sauber** — akademisch/HR-Consulting-Jargon, nicht Praxisinhaberinnen-Sprache |
+| **Praxiswissen sichern Team** | 0; Autocomplete liefert nur Zufallsfragmente | Nur eine generische Frage („Was ist Wissenssicherung?") | **Kein verwertbares Signal** |
+| **Einarbeitung neue Mitarbeiterin Praxis** | 0 (Planer, Trends); „einarbeitung" als Vergleichsbegriff zeigt reales, konstantes Trends-Volumen | „Ähnliche Fragen" sind generische HR-Onboarding-Fragen (4 Phasen der Einarbeitung, wer muss einarbeiten) — kein Praxis-Bezug in echten Suchen | **Passt teilweise** — reales Thema, aber konkurriert mit riesigem generischen HR-Content-Feld |
+| **Vertretung Praxis erleichtern** | 0 | Dominiert von **„Vertretungsarzt"** (Urlaubsvertretung, Vertretungsarzt selber aussuchen, Honorar) und Arbeitsverträgen (Mustervertrag Arztpraxis) | **Passt nicht** — Sucher wollen einen Vertretungsarzt engagieren oder einen Arbeitsvertrag, nicht Wissenssicherung |
+| **digitales Praxishandbuch erstellen** | 0; kein Autocomplete-Treffer (springt auf unrelated „design process"-Fragmente) | Keine „Ähnliche Fragen"/-Suchanfragen | **Kein verwertbares Signal** |
+| **Praxishandbuch Vorlage** | 0 | Dominiert von **„Medizinproduktebuch"** (gesetzliches Gerätebuch nach MPBetreibV/MDR, inkl. „Medizinproduktebuch Zahnarztpraxis") | **Passt nicht** — Compliance-Pflichtdokument für Medizingeräte, anderes Thema |
+| **Praxishandbuch** (bare, einziger Begriff mit echtem Trends-Volumen) | **Real, aber falsch verortet** | Dominiert von **LZK/LZK-BW** (Landeszahnärztekammer Baden-Württemberg), „QM Praxishandbuch", „Praxishandbuch Login" (Kammer-Mitgliederportal), „Arbeitsverträge ZFA" | **Passt nicht** — das ist das QM-Pflichthandbuch für Zahnarztpraxen der Landeszahnärztekammer, nicht Leonies Team-Handbuch. Zahnärzte sind laut `segmente.md` nicht aktiv targetiert |
+
+**Finale Keyword-Entscheidung für Post #4:** Ungewöhnlich eindeutiges Ergebnis — **kein
+einziger getesteter Begriff hat sowohl echtes Volumen als auch passenden Intent.** Sogar der
+einzige Begriff mit realem Suchvolumen („Praxishandbuch") erweist sich als Fehltreffer
+(Zahnärztekammer-Compliance-Portal). Empfehlung: Post #4 wie Post #1 als **Awareness-/
+Schmerzpunkt-Content** behandeln, nicht auf eine dieser Phrasen als SEO-Zielkeyword setzen.
+Inhaltlich am O-Ton aus `AGENTS.md` orientieren: „Wenn meine langjährige Mitarbeiterin geht,
+nimmt sie alles Wissen mit." Falls doch ein Kopf-Begriff gewünscht ist: „einarbeitung" hat als
+einziger Vergleichsbegriff reales, sauberes (wenn auch generisches) Signal — am ehesten
+brauchbar, aber ohne Praxis-Spezifik.
+
+*Hinweis (aus Post #2 übernommen, methodisch wichtig): Google Keyword Planer unterdrückt
+Volumen unterhalb einer gewissen Schwelle als „—"/kein Volumen — das ist kein Beleg für
+völlig fehlende Nachfrage, nur für sehr geringe. Ändert hier aber nichts an der Kernaussage,
+da zusätzlich Trends (0) und die Intent-Kollisionen unabhängig bestätigen, dass die
+getesteten Phrasen keine geeigneten SEO-Ziele sind.*
+
+---
+
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
 `segmente.md`, `service-katalog.md`, `angebotsvorschlaege.md`, `AGENTS.md`.*
