@@ -12,7 +12,7 @@ category: "Datenschutz & EU AI Act"
 readingTime: 7
 tags: ["ChatGPT", "Datenschutz", "DSGVO"]
 ctaHeadline: "Nächster Schritt: ChatGPT & Co. sicher in Ihrer Praxis einsetzen"
-ctaText: "In 30 Minuten schauen wir gemeinsam, wo Ihre Praxis beim Thema Digitalisierung steht und welche Ansatzpunkte es gibt. Kostenfrei, unverbindlich, online."
+ctaText: "In 30 Minuten stellen wir gemeinsam fest, wo Ihre Praxis digital steht, welche Daten in Ihrem Alltag heikel sind und welche Ansatzpunkte es gibt. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: false
 ---
 
@@ -112,6 +112,6 @@ Ja, dieselben Grundsätze gelten auch für andere KI-Tools: Es braucht einen Auf
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie unsicher sind, wie Sie ChatGPT und ähnliche Tools datenschutzsicher in Ihrer Praxis einsetzen können, dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse gemeinsam an: wo Ihre Praxis beim Thema Digitalisierung aktuell steht und welche Ansatzpunkte es gibt.
+Wenn Sie unsicher sind, wie Sie ChatGPT und ähnliche Tools datenschutzsicher in Ihrer Praxis einsetzen können, dann stellen wir das gern gemeinsam in einer Potenzialanalyse fest: wo Ihre Praxis beim Thema Digitalisierung aktuell steht und welche Ansatzpunkte es gibt.
 
 Im nächsten Beitrag geht es um eine andere Frage: was mit dem Praxiswissen passiert, wenn eine erfahrene Kraft geht, und wie Sie das rechtzeitig absichern.
