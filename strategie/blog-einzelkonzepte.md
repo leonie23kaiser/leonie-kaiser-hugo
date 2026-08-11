@@ -370,12 +370,13 @@ bleibt immer bei der Praxis** — wichtig, um keine Sorge vor Kontrollverlust zu
 ### Outline
 **H1: Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe**
 
-- **H2: Was passiert, wenn eine erfahrene Kraft geht** — Einstieg mit O-Ton „Wenn meine
-  langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit." (`AGENTS.md` §10)
-- **H2: Warum das Wissen einer Praxis oft nur in Köpfen steckt**
+*(Einstieg als unbetitelter Fließtext, wie bei #1–#3 — kein eigenes H2. O-Ton „Wenn meine
+langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit." aus `AGENTS.md` §10.)*
+
+- **H2: Die Folgen, wenn Wissen nur in Köpfen steckt**
   - H3: Rückfragen häufen sich, weil niemand sonst die Antwort kennt
   - H3: Vertretung und Einarbeitung dauern länger als nötig
-- **H2: Was ein digitales Praxis-Handbuch leistet — und was nicht**
+- **H2: Was ein digitales Praxis-Handbuch leistet**
   - H3: Wiederkehrende Abläufe einmal sauber festhalten
   - H3: Die fachliche Beurteilung bleibt immer bei Ihnen
 - **H2: Datenschutz: was ins Handbuch darf und was nicht** *(kurz halten, wie bei #3)*
