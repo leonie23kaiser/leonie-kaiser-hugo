@@ -12,7 +12,7 @@ category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]
 ctaHeadline: "Nächster Schritt: Damit nicht mehr alles an Ihnen hängt"
-ctaText: "In 30 Minuten zeigen wir gemeinsam, wo Sie als Leitung am meisten entlastet werden. Kostenfrei, unverbindlich, online."
+ctaText: "In 30 Minuten gehen wir gemeinsam Ihre Abläufe durch und stellen fest, welche davon sich teilen oder automatisieren lassen. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: false
 ---
 
@@ -106,4 +106,4 @@ Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließe
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie das Gefühl kennen, dass zu viel an Ihnen hängt — dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse gemeinsam an: wo Ihre Praxis im Alltag Zeit verliert und an welcher Stelle sich der erste Schritt am meisten lohnt. In Ruhe, ohne Druck.
+Wenn Sie das Gefühl kennen, dass zu viel an Ihnen hängt, dann stellen wir das gern gemeinsam in einer Potenzialanalyse fest: wo Ihre Praxis im Alltag Zeit verliert und an welcher Stelle sich der erste Schritt am ehesten lohnt. In Ruhe, ohne Druck.

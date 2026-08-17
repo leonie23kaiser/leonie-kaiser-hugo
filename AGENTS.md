@@ -276,6 +276,33 @@ Ansatzpunkte es gibt" versprechen, aber **nicht** „welche Tools zu Ihnen passe
 oder „wie die Einrichtung im Detail läuft" — das sind Zusagen, die eine
 30-Minuten-Erstanalyse nicht einhalten kann. (Leonie, 2026-08.)
 
+### Blog-CTA-Muster
+
+Jeder Post bekommt eigene `ctaHeadline` und `ctaText` im Front Matter. Der
+Fallback in `layouts/journal/single.html` ist nur Notnagel.
+
+- **Headline:** „Nächster Schritt: …" + das Ergebnis, das zum Thema des Posts
+  passt. Nie generisch.
+- **Text, drei Teile:**
+  1. „In 30 Minuten gehen wir gemeinsam … durch" oder „stellen wir gemeinsam
+     fest" — angebunden an das Thema des Posts.
+  2. Was dabei herauskommt, im zulässigen Rahmen (siehe unten).
+  3. „Die Zusammenfassung bekommen Sie danach schriftlich."
+- **Keine Stichwortliste** in der CTA-Box — den Umfang sieht die Kundschaft auf
+  der Calendly-Seite.
+- **„kostenfrei" nie als Hauptargument im Fließtext.** Die Rahmendaten stehen
+  als dezente Zeile unter dem Button (Layout).
+- **Nur versprechen, was die Potenzialanalyse abdeckt:** eine Einordnung, wo
+  die Praxis digital steht; die zwei bis drei Abläufe, die am meisten Zeit
+  kosten; wo KI ansetzen könnte und wo nicht; eine erste
+  Datenschutz-Einordnung; ein möglicher erster Schritt; die Zusammenfassung
+  im Anschluss.
+- **Nicht versprechen:** welche konkreten Tools passen, wie die Einrichtung
+  abläuft, Zeitersparnis in Prozent, Erfolgsgarantien.
+- **Sprache:** „Praxis", nicht „Unternehmen". „ich", nicht „wir". Kein „zeigen
+  wir" — stattdessen „stellen wir gemeinsam fest" / „gehen wir gemeinsam
+  durch". (Leonie, 2026-08.)
+
 ## 13. SEO/GEO-Disziplin (kurz)
 
 - Title-Tags: primäres Keyword zuerst, dann „· Leonie Kaiser“
