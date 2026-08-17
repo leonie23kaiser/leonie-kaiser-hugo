@@ -329,6 +329,39 @@ völlig fehlende Nachfrage, nur für sehr geringe. Ändert hier aber nichts an d
 da zusätzlich Trends (0) und die Intent-Kollisionen unabhängig bestätigen, dass die
 getesteten Phrasen keine geeigneten SEO-Ziele sind.*
 
+### Runde 2: Natürliche Frage-Formulierungen statt Label-Phrasen (2026-08-17)
+
+*Nach dem eindeutigen Fehlschlag der 6 Label-Phrasen wurden 6 neue Seeds als natürliche
+Fragen getestet (Lehre aus Post #1/#3: Fragen liefern tendenziell saubereren Intent):*
+
+1. was tun, wenn eine erfahrene Mitarbeiterin die Praxis verlässt
+2. wie sichere ich das Wissen meiner Praxis, bevor jemand kündigt
+3. wie dokumentiere ich Behandlungsabläufe für mein Praxisteam
+4. wie mache ich meine Praxis unabhängiger von einzelnen Mitarbeitenden
+5. wie übergebe ich Praxiswissen an neue Mitarbeiter
+6. wie erstelle ich ein Handbuch für meine Gesundheitspraxis
+
+**Trends + Keyword-Forecast:** alle 6 durchgehend 0 — erwartbar bei so langen Phrasen, kein
+Bewertungssignal für sich allein.
+
+**Google direkt (nur 1–3 geprüft, 4–6 bewusst nicht mehr einzeln getestet):** Kein
+Autocomplete- oder „Ähnliche Fragen"-Treffer für die exakten langen Formulierungen —
+strukturell erwartbar, da Google dafür eine kritische Masse fast identischer Eingaben
+braucht, die bei 8–12-Wort-Fragen praktisch nie erreicht wird. Das ist **kein Negativ-Befund
+zum Thema selbst**: In den Ergebnis-Snippets im Hintergrund der Screenshots sind echte,
+thematisch treffende Textausschnitte sichtbar (u. a. „...sichern Sie das für die
+verbleibenden Kräfte, damit der Praxisbetrieb stabil weiterläuft" und „...lassen Sie den
+ausscheidenden Mitarbeiter die wichtigsten Handgriffe [...] filmen oder aufschreiben") — es
+gibt also relevante Konkurrenz-Inhalte zum Thema, nur nicht messbar über Autocomplete/PAA bei
+dieser Fragenlänge.
+
+**Konsequenz:** Bestätigt die bestehende Empfehlung (Awareness-Content, kein festes
+SEO-Zielkeyword) zusätzlich, statt sie zu widerlegen. Als mögliche kürzere Kopf-Begriffe
+(noch nicht getestet, falls doch noch mal geprüft werden soll): „Mitarbeiterin kündigt
+Praxis", „Praxiswissen übergeben", „Behandlungsabläufe dokumentieren" (Vorsicht: könnte mit
+generischer Praxissoftware-/Medizin-Dokumentation kollidieren, ähnlich dem Praxishandbuch-
+Muster oben).
+
 ---
 
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
