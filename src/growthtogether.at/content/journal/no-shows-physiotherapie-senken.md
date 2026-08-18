@@ -12,7 +12,7 @@ category: "Termine & Anfragen"
 readingTime: 7
 tags: ["No-Shows", "Terminplanung", "Physiotherapie"]
 ctaHeadline: "Nächster Schritt: Weniger leere Termine in Ihrem Kalender"
-ctaText: "In 30 Minuten schauen wir gemeinsam, wo in Ihrer Terminorganisation das größte Potenzial liegt. Kostenfrei, unverbindlich, online."
+ctaText: "In 30 Minuten gehen wir gemeinsam Ihre Terminorganisation durch und stellen fest, wo Zeit verloren geht und welche Ansatzpunkte es gibt. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: false
 ---
 
@@ -112,6 +112,6 @@ Ein kurzer Anruf oder eine kurze Nachricht direkt danach klärt meist schon, was
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie das Gefühl kennen, dass zu viele Termine in Ihrer Praxis ausfallen, ohne dass rechtzeitig jemand Bescheid gibt, dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse gemeinsam an: wo in Ihrer Terminorganisation mit Digitalisierung und KI am meisten Potenzial steckt und wie ein erster Schritt aussehen kann.
+Wenn Sie das Gefühl kennen, dass zu viele Termine in Ihrer Praxis ausfallen, ohne dass rechtzeitig jemand Bescheid gibt, dann stellen wir das gern gemeinsam in einer Potenzialanalyse fest: wo in Ihrer Terminorganisation mit Digitalisierung und KI der größte Nutzen steckt und wie ein erster Schritt aussehen kann.
 
 Im nächsten Beitrag geht es um eine andere Alltagsfrage: welche Daten Sie bedenkenlos in ChatGPT eingeben können, und wovon Sie besser die Finger lassen.
