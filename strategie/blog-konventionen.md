@@ -81,6 +81,12 @@ Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype 
 2. **Einstieg:** 2–3 Sätze, Schmerz/Wunsch der Leserin, gern O-Ton.
 3. **Fließtext H2/H3** laut Einzelkonzept; alle 2–3 Absätze ein optisches Element
    (Callout-Box als Blockzitat, Liste, Zwischenbild-Marker) — kein „wall of text".
+   **Echten Mehrwert liefern, nicht nur Themen anreißen:** Wo es passt, konkrete
+   Schritt-für-Schritt-Anleitungen statt nur abstrakter Prinzipien (nummerierte Liste,
+   z. B. „Wie Sie anfangen"), und eine übersichtliche Box mit den wichtigsten Punkten,
+   wenn ein Abschnitt eine Aufzählung von Kern-Elementen enthält (`.highlight-box` aus
+   `brand.css`, siehe Post #4). Leser sollen am Ende mehr Antworten haben als Fragen,
+   nicht umgekehrt. (Leonie, 2026-08.)
 4. **Beispielszenario-Box** nur wenn vorgesehen, als *illustrativ* gekennzeichnet.
 5. **FAQ** (3–5 Fragen) — beim persönlichen Post optional.
 6. **Schluss:** CTA-Framing (die CTA-Box kommt automatisch aus dem Layout), branchen-

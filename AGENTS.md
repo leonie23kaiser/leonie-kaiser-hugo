@@ -200,8 +200,12 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
 - **„Das ist kein persönliches Versagen“ und ähnliche Rechtfertigungs-Sätze**
   grundsätzlich vermeiden — sie unterstellen implizit einen Vorwurf, den
   niemand erhoben hat. Direkt beim Beobachtbaren bleiben. (Leonie, 2026-08.)
-- **Keine Personifizierung von Institutionen** („die Praxis ärgert sich“,
-  „das Unternehmen fühlt“). Handelnde sind immer Menschen. (Leonie, 2026-08.)
+- **Keine Personifizierung von Institutionen.** Gilt nicht nur für Gefühle
+  („die Praxis ärgert sich“, „das Unternehmen fühlt“), sondern für **jede Handlung**:
+  „die Praxis liest gegen und gibt frei“ ist genauso falsch wie die Gefühls-Beispiele —
+  eine Praxis kann nicht lesen oder freigeben, nur Menschen können das. Handelnde sind
+  immer Menschen: „Sie lesen gegen und geben frei“ statt „die Praxis liest gegen …“.
+  (Leonie, 2026-08.)
 - **Keine Verkaufsrhetorik-Phrasen** („Ich verdiene mein Geld nicht damit …“,
   „Ehrlichkeit hält länger als der schnelle Abschluss“). Den Punkt schlicht und
   sachlich machen, ohne ihn als Verkaufsargument zu inszenieren. (Leonie, 2026-08.)
