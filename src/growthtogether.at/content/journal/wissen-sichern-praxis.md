@@ -5,6 +5,9 @@ description: "Wenn erfahrene Mitarbeiter gehen, geht oft auch das Wissen mit. Wi
 date: 2026-08-19
 lastmod: 2026-08-19
 author: "Leonie Kaiser"
+cover: "images/blog/simplefoto-praxisteam-uebergabe-post4.png"
+coverAlt: "Physiotherapeutin zeigt einem Kollegen Notizen auf einem Klemmbrett in einer Praxis"
+coverCredit: "SimpleFoto / Canva Pro"
 category: "Dokumentation & Wissen"
 readingTime: 7
 tags: ["Praxiswissen", "Dokumentation", "Team"]

@@ -119,7 +119,12 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
   So sieht Leonie am Dateinamen sofort, ob ein Bild eines bestimmten Autors/einer Quelle
   schon verwendet wurde, bevor sie es erneut hochlädt. Legt Leonie eine Datei mit anderem
   Namen ab, beim Einbauen ins Front-Matter umbenennen (Original-Datei per `git mv`, damit
-  die Historie erhalten bleibt) und `CREDITS.md` entsprechend aktualisieren. (Leonie, 2026-08.)
+  die Historie erhalten bleibt) und `CREDITS.md` entsprechend aktualisieren. **Diese
+  Umbenennung sofort nach `main` mergen/pushen, nicht nur auf dem Arbeits-Branch lassen** —
+  Leonie verwaltet `assets/images/blog/` direkt über GitHub und lädt Bilder auch dort hoch,
+  der Ordner muss auf `main` also immer aktuell benannt sein, unabhängig vom Draft-Status
+  des zugehörigen Blogposts (Bild-Umbenennung ist reine Ordnung, kein „live schalten").
+  (Leonie, 2026-08 — Korrektur: Umbenennung blieb einmal fälschlich nur auf dem Branch.)
 - **Hero + optional 1 Zwischenbild** vorschlagen (Motiv, Stimmung, Suchbegriffe — siehe
   Vorlage in `blog-einzelkonzepte.md`, Abschnitt „Bild-Ideen"). Leonie sucht/liefert das
   passende Foto; danach `cover`/`coverAlt`/`coverCredit` im Front-Matter ergänzen.
