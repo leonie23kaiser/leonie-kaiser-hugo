@@ -12,6 +12,13 @@ disableKinds = ["taxonomy", "term"]
 [markup.goldmark.renderer]
   unsafe = true
 
+[frontmatter]
+  # enableGitInfo=true machte Hugos Standard-lastmod-Kaskade sonst den Git-Commit-Zeitpunkt
+  # nutzen statt des im Front-Matter gesetzten Redaktionsdatums ("Aktualisiert"-Anzeige
+  # zeigte das Commit-Datum statt des gepflegten lastmod-Werts). Jetzt zählt ausschließlich
+  # das Front-Matter.
+  lastmod = ["lastmod", "date"]
+
 [permalinks]
   journal = "/blog/:slug/"
 
