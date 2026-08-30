@@ -5,7 +5,7 @@ description: "Warum in kleinen Praxen so viel an der Leitung hängt, was wirklic
 date: 2026-08-04
 lastmod: 2026-08-04
 author: "Leonie Kaiser"
-cover: "images/blog/cover-praxis-leitung.png"
+cover: "images/blog/pixelshot-praxisleiterin-klemmbrett-post1.png"
 coverAlt: "Freundliche Praxisleiterin mit Klemmbrett in einer hellen Praxis"
 coverCredit: "pixelshot / Canva Pro"
 category: "KI in der Praxis"

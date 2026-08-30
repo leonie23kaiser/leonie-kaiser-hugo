@@ -111,11 +111,15 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
 - Bewusst **nach** dem fertigen Text, nicht davor — Bildideen müssen zum tatsächlichen Winkel
   passen, der sich durch Leonies Feedback in Schritt 4/5 noch verschoben haben kann.
 - **Zuerst selbst in `src/growthtogether.at/assets/images/blog/` nachschauen**, ob für diesen
-  Post schon ein Bild liegt (Leonie legt Fotos manchmal vorab dort ab, auch ohne es zu sagen —
-  Dateiname orientiert sich meist am Slug/Thema). Falls ja: direkt verwenden (inkl. Eintrag in
-  `CREDITS.md`, falls dort noch nicht vermerkt), nicht erst nachfragen oder ein neues Bild
-  vorschlagen. Erst wenn dort nichts Passendes liegt, Hero + optional 1 Zwischenbild
-  vorschlagen. (Leonie, 2026-08.)
+  Post schon ein Bild liegt. Falls ja: direkt verwenden (inkl. Eintrag in `CREDITS.md`, falls
+  dort noch nicht vermerkt), nicht erst nachfragen oder ein neues Bild vorschlagen. Erst wenn
+  dort nichts Passendes liegt, Hero + optional 1 Zwischenbild vorschlagen. (Leonie, 2026-08.)
+- **Namensschema für neue Bilddateien:** `<Autor/Quelle>-<Keyword>-post<N>.png`, z. B.
+  `kaspars-grinvalds-terminkalender-post2.png` (siehe `assets/images/blog/CREDITS.md`).
+  So sieht Leonie am Dateinamen sofort, ob ein Bild eines bestimmten Autors/einer Quelle
+  schon verwendet wurde, bevor sie es erneut hochlädt. Legt Leonie eine Datei mit anderem
+  Namen ab, beim Einbauen ins Front-Matter umbenennen (Original-Datei per `git mv`, damit
+  die Historie erhalten bleibt) und `CREDITS.md` entsprechend aktualisieren. (Leonie, 2026-08.)
 - **Hero + optional 1 Zwischenbild** vorschlagen (Motiv, Stimmung, Suchbegriffe — siehe
   Vorlage in `blog-einzelkonzepte.md`, Abschnitt „Bild-Ideen"). Leonie sucht/liefert das
   passende Foto; danach `cover`/`coverAlt`/`coverCredit` im Front-Matter ergänzen.
