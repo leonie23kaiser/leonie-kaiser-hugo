@@ -88,7 +88,7 @@ Ein digitales Handbuch lässt sich jederzeit anpassen, anders als eine gedruckte
 Auch ein unfertiges Handbuch hilft mehr als gar keines. Je nachdem, wie viel bereits festgehalten ist, lässt sich einiges im Nachhinein rekonstruieren, etwa gemeinsam mit dem restlichen Team oder aus vorhandenen Notizen. Am wirksamsten bleibt es trotzdem, früh anzufangen, nicht erst wenn eine Kündigung schon auf dem Tisch liegt.
 
 **Brauche ich dafür eine neue Software?**
-In aller Regel nicht. Das Handbuch wird um Ihre bestehende Praxissoftware herum aufgebaut, nicht andersherum, und lässt sich meist mit Tools umsetzen, die im Team schon bekannt sind. Sollte ein Wechsel wirklich sinnvoll sein, sage ich das offen und mit Begründung, entscheiden tun Sie.
+Ihre bestehende Praxissoftware für Termine und Abrechnung ist dafür nicht gedacht, das Handbuch braucht einen eigenen, einfachen Ort. Das reicht von einem gemeinsam geteilten Dokument über eine cloud-basierte Wiki-Lösung bis zu einer selbst gehosteten Variante, bei der die Daten die Praxis gar nicht verlassen, wenn Ihnen das wichtig ist. Welche Variante passt, hängt von Ihrem Team und Ihren Ansprüchen an den Datenschutz ab. Ich sage Ihnen offen und mit Begründung, was für Ihre Praxis sinnvoll ist, entscheiden tun Sie.
 
 ## Ein erster Schritt, ganz unverbindlich
 
