@@ -364,5 +364,27 @@ Muster oben).
 
 ---
 
+## Post #5: „Damit Ihre Praxis online gefunden wird" (2026-08-31)
+
+**Status: Runde 1 — keine verwertbaren Daten.** 3 Seeds über die GEO-Prompt-Recherche-Tabelle
+geprüft (Google, ChatGPT, Gemini), Ergebnis:
+
+| Seed | Google (Verwandte Begriffe) | ChatGPT-Prompts | Gemini-Prompts |
+|---|---|---|---|
+| Praxis bei Google gefunden werden | 1 Treffer, Suchvolumen **0** | gesperrt (Upgrade nötig) | gesperrt (Upgrade nötig) |
+| Praxis in KI-Suchen gefunden werden | — | gesperrt (Upgrade nötig) | gesperrt (Upgrade nötig) |
+| Gesundheitspraxis online sichtbar | — | gesperrt (Upgrade nötig) | gesperrt (Upgrade nötig) |
+
+Kein einziger brauchbarer Datenpunkt — ChatGPT-/Gemini-Prompt-Sheets waren bei allen drei
+Seeds hinter einer Upgrade-Sperre, das eine durchgekommene Google-Ergebnis zeigt 0
+Suchvolumen. Ehrlich festgehalten statt geraten, wie in `keyword-check.md` gefordert.
+
+**Nächste Schritte (noch offen):** Google Keyword Planner + Google Trends sind separate,
+nicht gesperrte Tools — dort könnten dieselben oder kürzere Seeds (z. B. „Praxis Google
+Profil", „Arztpraxis online sichtbar") noch Signal liefern. Leonie macht heute bewusst nur
+diesen einen Teil, Rest folgt in einer späteren Runde.
+
+---
+
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
 `segmente.md`, `service-katalog.md`, `angebotsvorschlaege.md`, `AGENTS.md`.*
