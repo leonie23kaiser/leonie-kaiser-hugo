@@ -127,8 +127,11 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   „cool“, „Follow-up“ → *Nachfassen*, „Recall“ → *Wiedereinbestellung*,
   „Renewal“ → *Verlängerung / auslaufende Mitgliedschaft*, „gut getimt“ →
   *zum passenden Zeitpunkt*, „No-Show“ → *Ausfall / nicht wahrgenommener
-  Termin*, „Quick Win“ → *schneller erster Erfolg*. Eingebürgerte Fachbegriffe
-  (Brand Voice, Chat-Assistent, KI, **Tool**) bleiben. (Leonie, 2026-08.)
+  Termin*, „Quick Win“ → *schneller erster Erfolg*, „Ads“ → *Werbeanzeigen /
+  Werbebudget*, „Linkbuilding“ → *aufwändige Linkaufbau-Maßnahmen* (in Sätzen, die
+  Ads und Linkbuilding gemeinsam als Nicht-Angebot nennen, gern gemeinsam
+  umschreiben: „ohne Werbebudget und aufwändige Maßnahmen“). Eingebürgerte
+  Fachbegriffe (Brand Voice, Chat-Assistent, KI, **Tool**) bleiben. (Leonie, 2026-08.)
 - **„Tool“ statt „Werkzeug“ für Software.** Im deutschen Alltags-/Bürodeutsch ist „Tool“
   der Standardbegriff für Software/digitale Helfer („Marketing-Tool“, „Online-Tool“);
   „Werkzeug“ wird fast nur für physische Gegenstände verwendet und klingt bei Software

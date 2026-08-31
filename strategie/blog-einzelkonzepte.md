@@ -452,7 +452,14 @@ KI-Suchen beachten müssen"
 
 *(Einstieg als unbetitelter Fließtext, wie bei #1–#4 — kein eigenes H2. Wunsch-Framing statt
 O-Ton-Krise: eine Praxis mit freier Kapazität, die aber kaum über die eigene Website oder
-KI-Suchen gefunden wird, obwohl das Angebot passen würde.)*
+KI-Suchen gefunden wird, obwohl das Angebot passen würde. Zusätzlich, auf Leonies
+ausdrücklichen Wunsch: Google-Ranking ist nicht mehr alles, weil viele Suchende heute nur
+noch die KI-Zusammenfassung oben auf der Ergebnisseite lesen und gar nicht mehr auf eine
+Website klicken. Zitierfähige Zahl dafür, mit Quelle: Laut einer Analyse von SparkToro und
+Datos endeten Anfang 2026 rund 68 % der Google-Suchen in den USA ganz ohne Klick auf eine
+Website; bei Suchen mit einer KI-Zusammenfassung („AI Overview") liegt die Klickrate sogar
+rund 60 % niedriger als sonst (Search Engine Land, 2026). Einordnung für den Text: US-Zahlen,
+als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
 
 - **H2: Online gefunden werden heißt heute zwei Dinge**
   - H3: Die klassische Google-Suche
@@ -466,8 +473,9 @@ KI-Suchen gefunden wird, obwohl das Angebot passen würde.)*
 - **H2: Regelmäßige Inhalte, die nach Ihnen klingen**
   - H3: Warum unterschiedliche Handschriften im Team auffallen
   - H3: Vorlagen statt jedes Mal vor dem leeren Blatt sitzen
-- **H2: Was ich bewusst nicht anbiete** *(kurzer, sachlicher Abgrenzungs-Absatz — bezahlte
-  Werbung, klassisches Linkbuilding — stärkt Vertrauen statt es zu schwächen)*
+- **H2: Was ich bewusst nicht anbiete** *(kurzer, sachlicher Abgrenzungs-Absatz — kein
+  Werbebudget für Anzeigen, keine aufwändigen Linkaufbau-Maßnahmen — stärkt Vertrauen statt
+  es zu schwächen)*
 - **H2: Wie Sie anfangen** *(konkrete, nummerierte Schritt-für-Schritt-Anleitung gemäß
   `blog-konventionen.md` §4 — z. B. 1. Angaben auf der eigenen Website/Google-Profil prüfen,
   2. Lücken/Widersprüche sammeln, 3. Tonalität einmal schriftlich festhalten, 4. mit einem
@@ -481,7 +489,7 @@ KI-Suchen gefunden wird, obwohl das Angebot passen würde.)*
 
 ### Meta-Description (Entwurf, 140–160)
 > Google-Suche und KI-Assistenten wie ChatGPT: Was kleine Gesundheitspraxen brauchen, damit
-> ihr Angebot online wirklich gefunden wird — ohne Ads, ohne Linkbuilding.
+> ihr Angebot online wirklich gefunden wird — ohne Werbebudget und aufwändige Maßnahmen.
 
 ### Bild-Ideen
 - **Hero:** helle Szene mit Laptop/Tablet und Praxis-Website oder Google-Profil im Bild,
