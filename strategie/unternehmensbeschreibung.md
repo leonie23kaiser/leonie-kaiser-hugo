@@ -14,7 +14,7 @@ Sie-Form, Brand Voice (`AGENTS.md`), externe Kurz-Copy **Praxen in Gesundheit & 
 > zuverlässig und datenschutzkonform ab. Das schafft mehr Zeit fürs Kerngeschäft und ein
 > reibungsloses Kundenerlebnis. Über 20 Jahre Berufserfahrung, davon
 > mehr als ein Jahrzehnt im regulierten Gesundheits- und Pharmaumfeld.
-> Remote und vor Ort in Niederösterreich und Österreich/DACH.
+> Remote im gesamten DACH-Raum, vor Ort in Niederösterreich.
 
 **Kurz-Variante (~280 Zeichen):**
 
