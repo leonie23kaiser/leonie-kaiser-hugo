@@ -27,8 +27,8 @@ Sie-Form, Brand Voice (`AGENTS.md`), externe Kurz-Copy **Praxen in Gesundheit & 
 > Wie kann Technik den Menschen entlasten, statt seine Arbeitskraft zu ersetzen? In mehr als einem Jahrzehnt
 > im regulierten Gesundheits- und Pharmaumfeld habe ich gesehen, wie viel Zeit in Organisation und
 > Verwaltung verloren geht – Zeit, die besser genutzt werden könnte. Heute nehme ich kleinen
-> Privatpraxen genau diese Routine ab, damit Inhaber:innen wieder das tun können, wofür sie ihren
-> Beruf gewählt haben: Menschen zu mehr Wohlbefinden verhelfen.
+> Privatpraxen genau diese Routine ab, damit die Praxisleitung wieder das tun kann, wofür sie ihren
+> Beruf gewählt hat: Menschen zu mehr Wohlbefinden verhelfen.
 >
 > Worauf ich hinarbeite, ist der Moment, in dem eine Praxis sagen kann: „Das läuft jetzt von allein
 > – und ich habe wieder Zeit zum Atmen." Genau dafür stehe ich: das Persönliche schützen, nicht
