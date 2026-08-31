@@ -405,13 +405,101 @@ langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit." aus `AGENTS.md` §
 
 ---
 
-## Posts #5–#10 — folgen nach #4
+## Post #5 — Damit Ihre Praxis online gefunden wird
+
+### Eckdaten
+- **Primär-Keyword:** „Praxis bei Google gefunden werden" (aus Redaktionsplan; im
+  Keyword-Check noch gegen echte Suchdaten zu prüfen)
+- **Long-Tail-Kandidaten** (aus `keyword-research-2026-07.md` Anhang B, unvalidiert, Cluster
+  „Sichtbarkeit/GEO"): praxis von ki assistenten gefunden werden, geo optimierung
+  gesundheitspraxis, praxis sichtbarkeit ki suche, praxis in chatgpt gefunden werden, praxis
+  auffindbarkeit ki assistenten
+- **Target Intent:** Consideration (Wunsch-Thema — anders als #2/#4 kein akuter Schmerz,
+  sondern „ich möchte online sichtbarer werden")
+- **Format/Länge:** Standard-Fachbeitrag, **1.200–1.500 Wörter**, ~7 min
+- **Kategorie:** „Sichtbarkeit"
+
+### Interne Links
+- **Hub:** `/leistungen/sichtbarkeit-und-inhalte/` *(ersetzt „Startseite" aus dem alten
+  Redaktionsplan-Eintrag — die Leistungsseite existiert inzwischen und ist laut Abschnitt 8
+  in `blog-konzept.md` der korrekte Hub-Link-Typ)*
+- **Weiter:** Post #1 („Ohne mich läuft hier nichts" — thematische Brücke: wer online nicht
+  auffindbar ist, bleibt auf Mundpropaganda angewiesen, was denselben Engpass wie in #1
+  verstärkt). **Kein `/eu-ai-act/`-Link** — anders als bei #3/#4 gibt es hier keinen echten
+  Datenschutz-Bezug, ein erzwungener Link würde nur „Pflichtübung" wirken.
+- **CTA:** Potenzialanalyse, allgemein (siehe `AGENTS.md` §12)
+
+### Content-Gap / einzigartiger Winkel
+Die deutschsprachigen Top-Ergebnisse zu „bei Google gefunden werden" sind fast durchweg
+klassische SEO-Agentur-Blogs (Backlinks, Keyword-Dichte, Ads) — Themen, die für eine kleine
+Praxis kaum leistbar sind und die Leonie **bewusst nicht anbietet** (`service-katalog.md`:
+„Klassische SEO-Strategie / Linkbuilding" ist explizit ausgeschlossen). Der eigene Winkel:
+**„Online gefunden werden" hat heute zwei Bedeutungen** — die klassische Google-Suche UND
+KI-Assistenten wie ChatGPT oder Perplexity, die zunehmend direkt nach einer Praxis in der
+Nähe gefragt werden. Für beide zählt dasselbe Fundament: vollständige, aktuelle,
+maschinenlesbare Angaben zu Angebot, Einzugsgebiet, Schwerpunkten und Öffnungszeiten
+(`branchen.yaml`, Slug `sichtbarkeit-inhalte`, Usecase „Auffindbarkeit in KI-Suchen (GEO)").
+Kein Linkbuilding-Versprechen, keine Ranking-Garantie (die gibt laut FAQ-Baustein niemand
+seriös) — sondern die ehrliche, überprüfbare Grundarbeit, bevor überhaupt über Ads oder
+Reichweite gesprochen wird. Zweiter Aufhänger: die eigene Website ist selbst ein Beispiel
+(strukturierte Daten via `partials/schema.html`) — als Beleg, nicht als Eigenwerbung,
+vorsichtig und ohne Übertreibung einsetzen.
+
+### Outline
+**H1:** *(Arbeitstitel, wird in Schritt 3 anhand des Keyword-Checks finalisiert)*
+„Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in
+KI-Suchen beachten müssen"
+
+*(Einstieg als unbetitelter Fließtext, wie bei #1–#4 — kein eigenes H2. Wunsch-Framing statt
+O-Ton-Krise: eine Praxis mit freier Kapazität, die aber kaum über die eigene Website oder
+KI-Suchen gefunden wird, obwohl das Angebot passen würde.)*
+
+- **H2: Online gefunden werden heißt heute zwei Dinge**
+  - H3: Die klassische Google-Suche
+  - H3: KI-Assistenten als neue Anlaufstelle
+- **H2: Was in beiden Fällen zählt**
+  - H3: Vollständige, aktuelle Angaben statt Lücken
+  - H3: Maschinenlesbar statt nur menschenlesbar *(kurz, unbetechnisch erklärt — strukturierte
+    Daten als Konzept, kein Code)*
+  - Highlight-Box: Checkliste „Was auf Ihrer Website eindeutig stehen sollte" (Angebot,
+    Einzugsgebiet, Schwerpunkte, Öffnungszeiten, Kontaktwege)
+- **H2: Regelmäßige Inhalte, die nach Ihnen klingen**
+  - H3: Warum unterschiedliche Handschriften im Team auffallen
+  - H3: Vorlagen statt jedes Mal vor dem leeren Blatt sitzen
+- **H2: Was ich bewusst nicht anbiete** *(kurzer, sachlicher Abgrenzungs-Absatz — bezahlte
+  Werbung, klassisches Linkbuilding — stärkt Vertrauen statt es zu schwächen)*
+- **H2: Wie Sie anfangen** *(konkrete, nummerierte Schritt-für-Schritt-Anleitung gemäß
+  `blog-konventionen.md` §4 — z. B. 1. Angaben auf der eigenen Website/Google-Profil prüfen,
+  2. Lücken/Widersprüche sammeln, 3. Tonalität einmal schriftlich festhalten, 4. mit einem
+  wiederkehrenden Anlass starten statt allem auf einmal)*
+- **H2: Häufige Fragen**
+  - Garantieren Sie eine bessere Google-Platzierung?
+  - Übernehmen Sie das Schreiben laufend für mich?
+  - Merkt man den Texten an, dass sie mit KI erstellt wurden?
+  - Wer pflegt die Inhalte ein, wenn sie fertig sind?
+- **CTA:** Potenzialanalyse, allgemein (kein „X Plätze auf Seite 1"-Versprechen)
+
+### Meta-Description (Entwurf, 140–160)
+> Google-Suche und KI-Assistenten wie ChatGPT: Was kleine Gesundheitspraxen brauchen, damit
+> ihr Angebot online wirklich gefunden wird — ohne Ads, ohne Linkbuilding.
+
+### Bild-Ideen
+- **Hero:** helle Szene mit Laptop/Tablet und Praxis-Website oder Google-Profil im Bild,
+  freundlich, keine Statistik-Dashboards/Balkendiagramme (wirkt zu Agentur-artig). Ggf. eine
+  Praxisleitung, die entspannt am Empfang oder Schreibtisch online etwas prüft. Suchbegriffe:
+  „Praxis Website Laptop", „Online-Profil Gesundheitspraxis".
+- **Zwischenbild:** kein zwingender Bedarf, ggf. eine einfache Visualisierung „gefunden
+  werden" (Lupe/Standort-Pin, dezent) — später entscheiden, wie bei #1/#4.
+
+---
+
+## Posts #6–#10 — folgen nach #5
 
 Gleiche Struktur (Eckdaten · interne Links · Content-Gap · Outline · Meta). Reihenfolge
-und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8 — inklusive
-der **Wunsch-Themen**, die neben den Schmerz-Themen laufen:
-- **Auffindbarkeit / GEO (#5):** „Damit Ihre Praxis online und in KI-Antworten gut gefunden wird."
-- **Website-Assistent (#6):** besseres Kundenerlebnis, Anfragen sofort beantwortet.
-- **Termine erinnern & Kundschaft zurückholen (#10):** die zwei Nachrichten-Typen sauber getrennt.
+und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8:
+- **Digitalisierung ist Chefsache (#6):** Entlastung fängt bei der Leitung an, nicht bei der Software.
+- **Der EU AI Act für kleine Gesundheitspraxen (#7).**
+- **Website-Assistent (#8):** besseres Kundenerlebnis, Anfragen sofort beantwortet.
+- **Termine erinnern & Kundschaft zurückholen (#11):** die zwei Nachrichten-Typen sauber getrennt.
 
-Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4.
+Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4/#5.
