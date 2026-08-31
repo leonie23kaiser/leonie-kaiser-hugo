@@ -13,7 +13,7 @@ readingTime: 7
 tags: ["Praxiswissen", "Dokumentation", "Team"]
 ctaHeadline: "Nächster Schritt: Praxiswissen sichern, bevor es fehlt"
 ctaText: "In 30 Minuten schauen wir gemeinsam, wo in Ihrer Praxis Wissen nur in einzelnen Köpfen steckt und welche Ansatzpunkte es gibt. Kostenfrei, unverbindlich, online."
-draft: true
+draft: false
 ---
 
 „Wenn meine langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit." Diesen Satz höre ich häufig, meist mit einem müden Lächeln dabei. Gemeint ist er nicht als Vorwurf an die Person, die geht. Er beschreibt nüchtern einen Zustand: Ein großer Teil des Praxiswissens hat nirgendwo eine Sicherung außer im Kopf weniger Personen. Gerade kleine Praxen trifft das besonders hart, denn es gibt selten genug Personen, die einspringen könnten, ohne fast von vorne anzufangen. Das gilt besonders, wenn ohnehin schon vieles an einer einzigen Person hängt (mehr dazu in meinem Beitrag <a href="/blog/praxis-haengt-an-der-leitung/">„Ohne mich läuft hier nichts"</a>).
