@@ -72,6 +72,14 @@ Ein Handbuch muss nicht an einem Tag entstehen. Ein einfacher Ablauf für den St
 
 Sensiblere, personenbezogene Inhalte kommen erst dazu, wenn der Rahmen dafür steht, also wenn geklärt ist, wer im Team überhaupt Zugriff braucht und wie dieser Zugriff geschützt wird.
 
+<figure style="margin:var(--s6) 0">
+  <picture>
+    <source srcset="/images/blog/jakub-zerdzicki-tablet-checkliste-post4.webp" type="image/webp">
+    <img src="/images/blog/jakub-zerdzicki-tablet-checkliste-post4.png" alt="Nahaufnahme einer Hand, die auf einem Tablet Punkte einer handschriftlichen Checkliste abhakt" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+  </picture>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: Jakub Zerdzicki / Pexels</figcaption>
+</figure>
+
 ## Wie wir das in der Praxis lösen
 
 Ein Beispiel, bewusst vereinfacht: In einer kleinen Gesundheitspraxis werden Notizen abends nachgeschrieben, jede und jeder im Team dokumentiert ein wenig anders, und wichtiges Wissen steckt in Köpfen, Notizbüchern und verstreuten Dateien. Der erste Schritt ist ein kurzer Blick darauf, wo im Alltag die meisten Rückfragen entstehen, das zeigt, wo das Handbuch am meisten bringt. Die Notizen werden strukturiert aufbereitet, Sie lesen nur noch gegen und geben frei. Dazu kommen eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Praxis-Handbuch fürs Team, Art.-9-konform aufgesetzt. Danach bleibt kaum noch Arbeit nach Feierabend übrig, die Dokumentation wird einheitlicher, und Vertretung oder Einarbeitung neuer Mitarbeitender wird spürbar einfacher.
