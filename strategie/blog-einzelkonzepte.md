@@ -508,9 +508,95 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
 
 ## Post #5 — Der EU AI Act für kleine Gesundheitspraxen
 
-*Einzelkonzept folgt als Nächstes, gleiche Struktur wie #1–#4/#7 (Eckdaten · interne Links ·
-Content-Gap · Outline · Meta · Bild-Ideen). Primär-Keyword laut Redaktionsplan: „EU AI Act
-kleine Praxis"; Kategorie „Datenschutz & EU AI Act"; Hub `/eu-ai-act/`.*
+### Eckdaten
+- **Primär-Keyword:** „EU AI Act" (**bereits validiert** — `keyword-research-2026-07.md`,
+  Runde 2: klar steigender Google-Trends-Verlauf DE, Spike Ende Juni/Anfang Juli 2026,
+  „der stärkste, zielgruppengerechte Befund dieser Runde". Breit/kompetitiv, IBM/Deloitte
+  ranken mit — im Titel/Meta klar auf kleine Praxen zuschneiden, sonst kein eigener
+  Keyword-Check-Schritt nötig, da schon Daten vorliegen)
+- **Long-Tail-Kandidaten** (aus `keyword-research-2026-07.md` Anhang A, bereits getrackt):
+  eu ai act pflichten für kleine gesundheitspraxen verständlich erklärt, eu ai act praxis,
+  ai act risikoklassen für praxen im gesundheitsbereich, eu ai act umsetzung privatpraxis
+  österreich deutschland
+- **Target Intent:** Consideration
+- **Format/Länge:** Tiefer Leitfaden, **1.500–2.200 Wörter**, ~8–10 min *(laut
+  `blog-konzept.md` §7 explizit als Kern-Thema eingestuft, das ranken soll — anders als
+  #1/#2/#4)*
+- **Kategorie:** „Datenschutz & EU AI Act"
+
+### Interne Links
+- **Hub:** `/eu-ai-act/` *(bestehende Seite mit Risiko-Einstufung + 4 FAQs — der Post
+  verlinkt dorthin für die volle Einstufung/FAQ statt sie zu duplizieren, und liefert selbst
+  den aktuellen Zeitplan-Fokus, den die Hub-Seite noch nicht hat)*
+- **Weiter:** Post #3 („Welche Daten darf ich in ChatGPT eingeben?" — gleiche Kategorie,
+  konkrete Alltagsfrage als Ergänzung zur übergeordneten Rechtslage hier)
+- **CTA:** Potenzialanalyse, allgemein (`AGENTS.md` §12)
+
+### Content-Gap / einzigartiger Winkel
+Die Top-Ergebnisse zu „EU AI Act" sind fast durchweg für Konzerne geschrieben (IBM, Deloitte,
+große Kanzleien) — dicht, generisch, oft mit Bußgeld-Drohkulisse. Ein Teil davon ist zudem
+**veraltet**: Im Juni 2026 hat die EU die „Digital Omnibus"-Novelle zur KI-Verordnung
+verabschiedet, die die Hochrisiko-Pflichten spürbar nach hinten verschoben hat — wer noch mit
+den alten Fristen schreibt, schürt unnötige Sorge. Leonies Winkel: **ehrlich einordnen, was ab
+2. August 2026 für eine kleine Praxis wirklich gilt — und was verschoben wurde**, ruhig statt
+angstmachend (`AGENTS.md` §9), speziell zugeschnitten auf inhabergeführte Praxen statt
+Konzern-Compliance-Abteilungen.
+
+**Kernfakten** (WebSearch 2026-08-31, vor dem Volltext noch einmal gegen eine offizielle
+Quelle — z. B. eur-lex.europa.eu — gegenzuprüfen, dann im Text mit Quelle belegen):
+- Ab **2. August 2026** gelten die **Transparenzpflichten (Art. 50)**: Kennzeichnung von
+  Chatbots/Voice-Agents und synthetischen Inhalten (Deepfakes).
+- Die **Hochrisiko-Pflichten** wurden durch die Digital-Omnibus-Novelle (verabschiedet Juni
+  2026) verschoben: eigenständige Hochrisiko-Systeme (Anhang III) auf **2. Dezember 2027**,
+  in Produkte eingebettete Hochrisiko-KI auf **2. August 2028** — für die meisten kleinen
+  Praxen ohnehin selten relevant.
+- Die **KI-Kompetenz-Pflicht (Art. 4)** gilt schon seit **2. Februar 2025** und bleibt
+  bestehen, wurde aber leicht abgeschwächt: keine Garantie eines individuellen
+  Kompetenzniveaus mehr, sondern die Pflicht, Maßnahmen zur Förderung zu ergreifen.
+- Ab 2. August 2026 überwachen die jeweils zuständigen **nationalen
+  Marktaufsichtsbehörden** die Einhaltung *(länderspezifische Behörde noch zu verifizieren,
+  nicht raten)*.
+
+### Outline
+**H1** *(Arbeitstitel):* „Der EU AI Act für kleine Gesundheitspraxen: was ab 2026 wirklich gilt"
+
+*(Einstieg als unbetitelter Fließtext, wie bei #1–#4/#7 — kein eigenes H2. Ruhige Einordnung:
+viele Praxisleitungen haben vom EU AI Act gehört und sind unsicher, ob/wie sie betroffen sind
+— direkt entwarnen, dass es für eine kleine Praxis überschaubar bleibt, ohne das Thema
+kleinzureden.)*
+
+- **H2: Betrifft mich das überhaupt?** *(kurz zusammenfassen + auf `/eu-ai-act/` verlinken,
+  nicht duplizieren)*
+  - H3: Die meisten Anwendungen in kleinen Praxen fallen unter „begrenztes"/„minimales Risiko"
+- **H2: Was ab 2. August 2026 tatsächlich neu gilt**
+  - H3: Transparenzpflichten (Art. 50) — Chatbots & KI-Inhalte kennzeichnen
+  - H3: Was verschoben wurde — Hochrisiko-Pflichten erst 2027/2028
+  - Highlight-Box: Kurz-Zeitleiste „Was gilt wann" (Feb 2025 KI-Kompetenz · Aug 2026
+    Transparenz · Dez 2027/Aug 2028 Hochrisiko)
+- **H2: Die KI-Kompetenz-Pflicht (Art. 4) — was das im Alltag heißt**
+  - H3: Kein Zertifikat nötig, aber Maßnahmen zeigen
+- **H2: Was Sie konkret dokumentieren sollten** *(nummerierte Schritt-für-Schritt-Anleitung
+  gemäß `blog-konventionen.md` §4 — z. B. 1. eingesetzte KI-Tools auflisten, 2. Zweck &
+  Datenquelle je Tool notieren, 3. Team-Richtlinie schriftlich festhalten, 4. Kennzeichnung
+  gegenüber Kundschaft prüfen)*
+- **H2: Was bei Nichteinhaltung passiert** *(ruhig, ohne Drohkulisse — auf bestehende FAQ auf
+  der Hub-Seite verweisen statt neu auszuformulieren)*
+- **H2: Wie wir das in der Praxis lösen** *(Beispielszenario, illustrativ)*
+- **H2: Häufige Fragen** *(kurz, da `/eu-ai-act/` schon 4 FAQs hat — 2–3 ergänzende statt
+  Duplikate, z. B. zum neuen Zeitplan)*
+- **CTA:** Potenzialanalyse, allgemein
+
+### Meta-Description (Entwurf, 140–160)
+> Was der EU AI Act ab 2026 für kleine Gesundheitspraxen wirklich bedeutet: welche Pflichten
+> gelten, was verschoben wurde und wie Sie einfach starten.
+
+### Bild-Ideen
+- **Hero:** ruhige, helle Szene — Praxisleitung mit Tablet/Unterlagen, entspannt, **kein**
+  Paragraphen-Symbol/Justitia/Gesetzbuch-Klischee (wirkt zu bedrohlich-juristisch,
+  widerspricht dem „kein Angst-Vibe"-Winkel). Suchbegriffe: „Praxisleitung Dokumentation
+  entspannt", „Gesundheitspraxis Team Planung".
+- **Zwischenbild:** ggf. die Zeitleiste aus der Highlight-Box zusätzlich als einfache Grafik
+  visualisieren — später entscheiden, wie bei #1/#4.
 
 ---
 
