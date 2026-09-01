@@ -663,6 +663,7 @@ async function buildPptx(d, logo, bg) {
   await slideKunde(pptx, d);
   await slideDigitalisierung(pptx, d);
   await slideZiele(pptx, d);
+  await slideBereiche(pptx, d);
   for (let i = 0; i < d.engpaesse.length; i++) {
     await slideEngpass(pptx, d.engpaesse[i], i+1, d.engpaesse.length);
   }
@@ -842,6 +843,45 @@ async function slideZiele(pptx, d) {
     ], { x: 2.0, y, w: 10.2, h: ch, fontFace: "Arial", valign: "middle", wrap: true });
     y += ch + 0.3;
   });
+}
+
+// ── FOLIE: DIE VIER LEISTUNGSBEREICHE (Überblick vor den Engpässen) ──────
+// Bewusst nur Bereiche, die im service-katalog.md tatsächlich angeboten werden.
+// Keine medizinischen Anwendungen (Diagnose, Behandlungsplanung, Monitoring):
+// die wären MDR-/EU-AI-Act-Hochrisiko und stehen nicht im Leistungsumfang.
+async function slideBereiche(pptx, d) {
+  const s = pptx.addSlide();
+  s.background = { color: "FFFFFF" };
+
+  eyebrow(s, "Überblick", 0.9, 0.7);
+  s.addText("Wo KI in einer Praxis ansetzt",
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+
+  const bereiche = [
+    { nr: "1", titel: "Termine & Anfragen", text: "Online-Buchung, automatische Erinnerungen, vorbereitete Antworten auf wiederkehrende Anfragen. Der Empfang läuft, ohne dass ständig jemand ans Telefon muss." },
+    { nr: "2", titel: "Dokumentation & Wissen", text: "Notizen werden zu sauberen Protokollen, Vorlagen für Berichte, ein digitales Praxis-Handbuch fürs Team. Die fachliche Beurteilung bleibt bei Ihnen." },
+    { nr: "3", titel: "Nachsorge & Kundenbindung", text: "Nachsorge-Sequenzen nach der Behandlung, Reaktivierung zum passenden Zeitpunkt, automatische Bewertungsanfragen." },
+    { nr: "4", titel: "Sichtbarkeit", text: "Bausteine und Entwürfe für Social Media und Newsletter, die nach Ihnen klingen. Dazu Auffindbarkeit in KI-Suchen." },
+  ];
+
+  const cw = 5.55, chh = 2.05, gap = 0.4, x0 = 0.9, y0 = 2.5;
+  bereiche.forEach((b, i) => {
+    const l = x0 + (i % 2) * (cw + gap);
+    const t = y0 + Math.floor(i / 2) * (chh + gap);
+    s.addShape(pptx.ShapeType.roundRect, { x: l, y: t, w: cw, h: chh, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
+    s.addShape(pptx.ShapeType.ellipse, { x: l + 0.3, y: t + 0.32, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText(b.nr, { x: l + 0.3, y: t + 0.32, w: 0.5, h: 0.5, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(b.titel, { x: l + 0.95, y: t + 0.3, w: cw - 1.25, h: 0.55, fontSize: 19, bold: true, color: C.teal, fontFace: "Arial", valign: "middle", wrap: true });
+    s.addText(b.text, { x: l + 0.3, y: t + 0.95, w: cw - 0.6, h: chh - 1.1, fontSize: 13, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+  });
+
+  s.addText("Das ist das Feld. Auf den nächsten Folien schauen wir, wo bei Ihnen der größte Hebel liegt.",
+    { x: 0.9, y: 7.0, w: 11.5, h: 0.4, fontSize: 14, italic: true, color: C.graublau, fontFace: "Arial" });
+
+  s.addNotes(
+    "Zoom-out vor den Engpässen: kurz zeigen, wie breit das Feld ist, dann bewusst auf die zwei bis drei Punkte fokussieren, " +
+    "die in dieser Praxis wirklich Zeit kosten. Medizinische Anwendungen sind hier bewusst nicht dabei."
+  );
 }
 
 // ── FOLIE 5..: ENGPASS ────────────────────────────────────────────────────
