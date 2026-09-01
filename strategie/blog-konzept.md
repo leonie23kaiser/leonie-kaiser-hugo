@@ -302,9 +302,9 @@ Keywords sind Long-Tail-Vorschläge und vor dem Schreiben gegen die reale Suche 
 | **2** ⭐ | No-Shows in der Physiotherapie-Praxis senken: was wirklich hilft | „No-Shows Physiotherapie reduzieren" | Consideration | Termine & Anfragen · Physiotherapie | `/leistungen/termine-und-anfragen/` |
 | **3** ⭐ | Praxis-Alltag: Welche Daten darf ich in ChatGPT eingeben? | „welche Daten darf ich in ChatGPT eingeben" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
 | **4** | Wenn Ihre erfahrenste Kraft geht, geht das Wissen mit: so sichern kleine Praxen ihre Abläufe | „Wissen sichern Praxis" | Consideration | Dokumentation & Wissen | `/leistungen/dokumentation-und-wissen/` |
-| **5** | Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in KI-Suchen beachten müssen | „Praxis bei Google gefunden werden" | Consideration | Sichtbarkeit | Startseite + `/eu-ai-act/` |
+| **5** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wissen müssen | „EU AI Act kleine Praxis" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
 | **6** 🆕 | Digitalisierung ist Chefsache: warum Entlastung bei der Leitung anfängt (nicht bei der Software) | „Digitalisierung Praxis Chefsache" | Awareness | KI in der Praxis / Dokumentation | `/ueber-mich/` + Post #1 |
-| **7** | Der EU AI Act für kleine Gesundheitspraxen: was Sie 2026 wissen müssen | „EU AI Act kleine Praxis" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
+| **7** | Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in KI-Suchen beachten müssen | „Praxis bei Google gefunden werden" | Consideration | Sichtbarkeit | `/leistungen/sichtbarkeit-und-inhalte/` |
 | **8** | Ein KI-Assistent auf Ihrer Website: Anfragen sofort beantwortet, ohne dass jemand am Empfang sitzt | „Chatbot für Arztpraxis Website" | Consideration | Termine & Anfragen | `/leistungen/termine-und-anfragen/` |
 | **9** 🆕 | Erst das Konzept, dann die KI: warum Ihre Praxis schon mehr Daten hat, als sie nutzt | „KI in Praxis einführen Konzept" | Consideration | KI in der Praxis | `/leistungen/` + Post #6 |
 | **10** 🆕 | Welche KI-Kompetenzen eine Praxisleitung wirklich braucht | „KI-Kompetenz Pflicht EU AI Act" | Consideration | Datenschutz & EU AI Act | `/eu-ai-act/` |
@@ -339,6 +339,10 @@ Kein Datenschutz-Block am Stück — die fünf Compliance-Posts sind über den P
   Substanz, bevor er auf die Analyse führt.
 - **Nach #18** kann der Plan aus dem Ideen-Pool unten weiterwachsen; #4 ff. bleiben flexibel,
   falls die Akquise ein Segment/Thema vorzieht (Reihenfolge folgt der Akquise, Abschnitt 4).
+- **#5/#7 getauscht (Leonie, 2026-08):** EU AI Act rückt vor Sichtbarkeit — Kernthema mit
+  eigener Hub-Seite (`/eu-ai-act/`) und realistisch höherem Suchvolumen vor Priorität für
+  ein Wunsch-Thema, dessen erste Keyword-Check-Runde ohnehin ohne Daten blieb (siehe
+  `keyword-research-2026-07.md`, Abschnitt „Post #5"). Sichtbarkeit bleibt im Plan, nur später.
 4. **Aus einem Thema zehn Beiträge** — „Wie aus einem Behandlungsthema nebenbei Inhalte für
    Website und Social entstehen." (Sichtbarkeit ohne Mehraufwand.)
 

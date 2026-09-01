@@ -405,7 +405,12 @@ langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit." aus `AGENTS.md` §
 
 ---
 
-## Post #5 — Damit Ihre Praxis online gefunden wird
+## Post #7 — Damit Ihre Praxis online gefunden wird
+
+*(War ursprünglich als Post #5 geplant — mit #7 EU AI Act getauscht, siehe
+`blog-konzept.md` Abschnitt 8, „Hinweise". Zurückgestellt, weil Wunsch-Thema statt
+Kernthema und die erste Keyword-Check-Runde ohne Daten blieb (2026-08-31). Konzept bleibt
+unverändert gültig, nur der Zeitpunkt hat sich verschoben.)*
 
 ### Eckdaten
 - **Primär-Keyword:** „Praxis bei Google gefunden werden" (aus Redaktionsplan; im
@@ -501,13 +506,20 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
 
 ---
 
-## Posts #6–#10 — folgen nach #5
+## Post #5 — Der EU AI Act für kleine Gesundheitspraxen
+
+*Einzelkonzept folgt als Nächstes, gleiche Struktur wie #1–#4/#7 (Eckdaten · interne Links ·
+Content-Gap · Outline · Meta · Bild-Ideen). Primär-Keyword laut Redaktionsplan: „EU AI Act
+kleine Praxis"; Kategorie „Datenschutz & EU AI Act"; Hub `/eu-ai-act/`.*
+
+---
+
+## Posts #6, #8–#10 — folgen nach #5/#7
 
 Gleiche Struktur (Eckdaten · interne Links · Content-Gap · Outline · Meta). Reihenfolge
 und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8:
 - **Digitalisierung ist Chefsache (#6):** Entlastung fängt bei der Leitung an, nicht bei der Software.
-- **Der EU AI Act für kleine Gesundheitspraxen (#7).**
 - **Website-Assistent (#8):** besseres Kundenerlebnis, Anfragen sofort beantwortet.
 - **Termine erinnern & Kundschaft zurückholen (#11):** die zwei Nachrichten-Typen sauber getrennt.
 
-Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4/#5.
+Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4/#5/#7.
