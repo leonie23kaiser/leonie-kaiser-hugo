@@ -659,8 +659,8 @@ async function buildPptx(d, logo, bg) {
   pptx.layout = "LAYOUT_WIDE"; // 13.33 x 7.5 in
 
   await slideTitel(pptx, d, logo, bg);
-  await slideKunde(pptx, d);
   await slideEinleitung(pptx, d);
+  await slideKunde(pptx, d);
   await slideDigitalisierung(pptx, d);
   await slideZiele(pptx, d);
   for (let i = 0; i < d.engpaesse.length; i++) {
@@ -691,7 +691,11 @@ async function slideTitel(pptx, d, logo, bg) {
 
   const imgX = 7.2, imgW = 13.333 - imgX;
   if (bg) {
-    s.addImage({ data: bg, x: imgX, y: 0, w: imgW, h: 7.5, sizing: { type: "cover", w: imgW, h: 7.5 } });
+    // Ausschnitt nach unten verschoben: oben 1.44" wegschneiden, damit die
+    // Hochhäuser im unteren Bilddrittel sichtbar bleiben.
+    // background.png = 500x750 px = 5.21 x 7.81 in @96dpi; Rest 5.21 x 6.37 in
+    // hat dasselbe Seitenverhältnis wie die Zielfläche 6.13 x 7.5 in.
+    s.addImage({ data: bg, x: imgX, y: 0, w: imgW, h: 7.5, sizing: { type: "crop", x: 0, y: 1.44, w: 5.21, h: 6.37 } });
   } else {
     s.addShape(pptx.ShapeType.rect, { x: imgX, y: 0, w: imgW, h: 7.5, fill: { color: C.violetSoft }, line: { color: C.violetSoft } });
   }
@@ -701,20 +705,24 @@ async function slideTitel(pptx, d, logo, bg) {
   // Logo separat oben links, nicht im Bild
   if (logo) s.addImage({ data: logo, x: 0.9, y: 0.5, w: 1.3, h: 1.3 });
 
-  eyebrow(s, "KI-Potenzialanalyse", 0.9, 2.35);
+  // Deutlich größere Kennzeichnung statt der kleinen Eyebrow-Zeile
+  s.addText("KI-POTENZIALANALYSE",
+    { x: 0.9, y: 2.15, w: 6.2, h: 0.55, fontSize: 22, bold: true, color: C.violet, charSpacing: 2, fontFace: "Arial" });
   s.addText([
     { text: "Wo Künstliche Intelligenz\n", options: { breakLine: true } },
     { text: "in Ihrer Praxis wirklich wirkt.", options: {} },
-  ], { x: 0.9, y: 2.75, w: 6.0, h: 1.9, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial", valign: "top", wrap: true });
+  ], { x: 0.9, y: 2.85, w: 6.0, h: 1.9, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial", valign: "top", wrap: true });
 
+  // Fließtext dunkler und etwas größer, damit er sich klar von den
+  // Überschriften absetzt, ohne mit ihnen zu konkurrieren.
   s.addText([
     { text: "Leonie Kaiser\n", options: { fontSize: 24, bold: true, color: C.teal, breakLine: true } },
-    { text: "KI- & Digitalisierungs-Expertin\n", options: { fontSize: 16, color: C.text, breakLine: true } },
-    { text: "ortsunabhängig, DACH-weit  ·  leoniekaiser.com", options: { fontSize: 14, color: C.graublau } },
+    { text: "KI- & Digitalisierungs-Expertin\n", options: { fontSize: 18, color: C.text, breakLine: true } },
+    { text: "ortsunabhängig, DACH-weit  ·  leoniekaiser.com", options: { fontSize: 16, color: C.text } },
   ], { x: 0.9, y: 5.05, w: 6.0, h: 1.7, fontFace: "Arial", valign: "top", wrap: true });
 
   s.addText("EU AI Act & DSGVO von Anfang an mitgedacht",
-    { x: 0.9, y: 6.95, w: 6.2, h: 0.4, fontSize: 11, color: C.graublau, fontFace: "Arial" });
+    { x: 0.9, y: 6.9, w: 6.2, h: 0.4, fontSize: 13, color: C.text, fontFace: "Arial" });
 }
 
 // ── FOLIE 2: FÜR WEN (Kundeninfo + Segment-Kontext) ───────────────────────
@@ -729,7 +737,7 @@ async function slideKunde(pptx, d) {
   const metaParts = [];
   if (d.unternehmen.ort) metaParts.push(d.unternehmen.ort);
   if (d.unternehmen.typ_label) metaParts.push(d.unternehmen.typ_label);
-  if (d.unternehmen.mitarbeiter) metaParts.push(`${d.unternehmen.mitarbeiter} Personen`);
+  if (d.unternehmen.mitarbeiter) metaParts.push(`${d.unternehmen.mitarbeiter} Mitarbeitende`);
   if (metaParts.length) {
     s.addText(metaParts.join("   ·   "),
       { x: 0.9, y: 2.0, w: 11.5, h: 0.5, fontSize: 16, color: C.graublau, fontFace: "Arial", wrap: true });
@@ -763,13 +771,16 @@ async function slideEinleitung(pptx, d) {
     "Eine erste Einschätzung & Empfehlung",
     "EU AI Act & DSGVO von Anfang an mitgedacht",
   ];
-  const ch = 1.05, gap = 0.28, y0 = 2.5, w = 11.5;
+  // Raster so gerechnet, dass die letzte Box bei 6.95" endet und der untere
+  // Seitenrand (7.5") erhalten bleibt.
+  const y0 = 2.5, yEnd = 6.95, gap = 0.24, w = 11.5;
+  const ch = (yEnd - y0 - (items.length - 1) * gap) / items.length;
   items.forEach((t, i) => {
     const y = y0 + i * (ch + gap);
     s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y, w, h: ch, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
-    s.addShape(pptx.ShapeType.ellipse, { x: 1.2, y: y + 0.27, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
-    s.addText("✓", { x: 1.2, y: y + 0.27, w: 0.5, h: 0.5, fontSize: 16, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
-    s.addText(t, { x: 2.0, y, w: w - 1.4, h: ch, fontSize: 20, bold: true, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
+    s.addShape(pptx.ShapeType.ellipse, { x: 1.2, y: y + (ch - 0.5) / 2, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
+    s.addText("✓", { x: 1.2, y: y + (ch - 0.5) / 2, w: 0.5, h: 0.5, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(t, { x: 2.0, y, w: w - 1.4, h: ch, fontSize: 18, bold: true, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
   });
 
   s.addNotes(
@@ -838,9 +849,9 @@ async function slideEngpass(pptx, eng, idx, total) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  eyebrow(s, `Engpass ${idx} von ${total}`, 0.9, 0.6);
+  eyebrow(s, `Engpass ${idx} von ${total}`, 0.9, 0.7);
   s.addText(eng.titel,
-    { x: 0.9, y: 0.98, w: 11.5, h: 1.1, fontSize: 32, bold: true, color: C.teal, fontFace: "Arial", wrap: true });
+    { x: 0.9, y: 1.05, w: 11.5, h: 1.1, fontSize: 32, bold: true, color: C.teal, fontFace: "Arial", wrap: true });
 
   s.addText([
     { text: "Was Sie heute erleben\n", options: { bold: true, color: C.violet, fontSize: 15, breakLine: true } },
@@ -884,10 +895,11 @@ async function slideDatenschutz(pptx, d) {
     { text: "Deshalb wird jede Lösung von Beginn an datenschutzkonform aufgesetzt, nicht nachträglich abgesichert. Welche Werkzeuge in Frage kommen, entscheidet sich danach, wie sensibel die Daten sind, mit denen sie arbeiten.",
       options: { fontSize: 16, color: C.text } },
   ];
-  s.addText(leftText, { x: 0.9, y: 2.55, w: 6.6, h: 4.2, fontFace: "Arial", valign: "top", wrap: true });
+  s.addText(leftText, { x: 0.9, y: 2.25, w: 11.5, h: 1.55, fontFace: "Arial", valign: "top", wrap: true });
 
-  // Violett-Box rechts
-  s.addShape(pptx.ShapeType.roundRect, { x: 7.9, y: 2.5, w: 4.5, h: 4.3, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
+  // Violett-Box unterhalb des Fließtexts, über die volle Breite.
+  // Schriftgröße der Punkte = 16 pt, exakt wie der erste Absatz darüber.
+  s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 3.9, w: 11.5, h: 2.85, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
   s.addText([
     { text: "Worauf Sie sich verlassen können\n", options: { bold: true, fontSize: 16, color: C.violet, breakLine: true } },
     ...[
@@ -896,8 +908,8 @@ async function slideDatenschutz(pptx, d) {
       "Bei sensiblen Daten eine lokale Lösung, sodass die Daten die Praxis nicht verlassen",
       "EU AI Act & DSGVO von Anfang an",
       "Eine feste Ansprechpartnerin für Ihre Datenschutz-Fragen",
-    ].map(t => ({ text: "•  " + t + "\n", options: { fontSize: 14, color: C.text } })),
-  ], { x: 8.25, y: 2.85, w: 3.85, h: 3.7, fontFace: "Arial", valign: "top", wrap: true });
+    ].map(t => ({ text: "•  " + t + "\n", options: { fontSize: 16, color: C.text } })),
+  ], { x: 1.3, y: 4.15, w: 10.7, h: 2.4, fontFace: "Arial", valign: "top", wrap: true });
 
   s.addText([
     { text: "Ausführlich nachzulesen: ", options: { color: C.graublau } },
@@ -936,7 +948,7 @@ async function slideAngebot(pptx, d, logo) {
   s.background = { color: "FFFFFF" };
 
   eyebrow(s, "Ihr Angebot", 0.9, 0.7);
-  s.addText("Transparente Pakete",
+  s.addText("Passgenaue Leistungspakete",
     { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
   const pakete = [
@@ -968,24 +980,27 @@ async function slideWeiter(pptx, d, logo) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  eyebrow(s, "Nächste Schritte", 0.9, 0.55);
+  eyebrow(s, "Nächste Schritte", 0.9, 0.7);
   s.addText("So geht es weiter",
-    { x: 0.9, y: 0.9, w: 11.5, h: 0.9, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
+    { x: 0.9, y: 1.05, w: 11.5, h: 0.9, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
   const schritte = [
-    "Ich schicke Ihnen diese Präsentation als PDF.",
+    "Ich schicke Ihnen diese Präsentation als PDF sowie ein Angebot.",
     "Sie entscheiden in Ruhe. Ich melde mich in zwei Tagen bei Ihnen.",
     "Bei Zusage erhalten Sie die schriftliche Vereinbarung, inklusive Auftragsverarbeitungsvertrag für den Datenschutz.",
     "Nach Unterschrift richte ich die vereinbarten Automatisierungen ein und weise Ihr Team ein.",
-    "Zum Abschluss messen wir gemeinsam die Wirkung: vorher/nachher. Wenn Sie zufrieden sind, freue ich mich über ein kurzes Testimonial, das Sie freigeben.",
+    "Zum Abschluss messen wir die Wirkung: vorher/nachher. Wenn Sie zufrieden sind, freue ich mich über ein kurzes Testimonial, das Sie freigeben.",
   ];
+  // Textblock und Kreis teilen sich dieselbe Zeilenhöhe und werden beide
+  // mittig ausgerichtet, damit der Text exakt auf Kreismitte sitzt.
   let y = 2.15;
-  const h = 0.82;
+  const rh = 0.92, dot = 0.6;
   schritte.forEach((t, i) => {
-    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y, w: 0.6, h: 0.6, fill: { color: i === 0 ? C.teal : C.violet }, line: { color: i === 0 ? C.teal : C.violet } });
-    s.addText(String(i + 1), { x: 0.9, y, w: 0.6, h: 0.6, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
-    s.addText(t, { x: 1.75, y: y - 0.05, w: 10.5, h: 0.9, fontSize: 16, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
-    y += h + 0.18;
+    const cy = y + (rh - dot) / 2;
+    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y: cy, w: dot, h: dot, fill: { color: i === 0 ? C.teal : C.violet }, line: { color: i === 0 ? C.teal : C.violet } });
+    s.addText(String(i + 1), { x: 0.9, y: cy, w: dot, h: dot, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+    s.addText(t, { x: 1.75, y, w: 10.5, h: rh, fontSize: 16, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
+    y += rh;
   });
 
   s.addText("Leonie Kaiser · KI- & Digitalisierungs-Expertin · leoniekaiser.com",
