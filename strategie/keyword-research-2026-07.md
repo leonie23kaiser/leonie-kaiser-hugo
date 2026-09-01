@@ -418,9 +418,34 @@ starkes, wiederkehrendes, AT-spezifisches Signal, guter Long-Tail-Kandidat für 
 Einordnung, die der Post liefern soll. Die 4 langen Phrasen selbst zeigen kein Planner-Volumen,
 aber die PAA-Fragen sind zielgruppengerecht und werden für den FAQ-Block übernommen.
 
-**Nächste Schritte:** AnswerThePublic-artige Tiefenrecherche zu „EU AI Act Österreich",
-„AI Act Zeitplan", „EU AI Act Checkliste" (heute) sowie „EU AI Act Artikel 50", „EU AI Act
-Praxis", „EU AI Act Pflichten" (morgen, Kontingent-Limit).
+**Runde 2 (2026-09-01) — GEO-Prompt-Recherche-Tabelle, 3 Seeds (Google/Bing/ChatGPT/Gemini),
+Region Deutschland** *(bewusst statt Österreich gewählt — mehr Daten verfügbar, DE/AT-Publikum
+beim Thema EU AI Act sehr ähnlich, deutschsprachiges B2B mit identischer Rechtslage)*:
+
+| Seed | Google | Bing | Auffälligste Fragen (ChatGPT/Gemini) |
+|---|---|---|---|
+| EU AI Act Deutschland | „eu ai act deutschland" — **170/Monat**, CPC 4,12 $ | „eu ai act umsetzung deutschland" — **110/Monat**, CPC 5,42 $ | „Was sind die Kernpunkte des EU KI Gesetzes in Deutschland?", „Zeitplan für die Umsetzung des EU KI Gesetzes in Deutschland?", „Welche KI-Systeme fallen unter das EU KI Gesetz?" |
+| EU AI Act Checkliste | 0 (beide Varianten) | — | „Wie erstelle ich eine EU AI Act Checkliste für meine KI-Anwendungen?", „Was sind die Hauptanforderungen des EU KI-Gesetzes?" |
+| AI Act Zeitplan | „eu ai act zeitplan" — **20/Monat**; „ai act zeitplan" — **10/Monat**, CPC 3,38 $ | „eu ai act zeitplan" — **20/Monat** (auf beiden Plattformen bestätigt) | „Wo finde ich eine Übersicht der wichtigsten Deadlines im AI Act Zeitplan?", **„Welche Übergangsfristen gelten für Hochrisiko-KI-Systeme?"** (Gemini) — trifft praktisch wortgleich den geplanten Content-Gap-Winkel (verschobene Hochrisiko-Fristen) |
+
+**Erstmals echtes, messbares Suchvolumen** für dieses Thema — deutlicher Unterschied zu den
+0-Treffern der Long-Tail-Phrasen in Runde 1. „EU AI Act Deutschland" (170) und „…umsetzung
+deutschland" (110) sind reale, kommerziell relevante Zahlen (CPC > 4 $).
+
+**Zielgruppen-Intent-Check (Pflichtschritt laut `keyword-check.md`):** Ein Teil der ChatGPT-/
+Gemini-Prompts zeigt **„Kommerziell"**-Sekundärabsicht Richtung Compliance-Software/Berater-
+Suche für allgemeine KMU/Mittelstand („Welche Software unterstützt bei der Umsetzung…",
+„Anbieter von Compliance-Lösungen…", „Muster-Checkliste… kostenlos downloaden") — **passt nur
+teilweise**, da das Publikum hinter dem reinen Kopf-Begriff „EU AI Act" überwiegend allgemeines
+B2B/KMU-Compliance-Publikum ist, nicht spezifisch Gesundheitspraxen. Die informativen Prompts
+(Kernpunkte, Zeitplan, betroffene Systeme) passen dagegen gut. **Konsequenz:** Titel/Meta muss
+„kleine Gesundheitspraxis" klar mittragen, um die richtige Zielgruppe zu filtern, statt um den
+generischen, branchenübergreifenden Kopf-Begriff zu konkurrieren — genau wie im Konzept
+vorgesehen.
+
+**Status:** Ausreichend Datenbasis für Schritt 3 (Headline-Vorschläge). Die für morgen
+vorgesehene dritte Runde („EU AI Act Artikel 50", „EU AI Act Praxis", „EU AI Act Pflichten")
+bleibt optional, falls noch mehr FAQ-Fragen gewünscht sind.
 
 ---
 
