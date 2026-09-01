@@ -662,13 +662,15 @@ async function buildPptx(d, logo, bg) {
   await slideEinleitung(pptx, d);
   await slideKunde(pptx, d);
   await slideDigitalisierung(pptx, d);
-  await slideZiele(pptx, d);
-  await slideBereiche(pptx, d);
+  // Erst der Schmerz, dann das Ziel, dann der Lösungsraum: die Ziele lesen
+  // sich so als Antwort auf die Engpässe, nicht als abstrakte Wunschliste.
   for (let i = 0; i < d.engpaesse.length; i++) {
     await slideEngpass(pptx, d.engpaesse[i], i+1, d.engpaesse.length);
   }
-  await slideDatenschutz(pptx, d);
+  await slideZiele(pptx, d);
+  await slideBereiche(pptx, d);
   await slidePraxisStart(pptx, d);
+  await slideDatenschutz(pptx, d);
   await slideAngebot(pptx, d, logo);
   await slideWeiter(pptx, d);
 
@@ -678,7 +680,7 @@ async function buildPptx(d, logo, bg) {
 
 // Eyebrow-Zeile (kleine Violett-Überschrift)
 function eyebrow(s, text, x, y) {
-  s.addText(text.toUpperCase(), { x, y, w: 8, h: 0.35, fontSize: 12, bold: true, color: C.violet, charSpacing: 2, fontFace: "Arial" });
+  s.addText(text.toUpperCase(), { x, y, w: 8, h: 0.4, fontSize: 15, bold: true, color: C.violet, charSpacing: 2, fontFace: "Arial" });
 }
 
 // ── FOLIE 1: TITEL ────────────────────────────────────────────────────────
@@ -747,7 +749,7 @@ async function slideKunde(pptx, d) {
   if (d.unternehmen.kontext) {
     s.addShape(pptx.ShapeType.roundRect, { x: 0.9, y: 2.95, w: 11.5, h: 2.6, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
     s.addText([
-      { text: "Ihr Alltag, wie ich ihn verstanden habe\n", options: { bold: true, fontSize: 15, color: C.violet, breakLine: true } },
+      { text: "Das habe ich aus unserem Gespräch mitgenommen\n", options: { bold: true, fontSize: 15, color: C.violet, breakLine: true } },
       { text: "\n", options: { fontSize: 6 } },
       { text: d.unternehmen.kontext, options: { fontSize: 17, color: C.text } },
     ], { x: 1.3, y: 3.3, w: 10.7, h: 2.0, fontFace: "Arial", valign: "top", wrap: true });
@@ -766,11 +768,13 @@ async function slideEinleitung(pptx, d) {
   s.addText("Was Sie aus diesen 30 Minuten mitnehmen",
     { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
+  // Reihenfolge spiegelt den Ablauf der Präsentation:
+  // Ist-Zustand → Engpässe → Ansatzpunkte → Datenschutz
   const items = [
-    "Erste Klarheit über Ihren Ist-Zustand",
-    "Konkrete erste Schritte für Ihre Praxis",
-    "Eine erste Einschätzung & Empfehlung",
-    "EU AI Act & DSGVO von Anfang an mitgedacht",
+    "Klarheit über Ihren Ist-Zustand",
+    "Die Abläufe, die am meisten Zeit kosten",
+    "Konkrete Ansatzpunkte für Ihre Praxis",
+    "Die Bedeutung von EU AI Act & DSGVO",
   ];
   // Raster so gerechnet, dass die letzte Box bei 6.95" endet und der untere
   // Seitenrand (7.5") erhalten bleibt.
@@ -838,9 +842,11 @@ async function slideZiele(pptx, d) {
     s.addShape(pptx.ShapeType.ellipse, { x: 1.2, y: y + (ch - 0.55) / 2, w: 0.55, h: 0.55, fill: { color: C.teal }, line: { color: C.teal } });
     s.addText(String(i + 1), { x: 1.2, y: y + (ch - 0.55) / 2, w: 0.55, h: 0.55, fontSize: 16, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
     s.addText([
-      { text: z.label + "\n", options: { bold: true, color: C.text, fontSize: 19, breakLine: true } },
-      { text: z.framing, options: { color: C.graublau, fontSize: 14 } },
-    ], { x: 2.0, y, w: 10.2, h: ch, fontFace: "Arial", valign: "middle", wrap: true });
+      // paraSpaceAfter/lineSpacingMultiple rücken Titel und Erläuterung enger
+      // zusammen, damit sie als ein Block gelesen werden.
+      { text: z.label + "\n", options: { bold: true, color: C.text, fontSize: 19, breakLine: true, paraSpaceAfter: 0 } },
+      { text: z.framing, options: { color: C.graublau, fontSize: 16, paraSpaceBefore: 0 } },
+    ], { x: 2.0, y, w: 10.2, h: ch, fontFace: "Arial", valign: "middle", wrap: true, lineSpacingMultiple: 0.92 });
     y += ch + 0.3;
   });
 }
@@ -849,14 +855,14 @@ async function slideZiele(pptx, d) {
 // Bewusst nur Bereiche, die im service-katalog.md tatsächlich angeboten werden.
 // Keine medizinischen Anwendungen (Diagnose, Behandlungsplanung, Monitoring):
 // die wären MDR-/EU-AI-Act-Hochrisiko und stehen nicht im Leistungsumfang.
+// PptxGenJS kann keine Klick-Animationen erzeugen. Der Aufbau entsteht darum
+// über vier aufeinanderfolgende Folien mit je einem Kästchen mehr — im
+// Präsentationsmodus wirkt das wie Einblenden per Klick. Auf false setzen,
+// wenn stattdessen eine einzelne vollständige Folie gewünscht ist
+// (z. B. damit das PDF nicht vier fast gleiche Seiten enthält).
+const AUFBAU_BEREICHE = true;
+
 async function slideBereiche(pptx, d) {
-  const s = pptx.addSlide();
-  s.background = { color: "FFFFFF" };
-
-  eyebrow(s, "Überblick", 0.9, 0.7);
-  s.addText("Wo KI in einer Praxis ansetzt",
-    { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
-
   const bereiche = [
     { nr: "1", titel: "Termine & Anfragen", text: "Online-Buchung, automatische Erinnerungen, vorbereitete Antworten auf wiederkehrende Anfragen. Der Empfang läuft, ohne dass ständig jemand ans Telefon muss." },
     { nr: "2", titel: "Dokumentation & Wissen", text: "Notizen werden zu sauberen Protokollen, Vorlagen für Berichte, ein digitales Praxis-Handbuch fürs Team. Die fachliche Beurteilung bleibt bei Ihnen." },
@@ -865,23 +871,41 @@ async function slideBereiche(pptx, d) {
   ];
 
   const cw = 5.55, chh = 2.05, gap = 0.4, x0 = 0.9, y0 = 2.5;
-  bereiche.forEach((b, i) => {
-    const l = x0 + (i % 2) * (cw + gap);
-    const t = y0 + Math.floor(i / 2) * (chh + gap);
-    s.addShape(pptx.ShapeType.roundRect, { x: l, y: t, w: cw, h: chh, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
-    s.addShape(pptx.ShapeType.ellipse, { x: l + 0.3, y: t + 0.32, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
-    s.addText(b.nr, { x: l + 0.3, y: t + 0.32, w: 0.5, h: 0.5, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
-    s.addText(b.titel, { x: l + 0.95, y: t + 0.3, w: cw - 1.25, h: 0.55, fontSize: 19, bold: true, color: C.teal, fontFace: "Arial", valign: "middle", wrap: true });
-    s.addText(b.text, { x: l + 0.3, y: t + 0.95, w: cw - 0.6, h: chh - 1.1, fontSize: 13, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
-  });
 
-  s.addText("Das ist das Feld. Auf den nächsten Folien schauen wir, wo bei Ihnen der größte Hebel liegt.",
-    { x: 0.9, y: 7.0, w: 11.5, h: 0.4, fontSize: 14, italic: true, color: C.graublau, fontFace: "Arial" });
+  // Eine Stufe des Aufbaus: zeigt die Bereiche 0..bis (einschließlich).
+  const stufe = (bis) => {
+    const s = pptx.addSlide();
+    s.background = { color: "FFFFFF" };
+    eyebrow(s, "Überblick", 0.9, 0.7);
+    s.addText("Wo KI in einer Praxis ansetzt",
+      { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
-  s.addNotes(
-    "Zoom-out vor den Engpässen: kurz zeigen, wie breit das Feld ist, dann bewusst auf die zwei bis drei Punkte fokussieren, " +
-    "die in dieser Praxis wirklich Zeit kosten. Medizinische Anwendungen sind hier bewusst nicht dabei."
-  );
+    bereiche.slice(0, bis + 1).forEach((b, i) => {
+      const l = x0 + (i % 2) * (cw + gap);
+      const t = y0 + Math.floor(i / 2) * (chh + gap);
+      s.addShape(pptx.ShapeType.roundRect, { x: l, y: t, w: cw, h: chh, fill: { color: C.violetSoft }, line: { color: C.violetLine } });
+      s.addShape(pptx.ShapeType.ellipse, { x: l + 0.3, y: t + 0.32, w: 0.5, h: 0.5, fill: { color: C.teal }, line: { color: C.teal } });
+      s.addText(b.nr, { x: l + 0.3, y: t + 0.32, w: 0.5, h: 0.5, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
+      s.addText(b.titel, { x: l + 0.95, y: t + 0.3, w: cw - 1.25, h: 0.55, fontSize: 19, bold: true, color: C.teal, fontFace: "Arial", valign: "middle", wrap: true });
+      s.addText(b.text, { x: l + 0.3, y: t + 0.95, w: cw - 0.6, h: chh - 1.1, fontSize: 13, color: C.text, fontFace: "Arial", valign: "top", wrap: true });
+    });
+
+    // Schlusszeile erst, wenn alle vier Bereiche stehen
+    if (bis === bereiche.length - 1) {
+      s.addText("Wir beginnen dort, wo bei Ihnen der größte Hebel liegt.",
+        { x: 0.9, y: 7.0, w: 11.5, h: 0.4, fontSize: 14, italic: true, color: C.graublau, fontFace: "Arial" });
+      s.addNotes(
+        "Nach den Engpässen und Zielen der Blick auf das ganze Feld: Bereich für Bereich aufbauen, dann zurückbinden auf die " +
+        "zwei bis drei Punkte, die in dieser Praxis wirklich Zeit kosten. Medizinische Anwendungen sind hier bewusst nicht dabei."
+      );
+    }
+  };
+
+  if (AUFBAU_BEREICHE) {
+    for (let i = 0; i < bereiche.length; i++) stufe(i);
+  } else {
+    stufe(bereiche.length - 1);
+  }
 }
 
 // ── FOLIE 5..: ENGPASS ────────────────────────────────────────────────────
@@ -987,8 +1011,8 @@ async function slideAngebot(pptx, d, logo) {
   const s = pptx.addSlide();
   s.background = { color: "FFFFFF" };
 
-  eyebrow(s, "Ihr Angebot", 0.9, 0.7);
-  s.addText("Passgenaue Leistungspakete",
+  eyebrow(s, "Mein Angebot", 0.9, 0.7);
+  s.addText("Meine Leistungen",
     { x: 0.9, y: 1.05, w: 11.5, h: 1.0, fontSize: 34, bold: true, color: C.teal, fontFace: "Arial" });
 
   const pakete = [
@@ -1037,7 +1061,7 @@ async function slideWeiter(pptx, d, logo) {
   const rh = 0.92, dot = 0.6;
   schritte.forEach((t, i) => {
     const cy = y + (rh - dot) / 2;
-    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y: cy, w: dot, h: dot, fill: { color: i === 0 ? C.teal : C.violet }, line: { color: i === 0 ? C.teal : C.violet } });
+    s.addShape(pptx.ShapeType.ellipse, { x: 0.9, y: cy, w: dot, h: dot, fill: { color: C.violet }, line: { color: C.violet } });
     s.addText(String(i + 1), { x: 0.9, y: cy, w: dot, h: dot, fontSize: 15, bold: true, color: C.weiss, fontFace: "Arial", align: "center", valign: "middle" });
     s.addText(t, { x: 1.75, y, w: 10.5, h: rh, fontSize: 16, color: C.text, fontFace: "Arial", valign: "middle", wrap: true });
     y += rh;
