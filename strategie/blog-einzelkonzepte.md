@@ -517,7 +517,10 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
 - **Long-Tail-Kandidaten** (aus `keyword-research-2026-07.md` Anhang A, bereits getrackt):
   eu ai act pflichten für kleine gesundheitspraxen verständlich erklärt, eu ai act praxis,
   ai act risikoklassen für praxen im gesundheitsbereich, eu ai act umsetzung privatpraxis
-  österreich deutschland
+  österreich deutschland. **Neu, aus Google-direkt-Check 2026-09-01 bestätigt:** „eu ai act
+  österreich" — taucht bei praktisch jeder Abfrage als Autocomplete-Vorschlag auf, starkes
+  wiederkehrendes AT-Signal, guter Kandidat für Titel/Meta. Zusätzlich „AI Act Zeitplan" und
+  „EU AI Act Artikel 50" bestätigen die geplante Outline (Zeitleiste, Transparenzpflichten).
 - **Target Intent:** Consideration
 - **Format/Länge:** Tiefer Leitfaden, **1.500–2.200 Wörter**, ~8–10 min *(laut
   `blog-konzept.md` §7 explizit als Kern-Thema eingestuft, das ranken soll — anders als

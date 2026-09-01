@@ -364,7 +364,10 @@ Muster oben).
 
 ---
 
-## Post #5: „Damit Ihre Praxis online gefunden wird" (2026-08-31)
+## Post #7: „Damit Ihre Praxis online gefunden wird" (2026-08-31)
+
+*(War ursprünglich als Post #5 geplant — mit #7 EU AI Act getauscht, siehe `blog-konzept.md`
+Abschnitt 8. Ergebnisse unten bleiben gültig, nur der Zeitpunkt hat sich verschoben.)*
 
 **Status: Runde 1 — keine verwertbaren Daten.** 3 Seeds über die GEO-Prompt-Recherche-Tabelle
 geprüft (Google, ChatGPT, Gemini), Ergebnis:
@@ -383,6 +386,41 @@ Suchvolumen. Ehrlich festgehalten statt geraten, wie in `keyword-check.md` gefor
 nicht gesperrte Tools — dort könnten dieselben oder kürzere Seeds (z. B. „Praxis Google
 Profil", „Arztpraxis online sichtbar") noch Signal liefern. Leonie macht heute bewusst nur
 diesen einen Teil, Rest folgt in einer späteren Runde.
+
+---
+
+## Post #5: „Der EU AI Act für kleine Gesundheitspraxen" (2026-09-01)
+
+**Status: Runde 1 — Google Keyword Planner + Google direkt geprüft.** Kopf-Begriff „EU AI
+Act" war bereits aus Runde 2 (oben) validiert (steigender Trends-Verlauf). Diese Runde prüfte
+die 4 Long-Tail-Kandidaten aus dem Einzelkonzept.
+
+**Google Keyword Planner (Forecast-Export, Österreich, Oktober 2026):** Für die getestete
+Keyword-Gruppe **0 Klicks / 0 Impressionen / 0 € Kosten**, durchgehend über Desktop/Mobile/
+Tablet. Erwartbar bei so langen, spezifischen Phrasen (gleiches Muster wie bei Post #4/#7) —
+kein Negativ-Befund zum Thema selbst.
+
+**Google direkt (Autocomplete / „Ähnliche Fragen" / „Ähnliche Suchanfragen"), 6 Seeds:**
+
+| Seed | Auffälligstes Signal |
+|---|---|
+| ai act risikoklassen für praxen im gesundheitsbereich | PAA: „Welche Risikostufen gibt es im AI Act?", „Was ist Risikoklassifizierung?", „Wie wird künstliche Intelligenz in der Arztpraxis eingesetzt?" |
+| eu ai act healthcare | PAA/verwandte Suchen überwiegend englisch, generisch (PDF/Summary/Report) — international statt DACH-B2B, **Intent passt nur teilweise** |
+| eu ai act pflichten für kleine gesundheitspraxen verständlich erklärt | PAA: „Welche Pflichten haben Unternehmen laut EU AI Act?", „Welche Pflichten gelten nach § 4 des AI Act?", „Was ist EU AI Act einfach erklärt?", „Welche Transparenzpflichten sind im AI-Act festgelegt?" |
+| eu ai act pflichten praxis | PAA: „Ist der EU-AI Act verpflichtend?", „Welche Transparenzpflichten gelten laut KI-Verordnung?" — kürzere Formulierung, ähnlich starkes Signal wie die lange Variante |
+| eu ai act praxis | Autocomplete: „eu ai act **in der** praxis", „eu ai act **österreich**"; verwandte Suchen generisch (PDF/Text/Download) |
+| eu ai act umsetzung privatpraxis | Autocomplete: „eu ai act **österreich**" (wiederholt!); verwandte Suchen: „**AI Act Zeitplan**", „EU AI Act Österreich", „**EU AI Act Artikel 50**", „AI Act Inkrafttreten" |
+
+**Konsequenz:** „eu ai act österreich" taucht bei praktisch jeder Abfrage als Vorschlag auf —
+starkes, wiederkehrendes, AT-spezifisches Signal, guter Long-Tail-Kandidat für Titel/Meta.
+„AI Act Zeitplan" und „EU AI Act Artikel 50" bestätigen genau die geplanten Outline-Abschnitte
+(Zeitleiste „was gilt wann", Transparenzpflichten) — echtes Nutzerinteresse an derselben
+Einordnung, die der Post liefern soll. Die 4 langen Phrasen selbst zeigen kein Planner-Volumen,
+aber die PAA-Fragen sind zielgruppengerecht und werden für den FAQ-Block übernommen.
+
+**Nächste Schritte:** AnswerThePublic-artige Tiefenrecherche zu „EU AI Act Österreich",
+„AI Act Zeitplan", „EU AI Act Checkliste" (heute) sowie „EU AI Act Artikel 50", „EU AI Act
+Praxis", „EU AI Act Pflichten" (morgen, Kontingent-Limit).
 
 ---
 
