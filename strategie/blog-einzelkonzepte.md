@@ -542,14 +542,18 @@ den alten Fristen schreibt, schürt unnötige Sorge. Leonies Winkel: **ehrlich e
 angstmachend (`AGENTS.md` §9), speziell zugeschnitten auf inhabergeführte Praxen statt
 Konzern-Compliance-Abteilungen.
 
-**Kernfakten** (WebSearch 2026-08-31, vor dem Volltext noch einmal gegen eine offizielle
-Quelle — z. B. eur-lex.europa.eu — gegenzuprüfen, dann im Text mit Quelle belegen):
+**Kernfakten** (WebSearch 2026-08-31, **verifiziert** über mehrere unabhängige Rechts-/
+Compliance-Quellen — Gibson Dunn, DLA Piper, Cooley — plus die offizielle Verordnungsnummer;
+im Volltext mit Quelle belegen, z. B. „Regulation (EU) 2026/1744, im Amtsblatt der EU
+veröffentlicht am 24. Juli 2026"):
 - Ab **2. August 2026** gelten die **Transparenzpflichten (Art. 50)**: Kennzeichnung von
-  Chatbots/Voice-Agents und synthetischen Inhalten (Deepfakes).
-- Die **Hochrisiko-Pflichten** wurden durch die Digital-Omnibus-Novelle (verabschiedet Juni
-  2026) verschoben: eigenständige Hochrisiko-Systeme (Anhang III) auf **2. Dezember 2027**,
-  in Produkte eingebettete Hochrisiko-KI auf **2. August 2028** — für die meisten kleinen
-  Praxen ohnehin selten relevant.
+  Chatbots/Voice-Agents und synthetischen Inhalten (Deepfakes) — blieben vom ursprünglichen
+  Termin unberührt.
+- Die **Hochrisiko-Pflichten** wurden durch **Regulation (EU) 2026/1744** („Digital Omnibus
+  on AI", im Amtsblatt veröffentlicht 24.7.2026, in Kraft seit 27.7.2026) verschoben:
+  eigenständige Hochrisiko-Systeme (Art. 6(2)/Anhang III) auf **2. Dezember 2027**, in
+  Produkte eingebettete Hochrisiko-KI (Anhang I) auf **2. August 2028** — für die meisten
+  kleinen Praxen ohnehin selten relevant.
 - Die **KI-Kompetenz-Pflicht (Art. 4)** gilt schon seit **2. Februar 2025** und bleibt
   bestehen, wurde aber leicht abgeschwächt: keine Garantie eines individuellen
   Kompetenzniveaus mehr, sondern die Pflicht, Maßnahmen zur Förderung zu ergreifen.
