@@ -128,6 +128,16 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
 - **Hero + optional 1 Zwischenbild** vorschlagen (Motiv, Stimmung, Suchbegriffe — siehe
   Vorlage in `blog-einzelkonzepte.md`, Abschnitt „Bild-Ideen"). Leonie sucht/liefert das
   passende Foto; danach `cover`/`coverAlt`/`coverCredit` im Front-Matter ergänzen.
+- **Immer zusätzlich englische Suchbegriffe für die Canva-Bildsuche mitliefern** — für Hero
+  und (falls als Foto gedacht) Zwischenbild, je 3–5 kurze Stock-Foto-Phrasen auf Englisch
+  (z. B. „healthcare practice owner reviewing tablet"). Ist das Zwischenbild eher eine Grafik
+  (z. B. eine Zeitleiste, ein Diagramm), **statt Suchbegriffen einen fertigen Bild-Prompt auf
+  Englisch** liefern, den Leonie direkt in ihr KI-Bildtool einfügen kann — mit Motiv, Stil
+  (flach/minimalistisch, kein Foto-Realismus), den Brand-Farben aus `CLAUDE.md` (`--lk-teal-900`
+  `#086584`, `--lk-teal-600` `#5FA2A0`, `--lk-beige` `#FAF0E9`, `--lk-gold` `#CF982B`) und dem
+  expliziten Hinweis „kein Rot/keine Alarmfarben, keine Roboterhand/Hologramm-Klischees".
+  Enthält der Post konkrete Zahlen/Daten (z. B. eine Zeitleiste), diese exakt so im Prompt
+  nennen, damit Grafik und Fließtext konsistent bleiben. (Leonie, 2026-09.)
 - **Für jedes Bild (Cover wie Zwischenbild) immer einen ALT-Text mitliefern** — der Text, der
   angezeigt wird, falls das Bild nicht lädt, und der von Screenreadern vorgelesen wird. Kommt
   ins `coverAlt`-Feld bzw. `alt`-Attribut, nicht optional. (Leonie, 2026-08.)
