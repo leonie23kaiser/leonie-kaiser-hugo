@@ -443,9 +443,26 @@ B2B/KMU-Compliance-Publikum ist, nicht spezifisch Gesundheitspraxen. Die informa
 generischen, branchenübergreifenden Kopf-Begriff zu konkurrieren — genau wie im Konzept
 vorgesehen.
 
-**Status:** Ausreichend Datenbasis für Schritt 3 (Headline-Vorschläge). Die für morgen
-vorgesehene dritte Runde („EU AI Act Artikel 50", „EU AI Act Praxis", „EU AI Act Pflichten")
-bleibt optional, falls noch mehr FAQ-Fragen gewünscht sind.
+**Runde 3 (2026-09-02) — 3 weitere Seeds, Region Deutschland:**
+
+| Seed | Google | Bing | Reale Phrasen (ohne Volumen, für FAQ nutzbar) |
+|---|---|---|---|
+| EU AI Act Artikel 50 | „eu ai act artikel 50" — **70/Monat**, CPC 3,14 $; „artikel 50 des eu ai act" — **10/Monat**, CPC 1,96 $ | „artikel 50 des eu ai act" — **10/Monat** (bestätigt) | „artikel 50 der eu ki verordnung ai act" |
+| EU AI Act Pflichten | 0 (alle Varianten) | 0 (alle Varianten) | „eu ai act pflichten für unternehmen", „eu ai act betreiber pflichten", „pflichten aus dem eu ai act" |
+| EU AI Act Praxis | 0 | ChatGPT/Gemini gesperrt (Upgrade) | „eu ai act in der praxis" |
+
+„EU AI Act Artikel 50" ist damit der **zweitstärkste validierte Begriff** nach „EU AI Act
+Deutschland" (170) — 70/Monat, direkt passend zum Transparenzpflichten-Abschnitt der Outline.
+„Pflichten" und „Praxis" bleiben ohne Volumen, liefern aber weiterhin reale FAQ-Phrasen.
+
+**Gesamtbild aller 3 Runden — validierte Suchvolumina (Region Deutschland):**
+1. eu ai act deutschland — **170/Monat**
+2. eu ai act umsetzung deutschland — **110/Monat**
+3. eu ai act artikel 50 — **70/Monat**
+4. ai act zeitplan / eu ai act zeitplan — **10–20/Monat**
+5. artikel 50 des eu ai act — **10/Monat**
+
+**Status:** Datenbasis für Schritt 3 (Headline-Vorschläge) abgeschlossen und ausreichend.
 
 ---
 
