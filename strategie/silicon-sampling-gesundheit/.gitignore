@@ -1,0 +1,8 @@
+# Python venv & Caches — nicht committen
+.venv/
+__pycache__/
+*.pyc
+
+# API-Key NIE committen (wird ausschließlich über ENV gelesen)
+.env
+*api*key*
