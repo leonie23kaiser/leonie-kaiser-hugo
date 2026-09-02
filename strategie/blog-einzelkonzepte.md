@@ -565,7 +565,8 @@ veröffentlicht am 24. Juli 2026"):
   nicht raten)*.
 
 ### Outline
-**H1** *(Arbeitstitel):* „Der EU AI Act für kleine Gesundheitspraxen: was ab 2026 wirklich gilt"
+**H1** *(final, Leonie 2026-09-02):* „EU AI Act Zeitplan für kleine Praxen: welche Pflichten
+ab wann gelten"
 
 *(Einstieg als unbetitelter Fließtext, wie bei #1–#4/#7 — kein eigenes H2. Ruhige Einordnung:
 viele Praxisleitungen haben vom EU AI Act gehört und sind unsicher, ob/wie sie betroffen sind
