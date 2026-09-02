@@ -249,7 +249,9 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
 - EU AI Act & DSGVO als **Haltung**, nicht Checkbox
 - Tool-agnostisch – Auswahl richtet sich nach dem Anwendungsfall, nicht nach Lieblingstool
 - Mehrsprachig: Deutsch, Englisch, Spanisch
-- Remote & vor Ort in AT/DE
+- Ortsunabhängig / remote, DACH-weit – kein Vor-Ort-Service im Standardangebot;
+  persönliche Treffen in Wien/NÖ nur, wenn es sich zufällig ergibt, nie von vornherein
+  angeboten
 - **Spezialisiert auf Gesundheitspraxen** – branchenspezifische
   Referenzen statt Generalisten-Versprechen (stärkster Vertrauensanker laut Marktforschung)
 - **Fertige Lösungen statt Konzept-Workshops** – „Done-for-you“ mit klaren
