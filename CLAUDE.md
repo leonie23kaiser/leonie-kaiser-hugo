@@ -33,7 +33,7 @@ No content collections, no taxonomies. Single-author, single-language (de-AT). V
 
 FAQ accordion + category filter (`Alle / KI-Strategie / Kosten / EU AI Act & DSGVO / Tools & Technik / Zusammenarbeit`) live in `layouts/faq/single.html` + `partials/scripts.html`.
 
-Schema.org JSON-LD `@graph` in `partials/schema.html`: Person + Organization + Service + FAQPage + AggregateRating + Reviews + BreadcrumbList + AboutPage + ContactPage + WebSite + Speakable. AI/GEO file at `static/llms.txt`; AI bots explicitly allowed in `static/robots.txt`.
+Schema.org JSON-LD `@graph` in `partials/schema.html`: Person + Organization + Service + FAQPage + AggregateRating + Reviews + BreadcrumbList + AboutPage + ContactPage + WebSite + Speakable. AI/GEO file at `static/llms.txt`; AI bots explicitly allowed in `layouts/robots.txt` (generiert, nicht statisch).
 
 ## Brand tokens (mirror `params.toml`)
 
@@ -93,7 +93,7 @@ Invoke `/hugo-learn` after significant work to capture learnings (`reflect`, `up
 - **Live domain:** `leoniekaiser.com` (not just a vanity URL — actual live host. Source dir intentionally still named src/growthtogether.at; do not rename).
 - **Image pipeline first:** all source images in `assets/images/`. The `partials/picture.html` partial generates WebP + responsive srcset at build time. Avoid pre-rendered pairs in `static/`.
 - **Single CSS file:** `assets/css/brand.css` is the only stylesheet. Auto-fingerprinted + SRI in prod via `partials/head.html`.
-- **JSON-LD via `dict` + `jsonify`:** never string templates. See `partials/seo-jsonld.html`.
+- **JSON-LD via `dict` + `jsonify`:** never string templates. See `partials/schema.html`.
 - **Single-language:** de-AT only. No i18n setup needed unless the client explicitly asks.
 
 ## Related projects

@@ -245,13 +245,16 @@ Vollständige O-Töne und Einwände je Segment: `strategie/silicon-sampling.md`.
 
 ## 11. Differenzierung (subtil einbauen)
 
-- Über 20 Jahre Erfahrung in Projektmanagement, Produktmarketing und
-  Digitalisierung im Gesundheitsbereich, dazu mehrjährige Beratung von Selbstständigen
+- Über 20 Jahre Berufserfahrung, davon ~13 Jahre in Projektmanagement, Produktmarketing
+  und Digitalisierung im regulierten Gesundheits-/Pharmaumfeld, dazu mehrjährige Beratung
+  von Selbstständigen
 - Ganzheitlich: Business-Strategie + KI + Mensch (kein Tech-Fokus)
 - EU AI Act & DSGVO als **Haltung**, nicht Checkbox
 - Tool-agnostisch – Auswahl richtet sich nach dem Anwendungsfall, nicht nach Lieblingstool
 - Mehrsprachig: Deutsch, Englisch, Spanisch
-- Remote & vor Ort in AT/DE
+- Ortsunabhängig / remote, DACH-weit – kein Vor-Ort-Service im Standardangebot;
+  persönliche Treffen in Wien/NÖ nur, wenn es sich zufällig ergibt, nie von vornherein
+  angeboten
 - **Spezialisiert auf Gesundheitspraxen** – branchenspezifische
   Referenzen statt Generalisten-Versprechen (stärkster Vertrauensanker laut Marktforschung)
 - **Fertige Lösungen statt Konzept-Workshops** – „Done-for-you“ mit klaren

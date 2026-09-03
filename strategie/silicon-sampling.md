@@ -7,6 +7,18 @@
 > **Quelldatei (Markt).** Wird konsolidiert im Master `strategie-konzept.md`.
 > Marktzahlen/O-Töne hier zuerst ändern, dann im Master spiegeln.
 
+> **Rohdaten und Skripte.** Diese Datei ist die verdichtete Auswertung. Die
+> vollständigen Daten liegen daneben:
+> - `strategie/silicon-sampling-gesundheit/` — Studie 1, 220 Personas
+>   (Gesundheits- & Wellness-Praxen DACH): alle Einzelantworten unter
+>   `data/responses/`, Auswertungsskripte, Report als Markdown und Word.
+> - `strategie/silicon-sampling-pharma/` — Studie 2, 95 von 200 Personas
+>   (Pharma-/Gesundheits-KMU DACH, Erhebung wegen aufgebrauchtem Guthaben
+>   vorzeitig beendet): Rohantworten, Auswertung, Report als Word.
+>
+> Beide Studien sind abgeschlossen. Die Skripte lesen den API-Key
+> ausschließlich aus der Umgebungsvariable `ANTHROPIC_API_KEY`.
+
 ## Kurzfassung & strategische Ableitung
 
 - **Wirtschaftlich stärkste Segmente (Studien-Rohbefund):** Longevity / Medical-Wellness (Premium), Zahnarzt und Ästhetik — höchster Projektwert (~2.000 € Van-Westendorp-Optimalpreis). *Hinweis: Zahnarzt wurde später bewusst ausgeschlossen (Kassenlogik, kein Selbstzahler-Wohlbefinden) — siehe strategische Entscheidung unten.*
