@@ -241,7 +241,6 @@ Martina sagt Dinge wie:
 - „Wenn meine langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit.“
 - „Wir arbeiten eigentlich immer noch wie vor zehn Jahren.“
 - „Ich weiß, dass ich etwas ändern sollte – aber ich weiß nicht, wo ich anfangen soll.“
-- „Wir haben schon mal ChatGPT ausprobiert, aber das war irgendwie nichts Halbes und nichts Ganzes.“
 
 **Weitere O-Töne aus der Marktforschung** (Silicon Sampling, synthetisch – so
 beschreibt die Zielgruppe ihren organisatorischen Alltag):

@@ -631,24 +631,27 @@ kleinzureden.)*
   `AGENTS.md` §12, gilt für alle neuen Posts ab #5)
 
 ### Content-Gap / einzigartiger Winkel
-Content zu „Digitalisierung ist Chefsache" existiert reichlich, richtet sich aber fast immer
-an Konzerne oder Kliniken (Change-Management-Sprache, Digitalisierungsbeauftragte,
-IT-Abteilungen) — für eine Praxisinhaberin mit fünf Mitarbeitenden nicht anschlussfähig.
-Leonies Winkel: **die vier konkreten Rollen, die eine Praxisleitung bei der Digitalisierung
-tatsächlich ausfüllt** (Impulsgeberin, Umsetzerin, Koordinatorin, Vorbild fürs Team) —
-handfest statt abstrakt, direkt an Post #1 andockend: Wer ohnehin schon spürt, dass alles an
-ihr hängt, ist genau deshalb auch die Person, die eine Digitalisierung trägt oder eben
-ausbremst. Zweiter Baustein aus `branchen-hintergrund-physio.md`: die Grundhaltung „Technik
-entlastet, sie ersetzt niemanden" — nimmt der Leitung die Sorge, sich selbst wegzurationalisieren.
+Bestehende Artikel im Netz zu „Digitalisierung ist Chefsache" richten sich fast immer an
+Konzerne oder Kliniken (Change-Management-Sprache, Digitalisierungsbeauftragte,
+IT-Abteilungen) — das ist die Lücke im vorhandenen Content, **nicht** Leonies eigene
+Zielgruppe. Für eine Praxisinhaberin mit fünf Mitarbeitenden ist dieser Ton nicht
+anschlussfähig. Leonies Winkel: **die vier konkreten Rollen, die eine Praxisleitung bei der
+Digitalisierung tatsächlich ausfüllt** (Impulsgeberin, Umsetzerin, Koordinatorin, Vorbild
+fürs Team) — handfest statt abstrakt, direkt an Post #1 andockend: Wer ohnehin schon spürt,
+dass alles an ihr hängt, ist genau deshalb auch die Person, die eine Digitalisierung trägt
+oder eben ausbremst. Zweiter Baustein aus `branchen-hintergrund-physio.md`: die Grundhaltung
+„Technik entlastet, sie ersetzt niemanden" — nimmt der Leitung die Sorge, sich selbst
+wegzurationalisieren.
 
 ### Outline
 **H1:** *(Arbeitstitel, wird in Schritt 3 anhand des Keyword-Checks finalisiert)*
 „Digitalisierung ist Chefsache: warum Entlastung bei der Leitung anfängt"
 
-*(Einstieg als unbetitelter Fließtext, wie bei #1–#5 — kein eigenes H2. O-Ton „Wir haben
-schon mal ChatGPT ausprobiert, aber das war irgendwie nichts Halbes und nichts Ganzes."
-aus `AGENTS.md` §10 — Aufhänger: ein eingeschlafener Digitalisierungs-Versuch, weil niemand
-ihn aktiv getragen hat.)*
+*(Einstieg als unbetitelter Fließtext, wie bei #1–#5 — kein eigenes H2. Kein wörtliches
+O-Ton-Zitat diesmal — stattdessen frei formuliert: ein neues Tool wird mit Elan eingeführt,
+nach ein paar Wochen nutzt es kaum noch jemand, weil niemand die Umstellung aktiv
+weitergetragen hat. Gleicher Kerngedanke wie der gestrichene O-Ton, nur ohne die von Leonie
+abgelehnte Formulierung.)*
 
 - **H2: Warum ein neues Tool allein nichts ändert**
   - H3: Digitalisierung ist kein Technik-Projekt, sondern ein Führungs-Projekt
@@ -657,7 +660,8 @@ ihn aktiv getragen hat.)*
     Satz Erklärung (Rohmaterial: `branchen-hintergrund-physio.md`)
 - **H2: „Technik entlastet, sie ersetzt niemanden"**
   - H3: Warum diese Haltung die Sorge vor dem Kontrollverlust auflöst
-- **H2: Wie Sie als Leitung anfangen** *(konkrete Schritt-für-Schritt-Anleitung gemäß
+- **H2: Wie Sie als Leitung anfangen, die Digitalisierung selbst zu tragen** *(konkrete
+  Schritt-für-Schritt-Anleitung gemäß
   `blog-konventionen.md` §4 — z. B. 1. einen Bereich auswählen, der am meisten Zeit kostet,
   2. sich selbst als Erste/r ein neues Tool aneignen, bevor es das Team lernen soll,
   3. einen festen wöchentlichen Zeitblock für Digitalisierung einplanen, 4. das Team früh
