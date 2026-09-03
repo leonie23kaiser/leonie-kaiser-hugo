@@ -608,12 +608,87 @@ kleinzureden.)*
 
 ---
 
-## Posts #6, #8–#10 — folgen nach #5/#7
+## Post #6 — Digitalisierung ist Chefsache
+
+### Eckdaten
+- **Primär-Keyword:** „Digitalisierung Praxis Chefsache" (aus Redaktionsplan; im
+  Keyword-Check noch gegen echte Suchdaten zu prüfen — bislang kein Treffer in
+  `keyword-research-2026-07.md`, also komplett neue Recherche nötig)
+- **Long-Tail-Kandidaten** (Vorschläge, noch unvalidiert): Digitalisierung Praxis Leitung,
+  digitale Führung Gesundheitspraxis, warum scheitert Digitalisierung in der Praxis,
+  Digitalisierung Praxisinhaberin
+- **Target Intent:** Awareness (Haltungs-/Positionierungs-Post, kein akutes Schmerz-Keyword)
+- **Format/Länge:** Standard-Fachbeitrag, **1.100–1.400 Wörter**, ~6–7 min
+- **Kategorie:** „KI in der Praxis" *(Front-Matter erlaubt nur eine Kategorie; „Dokumentation"
+  aus dem Redaktionsplan-Eintrag bleibt thematischer Unterton, keine zweite Kategorie)*
+
+### Interne Links
+- **Hub:** `/ueber-mich/` *(passt hier besonders gut — der Post ist auch eine Haltungs-Aussage,
+  „warum ich zuerst auf die Leitung schaue, nicht auf die Software")*
+- **Weiter:** Post #1 („Ohne mich läuft hier nichts" — direkter Andockpunkt, gleiches
+  Grundproblem, hier aber mit einer aktiven Handlungsperspektive statt nur der Diagnose)
+- **CTA:** Potenzialanalyse, neutral (Digitalisierungsstand/Ziele/Painpoints — neue Regel aus
+  `AGENTS.md` §12, gilt für alle neuen Posts ab #5)
+
+### Content-Gap / einzigartiger Winkel
+Content zu „Digitalisierung ist Chefsache" existiert reichlich, richtet sich aber fast immer
+an Konzerne oder Kliniken (Change-Management-Sprache, Digitalisierungsbeauftragte,
+IT-Abteilungen) — für eine Praxisinhaberin mit fünf Mitarbeitenden nicht anschlussfähig.
+Leonies Winkel: **die vier konkreten Rollen, die eine Praxisleitung bei der Digitalisierung
+tatsächlich ausfüllt** (Impulsgeberin, Umsetzerin, Koordinatorin, Vorbild fürs Team) —
+handfest statt abstrakt, direkt an Post #1 andockend: Wer ohnehin schon spürt, dass alles an
+ihr hängt, ist genau deshalb auch die Person, die eine Digitalisierung trägt oder eben
+ausbremst. Zweiter Baustein aus `branchen-hintergrund-physio.md`: die Grundhaltung „Technik
+entlastet, sie ersetzt niemanden" — nimmt der Leitung die Sorge, sich selbst wegzurationalisieren.
+
+### Outline
+**H1:** *(Arbeitstitel, wird in Schritt 3 anhand des Keyword-Checks finalisiert)*
+„Digitalisierung ist Chefsache: warum Entlastung bei der Leitung anfängt"
+
+*(Einstieg als unbetitelter Fließtext, wie bei #1–#5 — kein eigenes H2. O-Ton „Wir haben
+schon mal ChatGPT ausprobiert, aber das war irgendwie nichts Halbes und nichts Ganzes."
+aus `AGENTS.md` §10 — Aufhänger: ein eingeschlafener Digitalisierungs-Versuch, weil niemand
+ihn aktiv getragen hat.)*
+
+- **H2: Warum ein neues Tool allein nichts ändert**
+  - H3: Digitalisierung ist kein Technik-Projekt, sondern ein Führungs-Projekt
+- **H2: Die vier Rollen der Praxisleitung bei der Digitalisierung**
+  - Highlight-Box: Impulsgeberin · Umsetzerin · Koordinatorin · Vorbild fürs Team, je ein
+    Satz Erklärung (Rohmaterial: `branchen-hintergrund-physio.md`)
+- **H2: „Technik entlastet, sie ersetzt niemanden"**
+  - H3: Warum diese Haltung die Sorge vor dem Kontrollverlust auflöst
+- **H2: Wie Sie als Leitung anfangen** *(konkrete Schritt-für-Schritt-Anleitung gemäß
+  `blog-konventionen.md` §4 — z. B. 1. einen Bereich auswählen, der am meisten Zeit kostet,
+  2. sich selbst als Erste/r ein neues Tool aneignen, bevor es das Team lernen soll,
+  3. einen festen wöchentlichen Zeitblock für Digitalisierung einplanen, 4. das Team früh
+  einbinden statt vor vollendete Tatsachen zu stellen)*
+- **H2: Wie wir das in der Praxis lösen** *(Beispielszenario, illustrativ)*
+- **H2: Häufige Fragen** *(3–4 Fragen, z. B. „Muss ich selbst technikaffin sein?", „Was, wenn
+  ich keine Zeit für ein Digitalisierungsprojekt habe?")*
+- **CTA:** Potenzialanalyse, neutral (Digitalisierungsstand/Ziele/Painpoints)
+
+### Meta-Description (Entwurf, 140–160)
+> Digitalisierung gelingt nicht durch ein neues Tool allein. Warum Entlastung in Ihrer
+> Praxis bei der Leitung anfängt und welche vier Rollen dabei zählen.
+
+### Bild-Ideen
+- **Hero:** ruhige, souveräne Szene — eine Praxisleitung, die aktiv etwas anstößt/zeigt (z. B.
+  im Gespräch mit dem Team, nicht allein am Schreibtisch wie bei #1/#5) — visuell den
+  „Impulsgeberin"-Gedanken tragen. Suchbegriffe (Englisch, Canva): „practice owner leading
+  team meeting", „healthcare manager explaining tablet to team", „confident clinic owner
+  team discussion".
+  *(Falls Grafik statt Foto gewünscht: kein Bedarf hier, Foto passt besser zum persönlichen
+  Charakter des Posts.)*
+- **Zwischenbild:** optional eine einfache 4-Felder-Grafik der vier Rollen (Impulsgeberin,
+  Umsetzerin, Koordinatorin, Vorbild) — falls gewünscht, Prompt-Vorschlag dann in Schritt 7.
+
+---
+
+## Posts #8–#10 — folgen nach #6
 
 Gleiche Struktur (Eckdaten · interne Links · Content-Gap · Outline · Meta). Reihenfolge
 und Themen siehe Redaktionsplan in `strategie/blog-konzept.md`, Abschnitt 8:
-- **Digitalisierung ist Chefsache (#6):** Entlastung fängt bei der Leitung an, nicht bei der Software.
 - **Website-Assistent (#8):** besseres Kundenerlebnis, Anfragen sofort beantwortet.
 - **Termine erinnern & Kundschaft zurückholen (#11):** die zwei Nachrichten-Typen sauber getrennt.
 
-Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4/#5/#7.
+Werden **jeweils erst kurz vor der Ausarbeitung** angelegt, nach dem gleichen Muster wie #4/#5/#6/#7.
