@@ -5,6 +5,9 @@ description: "Was der EU AI Act ab 2026 für kleine Gesundheitspraxen wirklich b
 date: 2026-09-08
 lastmod: 2026-09-08
 author: "Leonie Kaiser"
+cover: "images/blog/wavebreakmedia-eu-ai-act-praxis-post5.png"
+coverAlt: "Nahaufnahme: Hände halten in einem Physiotherapie-Behandlungsraum ein Tablet mit einer digitalen Checkliste"
+coverCredit: "Wavebreakmedia / Getty Images, Tablet-Anzeige KI-bearbeitet"
 category: "Datenschutz & EU AI Act"
 readingTime: 8
 tags: ["EU AI Act", "Datenschutz", "KI-Kompetenz"]
@@ -46,6 +49,14 @@ Die strengeren Pflichten für sogenannte Hochrisiko-Systeme, die ursprünglich e
     <li>2. August 2028: Pflichten für Hochrisiko-KI, eingebettet in Produkte</li>
   </ul>
 </div>
+
+<figure style="margin:var(--s6) 0">
+  <picture>
+    <source srcset="/images/blog/eu-ai-act-zeitplan-timeline.webp" type="image/webp">
+    <img src="/images/blog/eu-ai-act-zeitplan-timeline.png" alt="Zeitleisten-Grafik mit vier Terminen zum EU AI Act: Februar 2025, August 2026, Dezember 2027 und August 2028, jeweils mit Kalender-, Häkchen- und Dokument-Symbolen" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+  </picture>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+</figure>
 
 ## Die KI-Kompetenz-Pflicht (Art. 4) - was das im Alltag heißt
 

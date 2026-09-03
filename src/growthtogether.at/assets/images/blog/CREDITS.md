@@ -13,6 +13,8 @@ bevor man es erneut hochlädt.
 | `openai-perplexity-daten-chatgpt-post3.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „Welche Daten darf ich in ChatGPT eingeben?" — Zwischengrafik unkritisch/heikel (ausgeliefert als `static/images/blog/grafik-daten-chatgpt.png` + `.webp`) |
 | `simplefoto-praxisteam-uebergabe-post4.png` | SimpleFoto / Canva Pro | Post „Wenn erfahrene Mitarbeiter gehen" (Dokumentation & Wissen) — Coverbild |
 | `jakub-zerdzicki-tablet-checkliste-post4.png` | Jakub Zerdzicki / Pexels | Post „Wenn erfahrene Mitarbeiter gehen" — Zwischenbild Checkliste (ausgeliefert als `static/images/blog/jakub-zerdzicki-tablet-checkliste-post4.png` + `.webp`) |
+| `wavebreakmedia-eu-ai-act-praxis-post5.png` | Wavebreakmedia / Getty Images, Tablet-Anzeige KI-bearbeitet | Post „EU AI Act Zeitplan für kleine Praxen" (Datenschutz & EU AI Act) — Coverbild |
+| `openai-perplexity-eu-ai-act-zeitplan-post5.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „EU AI Act Zeitplan für kleine Praxen" — Zwischengrafik Zeitleiste (ausgeliefert als `static/images/blog/eu-ai-act-zeitplan-timeline.png` + `.webp`) |
 
 Lizenzen liegen bei Leonie Kaiser (Canva Pro / Getty). Vor Weiterverwendung Lizenzumfang prüfen.
 Bei KI-generierten Bildern steht die Quelle als „© KI-generiert mit &lt;Tool&gt;, &lt;Jahr&gt;" in der
