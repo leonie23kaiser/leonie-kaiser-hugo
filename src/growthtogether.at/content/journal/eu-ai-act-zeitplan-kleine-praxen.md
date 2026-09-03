@@ -13,7 +13,7 @@ readingTime: 8
 tags: ["EU AI Act", "Datenschutz", "KI-Kompetenz"]
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
 ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Painpoints liegen. Die Zusammenfassung bekommen Sie danach schriftlich."
-draft: true
+draft: false
 ---
 
 „Muss ich mich jetzt auch noch mit dem EU AI Act beschäftigen?" Wer eine kleine Praxis führt, hat selten Zeit, sich durch eine EU-Verordnung zu lesen, und die Schlagzeilen dazu klingen alarmierender, als die Lage tatsächlich ist. Vieles, was online dazu zu finden ist, richtet sich außerdem an Konzerne mit eigener Rechtsabteilung, nicht an eine Praxis mit einer überschaubaren Anzahl an Mitarbeitenden. Die gute Nachricht vorweg: Für eine kleine, inhabergeführte Praxis bleibt der EU AI Act gut zu bewältigen. Wichtig ist vor allem, die richtigen Fristen zu kennen, denn ein Teil dieser Fristen hat sich im August 2026 spürbar verschoben.
