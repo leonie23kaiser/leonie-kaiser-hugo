@@ -220,6 +220,19 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   nie in Kundentexten (Blog/Journal, Website, Social). Dort stattdessen z. B.
   „ohne feste Präferenz für ein bestimmtes Tool“ oder direkt den Nutzen nennen.
   (Leonie, 2026-08.)
+- **Keine Wischiwaschi-Hedges bei Pflicht-/Umfangs-Aussagen** („meist reicht das
+  aus“, „ist meist klar erkennbar“, „ein Satz reicht oft schon“). Bei Fragen wie
+  „gilt eine Pflicht?“, „reicht diese Maßnahme aus?“ oder „was zählt als X?“ eine
+  klare Ja-/Nein- oder Entweder-oder-Aussage treffen, notfalls mit einer echten
+  Definition statt einer Abschwächung. Betrifft **nicht** normale Häufigkeits-
+  Aussagen in der Erzählung („eine Frage, die ich oft höre“) — dort bleibt „oft“
+  korrektes Deutsch. Die Faustregel: Geht es um Umfang/Ausreichen einer Pflicht,
+  klar entscheiden; geht es um eine echte Häufigkeit, normal beschreiben.
+  (Leonie, 2026-09.)
+- **Keine lapidaren Ausdrücke** für ernste Sachverhalte („scharf wird“ für ein
+  Gesetz, das in Kraft tritt; „braucht dafür niemand“ für eine nicht nötige
+  Maßnahme). Neutral-sachlich umschreiben („gilt in vollem Umfang“, „ist dafür
+  nicht notwendig“). (Leonie, 2026-09.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
@@ -288,6 +301,16 @@ Beitrag selbst behandelt wurden, als Zusage für das Gespräch — also nicht �
 Ihnen passen" oder „wie die Einrichtung im Detail läuft", weil eine 30-Minuten-Erstanalyse
 das nicht einhalten kann. Kurz: **Thema ja, konkrete Session-Inhalte als Versprechen nein.**
 (Leonie, 2026-08.)
+
+**Präzisierung (Leonie, 2026-09):** Die Potenzialanalyse selbst ist inhaltlich eine
+**allgemeine Abfrage zu Digitalisierungsgrad, Zielen und Painpoints** — kein tiefes
+Gespräch zu einem einzelnen Thema. Der Post-Bezug aus dem Absatz oben bleibt erlaubt,
+aber als **leichter Nachsatz, nicht als Haupt-Framing**: Die Headline/der erste Teil des
+CTA-Texts führt über Digitalisierungsstand/Ziele/Painpoints allgemein, das Post-Thema
+kann am Ende ergänzt werden (z. B. „…, der EU AI Act eingeschlossen"), aber nicht als
+„wir schauen uns gemeinsam Ihr Thema X an" formuliert werden. Gilt ab sofort für neue
+Posts; bestehende Posts #1–#4 laufen mit der bisherigen, themenzentrierten CTA-Formel
+weiter, bis Leonie entscheidet, ob sie dort ebenfalls angepasst werden.
 
 ### Blog-CTA-Muster
 
