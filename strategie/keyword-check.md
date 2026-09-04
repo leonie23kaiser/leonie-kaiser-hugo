@@ -57,7 +57,7 @@ verwandte Begriffe. Nicht nötig, wenn 1–4 gemacht sind.)*
 ## Report-Template (das schickt Leonie zurück)
 
 ```
-Keyword-Check Post #N — Seeds: <von Claude genannt>
+Keyword-Check Post #N — Seeds: <von Claude genannt, kommagetrennt, kein „·"-Trennzeichen>
 
 Google Keyword Planner:
 - <keyword> — <Volumen/Monat> — <Wettbewerb>
@@ -75,6 +75,9 @@ Google direkt (Autocomplete / Ähnliche Fragen / Ähnliche Suchanfragen):
 
 **Ab dem zweiten Mal** genügt diese Kurzform — Claude schreibt nur noch die Zeilen mit
 den Tool-Namen und Leonie füllt die Ergebnisse ein.
+
+**Seed-Liste kommagetrennt, kein „·"** (Leonie, 2026-09) — die Seeds in der „Seeds:"-Zeile
+mit Komma statt Mittelpunkt trennen.
 
 ---
 
