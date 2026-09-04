@@ -644,8 +644,8 @@ oder eben ausbremst. Zweiter Baustein aus `branchen-hintergrund-physio.md`: die 
 wegzurationalisieren.
 
 ### Outline
-**H1:** *(Arbeitstitel, wird in Schritt 3 anhand des Keyword-Checks finalisiert)*
-„Digitalisierung ist Chefsache: warum Entlastung bei der Leitung anfängt"
+**H1** *(final, Leonie 2026-09-05):* „Digitalisierung ist Chefsache: warum sie in der Praxis
+scheitert"
 
 *(Einstieg als unbetitelter Fließtext, wie bei #1–#5 — kein eigenes H2. Kein wörtliches
 O-Ton-Zitat diesmal — stattdessen frei formuliert: ein neues Tool wird mit Elan eingeführt,
