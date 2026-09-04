@@ -45,11 +45,15 @@ Wo diese vier Rollen fehlen, bleibt Digitalisierung ein Vorhaben auf der langen 
 
 Ein Grund, warum Digitalisierungsversuche oft ausgebremst werden, noch bevor sie richtig starten, ist eine stille Sorge: sich selbst überflüssig zu machen, oder das Team zu verunsichern. Diese Sorge löst sich auf, wenn von Anfang an eine Grundhaltung klar ist: Technik entlastet, sie ersetzt niemanden. Ein Chat-Assistent beantwortet eine Standardanfrage, die fachliche Einschätzung bleibt bei Ihnen. Eine automatische Terminerinnerung reduziert Telefonate, das persönliche Gespräch mit der Kundschaft bleibt bestehen. Auch beim Strukturieren von Notizen zu einem Bericht gilt dasselbe Prinzip: Ein Entwurf wird vorbereitet, gelesen und freigegeben wird er trotzdem von Ihnen. Wird das von Anfang an so kommuniziert, verschwindet ein großer Teil des Widerstands im Team, bevor er überhaupt entsteht.
 
+## Datenschutz gehört von Anfang an mit an den Tisch
+
+Wer als Leitung ein neues Tool auswählt, trägt automatisch auch die Verantwortung dafür, wie es mit den Daten der Praxis umgeht. Das gehört nicht ans Ende der Einführung, sondern an den Anfang: Wo liegen die Daten, gibt es einen Auftragsverarbeitungsvertrag, und ist das Tool für den Umgang mit Gesundheitsdaten überhaupt geeignet? Diese Fragen früh zu klären erspart es später, ein bereits eingeführtes Tool wieder zurückzunehmen, weil sich im Nachhinein ein Datenschutz-Problem zeigt. Mehr zur Einstufung von KI-Tools lesen Sie auf meiner Seite zum <a href="/eu-ai-act/">EU AI Act</a>.
+
 ## Wie Sie als Leitung anfangen, die Digitalisierung selbst zu tragen
 
 Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick-off-Termin. Ein einfacher Ablauf reicht, um in wenigen Wochen einen tragfähigen neuen Ablauf zu etablieren, ohne dass dafür ein einzelner Tag komplett draufgeht:
 
-1. Wählen Sie einen Bereich aus, der aktuell am meisten Zeit kostet, statt mehrere Baustellen gleichzeitig anzugehen.
+1. Wählen Sie einen Bereich aus, der aktuell am meisten Zeit kostet, zum Beispiel Terminorganisation, Dokumentation oder Nachsorge, statt mehrere Baustellen gleichzeitig anzugehen.
 2. Eignen Sie sich als Erste ein neues Tool selbst an, bevor Sie es vom Team erwarten.
 3. Planen Sie einen festen wöchentlichen Zeitblock für die Umstellung ein, statt sie „irgendwann zwischendurch" zu erledigen.
 4. Erklären Sie vor der Einführung kurz, warum sich etwas ändert, nicht nur was sich ändert.
@@ -60,7 +64,7 @@ Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick
 
 Ein Beispiel, bewusst vereinfacht: In einer kleinen Praxis soll die Terminerinnerung künftig automatisch laufen, statt wie bisher händisch angerufen zu werden. Die Inhaberin testet das neue System selbst eine Woche lang, bevor es im Team vorgestellt wird. Eine Kollegin übernimmt als Erste die neue Terminerinnerung für einen Teil der Kundschaft und gibt Rückmeldung, was noch hakt.
 
-Erst danach läuft die Umstellung fürs ganze Team, mit einem festen Punkt im wöchentlichen Meeting für Fragen. Nach vier Wochen ist die Terminerinnerung selbstverständlicher Teil des Ablaufs, kein Extra-Projekt mehr nebenbei. Am Empfang bleibt spürbar mehr Zeit für die Kundschaft übrig, statt für wiederholte Anrufe wegen desselben Termins.
+Vor der Einführung wird außerdem geprüft, wo der Anbieter die Daten speichert, und ein Auftragsverarbeitungsvertrag abgeschlossen, bevor überhaupt der erste Termin darüber läuft. Erst danach läuft die Umstellung fürs ganze Team, mit einem festen Punkt im wöchentlichen Meeting für Fragen. Nach vier Wochen ist die Terminerinnerung selbstverständlicher Teil des Ablaufs, kein Extra-Projekt mehr nebenbei. Am Empfang bleibt spürbar mehr Zeit für die Kundschaft übrig, statt für wiederholte Anrufe wegen desselben Termins.
 
 ## Häufige Fragen
 
@@ -75,6 +79,9 @@ Erklären Sie den Grund für eine Änderung, bevor Sie sie einführen, und lasse
 
 **Wie lange dauert es, bis sich eine neue Lösung im Team eingespielt hat?**
 Das hängt vom Bereich ab, oft sind es einige Wochen. Wichtiger als die genaue Dauer ist, dass in dieser Zeit ein fester Ansprechpunkt für Fragen besteht, sonst zieht sich die Umstellung unnötig in die Länge.
+
+**Wer ist dafür verantwortlich, dass ein neues Tool datenschutzkonform ist?**
+Die Verantwortung liegt bei der Praxisleitung, unabhängig davon, wer die technische Einrichtung übernimmt. Bei der Auswahl und Einstufung neuer Tools begleite ich Sie dabei.
 
 ## Ein erster Schritt, ganz unverbindlich
 
