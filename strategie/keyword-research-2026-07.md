@@ -466,5 +466,39 @@ Deutschland" (170) — 70/Monat, direkt passend zum Transparenzpflichten-Abschni
 
 ---
 
+## Post #6: „Digitalisierung ist Chefsache / digitale Führung" (2026-09-04)
+
+**Status: ✅ Keyword-Check abgeschlossen** — AnswerThePublic/GEO-Prompt-Recherche für alle 5
+Seeds versucht (an zwei Tagen, teils doppelt), durchgehend gesperrt (Testabo abgelaufen, wie
+bei Post #4/#6-Vorläufen). Google Keyword Planner (Forecast), Trends und Google direkt für
+alle 5 liegen vor.
+
+*Seeds: Digitalisierung Praxis Chefsache · Digitalisierung Praxis Leitung · digitale Führung
+Gesundheitspraxis · warum scheitert Digitalisierung in der Praxis · Digitalisierung
+Praxisinhaberin*
+
+**Google Keyword Planner (Forecast) + Trends:** Alle 5 durchgehend **0** (Klicks/Impressionen
+im Forecast, 12 Monate Trends DE) — erwartbares Muster bei dieser Phrasenlänge, kein
+eigenständiger Negativ-Befund.
+
+| Keyword | Google direkt — Auffälligstes Signal | Intent-Einordnung |
+|---|---|---|
+| **Digitalisierung Praxis Chefsache** | Kein einziger Autocomplete-Vorschlag | Kein Signal |
+| **Digitalisierung Praxis Leitung** | „digitalisierungsstaatssekretär" (politisches Amt, irrelevant), **„digitalisierungsscheck"** (echtes österr. KMU-Förderprogramm — anderer Suchintent: Förderung statt Beratung), „digitalisierung gesundheitswesen österreich", „digitalisierungsstrategie beratung" (generisch), „digitalisierungsagentur" | Diffus — kein klarer Treffer, kein klarer Fehltreffer |
+| **digitale Führung Gesundheitspraxis** | „digitale gesundheitsanwendungen österreich" (Richtung DiGA — anderes regulatorisches Thema), „digital health wien" (AT-regional, positiv), PAA „Welche sind die 4 Dimensionen der Digitalisierung?" (generische Business-Theorie, ähnlich SECI-Modell-Muster bei Post #4) | Diffus, teils zu akademisch/generisch |
+| **warum scheitert Digitalisierung in der Praxis** | PAA: „Welche Gründe gibt es gegen die Digitalisierung?", „Welche Probleme gibt es bei der Digitalisierung?", „Welche positiven und negativen Auswirkungen hat die Digitalisierung?", „Welche Risiken birgt die Digitalisierung?" | Generisch — Pro/Contra-Digitalisierung allgemein, kein Praxis-Bezug in den echten Fragen |
+| **Digitalisierung Praxisinhaberin** | **Google AI-Overview (echter Treffer):** „Digitalisierung scheitert in der Praxis fast nie an der Technik selbst, sondern an mangelnder Strategie, ungeeigneten Prozessen und der Vernachlässigung [...]" | **Starker inhaltlicher Treffer** — deckt sich fast wörtlich mit Leonies Positionierung „erst die Prozesse, dann das Tool" |
+
+**Finale Keyword-Entscheidung für Post #6:** Wie Post #1 und #4 — kein Seed mit validiertem
+Suchvolumen, aber diesmal auch keine harte Zielgruppen-Kollision (anders als Post #4). Der
+wertvollste Fund ist inhaltlich, nicht quantitativ: Das AI-Overview zu „Digitalisierung
+Praxisinhaberin" bestätigt unabhängig genau die Kernthese, die für Post #6 vorgesehen ist
+(Scheitern liegt an Strategie/Prozessen, nicht an der Technik) — guter Beleg, dass der Winkel
+stimmt, auch ohne Suchvolumen-Beweis. Empfehlung: Awareness-/Positionierungs-Content, „warum
+scheitert..."-Fragen und die AI-Overview-Formulierung als Aufhänger nutzen; „Digitalisierungs-
+scheck" als mögliche Randerwähnung (Förderprogramm) prüfen, aber nicht als Zielkeyword.
+
+---
+
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
 `segmente.md`, `service-katalog.md`, `angebotsvorschlaege.md`, `AGENTS.md`.*
