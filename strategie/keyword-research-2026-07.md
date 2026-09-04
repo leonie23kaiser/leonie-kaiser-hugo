@@ -466,5 +466,21 @@ Deutschland" (170) — 70/Monat, direkt passend zum Transparenzpflichten-Abschni
 
 ---
 
+## Post #6: „Digitalisierung ist Chefsache" (2026-09-04)
+
+**Status: Runde 1 — kein einziger Datenpunkt.** 3 Seeds über die GEO-Prompt-Recherche-Tabelle
+geprüft: „Digitalisierung Praxis Leitung", „warum scheitert Digitalisierung in der Praxis",
+„digitale Führung Gesundheitspraxis". Bei allen drei diesmal **kein Google-Sheet** (anders als
+bei Post #5), nur ChatGPT/Gemini-Tabs, beide hinter der Upgrade-Sperre. Zwei weitere Seeds aus
+dem Einzelkonzept („Digitalisierung Praxis Chefsache", „Digitalisierung Praxisinhaberin")
+noch nicht getestet.
+
+**Nächster Schritt (offen):** Leonie fragt parallel im „Keyword research"-Thread
+(`post-keyword-recherche`-Skill) nach — dort ggf. Zugriff auf Google Keyword Planner mit
+echten Volumen-Zahlen, plus Vorschläge für kürzere/breitere Kopf-Begriffe, da die bisherigen
+Phrasen evtl. zu lang/spezifisch für messbares Signal sind.
+
+---
+
 *Quelle: Chat-Session 2026-07-29 (Google-Ads-Kampagne + Keyword-Research). Bezug:
 `segmente.md`, `service-katalog.md`, `angebotsvorschlaege.md`, `AGENTS.md`.*
