@@ -661,11 +661,15 @@ abgelehnte Formulierung.)*
 - **H2: „Technik entlastet, sie ersetzt niemanden"**
   - H3: Warum diese Haltung die Sorge vor dem Kontrollverlust auflöst
 - **H2: Wie Sie als Leitung anfangen, die Digitalisierung selbst zu tragen** *(konkrete
-  Schritt-für-Schritt-Anleitung gemäß
-  `blog-konventionen.md` §4 — z. B. 1. einen Bereich auswählen, der am meisten Zeit kostet,
-  2. sich selbst als Erste/r ein neues Tool aneignen, bevor es das Team lernen soll,
-  3. einen festen wöchentlichen Zeitblock für Digitalisierung einplanen, 4. das Team früh
-  einbinden statt vor vollendete Tatsachen zu stellen)*
+  Schritt-für-Schritt-Anleitung gemäß `blog-konventionen.md` §4 — sechs Schritte:
+  1. einen Bereich auswählen, der am meisten Zeit kostet, 2. sich selbst als Erste/r ein
+  neues Tool aneignen, bevor es das Team lernen soll, 3. einen festen wöchentlichen
+  Zeitblock für Digitalisierung einplanen, 4. vor der Einführung kurz erklären, warum sich
+  etwas ändert, nicht nur was sich ändert, 5. eine einzelne Kollegin oder einen Kollegen als
+  Testperson vor dem breiten Rollout einbinden und deren Feedback aufnehmen, bevor der Rest
+  des Teams startet, 6. einen festen, kurzen Punkt im Team-Meeting für offene Fragen
+  einplanen, nicht nur einmalig beim Start — Schritte 4–6 ersetzen das ursprünglich zu vage
+  „Team früh einbinden", auf Leonies Nachfrage präzisiert)*
 - **H2: Wie wir das in der Praxis lösen** *(Beispielszenario, illustrativ)*
 - **H2: Häufige Fragen** *(3–4 Fragen, z. B. „Muss ich selbst technikaffin sein?", „Was, wenn
   ich keine Zeit für ein Digitalisierungsprojekt habe?")*
