@@ -6,7 +6,7 @@ date: 2026-09-15
 lastmod: 2026-09-15
 author: "Leonie Kaiser"
 category: "KI in der Praxis"
-readingTime: 7
+readingTime: 8
 tags: ["Digitalisierung", "Führung", "KI in der Praxis"]
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
 ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Painpoints liegen. Die Zusammenfassung bekommen Sie danach schriftlich."
@@ -37,7 +37,7 @@ Damit Digitalisierung wirklich trägt, füllt die Praxisleitung dabei vier Rolle
   </ul>
 </div>
 
-Wo diese vier Rollen fehlen, bleibt Digitalisierung ein Vorhaben auf der langen Liste, das nie ganz oben landet. Besonders die Rolle als Vorbild wird dabei oft unterschätzt: Ein Team merkt sehr genau, ob die Leitung eine neue Lösung selbst nutzt oder nur anordnet, dass andere sie nutzen sollen. Die vier Rollen bedeuten dabei nicht, dass Sie plötzlich mehr Zeit für Digitalisierung aufbringen müssen als bisher, sondern dass die Zeit, die ohnehin investiert wird, gezielter ankommt. Genau bei diesen vier Rollen setze ich in der Zusammenarbeit an, mehr zu meiner Arbeitsweise finden Sie auf meiner Seite <a href="/ueber-mich/">über mich</a>.
+Wo diese vier Rollen fehlen, bleibt Digitalisierung ein Vorhaben auf der langen Liste, das nie ganz oben landet. Besonders die Rolle als Vorbild wird dabei oft unterschätzt: Ein Team merkt sehr genau, ob die Leitung eine neue Lösung selbst nutzt oder nur anordnet, dass andere sie nutzen sollen. Ein Beispiel: Wird ein neues Dokumentationstool eingeführt, aber die Leitung selbst schreibt ihre Notizen weiter von Hand, überträgt das Team diese Zurückhaltung eins zu eins. Nutzt die Leitung es dagegen sichtbar selbst, auch für die eigenen, oft komplizierteren Fälle, verliert das neue Tool seinen Status als optionales Extra. Die vier Rollen bedeuten dabei nicht, dass Sie plötzlich mehr Zeit für Digitalisierung aufbringen müssen als bisher, sondern dass die Zeit, die ohnehin investiert wird, gezielter ankommt. Genau bei diesen vier Rollen setze ich in der Zusammenarbeit an, mehr zu meiner Arbeitsweise finden Sie auf meiner Seite <a href="/ueber-mich/">über mich</a>.
 
 ## „Technik entlastet, sie ersetzt niemanden"
 
@@ -64,7 +64,13 @@ Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick
 
 Ein Beispiel, bewusst vereinfacht: In einer kleinen Praxis soll die Terminerinnerung künftig automatisch laufen, statt wie bisher händisch angerufen zu werden. Die Inhaberin testet das neue System selbst eine Woche lang, bevor es im Team vorgestellt wird. Eine Kollegin übernimmt als Erste die neue Terminerinnerung für einen Teil der Kundschaft und gibt Rückmeldung, was noch hakt.
 
-Vor der Einführung wird außerdem geprüft, wo der Anbieter die Daten speichert, und ein Auftragsverarbeitungsvertrag abgeschlossen, bevor überhaupt der erste Termin darüber läuft. Erst danach läuft die Umstellung fürs ganze Team, mit einem festen Punkt im wöchentlichen Meeting für Fragen. Nach vier Wochen ist die Terminerinnerung selbstverständlicher Teil des Ablaufs, kein Extra-Projekt mehr nebenbei. Am Empfang bleibt spürbar mehr Zeit für die Kundschaft übrig, statt für wiederholte Anrufe wegen desselben Termins.
+Vor der Einführung wird außerdem geprüft, wo der Anbieter die Daten speichert, und ein Auftragsverarbeitungsvertrag abgeschlossen, bevor überhaupt der erste Termin darüber läuft. Die Testperson merkt in der ersten Woche an, dass ein Teil der Kundschaft lieber weiterhin angerufen werden möchte. Diese Rückmeldung fließt direkt ein: Für diese Gruppe bleibt der telefonische Kontakt bestehen, alle anderen bekommen die automatische Erinnerung. Erst danach läuft die Umstellung fürs ganze Team, mit einem festen Punkt im wöchentlichen Meeting für Fragen.
+
+Nach vier Wochen ist die Terminerinnerung selbstverständlicher Teil des Ablaufs, kein Extra-Projekt mehr nebenbei. Am Empfang bleibt spürbar mehr Zeit für die Kundschaft übrig, statt für wiederholte Anrufe wegen desselben Termins. Und weil die Ausnahme für die telefonische Kundschaft von Anfang an mitgedacht wurde, fühlt sich niemand vor vollendete Tatsachen gestellt.
+
+## Was, wenn der erste Versuch schon gescheitert ist?
+
+Viele Praxen haben schon einmal ein Tool eingeführt, das nach kurzer Zeit wieder eingeschlafen ist, oft genau aus den oben genannten Gründen. Das ist kein Grund, das Thema Digitalisierung ganz zu meiden. Ein zweiter Anlauf gelingt eher, wenn offen benannt wird, was beim ersten Mal gefehlt hat, statt wortlos ein neues Tool danebenzustellen. Häufig fehlte schlicht eine klare Zuständigkeit, nicht die grundsätzliche Bereitschaft im Team. Wird das einmal ausgesprochen, nimmt das dem zweiten Anlauf einen Teil des Misstrauens, das ein gescheiterter erster Versuch im Team hinterlässt. Ein zweiter Anlauf mit klarer Rollenverteilung hat deutlich bessere Chancen als ein dritter oder vierter, bei dem einfach nur ein neues Tool ausprobiert wird.
 
 ## Häufige Fragen
 

@@ -243,12 +243,22 @@ verstecken.
 ### Länge nach Beitragsart
 | Art | Wörter | Lesezeit | Wofür |
 |---|---|---|---|
-| **Standard-Fachbeitrag** | 900–1.400 | 4–6 min | die meisten Posts (Termine, Nachsorge, Sichtbarkeit …) |
+| **Standard-Fachbeitrag** | 1.300–1.800 | 6–9 min | die meisten Posts (Termine, Nachsorge, Sichtbarkeit …) |
 | **Tiefer Leitfaden** | 1.500–2.200 | 7–10 min | Kern-Themen, die ranken sollen (v. a. Datenschutz & EU AI Act) |
 | **Persönlicher Beitrag** | 600–1.000 | 3–4 min | der Vorstellungs-Post, LinkedIn-tauglich |
 
 Kürzer als 600 Wörter rankt selten; länger als 2.200 verliert die Handy-Leserin. Im
 Zweifel: so lang wie nötig, um die Frage vollständig zu beantworten — nicht länger.
+
+**Korrektur (Leonie, 2026-09):** Die untere Grenze beim Standard-Fachbeitrag war zu
+niedrig angesetzt — mehrfach als „zu kurz/zu oberflächlich" zurückgemeldet, auch noch bei
+1.100–1.260 Wörtern (Post #6). Ab sofort gilt die neue, höhere Spanne oben. **Wichtiger
+als die reine Wortzahl:** echte inhaltliche Tiefe (siehe `blog-konventionen.md` §4,
+„Echten Mehrwert liefern") — ein konkretes Beispiel pro Kernaussage, nicht nur die
+abstrakte Behauptung; ein Gegenszenario oder Einwand aktiv mitdenken („was, wenn der
+erste Versuch schon gescheitert ist"), statt nur den Idealfall zu beschreiben. Lieber
+diese Tiefe zuerst suchen und danach prüfen, ob die Wortzahl stimmt, als auf eine
+Zielzahl hin zu strecken.
 
 ### Front-Matter-Konvention (Journal-Layout)
 Das `layouts/journal/single.html` nutzt diese Felder:

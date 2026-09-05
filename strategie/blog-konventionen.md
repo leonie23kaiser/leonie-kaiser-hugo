@@ -112,8 +112,11 @@ draft: true
 ```
 - **Titel = H1 = `<title>`-Tag** (kein separates SEO-Feld). ≤ 60 Zeichen ideal; evokativ
   länger ist bei persönlichen/Marken-Posts ok (Google kürzt in der SERP).
-- **Länge nach Beitragsart:** Fachbeitrag 900–1.400 · tiefer Leitfaden 1.500–2.200 ·
-  persönlicher Post 600–1.000 Wörter.
+- **Länge nach Beitragsart:** Fachbeitrag **1.300–1.800** · tiefer Leitfaden 1.500–2.200 ·
+  persönlicher Post 600–1.000 Wörter. **Korrektur (Leonie, 2026-09):** Fachbeitrag-Spanne
+  angehoben, war zu niedrig — mehrfach als zu kurz/oberflächlich zurückgemeldet, auch noch
+  bei ~1.200 Wörtern. Wortzahl ist aber nur ein Signal, nicht das Ziel selbst: Tiefe zuerst
+  (konkrete Beispiele, Gegenszenarien mitdenken, siehe §4), dann erst die Zahl prüfen.
 - **Build zur Kontrolle:** `hugo --source src/growthtogether.at -D -F` (extended,
   `--buildFuture` wegen Zukunftsdatum). Fehlt Hugo im Container → extended-Binary von
   GitHub-Releases laden. Der CI-Deploy hat Hugo ohnehin.
