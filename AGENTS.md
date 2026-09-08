@@ -232,7 +232,32 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
 - **Keine lapidaren Ausdrücke** für ernste Sachverhalte („scharf wird“ für ein
   Gesetz, das in Kraft tritt; „braucht dafür niemand“ für eine nicht nötige
   Maßnahme). Neutral-sachlich umschreiben („gilt in vollem Umfang“, „ist dafür
-  nicht notwendig“). (Leonie, 2026-09.)
+  nicht notwendig“). **Kommt immer wieder vor, besonders genau hinschauen**
+  (Leonie, 2026-09): auch legere/bildhafte Verben wie „verpuffen“,
+  „einschlafen“ (für ein Tool/eine Umstellung, die nicht mehr genutzt wird),
+  „draufgehen“ (für Zeitaufwand), „an den Tisch holen“ oder „ein Tool
+  danebenstellen“ zählen dazu — neutral-konkret umschreiben, was tatsächlich
+  passiert (z. B. „nicht mehr konsequent genutzt“ statt „eingeschlafen“).
+  Ebenso unklare Metaphern vermeiden, die nicht wörtlich gemeint sind (z. B.
+  „ein Tool verändert nur eine Oberfläche“) — direkt sagen, was gemeint ist.
+- **Pronomen eindeutig halten.** „das“/„dies“/„es“ nur verwenden, wenn beim
+  Lesen sofort klar ist, worauf es sich bezieht — sonst den Bezug ausschreiben
+  (Nomen wiederholen oder umformulieren). (Leonie, 2026-09.)
+- **Keine unbelegten/schwachen Quellen** wie eine automatisierte KI-/Google-
+  Zusammenfassung als Beleg zitieren. Für Zahlen/Aussagen mit Anspruch auf
+  Beleg-Charakter eine echte, benennbare Quelle recherchieren und korrekt
+  zitieren: offizielle Quelle zur Digitalisierung im Gesundheitswesen bzw. in
+  kleinen Unternehmen, wissenschaftliche Studie, Branchenstudie, oder seriöse
+  Veröffentlichung einer Berufsorganisation/eines Fachmagazins. Sekundärquellen
+  ehrlich als solche benennen (siehe auch Abschnitt „Nicht verhandelbar“ oben).
+  (Leonie, 2026-09.)
+- **Rollenbezeichnungen (z. B. in einer Aufzählung von Funktionen/Rollen)
+  neutral in der kurzen, generischen Form**, nicht durchgehend weiblich
+  dekliniert: „Impulsgeber“, „Umsetzer“, „Koordinator“ — nicht „Impulsgeberin“,
+  „Umsetzerin“ usw. Das ist eine bewusste Ausnahme von der sonstigen
+  Gendern-Regel (Abschnitt 3), die dort gilt, wo eine Person in einer Rolle
+  benannt wird, nicht bei den üblichen Sammelbegriffen wie „Kundschaft“/
+  „Team“. (Leonie, 2026-09.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
