@@ -88,6 +88,59 @@ Zielgruppen-Schärfung: [`strategie/segmente.md`](strategie/segmente.md).
 - Klare Absätze, sinnvolle Zwischenüberschriften.
 - Aufzählungen nur, wenn sie Übersicht **verbessern**.
 
+### Gegen den KI-Klang: konkret statt abgewogen aufzählend
+
+Grammarly-KI-Erkennung und eigene Textanalyse (September 2026) zeigen ein
+Muster, das sich durch fast die ganze Website zieht und stärker als jedes
+Einzelwort verrät, dass ein Text von einer KI stammt: Sätze, die 2–4 abstrakte
+Begriffe/Vorteile/Schritte in einer glatten, gleichmäßigen Aufzählung bündeln,
+statt eine einzelne, konkrete Situation zu schildern.
+
+**Erkannte Muster, die zu vermeiden sind:**
+- **Aneinandergereihte Dreier-Aufzählungen abstrakter Begriffe**, z. B.
+  „Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen
+  werden manuell verschickt, und kurzfristige Absagen hinterlassen Lücken" —
+  drei parallele Kanäle gleichmäßig aneinandergereiht, keine einzige Szene
+  wird konkret. Genauso: „zuverlässig, schnell und kosteneffizient",
+  „Kosten senken, Effizienz steigern oder Wettbewerbs-Vorteil ausbauen".
+- **Broschüren-Listen aus abstrakten Nutzen-Labels** statt einer konkreten
+  Situation: „Individueller Fahrplan mit klaren Prioritäten / Einrichtung
+  und Integration in Ihre Systeme / Persönliche Einweisung für Sie und Ihr
+  Team" liest sich wie eine glatte Aufzählung, nicht wie ein einzelner,
+  greifbarer Fall.
+- **Dieselbe abstrakte Aussage zweimal**, nur anders verpackt: „Alles hängt
+  an Ihnen." gefolgt von „Behandlung, Führung und Verwaltung laufen in
+  einer Person zusammen." — der zweite Satz liefert keine neue, konkrete
+  Ebene, sondern wiederholt nur die erste Behauptung.
+- **Vorgefertigte Anhängsel-Klauseln** am Satzende: „… sind dabei von
+  Anfang an mitgedacht", „… ist dabei von Anfang an Teil der Lösung" —
+  klingt wie eine automatisch ergänzte Compliance-Zeile.
+- **„Es kommt darauf an"-Formeln ohne Beispiel**: „Die Lösung richtet sich
+  nach der Art Ihrer Daten" wägt ab, ohne je an einem konkreten Fall
+  festzumachen, was das bedeutet.
+
+**Die Regel:**
+- **Pro Absatz höchstens eine Dreier-/Vierer-Aufzählung, nie mehrere
+  hintereinander.** Folgt auf eine „X, Y und Z"-Liste noch ein Satz, muss
+  der konkret werden (ein Beispiel, eine Zahl, eine Uhrzeit, eine Ausnahme),
+  keine weitere Liste bringen.
+- **Erst die konkrete Einzelheit, dann erst zusammenfassen — nie
+  umgekehrt.** Ein Satz mit einer echten, leicht „unordentlichen" Einzelheit
+  schlägt eine glatte Gesamtaussage. Statt „Anfragen kommen über Telefon,
+  WhatsApp und E-Mail herein" lieber einen Fall herausgreifen: „Am
+  Montagvormittag klingelt das Telefon, während parallel eine
+  WhatsApp-Anfrage eingeht."
+- **Keine Wiederholung derselben Aussage auf zwei Abstraktionsebenen.** Der
+  zweite Satz muss etwas Neues liefern (Konsequenz, Zahl, Beispiel), nicht
+  dieselbe Behauptung nur umformulieren.
+- **Keine Anhängsel-Klauseln.** Entweder konkret ausführen, was „von Anfang
+  an mitgedacht" heißt, oder weglassen.
+- **Bei „es kommt darauf an"-Sätzen sofort ein Beispiel nachschieben.**
+  Nicht bei der Abwägung stehen bleiben.
+
+(Leonie/Claude, 2026-09 — aus Grammarly-KI-Erkennung und Analyse der
+Website-Texte, `content-export/website-texte.md`.)
+
 ## 5. Textaufbau (jeder Text)
 
 1. **Einstieg:** Situation/Problem/Gefühl (Überforderung, Zeitdruck, Zettelwirtschaft)
