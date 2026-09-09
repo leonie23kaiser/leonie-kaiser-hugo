@@ -128,7 +128,8 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   „Renewal“ → *Verlängerung / auslaufende Mitgliedschaft*, „gut getimt“ →
   *zum passenden Zeitpunkt*, „No-Show“ → *Ausfall / nicht wahrgenommener
   Termin*, „Quick Win“ → *schneller erster Erfolg*, „Ads“ → *Werbeanzeigen /
-  Werbebudget*, „Linkbuilding“ → *aufwändige Linkaufbau-Maßnahmen* (in Sätzen, die
+  Werbebudget*, „Linkbuilding” → *aufwändige Linkaufbau-Maßnahmen*, „Painpoints” →
+  *Engpässe* (in Sätzen, die
   Ads und Linkbuilding gemeinsam als Nicht-Angebot nennen, gern gemeinsam
   umschreiben: „ohne Werbebudget und aufwändige Maßnahmen“). Eingebürgerte
   Fachbegriffe (Brand Voice, Chat-Assistent, KI, **Tool**) bleiben. (Leonie, 2026-08.)
@@ -251,6 +252,36 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Veröffentlichung einer Berufsorganisation/eines Fachmagazins. Sekundärquellen
   ehrlich als solche benennen (siehe auch Abschnitt „Nicht verhandelbar“ oben).
   (Leonie, 2026-09.)
+- **Keine absoluten Alleinursache-/Alleinlösung-Behauptungen** bei Themen, die
+  erkennbar mehrere Ursachen haben (Projekt-Scheitern, Team-Skepsis,
+  technische Probleme). „X, das war der ganze Grund" oder „Y reicht, um Z zu
+  lösen" wirkt unglaubwürdig und zu einfach. Stattdessen differenzieren:
+  „X war nicht der einzige Grund, aber ein entscheidender" o. Ä. Ebenso bei
+  Team-Widerstand: Sorge vor Technik hat oft mehrere Ursachen (Arbeitsdruck,
+  frühere schlechte Erfahrungen, Kontrollgefühl), nicht nur eine erklärbare
+  Sorge — nicht auf eine einzige Diagnose verkürzen. (Leonie, 2026-09,
+  externes Lektorat #3.)
+- **Keine impliziten Falschaussagen durch Verkürzung**, v. a. bei
+  Umsetzungsschritten. „Ab Montag läuft X online, nicht mehr am Telefon"
+  kann klingen, als würde ein bestehender Kanal (z. B. telefonische
+  Terminvergabe) komplett abgeschafft — das ist in der Regel weder gemeint
+  noch realistisch (viele Kundinnen bevorzugen Telefon). Genau benennen, was
+  sich ändert (z. B. die parallele manuelle Übertragung entfällt), nicht was
+  plakativ klingt. (Leonie, 2026-09, externes Lektorat #3.)
+- **Rollenbezeichnungen müssen zur tatsächlich beschriebenen Aufgabe passen.**
+  Ein Label wie „Umsetzer" für eine Aufgabe, die tatsächlich nur „selbst
+  zuerst ausprobieren" bedeutet, suggeriert fälschlich, die Praxisleitung
+  müsse alles selbst durchführen. Label und Aufgabenbeschreibung gegenlesen:
+  Passt die Bezeichnung exakt zu dem, was der Text tatsächlich verlangt?
+  (Leonie, 2026-09, externes Lektorat #3 — „Umsetzer" → „Erstanwender" bei
+  Post #6.)
+- **Datenschutz-/Rechtsaussagen bei Gesundheitsdaten nicht als einfaches
+  Ja/Nein formulieren** („passt das Tool, oder nicht?"). Der Prüfmaßstab bei
+  Gesundheitsdaten ist hoch und hängt an konkreter Verarbeitung, Vertragslage,
+  technischen Schutzmaßnahmen, Rollen und Anbieterstandort — nicht an einer
+  pauschalen Eignung des Tools. Formulieren als Prüfauftrag („ob X für den
+  konkreten Anwendungsfall tragfähig geregelt ist"), nicht als binäre Frage.
+  (Leonie, 2026-09, externes Lektorat #3.)
 - **Rollenbezeichnungen (z. B. in einer Aufzählung von Funktionen/Rollen)
   neutral in der kurzen, generischen Form**, nicht durchgehend weiblich
   dekliniert: „Impulsgeber“, „Umsetzer“, „Koordinator“ — nicht „Impulsgeberin“,
@@ -454,14 +485,18 @@ das nicht einhalten kann. Kurz: **Thema ja, konkrete Session-Inhalte als Verspre
 (Leonie, 2026-08.)
 
 **Präzisierung (Leonie, 2026-09):** Die Potenzialanalyse selbst ist inhaltlich eine
-**allgemeine Abfrage zu Digitalisierungsgrad, Zielen und Painpoints** — kein tiefes
+**allgemeine Abfrage zu Digitalisierungsgrad, Zielen und Engpässen** — kein tiefes
 Gespräch zu einem einzelnen Thema. Der Post-Bezug aus dem Absatz oben bleibt erlaubt,
 aber als **leichter Nachsatz, nicht als Haupt-Framing**: Die Headline/der erste Teil des
-CTA-Texts führt über Digitalisierungsstand/Ziele/Painpoints allgemein, das Post-Thema
+CTA-Texts führt über Digitalisierungsstand/Ziele/Engpässe allgemein, das Post-Thema
 kann am Ende ergänzt werden (z. B. „…, der EU AI Act eingeschlossen"), aber nicht als
 „wir schauen uns gemeinsam Ihr Thema X an" formuliert werden. Gilt ab sofort für neue
 Posts; bestehende Posts #1–#4 laufen mit der bisherigen, themenzentrierten CTA-Formel
 weiter, bis Leonie entscheidet, ob sie dort ebenfalls angepasst werden.
+**Korrektur (Leonie, 2026-09):** „Painpoints" war hier fälschlich stehen geblieben —
+Anglizismus, verstößt gegen §9. In der neutralen CTA-Textvorlage (Posts #5, #6) durch
+„Engpässe" ersetzt. Post #5 (live) nutzt „Painpoints" noch im echten CTA-Text; Fix dort
+erst nach Rücksprache mit Leonie, da bereits veröffentlicht.
 
 ### Blog-CTA-Muster
 

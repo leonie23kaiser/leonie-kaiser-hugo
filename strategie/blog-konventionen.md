@@ -115,6 +115,19 @@ ist das kein Signal für eine dritte Wortersatz-Runde, sondern ein Punkt, an dem
 gefragt wird, wie weit Richtung „bewusst unperfekt" gegangen werden soll. Details: `AGENTS.md`
 §9.
 
+**Fünfter Nachtrag — fachliche Präzision statt AI-Detection (Leonie, 2026-09):** Ein
+drittes, inhaltlich orientiertes Lektorat (kein AI-Detector) hat einen anderen Fehlertyp
+gefunden: zu absolute Alleinursache-Aussagen („X, das war der ganze Grund"), eine
+Formulierung, die implizit einen bestehenden Kanal komplett abschafft (Telefon-Terminvergabe
+klang wie abgeschafft, obwohl nur die parallele Handübertragung gemeint war), ein
+Rollen-Label, das nicht zur beschriebenen Aufgabe passte („Umsetzer" für reines
+Selbst-Ausprobieren), und eine zu binär formulierte Datenschutz-Frage bei Gesundheitsdaten
+(„passt das Tool, oder nicht?" statt eines Prüfauftrags). Vor Abgabe gegenlesen: Klingt eine
+Aussage nach der einzigen Ursache für ein mehrursächliches Problem? Klingt ein Umsetzungsschritt
+nach Abschaffung eines Kanals, den er nicht abschaffen soll? Passt ein Rollen-Label exakt zur
+beschriebenen Aufgabe? Ist eine Datenschutz-Aussage bei Gesundheitsdaten ein echter Prüfauftrag
+statt einer Ja/Nein-Frage? Details: `AGENTS.md` §9.
+
 ### 2d. Brand-Blacklist (AGENTS.md §9)
 Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype („disruptiv",
 „Gamechanger", „KI-Revolution") · Floskeln („state of the art") · Anglizismen („booken",
