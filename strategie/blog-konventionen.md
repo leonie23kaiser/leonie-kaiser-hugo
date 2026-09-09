@@ -73,6 +73,14 @@ einzelnen, konkreten Situation (eine Kundin, ein Montag, ein Beispiel-Tool) stat
 abstrakten Regel, und mit unterschiedlichem Satzanfang je Listenpunkt. Details/Beispiele:
 `AGENTS.md` §9.
 
+**Nachtrag (Leonie, 2026-09):** Wortweises Umformulieren reicht oft nicht — der Detector
+flaggt danach die nächste Stelle. Was tatsächlich half (Post #6, zweite Prüfrunde): eine
+**durchgehende Beispiel-Szene** über mehrere Absätze ziehen statt pro Absatz ein neues
+generisches Beispiel; in Listen **Satztyp mischen** (Imperativ, Aussagesatz, Zitat, kurzer
+Satz — nicht jede Zeile im selben Muster); die Kontrast-Aussage einer Zwischenüberschrift
+**nicht direkt danach im Fließtext wiederholen**; **keine zwei+ rhetorischen Fragen**
+hintereinander. Details: `AGENTS.md` §9.
+
 ### 2d. Brand-Blacklist (AGENTS.md §9)
 Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype („disruptiv",
 „Gamechanger", „KI-Revolution") · Floskeln („state of the art") · Anglizismen („booken",

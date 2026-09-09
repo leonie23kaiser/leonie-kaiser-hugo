@@ -273,6 +273,23 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   schlägt eine allgemein formulierte Regel. Vor Abgabe: Enthält ein Absatz
   mehr als eine „nicht X, sondern Y"-Konstruktion oder wirken alle Punkte
   einer Liste syntaktisch identisch? Dann umformulieren. (Leonie, 2026-09.)
+  **Nachtrag nach zweiter Prüfrunde:** Einzelne Sätze austauschen reicht meist
+  nicht — der Detector flaggt danach oft die nächste Formulierung. Wirksamer
+  sind vier strukturelle Eingriffe: (1) **eine durchgehende, konkrete
+  Beispiel-Szene** durch mehrere Absätze/Abschnitte ziehen (z. B. dieselbe
+  Rezeption, dieselbe Kundin), statt für jeden Absatz ein neues generisches
+  Beispiel zu erfinden — Letzteres liest sich wie eine Reihe austauschbarer
+  KI-Illustrationen; (2) in Aufzählungen/Schritt-Listen **Satztyp und -länge
+  mischen** (nicht jede Zeile ein Imperativ mit „bevor"/„statt"-Anhängsel;
+  auch Aussagesätze, ein wörtliches Zitat, ein kurzer Satz dazwischen); (3)
+  **keine Kontrast-Formel aus der Überschrift im ersten Satz danach
+  wiederholen** („kein Technik-Projekt, sondern Führungs-Projekt" als
+  Zwischenüberschrift + „Das ist eine Führungsfrage, keine Technikfrage" im
+  Text direkt danach doppelt sich); die Überschrift trägt die Aussage schon,
+  der Fließtext soll sie zeigen, nicht nochmal behaupten; (4) **keine
+  Ketten aus zwei+ rhetorischen Fragen** hintereinander („Gab es damals
+  eine …? War genug Zeit …?") — liest sich wie eine abgearbeitete Checkliste.
+  (Leonie, 2026-09.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
