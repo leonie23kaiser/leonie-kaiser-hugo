@@ -19,7 +19,7 @@ Eine Praxis führt eine Online-Terminbuchung ein. Anfangs klappt das ganz gut, a
 
 ### Digitalisierung ist mehr als eine technische Einführung
 
-Am Empfang läuft die Terminverwaltung seit Jahren nach demselben Muster, niemand hat sich den Ablauf noch einmal genau angesehen. Die Kollegin trägt den Online-Termin trotzdem mit der Hand ins Buch, wie immer, denn es wurde nie verbindlich festgelegt, dass dieser Schritt künftig entfällt. Drei Leute warten, das Telefon klingelt, und die alte Gewohnheit ist schneller als die neue Maske am Bildschirm.
+Am Empfang läuft die Terminverwaltung seit Jahren nach demselben Muster. Den Ablauf hat lange niemand noch einmal genau angesehen. Die Kollegin trägt den Online-Termin trotzdem mit der Hand ins Buch, wie immer, denn es wurde nie verbindlich festgelegt, dass dieser Schritt künftig entfällt. Drei Leute warten, das Telefon klingelt, und die alte Gewohnheit ist schneller als die neue Maske am Bildschirm.
 
 Später zeigt sich dieselbe Lücke bei der Dokumentation: Der Termin kommt online herein, wird vor der Behandlung aber noch einmal manuell in das Karteikartensystem übertragen. Diese Doppelarbeit gab es vorher nicht.
 
@@ -31,7 +31,7 @@ Damit es nicht so weit kommt, braucht es die Praxisleitung an vier Stellen.
   <p><strong>Vier Aufgaben, die zählen</strong></p>
   <ul style="margin-top:var(--s3);margin-bottom:0">
     <li>Impulsgeber: Bringen Sie das Thema selbst ins Team, zum Beispiel als eigenen Punkt in der nächsten Teambesprechung.</li>
-    <li>Erstanwender: Probieren Sie die Lösung zuerst selbst aus, an einem eigenen, echten Fall.</li>
+    <li>Selbst testen: Probieren Sie die Lösung zuerst selbst aus, an einem eigenen, echten Fall.</li>
     <li>Koordinator: Ohne festen Zeitpunkt bleibt die Umstellung liegen, bis wieder ein ruhigerer Tag kommt, und der kommt selten.</li>
     <li>Vorbild fürs Team: An der Rezeption wird meist schnell sichtbar, ob Sie die neue Lösung selbst nutzen oder nur anordnen.</li>
   </ul>
@@ -47,7 +47,7 @@ Eine Kundin schreibt abends über den Chat auf der Website und fragt nach den Ö
 
 ## Datenschutz von Anfang an einbeziehen
 
-Datenschutz muss von Beginn an in die Auswahl und Einführung digitaler Lösungen einbezogen werden, nicht erst, wenn eine Lösung schon läuft. Wer als Leitung ein neues Tool auswählt, klärt vorab den Zweck der Datenverarbeitung, die Rechtsgrundlage dafür und den Speicherort beim Anbieter. Dazu gehört ein Auftragsverarbeitungsvertrag, dazu gehört auch die Frage, wer im Team überhaupt Zugriff bekommt. Bei Gesundheitsdaten braucht es zusätzlich eine Prüfung, ob die technischen Schutzmaßnahmen für den konkreten Anwendungsfall tragfähig sind. Im Zweifel lohnt sich ein kurzer Anruf bei einer Datenschutzberatung, bevor irgendjemand im Team damit arbeitet. Diese Fragen früh zu klären erspart es später, ein bereits eingeführtes Tool wieder zurückzunehmen, weil sich im Nachhinein ein Datenschutz-Problem zeigt. Mehr zur Einstufung von KI-Tools lesen Sie auf meiner Seite zum <a href="/eu-ai-act/">EU AI Act</a>.
+Datenschutz muss von Beginn an in die Auswahl und Einführung digitaler Lösungen einbezogen werden, nicht erst, wenn eine Lösung schon läuft. Wer als Leitung ein neues Tool auswählt, klärt vorab den Zweck der Datenverarbeitung, die Rechtsgrundlage dafür und den Speicherort beim Anbieter. Dazu gehört ein Auftragsverarbeitungsvertrag, dazu gehört auch die Frage, wer im Team überhaupt Zugriff bekommt. Bei Gesundheitsdaten braucht es zusätzlich eine Prüfung, ob die technischen und organisatorischen Schutzmaßnahmen für den konkreten Anwendungsfall ausreichend sind. Im Zweifel lohnt sich ein kurzer Anruf bei einer Datenschutzberatung, bevor irgendjemand im Team damit arbeitet. Diese Fragen früh zu klären erspart es später, ein bereits eingeführtes Tool wieder zurückzunehmen, weil sich im Nachhinein ein Datenschutz-Problem zeigt. Mehr zur Einstufung von KI-Tools lesen Sie auf meiner Seite zum <a href="/eu-ai-act/">EU AI Act</a>.
 
 ## Wie Sie als Leitung anfangen, die Digitalisierung selbst zu tragen
 
@@ -82,7 +82,7 @@ Nein. Die technische Einrichtung kann zum Beispiel eine externe IT-Betreuung üb
 Für einen kleinen, klar abgegrenzten ersten Schritt können 30 Minuten pro Woche genügen, ein ganzes Projekt muss es nicht sein. Dieser Termin sollte aber bestehen bleiben, auch wenn der Kalender an dem Tag schon voll ist.
 
 **Wie gehe ich mit einem Team um, das Veränderungen skeptisch gegenübersteht?**
-Erklären Sie kurz, warum sich etwas ändert, bevor Sie es einführen, und lassen Sie eine einzelne Person zuerst testen, so wie bei der Terminerinnerung im Beispiel oben. Meistens reicht das, weil die Skepsis öfter an der fehlenden Erklärung hängt als an der Lösung selbst.
+Erklären Sie kurz, warum sich etwas ändert, bevor Sie es einführen, und lassen Sie eine einzelne Person zuerst testen, so wie bei der Terminerinnerung im Beispiel oben. Das reicht nicht immer aus, senkt aber häufig die anfängliche Skepsis. Entscheidend ist, dass das Team versteht, was sich konkret ändert, warum der neue Ablauf eingeführt wird und an wen es sich bei Problemen wenden kann.
 
 **Wie lange dauert es, bis sich eine neue Lösung im Team eingespielt hat?**
 Das hängt vom Bereich ab, oft sind es einige Wochen, manchmal auch drei Monate, wenn viel dazwischenkommt. Ein fester Ansprechpunkt für Fragen macht dabei mehr aus als die genaue Zahl der Wochen.
