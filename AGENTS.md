@@ -258,6 +258,21 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Gendern-Regel (Abschnitt 3), die dort gilt, wo eine Person in einer Rolle
   benannt wird, nicht bei den üblichen Sammelbegriffen wie „Kundschaft“/
   „Team“. (Leonie, 2026-09.)
+- **Keine symmetrischen KI-Muster-Sätze.** Ein AI-Detection-Tool hat bei
+  Post #6 wiederholt ganze Absätze als „Strong/Moderate AI patterns"
+  markiert — konkret: sauber ausbalancierte Gegensätze nach dem Schema
+  „nicht X, sondern Y" bzw. „dort ergänzen, wo X, nicht dort ersetzen, wo Y"
+  (z. B. „keine Technikaufgabe, sondern eine Führungsaufgabe"); Aufzählungen
+  oder Schritt-für-Schritt-Listen, bei denen jede Zeile exakt demselben
+  Satzmuster folgt („Tun Sie X, bevor/statt Y"); abstrakte Ketten-Sätze ohne
+  konkrete Verankerung („vom ersten Kontakt über X bis Y", „egal ob X oder
+  Y"). Statt eines abstrakten Gegensatzes eine **einzelne, konkrete
+  Situation** schildern (eine Kundin, ein Montag, ein Beispiel-Tool, eine
+  Uhrzeit). Bei Listen Satzlänge und Satzanfang **bewusst unterschiedlich**
+  formulieren, nicht jede Zeile im selben Muster. Ein konkretes Beispiel
+  schlägt eine allgemein formulierte Regel. Vor Abgabe: Enthält ein Absatz
+  mehr als eine „nicht X, sondern Y"-Konstruktion oder wirken alle Punkte
+  einer Liste syntaktisch identisch? Dann umformulieren. (Leonie, 2026-09.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 

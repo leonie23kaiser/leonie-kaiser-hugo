@@ -62,6 +62,17 @@ vor …") · symmetrische Dreier-Aufzählungen · Floskeln („spielt eine entsc
 beachten, dass …") · generische Beispiele. **Stattdessen:** konkreter Praxisalltag, klare
 Haltung, Sie-Anrede, aktive Verben, Rhythmus variieren, gelegentlich direkte Ansprache.
 
+**Ergänzung nach AI-Detection-Check Post #6 (Leonie, 2026-09):** Ein AI-Detection-Tool hat
+ganze Absätze als „Strong/Moderate AI patterns" markiert. Betroffen waren vor allem zwei
+Muster: (1) glatte Gegensatz-Sätze nach dem Schema „nicht X, sondern Y" / „dort ergänzen,
+wo X, nicht dort ersetzen, wo Y" statt einer konkreten Situation; (2) Aufzählungen/
+Schritt-Listen, bei denen jede Zeile exakt demselben Satzbau folgt („Tun Sie X, bevor/statt
+Y"). Vor Abgabe gegenlesen: Kommt „nicht X, sondern Y" mehrfach im selben Abschnitt vor?
+Lesen sich alle Punkte einer Liste syntaktisch identisch? Beides umformulieren — mit einer
+einzelnen, konkreten Situation (eine Kundin, ein Montag, ein Beispiel-Tool) statt einer
+abstrakten Regel, und mit unterschiedlichem Satzanfang je Listenpunkt. Details/Beispiele:
+`AGENTS.md` §9.
+
 ### 2d. Brand-Blacklist (AGENTS.md §9)
 Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype („disruptiv",
 „Gamechanger", „KI-Revolution") · Floskeln („state of the art") · Anglizismen („booken",
