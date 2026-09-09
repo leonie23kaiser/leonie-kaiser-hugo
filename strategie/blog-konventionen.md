@@ -101,6 +101,20 @@ beginnen, nicht mit einer Diagnose-These davor; Listenpunkte wirklich unterschie
 (Länge, Beispiel ja/nein, Handlung vs. Konsequenz); konkrete, leicht „unrunde" Details (eine
 Zahl, ein beiläufiger Nebensatz) statt glatter Kausalketten. Details: `AGENTS.md` §9.
 
+**Vierter Nachtrag — Grundproblem (Leonie, 2026-09), nach fünf Prüfrunden am selben Text:**
+Wortweises Umformulieren hat wiederholt nicht gereicht, weil der Fehler nicht in einzelnen
+Wörtern lag, sondern in einer **Satzbau-Gewohnheit**: fast jeder Satz ist ein in sich
+geschlossenes, sauber aufgelöstes Mini-Argument (Situation nennen, im selben/nächsten
+Halbsatz tidy erklären). Jede Korrekturrunde hat neue Wörter in dieselbe Satzarchitektur
+eingesetzt — deshalb flaggte dieselbe Stelle immer wieder neu. **Wichtig:** Ein
+Grammarly-artiges Tool wird bei klarer, professionell strukturierter B2B-Sprache vermutlich
+nie auf null gehen — genau diese Klarheit verlangt auch Abschnitt 4 der Brand Voice, und das
+externe Lektorat riet ausdrücklich davon ab, den Text künstlich unperfekt zu machen. Flaggt
+eine Stelle nach zwei Überarbeitungsrunden **am Satzbau** (nicht nur am Wortlaut) weiterhin,
+ist das kein Signal für eine dritte Wortersatz-Runde, sondern ein Punkt, an dem Leonie aktiv
+gefragt wird, wie weit Richtung „bewusst unperfekt" gegangen werden soll. Details: `AGENTS.md`
+§9.
+
 ### 2d. Brand-Blacklist (AGENTS.md §9)
 Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype („disruptiv",
 „Gamechanger", „KI-Revolution") · Floskeln („state of the art") · Anglizismen („booken",

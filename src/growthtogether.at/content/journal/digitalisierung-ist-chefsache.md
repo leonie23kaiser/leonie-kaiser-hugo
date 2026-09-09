@@ -21,7 +21,7 @@ Eine Praxis führt eine Online-Terminbuchung ein. Die erste Woche läuft gut, in
 
 Am Empfang hat sich seit Jahren niemand die Buchung noch mal angeschaut. Die Kollegin trägt den Online-Termin trotzdem mit der Hand ins Buch, wie immer, weil ihr das nie jemand abgewöhnt hat. Drei Leute warten, das Telefon klingelt, und die alte Gewohnheit ist schneller als die neue Maske am Bildschirm.
 
-Die Terminbuchung ist digital, die Dokumentation bleibt Papier. Vor jeder Behandlung überträgt also noch jemand den Online-Termin von Hand ins Karteikartensystem, ein Schritt, den es vorher gar nicht gab.
+Am Nachmittag kommt die Dokumentation dazu: online gebucht, aber ins Karteikartensystem trägt es vor jeder Behandlung trotzdem noch jemand von Hand nach. Vorher gab es diesen Schritt nicht.
 
 ## Die vier Rollen der Praxisleitung bei der Digitalisierung
 
@@ -58,8 +58,8 @@ Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick
 3. Eignen Sie sich die neue Lösung zunächst selbst an, bevor Sie deren Anwendung vom Team erwarten.
 4. Planen Sie einen festen wöchentlichen Zeitblock für die Umstellung ein, statt sie „irgendwann zwischendurch" zu erledigen.
 5. Bitten Sie eine einzelne Kollegin oder einen Kollegen, zum Beispiel diejenige Person, die dem Thema am offensten gegenübersteht, das System eine Woche vor dem Rest des Teams zu testen, und nehmen Sie deren Rückmeldung ernst.
-6. Kurz vor dem Start reicht ein Satz: „Ab Montag läuft die Terminbuchung online, nicht mehr am Telefon."
-7. Fragen kommen meist erst in der zweiten oder dritten Woche, nicht gleich am ersten Tag. Ein fixer Punkt im Teammeeting fängt das auf.
+6. „Ab Montag läuft die Terminbuchung online, nicht mehr am Telefon." Ein Satz, mehr nicht.
+7. Ein fixer Punkt im nächsten Teammeeting für Rückfragen, auch wenn in der ersten Woche noch niemand etwas sagt.
 
 ## Wie wir das in der Praxis lösen
 

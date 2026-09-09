@@ -343,6 +343,48 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
     eine plausible Zahl statt "oft"/"häufig" (z. B. "drei Monate, wenn viel
     dazwischenkommt" statt "die Umstellung zieht sich in die Länge"), ein
     beiläufiger Nebensatz statt einer sauberen Kausalkette. (Leonie, 2026-09.)
+  **Vierter Nachtrag — das eigentliche Grundproblem (Leonie, 2026-09), nach
+  fünf Prüfrunden am selben Text:** Wortweises und sogar absatzweises
+  Umformulieren hat wiederholt nicht gereicht. Der Fehler lag nicht in
+  einzelnen Wörtern oder Formeln, sondern in einer durchgehenden
+  **Satzbau-Gewohnheit**: (fast) jeder Satz ist ein in sich geschlossenes,
+  sauber aufgelöstes Mini-Argument — eine Situation nennen und im selben
+  oder im nächsten Halbsatz tidy erklären, was sie bedeutet. Auch konkrete
+  Beispiele wurden so "sauber gebaut": eine plausible, aber generische Szene
+  (Rezeption, Online-Buchung, Dokumentationstool), in einem grammatisch
+  perfekten Satz, der genau einen Punkt macht und ihn vollständig auflöst.
+  Genau das erkennt ein Grammarly-artiger Detector als "KI-typisch" —
+  unabhängig vom Wortlaut. Jede bisherige Korrekturrunde hat neue Wörter in
+  dieselbe Satzarchitektur eingesetzt, deshalb wurde immer wieder dieselbe
+  Stelle neu geflaggt.
+  Was am Satzbau tatsächlich helfen kann:
+  - Nicht jeden Punkt im selben Satz vollständig auflösen — manches darf als
+    kurzer Fragmentsatz ohne eigene Haupt-Verb-Klausel stehen bleiben
+    ("Ein Satz, mehr nicht.").
+  - Ein konkretes Detail an eine bereits laufende Szene anschließen, statt
+    für jeden Absatz eine neue, in sich geschlossene Situation mit eigenem
+    Setup zu bauen.
+  - Nicht jeden Absatz mit einer erklärenden Schluss-Klausel abschließen —
+    auch mal auf der reinen Handlung enden, ohne sie einzuordnen.
+  - Aufzählungspunkte dürfen unterschiedlich "fertig" wirken: der eine ein
+    vollständiger Satz mit Beispiel, der andere nur eine Nominalphrase mit
+    Nebensatz.
+  **Wichtige Einordnung — Zielkonflikt mit der Brand Voice:** Diese Eingriffe
+  drücken den Text bewusst Richtung lockerer, weniger "sauber". Das steht in
+  Spannung zu Abschnitt 4 dieser Datei ("Kurze bis mittellange Sätze, keine
+  Schachtelsätze, Verben statt Substantive, klare Absätze") — genau diese
+  Klarheit ist es, was ein Detector als "aufgeräumt" und damit potenziell
+  "KI-typisch" liest. Ein Grammarly-artiges Tool wird bei professionell
+  strukturierter B2B-Sprache vermutlich nie komplett auf null gehen; das hat
+  auch das externe Lektorat (siehe „Zweiter Nachtrag" oben) ausdrücklich
+  bestätigt: "Nicht versuchen, den Text künstlich unperfekt zu machen." Die
+  beiden Rückmeldungen (Grammarly-Flags vs. externes Lektorat) widersprechen
+  sich an dieser Stelle real. **Regel für künftige Runden:** Flaggt eine
+  Stelle nach zwei gewissenhaften Überarbeitungen am Satzbau (nicht nur am
+  Wortlaut) weiterhin, ist das kein Signal für "nochmal umformulieren",
+  sondern ein Punkt, an dem Leonie aktiv gefragt wird, wie weit Richtung
+  "bewusst unperfekt" gegangen werden soll — statt eigenmächtig weitere
+  Runden mit reinem Wortersatz zu drehen.
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
