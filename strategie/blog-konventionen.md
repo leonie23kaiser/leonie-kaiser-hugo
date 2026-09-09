@@ -93,6 +93,14 @@ Lektorat auch kritisch prüfen: Vorschläge, die der Zielgruppen-Sprache (Kundin
 statt Patientin, siehe `AGENTS.md` §1) oder dem Angst-Verbot (§9) widersprechen, **nicht**
 übernehmen. Details: `AGENTS.md` §9.
 
+**Dritter Nachtrag (Leonie, 2026-09):** Wenn derselbe Text mehrfach flaggt wird, liegt es
+meist an einem **Makro-Muster pro Absatz** (abstrakte These → Beispiel → verallgemeinernder
+Schluss-Satz), nicht mehr an einzelnen Wörtern. Konkret: keinen generalisierenden Schluss-Satz
+an jeden Absatz hängen (auf dem konkreten Detail enden reicht); FAQ-Antworten mit der Handlung
+beginnen, nicht mit einer Diagnose-These davor; Listenpunkte wirklich unterschiedlich bauen
+(Länge, Beispiel ja/nein, Handlung vs. Konsequenz); konkrete, leicht „unrunde" Details (eine
+Zahl, ein beiläufiger Nebensatz) statt glatter Kausalketten. Details: `AGENTS.md` §9.
+
 ### 2d. Brand-Blacklist (AGENTS.md §9)
 Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype („disruptiv",
 „Gamechanger", „KI-Revolution") · Floskeln („state of the art") · Anglizismen („booken",

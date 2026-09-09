@@ -320,6 +320,29 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
     Formulierungen fallen unter die bestehende Regel „Keine Angst-/Panik-
     Formulierungen" weiter oben in diesem Abschnitt und bleiben verboten,
     auch wenn ein externer Reviewer sie fachlich für sinnvoll hält.
+  **Dritter Nachtrag (Leonie, 2026-09) — nach mehreren Prüfrunden am selben
+  Text:** Wortweise/satzweise Umformulieren reicht oft nicht, wenn der
+  Detector immer wieder dieselben Absätze flaggt. Der eigentliche Fehler saß
+  in einem wiederkehrenden **Makro-Muster pro Absatz**: abstrakte
+  Einstiegsbehauptung → Beispiel → verallgemeinernder Schluss-Satz, der das
+  Gesagte nochmal auf eine Regel hebt. Das gilt es zu vermeiden:
+  - **Keinen generalisierenden Schluss-Satz an jeden Absatz hängen.** Ein
+    Absatz darf auf einem konkreten Detail enden, ohne es nochmal in eine
+    allgemeine Aussage zu übersetzen ("Digitalisierung, die nur einen Punkt
+    verändert, erzeugt an dieser Schnittstelle oft neue Arbeit" am Ende
+    weglassen — das konkrete Beispiel davor trägt den Punkt bereits).
+  - **FAQ-Antworten mit der Handlung/Antwort beginnen, nicht mit einer
+    Diagnose-These** ("Skepsis entsteht häufig dann, wenn …" vor die Handlung
+    zu stellen, liest sich lehrbuchartig). Diagnose, wenn überhaupt, kommt
+    knapp am Ende nach.
+  - **Aufzählungspunkte wirklich unterschiedlich bauen**, nicht nur
+    Imperativ/Aussagesatz abwechseln — auch Satzlänge, ob ein Beispiel
+    genannt wird, ob ein Punkt eine Konsequenz statt eine Handlung
+    beschreibt, variieren. Ruhig auch mal ein Punkt sehr kurz, einer länger.
+  - **Konkrete, leicht "unrunde" Details schlagen glatte Formulierungen**:
+    eine plausible Zahl statt "oft"/"häufig" (z. B. "drei Monate, wenn viel
+    dazwischenkommt" statt "die Umstellung zieht sich in die Länge"), ein
+    beiläufiger Nebensatz statt einer sauberen Kausalkette. (Leonie, 2026-09.)
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 

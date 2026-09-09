@@ -19,9 +19,9 @@ Eine Praxis führt eine Online-Terminbuchung ein. Die erste Woche läuft gut, in
 
 ### Digitalisierung ist mehr als eine technische Einführung
 
-Sie verändert vor allem Abläufe, und diese Veränderung braucht Führung, nicht nur neue Software. Der Grund für das Scheitern aus der Einleitung liegt oft in einer einzigen Lücke: Die Kollegin an der Rezeption trägt den Online-Termin trotzdem zusätzlich mit der Hand ins Buch, so wie sie es seit Jahren macht, weil ihr niemand erklärt hat, warum das nicht mehr nötig ist. Entschieden wird das nicht bei der Installation der Software, sondern später, wenn gerade drei Leute im Wartezimmer sitzen und die Rezeption zur gewohnten Lösung greift.
+Am Empfang hat sich seit Jahren niemand die Buchung noch mal angeschaut. Die Kollegin trägt den Online-Termin trotzdem mit der Hand ins Buch, wie immer, weil ihr das nie jemand abgewöhnt hat. Drei Leute warten, das Telefon klingelt, und die alte Gewohnheit ist schneller als die neue Maske am Bildschirm.
 
-Die Terminbuchung ist digital, die Dokumentation bleibt Papier. Also überträgt jemand den Online-Termin von Hand ins Karteikartensystem, bevor die Behandlung beginnt: ein Schritt, der vorher gar nicht nötig war. Digitalisierung, die nur einen einzelnen Punkt im Ablauf verändert, erzeugt an genau dieser Schnittstelle oft neue Arbeit statt weniger.
+Die Terminbuchung ist digital, die Dokumentation bleibt Papier. Vor jeder Behandlung überträgt also noch jemand den Online-Termin von Hand ins Karteikartensystem, ein Schritt, den es vorher gar nicht gab.
 
 ## Die vier Rollen der Praxisleitung bei der Digitalisierung
 
@@ -31,8 +31,8 @@ Damit es nicht so weit kommt, braucht es die Praxisleitung an vier Stellen.
   <p><strong>Vier Aufgaben, die zählen</strong></p>
   <ul style="margin-top:var(--s3);margin-bottom:0">
     <li>Impulsgeber: Bringen Sie das Thema selbst ins Team, zum Beispiel als eigenen Punkt in der nächsten Teambesprechung.</li>
-    <li>Umsetzer: Testen Sie die neue Lösung zuerst selbst, mit einem echten eigenen Fall, bevor sie im Team zum Thema wird.</li>
-    <li>Koordinator: Legt niemand fest, wann im Ablauf die Umstellung passiert, bleibt sie an dem Tag hängen, an dem gerade am meisten los ist.</li>
+    <li>Umsetzer: Probieren Sie die Lösung zuerst selbst aus, an einem eigenen, echten Fall.</li>
+    <li>Koordinator: Ohne festen Zeitpunkt bleibt die Umstellung liegen, bis wieder ein ruhigerer Tag kommt, und der kommt selten.</li>
     <li>Vorbild fürs Team: An der Rezeption wird meist schnell sichtbar, ob Sie die neue Lösung selbst nutzen oder nur anordnen.</li>
   </ul>
 </div>
@@ -47,7 +47,7 @@ Eine Kundin schreibt abends über den Chat auf der Website und fragt nach den Ö
 
 ## Datenschutz von Anfang an einbeziehen
 
-Datenschutz muss von Beginn an in die Auswahl und Einführung digitaler Lösungen einbezogen werden, nicht erst, wenn eine Lösung schon läuft. Wer als Leitung ein neues Tool auswählt, klärt vorab den Zweck der Datenverarbeitung, die Rechtsgrundlage dafür und den Speicherort beim Anbieter. Dazu gehören ein Auftragsverarbeitungsvertrag und eine klare Antwort darauf, wer im Team überhaupt Zugriff bekommt. Ist das Tool für den Umgang mit Gesundheitsdaten grundsätzlich geeignet? Bei Unsicherheit hilft der kurze Griff zu einer Datenschutzberatung, bevor das Tool im Team ankommt. Diese Fragen früh zu klären erspart es später, ein bereits eingeführtes Tool wieder zurückzunehmen, weil sich im Nachhinein ein Datenschutz-Problem zeigt. Mehr zur Einstufung von KI-Tools lesen Sie auf meiner Seite zum <a href="/eu-ai-act/">EU AI Act</a>.
+Datenschutz muss von Beginn an in die Auswahl und Einführung digitaler Lösungen einbezogen werden, nicht erst, wenn eine Lösung schon läuft. Wer als Leitung ein neues Tool auswählt, klärt vorab den Zweck der Datenverarbeitung, die Rechtsgrundlage dafür und den Speicherort beim Anbieter. Dazu gehört ein Auftragsverarbeitungsvertrag, dazu gehört auch die Frage, wer im Team überhaupt Zugriff bekommt. Passt das Tool grundsätzlich zu Gesundheitsdaten, oder eher nicht? Im Zweifel lohnt sich ein kurzer Anruf bei einer Datenschutzberatung, bevor irgendjemand im Team damit arbeitet. Diese Fragen früh zu klären erspart es später, ein bereits eingeführtes Tool wieder zurückzunehmen, weil sich im Nachhinein ein Datenschutz-Problem zeigt. Mehr zur Einstufung von KI-Tools lesen Sie auf meiner Seite zum <a href="/eu-ai-act/">EU AI Act</a>.
 
 ## Wie Sie als Leitung anfangen, die Digitalisierung selbst zu tragen
 
@@ -58,8 +58,8 @@ Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick
 3. Eignen Sie sich die neue Lösung zunächst selbst an, bevor Sie deren Anwendung vom Team erwarten.
 4. Planen Sie einen festen wöchentlichen Zeitblock für die Umstellung ein, statt sie „irgendwann zwischendurch" zu erledigen.
 5. Bitten Sie eine einzelne Kollegin oder einen Kollegen, zum Beispiel diejenige Person, die dem Thema am offensten gegenübersteht, das System eine Woche vor dem Rest des Teams zu testen, und nehmen Sie deren Rückmeldung ernst.
-6. Kurz vor dem Start reicht oft ein klarer Satz: „Ab Montag läuft die Terminbuchung online, nicht mehr am Telefon." Ergänzend sollte klar sein, wer bei Rückfragen ansprechbar ist.
-7. In den nächsten Teammeetings gehört ein kurzer, fixer Punkt für Rückfragen dazu, auch wenn am Anfang niemand etwas sagt.
+6. Kurz vor dem Start reicht ein Satz: „Ab Montag läuft die Terminbuchung online, nicht mehr am Telefon."
+7. Fragen kommen meist erst in der zweiten oder dritten Woche, nicht gleich am ersten Tag. Ein fixer Punkt im Teammeeting fängt das auf.
 
 ## Wie wir das in der Praxis lösen
 
@@ -71,7 +71,7 @@ Nach vier Wochen bucht die Kollegin am Empfang die Terminerinnerung nebenbei mit
 
 ## Was, wenn der erste Versuch schon gescheitert ist?
 
-Manche Praxen haben schon einmal eine digitale Lösung eingeführt, die nach ein paar Wochen nicht mehr genutzt wurde, oft aus ähnlichen Gründen wie oben: keine feste Ansprechperson, zu wenig Zeit zur Einarbeitung, keine klare Ankündigung im Team. Das muss aber nicht bedeuten, das Thema komplett zu meiden. Es lohnt sich, kurz zurückzuschauen, was damals konkret gefehlt hat, und beim zweiten Versuch genau diese Lücke zu schließen. Ein Team, das einmal enttäuscht wurde, merkt aber sehr genau, ob sich beim zweiten Anlauf etwas anders anfühlt.
+Eine Praxis hat vor zwei Jahren schon einmal eine Software eingeführt, die nach sechs Wochen niemand mehr angerührt hat. Niemand war zuständig, wenn Fragen kamen, das war der ganze Grund. Beim zweiten Anlauf reicht es oft, genau diese eine Lücke zu schließen, nicht das ganze Konzept neu zu erfinden.
 
 ## Häufige Fragen
 
@@ -82,10 +82,10 @@ Nein. Die technische Einrichtung kann zum Beispiel eine externe IT-Betreuung üb
 Für einen kleinen, klar abgegrenzten ersten Schritt können 30 Minuten pro Woche genügen, ein ganzes Projekt muss es nicht sein. Dieser Termin sollte aber bestehen bleiben, auch wenn der Kalender an dem Tag schon voll ist.
 
 **Wie gehe ich mit einem Team um, das Veränderungen skeptisch gegenübersteht?**
-Skepsis entsteht häufig dann, wenn die Umstellung ohne ausreichende Erklärung oder ohne Zeit zum Ausprobieren beginnt. Erklären Sie kurz, warum sich etwas ändert, bevor Sie es einführen, und lassen Sie eine einzelne Person zuerst testen, so wie bei der Terminerinnerung im Beispiel oben.
+Erklären Sie kurz, warum sich etwas ändert, bevor Sie es einführen, und lassen Sie eine einzelne Person zuerst testen, so wie bei der Terminerinnerung im Beispiel oben. Meistens reicht das, weil die Skepsis öfter an der fehlenden Erklärung hängt als an der Lösung selbst.
 
 **Wie lange dauert es, bis sich eine neue Lösung im Team eingespielt hat?**
-Das hängt vom Bereich ab, oft sind es einige Wochen. Die genaue Dauer spielt eine untergeordnete Rolle. Ohne festen Ansprechpunkt für Fragen zieht sich die Umstellung aber oft unnötig in die Länge.
+Das hängt vom Bereich ab, oft sind es einige Wochen, manchmal auch drei Monate, wenn viel dazwischenkommt. Ein fester Ansprechpunkt für Fragen macht dabei mehr aus als die genaue Zahl der Wochen.
 
 **Wer ist dafür verantwortlich, dass ein neues Tool datenschutzkonform ist?**
 Die Verantwortung liegt bei der Praxisleitung, unabhängig davon, wer die technische Einrichtung übernimmt. Bei der Auswahl, Bewertung und Einführung neuer digitaler Lösungen begleite ich Sie gerne.
