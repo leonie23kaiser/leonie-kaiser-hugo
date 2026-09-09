@@ -290,6 +290,36 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Ketten aus zwei+ rhetorischen Fragen** hintereinander („Gab es damals
   eine …? War genug Zeit …?") — liest sich wie eine abgearbeitete Checkliste.
   (Leonie, 2026-09.)
+  **Nachtrag nach externem Lektorat (Perplexity-Review, Leonie 2026-09):**
+  Kontrast-/Parallel-Konstruktionen sind an sich ein legitimes Stilmittel und
+  nicht automatisch ein KI-Anzeichen — problematisch wird es erst, wenn ein
+  Text durchgehend nach demselben Schema Gegensatz → Verallgemeinerung →
+  Schlussfolgerung aufgebaut ist. Zusätzlich zu den vier Punkten oben:
+  - **Keine Story zwei-, dreimal in verschiedenen Abschnitten neu erzählen.**
+    Ein starkes, konkretes Beispiel reicht; spätere Abschnitte bauen darauf
+    auf oder verweisen kurz zurück, statt die Szene komplett neu aufzurollen.
+  - **Absolute Verallgemeinerungen vermeiden** („Ein Team merkt sofort …",
+    „Die Skepsis liegt fast immer daran …", „verschwindet … meist von
+    selbst"). Präziser/vorsichtiger: „wird meist schnell sichtbar",
+    „entsteht häufig, wenn …", „wird spürbar kleiner". Ebenso Zeit-/
+    Aufwandsangaben nicht pauschal als „reicht völlig aus" behaupten, sondern
+    an eine Bedingung knüpfen („für einen kleinen, klar abgegrenzten ersten
+    Schritt können 30 Minuten genügen").
+  - **Wiederkehrende Satzformeln vermeiden**, wenn sie mehrfach im selben
+    Text auftauchen: „Das ist kein Grund, …", „Entscheidend ist, …", „Genau
+    diese/an dieser Stelle …", „Wichtiger als … ist …". Einmalig sind sie
+    unproblematisch, als wiederholtes Muster wirken sie lehrbuchartig.
+  - **Zielgruppen-Sprache bewusst prüfen, nicht automatisch „neutralisieren".**
+    Externes Feedback schlägt teils „Patientinnen und Patienten" statt
+    „Kundin"/„Kundschaft" vor — das widerspricht der Positionierung
+    (Wahlarzt/Privat/Selbstzahler, Erlebnis-Fokus, siehe Abschnitt 1) und
+    wird **nicht** übernommen, außer Leonie entscheidet das aktiv anders.
+  - **Keine Angst-Trigger-Formulierungen ergänzen, auch wenn externes
+    Lektorat sie als „mehr Präzision" vorschlägt** (z. B. „keine
+    automatische Diagnose", „keine Behandlungsempfehlung durch KI"). Diese
+    Formulierungen fallen unter die bestehende Regel „Keine Angst-/Panik-
+    Formulierungen" weiter oben in diesem Abschnitt und bleiben verboten,
+    auch wenn ein externer Reviewer sie fachlich für sinnvoll hält.
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 

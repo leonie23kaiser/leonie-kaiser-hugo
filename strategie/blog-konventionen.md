@@ -81,6 +81,18 @@ Satz — nicht jede Zeile im selben Muster); die Kontrast-Aussage einer Zwischen
 **nicht direkt danach im Fließtext wiederholen**; **keine zwei+ rhetorischen Fragen**
 hintereinander. Details: `AGENTS.md` §9.
 
+**Zweiter Nachtrag nach externem Lektorat (Leonie, 2026-09):** Kontrast-Sätze sind an
+sich kein Problem — problematisch wird es erst, wenn ein Text durchgehend nach demselben
+Schema Gegensatz → Verallgemeinerung → Schlussfolgerung läuft. Zusätzlich beachten: dieselbe
+Beispiel-Szene nicht zwei-, dreimal in verschiedenen Abschnitten neu erzählen (ein starkes
+Beispiel reicht, spätere Abschnitte bauen darauf auf); keine absoluten Verallgemeinerungen
+(„merkt sofort", „fast immer", „meist von selbst" — stattdessen „wird meist schnell
+sichtbar", „entsteht häufig, wenn …"); wiederkehrende Formeln („Das ist kein Grund …",
+„Entscheidend ist …", „Genau an dieser Stelle …") nicht mehrfach im selben Text. Externes
+Lektorat auch kritisch prüfen: Vorschläge, die der Zielgruppen-Sprache (Kundin/Kundschaft
+statt Patientin, siehe `AGENTS.md` §1) oder dem Angst-Verbot (§9) widersprechen, **nicht**
+übernehmen. Details: `AGENTS.md` §9.
+
 ### 2d. Brand-Blacklist (AGENTS.md §9)
 Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype („disruptiv",
 „Gamechanger", „KI-Revolution") · Floskeln („state of the art") · Anglizismen („booken",
