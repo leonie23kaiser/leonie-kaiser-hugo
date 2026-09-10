@@ -5,9 +5,9 @@ description: "Was der EU AI Act ab 2026 für kleine Gesundheitspraxen wirklich b
 date: 2026-09-08
 lastmod: 2026-09-08
 author: "Leonie Kaiser"
-cover: "images/blog/wavebreakmedia-eu-ai-act-praxis-post5.png"
-coverAlt: "Nahaufnahme: Hände halten in einem Physiotherapie-Behandlungsraum ein Tablet mit einer digitalen Checkliste"
-coverCredit: "Wavebreakmedia / Getty Images, Tablet-Anzeige KI-bearbeitet"
+cover: "images/blog/openai-perplexity-praxisleiterin-tablet-checkliste-post5.png"
+coverAlt: "Physiotherapeutin hält ein Tablet mit einer digitalen Checkliste und Kalenderansicht in einem Behandlungsraum"
+coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
 category: "Datenschutz & EU AI Act"
 readingTime: 8
 tags: ["EU AI Act", "Datenschutz", "KI-Kompetenz"]
