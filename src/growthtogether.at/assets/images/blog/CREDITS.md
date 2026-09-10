@@ -15,6 +15,12 @@ bevor man es erneut hochlädt.
 | `jakub-zerdzicki-tablet-checkliste-post4.png` | Jakub Zerdzicki / Pexels | Post „Wenn erfahrene Mitarbeiter gehen" — Zwischenbild Checkliste (ausgeliefert als `static/images/blog/jakub-zerdzicki-tablet-checkliste-post4.png` + `.webp`) |
 | `wavebreakmedia-eu-ai-act-praxis-post5.png` | Wavebreakmedia / Getty Images, Tablet-Anzeige KI-bearbeitet | Post „EU AI Act Zeitplan für kleine Praxen" (Datenschutz & EU AI Act) — Coverbild |
 | `openai-perplexity-eu-ai-act-zeitplan-post5.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „EU AI Act Zeitplan für kleine Praxen" — Zwischengrafik Zeitleiste (ausgeliefert als `static/images/blog/eu-ai-act-zeitplan-timeline.png` + `.webp`) |
+| `openai-perplexity-praxisleitung-team-tablet-erklaeren.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post „Digitalisierung ist Chefsache" (Post #6) — Auswahl offen |
+| `openai-perplexity-praxisleitung-team-tablet-papier.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post #6 — Auswahl offen |
+| `openai-perplexity-praxisleitung-team-klemmbrett.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post #6 — Auswahl offen |
+| `openai-perplexity-praxisleitung-terminkalender-tisch.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post #6 — Auswahl offen (thematisch evtl. eher Backup für Post #2 „No-Shows senken") |
+| `openai-perplexity-physio-tablet-behandlungsraum.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post #6 — Auswahl offen (Komposition ähnlich zu Post #5) |
+| `openai-perplexity-praxisteam-gruppenfoto.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post #6 — Auswahl offen (posiertes Gruppenfoto, evtl. eher für „Über mich"/Team-Seite) |
 
 Lizenzen liegen bei Leonie Kaiser (Canva Pro / Getty). Vor Weiterverwendung Lizenzumfang prüfen.
 Bei KI-generierten Bildern steht die Quelle als „© KI-generiert mit &lt;Tool&gt;, &lt;Jahr&gt;" in der
