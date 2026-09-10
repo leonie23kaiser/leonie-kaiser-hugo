@@ -8,6 +8,9 @@ author: "Leonie Kaiser"
 category: "KI in der Praxis"
 readingTime: 8
 tags: ["Digitalisierung", "Führung", "KI in der Praxis"]
+cover: "images/blog/openai-perplexity-praxisleitung-team-tablet-erklaeren-post6.png"
+coverAlt: "Praxisleitung zeigt drei Kolleginnen und Kollegen etwas auf einem Tablet, alle stehen im Kreis in einer hellen Praxis"
+coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
 ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Engpässe liegen. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: true

@@ -5,9 +5,9 @@ description: "Warum in kleinen Praxen so viel an der Leitung hängt, was wirklic
 date: 2026-08-04
 lastmod: 2026-08-04
 author: "Leonie Kaiser"
-cover: "images/blog/pixelshot-praxisleiterin-klemmbrett-post1.png"
-coverAlt: "Freundliche Praxisleiterin mit Klemmbrett in einer hellen Praxis"
-coverCredit: "pixelshot / Canva Pro"
+cover: "images/blog/openai-perplexity-praxisleiterin-telefon-empfang-post1.png"
+coverAlt: "Praxisleiterin steht am Empfang, telefoniert und blättert gleichzeitig im Terminbuch, im Hintergrund eine wartende Patientin"
+coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
 category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]
