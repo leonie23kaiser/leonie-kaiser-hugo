@@ -74,10 +74,10 @@ Sensiblere, personenbezogene Inhalte kommen erst dazu, wenn der Rahmen dafür st
 
 <figure style="margin:var(--s6) 0">
   <picture>
-    <source srcset="/images/blog/jakub-zerdzicki-tablet-checkliste-post4.webp" type="image/webp">
-    <img src="/images/blog/jakub-zerdzicki-tablet-checkliste-post4.png" alt="Nahaufnahme einer Hand, die auf einem Tablet Punkte einer handschriftlichen Checkliste abhakt" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+    <source srcset="/images/blog/praxisleiterin-tablet-checkliste-nahaufnahme-post4.webp" type="image/webp">
+    <img src="/images/blog/praxisleiterin-tablet-checkliste-nahaufnahme-post4.png" alt="Nahaufnahme: Zwei Hände halten ein Tablet mit einer digitalen Checkliste, eine Hand hakt mit einem Stylus einen Punkt ab" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
   </picture>
-  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: Jakub Zerdzicki / Pexels</figcaption>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: KI-generiert mit OpenAI, 2026</figcaption>
 </figure>
 
 ## Wie wir das in der Praxis lösen
