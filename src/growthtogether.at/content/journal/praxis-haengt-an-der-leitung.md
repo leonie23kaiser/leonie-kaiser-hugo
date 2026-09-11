@@ -7,7 +7,7 @@ lastmod: 2026-08-04
 author: "Leonie Kaiser"
 cover: "images/blog/openai-perplexity-praxisleiterin-telefon-empfang-post1.png"
 coverAlt: "Praxisleiterin steht am Empfang, telefoniert und blättert gleichzeitig im Terminbuch, im Hintergrund eine wartende Patientin"
-coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]

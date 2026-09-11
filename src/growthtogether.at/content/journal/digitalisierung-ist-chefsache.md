@@ -10,7 +10,7 @@ readingTime: 8
 tags: ["Digitalisierung", "Führung", "KI in der Praxis"]
 cover: "images/blog/openai-perplexity-praxisleitung-team-tablet-erklaeren-post6.png"
 coverAlt: "Praxisleitung zeigt drei Kolleginnen und Kollegen etwas auf einem Tablet, alle stehen im Kreis in einer hellen Praxis"
-coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
 ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Engpässe liegen. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: true
@@ -69,7 +69,7 @@ Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick
     <source srcset="/images/blog/praxisleitung-team-klemmbrett-post6.webp" type="image/webp">
     <img src="/images/blog/praxisleitung-team-klemmbrett-post6.png" alt="Praxisleitung im Gespräch mit fünf Kolleginnen und Kollegen im Kreis, eine Person hält ein Klemmbrett" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
   </picture>
-  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: KI-generiert mit OpenAI, 2026</figcaption>
 </figure>
 
 ## Wie wir das in der Praxis lösen

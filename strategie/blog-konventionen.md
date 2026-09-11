@@ -166,8 +166,10 @@ Bildausschnitt, No-Gos — siehe Vorlage/Beispiele in `strategie/bild-prompts.md
 nur Motiv-Stichworte oder Suchbegriffe. Leonie generiert das Bild damit extern und lädt es
 ins Repo. Claude übernimmt danach ALT-Text, Bildunterschrift, sprechenden Dateinamen,
 Hashtags/Social. Motiv: echt, ruhig, warm; keine Stock-Klischees (kein „Roboterhand tippt
-Hologramm"). Quelle in `coverCredit`/Figcaption immer „KI-generiert mit OpenAI (via
-Perplexity), 2026" (kein genaues Modell nennen). (Leonie, 2026-09.)
+Hologramm"). Quelle in `coverCredit`/Figcaption immer „KI-generiert mit OpenAI, 2026"
+(kein genaues Modell, kein „via Perplexity" mehr — Leonie, 2026-09-11). Dateinamen-Präfix
+`openai-perplexity-` bleibt bei bestehenden Dateien unverändert (kein Umbenennen ohne
+Anlass); für neue Dateien reicht künftig auch `openai-`.
 
 ## 5. Front Matter & Technik
 ```yaml
