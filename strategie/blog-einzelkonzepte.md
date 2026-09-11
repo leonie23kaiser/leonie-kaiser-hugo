@@ -439,9 +439,11 @@ Die deutschsprachigen Top-Ergebnisse zu „bei Google gefunden werden" sind fast
 klassische SEO-Agentur-Blogs (Backlinks, Keyword-Dichte, Ads) — Themen, die für eine kleine
 Praxis kaum leistbar sind und die Leonie **bewusst nicht anbietet** (`service-katalog.md`:
 „Klassische SEO-Strategie / Linkbuilding" ist explizit ausgeschlossen). Der eigene Winkel:
-**„Online gefunden werden" hat heute zwei Bedeutungen** — die klassische Google-Suche UND
+**Google-Suche und KI-Assistenten sind kein Nebeneinander, sondern hängen zusammen** — Google
+zeigt bei vielen Suchen selbst schon eine KI-generierte Zusammenfassung, und externe
 KI-Assistenten wie ChatGPT oder Perplexity, die zunehmend direkt nach einer Praxis in der
-Nähe gefragt werden. Für beide zählt dasselbe Fundament: vollständige, aktuelle,
+Nähe gefragt werden, greifen auf ähnliche Quellen zu. Für beide zählt dasselbe Fundament:
+vollständige, aktuelle,
 maschinenlesbare Angaben zu Angebot, Einzugsgebiet, Schwerpunkten und Öffnungszeiten
 (`branchen.yaml`, Slug `sichtbarkeit-inhalte`, Usecase „Auffindbarkeit in KI-Suchen (GEO)").
 Kein Linkbuilding-Versprechen, keine Ranking-Garantie (die gibt laut FAQ-Baustein niemand
@@ -457,18 +459,28 @@ KI-Suchen beachten müssen"
 
 *(Einstieg als unbetitelter Fließtext, wie bei #1–#4 — kein eigenes H2. Wunsch-Framing statt
 O-Ton-Krise: eine Praxis mit freier Kapazität, die aber kaum über die eigene Website oder
-KI-Suchen gefunden wird, obwohl das Angebot passen würde. Zusätzlich, auf Leonies
-ausdrücklichen Wunsch: Google-Ranking ist nicht mehr alles, weil viele Suchende heute nur
-noch die KI-Zusammenfassung oben auf der Ergebnisseite lesen und gar nicht mehr auf eine
-Website klicken. Zitierfähige Zahl dafür, mit Quelle: Laut einer Analyse von SparkToro und
-Datos endeten Anfang 2026 rund 68 % der Google-Suchen in den USA ganz ohne Klick auf eine
-Website; bei Suchen mit einer KI-Zusammenfassung („AI Overview") liegt die Klickrate sogar
+KI-Suchen gefunden wird, obwohl das Angebot passen würde.*
+
+*Geschärft (Leonie, 2026-09): Die Verbindung zwischen „Google" und „KI-Assistenten" muss
+gleich im Einstieg erklärt werden, nicht als zwei nebeneinandergestellte Themen behauptet
+werden — Leonie selbst hat beim Konzept nachgefragt, warum beides zusammengehört, das würde
+der Zielgruppe genauso gehen. Konkret einbauen: Google zeigt bei vielen Suchen heute selbst
+eine KI-generierte Zusammenfassung („AI Overview") über den klassischen Ergebnissen — wer
+dort zitiert wird, „wird bei Google gefunden", ganz ohne Klick auf die eigene Website. Und
+fragt jemand ChatGPT oder Perplexity „guter Physiotherapeut in der Nähe", durchsucht die KI
+ähnliche Quellen wie die klassische Suche: Google-Profil, Website-Inhalt, Bewertungen. Beide
+Kanäle speisen sich aus derselben Grundlage — vollständige, aktuelle, maschinenlesbare
+Angaben zur Praxis —, deshalb gehören sie in denselben Beitrag, nicht weil es zwei getrennte
+Trends sind, sondern weil dieselbe Grundarbeit für beide zählt. Erst danach die Zahl zum
+Klickverhalten als Beleg, warum das gerade jetzt wichtig wird: Laut einer Analyse von
+SparkToro und Datos endeten Anfang 2026 rund 68 % der Google-Suchen in den USA ganz ohne
+Klick auf eine Website; bei Suchen mit einer KI-Zusammenfassung liegt die Klickrate sogar
 rund 60 % niedriger als sonst (Search Engine Land, 2026). Einordnung für den Text: US-Zahlen,
 als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
 
-- **H2: Online gefunden werden heißt heute zwei Dinge**
-  - H3: Die klassische Google-Suche
-  - H3: KI-Assistenten als neue Anlaufstelle
+- **H2: Warum Google-Suche und KI-Assistenten zusammengehören**
+  - H3: Google zeigt selbst schon eine KI-Antwort
+  - H3: Externe KI-Assistenten nutzen dieselben Quellen
 - **H2: Was in beiden Fällen zählt**
   - H3: Vollständige, aktuelle Angaben statt Lücken
   - H3: Maschinenlesbar statt nur menschenlesbar *(kurz, unbetechnisch erklärt — strukturierte
