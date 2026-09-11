@@ -7,7 +7,7 @@ lastmod: 2026-08-19
 author: "Leonie Kaiser"
 cover: "images/blog/openai-perplexity-praxisteam-tablet-uebergabe-post4.png"
 coverAlt: "Zwei Physiotherapeuten sitzen am Tisch und schauen gemeinsam auf ein Tablet, im Vordergrund liegt eine Mappe mit Unterlagen"
-coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 category: "Dokumentation & Wissen"
 readingTime: 7
 tags: ["Praxiswissen", "Dokumentation", "Team"]

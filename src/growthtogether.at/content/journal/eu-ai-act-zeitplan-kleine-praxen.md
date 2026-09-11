@@ -7,7 +7,7 @@ lastmod: 2026-09-08
 author: "Leonie Kaiser"
 cover: "images/blog/openai-perplexity-praxisleiterin-tablet-checkliste-post5.png"
 coverAlt: "Physiotherapeutin hält ein Tablet mit einer digitalen Checkliste und Kalenderansicht in einem Behandlungsraum"
-coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 category: "Datenschutz & EU AI Act"
 readingTime: 8
 tags: ["EU AI Act", "Datenschutz", "KI-Kompetenz"]
@@ -55,7 +55,7 @@ Die strengeren Pflichten für sogenannte Hochrisiko-Systeme, die ursprünglich e
     <source srcset="/images/blog/eu-ai-act-zeitplan-timeline.webp" type="image/webp">
     <img src="/images/blog/eu-ai-act-zeitplan-timeline.png" alt="Zeitleisten-Grafik mit vier Terminen zum EU AI Act: Februar 2025, August 2026, Dezember 2027 und August 2028, jeweils mit Kalender-, Häkchen- und Dokument-Symbolen" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
   </picture>
-  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI, 2026</figcaption>
 </figure>
 
 ## Die KI-Kompetenz-Pflicht (Art. 4) - was das im Alltag heißt

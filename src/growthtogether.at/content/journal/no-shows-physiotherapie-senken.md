@@ -7,7 +7,7 @@ lastmod: 2026-08-11
 author: "Leonie Kaiser"
 cover: "images/blog/openai-perplexity-praxisleiterin-kalender-bildschirm-post2.png"
 coverAlt: "Physiotherapeutin sitzt am Schreibtisch und blickt auf einen digitalen Kalender mit Wochenübersicht am Bildschirm"
-coverCredit: "KI-generiert mit OpenAI (via Perplexity), 2026"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 category: "Termine & Anfragen"
 readingTime: 7
 tags: ["No-Shows", "Terminplanung", "Physiotherapie"]
@@ -93,7 +93,7 @@ Ein Beispiel, bewusst vereinfacht: Eine Physiotherapie-Praxis ermöglicht die Te
     <source srcset="/images/blog/grafik-terminorganisation.webp" type="image/webp">
     <img src="/images/blog/grafik-terminorganisation.png" alt="Grafik: Prozess in drei Schritten – Erinnerung ein bis zwei Tage vor dem Termin, Absage per Link, automatische Benachrichtigung der Warteliste" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
   </picture>
-  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI, 2026</figcaption>
 </figure>
 
 ## Häufige Fragen
