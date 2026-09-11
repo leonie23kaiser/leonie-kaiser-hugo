@@ -5,9 +5,9 @@ description: "Welche Daten Sie bedenkenlos in ChatGPT eingeben können, welche b
 date: 2026-08-18
 lastmod: 2026-08-18
 author: "Leonie Kaiser"
-cover: "images/blog/wavebreakmedia-physiotherapeutin-laptop-post3.png"
-coverAlt: "Physiotherapeutin mit weißem Kittel schaut konzentriert auf ihren Laptop"
-coverCredit: "Wavebreakmedia / Getty Images"
+cover: "images/blog/openai-perplexity-physiotherapeut-laptop-post3.png"
+coverAlt: "Physiotherapeut steht mit Laptop in der Hand im Behandlungsraum und tippt konzentriert"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 category: "Datenschutz & EU AI Act"
 readingTime: 7
 tags: ["ChatGPT", "Datenschutz", "DSGVO"]
@@ -51,7 +51,7 @@ Ein Punkt dabei wird oft übersehen: Auch ohne Namen kann eine Angabe wieder ein
     <source srcset="/images/blog/grafik-daten-chatgpt.webp" type="image/webp">
     <img src="/images/blog/grafik-daten-chatgpt.png" alt="Gegenüberstellung: Unkritische Daten (Entwurf ohne Namen, Standardformulierung, allgemeine Aufklärung) und heikle Daten (Name plus Diagnose, Name plus Termin, vollständige Patientenakte)" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
   </picture>
-  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: © KI-generiert mit OpenAI, 2026</figcaption>
 </figure>
 
 ## Kurz eingeordnet: das Datenschutzgesetz
