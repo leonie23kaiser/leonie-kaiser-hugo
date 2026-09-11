@@ -157,11 +157,17 @@ Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype 
 5. **FAQ** (3–5 Fragen) — beim persönlichen Post optional.
 6. **Schluss:** CTA-Framing (die CTA-Box kommt automatisch aus dem Layout), branchen-
    spezifisches Ergebnis.
-7. **Zwei Bild-Ideen** im Report (Motiv + Stimmung + Suchbegriffe).
+7. **Zwei Bild-Ideen** im Report (Hero + Zwischenbild), je als **konkreter KI-Bild-Prompt**.
 
-**Bild-Ablauf:** Claude liefert Ideen → Leonie sucht Bilder in der Datenbank → Claude macht
-ALT-Text, Bildunterschrift, sprechenden Dateinamen, Hashtags/Social. Motiv: echt, ruhig,
-warm; keine Stock-Klischees (kein „Roboterhand tippt Hologramm").
+**Bild-Ablauf (seit 2026-09 — Leonie lässt Bilder per KI erstellen, sucht nicht mehr in
+Canva-Stockfotos):** Claude liefert je Bild einen **fertigen, möglichst genauen Prompt auf
+Deutsch** (Motiv, Personen inkl. Alter/Kleidung/Ausdruck, Setting/Requisiten, Licht/Stimmung,
+Bildausschnitt, No-Gos — siehe Vorlage/Beispiele in `strategie/bild-prompts.md`), **nicht**
+nur Motiv-Stichworte oder Suchbegriffe. Leonie generiert das Bild damit extern und lädt es
+ins Repo. Claude übernimmt danach ALT-Text, Bildunterschrift, sprechenden Dateinamen,
+Hashtags/Social. Motiv: echt, ruhig, warm; keine Stock-Klischees (kein „Roboterhand tippt
+Hologramm"). Quelle in `coverCredit`/Figcaption immer „KI-generiert mit OpenAI (via
+Perplexity), 2026" (kein genaues Modell nennen). (Leonie, 2026-09.)
 
 ## 5. Front Matter & Technik
 ```yaml

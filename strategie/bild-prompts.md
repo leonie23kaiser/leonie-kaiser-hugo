@@ -5,6 +5,11 @@ künftig generell mit KI erstellen lassen möchte. Enthält je Post eine möglic
 deutsche Bildbeschreibung fürs Hero-Bild und (wo sinnvoll) das Zwischenbild — unabhängig
 davon, welches Bild aktuell tatsächlich im Post verwendet wird.*
 
+**Verbindlich seit 2026-09-11 (Leonie):** Für jeden neuen Blogpost liefert Claude beim
+Bild-Schritt **immer einen fertigen, konkreten Prompt** (kein Motiv-Stichwort, keine reinen
+Suchbegriffe) — Leonie generiert das Bild extern und lädt es ins Repo, sie sucht nicht mehr
+in Canva-Stockfotos. Siehe `strategie/blog-konventionen.md` §4.
+
 **Verwandte Dateien:** `strategie/blog-konventionen.md` §4 (Bild-Ablauf) ·
 `assets/images/blog/CREDITS.md` (bisher verwendete Bilder) ·
 `assets/icons/eu-ai-act-labels/` (EU-Kennzeichnungs-Icons, siehe Hinweis unten).
