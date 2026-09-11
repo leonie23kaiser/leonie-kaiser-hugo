@@ -17,8 +17,8 @@ und aus dem Repo entfernt (Leonie, 2026-09).
 | `openai-perplexity-physiotherapeut-laptop-post3.png` | KI-generiert mit OpenAI, 2026 | Post „Welche Daten darf ich in ChatGPT eingeben?" (Datenschutz & EU AI Act) — Coverbild |
 | `openai-perplexity-daten-chatgpt-post3.png` | KI-generiert mit OpenAI, 2026 | Post „Welche Daten darf ich in ChatGPT eingeben?" — Zwischengrafik unkritisch/heikel (ausgeliefert als `static/images/blog/grafik-daten-chatgpt.png` + `.webp`) |
 | `openai-perplexity-praxisteam-tablet-uebergabe-post4.png` | KI-generiert mit OpenAI, 2026 | Post „Wenn erfahrene Mitarbeiter gehen" (Dokumentation & Wissen) — Coverbild |
-| `jakub-zerdzicki-tablet-checkliste-post4.png` | Jakub Zerdzicki / Pexels | Post „Wenn erfahrene Mitarbeiter gehen" — Zwischenbild Checkliste (ausgeliefert als `static/images/blog/jakub-zerdzicki-tablet-checkliste-post4.png` + `.webp`). **Noch nicht ersetzt** — Pexels-Stockfoto, kein KI-Ersatz vorhanden. |
-| `openai-perplexity-praxisleiterin-tablet-checkliste-post5.png` | KI-generiert mit OpenAI, 2026 | Post „EU AI Act Zeitplan für kleine Praxen" (Datenschutz & EU AI Act) — Coverbild |
+| `openai-praxisleiterin-tablet-checkliste-nahaufnahme-post4.png` | KI-generiert mit OpenAI, 2026 | Post „Wenn erfahrene Mitarbeiter gehen" — Zwischenbild Checkliste (ausgeliefert als `static/images/blog/praxisleiterin-tablet-checkliste-nahaufnahme-post4.png` + `.webp`). Ersetzt das Pexels-Stockfoto von Jakub Zerdzicki. |
+| `openai-praxisleiterin-tablet-behandlungsraum-post5.png` | KI-generiert mit OpenAI, 2026 | Post „EU AI Act Zeitplan für kleine Praxen" (Datenschutz & EU AI Act) — Coverbild |
 | `openai-perplexity-eu-ai-act-zeitplan-post5.png` | KI-generiert mit OpenAI, 2026 | Post „EU AI Act Zeitplan für kleine Praxen" — Zwischengrafik Zeitleiste (ausgeliefert als `static/images/blog/eu-ai-act-zeitplan-timeline.png` + `.webp`) |
 | `openai-perplexity-praxisleitung-team-tablet-erklaeren-post6.png` | KI-generiert mit OpenAI, 2026 | Post „Digitalisierung ist Chefsache" (Post #6, Draft) — Coverbild |
 | `openai-perplexity-praxisleitung-team-klemmbrett-post6.png` | KI-generiert mit OpenAI, 2026 | Post „Digitalisierung ist Chefsache" (Post #6, Draft) — Zwischenbild (ausgeliefert als `static/images/blog/praxisleitung-team-klemmbrett-post6.png` + `.webp`) |
@@ -33,6 +33,7 @@ und aus dem Repo entfernt (Leonie, 2026-09).
 | `openai-perplexity-backup-praxisteam-gruppenfoto.png` | KI-generiert mit OpenAI, 2026 | Post-#6-Kandidat, nicht gewählt (posiertes Gruppenfoto) |
 | `openai-perplexity-backup-praxisteam-gruppenfoto-2.png` | KI-generiert mit OpenAI, 2026 | Variante des Gruppenfotos, nicht gewählt |
 | `openai-perplexity-backup-praxisleiterin-tablet-seitlich.png` | KI-generiert mit OpenAI, 2026 | Allgemeiner Backup-Kandidat, keinem Post zugeordnet |
+| `openai-perplexity-backup-praxisleiterin-tablet-checkliste-wasserzeichen.png` | KI-generiert mit OpenAI, 2026 | Ehemaliges Post-#5-Coverbild, ersetzt wegen eines kleinen, kaum sichtbaren Wasserzeichen-Artefakts unten rechts |
 
 Lizenzen liegen bei Leonie Kaiser. Bei KI-generierten Bildern steht die Quelle als
 „© KI-generiert mit &lt;Tool&gt;, &lt;Jahr&gt;" in der Bildunterschrift auf der Seite (kein
