@@ -21,13 +21,13 @@ und aus dem Repo entfernt (Leonie, 2026-09).
 | `openai-perplexity-praxisleiterin-tablet-checkliste-post5.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „EU AI Act Zeitplan für kleine Praxen" (Datenschutz & EU AI Act) — Coverbild |
 | `openai-perplexity-eu-ai-act-zeitplan-post5.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „EU AI Act Zeitplan für kleine Praxen" — Zwischengrafik Zeitleiste (ausgeliefert als `static/images/blog/eu-ai-act-zeitplan-timeline.png` + `.webp`) |
 | `openai-perplexity-praxisleitung-team-tablet-erklaeren-post6.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „Digitalisierung ist Chefsache" (Post #6, Draft) — Coverbild |
+| `openai-perplexity-praxisleitung-team-klemmbrett-post6.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post „Digitalisierung ist Chefsache" (Post #6, Draft) — Zwischenbild (ausgeliefert als `static/images/blog/praxisleitung-team-klemmbrett-post6.png` + `.webp`) |
 
 **Backup / noch nicht verwendet:**
 
 | Datei | Urheber / Quelle | Hinweis |
 |---|---|---|
 | `openai-perplexity-backup-praxisleitung-team-tablet-papier.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post-#6-Kandidat, nicht gewählt |
-| `openai-perplexity-backup-praxisleitung-team-klemmbrett.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Kandidat für Post-#6-Zwischenbild — Auswahl offen |
 | `openai-perplexity-backup-praxisleitung-terminkalender-tisch.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post-#6-Kandidat, nicht gewählt (thematisch eher Post #2) |
 | `openai-perplexity-backup-physio-tablet-behandlungsraum.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post-#6-Kandidat, nicht gewählt (Komposition ähnlich Post #5) |
 | `openai-perplexity-backup-praxisteam-gruppenfoto.png` | KI-generiert mit OpenAI (via Perplexity), 2026 | Post-#6-Kandidat, nicht gewählt (posiertes Gruppenfoto) |

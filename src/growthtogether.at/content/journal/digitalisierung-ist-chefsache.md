@@ -64,6 +64,14 @@ Digitalisierung muss nicht als großes Projekt starten, mit Projektplan und Kick
 6. Zum Start braucht das Team eine klare Ansage: „Ab Montag werden Online-Termine nicht mehr zusätzlich ins Terminbuch übertragen." Wer bei Fragen entscheidet, sollte danach allen klar sein.
 7. Ein fixer Punkt im nächsten Teammeeting für Rückfragen, auch wenn in der ersten Woche noch niemand etwas sagt.
 
+<figure style="margin:var(--s6) 0">
+  <picture>
+    <source srcset="/images/blog/praxisleitung-team-klemmbrett-post6.webp" type="image/webp">
+    <img src="/images/blog/praxisleitung-team-klemmbrett-post6.png" alt="Praxisleitung im Gespräch mit fünf Kolleginnen und Kollegen im Kreis, eine Person hält ein Klemmbrett" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+  </picture>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: KI-generiert mit OpenAI (via Perplexity), 2026</figcaption>
+</figure>
+
 ## Wie wir das in der Praxis lösen
 
 Ein Beispiel, bewusst vereinfacht: Eine Praxis möchte die Terminerinnerung künftig mithilfe eines digitalen Systems automatisieren, um den manuellen Aufwand für telefonische Erinnerungen zu reduzieren. Die Inhaberin testet das neue System selbst eine Woche lang, bevor es im Team vorgestellt wird. Eine Kollegin verwendet als Erste das Tool für die automatische Terminerinnerung und dokumentiert dabei auftretende Fragen oder Probleme.
