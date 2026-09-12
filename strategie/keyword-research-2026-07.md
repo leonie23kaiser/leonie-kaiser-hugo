@@ -387,6 +387,49 @@ nicht gesperrte Tools — dort könnten dieselben oder kürzere Seeds (z. B. „
 Profil", „Arztpraxis online sichtbar") noch Signal liefern. Leonie macht heute bewusst nur
 diesen einen Teil, Rest folgt in einer späteren Runde.
 
+**Status: Runde 2 (2026-09-11/12) — Treffer gefunden, nach kürzeren Seeds gesucht.** Die
+langen, konstruierten Phrasen aus Runde 1 blieben erwartungsgemäß bei 0 (auch mit 6 neuen
+Varianten wie „Praxis online sichtbar machen", „GEO Optimierung Gesundheitspraxis" —
+Google Trends DE zeigte über 12 Monate durchgehend 0 für alle 6). Zwei kürzere, generische
+Begriffe aus derselben Trends-Runde zeigten aber echtes, durchgehendes Interesse:
+- **„Google Unternehmensprofil"** — stabil 20–48 über 12 Monate
+- **„Local SEO"** — steigender Verlauf, 10–20 → 40–86 (Juni/Juli 2026)
+
+**Vertiefung dieser zwei Begriffe (GEO-Prompt-Tool, Google-Ads-Volumen DE, 2026-09-12):**
+
+| Keyword | Suchvolumen/Monat | CPC |
+|---|---|---|
+| google unternehmensprofil erstellen | **1.900** | 7,00 $ |
+| google unternehmensprofil löschen | 1.000 | 5,58 $ |
+| local seo agentur | 590 | 14,03 $ |
+| google unternehmensprofil login | 590 | 14,03 $ |
+| google unternehmensprofil bearbeiten | 170 | 5,19 $ |
+| local seo berlin | 140 | 6,83 $ |
+| local seo beratung | 110 | — |
+| google unternehmensprofil anlegen | 90 | 15,28 $ |
+| **google unternehmensprofil optimieren** | **90** | 11,45 $ |
+| google unternehmensprofil dashboard | 90 | — |
+| google unternehmensprofil support | 90 | — |
+| local seo checker | 90 | 4,39 $ |
+| local seo checklist | 70 | 5,59 $ |
+| local seo consultant | 50 | — |
+| google unternehmensprofil sichtbar machen | 10 | 4,54 $ |
+| google unternehmensprofil nicht sichtbar | 10 | — |
+
+**Einordnung:** Kein Treffer ist praxis-/gesundheitsspezifisch (erwartbar bei dieser
+Nischentiefe im Keyword Planner, gleiches Muster wie bei Post #5 „EU AI Act"). „erstellen"
+hat das mit Abstand größte Volumen, betrifft aber Erstanlage, nicht das Kernthema des Posts
+(Optimierung/Sichtbarkeit) — als Nebenaspekt/FAQ nutzbar, nicht als Primär-Keyword.
+**„google unternehmensprofil optimieren" (90/Monat) passt inhaltlich am genauesten** und hat
+reales, wenn auch kleines Volumen. „local seo checklist"/„checker" bestätigen zusätzlich den
+geplanten Highlight-Box-Ansatz („Was auf Ihrer Website eindeutig stehen sollte"). Damit hat
+dieses Wunsch-Thema jetzt einen echten Keyword-Anker, anders als beim ersten Anlauf.
+
+**Empfehlung:** Primär-Keyword **„Google Unternehmensprofil optimieren"**, „Local SEO" als
+Sekundär-/Kontext-Begriff im Text, GEO/KI-Suchen-Winkel bleibt als eigener, nicht
+keyword-getriebener Content-Teil (siehe Konzept-Schärfung vom 2026-09-11 in
+`blog-einzelkonzepte.md`).
+
 ---
 
 ## Post #5: „Der EU AI Act für kleine Gesundheitspraxen" (2026-09-01)
