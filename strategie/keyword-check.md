@@ -9,6 +9,17 @@ damit das validierte Keyword in der Headline sitzt.*
 unten und trägt die Ergebnisse ins Report-Template ein → Claude wählt daraus das
 Primär-Keyword + Long-Tail und macht **3 Headline-Vorschläge**.
 
+**Format der Seed-Vorschläge (Leonie, 2026-09):** Claude listet die vorgeschlagenen
+Seed-Begriffe **als Bullet-Liste, ein Begriff pro Zeile** (nicht als ein kommagetrennter
+Fließtext-Satz) — lässt sich einzeln leichter kopieren. Beispiel:
+- Praxis bei Google gefunden werden
+- Praxis online sichtbar machen
+- …
+
+Das betrifft nur Claudes Vorschlag der Seeds. Die **„Seeds:"-Zeile im Report-Template**, die
+Leonie zurückschickt, bleibt weiterhin kommagetrennt in einer Zeile (siehe unten) — beides
+sind unterschiedliche Richtungen im Ablauf.
+
 ---
 
 ## Die Tools (beim ersten Mal Schritt für Schritt; später genügt das Report-Template)
