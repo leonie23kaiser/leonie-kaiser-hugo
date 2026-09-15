@@ -6,6 +6,9 @@ date: 2026-09-22
 lastmod: 2026-09-22
 author: "Leonie Kaiser"
 category: "Sichtbarkeit"
+cover: "images/blog/openai-praxisinhaberin-smartphone-eingang-post7.png"
+coverAlt: "Praxisinhaberin steht vor dem Eingang ihrer Praxis und schaut über die Schulter fotografiert auf ihr Smartphone mit einer Kartenansicht"
+coverCredit: "KI-generiert mit OpenAI, 2026"
 readingTime: 8
 tags: ["Google Unternehmensprofil", "Sichtbarkeit", "KI-Suche"]
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
@@ -28,6 +31,14 @@ Sucht jemand „Physiotherapie Wahlarzt" in der eigenen Stadt, zeigt Google häu
 ### Externe KI-Assistenten nutzen dieselben Quellen
 
 Bei ChatGPT oder Perplexity läuft es ähnlich, auch wenn die Technik dahinter eine andere ist. Fragt jemand „Physiotherapie-Praxis in der Nähe, die kurzfristig Termine hat", greift die KI auf eine Websuche zurück und wertet ähnliche Angaben aus: Standort, Angebot, Bewertungen, Aktualität. Ein Assistent, der noch nie von der Praxis gehört hat, kann sie nur empfehlen, wenn er im Netz etwas über sie findet, das zur Anfrage passt. Widersprechen sich die Angaben, etwa andere Öffnungszeiten auf der Website als im Google-Profil, wählt die KI meist die Quelle, die sie für verlässlicher hält, häufig das Google-Profil, weil es direkt gepflegt und regelmäßig aktualisiert wird. Für die Praxis heißt das: Nicht die Website allein entscheidet, sondern ob beide Quellen dasselbe erzählen.
+
+<figure style="margin:var(--s6) 0">
+  <picture>
+    <source srcset="/images/blog/praxis-daten-hub-grafik-post7.webp" type="image/webp">
+    <img src="/images/blog/praxis-daten-hub-grafik-post7.png" alt="Grafik: Ihre Praxis-Daten als zentraler Knotenpunkt, von dem Linien zu Google-Suche, KI-Zusammenfassung und KI-Assistent ausgehen" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:var(--r-xl);display:block">
+  </picture>
+  <figcaption style="font-size:var(--xs);color:var(--muted);margin-top:var(--s2);text-align:center">Bildquelle: KI-generiert mit OpenAI, 2026</figcaption>
+</figure>
 
 ## Was in beiden Fällen zählt
 
