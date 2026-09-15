@@ -79,9 +79,22 @@ Hintergrund, warmes Tageslicht. Halbtotale, Fokus auf beide Gesichter und das Ta
 Praxis, eine Person zeigt etwas auf einem Zettel oder Bildschirm, entspannte aber aufmerksame
 Körperhaltung, kein Konferenzraum-Setting, warmes natürliches Licht.
 
-## Post #7 — „Damit Ihre Praxis online gefunden wird" (noch kein Volltext/Outline)
-Noch offen — Bildidee erst sinnvoll, sobald Outline/konkrete Szenen feststehen. Nicht
-vorgreifen.
+## Post #7 — „Praxis bei Google sichtbar machen"
+**Hero:** Eine Physiotherapie-Praxisinhaberin (Anfang/Mitte 40) sitzt an ihrem
+Empfangstresen, hält in einer Hand ihr Smartphone mit einer unscharf angedeuteten Karten-/
+Standortansicht auf dem Bildschirm (kein lesbarer Text, keine echten Logos), daneben liegt
+ein aufgeklappter Laptop mit einem ebenfalls unscharfen, profilartigen Layout. Ausdruck
+konzentriert-prüfend, ruhig, kein Stress. Kleidung leger-professionell (z. B. hellblaue
+Bluse). Setting: helle, moderne Physiotherapie-Praxis, im Hintergrund unscharf eine
+Behandlungsliege und Pflanzen. Warmes, natürliches Tageslicht von der Seite. Halbtotale,
+Fokus auf Gesicht, Smartphone und Laptop.
+
+**Zwischenbild (Grafik):** Schlichte, moderne Zwei-Spalten-Vergleichsgrafik in Marken-Farben
+(Teal `#086584`, Violett `#6B2C8C` als Akzent, Ink `#1D2228`): links ein stilisiertes
+Kartennadel-Icon mit der Beschriftung „Google-Profil", rechts ein stilisiertes
+Browserfenster-Icon mit der Beschriftung „Website", dazwischen ein Häkchen-Symbol als
+Abgleich-Zeichen, darunter der Text „Stimmen überein?". Reine Vektor-Optik, keine Fotos,
+keine echten Screenshots, minimalistisch, horizontal angeordnet wie bei Post #3.
 
 ---
 
