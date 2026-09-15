@@ -491,7 +491,7 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
 - **H2: Regelmäßige Inhalte, die nach Ihnen klingen** *(Leonie, 2026-09-15: beide H3
   umformuliert, gefielen so nicht)*
   - H3: Eine Stimme, auch wenn mehrere im Team schreiben
-  - H3: Mit einer Vorlage schneller anfangen
+  - H3: Mit einer Vorlage schneller loslegen
 - **H2: Wie Sie anfangen** *(konkrete, nummerierte Schritt-für-Schritt-Anleitung gemäß
   `blog-konventionen.md` §4 — z. B. 1. Angaben auf der eigenen Website/Google-Profil prüfen,
   2. Lücken/Widersprüche sammeln, 3. Tonalität einmal schriftlich festhalten, 4. mit einem
