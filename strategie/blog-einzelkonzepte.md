@@ -488,16 +488,17 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
     Daten als Konzept, kein Code)*
   - Highlight-Box: Checkliste „Was auf Ihrer Website eindeutig stehen sollte" (Angebot,
     Einzugsgebiet, Schwerpunkte, Öffnungszeiten, Kontaktwege)
-- **H2: Regelmäßige Inhalte, die nach Ihnen klingen**
-  - H3: Warum unterschiedliche Handschriften im Team auffallen
-  - H3: Vorlagen statt jedes Mal vor dem leeren Blatt sitzen
-- **H2: Was ich bewusst nicht anbiete** *(kurzer, sachlicher Abgrenzungs-Absatz — kein
-  Werbebudget für Anzeigen, keine aufwändigen Linkaufbau-Maßnahmen — stärkt Vertrauen statt
-  es zu schwächen)*
+- **H2: Regelmäßige Inhalte, die nach Ihnen klingen** *(Leonie, 2026-09-15: beide H3
+  umformuliert, gefielen so nicht)*
+  - H3: Eine Stimme, auch wenn mehrere im Team schreiben
+  - H3: Mit einer Vorlage schneller anfangen
 - **H2: Wie Sie anfangen** *(konkrete, nummerierte Schritt-für-Schritt-Anleitung gemäß
   `blog-konventionen.md` §4 — z. B. 1. Angaben auf der eigenen Website/Google-Profil prüfen,
   2. Lücken/Widersprüche sammeln, 3. Tonalität einmal schriftlich festhalten, 4. mit einem
   wiederkehrenden Anlass starten statt allem auf einmal)*
+- **H2: Wie wir das in der Praxis lösen** *(neu, Leonie 2026-09-15 — Beispielszenario-Box wie
+  bei #4/#6, bewusst vereinfacht gekennzeichnet: eine Praxis prüft ihr Google-Profil, findet
+  und schließt Lücken, veröffentlicht einen ersten kurzen Beitrag mit fester Vorlage)*
 - **H2: Häufige Fragen**
   - Garantieren Sie eine bessere Google-Platzierung?
   - Übernehmen Sie das Schreiben laufend für mich?
