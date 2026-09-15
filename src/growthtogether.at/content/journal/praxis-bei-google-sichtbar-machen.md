@@ -6,7 +6,7 @@ date: 2026-09-22
 lastmod: 2026-09-22
 author: "Leonie Kaiser"
 category: "Sichtbarkeit"
-readingTime: 6
+readingTime: 8
 tags: ["Google Unternehmensprofil", "Sichtbarkeit", "KI-Suche"]
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
 ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Engpässe liegen. Die Zusammenfassung bekommen Sie danach schriftlich."
@@ -23,21 +23,21 @@ Wie wichtig das inzwischen ist, zeigt eine Analyse von SparkToro und Datos: Anfa
 
 ### Google zeigt selbst schon eine KI-Antwort
 
-Sucht jemand „Physiotherapie Wahlarzt" in der eigenen Stadt, zeigt Google häufig eine Zusammenfassung direkt über den ersten Treffern: ein paar Sätze zu Öffnungszeiten, Angebot, vielleicht eine Empfehlung. Diese Zusammenfassung entsteht nicht zufällig. Sie stützt sich auf das, was Google über eine Praxis tatsächlich weiß, allen voran das Google-Profil und die eigene Website. Fehlt dort etwas oder ist es veraltet, taucht die Praxis in dieser Zusammenfassung erst gar nicht auf, selbst wenn sie in den klassischen Ergebnissen darunter noch zu finden wäre.
+Sucht jemand „Physiotherapie Wahlarzt" in der eigenen Stadt, zeigt Google häufig eine Zusammenfassung direkt über den ersten Treffern: ein paar Sätze zu Öffnungszeiten, Angebot, vielleicht eine Empfehlung. Bei Suchen mit Ortsbezug kommt meist noch die Kartenansicht mit den drei nächstgelegenen Praxen dazu, das sogenannte Local Pack. Beide Elemente entstehen nicht zufällig. Sie stützen sich auf das, was Google über eine Praxis tatsächlich weiß, allen voran das Google-Profil und die eigene Website. Fehlt dort etwas oder ist es veraltet, taucht die Praxis in Zusammenfassung und Kartenansicht erst gar nicht auf, selbst wenn sie in den klassischen Ergebnissen darunter noch zu finden wäre. Ein häufig übersehener Fall: Nach einem Umzug oder einer Umbenennung bleibt manchmal ein zweites, altes Profil parallel bestehen. Für Google sind das zwei unterschiedliche Adressen, und die Zusammenfassung entscheidet sich im Zweifel für die mit mehr Bewertungen, nicht für die aktuelle.
 
 ### Externe KI-Assistenten nutzen dieselben Quellen
 
-Bei ChatGPT oder Perplexity läuft es ähnlich. Fragt jemand nach einer Physiotherapie-Praxis mit einem Termin in den nächsten zwei Wochen, greift die KI auf eine Websuche zurück und wertet ähnliche Angaben aus: Standort, Angebot, Bewertungen, Aktualität. Ein Assistent, der noch nie von der Praxis gehört hat, kann sie nur empfehlen, wenn er im Netz etwas über sie findet, das zur Anfrage passt.
+Bei ChatGPT oder Perplexity läuft es ähnlich, auch wenn die Technik dahinter eine andere ist. Fragt jemand „Physiotherapie-Praxis in der Nähe, die kurzfristig Termine hat", greift die KI auf eine Websuche zurück und wertet ähnliche Angaben aus: Standort, Angebot, Bewertungen, Aktualität. Ein Assistent, der noch nie von der Praxis gehört hat, kann sie nur empfehlen, wenn er im Netz etwas über sie findet, das zur Anfrage passt. Widersprechen sich die Angaben, etwa andere Öffnungszeiten auf der Website als im Google-Profil, wählt die KI meist die Quelle, die sie für verlässlicher hält, häufig das Google-Profil, weil es direkt gepflegt und regelmäßig aktualisiert wird. Für die Praxis heißt das: Nicht die Website allein entscheidet, sondern ob beide Quellen dasselbe erzählen.
 
 ## Was in beiden Fällen zählt
 
 ### Ihr Google Unternehmensprofil als Fundament
 
-Das Google Unternehmensprofil ist für die meisten Praxen der erste Kontaktpunkt, noch vor der eigenen Website. Name, Adresse, Öffnungszeiten, Telefonnummer, die Kategorie der Leistungen: Stimmen diese Angaben nicht mehr, entsteht genau die Lücke, die eingangs zum halbleeren Kalender führt. Ein veraltetes Profil kostet nicht nur Sichtbarkeit bei Google selbst. Es wirkt sich auch auf die KI-Zusammenfassungen und externen Assistenten aus, die dieselben Daten auslesen. Ein Profil einmal im Quartal durchzugehen reicht meist schon aus, um solche Lücken früh zu bemerken.
+Das Google Unternehmensprofil ist für die meisten Praxen der erste Kontaktpunkt, noch vor der eigenen Website. Name, Adresse, Öffnungszeiten, Telefonnummer, die Kategorie der Leistungen: Stimmen diese Angaben nicht mehr, entsteht genau die Lücke, die eingangs zum halbleeren Kalender führt. Weniger bekannt, aber ähnlich wichtig sind drei weitere Bereiche im Profil: die Hauptkategorie (bei einer Physiotherapie-Praxis zum Beispiel „Physiotherapeut" statt allgemein „Arzt"), der Abschnitt für Leistungen, in dem sich einzelne Angebote separat eintragen lassen, und der öffentliche Frage-und-Antwort-Bereich, den jede Person im Netz befüllen kann, auch ohne Bezug zur Praxis. Bleibt eine falsche Antwort dort unkorrigiert stehen, übernehmen Suchmaschinen und KI-Systeme sie unter Umständen genauso wie eine richtige. Ein veraltetes Profil kostet also nicht nur Sichtbarkeit bei Google selbst, es wirkt sich auch auf die KI-Zusammenfassungen und externen Assistenten aus, die dieselben Daten auslesen. Ein Profil einmal im Quartal durchzugehen, inklusive Frage-Bereich und Fotos, reicht meist schon aus, um solche Lücken früh zu bemerken.
 
 ### Maschinenlesbar statt nur menschenlesbar
 
-Für Menschen ist eine schön gestaltete Website oft schon überzeugend. Suchmaschinen und KI-Systeme lesen aber in erster Linie den Text und die Struktur dahinter, nicht das Design. Klar benannte Überschriften, eine ausgeschriebene Adresse statt nur eines eingebetteten Kartenausschnitts, ein Absatz, der das Angebot in eigenen Worten beschreibt: Das macht eine Website für Maschinen lesbar, ohne dass es dafür Programmierkenntnisse braucht.
+Für Menschen ist eine schön gestaltete Website oft schon überzeugend. Suchmaschinen und KI-Systeme lesen aber in erster Linie den Text und die Struktur dahinter, nicht das Design. Ein Beispiel: Steht das Angebot nur als Aufzählung von Icons mit wenigen Wörtern auf der Startseite, etwa „Manuelle Therapie, Sportphysio, Prävention", kann eine Suchmaschine daraus schwer ableiten, wofür die Praxis genau steht. Ein Absatz, der dasselbe Angebot in ein bis zwei ausformulierten Sätzen beschreibt, dazu für wen und mit welchem Ziel, liefert denselben Inhalt in einer Form, die sowohl Menschen als auch Maschinen verstehen. Klar benannte Überschriften und eine ausgeschriebene Adresse statt nur eines eingebetteten Kartenausschnitts gehören ebenfalls dazu. Zusätzlich lässt sich das technisch unterstützen, mit sogenannten strukturierten Daten, die einer Suchmaschine direkt mitteilen, welches Feld auf einer Seite die Adresse ist und welches die Öffnungszeiten. Das baue ich bei einer neuen oder überarbeiteten Website automatisch mit ein, im Alltag der Praxis ändert sich dadurch nichts.
 
 <div class="highlight-box">
   <p><strong>Was auf Ihrer Website eindeutig stehen sollte</strong></p>
@@ -54,11 +54,11 @@ Für Menschen ist eine schön gestaltete Website oft schon überzeugend. Suchmas
 
 ### Eine Stimme, auch wenn mehrere im Team schreiben
 
-Je öfter neue Inhalte entstehen, umso häufiger schreiben unterschiedliche Personen im Team daran mit, und das ist auch gut so. Liest sich ein Beitrag sachlich-knapp und der nächste ausschweifend-persönlich, merkt die Kundschaft das, auch ohne es benennen zu können. Ein kurzer, schriftlich festgehaltener Rahmen, etwa Sie-Form, keine Fachbegriffe ohne Erklärung, ein Beispiel pro Text, sorgt dafür, dass die Praxis nach außen wie eine Ansprechperson wirkt, nicht wie mehrere.
+Je öfter neue Inhalte entstehen, umso häufiger schreiben unterschiedliche Personen im Team daran mit, und das ist auch gut so, weil das Praxiswissen dort sitzt, nicht bei einer externen Textagentur. Liest sich ein Beitrag sachlich-knapp und der nächste ausschweifend-persönlich, merkt die Kundschaft das, auch ohne es benennen zu können, etwa daran, dass sich die Praxis widersprüchlich anfühlt. Ein kurzer, schriftlich festgehaltener Rahmen löst das: Sie-Form, keine Fachbegriffe ohne Erklärung, ein Beispiel pro Text, dazu wer vor der Veröffentlichung noch einmal gegenliest. Das muss keine zusätzliche Person sein, oft reicht es, wenn zwei Personen im Team sich gegenseitig lesen, bevor ein Beitrag online geht.
 
 ### Mit einer Vorlage schneller loslegen
 
-Vor einem leeren Dokument zu sitzen, hält die meisten Praxen von regelmäßigen Inhalten ab, nicht fehlende Ideen. Eine feste Vorlage mit Aufbau und Länge nimmt genau diese erste Hürde. Für die Physiotherapie-Praxis aus dem Einstieg reicht eine Vorlage mit drei Fragen: Welches Problem hatte die Person, was wurde gemacht, was hat sich verändert. Daraus wird in zehn Minuten ein kurzer Beitrag, ohne dass jedes Mal neu überlegt werden muss, wie er aufgebaut sein soll.
+Vor einem leeren Dokument zu sitzen, hält die meisten Praxen von regelmäßigen Inhalten ab, nicht fehlende Ideen. Ideen liegen meist schon vor: häufig gestellte Fragen an der Rezeption, eine neue Leistung, eine saisonale Frage wie Rückenschmerzen im Homeoffice. Eine feste Vorlage mit Aufbau und Länge nimmt die eigentliche Hürde, den Aufbau jedes Mal neu zu erfinden. Für die Physiotherapie-Praxis aus dem Einstieg reicht eine Vorlage mit drei Fragen: Welches Problem hatte die Person, was wurde gemacht, was hat sich verändert. Daraus wird in zehn Minuten ein kurzer Beitrag, ohne dass jedes Mal neu überlegt werden muss, wie er aufgebaut sein soll. Ein Beitrag alle zwei bis drei Wochen reicht für den Anfang, wichtiger als die Frequenz ist, dass sie sich halten lässt, auch wenn im Praxisalltag wenig Zeit bleibt.
 
 ## Wie Sie anfangen
 
@@ -66,17 +66,21 @@ Vor einem leeren Dokument zu sitzen, hält die meisten Praxen von regelmäßigen
 2. Lücken und Widersprüche zunächst nur sammeln, noch nicht beheben.
 3. Ein kurzer Rahmen für Texte reicht: Tonalität, Länge, ein Beispiel, schriftlich festgehalten.
 4. Am einfachsten ist ein wiederkehrender Anlass, der neue Inhalte fast von selbst liefert, etwa eine Frage, die in der Praxis regelmäßig gestellt wird.
+5. Nach vier bis sechs Wochen prüfen, ob sich an den Anfragen über Google oder die Website etwas verändert hat, und den Rahmen bei Bedarf anpassen.
 
 ## Wie wir das in der Praxis lösen
 
-Ein Beispiel, bewusst vereinfacht: Die Physiotherapie-Praxis aus dem Einstieg geht ihr Google-Profil gemeinsam mit der Website durch. Die Adresse stimmt noch, die Öffnungszeiten nicht mehr, seit die Praxis vor einem Jahr einen zusätzlichen Vormittag eingerichtet hat. Auf der Website fehlt bislang eine eigene Seite zum neuen Präventions-Angebot, es taucht nur in einem alten Flyer als PDF auf, das kein Suchsystem lesen kann.
+Ein Beispiel, bewusst vereinfacht: Die Physiotherapie-Praxis aus dem Einstieg geht ihr Google-Profil gemeinsam mit der Website durch. Die Adresse stimmt noch, die Öffnungszeiten nicht mehr, seit die Praxis vor einem Jahr einen zusätzlichen Vormittag eingerichtet hat. Im Frage-Bereich des Profils steht außerdem eine zwei Jahre alte, falsch beantwortete Frage zur Barrierefreiheit, die bislang niemandem aufgefallen ist. Auf der Website fehlt bislang eine eigene Seite zum neuen Präventions-Angebot, es taucht nur in einem alten Flyer als PDF auf, das kein Suchsystem lesen kann.
 
-Die Lücken werden korrigiert, das Präventions-Angebot bekommt eine eigene kurze Seite mit Text statt nur dem PDF. Für neue Beiträge legt das Team eine einfache Vorlage fest: ein Satz zum Anlass, zwei bis drei Sätze zur Lösung, ein Satz zum Ergebnis. Innerhalb von vier Wochen entstehen so drei kurze Beiträge, verfasst von zwei unterschiedlichen Personen im Team, aber in derselben, vorher festgelegten Tonalität.
+Die Lücken werden korrigiert: Öffnungszeiten und die Antwort im Frage-Bereich aktualisiert, das Präventions-Angebot bekommt eine eigene kurze Seite mit Text statt nur dem PDF. Für neue Beiträge legt das Team eine einfache Vorlage fest: ein Satz zum Anlass, zwei bis drei Sätze zur Lösung, ein Satz zum Ergebnis. Innerhalb von vier Wochen entstehen so drei kurze Beiträge, verfasst von zwei unterschiedlichen Personen im Team, aber in derselben, vorher festgelegten Tonalität. Ob sich das in mehr Anfragen niederschlägt, zeigt sich nicht sofort, meist erst nach einigen Wochen, wenn Google die aktualisierten Angaben neu erfasst hat.
 
 ## Häufige Fragen
 
 **Garantieren Sie eine bessere Google-Platzierung?**
 Nein, das verspricht seriös niemand. Woran wir arbeiten, sind vollständige, aktuelle und maschinenlesbare Angaben, die Grundlage für eine bessere Platzierung.
+
+**Wie lange dauert es, bis sich eine Verbesserung zeigt?**
+Meist einige Wochen, nicht Tage. Google und KI-Systeme erfassen aktualisierte Angaben nicht sofort neu, und ein einzelner Beitrag verändert selten schon die Platzierung. Realistisch ist ein Zeitraum von sechs bis zwölf Wochen, bis sich ein Effekt beobachten lässt.
 
 **Übernehmen Sie das Schreiben laufend für mich?**
 Das hängt vom Umfang ab. Beim Aufbau der Vorlage und der ersten Struktur arbeite ich mit Ihnen zusammen, das laufende Schreiben liegt idealerweise im Team, weil dort das Praxiswissen sitzt.
