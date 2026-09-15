@@ -453,9 +453,8 @@ Reichweite gesprochen wird. Zweiter Aufhänger: die eigene Website ist selbst ei
 vorsichtig und ohne Übertreibung einsetzen.
 
 ### Outline
-**H1:** *(Arbeitstitel, wird in Schritt 3 anhand des Keyword-Checks finalisiert)*
-„Damit Ihre Praxis online gefunden wird: was kleine Gesundheitspraxen bei Google und in
-KI-Suchen beachten müssen"
+**H1 (final, Leonie 2026-09-15):** „Praxis bei Google sichtbar machen: So werden Sie auch in
+KI-Suchen gefunden"
 
 *(Einstieg als unbetitelter Fließtext, wie bei #1–#4 — kein eigenes H2. Wunsch-Framing statt
 O-Ton-Krise: eine Praxis mit freier Kapazität, die aber kaum über die eigene Website oder
@@ -504,9 +503,9 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
   - Wer pflegt die Inhalte ein, wenn sie fertig sind?
 - **CTA:** Potenzialanalyse, allgemein (kein „X Plätze auf Seite 1"-Versprechen)
 
-### Meta-Description (Entwurf, 140–160)
-> Google-Suche und KI-Assistenten wie ChatGPT: Was kleine Gesundheitspraxen brauchen, damit
-> ihr Angebot online wirklich gefunden wird — ohne Werbebudget und aufwändige Maßnahmen.
+### Meta-Description (final, 141 Zeichen, Leonie 2026-09-15 — „Google Unternehmensprofil" ergänzt)
+> Ein optimiertes Google Unternehmensprofil als Grundlage: So werden kleine
+> Gesundheitspraxen bei Google und in KI-Suchen wie ChatGPT gefunden.
 
 ### Bild-Ideen
 - **Hero:** helle Szene mit Laptop/Tablet und Praxis-Website oder Google-Profil im Bild,
