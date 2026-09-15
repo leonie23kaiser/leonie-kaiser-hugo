@@ -21,6 +21,13 @@ Licht, echte/ruhige Alltagsszenen, Sie-Form-taugliche professionelle aber nahbar
 Chaos-Übertreibung (Zettelstapel-Klischee), Schloss-/Schutzschild-/EU-Sternenkranz-Symbolik,
 Hacker-Hoodie, Panik-Mimik, lesbarer echter Text/echte Logos im Bild.
 
+**Hero-Bild-Varianz (Leonie, 2026-09-15):** Alle Hero-Bilder stehen auf der Blog-Übersichtsseite
+nebeneinander — deshalb beim Prompt-Entwurf aktiv gegen die bisherigen Hero-Szenen abgrenzen
+(Setting, Körperhaltung, Kameraperspektive), nicht nur die Requisite tauschen. „Person sitzt
+am Tresen/Schreibtisch mit Tablet/Laptop" ist bei Post #1, #2, #3, #5, #6 bereits belegt —
+neue Posts brauchen eine erkennbar andere Komposition (z. B. stehend, im Freien, andere
+Perspektive, anderes Setting).
+
 ---
 
 ## Post #1 — „Ohne mich läuft hier nichts"
@@ -80,21 +87,32 @@ Praxis, eine Person zeigt etwas auf einem Zettel oder Bildschirm, entspannte abe
 Körperhaltung, kein Konferenzraum-Setting, warmes natürliches Licht.
 
 ## Post #7 — „Praxis bei Google sichtbar machen"
-**Hero:** Eine Physiotherapie-Praxisinhaberin (Anfang/Mitte 40) sitzt an ihrem
-Empfangstresen, hält in einer Hand ihr Smartphone mit einer unscharf angedeuteten Karten-/
-Standortansicht auf dem Bildschirm (kein lesbarer Text, keine echten Logos), daneben liegt
-ein aufgeklappter Laptop mit einem ebenfalls unscharfen, profilartigen Layout. Ausdruck
-konzentriert-prüfend, ruhig, kein Stress. Kleidung leger-professionell (z. B. hellblaue
-Bluse). Setting: helle, moderne Physiotherapie-Praxis, im Hintergrund unscharf eine
-Behandlungsliege und Pflanzen. Warmes, natürliches Tageslicht von der Seite. Halbtotale,
-Fokus auf Gesicht, Smartphone und Laptop.
+**Hero (überarbeitet, 2026-09-15 — erste Fassung zu ähnlich zu Post #1/#2/#3/#5/#6, siehe
+Hero-Bild-Varianz oben):** Eine Physiotherapie-Praxisinhaberin (Anfang/Mitte 40) steht vor
+dem Eingang ihrer Praxis, im Hintergrund unscharf eine Eingangstür mit Praxisschild ohne
+lesbaren Text. Sie hält ihr Smartphone vor sich in Blickhöhe, auf dem Bildschirm eine
+angedeutete Kartenansicht mit einem Stecknadel-Symbol (kein lesbarer Text). Blick auf das
+Handy gerichtet, entspannt-zufriedener Ausdruck, leichtes Lächeln. Kleidung
+leger-professionell (z. B. hellblaue Bluse, dezente Strickjacke). Straßenszene im
+Hintergrund stark unscharf (Bokeh), warmes Vormittagslicht von schräg vorne. Halbnah, Fokus
+auf Gesicht und Smartphone-Display. Unterscheidet sich von den bisherigen Hero-Bildern durch
+stehende Haltung, Außen-/Eingangssetting statt Tresen/Schreibtisch und Halbnah- statt
+Halbtotale-Ausschnitt.
 
-**Zwischenbild (Grafik):** Schlichte, moderne Zwei-Spalten-Vergleichsgrafik in Marken-Farben
-(Teal `#086584`, Violett `#6B2C8C` als Akzent, Ink `#1D2228`): links ein stilisiertes
-Kartennadel-Icon mit der Beschriftung „Google-Profil", rechts ein stilisiertes
-Browserfenster-Icon mit der Beschriftung „Website", dazwischen ein Häkchen-Symbol als
-Abgleich-Zeichen, darunter der Text „Stimmen überein?". Reine Vektor-Optik, keine Fotos,
-keine echten Screenshots, minimalistisch, horizontal angeordnet wie bei Post #3.
+*Erste Fassung (verworfen, zu ähnlich zu Post #1/#2/#3/#5/#6):* Praxisinhaberin sitzt am
+Empfangstresen, Smartphone + aufgeklappter Laptop, Fokus auf Gesicht/Smartphone/Laptop. Das
+dazu bereits generierte Bild kann als Backup ins Repo, falls es später zu einem anderen Post
+passt (z. B. Post #8, sofern dort eine Desk-Szene noch nicht belegt ist).
+
+**Zwischenbild (Grafik, überarbeitet — Zwei-Spalten-Vergleich war nicht aussagekräftig
+genug):** Schlichte Vektor-Grafik in Marken-Farben (Teal `#086584`, Violett `#6B2C8C`, Ink
+`#1D2228`): in der Mitte ein Icon für die Praxis (stilisiertes Gebäude- oder
+Standort-Symbol) mit der Beschriftung „Ihre Praxis-Daten", davon ausgehend drei dünne
+Linien zu drei Icons am Rand: eine Lupe mit der Beschriftung „Google-Suche", ein
+Sparkle-/Stern-Symbol mit der Beschriftung „KI-Zusammenfassung", eine Sprechblase mit der
+Beschriftung „KI-Assistent". Zeigt visuell die Kernaussage des Beitrags: eine zentrale
+Datenquelle speist mehrere Wege, über die die Praxis gefunden wird. Reine Vektor-Optik,
+keine Fotos, minimalistisch, ruhige radiale Anordnung.
 
 ---
 
