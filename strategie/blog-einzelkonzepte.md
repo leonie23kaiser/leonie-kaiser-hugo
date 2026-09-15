@@ -481,7 +481,9 @@ als Trend-Beleg zitieren, nicht als exakte DACH-Zahl ausgeben.)*
   - H3: Google zeigt selbst schon eine KI-Antwort
   - H3: Externe KI-Assistenten nutzen dieselben Quellen
 - **H2: Was in beiden Fällen zählt**
-  - H3: Vollständige, aktuelle Angaben statt Lücken
+  - H3: Ihr Google Unternehmensprofil als Fundament *(Keyword aus Runde 2 „google
+    unternehmensprofil optimieren" hier natürlich einbauen — vollständige, aktuelle Angaben
+    statt Lücken)*
   - H3: Maschinenlesbar statt nur menschenlesbar *(kurz, unbetechnisch erklärt — strukturierte
     Daten als Konzept, kein Code)*
   - Highlight-Box: Checkliste „Was auf Ihrer Website eindeutig stehen sollte" (Angebot,
