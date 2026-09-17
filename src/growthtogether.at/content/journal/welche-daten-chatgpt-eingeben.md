@@ -34,7 +34,7 @@ Konkret unterscheiden sich die Versionen vor allem in drei Punkten: Wer Zugriff 
 
 ### Diese Daten sind meist unkritisch
 
-Allgemeine Texte ohne Personenbezug, etwa Entwürfe für Patienteninformationen oder Standardformulierungen, können ohne Bedenken eingegeben werden. Hier steckt kein Name, kein Termin, keine Diagnose dahinter, nur ein Text, den später jemand mit den passenden Angaben ergänzt.
+Allgemeine Texte ohne Personenbezug, etwa Entwürfe für Patienteninformationen oder Standardformulierungen, können ohne Bedenken eingegeben werden. Hier steckt kein Name, kein Termin und keine Diagnose dahinter, nur ein Text, den später jemand mit den passenden Angaben ergänzt.
 
 ### Diese Daten können heikel sein
 

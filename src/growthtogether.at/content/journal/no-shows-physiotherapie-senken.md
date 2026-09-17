@@ -72,7 +72,7 @@ Für Sie als Praxis ist die Warteliste vor allem ein Weg, die Lücke zu schließ
 
 ### Ausfallgebühr als Option — wenn, dann sauber vereinbart
 
-Eine Ausfallgebühr, fachlich auch Ausfallhonorar genannt, kann ein sinnvoller ergänzender Baustein sein. Sie ersetzt aber weder Erinnerung noch Warteliste. Laut Branchenreport Physiotherapie 2025 (ETL ADVISION) erheben rund 60% der Praxen eine solche Gebühr, im Schnitt 28€, rund jede zehnte Praxis mehr als 40€. Wichtig ist die Vereinbarung vorab, etwa als kurze Klausel bei der Terminbuchung, dazu eine faire Frist: Üblich ist eine Absagefrist von 24 Stunden vor dem Termin, erst danach greift die Gebühr. Für die Zahlung selbst hat sich eine einfache Rechnung im Nachhinein bewährt, etwa per Überweisung oder Zahlungslink. Die genaue Formulierung der Klausel gehört in eine Rechtsberatung.
+Eine Ausfallgebühr, fachlich auch Ausfallhonorar genannt, kann ein sinnvoller ergänzender Baustein sein. Sie ersetzt aber weder Erinnerung noch Warteliste. Laut Branchenreport Physiotherapie 2025 (ETL ADVISION) erheben rund 60% der Praxen eine solche Gebühr, im Schnitt 28€, und rund jede zehnte Praxis verlangt mehr als 40€. Wichtig ist die Vereinbarung vorab, etwa als kurze Klausel bei der Terminbuchung, dazu eine faire Frist: Üblich ist eine Absagefrist von 24 Stunden vor dem Termin, erst danach greift die Gebühr. Für die Zahlung selbst hat sich eine einfache Rechnung im Nachhinein bewährt, etwa per Überweisung oder Zahlungslink. Die genaue Formulierung der Klausel gehört in eine Rechtsberatung.
 
 ## Datenschutz: warum schon der Terminanlass ein Gesundheitsdatum ist
 

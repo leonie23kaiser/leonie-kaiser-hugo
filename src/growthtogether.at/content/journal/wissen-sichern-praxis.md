@@ -24,7 +24,7 @@ Das lässt sich früh spüren, lange bevor überhaupt jemand kündigt. Es sind d
 
 ### Rückfragen häufen sich, weil niemand sonst die Antwort kennt
 
-Welche Patientin lieber vormittags Termine wahrnimmt, wie eine bestimmte Verordnung läuft, warum ein Ablauf genau so eingespielt ist: Solche Fragen landen fast immer bei derselben Person. Nicht, weil das Team nicht mitdenken würde, sondern weil die Antwort nicht für alle zugänglich dokumentiert ist. Diese Person wird so nebenbei zur Auskunftsstelle für alles, obwohl sie eigentlich mit ihrer eigenen Arbeit beschäftigt sein sollte.
+Welche Patientin lieber vormittags Termine wahrnimmt, wie eine bestimmte Verordnung läuft und warum ein Ablauf genau so eingespielt ist: Solche Fragen landen fast immer bei derselben Person. Nicht, weil das Team nicht mitdenken würde, sondern weil die Antwort nicht für alle zugänglich dokumentiert ist. Diese Person wird so nebenbei zur Auskunftsstelle für alles, obwohl sie eigentlich mit ihrer eigenen Arbeit beschäftigt sein sollte.
 
 ### Vertretung und Einarbeitung dauern länger als nötig
 
