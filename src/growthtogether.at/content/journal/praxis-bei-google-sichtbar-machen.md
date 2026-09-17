@@ -12,7 +12,7 @@ coverCredit: "KI-generiert mit OpenAI, 2026"
 readingTime: 8
 tags: ["Google-Unternehmensprofil", "Website", "Sichtbarkeit", "KI-Suche"]
 ctaHeadline: "Nächster Schritt: Sichtbar werden, wo Ihre Kundschaft sucht"
-ctaText: "In 30 Minuten schauen wir uns gemeinsam Ihr Google-Unternehmensprofil und Ihre Website an, wo aktuell die größten Ansatzpunkte liegen und welcher nächste Schritt sinnvoll ist. Die Zusammenfassung bekommen Sie danach schriftlich."
+ctaText: "In 30 Minuten schauen wir uns gemeinsam Ihr Google-Unternehmensprofil und Ihre Website an, welcher Bereich zuerst verbessert werden sollte und welcher nächste Schritt sinnvoll ist. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: true
 ---
 
@@ -20,7 +20,7 @@ Eine Physiotherapie-Praxis hat freie Kapazität für neue Kundschaft, trotzdem b
 
 Google-Suche, Kartenansichten und KI-gestützte Such- oder Antwortsysteme wie ChatGPT, Perplexity, Claude oder Gemini funktionieren technisch nicht gleich: Sie greifen unterschiedlich auf Webinformationen zu, manche nennen Quellen, manche nicht. Eine Voraussetzung haben sie trotzdem gemeinsam: Eine Praxis muss online mit aktuellen, eindeutigen und öffentlich auffindbaren Informationen vertreten sein, allen voran die eigene Website, das Google-Unternehmensprofil und glaubwürdige Bewertungen. Deshalb gehören beide Themen in diesen einen Beitrag.
 
-Wie wichtig das inzwischen ist, zeigt eine Analyse von SparkToro auf Basis von Similarweb-Daten: In den ersten vier Monaten des Jahres 2026 endeten rund 68 Prozent der Google-Suchen in den USA ganz ohne Klick auf eine Website, bei Suchen mit einer KI-Zusammenfassung lag die Klickrate sogar rund 60 Prozent niedriger als sonst (<a href="https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/">SparkToro, 2026</a>). Die Zahlen stammen aus den USA und lassen sich nicht eins zu eins auf den deutschsprachigen Raum übertragen. Sie zeigen aber, warum es wichtiger wird, dass eine Praxis nicht nur über Website-Klicks, sondern auch direkt in den Suchergebnissen mit korrekten, hilfreichen Informationen sichtbar ist. Mundpropaganda bleibt für viele Praxen wertvoll, wie auch mein Beitrag <a href="/blog/praxis-haengt-an-der-leitung/">„Ohne mich läuft hier nichts"</a> zeigt. Eine gute Online-Sichtbarkeit eröffnet jedoch zusätzlich die Chance, auch von Menschen gefunden zu werden, die noch keine persönliche Empfehlung erhalten haben.
+Wie wichtig das inzwischen ist, zeigt eine Analyse von SparkToro auf Basis von Similarweb-Daten: In den ersten vier Monaten des Jahres 2026 endeten rund 68 Prozent der Google-Suchen in den USA ganz ohne Klick auf eine Website (<a href="https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/">SparkToro, 2026</a>). Ergänzende, von SparkToro zitierte Daten deuten darauf hin, dass KI-Zusammenfassungen die Klickrate auf klassische Suchergebnisse deutlich senken können, in einer Ahrefs-Analyse um rund 60 Prozent. Die Zahlen stammen aus den USA und lassen sich nicht eins zu eins auf den deutschsprachigen Raum übertragen. Sie zeigen aber, warum es wichtiger wird, dass eine Praxis nicht nur über Website-Klicks, sondern auch direkt in den Suchergebnissen mit korrekten, hilfreichen Informationen sichtbar ist. Mundpropaganda bleibt für viele Praxen wertvoll, wie auch mein Beitrag <a href="/blog/praxis-haengt-an-der-leitung/">„Ohne mich läuft hier nichts"</a> zeigt. Eine gute Online-Sichtbarkeit eröffnet jedoch zusätzlich die Chance, auch von Menschen gefunden zu werden, die noch keine persönliche Empfehlung erhalten haben.
 
 ## Was Sichtbarkeit wirklich braucht
 
@@ -38,7 +38,7 @@ Auch KI-gestützte Suchsysteme brauchen klare, öffentlich auffindbare Informati
 
 ## Ihr Google-Unternehmensprofil pflegen
 
-Das Google-Unternehmensprofil ist für die meisten Praxen der erste Kontaktpunkt, noch vor der eigenen Website. Name, Adresse, Öffnungszeiten, Telefonnummer und die Kategorie der Leistungen: Sind diese Angaben nicht mehr aktuell oder stimmen sie nicht überein, kann das dazu beitragen, dass eine Praxis nicht so häufig gefunden oder angefragt wird, wie es bei konsistenten Informationen möglich wäre.
+Bei lokalen Suchanfragen ist das Google-Unternehmensprofil oft einer der ersten Kontaktpunkte, teilweise noch vor der eigenen Website. Name, Adresse, Öffnungszeiten, Telefonnummer und die Kategorie der Leistungen: Sind diese Angaben nicht mehr aktuell oder stimmen sie nicht überein, kann das dazu beitragen, dass eine Praxis nicht so häufig gefunden oder angefragt wird, wie es bei konsistenten Informationen möglich wäre.
 
 Weniger bekannt, aber ähnlich wichtig sind drei weitere Bereiche im Profil: die Hauptkategorie (bei einer Physiotherapie-Praxis zum Beispiel „Physiotherapeut" statt allgemein „Arzt"), der Abschnitt für Leistungen, in dem sich einzelne Angebote separat eintragen lassen, und der öffentliche Frage-und-Antwort-Bereich, den jede Person im Netz befüllen kann, auch ohne Bezug zur Praxis. Bleibt dort eine falsche Antwort stehen, kann sie Interessierte verunsichern und zu unnötigen Rückfragen führen, deshalb lohnt es sich, diesen Bereich regelmäßig zu kontrollieren.
 
@@ -48,7 +48,7 @@ Prüfen Sie das Profil mindestens einmal im Quartal vollständig. Ändern sich �
 
 ## Ihre Website: klar für Menschen und Suchsysteme
 
-Für Menschen ist eine schön gestaltete Website oft schon überzeugend. Suchmaschinen lesen aber in erster Linie den Text und die Struktur dahinter, nicht das Design. Ein Beispiel: Steht das Angebot nur als Aufzählung von Icons mit wenigen Wörtern auf der Startseite, etwa „Manuelle Therapie, Sportphysio, Prävention", kann eine Suchmaschine daraus schwer ableiten, wofür die Praxis genau steht. Ein Absatz, der dasselbe Angebot in ein bis zwei ausformulierten Sätzen beschreibt, dazu für wen und mit welchem Ziel, liefert denselben Inhalt in einer Form, die sowohl Menschen als auch Maschinen verstehen. Klar benannte Überschriften und eine ausgeschriebene Adresse statt nur eines eingebetteten Kartenausschnitts gehören ebenfalls dazu.
+Für Menschen ist eine schön gestaltete Website oft schon überzeugend. Suchmaschinen lesen aber in erster Linie den Text und die Struktur dahinter, nicht das Design. Ein Beispiel: Steht das Angebot nur als Aufzählung von Icons mit wenigen Wörtern auf der Startseite, etwa „Manuelle Therapie, Sportphysio, Prävention", fehlen einer Suchmaschine häufig die klaren Textsignale, um Angebot, Zielgruppe und Schwerpunkte zuverlässig einzuordnen. Ein Absatz, der dasselbe Angebot in ein bis zwei ausformulierten Sätzen beschreibt, dazu für wen und mit welchem Ziel, liefert denselben Inhalt in einer Form, die sowohl Menschen als auch Maschinen verstehen. Klar benannte Überschriften und eine ausgeschriebene Adresse statt nur eines eingebetteten Kartenausschnitts gehören ebenfalls dazu.
 
 Zusätzlich können strukturierte Daten Suchmaschinen klare, standardisierte Hinweise geben, etwa zu Adresse, Öffnungszeiten und Geschäftsart. Das erleichtert es insbesondere Google, die Angaben auf Ihrer Website richtig einzuordnen. Bei neuen oder überarbeiteten Websites kann ich passende strukturierte Daten ergänzen und vor der Veröffentlichung technisch prüfen.
 
@@ -72,10 +72,10 @@ Ein leeres Dokument kann Teams davon abhalten, regelmäßig Inhalte für die Web
 <div class="highlight-box">
   <p><strong>Checkliste: So gehen Sie es an</strong></p>
   <ol style="margin-top:var(--s3);margin-bottom:0;padding-left:var(--s5)">
-    <li>Google-Unternehmensprofil und Website nebeneinander öffnen. Anschließend Adresse, Öffnungszeiten, Leistungen bzw. Angebot und Telefonnummer vergleichen und bei Bedarf aktualisieren.</li>
-    <li>Ein kurzer Rahmen für Texte reicht: Tonalität, Länge und ein Beispiel, schriftlich festgehalten.</li>
-    <li>Am einfachsten ist ein wiederkehrender Anlass, der neue Inhalte fast von selbst liefert, etwa eine Frage, die in der Praxis regelmäßig gestellt wird.</li>
-    <li>Nach einigen Wochen prüfen, ob sich an den Anfragen über Google-Unternehmensprofil oder Website etwas verändert hat, und den Rahmen bei Bedarf anpassen.</li>
+    <li>Google-Unternehmensprofil und Website nebeneinander öffnen. Adresse, Öffnungszeiten, Telefonnummer und Angebote vergleichen; Abweichungen sofort korrigieren.</li>
+    <li>Für Website-Texte einen kurzen Rahmen festlegen: Ansprache, Länge, Fachbegriffe und ein Beispiel pro Beitrag.</li>
+    <li>Einen wiederkehrenden Anlass für neue Inhalte wählen, etwa häufige Fragen aus der Praxis.</li>
+    <li>Nach einigen Wochen Anfragen über Google-Unternehmensprofil und Website prüfen und den Ablauf bei Bedarf anpassen.</li>
   </ol>
 </div>
 
@@ -83,7 +83,7 @@ Ein leeres Dokument kann Teams davon abhalten, regelmäßig Inhalte für die Web
 
 Ein Beispiel, bewusst vereinfacht: Die Physiotherapie-Praxis aus dem Einstieg geht ihr Google-Unternehmensprofil gemeinsam mit der Website durch. Die Adresse stimmt noch, die Öffnungszeiten nicht mehr, seit die Praxis vor einem Jahr zusätzlich an einem Vormittag geöffnet hat. Im Frage-Bereich des Profils steht außerdem eine zwei Jahre alte, unzutreffende Antwort auf eine Frage zur Barrierefreiheit, die bislang niemandem aufgefallen ist. Auf der Website fehlt bislang eine eigene Seite zum neuen Präventions-Angebot, es taucht nur in einem alten PDF-Flyer auf. Suchmaschinen können viele PDFs zwar erfassen, zentrale Informationen sollten trotzdem zusätzlich als gut auffindbarer HTML-Text auf der Website stehen, ein zusätzlicher Grund, den Flyer zu überprüfen und die Informationen auf eine eigene Seite zu übertragen.
 
-Unstimmigkeiten werden korrigiert: Öffnungszeiten und die Antwort im Frage-Bereich aktualisiert, das Präventions-Angebot bekommt eine eigene kurze Seite mit Text statt nur dem PDF. Für neue Beiträge legt das Team eine einfache Vorlage fest: ein Satz zum Anlass, zwei bis drei Sätze zur Lösung und ein Satz zum Ergebnis. Innerhalb von vier Wochen entstehen so drei kurze Beiträge, verfasst von zwei unterschiedlichen Personen im Team, aber in derselben, vorher festgelegten Tonalität. Ob sich das in mehr Anfragen niederschlägt, zeigt sich nicht sofort, sondern meist erst nach einigen Wochen.
+Unstimmigkeiten werden korrigiert: Öffnungszeiten und die Antwort im Frage-Bereich aktualisiert, das Präventions-Angebot bekommt eine eigene kurze Seite mit Text statt nur dem PDF. Für neue Beiträge legt das Team eine einfache Vorlage fest: ein Satz zum Anlass, zwei bis drei Sätze zur Lösung und ein Satz zum Ergebnis. In den ersten vier Wochen entstehen so drei kurze Beiträge, verfasst von zwei unterschiedlichen Personen im Team, aber in derselben, vorher festgelegten Tonalität, ein Tempo, das das Team anschließend an seinen Alltag anpassen kann. Ob sich das in mehr Anfragen niederschlägt, zeigt sich nicht sofort, sondern meist erst nach einigen Wochen.
 
 ## Häufige Fragen
 
@@ -91,7 +91,7 @@ Unstimmigkeiten werden korrigiert: Öffnungszeiten und die Antwort im Frage-Bere
 Nein. Gute Auffindbarkeit entsteht aus dem Zusammenspiel von Google-Unternehmensprofil, Website, Leistungsbeschreibungen, Standortbezug, Bewertungen und konsistenten, aktuellen Kontaktdaten. Ein gepflegtes Profil ist ein wichtiger Baustein, ersetzt die Website mit ihren Inhalten aber nicht.
 
 **Garantieren Sie eine bessere Google-Platzierung?**
-Nein, das verspricht seriös niemand. Woran wir arbeiten, sind vollständige, aktuelle und maschinenlesbare Angaben, sowohl im Google-Unternehmensprofil als auch auf der Website selbst, etwa in den Leistungsseiten und lokalen Inhalten. Das schafft die Grundlage für eine bessere Auffindbarkeit in der Google-Suche und in KI-gestützten Suchsystemen, eine Garantie bleibt es nicht.
+Nein, das verspricht seriös niemand. Woran wir arbeiten, sind vollständige, aktuelle und maschinenlesbare Angaben, sowohl im Google-Unternehmensprofil als auch auf der Website selbst, etwa in den Leistungsseiten und lokalen Inhalten. Das schafft eine bessere Grundlage dafür, dass Google und andere Suchsysteme Ihre Praxis mit passenden, aktuellen Informationen erfassen und bei relevanten Anfragen einordnen können. Eine Garantie für bessere Platzierungen oder Empfehlungen bleibt es nicht.
 
 **Wie lange dauert es, bis sich eine Verbesserung zeigt?**
 Aktualisierte Angaben können nach einiger Zeit in der Suche sichtbar werden. Bei einzelnen Änderungen kann das schneller gehen, bei einer umfassenderen Überarbeitung deutlich länger, abhängig unter anderem von Ausgangslage, Wettbewerb, Website-Qualität, Standort und Nachfrage. Ein erster Check nach sechs bis acht Wochen kann sinnvoll sein, die Wirkung insgesamt lässt sich am besten über mehrere Monate beurteilen.
@@ -107,6 +107,6 @@ Das Team selbst, sobald die erste Vorlage und ein fester Ablauf stehen. Bei der 
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Ihre Praxis online weniger sichtbar ist, als ihr Angebot es verdient, schauen wir gemeinsam auf die Grundlagen: Google-Unternehmensprofil, Website-Inhalte, Standortangaben und den Aufwand, den Ihr Team für regelmäßige Inhalte realistisch leisten kann. In einer kostenfreien Potenzialanalyse erhalten Sie eine erste Einordnung, wo die größten Ansatzpunkte liegen und welcher nächste Schritt sinnvoll sein könnte.
+Wenn Ihre Praxis online weniger sichtbar ist, als ihr Angebot es verdient, schauen wir gemeinsam auf die Grundlagen: Google-Unternehmensprofil, Website-Inhalte, Standortangaben und den Aufwand, den Ihr Team für regelmäßige Inhalte realistisch leisten kann. In einer kostenfreien Potenzialanalyse erhalten Sie eine erste Einordnung, welcher Bereich zuerst verbessert werden sollte und welcher nächste Schritt sinnvoll sein könnte.
 
 Im nächsten Beitrag geht es darum, wie ein KI-Assistent auf Ihrer Website Anfragen beantwortet, auch wenn gerade niemand am Empfang sitzt.
