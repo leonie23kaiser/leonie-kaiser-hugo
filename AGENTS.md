@@ -141,6 +141,36 @@ statt eine einzelne, konkrete Situation zu schildern.
 (Leonie/Claude, 2026-09 — aus Grammarly-KI-Erkennung und Analyse der
 Website-Texte, `content-export/website-texte.md`.)
 
+### Vorsichtige Kausalaussagen, Aufzählungen & Zitierfähigkeit
+
+- **Möglichkeitsform statt Absolutheit.** Keine pauschalen Versprechen über
+  Rankings, KI-Empfehlungen, Anfragen oder volle Kalender. „kann", „kann dazu
+  beitragen", „kann die Chance erhöhen", „kann die Sichtbarkeit verbessern"
+  statt absoluter Aussagen wie „wird gefunden" oder „entsteht genau die
+  Lücke, die zu X führt".
+- **Ursache-Wirkung differenziert formulieren.** Nicht behaupten, dass eine
+  Konsequenz sicher eintritt. Stattdessen erklären, was möglich ist: eine
+  Praxis wird bei passenden Suchanfragen schlechter berücksichtigt, es
+  werden unpassende Informationen angezeigt, oder Suchende wechseln zur
+  Konkurrenz — nie als Garantie.
+- **Aufzählungen mit drei oder mehr Elementen:** vor dem letzten Element
+  „und" setzen, nicht nur Beistriche. „Das Google-Profil, den Inhalt der
+  eigenen Website und Bewertungen" statt „…, den Inhalt der eigenen
+  Website, Bewertungen".
+- **Eigennamen und feststehende Fachbegriffe in Anführungszeichen**, z. B.
+  „Local Pack", „Brand Voice".
+- **„Lücken" nur für freie Termine im Kalender verwenden** (z. B.
+  „Terminlücken"). Für Datenprobleme: „Unstimmigkeiten", „widersprüchliche
+  Angaben", „veraltete Daten", „unvollständige Informationen".
+- **Mundpropaganda und bestehende Kanäle nicht abwerten.** Online-
+  Sichtbarkeit als zusätzliche Chance positionieren, nicht als Ersatz für
+  Empfehlungen.
+- **Studien/Zahlen immer mit nachvollziehbarer, verlinkter Originalquelle.**
+  Keine Studie ohne überprüfbare Quelle anführen.
+
+(Leonie, 2026-09-17 — aus dem Review von Post #7 „Praxis bei Google
+sichtbar machen".)
+
 ## 5. Textaufbau (jeder Text)
 
 1. **Einstieg:** Situation/Problem/Gefühl (Überforderung, Zeitdruck, Zettelwirtschaft)

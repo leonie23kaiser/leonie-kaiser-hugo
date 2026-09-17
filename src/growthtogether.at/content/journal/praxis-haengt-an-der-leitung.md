@@ -30,17 +30,17 @@ Es ist die typische Schwelle einer kleinen, inhabergeführten Praxis: Sie ist au
 
 ### Rückfragen, Ausnahmen und Entscheidungen landen bei Ihnen
 
-Viele Aufgaben im Tagesgeschäft übernimmt Ihr Team längst zuverlässig: Telefon, Terminanfragen, der erste Kontakt am Empfang. Doch sobald es einmal nicht dem gewohnten Muster folgt — eine Ausnahme, eine Rückfrage, eine Entscheidung, die nicht klar geregelt ist —, landet sie auf Ihrem Tisch. Jede ungewöhnliche Terminverschiebung, jede Abrechnungsfrage, jede neue Kraft, die eingearbeitet werden muss: am Ende sind Sie es, die entscheidet. Das kostet nicht nur Zeit. Es kostet den Kopf, den Sie eigentlich für Ihre Kundschaft bräuchten.
+Viele Aufgaben im Tagesgeschäft übernimmt Ihr Team längst zuverlässig: Telefon, Terminanfragen und der erste Kontakt am Empfang. Doch sobald es einmal nicht dem gewohnten Muster folgt — eine Ausnahme, eine Rückfrage und eine Entscheidung, die nicht klar geregelt ist —, landet sie auf Ihrem Tisch. Jede ungewöhnliche Terminverschiebung, jede Abrechnungsfrage und jede neue Kraft, die eingearbeitet werden muss: am Ende sind Sie es, die entscheidet. Das kostet nicht nur Zeit. Es kostet den Kopf, den Sie eigentlich für Ihre Kundschaft bräuchten.
 
 ### Das Wissen steckt in Ihrem Kopf, nicht im System
 
-Kommt eine Rückfrage — zu einem Ablauf, einer Kundin, einer Abrechnung —, dann haben die Antwort meist nur Sie. Welche Patientin lieber vormittags kommt, wie eine bestimmte Verordnung läuft, warum ein Ablauf so und nicht anders eingespielt ist: All das steht selten irgendwo, es lebt in Ihrem Kopf. Solange das so ist, kann Ihr Team Sie bei diesen Fragen nicht wirklich entlasten — es muss ja doch bei Ihnen nachfragen. Und wenn jemand länger ausfällt oder die Praxis verlässt, geht ein Stück dieses Wissens mit.
+Kommt eine Rückfrage — zu einem Ablauf, einer Kundin, einer Abrechnung —, dann haben die Antwort meist nur Sie. Welche Patientin lieber vormittags kommt, wie eine bestimmte Verordnung läuft und warum ein Ablauf so und nicht anders eingespielt ist: All das steht selten irgendwo, es lebt in Ihrem Kopf. Solange das so ist, kann Ihr Team Sie bei diesen Fragen nicht wirklich entlasten — es muss ja doch bei Ihnen nachfragen. Und wenn jemand länger ausfällt oder die Praxis verlässt, geht ein Stück dieses Wissens mit.
 
 ### Mehrere Tools, aber kein gemeinsamer Ablauf
 
 Viele Praxen versuchen, das mit Software zu lösen. Ein Buchungstool hier, eine App fürs Dokumentieren dort, dazu WhatsApp, E-Mail und ein Kalender, die nicht miteinander reden. Am Ende sind mehrere Tools im Einsatz — und trotzdem hängt weiter vieles an Ihnen, weil niemand außer Ihnen den Überblick über alle Kanäle behält.
 
-Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlungsverläufe, offene Rückfragen — das alles ist längst da, nur eben verstreut über Zettel, Köpfe und getrennte Programme. Was oft fehlt, ist ein klarer Ablauf, der diese Fäden zusammenführt.
+Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlungsverläufe und offene Rückfragen — das alles ist längst da, nur eben verstreut über Zettel, Köpfe und getrennte Programme. Was oft fehlt, ist ein klarer Ablauf, der diese Fäden zusammenführt.
 
 > Ein gutes Tool kann Abläufe spürbar erleichtern und beschleunigen — aber erst, wenn klar ist, welcher Ablauf eigentlich dahintersteht. Deshalb schaue ich mir immer zuerst Ihre Abläufe an, bevor wir über ein Tool sprechen.
 
@@ -89,7 +89,7 @@ Erst wenn dieser Ablauf steht, stellt sich die Frage nach der passenden Software
 
 ## Was Sie hier im Blog erwartet
 
-Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation, Nachsorge — dazu, wie Sie mit Ihrer Kundschaft klarer kommunizieren und wie Sie online besser gefunden werden. Immer praxisnah, immer mit dem Datenschutz im Blick. Wenn Sie sehen möchten, wo ich konkret ansetze, werfen Sie einen Blick auf meine [Leistungen](/leistungen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
+Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation und Nachsorge — dazu, wie Sie mit Ihrer Kundschaft klarer kommunizieren und wie Sie online besser gefunden werden. Immer praxisnah, immer mit dem Datenschutz im Blick. Wenn Sie sehen möchten, wo ich konkret ansetze, werfen Sie einen Blick auf meine [Leistungen](/leistungen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
 
 Der nächste Beitrag wird konkret: wie Sie No-Shows in der Praxis spürbar senken.
 
