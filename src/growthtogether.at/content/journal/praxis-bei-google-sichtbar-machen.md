@@ -2,8 +2,8 @@
 title: 'Praxis bei Google sichtbar machen: So werden Sie auch in KI-Suchen gefunden'
 slug: "praxis-bei-google-sichtbar-machen"
 description: "Ein gepflegtes Google-Unternehmensprofil und eine aktuelle Website als Grundlage: So verbessern kleine Gesundheitspraxen ihre Sichtbarkeit in Google-Suche und KI-Suchsystemen."
-date: 2026-09-22
-lastmod: 2026-09-22
+date: 2026-09-17
+lastmod: 2026-09-17
 author: "Leonie Kaiser"
 category: "Sichtbarkeit"
 cover: "images/blog/openai-praxisinhaberin-smartphone-eingang-post7.png"
@@ -13,7 +13,7 @@ readingTime: 8
 tags: ["Google-Unternehmensprofil", "Website", "Sichtbarkeit", "KI-Suche"]
 ctaHeadline: "Nächster Schritt: Sichtbar werden, wo Ihre Kundschaft sucht"
 ctaText: "In 30 Minuten schauen wir uns gemeinsam Ihr Google-Unternehmensprofil und Ihre Website an, welcher Bereich zuerst verbessert werden sollte und welcher nächste Schritt sinnvoll ist. Die Zusammenfassung bekommen Sie danach schriftlich."
-draft: true
+draft: false
 ---
 
 Eine Physiotherapie-Praxis hat freie Kapazität für neue Kundschaft, trotzdem bleiben im Kalender an manchen Tagen Terminlücken. Sucht jemand in der Umgebung nach einem freien Termin, taucht die Praxis in den Google-Suchergebnissen kaum auf. Wichtige Angaben sind möglicherweise nicht überall vollständig, aktuell oder einheitlich dargestellt. Fragt dieselbe Person stattdessen ein KI-gestütztes System wie ChatGPT nach einer Empfehlung, wird die Praxis möglicherweise ebenfalls nicht vorgeschlagen, aus einem ähnlichen Grund.
