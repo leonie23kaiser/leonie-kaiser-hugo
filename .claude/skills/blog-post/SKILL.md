@@ -35,7 +35,25 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
   2026-08-Korrektur).
 - Zahlen/Zitate nur mit echter, **ursprünglicher** Quelle — bei Sekundärquellen (z. B.
   Fachmagazin, das einen Report zusammenfasst) ehrlich als solche kennzeichnen, nicht dem
-  Primärbericht zuschreiben, wenn er es nicht wörtlich sagt.
+  Primärbericht zuschreiben, wenn er es nicht wörtlich sagt. Studie genau lesen, bevor sie
+  zitiert wird: welche Region/welcher Zeitraum/welche Methodik genau, nicht aus dem
+  Titel/der Überschrift raten. Eine US-Studie nicht als „Trend zeichnet sich hierzulande
+  ähnlich ab" umdeuten, wenn dafür kein Beleg vorliegt.
+- **Keine unbelegten technischen Behauptungen darüber, wie Google/Suchmaschinen/externe
+  KI-Systeme (ChatGPT, Perplexity, Claude, Gemini …) genau funktionieren** — vor allem
+  nicht, wenn dahinter eigentlich nur ein plausibel klingender Mechanismus vermutet wird.
+  Im Zweifel vorsichtiger formulieren („kann", „hängt unter anderem ab von") statt einer
+  konkreten Funktionsweise (siehe `AGENTS.md`, Abschnitt „Vorsichtige Kausalaussagen,
+  Aufzählungen & Zitierfähigkeit", 2026-09-Fallbeispiele aus dem Post-7-Lektorat).
+- **Google-Suche und externe KI-Assistenten nicht als „dieselbe Quelle"/„dieselbe
+  Grundlage" darstellen** — sie funktionieren technisch unterschiedlich. Gemeinsamer
+  Nenner ist die Voraussetzung (aktuelle, eindeutige, öffentlich auffindbare
+  Informationen), nicht der Mechanismus.
+- **Keine zu präzisen Zeiträume/Zahlen ohne Beleg** („in zehn Minuten fertig", „nach
+  sechs bis zwölf Wochen zeigt sich ein Effekt") — außer bei Fristen mit echter
+  Rechtsgrundlage (EU-AI-Act-Stichtage, DSGVO-Fristen), die bleiben exakt.
+- **Vor Abgabe auf Wiederholung prüfen:** Kommt derselbe Kerngedanke in zwei Absätzen nur
+  anders verpackt vor, kürzen statt stehen lassen — lieber 20–30 % knapper.
 
 ---
 

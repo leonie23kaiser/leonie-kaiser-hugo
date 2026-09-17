@@ -158,18 +158,55 @@ Website-Texte, `content-export/website-texte.md`.)
   eigenen Website und Bewertungen" statt „…, den Inhalt der eigenen
   Website, Bewertungen".
 - **Eigennamen und feststehende Fachbegriffe in Anführungszeichen**, z. B.
-  „Local Pack", „Brand Voice".
+  „Local Pack". **„Brand Voice" nicht mehr als Fachbegriff verwenden** —
+  stattdessen „sprachliche Leitlinie" (deutsch, ohne Anglizismus), den
+  englischen Begriff höchstens ergänzend in Klammer.
 - **„Lücken" nur für freie Termine im Kalender verwenden** (z. B.
   „Terminlücken"). Für Datenprobleme: „Unstimmigkeiten", „widersprüchliche
   Angaben", „veraltete Daten", „unvollständige Informationen".
 - **Mundpropaganda und bestehende Kanäle nicht abwerten.** Online-
   Sichtbarkeit als zusätzliche Chance positionieren, nicht als Ersatz für
   Empfehlungen.
-- **Studien/Zahlen immer mit nachvollziehbarer, verlinkter Originalquelle.**
-  Keine Studie ohne überprüfbare Quelle anführen.
+- **Studien/Zahlen immer mit nachvollziehbarer, verlinkter Originalquelle,**
+  und **die Studie korrekt zusammenfassen** — genau nachlesen, welche
+  Zeitspanne/Methodik/Region die Zahl wirklich abdeckt (z. B. SparkToro
+  2026: US-Daten auf Basis von Similarweb, nicht Datos — Datos war nur die
+  2024er-Vergleichszahl). Regionale Studien (meist USA) nicht als „Trend
+  zeichnet sich hierzulande ähnlich ab" umdeuten, wenn dafür kein Beleg da
+  ist — ehrlich als nicht direkt übertragbar kennzeichnen.
+- **Wie Suchmaschinen/KI-Systeme technisch genau funktionieren, nicht
+  behaupten, wenn es nicht belegt ist.** Konkrete Beispiele aus dem Post-7-
+  Review: nicht „Google zeigt bei jeder Suche eine KI-Zusammenfassung"
+  (AI Overviews erscheinen nur bei manchen Anfragen, abhängig von Suche/
+  Standort/Sprache) · „Local Pack" nicht als „die drei nächstgelegenen
+  Praxen" erklären (Google gewichtet Relevanz, Nähe und Bekanntheit
+  zusammen, nicht nur Entfernung) · nicht behaupten, eine KI-Zusammenfassung
+  bevorzuge bei doppelten Profilen automatisch das mit mehr Bewertungen ·
+  nicht behaupten, „KI-Systeme" übernähmen automatisch falsche Antworten
+  aus Googles Frage-Bereich · strukturierte Daten als Hilfe *für
+  Suchmaschinen, insbesondere Google* beschreiben, nicht pauschal für
+  „KI-Systeme" (unklar, ob/wie externe KI-Assistenten sie nutzen).
+- **Google-Suche und externe KI-Assistenten nicht als „dieselbe Quelle"
+  oder „dieselbe Grundlage" darstellen** — sie funktionieren technisch
+  unterschiedlich. Gemeinsamer Nenner ist die **Voraussetzung** (aktuelle,
+  eindeutige, öffentlich auffindbare Informationen), nicht der Mechanismus.
+- **Keine zu präzisen Zeiträume/Zahlen ohne Beleg**, z. B. nicht „sechs bis
+  zwölf Wochen, bis sich ein Effekt zeigt" oder „in zehn Minuten fertig" —
+  stattdessen vorsichtiger („kann nach einiger Zeit sichtbar werden,
+  abhängig von …", „ohne dass jedes Mal neu überlegt werden muss").
+  Ausnahme: Fristen mit echter Rechtsgrundlage (EU-AI-Act-Stichtage,
+  DSGVO-Fristen) bleiben exakt.
+- **Leistungsversprechen nur, wenn wirklich immer so** — „das baue ich
+  automatisch mit ein" nur schreiben, wenn es tatsächlich in jedem Projekt
+  passiert, sonst „kann ich ergänzen und prüfen" o. ä.
+- **Längen-Check vor Abgabe:** Wiederholt ein Absatz einen bereits
+  gemachten Punkt nur in anderen Worten, kürzen statt zusätzlich
+  einbauen — lieber 20–30 % knapper, wenn derselbe Kerngedanke mehrfach
+  vorkommt.
 
-(Leonie, 2026-09-17 — aus dem Review von Post #7 „Praxis bei Google
-sichtbar machen".)
+(Leonie, 2026-09-17 — aus zwei Review-Runden zu Post #7 „Praxis bei
+Google sichtbar machen": erst Tonalität/Absolutheit, dann ein
+fachliches Lektorat zu technischen Behauptungen über Google/KI-Suche.)
 
 ## 5. Textaufbau (jeder Text)
 
@@ -211,7 +248,11 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   „Renewal“ → *Verlängerung / auslaufende Mitgliedschaft*, „gut getimt“ →
   *zum passenden Zeitpunkt*, „No-Show“ → *Ausfall / nicht wahrgenommener
   Termin*, „Quick Win“ → *schneller erster Erfolg*, „Ads“ → *Werbeanzeigen /
-  Werbebudget*, „Linkbuilding“ → *aufwändige Linkaufbau-Maßnahmen* (in Sätzen, die
+  Werbebudget*, „Linkbuilding” → *aufwändige Linkaufbau-Maßnahmen*, „Painpoints” →
+  **kein fixes Ersatzwort, je nach Kontext**: „Engpässe“ passt für organisatorische
+  Reibung (Zeit, Abläufe), „wo es aktuell am meisten drückt“ für CTA-Fragen nach dem
+  größten Problem, „Schmerzpunkte“ nur wenn es wörtlich passt und nicht unfreiwillig
+  komisch wirkt (Gesundheitspraxis-Kontext!) (in Sätzen, die
   Ads und Linkbuilding gemeinsam als Nicht-Angebot nennen, gern gemeinsam
   umschreiben: „ohne Werbebudget und aufwändige Maßnahmen“). Eingebürgerte
   Fachbegriffe (Brand Voice, Chat-Assistent, KI, **Tool**) bleiben. (Leonie, 2026-08.)
@@ -315,7 +356,189 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
 - **Keine lapidaren Ausdrücke** für ernste Sachverhalte („scharf wird“ für ein
   Gesetz, das in Kraft tritt; „braucht dafür niemand“ für eine nicht nötige
   Maßnahme). Neutral-sachlich umschreiben („gilt in vollem Umfang“, „ist dafür
-  nicht notwendig“). (Leonie, 2026-09.)
+  nicht notwendig“). **Kommt immer wieder vor, besonders genau hinschauen**
+  (Leonie, 2026-09): auch legere/bildhafte Verben wie „verpuffen“,
+  „einschlafen“ (für ein Tool/eine Umstellung, die nicht mehr genutzt wird),
+  „draufgehen“ (für Zeitaufwand), „an den Tisch holen“ oder „ein Tool
+  danebenstellen“ zählen dazu — neutral-konkret umschreiben, was tatsächlich
+  passiert (z. B. „nicht mehr konsequent genutzt“ statt „eingeschlafen“).
+  Ebenso unklare Metaphern vermeiden, die nicht wörtlich gemeint sind (z. B.
+  „ein Tool verändert nur eine Oberfläche“) — direkt sagen, was gemeint ist.
+- **Pronomen eindeutig halten.** „das“/„dies“/„es“ nur verwenden, wenn beim
+  Lesen sofort klar ist, worauf es sich bezieht — sonst den Bezug ausschreiben
+  (Nomen wiederholen oder umformulieren). (Leonie, 2026-09.)
+- **Keine unbelegten/schwachen Quellen** wie eine automatisierte KI-/Google-
+  Zusammenfassung als Beleg zitieren. Für Zahlen/Aussagen mit Anspruch auf
+  Beleg-Charakter eine echte, benennbare Quelle recherchieren und korrekt
+  zitieren: offizielle Quelle zur Digitalisierung im Gesundheitswesen bzw. in
+  kleinen Unternehmen, wissenschaftliche Studie, Branchenstudie, oder seriöse
+  Veröffentlichung einer Berufsorganisation/eines Fachmagazins. Sekundärquellen
+  ehrlich als solche benennen (siehe auch Abschnitt „Nicht verhandelbar“ oben).
+  (Leonie, 2026-09.)
+- **Keine absoluten Alleinursache-/Alleinlösung-Behauptungen** bei Themen, die
+  erkennbar mehrere Ursachen haben (Projekt-Scheitern, Team-Skepsis,
+  technische Probleme). „X, das war der ganze Grund" oder „Y reicht, um Z zu
+  lösen" wirkt unglaubwürdig und zu einfach. Stattdessen differenzieren:
+  „X war nicht der einzige Grund, aber ein entscheidender" o. Ä. Ebenso bei
+  Team-Widerstand: Sorge vor Technik hat oft mehrere Ursachen (Arbeitsdruck,
+  frühere schlechte Erfahrungen, Kontrollgefühl), nicht nur eine erklärbare
+  Sorge — nicht auf eine einzige Diagnose verkürzen. (Leonie, 2026-09,
+  externes Lektorat #3.)
+- **Keine impliziten Falschaussagen durch Verkürzung**, v. a. bei
+  Umsetzungsschritten. „Ab Montag läuft X online, nicht mehr am Telefon"
+  kann klingen, als würde ein bestehender Kanal (z. B. telefonische
+  Terminvergabe) komplett abgeschafft — das ist in der Regel weder gemeint
+  noch realistisch (viele Kundinnen bevorzugen Telefon). Genau benennen, was
+  sich ändert (z. B. die parallele manuelle Übertragung entfällt), nicht was
+  plakativ klingt. (Leonie, 2026-09, externes Lektorat #3.)
+- **Rollenbezeichnungen müssen zur tatsächlich beschriebenen Aufgabe passen.**
+  Ein Label wie „Umsetzer" für eine Aufgabe, die tatsächlich nur „selbst
+  zuerst ausprobieren" bedeutet, suggeriert fälschlich, die Praxisleitung
+  müsse alles selbst durchführen. Label und Aufgabenbeschreibung gegenlesen:
+  Passt die Bezeichnung exakt zu dem, was der Text tatsächlich verlangt?
+  (Leonie, 2026-09, externes Lektorat #3 — „Umsetzer" → „Erstanwender" bei
+  Post #6.)
+- **Datenschutz-/Rechtsaussagen bei Gesundheitsdaten nicht als einfaches
+  Ja/Nein formulieren** („passt das Tool, oder nicht?"). Der Prüfmaßstab bei
+  Gesundheitsdaten ist hoch und hängt an konkreter Verarbeitung, Vertragslage,
+  technischen Schutzmaßnahmen, Rollen und Anbieterstandort — nicht an einer
+  pauschalen Eignung des Tools. Formulieren als Prüfauftrag („ob X für den
+  konkreten Anwendungsfall tragfähig geregelt ist"), nicht als binäre Frage.
+  (Leonie, 2026-09, externes Lektorat #3.)
+- **Rollenbezeichnungen (z. B. in einer Aufzählung von Funktionen/Rollen)
+  neutral in der kurzen, generischen Form**, nicht durchgehend weiblich
+  dekliniert: „Impulsgeber“, „Umsetzer“, „Koordinator“ — nicht „Impulsgeberin“,
+  „Umsetzerin“ usw. Das ist eine bewusste Ausnahme von der sonstigen
+  Gendern-Regel (Abschnitt 3), die dort gilt, wo eine Person in einer Rolle
+  benannt wird, nicht bei den üblichen Sammelbegriffen wie „Kundschaft“/
+  „Team“. (Leonie, 2026-09.)
+- **Keine symmetrischen KI-Muster-Sätze.** Ein AI-Detection-Tool hat bei
+  Post #6 wiederholt ganze Absätze als „Strong/Moderate AI patterns"
+  markiert — konkret: sauber ausbalancierte Gegensätze nach dem Schema
+  „nicht X, sondern Y" bzw. „dort ergänzen, wo X, nicht dort ersetzen, wo Y"
+  (z. B. „keine Technikaufgabe, sondern eine Führungsaufgabe"); Aufzählungen
+  oder Schritt-für-Schritt-Listen, bei denen jede Zeile exakt demselben
+  Satzmuster folgt („Tun Sie X, bevor/statt Y"); abstrakte Ketten-Sätze ohne
+  konkrete Verankerung („vom ersten Kontakt über X bis Y", „egal ob X oder
+  Y"). Statt eines abstrakten Gegensatzes eine **einzelne, konkrete
+  Situation** schildern (eine Kundin, ein Montag, ein Beispiel-Tool, eine
+  Uhrzeit). Bei Listen Satzlänge und Satzanfang **bewusst unterschiedlich**
+  formulieren, nicht jede Zeile im selben Muster. Ein konkretes Beispiel
+  schlägt eine allgemein formulierte Regel. Vor Abgabe: Enthält ein Absatz
+  mehr als eine „nicht X, sondern Y"-Konstruktion oder wirken alle Punkte
+  einer Liste syntaktisch identisch? Dann umformulieren. (Leonie, 2026-09.)
+  **Nachtrag nach zweiter Prüfrunde:** Einzelne Sätze austauschen reicht meist
+  nicht — der Detector flaggt danach oft die nächste Formulierung. Wirksamer
+  sind vier strukturelle Eingriffe: (1) **eine durchgehende, konkrete
+  Beispiel-Szene** durch mehrere Absätze/Abschnitte ziehen (z. B. dieselbe
+  Rezeption, dieselbe Kundin), statt für jeden Absatz ein neues generisches
+  Beispiel zu erfinden — Letzteres liest sich wie eine Reihe austauschbarer
+  KI-Illustrationen; (2) in Aufzählungen/Schritt-Listen **Satztyp und -länge
+  mischen** (nicht jede Zeile ein Imperativ mit „bevor"/„statt"-Anhängsel;
+  auch Aussagesätze, ein wörtliches Zitat, ein kurzer Satz dazwischen); (3)
+  **keine Kontrast-Formel aus der Überschrift im ersten Satz danach
+  wiederholen** („kein Technik-Projekt, sondern Führungs-Projekt" als
+  Zwischenüberschrift + „Das ist eine Führungsfrage, keine Technikfrage" im
+  Text direkt danach doppelt sich); die Überschrift trägt die Aussage schon,
+  der Fließtext soll sie zeigen, nicht nochmal behaupten; (4) **keine
+  Ketten aus zwei+ rhetorischen Fragen** hintereinander („Gab es damals
+  eine …? War genug Zeit …?") — liest sich wie eine abgearbeitete Checkliste.
+  (Leonie, 2026-09.)
+  **Nachtrag nach externem Lektorat (Perplexity-Review, Leonie 2026-09):**
+  Kontrast-/Parallel-Konstruktionen sind an sich ein legitimes Stilmittel und
+  nicht automatisch ein KI-Anzeichen — problematisch wird es erst, wenn ein
+  Text durchgehend nach demselben Schema Gegensatz → Verallgemeinerung →
+  Schlussfolgerung aufgebaut ist. Zusätzlich zu den vier Punkten oben:
+  - **Keine Story zwei-, dreimal in verschiedenen Abschnitten neu erzählen.**
+    Ein starkes, konkretes Beispiel reicht; spätere Abschnitte bauen darauf
+    auf oder verweisen kurz zurück, statt die Szene komplett neu aufzurollen.
+  - **Absolute Verallgemeinerungen vermeiden** („Ein Team merkt sofort …",
+    „Die Skepsis liegt fast immer daran …", „verschwindet … meist von
+    selbst"). Präziser/vorsichtiger: „wird meist schnell sichtbar",
+    „entsteht häufig, wenn …", „wird spürbar kleiner". Ebenso Zeit-/
+    Aufwandsangaben nicht pauschal als „reicht völlig aus" behaupten, sondern
+    an eine Bedingung knüpfen („für einen kleinen, klar abgegrenzten ersten
+    Schritt können 30 Minuten genügen").
+  - **Wiederkehrende Satzformeln vermeiden**, wenn sie mehrfach im selben
+    Text auftauchen: „Das ist kein Grund, …", „Entscheidend ist, …", „Genau
+    diese/an dieser Stelle …", „Wichtiger als … ist …". Einmalig sind sie
+    unproblematisch, als wiederholtes Muster wirken sie lehrbuchartig.
+  - **Zielgruppen-Sprache bewusst prüfen, nicht automatisch „neutralisieren".**
+    Externes Feedback schlägt teils „Patientinnen und Patienten" statt
+    „Kundin"/„Kundschaft" vor — das widerspricht der Positionierung
+    (Wahlarzt/Privat/Selbstzahler, Erlebnis-Fokus, siehe Abschnitt 1) und
+    wird **nicht** übernommen, außer Leonie entscheidet das aktiv anders.
+  - **Keine Angst-Trigger-Formulierungen ergänzen, auch wenn externes
+    Lektorat sie als „mehr Präzision" vorschlägt** (z. B. „keine
+    automatische Diagnose", „keine Behandlungsempfehlung durch KI"). Diese
+    Formulierungen fallen unter die bestehende Regel „Keine Angst-/Panik-
+    Formulierungen" weiter oben in diesem Abschnitt und bleiben verboten,
+    auch wenn ein externer Reviewer sie fachlich für sinnvoll hält.
+  **Dritter Nachtrag (Leonie, 2026-09) — nach mehreren Prüfrunden am selben
+  Text:** Wortweise/satzweise Umformulieren reicht oft nicht, wenn der
+  Detector immer wieder dieselben Absätze flaggt. Der eigentliche Fehler saß
+  in einem wiederkehrenden **Makro-Muster pro Absatz**: abstrakte
+  Einstiegsbehauptung → Beispiel → verallgemeinernder Schluss-Satz, der das
+  Gesagte nochmal auf eine Regel hebt. Das gilt es zu vermeiden:
+  - **Keinen generalisierenden Schluss-Satz an jeden Absatz hängen.** Ein
+    Absatz darf auf einem konkreten Detail enden, ohne es nochmal in eine
+    allgemeine Aussage zu übersetzen ("Digitalisierung, die nur einen Punkt
+    verändert, erzeugt an dieser Schnittstelle oft neue Arbeit" am Ende
+    weglassen — das konkrete Beispiel davor trägt den Punkt bereits).
+  - **FAQ-Antworten mit der Handlung/Antwort beginnen, nicht mit einer
+    Diagnose-These** ("Skepsis entsteht häufig dann, wenn …" vor die Handlung
+    zu stellen, liest sich lehrbuchartig). Diagnose, wenn überhaupt, kommt
+    knapp am Ende nach.
+  - **Aufzählungspunkte wirklich unterschiedlich bauen**, nicht nur
+    Imperativ/Aussagesatz abwechseln — auch Satzlänge, ob ein Beispiel
+    genannt wird, ob ein Punkt eine Konsequenz statt eine Handlung
+    beschreibt, variieren. Ruhig auch mal ein Punkt sehr kurz, einer länger.
+  - **Konkrete, leicht "unrunde" Details schlagen glatte Formulierungen**:
+    eine plausible Zahl statt "oft"/"häufig" (z. B. "drei Monate, wenn viel
+    dazwischenkommt" statt "die Umstellung zieht sich in die Länge"), ein
+    beiläufiger Nebensatz statt einer sauberen Kausalkette. (Leonie, 2026-09.)
+  **Vierter Nachtrag — das eigentliche Grundproblem (Leonie, 2026-09), nach
+  fünf Prüfrunden am selben Text:** Wortweises und sogar absatzweises
+  Umformulieren hat wiederholt nicht gereicht. Der Fehler lag nicht in
+  einzelnen Wörtern oder Formeln, sondern in einer durchgehenden
+  **Satzbau-Gewohnheit**: (fast) jeder Satz ist ein in sich geschlossenes,
+  sauber aufgelöstes Mini-Argument — eine Situation nennen und im selben
+  oder im nächsten Halbsatz tidy erklären, was sie bedeutet. Auch konkrete
+  Beispiele wurden so "sauber gebaut": eine plausible, aber generische Szene
+  (Rezeption, Online-Buchung, Dokumentationstool), in einem grammatisch
+  perfekten Satz, der genau einen Punkt macht und ihn vollständig auflöst.
+  Genau das erkennt ein Grammarly-artiger Detector als "KI-typisch" —
+  unabhängig vom Wortlaut. Jede bisherige Korrekturrunde hat neue Wörter in
+  dieselbe Satzarchitektur eingesetzt, deshalb wurde immer wieder dieselbe
+  Stelle neu geflaggt.
+  Was am Satzbau tatsächlich helfen kann:
+  - Nicht jeden Punkt im selben Satz vollständig auflösen — manches darf als
+    kurzer Fragmentsatz ohne eigene Haupt-Verb-Klausel stehen bleiben
+    ("Ein Satz, mehr nicht.").
+  - Ein konkretes Detail an eine bereits laufende Szene anschließen, statt
+    für jeden Absatz eine neue, in sich geschlossene Situation mit eigenem
+    Setup zu bauen.
+  - Nicht jeden Absatz mit einer erklärenden Schluss-Klausel abschließen —
+    auch mal auf der reinen Handlung enden, ohne sie einzuordnen.
+  - Aufzählungspunkte dürfen unterschiedlich "fertig" wirken: der eine ein
+    vollständiger Satz mit Beispiel, der andere nur eine Nominalphrase mit
+    Nebensatz.
+  **Wichtige Einordnung — Zielkonflikt mit der Brand Voice:** Diese Eingriffe
+  drücken den Text bewusst Richtung lockerer, weniger "sauber". Das steht in
+  Spannung zu Abschnitt 4 dieser Datei ("Kurze bis mittellange Sätze, keine
+  Schachtelsätze, Verben statt Substantive, klare Absätze") — genau diese
+  Klarheit ist es, was ein Detector als "aufgeräumt" und damit potenziell
+  "KI-typisch" liest. Ein Grammarly-artiges Tool wird bei professionell
+  strukturierter B2B-Sprache vermutlich nie komplett auf null gehen; das hat
+  auch das externe Lektorat (siehe „Zweiter Nachtrag" oben) ausdrücklich
+  bestätigt: "Nicht versuchen, den Text künstlich unperfekt zu machen." Die
+  beiden Rückmeldungen (Grammarly-Flags vs. externes Lektorat) widersprechen
+  sich an dieser Stelle real. **Regel für künftige Runden:** Flaggt eine
+  Stelle nach zwei gewissenhaften Überarbeitungen am Satzbau (nicht nur am
+  Wortlaut) weiterhin, ist das kein Signal für "nochmal umformulieren",
+  sondern ein Punkt, an dem Leonie aktiv gefragt wird, wie weit Richtung
+  "bewusst unperfekt" gegangen werden soll — statt eigenmächtig weitere
+  Runden mit reinem Wortersatz zu drehen.
 
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
@@ -324,7 +547,6 @@ Martina sagt Dinge wie:
 - „Wenn meine langjährige Mitarbeiterin geht, nimmt sie alles Wissen mit.“
 - „Wir arbeiten eigentlich immer noch wie vor zehn Jahren.“
 - „Ich weiß, dass ich etwas ändern sollte – aber ich weiß nicht, wo ich anfangen soll.“
-- „Wir haben schon mal ChatGPT ausprobiert, aber das war irgendwie nichts Halbes und nichts Ganzes.“
 
 **Weitere O-Töne aus der Marktforschung** (Silicon Sampling, synthetisch – so
 beschreibt die Zielgruppe ihren organisatorischen Alltag):
@@ -386,14 +608,18 @@ das nicht einhalten kann. Kurz: **Thema ja, konkrete Session-Inhalte als Verspre
 (Leonie, 2026-08.)
 
 **Präzisierung (Leonie, 2026-09):** Die Potenzialanalyse selbst ist inhaltlich eine
-**allgemeine Abfrage zu Digitalisierungsgrad, Zielen und Painpoints** — kein tiefes
+**allgemeine Abfrage zu Digitalisierungsgrad, Zielen und Engpässen** — kein tiefes
 Gespräch zu einem einzelnen Thema. Der Post-Bezug aus dem Absatz oben bleibt erlaubt,
 aber als **leichter Nachsatz, nicht als Haupt-Framing**: Die Headline/der erste Teil des
-CTA-Texts führt über Digitalisierungsstand/Ziele/Painpoints allgemein, das Post-Thema
+CTA-Texts führt über Digitalisierungsstand/Ziele/Engpässe allgemein, das Post-Thema
 kann am Ende ergänzt werden (z. B. „…, der EU AI Act eingeschlossen"), aber nicht als
 „wir schauen uns gemeinsam Ihr Thema X an" formuliert werden. Gilt ab sofort für neue
 Posts; bestehende Posts #1–#4 laufen mit der bisherigen, themenzentrierten CTA-Formel
 weiter, bis Leonie entscheidet, ob sie dort ebenfalls angepasst werden.
+**Korrektur (Leonie, 2026-09):** „Painpoints" war hier fälschlich stehen geblieben —
+Anglizismus, verstößt gegen §9. Am 2026-09-17 in Post #5 (live) durch „wo es aktuell am
+meisten drückt" ersetzt, nach Rücksprache mit Leonie — siehe §9 Wort-Blacklist,
+„Painpoints" hat **kein festes Ersatzwort**, „Engpässe" passt nicht in jedem Kontext.
 
 ### Blog-CTA-Muster
 
