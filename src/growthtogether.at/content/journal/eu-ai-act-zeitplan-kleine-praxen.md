@@ -12,7 +12,7 @@ category: "Datenschutz & EU AI Act"
 readingTime: 8
 tags: ["EU AI Act", "Datenschutz", "KI-Kompetenz"]
 ctaHeadline: "Nächster Schritt: Klarheit für Ihre Praxis"
-ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Painpoints liegen. Die Zusammenfassung bekommen Sie danach schriftlich."
+ctaText: "In 30 Minuten schauen wir uns gemeinsam an, wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo es aktuell am meisten drückt. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: false
 ---
 
@@ -106,6 +106,6 @@ Das lässt sich in aller Regel nachholen. Die Liste der eingesetzten Systeme und
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie das Gefühl kennen, dass der EU AI Act irgendwo auf Ihrer Liste steht, aber nie ganz oben, dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse an: wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo aktuell die größten Painpoints liegen, der EU AI Act eingeschlossen.
+Wenn Sie das Gefühl kennen, dass der EU AI Act irgendwo auf Ihrer Liste steht, aber nie ganz oben, dann schauen wir uns das gern in einer kostenfreien Potenzialanalyse an: wo Ihre Praxis bei der Digitalisierung steht, welche Ziele Sie haben und wo es aktuell am meisten drückt, der EU AI Act eingeschlossen.
 
 Im nächsten Beitrag geht es darum, warum Digitalisierung in der Praxis vor allem eine Frage der Leitung ist, nicht der Software.

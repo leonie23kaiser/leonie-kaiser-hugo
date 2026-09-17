@@ -158,18 +158,55 @@ Website-Texte, `content-export/website-texte.md`.)
   eigenen Website und Bewertungen" statt „…, den Inhalt der eigenen
   Website, Bewertungen".
 - **Eigennamen und feststehende Fachbegriffe in Anführungszeichen**, z. B.
-  „Local Pack", „Brand Voice".
+  „Local Pack". **„Brand Voice" nicht mehr als Fachbegriff verwenden** —
+  stattdessen „sprachliche Leitlinie" (deutsch, ohne Anglizismus), den
+  englischen Begriff höchstens ergänzend in Klammer.
 - **„Lücken" nur für freie Termine im Kalender verwenden** (z. B.
   „Terminlücken"). Für Datenprobleme: „Unstimmigkeiten", „widersprüchliche
   Angaben", „veraltete Daten", „unvollständige Informationen".
 - **Mundpropaganda und bestehende Kanäle nicht abwerten.** Online-
   Sichtbarkeit als zusätzliche Chance positionieren, nicht als Ersatz für
   Empfehlungen.
-- **Studien/Zahlen immer mit nachvollziehbarer, verlinkter Originalquelle.**
-  Keine Studie ohne überprüfbare Quelle anführen.
+- **Studien/Zahlen immer mit nachvollziehbarer, verlinkter Originalquelle,**
+  und **die Studie korrekt zusammenfassen** — genau nachlesen, welche
+  Zeitspanne/Methodik/Region die Zahl wirklich abdeckt (z. B. SparkToro
+  2026: US-Daten auf Basis von Similarweb, nicht Datos — Datos war nur die
+  2024er-Vergleichszahl). Regionale Studien (meist USA) nicht als „Trend
+  zeichnet sich hierzulande ähnlich ab" umdeuten, wenn dafür kein Beleg da
+  ist — ehrlich als nicht direkt übertragbar kennzeichnen.
+- **Wie Suchmaschinen/KI-Systeme technisch genau funktionieren, nicht
+  behaupten, wenn es nicht belegt ist.** Konkrete Beispiele aus dem Post-7-
+  Review: nicht „Google zeigt bei jeder Suche eine KI-Zusammenfassung"
+  (AI Overviews erscheinen nur bei manchen Anfragen, abhängig von Suche/
+  Standort/Sprache) · „Local Pack" nicht als „die drei nächstgelegenen
+  Praxen" erklären (Google gewichtet Relevanz, Nähe und Bekanntheit
+  zusammen, nicht nur Entfernung) · nicht behaupten, eine KI-Zusammenfassung
+  bevorzuge bei doppelten Profilen automatisch das mit mehr Bewertungen ·
+  nicht behaupten, „KI-Systeme" übernähmen automatisch falsche Antworten
+  aus Googles Frage-Bereich · strukturierte Daten als Hilfe *für
+  Suchmaschinen, insbesondere Google* beschreiben, nicht pauschal für
+  „KI-Systeme" (unklar, ob/wie externe KI-Assistenten sie nutzen).
+- **Google-Suche und externe KI-Assistenten nicht als „dieselbe Quelle"
+  oder „dieselbe Grundlage" darstellen** — sie funktionieren technisch
+  unterschiedlich. Gemeinsamer Nenner ist die **Voraussetzung** (aktuelle,
+  eindeutige, öffentlich auffindbare Informationen), nicht der Mechanismus.
+- **Keine zu präzisen Zeiträume/Zahlen ohne Beleg**, z. B. nicht „sechs bis
+  zwölf Wochen, bis sich ein Effekt zeigt" oder „in zehn Minuten fertig" —
+  stattdessen vorsichtiger („kann nach einiger Zeit sichtbar werden,
+  abhängig von …", „ohne dass jedes Mal neu überlegt werden muss").
+  Ausnahme: Fristen mit echter Rechtsgrundlage (EU-AI-Act-Stichtage,
+  DSGVO-Fristen) bleiben exakt.
+- **Leistungsversprechen nur, wenn wirklich immer so** — „das baue ich
+  automatisch mit ein" nur schreiben, wenn es tatsächlich in jedem Projekt
+  passiert, sonst „kann ich ergänzen und prüfen" o. ä.
+- **Längen-Check vor Abgabe:** Wiederholt ein Absatz einen bereits
+  gemachten Punkt nur in anderen Worten, kürzen statt zusätzlich
+  einbauen — lieber 20–30 % knapper, wenn derselbe Kerngedanke mehrfach
+  vorkommt.
 
-(Leonie, 2026-09-17 — aus dem Review von Post #7 „Praxis bei Google
-sichtbar machen".)
+(Leonie, 2026-09-17 — aus zwei Review-Runden zu Post #7 „Praxis bei
+Google sichtbar machen": erst Tonalität/Absolutheit, dann ein
+fachliches Lektorat zu technischen Behauptungen über Google/KI-Suche.)
 
 ## 5. Textaufbau (jeder Text)
 
@@ -212,7 +249,10 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   *zum passenden Zeitpunkt*, „No-Show“ → *Ausfall / nicht wahrgenommener
   Termin*, „Quick Win“ → *schneller erster Erfolg*, „Ads“ → *Werbeanzeigen /
   Werbebudget*, „Linkbuilding” → *aufwändige Linkaufbau-Maßnahmen*, „Painpoints” →
-  *Engpässe* (in Sätzen, die
+  **kein fixes Ersatzwort, je nach Kontext**: „Engpässe“ passt für organisatorische
+  Reibung (Zeit, Abläufe), „wo es aktuell am meisten drückt“ für CTA-Fragen nach dem
+  größten Problem, „Schmerzpunkte“ nur wenn es wörtlich passt und nicht unfreiwillig
+  komisch wirkt (Gesundheitspraxis-Kontext!) (in Sätzen, die
   Ads und Linkbuilding gemeinsam als Nicht-Angebot nennen, gern gemeinsam
   umschreiben: „ohne Werbebudget und aufwändige Maßnahmen“). Eingebürgerte
   Fachbegriffe (Brand Voice, Chat-Assistent, KI, **Tool**) bleiben. (Leonie, 2026-08.)
@@ -577,9 +617,9 @@ kann am Ende ergänzt werden (z. B. „…, der EU AI Act eingeschlossen"), aber
 Posts; bestehende Posts #1–#4 laufen mit der bisherigen, themenzentrierten CTA-Formel
 weiter, bis Leonie entscheidet, ob sie dort ebenfalls angepasst werden.
 **Korrektur (Leonie, 2026-09):** „Painpoints" war hier fälschlich stehen geblieben —
-Anglizismus, verstößt gegen §9. In der neutralen CTA-Textvorlage (Posts #5, #6) durch
-„Engpässe" ersetzt. Post #5 (live) nutzt „Painpoints" noch im echten CTA-Text; Fix dort
-erst nach Rücksprache mit Leonie, da bereits veröffentlicht.
+Anglizismus, verstößt gegen §9. Am 2026-09-17 in Post #5 (live) durch „wo es aktuell am
+meisten drückt" ersetzt, nach Rücksprache mit Leonie — siehe §9 Wort-Blacklist,
+„Painpoints" hat **kein festes Ersatzwort**, „Engpässe" passt nicht in jedem Kontext.
 
 ### Blog-CTA-Muster
 
