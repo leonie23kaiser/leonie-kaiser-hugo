@@ -10,51 +10,51 @@
   url: /leistungen/termine-und-anfragen/
   branche: Termine & Anfragen
   schmerz: "Anfragen kommen über Telefon, WhatsApp und E-Mail herein, Erinnerungen werden manuell verschickt, und kurzfristige Absagen hinterlassen Lücken im Kalender."
-  intro: "Wickeln Sie die Terminkoordination reibungslos ab, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet."
+  intro: "Strukturieren Sie Terminanfragen, Erinnerungen und freie Termine so, dass Ihr Team weniger Zeit mit wiederkehrenden Telefonaten und E-Mails verbringt."
   usecases:
     - titel: "Online-Terminbuchung"
       desc: "Ein Selbstbuchungslink, in Ihr bestehendes System integriert. Ihre Kundschaft bucht selbst, Sie behalten die Kontrolle über den Kalender."
     - titel: "Automatische Erinnerungen und Wartelisten-Nachbesetzung"
-      desc: "Erinnerungen über den bevorzugten Kanal senken die Ausfälle. Kurzfristig frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt."
+      desc: "Erinnerungen über den bevorzugten Kanal können die Ausfälle senken. Frei gewordene Termine können nach klaren Regeln an passende Personen auf der Warteliste angeboten werden."
     - titel: "Chat-Assistent für Erstanfragen"
-      desc: "Ein datenschutzkonformer Assistent auf Ihrer Website beantwortet Öffnungszeiten, Anfahrt, Preise und Terminwünsche, ohne medizinische Auskunft zu geben."
+      desc: "Ein Chat-Assistent für klar abgegrenzte organisatorische Fragen, etwa zu Öffnungszeiten, Anfahrt, Preisen und Terminwünschen. Vor dem Einsatz klären wir Datenarten, Datenflüsse und Schutzmaßnahmen; der Chat weist klar darauf hin, dass Antworten von einem KI-System stammen."
     - titel: "E-Mail-Assistent für eingehende Anfragen"
-      desc: "Jede eingehende Anfrage wird nach Thema und Dringlichkeit eingestuft: Standardfragen, die sich direkt beantworten lassen, Anfragen mit Klärungsbedarf und dringende Fälle. Zu jeder liegt ein Antwortentwurf in Ihrer Tonalität bereit, den Sie nur noch prüfen und freigeben. Angelernt wird der Assistent auf den Anfragen der letzten zwölf Monate."
+      desc: "Ein E-Mail-Assistent kann eingehende Anfragen nach zuvor festgelegten organisatorischen Kategorien vorsortieren und Antwortentwürfe vorbereiten. Medizinische oder fachlich dringliche Anliegen werden nicht automatisch bewertet, sondern nach klaren Regeln direkt an zuständige Menschen in der Praxis weitergeleitet."
     - titel: "Telefonassistent für Anrufe außerhalb der Öffnungszeiten"
-      desc: "Nimmt Anrufe entgegen, wenn niemand am Empfang ist, beantwortet Standardfragen und nimmt Terminwünsche auf. So geht auch abends und am Wochenende keine Anfrage verloren."
+      desc: "Nimmt Anrufe entgegen, wenn niemand am Empfang ist, beantwortet Standardfragen und nimmt Terminwünsche auf. So können organisatorische Anliegen auch außerhalb der Öffnungszeiten entgegengenommen und nach festgelegten Regeln an das Team weitergeleitet werden. Der Assistent gibt keine medizinischen Auskünfte und weist bei akuten Beschwerden klar auf die zuständigen Notfallwege hin."
   beispiel:
     ausgangssituation: "In einer kleinen Physiotherapiepraxis kommen die Terminanfragen über Telefon, WhatsApp und E-Mail herein. Die Erinnerungen verschickt das Team von Hand. Sagt jemand kurzfristig ab, bleibt der Termin meist unbesetzt, und die Rezeption wird über den Tag hinweg immer wieder unterbrochen."
-    vorgehen: "Wir richten eine Online-Terminbuchung mit Selbstbuchungslink ein. Dazu kommen automatische Erinnerungen über den bevorzugten Kanal und eine Warteliste, die frei gewordene Termine selbstständig nachbesetzt. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
-    ergebnis: "Es gibt spürbar weniger Ausfälle, freie Termine füllen sich von selbst, und am Telefon gibt es deutlich weniger Rückfragen. So bleibt pro Tag mehr Zeit für die Behandlung statt für die Organisation."
+    vorgehen: "Wir richten eine Online-Terminbuchung mit Selbstbuchungslink ein. Dazu kommen automatische Erinnerungen über den bevorzugten Kanal und eine Warteliste, die frei gewordene Termine nach klaren Regeln anbietet. Die Einführung erfolgt mit Blick auf Datenschutz, Datenflüsse und die erforderlichen Schutzmaßnahmen, und das Team wird eingewiesen."
+    ergebnis: "Freie Termine können schneller wieder angeboten werden, und das Team wird bei wiederkehrenden Rückfragen entlastet. Je nach Ausgangslage können weniger unbesetzte Termine und mehr Zeit für die Behandlung statt für die Organisation entstehen."
   faq:
     - q: "Kann ich selbst festlegen, was der Assistent beantwortet?"
       a: "Ja. Sie geben vor, welche Fragen er übernimmt, typischerweise Öffnungszeiten, Anfahrt, Preise und Terminwünsche. Alles Weitere leitet er an Sie und Ihr Team weiter."
     - q: "Lässt sich die Online-Terminbuchung in mein bestehendes System einbinden?"
       a: "In der Regel ja. Die Buchung wird an Ihren bestehenden Kalender oder Ihre Praxissoftware angebunden, sodass Sie weiter an einer Stelle arbeiten und den Überblick behalten."
-    - q: "Woher weiß der E-Mail-Assistent, was dringend ist?"
-      a: "Sie lernt aus den Anfragen, die Ihre Praxis in den letzten zwölf Monaten tatsächlich bekommen hat. Daraus entstehen Ihre Themenbereiche und die Einstufung von grün bis rot. Die Regeln legen Sie fest und können sie jederzeit ändern. Nichts wird ungeprüft verschickt: Sie sehen den Antwortentwurf und geben ihn frei."
+    - q: "Wie erkennt der E-Mail-Assistent, welche Anfrage wohin gehört?"
+      a: "Die Kategorien und Weiterleitungsregeln werden gemeinsam festgelegt, zum Beispiel für allgemeine organisatorische Fragen, Terminwünsche oder Anliegen, die direkt an eine zuständige Person gehen müssen. Der Assistent kann daraus Vorschläge für die Einordnung und für Antwortentwürfe erstellen. Vor dem Versand prüft und genehmigt eine Person aus Ihrem Team jede Antwort."
 
 - slug: nachsorge-bindung
   url: /leistungen/nachsorge-und-kundenbindung/
   branche: Nachsorge & Kundenbindung
   schmerz: "Oftmals reißt der Kontakt zur Kundschaft nach der Behandlung ab. Nachfassen und Wiedereinbestellung laufen von Hand und verstreut über verschiedene Kanäle."
-  intro: "Mit automatisierter Nachsorge bleibt der Kontakt bestehen, ohne dass jemand aktiv daran denken und es umsetzen muss. Regelmäßige Erinnerungen zum passenden Zeitpunkt erhöhen die Besuchsfrequenz Ihrer Stammkundschaft."
+  intro: "Automatisierte Nachsorge kann wiederkehrende Kontaktpunkte zuverlässig vorbereiten, ohne dass jede Nachricht einzeln erstellt und versendet werden muss. Welche Erinnerungen sinnvoll und zulässig sind, hängt von Anlass, Kommunikationskanal und Ihrer Praxis ab."
   usecases:
     - titel: "Automatisierte Nachsorge-Sequenzen"
       desc: "Nach Behandlung, Paket oder Erstberatung läuft die Nachsorge strukturiert, zur richtigen Zeit, im richtigen Ton, ohne manuelles Nachhalten."
     - titel: "Reaktivierung früherer Kundschaft"
-      desc: "Wer länger nicht da war, bekommt zum passenden Zeitpunkt eine freundliche Erinnerung. Das reaktiviert Stammkundschaft und erhöht die Besuchsfrequenz."
+      desc: "Wer länger nicht da war, kann zum passenden Zeitpunkt eine freundliche Wiedereinbestellung erhalten, die an einen möglichen Folgetermin erinnert."
     - titel: "Bewertungs- und Empfehlungsanfragen"
-      desc: "Automatisch zum richtigen Zeitpunkt nach dem Termin, einer der stärksten Hebel für neue Anfragen, ganz ohne zusätzlichen Aufwand."
+      desc: "Automatisch zum passenden Zeitpunkt nach dem Termin. Bewertungs- und Empfehlungsanfragen können die Sichtbarkeit einer Praxis stärken, sofern Zeitpunkt, Kanal und rechtliche Vorgaben passen."
   beispiel:
     ausgangssituation: "In einem privatärztlichen Gesundheitszentrum reißt der Kontakt zur Kundschaft nach der Behandlung ab. Erinnerungen an auslaufende Mitgliedschaften und das Nachfassen nach der Behandlung laufen von Hand und verstreut über verschiedene Kanäle. Dadurch werden sie leicht vergessen oder gehen unter, und Kundschaft geht still verloren."
-    vorgehen: "Wir richten eine automatisierte Nachsorge-Sequenz ein, dazu eine Wiedereinbestellung zum richtigen Zeitpunkt, eine Bewertungsanfrage nach dem Termin und Erinnerungen an auslaufende Mitgliedschaften. Alles wird datenschutzkonform aufgesetzt und das Team wird eingewiesen."
-    ergebnis: "Es gibt mehr Folgetermine und eine planbarere Auslastung. Die Nachsorge läuft zuverlässig, ohne dass jemand aktiv daran denken und sie umsetzen muss."
+    vorgehen: "Wir richten eine automatisierte Nachsorge-Sequenz ein, dazu eine Wiedereinbestellung zum richtigen Zeitpunkt, eine Bewertungsanfrage nach dem Termin und Erinnerungen an auslaufende Mitgliedschaften. Die Einführung erfolgt mit Blick auf Datenschutz, Datenflüsse und die erforderlichen Schutzmaßnahmen, und das Team wird eingewiesen."
+    ergebnis: "Nachsorge und Wiedereinbestellung laufen verlässlicher, und das Team muss weniger manuell nachhalten. Ob daraus mehr Folgetermine entstehen, hängt weiterhin von Angebot, Bedarf und Rückmeldungen der Kundschaft ab."
   faq:
     - q: "Wirken automatische Nachrichten nicht unpersönlich?"
       a: "Wir formulieren die Nachrichten gemeinsam, in Ihrer Tonalität und mit Ihren Worten. Damit klingen sie nach Ihrer Praxis und nicht nach Vorlage. Sie geben frei, was rausgeht. Automatisiert ist nur der Versand zum richtigen Zeitpunkt, nicht die Beziehung zu Ihrer Kundschaft."
     - q: "Dürfen Kundendaten dafür verarbeitet werden?"
-      a: "Mit dem passenden Setup ja: EU-Hosting wo möglich, Auftragsverarbeitungsverträge und klar geregelte Datenflüsse. Welche Lösung zu Ihrer Praxis passt, klären wir gemeinsam."
+      a: "Das hängt vom Anlass, den verwendeten Daten, dem Kommunikationskanal und der konkreten technischen Lösung ab. Vor dem Einsatz klären wir Datenarten, Rechtsgrundlage, Speicherort, Zugriffsrechte, erforderliche Verträge und Abmeldemöglichkeiten. Bei rechtlichen Spezialfragen wird geeignete Fachberatung einbezogen."
     - q: "Wie oft bekommt meine Kundschaft solche Nachrichten?"
       a: "So selten wie möglich und so oft wie nötig. Wir legen gemeinsam fest, welcher Anlass welche Nachricht auslöst und wie viel Abstand dazwischen liegt. Wer bereits einen Folgetermin gebucht hat, wird nicht zusätzlich erinnert, und jede Nachricht lässt sich abbestellen."
 
@@ -62,25 +62,25 @@
   url: /leistungen/dokumentation-und-wissen/
   branche: Dokumentation & Wissen
   schmerz: "Befunde und Notizen werden abends nachgeschrieben, alle im Team dokumentieren auf ihre eigene Art, und wichtiges Wissen steckt in einzelnen Köpfen, Notizbüchern und verstreuten Dateien."
-  intro: "Gewinnen Sie Ihre Abende zurück und machen Sie Vertretung und Einarbeitung neuer Mitarbeiter leichter."
+  intro: "Reduzieren Sie Nacharbeit nach Feierabend und erleichtern Sie Vertretung sowie die Einarbeitung neuer Mitarbeitender."
   usecases:
     - titel: "Notizen strukturieren"
-      desc: "Aus Gesprächs- und Behandlungsnotizen wird ein sauberes Protokoll, das Sie nur noch gegenlesen. Die fachliche Beurteilung bleibt jederzeit bei Ihnen."
+      desc: "Aus Gesprächs- und Behandlungsnotizen kann ein strukturierter Entwurf entstehen, den eine fachkundige Person prüft, ergänzt und freigibt. Die fachliche Beurteilung bleibt jederzeit bei Ihnen."
     - titel: "Vorlagen-Bibliothek"
       desc: "Für Berichte, Rückmeldungen an Zuweiser, Aufklärungen und individuelle Pläne. Einmal aufgesetzt, in Ihrer Sprache, immer wieder nutzbar."
     - titel: "Praxis-Handbuch für Ihr Team"
       desc: "Ein zentrales, lebendes Handbuch für die Praxis: wiederkehrende Abläufe (Terminvergabe, Abrechnung, Geräte), Vorlagen, Zuständigkeiten und Antworten auf häufige Fragen. So steckt Wissen nicht mehr nur in einzelnen Köpfen, und Vertretung und Einarbeitung neuer Mitarbeitender werden deutlich leichter."
   beispiel:
     ausgangssituation: "In einer kleinen Gesundheitspraxis werden Befunde und Notizen abends nachgeschrieben. Alle im Team dokumentieren auf ihre eigene Art, und wichtiges Wissen steckt in einzelnen Köpfen, Notizbüchern und verstreuten Dateien."
-    vorgehen: "Wir bereiten Ihre Notizen strukturiert auf, sodass Sie sie nur noch gegenlesen und freigeben. Dazu kommen eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Praxis-Handbuch für Ihr Team. Alles wird Art.-9-konform aufgesetzt."
-    ergebnis: "Es bleibt kaum noch Arbeit nach Feierabend, die Dokumentation ist einheitlich, und Vertretung oder Einarbeitung neuer Mitarbeitender wird deutlich einfacher."
+    vorgehen: "Wir bereiten Ihre Notizen strukturiert auf, sodass eine fachkundige Person sie prüft, ergänzt und freigibt. Dazu kommen eine Vorlagen-Bibliothek für wiederkehrende Dokumente und ein zentrales Praxis-Handbuch für Ihr Team. Vor dem Einsatz klären wir, welche Gesundheitsdaten verarbeitet werden und welche Datenschutzschritte erforderlich sind."
+    ergebnis: "Die Nacharbeit kann spürbar sinken, die Dokumentation wird einheitlicher, und Vertretung oder Einarbeitung neuer Mitarbeitender werden leichter."
   faq:
     - q: "Behalte ich die Kontrolle über die Dokumentation?"
       a: "Ja, vollständig. Die KI bereitet Ihre Notizen und Vorlagen nur vor, Sie lesen gegen und geben frei. Die fachliche Beurteilung und jede Entscheidung bleiben bei Ihnen."
     - q: "Sind Gesundheitsdaten dabei sicher?"
-      a: "Datenschutz ist die Grundlage. Gesundheitsdaten fallen unter DSGVO Art. 9. Wir arbeiten mit EU-Hosting wo möglich und, wenn die Daten besonders sensibel sind, auch mit lokalen Lösungen, bei denen die Daten Ihre Praxis nicht verlassen. Dazu kommen Auftragsverarbeitungsverträge und klar geregelte Datenflüsse."
+      a: "Gesundheitsdaten erfordern besondere Sorgfalt. Vor dem Einsatz klären wir, welche Daten verarbeitet werden, wo und durch wen sie verarbeitet werden, welche technischen und organisatorischen Schutzmaßnahmen erforderlich sind und ob eine lokale oder geeignete europäische Cloud-Lösung zum Ablauf passt. Wenn ein Anbieter personenbezogene Daten im Auftrag verarbeitet, prüfen wir die erforderlichen vertraglichen Regelungen. Bei rechtlichen Spezialfragen wird geeignete Fachberatung einbezogen."
     - q: "Muss ich dafür meine Praxissoftware wechseln?"
-      a: "In aller Regel nicht. Die Lösung wird um Ihre bestehende Software herum gebaut, nicht andersherum. Sollte ein Wechsel wirklich sinnvoll sein, sage ich Ihnen das offen und mit Begründung, entscheiden tun Sie."
+      a: "Oft lässt sich eine Lösung an bestehende Systeme anbinden oder zunächst daneben einsetzen. Ob das in Ihrer Praxis sinnvoll und technisch möglich ist, prüfen wir vorab. Ein Wechsel der Praxissoftware ist nicht der Ausgangspunkt, kann in Einzelfällen aber eine Option sein."
 
 - slug: sichtbarkeit-inhalte
   url: /leistungen/sichtbarkeit-und-inhalte/
@@ -89,21 +89,21 @@
   intro: "Für Website-Texte, Newsletter, Social-Media-Beiträge und Aushänge in der Praxis erhalten Sie von mir Vorlagen und Textgerüste, mit denen neue Inhalte in Ihrer eigenen Sprache entstehen, statt jedes Mal vor einem leeren Blatt zu sitzen."
   usecases:
     - titel: "Ihre Tonalität festlegen (Brand Voice)"
-      desc: "Wir halten schriftlich fest, wie Ihre Praxis klingt: Ansprache, Fachtiefe, Wortwahl und welche Wörter und Ausdrücke Sie bewusst nicht verwenden möchten. Diese Vorgabe steuert danach jeden KI-Entwurf."
+      desc: "Wir halten schriftlich fest, wie Ihre Praxis klingt: Ansprache, Fachtiefe, Wortwahl und welche Wörter und Ausdrücke Sie bewusst nicht verwenden möchten. Diese Leitlinie dient als Grundlage für KI-Entwürfe und das anschließende Gegenlesen im Team."
     - titel: "Vorlagen für Social Media und Newsletter"
       desc: "Fertige Textgerüste für die Anlässe, die bei Ihnen regelmäßig wiederkehren, etwa Urlaubszeiten, neue Angebote oder Team-Neuzugänge. Sie füllen aus statt neu zu schreiben."
     - titel: "KI-Entwürfe für wiederkehrende Texte"
       desc: "Für Website-Abschnitte, Aushänge und Antworten auf Standardfragen entsteht ein Entwurf in Ihrer Tonalität, den Sie gegenlesen und freigeben."
     - titel: "Auffindbarkeit in KI-Suchen (GEO)"
-      desc: "Immer mehr Menschen fragen KI-Assistenten statt einer Suchmaschine. Damit Ihre Praxis dort überhaupt als Antwort infrage kommt, müssen Angebot, Einzugsgebiet, Schwerpunkte und Öffnungszeiten maschinenlesbar auf Ihrer Website stehen. Genau das richte ich ein. Ob und wann ein Assistent Ihre Praxis nennt, entscheidet der Anbieter, nicht ich. Was ich zusichern kann: Ihre Angaben sind vollständig, aktuell und korrekt auslesbar, statt zu fehlen oder veraltet zu sein."
+      desc: "Immer mehr Menschen fragen KI-Assistenten statt einer Suchmaschine. Damit Ihre Praxis dort überhaupt als Antwort infrage kommt, müssen Angebot, Einzugsgebiet, Schwerpunkte und Öffnungszeiten maschinenlesbar auf Ihrer Website stehen. Genau das richte ich ein. Ob und wann ein Assistent Ihre Praxis nennt, entscheidet der Anbieter, nicht ich. Was ich leisten kann: Ich bereite Ihre Angaben vollständig und klar strukturiert auf, richte die Website technisch sauber ein und zeige Ihrem Team, wie Änderungen aktuell gehalten werden."
   beispiel:
-    ausgangssituation: "Eine Ergotherapie-Praxis mit vier Mitarbeitenden möchte regelmäßig sichtbar sein, schafft es aber nur alle paar Monate zu einem Beitrag. Die Texte schreiben je nach Zeit unterschiedliche Personen im Team, weshalb Ansprache und Fachtiefe stark schwanken. Angebot und Schwerpunkte stehen auf der Website nur als Fließtext, für KI-Assistenten sind sie kaum auslesbar."
+    ausgangssituation: "Eine Ergotherapie-Praxis mit vier Mitarbeitenden möchte regelmäßig sichtbar sein, schafft es aber nur alle paar Monate zu einem Beitrag. Die Texte schreiben je nach Zeit unterschiedliche Personen im Team, weshalb Ansprache und Fachtiefe stark schwanken. Angebot und Schwerpunkte stehen auf der Website nur verstreut im Fließtext und sind nicht klar nach Leistungen, Zielgruppen und Einzugsgebiet gegliedert. Dadurch fehlen Suchmaschinen und anderen Suchsystemen eindeutige Signale zur Einordnung."
     vorgehen: "Wir halten die Tonalität der Praxis schriftlich fest und bauen darauf Vorlagen für die wiederkehrenden Anlässe im Jahr auf. Dazu kommen KI-Entwürfe für Standardtexte und eine Aufbereitung der Website, damit Angebot, Einzugsgebiet und Schwerpunkte für KI-Suchen sauber hinterlegt sind. Das Team wird eingewiesen und arbeitet danach selbst mit den Vorlagen."
-    ergebnis: "Beiträge entstehen in deutlich kürzerer Zeit und klingen unabhängig von der schreibenden Person gleich. Angebot, Schwerpunkte und Einzugsgebiet sind sauber hinterlegt, sodass Suchmaschinen und KI-Assistenten korrekte Angaben vorfinden."
+    ergebnis: "Beiträge entstehen in kürzerer Zeit und wirken durch die gemeinsame Tonalität konsistenter, unabhängig davon, wer sie geschrieben hat. Angebot, Schwerpunkte und Einzugsgebiet sind klar strukturiert hinterlegt, sodass Suchmaschinen und KI-Systeme darauf zugreifen können."
   faq:
     - q: "Übernehmen Sie das Schreiben laufend für mich?"
       a: "Nein, ich biete bewusst keinen Redaktionsservice an. Sie erhalten von mir die Vorlagen und die Werkzeuge, damit Ihr Team selbst schnell zu guten Texten kommt. Wenn Sie eine laufende Betreuung möchten, halte ich die Vorlagen für Sie aktuell."
     - q: "Merkt man den Texten an, dass sie mit KI erstellt wurden?"
-      a: "Nicht, wenn die Tonalität sauber hinterlegt ist. Dafür legen wir gemeinsam Ihre Brand Voice fest, also die Tonalität Ihrer Praxis: wie Sie Ihre Kundschaft ansprechen, wie fachlich Sie schreiben und welche Wörter Sie bewusst vermeiden. Jeder Entwurf geht ohnehin über Ihren Tisch, bevor er erscheint, und Sie entscheiden, was rausgeht."
+      a: "Nicht zwangsläufig. Eine klare Tonalität, gute Vorlagen und ein menschliches Gegenlesen helfen dabei, dass KI-Entwürfe zur Praxis passen und nicht wie austauschbare Standardtexte wirken. Dafür legen wir gemeinsam Ihre Brand Voice fest, also die Tonalität Ihrer Praxis: wie Sie Ihre Kundschaft ansprechen, wie fachlich Sie schreiben und welche Wörter Sie bewusst vermeiden. Jeder Entwurf geht ohnehin über Ihren Tisch, bevor er erscheint, und Sie entscheiden, was rausgeht."
     - q: "Wer pflegt die Texte ein, wenn sie fertig sind?"
       a: "Das entscheiden Sie. Viele Praxen übernehmen das selbst, weil die Vorlagen genau dafür gemacht sind. Wenn Sie es lieber abgeben, richte ich die Veröffentlichung so ein, dass ein Beitrag mit wenigen Klicks live geht, oder übernehme das Einpflegen im Rahmen der laufenden Betreuung."
