@@ -287,6 +287,60 @@ alltagstauglich · Schritt für Schritt · Roadmap · Fahrplan · Risiko minimie
   Maßnahme). Neutral-sachlich umschreiben („gilt in vollem Umfang“, „ist dafür
   nicht notwendig“). (Leonie, 2026-09.)
 
+### Rechtssichere Formulierungen bei Leistungsbeschreibungen (Vermeide weiterhin)
+
+Aus der rechtlichen Überarbeitung der vier Leistungs-Unterseiten (`data/branchen.yaml`,
+2026-09): Formulierungen, die eine pauschale Garantie oder Konformität suggerieren, sind
+bei Gesundheitsdaten und KI-Funktionen zu vermeiden, weil DSGVO-/EU-AI-Act-Konformität von
+konkreten Datenarten, Rechtsgrundlagen, Verträgen und der tatsächlichen Nutzung abhängt,
+nicht pauschal von der Einrichtung.
+
+**Vermeide weiterhin:**
+„garantiert" · „füllt sich von selbst" · „geht keine Anfrage verloren" · „erhöht
+automatisch" · „bleibt immer" · „vollständig sicher" · „datenschutzkonform eingerichtet" ·
+„Art.-9-konform" · jede pauschale „X-konform"-Zusage ohne Bezug auf den konkreten Ablauf.
+
+**Verwende stattdessen konsequent:** „kann helfen" · „kann entlasten" · „kann Nacharbeit
+reduzieren" · „kann die Grundlage verbessern" · „kann freie Termine schneller wieder
+anbieten" — Nutzenversprechen als Möglichkeit, nicht als Zusicherung.
+
+**Einheitliche Standardformulierungen (bei Datenschutz/KI in Leistungstexten immer
+dieselbe Formel verwenden, nicht jedes Mal neu erfinden):**
+| Thema | Formel |
+|---|---|
+| Datenschutz vor dem Einsatz | „Vor dem Einsatz klären wir Datenarten, Datenflüsse, Speicherort, Zugriffsrechte, erforderliche Verträge und Schutzmaßnahmen für den konkreten Ablauf." |
+| Rechtliche Spezialfragen | „Bei rechtlichen Spezialfragen wird geeignete Fachberatung einbezogen." |
+| KI und menschliche Verantwortung | „KI bereitet vor; fachkundige Menschen prüfen, ergänzen und geben frei." |
+| Chat-/Telefonassistenten | „Der Assistent beantwortet klar abgegrenzte organisatorische Fragen und weist darauf hin, dass Antworten von einem KI-System stammen." |
+
+**Weitere Einzel-Learnings dieser Runde:**
+- **Keine automatische medizinische „Dringlichkeits"-Einstufung** durch einen
+  E-Mail-/Chat-Assistenten suggerieren. Medizinische oder fachlich dringliche Anliegen
+  werden nach klaren Regeln an Menschen weitergeleitet, nicht von der KI bewertet.
+- **Kein Training/„Anlernen" auf echten vergangenen Kundenanfragen** behaupten — das
+  können Gesundheitsdaten enthalten und erfordert eine eigene Rechtsgrundlagen-Prüfung.
+  Stattdessen: Kategorien/Antwortbausteine werden gemeinsam anhand datensparsamer,
+  geeigneter Beispiele festgelegt.
+- **Telefon-/Chat-Assistenten bei Gesundheitsthemen:** klarer Hinweis, dass der Assistent
+  keine medizinischen Auskünfte gibt und bei akuten Beschwerden auf die zuständigen
+  Notfallwege verweist.
+- **GEO/Auffindbarkeit fachlich präzise beschreiben:** Nicht „Fließtext ist für
+  KI-Assistenten kaum auslesbar" (fachlich unpräzise — gut geschriebener Fließtext ist
+  lesbar). Stattdessen: fehlende Gliederung nach Leistungen/Zielgruppen/Einzugsgebiet als
+  eigentliches Problem benennen. Keine Zusage, dass ein KI-Assistent die Praxis tatsächlich
+  nennt (entscheidet der Anbieter) — nur zusichern, was man selbst leistet (Angaben
+  vollständig und strukturiert aufbereiten).
+- **„Nur noch gegenlesen"/„vollständige Kontrolle" bei KI-Vorentwürfen vermeiden** —
+  präziser: „eine fachkundige Person prüft, ergänzt und gibt frei", „Sie behalten die
+  fachliche Kontrolle".
+- **Sensible Kanäle neutral benennen:** „WhatsApp" im Gesundheitskontext durch
+  „Messenger-Dienste" ersetzen, um nicht wie eine Empfehlung eines bestimmten
+  (nicht zwingend datenschutzkonformen) Kanals zu wirken.
+- **Bewertungsanfragen transparent einordnen:** Immer ergänzen, dass sie um ehrliches
+  Feedback bitten und nicht an Vorteile oder eine bestimmte Bewertung geknüpft sind.
+
+(Leonie/Claude, 2026-09 — aus externer rechtlicher Durchsicht der Leistungs-Unterseiten.)
+
 ## 10. Sprache der Zielgruppe (zitierfähig)
 
 Martina sagt Dinge wie:

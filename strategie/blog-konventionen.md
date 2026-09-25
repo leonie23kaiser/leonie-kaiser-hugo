@@ -68,6 +68,41 @@ Superlative („die beste Lösung", „einzigartig", „revolutionär") · Hype 
 „nice", „cool") · Bürokratendeutsch („im Rahmen von", „zur Verfügung stellen") · Tech-Bro-Ton
 · Tool-/Produktnamen in Kundentexten (tool-agnostisch bleiben).
 
+### 2e. Rechtssichere Formulierungen bei Datenschutz/KI-Themen (AGENTS.md §9, 2026-09)
+Gilt für Blogposts genauso wie für Leistungstexte, sobald es um Datenschutz, Gesundheitsdaten
+oder KI-gestützte Funktionen (Assistenten, Automatisierungen) geht. Volle Herleitung in
+`AGENTS.md` §9 „Rechtssichere Formulierungen bei Leistungsbeschreibungen" — hier die
+Kurzfassung zum Nachschlagen beim Schreiben:
+
+- **Keine pauschale Konformitätszusage.** Nie „datenschutzkonform eingerichtet",
+  „Art.-9-konform" o. Ä. behaupten. Stattdessen konkret: „Vor dem Einsatz klären wir
+  Datenarten, Datenflüsse, Speicherort, Zugriffsrechte, erforderliche Verträge und
+  Schutzmaßnahmen für den konkreten Ablauf." Bei rechtlichen Spezialfragen: „wird geeignete
+  Fachberatung einbezogen."
+- **Keine Ergebnisgarantien.** Nie „garantiert", „füllt sich von selbst", „geht keine Anfrage
+  verloren", „erhöht automatisch", „bleibt immer", „vollständig sicher". Stattdessen „kann
+  helfen", „kann entlasten", „kann Nacharbeit reduzieren", „kann die Grundlage verbessern".
+- **KI bereitet vor, Menschen entscheiden.** Bei jeder KI-Funktion (E-Mail-Sortierung,
+  Notizen, Entwürfe) explizit: „KI bereitet vor; fachkundige Menschen prüfen, ergänzen und
+  geben frei." Kein „nur noch gegenlesen" oder „vollständige Kontrolle" — das unterschätzt
+  den Prüfaufwand.
+- **Medizinische Dringlichkeit nie von der KI einschätzen lassen.** Chat-/E-Mail-/Telefon-
+  assistenten leiten medizinische oder fachlich dringliche Anliegen nach klaren Regeln an
+  Menschen weiter, bewerten sie nicht selbst. Bei Gesundheitsthemen auf Notfallwege
+  hinweisen, keine automatische Diagnose/Einschätzung suggerieren.
+- **Assistenten weisen auf KI-Interaktion hin** (EU-AI-Act-Transparenzpflicht) — z. B. „Der
+  Assistent beantwortet klar abgegrenzte organisatorische Fragen und weist darauf hin, dass
+  Antworten von einem KI-System stammen."
+- **Kein Training auf echten Alt-Anfragen behaupten**, wenn darin Gesundheitsdaten stecken
+  könnten. Kategorien/Antwortbausteine werden anhand datensparsamer, geeigneter Beispiele
+  festgelegt, nicht „auf den letzten zwölf Monaten Kundenanfragen angelernt".
+- **GEO/Auffindbarkeit fachlich korrekt beschreiben.** Fließtext ist nicht per se „für
+  KI-Assistenten kaum auslesbar" — das eigentliche Problem ist fehlende Gliederung nach
+  Leistungen/Zielgruppen/Einzugsgebiet. Nie zusagen, dass ein KI-Assistent die Praxis
+  tatsächlich nennt (entscheidet der Anbieter).
+- **Sensible Kanäle neutral benennen:** „Messenger-Dienste" statt „WhatsApp" im
+  Gesundheitskontext.
+
 ## 3. Erwünschte Haltung & Kern-Sätze
 - „KI nicht um jeden Preis — erst die Prozesse, dann das Werkzeug."
 - „Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte."
