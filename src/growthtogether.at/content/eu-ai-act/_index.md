@@ -1,6 +1,6 @@
 ---
 title: "EU AI Act für Gesundheitspraxen: Was Sie wirklich tun müssen"
-description: "EU AI Act für kleine Gesundheitspraxen in Österreich: Welche Pflichten greifen, welche Risiko-Stufe gilt für Ihren KI-Einsatz und welche Dokumentation Sie brauchen."
+description: "EU AI Act für kleine Gesundheitspraxen in Österreich: Welche Anforderungen bei KI-Anwendungen relevant sind, was Sie dokumentieren sollten und wann Transparenzpflichten gelten."
 type: eu-ai-act
 layout: single
 slug: eu-ai-act
@@ -10,11 +10,11 @@ sitemap:
 schema_type: "Article"
 faqs:
   - q: "Gilt der EU AI Act für meine Praxis?"
-    a: "Sobald Sie ein KI-System in der Praxis einsetzen, selbst einen einfachen Chat-Assistenten, sind Sie betroffen. Die meisten Anwendungen in kleinen Praxen fallen in „begrenztes Risiko“ oder „minimales Risiko“ und erfordern keine umfangreichen Verfahren, aber Transparenz und Dokumentation."
-  - q: "Welche Risiko-Stufe trifft typischerweise auf kleine Praxen zu?"
-    a: "Begrenztes Risiko (z.B. Chatbots, generative KI in der Kommunikation) und minimales Risiko (z.B. Spam-Filter, KI-Suche). Hochrisiko-Anwendungen sind in kleinen Praxen selten und meist gut erkennbar."
+    a: "Wenn Ihre Praxis ein KI-System einsetzt, können je nach Anwendung und Rolle Pflichten aus dem EU AI Act relevant werden. Bei einfachen organisatorischen Anwendungen geht es meist um Transparenz, KI-Kompetenz, klare Zuständigkeiten und eine nachvollziehbare Dokumentation."
+  - q: "Welche Art von KI-Anwendung trifft typischerweise auf kleine Praxen zu?"
+    a: "Viele organisatorische Anwendungen kleiner Praxen sind keine Hochrisiko-Systeme. Ein Chatbot kann Transparenzpflichten auslösen; bei Anwendungen mit Bezug zu Diagnostik, Behandlung oder Medizinprodukten ist eine gesonderte Prüfung sinnvoll."
   - q: "Welche Dokumentation brauche ich konkret?"
-    a: "Eine schlanke KI-Richtlinie für Ihr Team, eine Liste der eingesetzten Tools mit Zweck und Datenquelle, sowie Hinweise auf KI-generierte Inhalte gegenüber Kundschaft. Wir setzen das gemeinsam Schritt für Schritt auf."
+    a: "Eine schlanke KI-Richtlinie für Ihr Team, eine Liste der eingesetzten Tools mit Zweck, verantwortlicher Person, verwendeten Daten und wer die Ergebnisse prüft, sowie Hinweise auf KI-generierte Inhalte gegenüber Kundschaft, wo diese erforderlich sind. Wir setzen das gemeinsam Schritt für Schritt auf."
   - q: "Was gilt bei Nichteinhaltung?"
-    a: "Für kleine Praxen sind vor allem drei Dinge relevant: mögliche Probleme mit den Aufsichtsbehörden, ein Reputationsrisiko bei der Kundschaft und Schwierigkeiten bei Audits oder Versicherungen. Wer den EU AI Act von Anfang an mitdenkt, ist hier auf der sicheren Seite."
+    a: "Für kleine Praxen sind vor allem drei Dinge relevant: mögliche Probleme mit den Aufsichtsbehörden, ein Reputationsrisiko bei der Kundschaft und Schwierigkeiten bei Audits oder Versicherungen. Wer den Einsatz früh einordnet, Zuständigkeiten festlegt und offene Fragen dokumentiert, kann Risiken besser erkennen und rechtzeitig geeignete Schritte veranlassen."
 ---
