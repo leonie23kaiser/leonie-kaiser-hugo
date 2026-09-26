@@ -12,7 +12,7 @@ category: "KI in der Praxis"
 readingTime: 6
 tags: ["Praxisführung", "Entlastung", "KI in der Praxis"]
 ctaHeadline: "Nächster Schritt: Damit nicht mehr alles an Ihnen hängt"
-ctaText: "In 30 Minuten gehen wir gemeinsam Ihre Abläufe durch und stellen fest, welche davon sich teilen oder automatisieren lassen. Die Zusammenfassung bekommen Sie danach schriftlich."
+ctaText: "In 30 Minuten schauen wir gemeinsam auf Ihren Praxisalltag: wo Zeit und Aufmerksamkeit verloren gehen und welcher erste Schritt Ihr Team entlasten könnte. Die Zusammenfassung bekommen Sie danach schriftlich."
 draft: false
 ---
 
@@ -22,7 +22,7 @@ Stolz, weil er zeigt: Diese Praxis trägt jemand mit vollem Einsatz. Resigniert,
 
 ## Wenn die Praxis nur mit Ihnen läuft
 
-Sie kennen das vielleicht: Die Behandlungen laufen gut, die Kundschaft ist zufrieden — aber sobald Sie einen Tag ausfallen, gerät einiges ins Stocken. Anfragen bleiben liegen, Rückfragen häufen sich, niemand weiß so genau, was für den Nachmittag noch offen ist. Nicht, weil Abläufe grundsätzlich schlecht organisiert wären. Sondern weil bestimmte Fäden am Ende doch immer bei Ihnen zusammenlaufen.
+Sie kennen das vielleicht: Die Behandlungen laufen gut, die Kundschaft ist zufrieden — aber sobald Sie einen Tag ausfallen, gerät einiges ins Stocken. Anfragen bleiben liegen, Rückfragen häufen sich, niemand weiß so genau, was für den Nachmittag noch offen ist. Nicht, weil Abläufe grundsätzlich schlecht organisiert wären, sondern weil bestimmte Fäden am Ende doch immer bei Ihnen zusammenlaufen.
 
 Es ist die typische Schwelle einer kleinen, inhabergeführten Praxis: Sie ist aus Fachlichkeit und persönlichem Einsatz gewachsen — und genau das, was sie stark gemacht hat, wird ab einer bestimmten Größe zur Herausforderung. Das ist der Punkt, an dem ich ansetze.
 
@@ -57,7 +57,7 @@ Ich bin Leonie Kaiser und begleite kleine Gesundheitspraxen dabei, ihren Alltag 
 
 Über 20 Jahre Berufserfahrung, davon mehr als ein Jahrzehnt in international regulierten Gesundheits- und Pharmaunternehmen — unter anderem bei Merck, AbbVie und Baxter, in Digitalisierung, Marketing und Projektmanagement. Dort habe ich gelernt, wie wichtig klare, verlässliche Abläufe in komplexen Organisationen sind — und dass gute Organisation kein Selbstzweck ist, sondern Menschen den Rücken freihält. Danach habe ich Selbstständige und kleine Betriebe begleitet — immer mit derselben Frage im Kopf: Wie bauen wir Abläufe, die tragen, statt die Leitung zum Engpass zu machen?
 
-Diese Frage treibt mich bis heute an. Das Muster ist fast überall ähnlich — nur der Bereich wechselt: Menschen, die richtig gut in ihrem Fach sind, verbringen einen wachsenden Teil ihrer Zeit mit Organisation, die sie eigentlich gar nicht machen wollten. Genau dort lässt sich am meisten gewinnen.
+Diese Frage treibt mich bis heute an. Das Muster ist fast überall ähnlich — nur der Bereich wechselt: Menschen, die richtig gut in ihrem Fach sind, verbringen einen wachsenden Teil ihrer Zeit mit Organisation, die sie eigentlich gar nicht machen wollten. Genau dort geht im Alltag oft die meiste Zeit verloren.
 
 ## Wofür ich stehe
 
@@ -65,13 +65,13 @@ Diese Frage treibt mich bis heute an. Das Muster ist fast überall ähnlich — 
 
 KI ist ein Verstärker, kein Selbstzweck. Bevor wir über ein Tool sprechen, schauen wir uns an, wie Ihre Abläufe wirklich funktionieren. Oft zeigt sich dabei, dass ein einfacher, klar geordneter Prozess schon die halbe Entlastung bringt — und die Technik danach nur noch das Wiederkehrende übernimmt.
 
-Damit stehe ich nicht allein: Ein aktueller Branchenreport zur Physiotherapie zeigt, dass die Zurückhaltung beim KI-Einsatz selten an der Technik selbst liegt — sondern an offenen Fragen zur Integration in bestehende Abläufe, zum Aufwand der Einführung und zum tatsächlichen Nutzen *(Branchenreport Physiotherapie 2026, ETL ADVISION)*.
+Damit stehe ich nicht allein: Ein aktueller Branchenreport zur Physiotherapie deutet darauf hin, dass die Zurückhaltung beim KI-Einsatz selten an der Technik selbst liegt — sondern an offenen Fragen zur Integration in bestehende Abläufe, zum Aufwand der Einführung und zum tatsächlichen Nutzen *(Branchenreport Physiotherapie 2026, ETL ADVISION)*.
 
 Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geht nie darum, Ihr Team überflüssig zu machen, sondern darum, ihm — und Ihnen als Leitung — die Zeit zurückzugeben, die heute in Koordination und Rückfragen versickert.
 
 ### Datenschutz ist der Ausgangspunkt
 
-Sie arbeiten mit Gesundheitsdaten. Für mich heißt das: Datenschutz ist bei jeder Lösung, die ich mit Ihnen aufsetze, der erste Gedanke — ob es dabei um ein KI-System geht oder um einen einfachen Ablauf. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis konkret bedeutet, lesen Sie auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum <a href="/dsgvo/">DSGVO</a>.
+Sie arbeiten mit Gesundheitsdaten. Deshalb berücksichtigen wir Datenschutzanforderungen bereits bei der Auswahl und Einführung einer Lösung, unabhängig davon, ob KI zum Einsatz kommt oder nicht. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis praktisch bedeutet, lesen Sie auf meinen Seiten zum [EU AI Act](/eu-ai-act/) und zur <a href="/dsgvo/">DSGVO</a>.
 
 ### Wenn KI nicht die Lösung ist, sage ich es
 
@@ -81,15 +81,15 @@ Lässt sich ein Problem eher mit einer klareren Absprache im Team lösen als mit
 
 Ein Beispiel, wie ein solcher erster Schritt typischerweise läuft — bewusst vereinfacht:
 
-In einer kleinen Praxis steht das Telefon kaum still. Anfragen kommen parallel per Mail, WhatsApp und Formular, und trotzdem gehen Rückrufe unter. Der erste Reflex ist verständlich: „Wir brauchen ein neues Buchungstool.“
+In einer kleinen Praxis steht das Telefon kaum still. Anfragen kommen parallel über verschiedene Kanäle herein, per E-Mail, Messenger und Website-Formular, und trotzdem gehen Rückrufe unter. Der erste Reflex ist verständlich: „Wir brauchen ein neues Buchungstool.“
 
-Bevor wir über Technik reden, schauen wir uns den Ablauf an. Und meist zeigt sich: Es fehlt nicht ein bestimmtes Tool, sondern eine klare Regel, wer wann welche Anfrage beantwortet und wo sie sichtbar landet. Schon das Bündeln aller Kanäle an einem Ort und eine einfache Reihenfolge nehmen spürbar Druck vom Empfang — noch bevor irgendeine KI im Spiel ist.
+Bevor wir über Technik reden, schauen wir uns den Ablauf an. Und meist zeigt sich: Es fehlt nicht ein bestimmtes Tool, sondern eine klare Regel, über welche Kanäle Anfragen entgegengenommen, wo sie dokumentiert und wer sie bearbeitet. Schon diese Klarheit nimmt spürbar Druck vom Empfang — noch bevor irgendeine KI im Spiel ist.
 
-Erst wenn dieser Ablauf steht, stellt sich die Frage nach der passenden Software. Jetzt kann sie das Wiederkehrende übernehmen: etwa eine automatische Eingangsbestätigung, damit niemand im Ungewissen wartet, oder eine Erinnerung vor dem Termin. So verstärkt sie einen guten Prozess, statt einen unklaren zu beschleunigen. Das ist der Unterschied.
+Erst wenn dieser Ablauf steht, stellt sich die Frage nach der passenden Software. Jetzt kann sie das Wiederkehrende übernehmen: etwa eine automatische Eingangsbestätigung, damit niemand im Ungewissen wartet. So verstärkt sie einen guten Prozess, statt einen unklaren zu beschleunigen. Das ist der Unterschied.
 
 ## Was Sie hier im Blog erwartet
 
-Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation und Nachsorge — dazu, wie Sie mit Ihrer Kundschaft klarer kommunizieren und wie Sie online besser gefunden werden. Immer praxisnah, immer mit dem Datenschutz im Blick. Wenn Sie sehen möchten, wo ich konkret ansetze, werfen Sie einen Blick auf meine [Leistungen](/leistungen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
+Hier schreibe ich über die Dinge, die Praxen wirklich Zeit kosten: Termine und Ausfälle, Dokumentation und Nachsorge — dazu, wie Sie mit Ihrer Kundschaft klarer kommunizieren und wie Sie online besser gefunden werden. Praxisnah, mit Blick auf Datenschutz und die Grenzen von KI. Wenn Sie sehen möchten, wo ich konkret ansetze, werfen Sie einen Blick auf meine [Leistungen](/leistungen/) oder lesen Sie mehr [über mich und meine Arbeitsweise](/ueber-mich/).
 
 Der nächste Beitrag wird konkret: wie Sie No-Shows in der Praxis spürbar senken.
 
@@ -102,8 +102,8 @@ Ein guter Test: Fragen Sie sich, was tatsächlich liegen bleibt, wenn Sie einen 
 Ja, sehr oft sogar. Viele Zeitfresser entstehen nicht durch fehlende Technik, sondern durch unklare Abläufe und doppelte Arbeit. Ein aufgeräumter Prozess bringt spürbar Entlastung, bevor überhaupt ein Tool ins Spiel kommt.
 
 **Darf ich als Gesundheitspraxis überhaupt KI einsetzen?**
-Ja, mit den richtigen Vorkehrungen. Entscheidend ist, welche Daten wohin fließen. Datenschutz und der EU AI Act sind für mich bei jedem Setup der erste Gedanke — mehr dazu auf meiner Seite zum [EU AI Act](/eu-ai-act/) und zum <a href="/dsgvo/">DSGVO</a>.
+Viele organisatorische KI-Anwendungen können grundsätzlich auch in Gesundheitspraxen sinnvoll eingesetzt werden. Entscheidend ist der konkrete Einsatz: Welche Daten werden verarbeitet, wofür wird das System genutzt, und wer prüft die Ergebnisse? Bei medizinischen Entscheidungen, Diagnostik oder sensiblen Gesundheitsdaten ist eine besonders sorgfältige Prüfung erforderlich. Datenschutzanforderungen und, wenn KI eingesetzt wird, die relevanten Vorgaben des EU AI Act berücksichtigen wir bereits bei der Planung — mehr dazu auf meinen Seiten zum [EU AI Act](/eu-ai-act/) und zur <a href="/dsgvo/">DSGVO</a>.
 
 ## Ein erster Schritt, ganz unverbindlich
 
-Wenn Sie das Gefühl kennen, dass zu viel an Ihnen hängt, dann stellen wir das gern gemeinsam in einer Potenzialanalyse fest: wo Ihre Praxis im Alltag Zeit verliert und an welcher Stelle sich der erste Schritt am ehesten lohnt. In Ruhe, ohne Druck.
+Wenn Sie das Gefühl kennen, dass zu viel an Ihnen hängt, schauen wir in einer kostenfreien Potenzialanalyse gemeinsam auf Ihren Praxisalltag: Wo gehen Zeit und Aufmerksamkeit verloren? Welche Rückfragen laufen immer wieder über Sie? Und welcher erste Schritt könnte Ihr Team entlasten? In Ruhe, ohne Druck.

@@ -54,6 +54,34 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
   Rechtsgrundlage (EU-AI-Act-Stichtage, DSGVO-Fristen), die bleiben exakt.
 - **Vor Abgabe auf Wiederholung prüfen:** Kommt derselbe Kerngedanke in zwei Absätzen nur
   anders verpackt vor, kürzen statt stehen lassen — lieber 20–30 % knapper.
+- **EU-AI-Act-Aussagen nicht vereinfachen, wo es zu Fehlaussagen führt** (2026-09-Fachlektorat
+  Post #5): Risikostufen nicht als feste Skala „minimal bis hoch" darstellen, sondern über
+  verbotene Praktiken/Hochrisiko-Anwendungen/Transparenzpflichten; Hochrisiko in
+  Gesundheitspraxen nicht kategorisch ausschließen (Diagnostik-/Medizinprodukt-Bezug bleibt
+  Sonderfall, unabhängig von Praxisgröße); Art.-50-Kennzeichnungspflicht für generierte
+  Inhalte kontextabhängig formulieren, nicht pauschal für alle Bild/Ton/Video-Inhalte;
+  Übergangsfristen (Art. 50 bis 2.12.2026 für Alt-Systeme) und GPAI-Anbieterpflichten
+  (seit 2.8.2025) mitdenken, wenn eine Zeitleiste dargestellt wird — sonst wirkt sie
+  unvollständig.
+- **AV-Vertrag-Begründung an die tatsächliche DSGVO-Rolle koppeln**, nicht an „könnten
+  indirekt Gesundheitsdaten im Spiel sein": Immer prüfen/formulieren, ob der Anbieter
+  personenbezogene Daten im Auftrag verarbeitet.
+- **Keine Compliance-Garantie-Sprache**: „auf der sicheren Seite", „diese Sorge ist vom
+  Tisch", „das reicht für die meisten Praxen", „Ja, mit den richtigen Vorkehrungen" als
+  pauschale Freigabe für KI-Einsatz — stattdessen einzelfallbezogene Prüfkriterien nennen
+  (welche Daten, welcher Zweck, wer prüft die Ergebnisse).
+- **Grammatik: „die DSGVO" ist feminin** — „zur DSGVO", niemals „zum DSGVO".
+- **Keine bestimmten Messenger-Kanäle (z. B. WhatsApp) im Gesundheitskontext als
+  selbstverständliche Lösung nennen**, wenn Datenschutz-Fokus die eigene Positionierung
+  ist — neutral „Messenger-Dienste" oder „verschiedene Kanäle" schreiben.
+- **CTA-Verben wie „feststellen" vermeiden** (klingt nach externer Diagnose/Bewertung von
+  außen) — stattdessen konkrete Fragen nennen, die die Potenzialanalyse beantwortet.
+- **Keine technische Zentralisierung versprechen** („Bündeln aller Kanäle an einem Ort"),
+  wenn eigentlich nur eine klare Zuständigkeits-/Dokumentationsregel gemeint ist, die auch
+  ohne neues Tool funktioniert.
+
+(Leonie, 2026-09-26 — aus dem fachlichen Lektorat zu Post #5 „EU AI Act
+Zeitplan" und Post #1 „Ohne mich läuft hier nichts".)
 
 ---
 
