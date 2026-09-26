@@ -16,7 +16,7 @@ ctaText: "In 30 Minuten schauen wir gemeinsam auf Ihren Praxisalltag: wo Zeit un
 draft: false
 ---
 
-„Ohne mich läuft hier nichts.“ Diesen Satz höre ich häufig — von Therapeutinnen, von Ärzten mit eigener Praxis, von Menschen, die ihr Fach lieben und trotzdem abends erschöpft am Schreibtisch sitzen. Meist wird er halb stolz, halb resigniert gesagt. Und meistens stimmt er.
+„Ohne mich läuft hier nichts.“ Diesen Satz höre ich häufig — von Therapeutinnen, von Ärzten mit eigener Praxis, von Menschen, die ihr Fach lieben und trotzdem abends erschöpft am Schreibtisch sitzen. Meist wird er halb stolz, halb resigniert gesagt. Und oft stimmt er.
 
 Stolz, weil er zeigt: Diese Praxis trägt jemand mit vollem Einsatz. Resigniert, weil genau dieser Einsatz irgendwann an seine Grenzen stößt — wenn kein Tag mehr vergeht, an dem nicht am Ende alles an einer einzigen Person hängt.
 
@@ -38,7 +38,7 @@ Kommt eine Rückfrage — zu einem Ablauf, einer Kundin, einer Abrechnung —, d
 
 ### Mehrere Tools, aber kein gemeinsamer Ablauf
 
-Viele Praxen versuchen, das mit Software zu lösen. Ein Buchungstool hier, eine App fürs Dokumentieren dort, dazu WhatsApp, E-Mail und ein Kalender, die nicht miteinander reden. Am Ende sind mehrere Tools im Einsatz — und trotzdem hängt weiter vieles an Ihnen, weil niemand außer Ihnen den Überblick über alle Kanäle behält.
+Viele Praxen versuchen, das mit Software zu lösen. Ein Buchungstool hier, eine App fürs Dokumentieren dort, dazu Messenger-Dienste, E-Mail und ein Kalender, die nicht miteinander reden. Am Ende sind mehrere Tools im Einsatz — und trotzdem hängt weiter vieles an Ihnen, weil niemand außer Ihnen den Überblick über alle Kanäle behält.
 
 Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlungsverläufe und offene Rückfragen — das alles ist längst da, nur eben verstreut über Zettel, Köpfe und getrennte Programme. Was oft fehlt, ist ein klarer Ablauf, der diese Fäden zusammenführt.
 
@@ -53,7 +53,7 @@ Das Kuriose daran: Meist fehlt es gar nicht an Informationen. Termine, Behandlun
   </picture>
 </figure>
 
-Ich bin Leonie Kaiser und begleite kleine Gesundheitspraxen dabei, ihren Alltag mit klaren Abläufen und KI zu entlasten.
+Ich bin Leonie Kaiser und begleite kleine Gesundheitspraxen dabei, ihren Alltag mit klaren Abläufen zu entlasten — und KI dort einzusetzen, wo sie tatsächlich sinnvoll ist.
 
 Über 20 Jahre Berufserfahrung, davon mehr als ein Jahrzehnt in international regulierten Gesundheits- und Pharmaunternehmen — unter anderem bei Merck, AbbVie und Baxter, in Digitalisierung, Marketing und Projektmanagement. Dort habe ich gelernt, wie wichtig klare, verlässliche Abläufe in komplexen Organisationen sind — und dass gute Organisation kein Selbstzweck ist, sondern Menschen den Rücken freihält. Danach habe ich Selbstständige und kleine Betriebe begleitet — immer mit derselben Frage im Kopf: Wie bauen wir Abläufe, die tragen, statt die Leitung zum Engpass zu machen?
 
@@ -65,13 +65,13 @@ Diese Frage treibt mich bis heute an. Das Muster ist fast überall ähnlich — 
 
 KI ist ein Verstärker, kein Selbstzweck. Bevor wir über ein Tool sprechen, schauen wir uns an, wie Ihre Abläufe wirklich funktionieren. Oft zeigt sich dabei, dass ein einfacher, klar geordneter Prozess schon die halbe Entlastung bringt — und die Technik danach nur noch das Wiederkehrende übernimmt.
 
-Damit stehe ich nicht allein: Ein aktueller Branchenreport zur Physiotherapie deutet darauf hin, dass die Zurückhaltung beim KI-Einsatz selten an der Technik selbst liegt — sondern an offenen Fragen zur Integration in bestehende Abläufe, zum Aufwand der Einführung und zum tatsächlichen Nutzen *(Branchenreport Physiotherapie 2026, ETL ADVISION)*.
+Damit stehe ich nicht allein: Der Branchenreport Physiotherapie 2026 von ETL ADVISION und TT-DIGI zeigt eine große Offenheit für KI in administrativen Aufgaben. 40,4 Prozent der befragten Praxen können sich ihren Einsatz gut vorstellen, weitere 41,3 Prozent schließen ihn nicht aus. Gleichzeitig besteht Informationsbedarf bei Datenschutz, Integration und Wirtschaftlichkeit. Genau deshalb beginnt eine sinnvolle Einführung nicht mit dem Tool, sondern mit dem Ablauf, den es unterstützen soll. *(Quelle: ETL ADVISION / TT-DIGI, Branchenreport Physiotherapie 2026.)*
 
 Und noch etwas ist mir wichtig: Technik entlastet, sie ersetzt niemanden. Es geht nie darum, Ihr Team überflüssig zu machen, sondern darum, ihm — und Ihnen als Leitung — die Zeit zurückzugeben, die heute in Koordination und Rückfragen versickert.
 
 ### Datenschutz ist der Ausgangspunkt
 
-Sie arbeiten mit Gesundheitsdaten. Deshalb berücksichtigen wir Datenschutzanforderungen bereits bei der Auswahl und Einführung einer Lösung, unabhängig davon, ob KI zum Einsatz kommt oder nicht. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Was das für Ihre Praxis praktisch bedeutet, lesen Sie auf meinen Seiten zum [EU AI Act](/eu-ai-act/) und zur <a href="/dsgvo/">DSGVO</a>.
+Sie arbeiten mit Gesundheitsdaten. Deshalb berücksichtigen wir Datenschutzanforderungen bereits bei der Auswahl und Einführung einer Lösung, unabhängig davon, ob KI zum Einsatz kommt oder nicht. Diese Sorgfalt bringe ich aus regulierten Branchen mit, in denen der verantwortungsvolle Umgang mit sensiblen Daten nie Kür war, sondern Voraussetzung. Mehr dazu finden Sie auf meinen Seiten zum [EU AI Act](/eu-ai-act/) und zur <a href="/dsgvo/">DSGVO</a>.
 
 ### Wenn KI nicht die Lösung ist, sage ich es
 
@@ -102,7 +102,7 @@ Ein guter Test: Fragen Sie sich, was tatsächlich liegen bleibt, wenn Sie einen 
 Ja, sehr oft sogar. Viele Zeitfresser entstehen nicht durch fehlende Technik, sondern durch unklare Abläufe und doppelte Arbeit. Ein aufgeräumter Prozess bringt spürbar Entlastung, bevor überhaupt ein Tool ins Spiel kommt.
 
 **Darf ich als Gesundheitspraxis überhaupt KI einsetzen?**
-Viele organisatorische KI-Anwendungen können grundsätzlich auch in Gesundheitspraxen sinnvoll eingesetzt werden. Entscheidend ist der konkrete Einsatz: Welche Daten werden verarbeitet, wofür wird das System genutzt, und wer prüft die Ergebnisse? Bei medizinischen Entscheidungen, Diagnostik oder sensiblen Gesundheitsdaten ist eine besonders sorgfältige Prüfung erforderlich. Datenschutzanforderungen und, wenn KI eingesetzt wird, die relevanten Vorgaben des EU AI Act berücksichtigen wir bereits bei der Planung — mehr dazu auf meinen Seiten zum [EU AI Act](/eu-ai-act/) und zur <a href="/dsgvo/">DSGVO</a>.
+Viele organisatorische KI-Anwendungen können grundsätzlich auch in Gesundheitspraxen sinnvoll eingesetzt werden. Entscheidend ist der konkrete Einsatz: Welche Daten werden verarbeitet, wofür wird das System genutzt, und wer prüft die Ergebnisse? Bei medizinischen Entscheidungen, Diagnostik oder wenn Gesundheitsdaten verarbeitet werden, ist eine besonders sorgfältige Prüfung erforderlich. Dabei klären wir unter anderem, welche Daten verarbeitet werden, wofür das System genutzt wird, wer Ergebnisse prüft und welche Datenschutzanforderungen für den konkreten Einsatz gelten. Mehr dazu finden Sie auf meinen Seiten zum [EU AI Act](/eu-ai-act/) und zur <a href="/dsgvo/">DSGVO</a>.
 
 ## Ein erster Schritt, ganz unverbindlich
 
