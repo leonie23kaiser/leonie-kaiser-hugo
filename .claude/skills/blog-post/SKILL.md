@@ -83,6 +83,35 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
 (Leonie, 2026-09-26 — aus dem fachlichen Lektorat zu Post #5 „EU AI Act
 Zeitplan" und Post #1 „Ohne mich läuft hier nichts".)
 
+- **Automatisierte Abläufe (Wartelisten, Erinnerungen) nicht als Erfolgsgarantie
+  darstellen** (2026-09-Fachlektorat Post #2): „füllt automatisch", „von selbst",
+  „wer zuerst zusagt, bekommt ihn" klingt nach Automatisierungsgarantie und kann bei
+  Wartelisten zudem Datenschutz-/Fairnessfragen aufwerfen (mehrere Personen gleichzeitig
+  anschreiben, Priorisierung sichtbar machen). Stattdessen: „die Praxis legt vorab fest,
+  nach welchen Kriterien … vergeben werden", „kann … versendet werden".
+- **Wirkungsversprechen zu Erinnerungszeitpunkten/Maßnahmen ohne Quelle abschwächen**
+  („bringt die größte Wirkung" → „ist für viele Praxen ein sinnvoller Ausgangspunkt").
+- **Ausfallhonorar/Gebühren nicht als feste Regel oder automatische Rechtsfolge
+  darstellen** — Höhe, Frist und Zulässigkeit hängen von einer klaren Vorabvereinbarung
+  und den geltenden rechtlichen Vorgaben ab, nicht von einer pauschalen Branchenüblichkeit
+  allein. Zahlungsmodalitäten „haben sich bewährt" vermeiden, wenn keine rechtliche
+  Gestaltungsempfehlung gemeint ist.
+- **Gesundheitsdatenbezug über den Kontext begründen, nicht pauschal per Artikelverweis**:
+  „betrifft Gesundheitsdaten, sobald erkennbar ist … (Art. 9 DSGVO)" ist zu absolut —
+  besser „kann der Kontext bereits erkennen lassen, dass … in Anspruch genommen wird,
+  entsprechend datensparsam verarbeiten".
+- **Datenschutz bei Drittanbietern (Messenger, SMS) nicht auf Serverstandort + AV-Vertrag
+  verkürzen** — Meta-Daten, Zugriffsmöglichkeiten, Drittlandbezüge und die konkrete
+  Nutzung gehören zur Prüfung dazu; ein AV-Vertrag „schafft" allein keine Konformität.
+- **Zielgruppenbezeichnung innerhalb eines Posts konsistent halten**: einmal für
+  „Kundschaft“ (oder eine andere Bezeichnung) entscheiden und durchgängig verwenden,
+  nicht zwischen „Kundin/Kunde“, „Kundschaft“, „Patientin“ wechseln.
+- **Branchenreport Physiotherapie korrekt attribuieren**: ETL ADVISION **und TT-DIGI**
+  (nicht nur ETL ADVISION), als „Quelle: …“-Hinweis kennzeichnen.
+
+(Leonie, 2026-09-27 — aus dem fachlichen Lektorat zu Post #2 „No-Shows
+senken".)
+
 ---
 
 ## Ablauf (jeder Schritt wartet auf Leonies Antwort, bevor der nächste beginnt)
