@@ -108,7 +108,7 @@ Das hängt vom konkreten Kommunikationskanal, dem Anbieter, den verarbeiteten Da
 Üblich sind Beträge im niedrigen zweistelligen Bereich. Laut Branchenreport Physiotherapie 2025 von ETL ADVISION und TT-DIGI liegt der Durchschnitt bei 28€, rund jede zehnte Praxis verlangt mehr als 40€. Ob und in welcher Höhe eine Gebühr verlangt werden kann, hängt von der vorab vereinbarten, fairen Regel und den geltenden rechtlichen Vorgaben ab. Für die genaue Formulierung empfiehlt sich Rechtsberatung.
 
 **Was können Sie tun, wenn ein Termin versäumt wird?**
-Ein kurzer Anruf oder eine kurze Nachricht direkt danach klärt meist schon, was passiert ist, und zeigt der Kundschaft, dass sie wahrgenommen wird. Bei wiederholten Ausfällen hilft ein Blick auf die vereinbarte Regelung. Bleibt noch genug Vorlauf, lässt sich die frei gewordene Zeit oft manuell neu besetzen, etwa indem die Praxis wartende Kundschaft anruft. Ist der Ausfall sehr kurzfristig, reicht die Zeit dafür meist nicht mehr, genau hier setzt eine automatische Warteliste an.
+Ein kurzer Anruf oder eine kurze Nachricht direkt danach klärt meist schon, was passiert ist, und zeigt der Kundschaft, dass sie wahrgenommen wird. Bei wiederholten Ausfällen hilft ein Blick auf die vereinbarte Regelung. Bleibt noch genug Vorlauf, lässt sich die frei gewordene Zeit oft manuell neu besetzen, etwa indem die Praxis wartende Kundschaft anruft. Ist der Ausfall sehr kurzfristig, reicht die Zeit dafür meist nicht mehr, genau hier setzt eine Warteliste mit klaren Vergabekriterien an.
 
 ## Ein erster Schritt, ganz unverbindlich
 
