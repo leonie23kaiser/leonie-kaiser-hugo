@@ -112,6 +112,33 @@ Zeitplan" und Post #1 „Ohne mich läuft hier nichts".)
 (Leonie, 2026-09-27 — aus dem fachlichen Lektorat zu Post #2 „No-Shows
 senken".)
 
+- **Anonymisierung nicht auf „Name weglassen“ verkürzen** (2026-09-Fachlektorat Post #3):
+  „Wo der Name fehlt, fehlt auch der Personenbezug“ ist zu absolut — Re-Identifizierung
+  über Kontext (seltene Diagnose, kleine Praxis) bleibt möglich. Richtig: „Wenn
+  Informationen so verändert werden, dass eine Person weder direkt noch indirekt
+  identifiziert werden kann, liegen keine personenbezogenen Daten mehr vor. Das bloße
+  Entfernen eines Namens reicht dafür nicht immer aus.“
+- **Kostenlos/persönlich vs. Business/Enterprise/API sauber trennen**, nicht als
+  „Team-Variante“ (OpenAI hat ChatGPT Team in ChatGPT Business umbenannt). Trainings-
+  Abschaltung, AVV/DPA und Aufbewahrungsfristen sind **produktspezifisch** — nicht
+  pauschal „bei Business ist alles Teil des Angebots“ behaupten, sondern „lässt sich in
+  der Regel abschließen/einstellen, geprüft werden muss es trotzdem“.
+- **EU-Hosting ist keine pauschale Standardempfehlung** — Speicherort ist nur ein Faktor
+  neben Vertragspartei, Unterauftragsverarbeitern, Drittlandtransfers und vertraglichen
+  Schutzmechanismen. Bei besonders sensiblen Daten lieber „datensparsame, klar
+  abgegrenzte Anwendungsfälle ohne personenbezogene Gesundheitsdaten“ als ersten Schritt
+  empfehlen statt einer Tool-Empfehlung.
+- **„Ohne AVV keine Rechtsgrundlage“ ist zu absolut** — ein AVV ist nur nötig, wenn der
+  Anbieter tatsächlich als Auftragsverarbeiter personenbezogene Daten verarbeitet;
+  richtig: „ist in der Regel erforderlich, wenn … Welche Regelung passt, hängt vom
+  konkreten Anbieter und Einsatz ab.“
+- **Keine pauschale Verschlüsselungs-Garantie** („seriöses Tool ist ohnehin
+  verschlüsselt“) — Transportverschlüsselung ist ein Prüfpunkt, kein automatisches
+  Qualitätsmerkmal, und ersetzt nicht Datenminimierung/Vertragsgestaltung.
+- Bei produktspezifischen technischen Details (UI-Schalternamen, Aufbewahrungsfristen)
+  einen Hinweis ergänzen, dass sich die genaue Bezeichnung/der genaue Wert ändern kann —
+  Anbieter-Oberflächen und -Policies verändern sich schneller als der Blogpost.
+
 ---
 
 ## Ablauf (jeder Schritt wartet auf Leonies Antwort, bevor der nächste beginnt)
