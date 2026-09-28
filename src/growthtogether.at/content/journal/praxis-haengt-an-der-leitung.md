@@ -1,7 +1,7 @@
 ---
 title: '„Ohne mich läuft hier nichts“ — wenn alles an der Leitung hängt'
 slug: "praxis-haengt-an-der-leitung"
-description: "Warum in kleinen Praxen so viel an der Leitung hängt, was wirklich hilft — und wer als KI- & Digitalisierungs-Expertin für kleine Praxen dahintersteht."
+description: "Wenn in Ihrer Praxis alles an einer Person hängt: Wie klare Abläufe, dokumentiertes Wissen und passende digitale Unterstützung Ihr Team entlasten können."
 date: 2026-08-04
 lastmod: 2026-08-04
 author: "Leonie Kaiser"
