@@ -28,13 +28,24 @@ Die Frage nach dem verantwortungsvollen Umgang mit sensiblen Daten kenne ich aus
 
 Auch das lässt sich nicht mit einem einfachen Ja oder Nein beantworten. Ein persönliches oder kostenloses ChatGPT-Konto sollte nicht für personenbezogene oder besonders sensible Praxisdaten verwendet werden. Zwar lässt sich bei persönlichen Konten die Nutzung neuer Chats für das Modelltraining in den Datenkontrollen deaktivieren, für einen professionellen Praxiseinsatz ersetzt das aber keine Prüfung von Vertrag, Datenflüssen, Zugriffen, Aufbewahrung und den weiteren Datenschutzanforderungen. Bei ChatGPT Business, Enterprise und der API werden Eingaben und Ausgaben standardmäßig nicht zum Training der Modelle verwendet, sofern die Organisation nicht ausdrücklich zustimmt. Für einen datenschutzrechtlich geeigneten Einsatz muss zusätzlich geprüft werden, ob ein passender Auftragsverarbeitungsvertrag beziehungsweise eine DPA abgeschlossen werden kann und welche Einstellungen, Datenflüsse und Aufbewahrungsregeln für den konkreten Einsatz gelten. Entscheidend ist nicht der Name „ChatGPT", sondern welche Version Sie nutzen und wie sie eingerichtet ist.
 
-Konkret unterscheiden sich die Versionen vor allem in drei Punkten: Wer Zugriff auf die Eingaben hat (bei Business-Konten meist nur die Praxis selbst, nicht der Anbieter zu Trainingszwecken), wie lange Eingaben und Unterhaltungen gespeichert werden und welche Aufbewahrungsoptionen die jeweilige Version tatsächlich bietet — das unterscheidet sich je nach Produkt und Tarif deutlich und sollte vor dem Einsatz geprüft werden — und ob eine Ansprechperson für Datenschutz-Fragen beim Anbieter benannt ist. Ein Blick auf diese drei Punkte lohnt sich, bevor ein Tool in der Praxis zum Einsatz kommt, unabhängig vom Anbieter.
+Konkret unterscheiden sich die Versionen vor allem in drei Punkten: Wer innerhalb der Praxis Zugriff auf die Eingaben hat und welche Zugriffsmöglichkeiten der Anbieter, seine Unterauftragsverarbeiter oder Supportteams nach Vertrag und Einstellungen haben, wie lange Eingaben und Unterhaltungen gespeichert werden und welche Aufbewahrungsoptionen die jeweilige Version tatsächlich bietet, und ob eine Ansprechperson für Datenschutz-Fragen beim Anbieter benannt ist.
+
+<div class="highlight-box">
+  <p><strong>Worauf es bei der Version ankommt:</strong></p>
+  <ul style="margin-top:var(--s3);margin-bottom:0">
+    <li>Zugriffsrechte innerhalb der Praxis und beim Anbieter.</li>
+    <li>Aufbewahrungs- und Löschoptionen der konkreten Version.</li>
+    <li>Datenschutzkontakt, Vertragsunterlagen und Datenflüsse.</li>
+  </ul>
+</div>
+
+Ein Blick auf diese drei Punkte lohnt sich, bevor ein Tool in der Praxis zum Einsatz kommt, unabhängig vom Anbieter.
 
 ## Welche Daten können rein — und welche besser nicht
 
 ### Diese Daten sind meist unkritisch
 
-Allgemeine Texte ohne Personenbezug, etwa Entwürfe für Patienteninformationen oder Standardformulierungen, können ohne Bedenken eingegeben werden. Hier steckt kein Name, kein Termin und keine Diagnose dahinter, nur ein Text, den später jemand mit den passenden Angaben ergänzt.
+Allgemeine Texte ohne Personenbezug, etwa Entwürfe für Patienteninformationen oder Standardformulierungen, sind datenschutzrechtlich deutlich unkritischer. Hier steckt kein Name, kein Termin und keine Diagnose dahinter, nur ein Text, den später jemand mit den passenden Angaben ergänzt.
 
 ### Diese Daten können heikel sein
 
@@ -42,7 +53,7 @@ Heikel wird es, sobald ein Name und eine Gesundheitsangabe zusammenkommen: „Fr
 
 ### Die Faustregel: anonymisieren oder weglassen
 
-Die einfachste Lösung ist meist auch die wirksamste: Die KI braucht den echten Namen im Normalfall nicht, um die gewünschte Aufgabe durchführen zu können. Aus „Frau Mayer hat seit drei Wochen Rückenschmerzen" wird „eine Patientin mit Rückenschmerzen seit drei Wochen". Der Rest der Anfrage bleibt gleich, das Ergebnis auch, nur die Zuordnung zu einer echten Person fehlt.
+Die einfachste Lösung ist meist auch die wirksamste: Die KI braucht den echten Namen im Normalfall nicht, um die gewünschte Aufgabe durchführen zu können. Aus „Frau Mayer hat seit drei Wochen Rückenschmerzen" kann zum Beispiel „eine Person mit Rückenschmerzen seit einiger Zeit" werden. Je nach Aufgabe genügt oft eine noch allgemeinere Beschreibung. Entscheidend ist, dass keine Rückschlüsse auf eine konkrete Person möglich bleiben.
 
 Ein Punkt dabei wird oft übersehen: Auch ohne Namen kann eine Angabe wieder einer Person zuordenbar sein, wenn genügend Kontext vorhanden ist, zum Beispiel eine seltene Diagnose in einer kleinen Praxis mit wenigen Behandlungsfällen dieser Art. Im Zweifel hilft die Gegenfrage: Könnte jemand aus dem Praxisumfeld anhand der Angaben erraten, um wen es geht? Falls ja, ist noch nicht genug weggelassen.
 
@@ -86,7 +97,7 @@ Eine berechtigte Frage, ehrlich beantwortet: Der wirksamste Schutz im Alltag ist
 
 Schauen wir uns ein Beispiel an, das bewusst vereinfacht ist: Eine Praxis möchte KI-Tools für Texte und Antwortentwürfe nutzen, hat aber keine eigene IT. Der erste Schritt ist die Einstufung: Welches Tool wird wofür gebraucht, und wie sensibel sind die Daten, die dabei anfallen? Ein Textentwurf für die Website braucht eine andere Einrichtung als ein Formulierungsvorschlag, in den versehentlich ein Patientenname rutschen könnte.
 
-Je nach Ergebnis fällt die Wahl auf ein passend geprüftes Business-Konto oder eine lokale Lösung wie oben beschrieben. Für jedes eingesetzte Tool wird geprüft, ob der Anbieter personenbezogene Daten im Auftrag verarbeitet und deshalb ein Auftragsverarbeitungsvertrag oder eine andere passende vertragliche Regelung erforderlich ist, dazu eine klar benannte Fachperson für Datenschutz-Fragen, falls im Alltag doch mal Unsicherheit aufkommt, etwa wenn jemand im Team nicht sicher ist, ob eine bestimmte Eingabe schon zu weit geht. Die wichtigsten Regeln werden für das Team verständlich festgehalten. Bei neuen Tools, geänderten Datenflüssen oder neuen Funktionen sollte die Einordnung jedoch erneut geprüft werden. Mehr zu diesem Baustein auf meiner Seite zu <a href="/leistungen/dokumentation-und-wissen/">Dokumentation & Wissen</a>.
+Je nach Ergebnis fällt die Wahl auf ein passend geprüftes Business-Konto oder eine lokale Lösung wie oben beschrieben. Für jedes eingesetzte Tool wird geprüft, ob der Anbieter personenbezogene Daten im Auftrag verarbeitet und deshalb ein Auftragsverarbeitungsvertrag oder eine andere passende vertragliche Regelung erforderlich ist. Für Datenschutzfragen benennt die Praxis eine zuständige Ansprechperson; bei rechtlichen Spezialfragen wird geeignete Fachberatung einbezogen. Die wichtigsten Regeln werden für das Team verständlich festgehalten. Bei neuen Tools, geänderten Datenflüssen oder neuen Funktionen sollte die Einordnung jedoch erneut geprüft werden. Mehr zu diesem Baustein auf meiner Seite zu <a href="/leistungen/dokumentation-und-wissen/">Dokumentation & Wissen</a>.
 
 ## Häufige Fragen
 
