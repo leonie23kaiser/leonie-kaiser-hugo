@@ -24,7 +24,7 @@ Das lässt sich früh spüren, lange bevor überhaupt jemand kündigt. Es sind d
 
 ### Rückfragen häufen sich, weil niemand sonst die Antwort kennt
 
-Welche Patientin lieber vormittags Termine wahrnimmt, wie eine bestimmte Verordnung läuft und warum ein Ablauf genau so eingespielt ist: Solche Fragen landen fast immer bei derselben Person. Nicht, weil das Team nicht mitdenken würde, sondern weil die Antwort nicht für alle zugänglich dokumentiert ist. Diese Person wird so nebenbei zur Auskunftsstelle für alles, obwohl sie eigentlich mit ihrer eigenen Arbeit beschäftigt sein sollte.
+Wie eine bestimmte Verordnung läuft, warum ein Ablauf genau so eingespielt ist oder wer bei einer Ausnahme entscheidet: Solche Fragen landen fast immer bei derselben Person. Nicht, weil das Team nicht mitdenken würde, sondern weil die Antwort nicht für alle zugänglich dokumentiert ist. Diese Person wird so nebenbei zur Auskunftsstelle für alles, obwohl sie eigentlich mit ihrer eigenen Arbeit beschäftigt sein sollte.
 
 ### Vertretung und Einarbeitung dauern länger als nötig
 
@@ -87,13 +87,13 @@ Ein Beispiel, bewusst vereinfacht: In einer kleinen Gesundheitspraxis werden Not
 ## Häufige Fragen
 
 **Ich weiß nicht, wo ich anfangen soll. Muss ich alles auf einmal dokumentieren?**
-Nein. Fangen Sie mit den Abläufen an, die am häufigsten Rückfragen auslösen, das bringt sofort spürbare Entlastung. Der Rest kommt nach und nach dazu, ein Handbuch ist nie wirklich fertig, sondern wächst mit der Praxis mit.
+Nein. Fangen Sie mit den Abläufen an, die am häufigsten Rückfragen auslösen. Dort entsteht meist als Erstes spürbare Entlastung. Der Rest kommt nach und nach dazu, ein Handbuch ist nie wirklich fertig, sondern wächst mit der Praxis mit.
 
 **Behalte ich die Kontrolle über die Dokumentation?**
 Sie behalten die fachliche Kontrolle über die Dokumentation. KI bereitet Notizen und Vorlagen vor, eine fachkundige Person prüft, ergänzt und gibt frei. Nichts landet ungeprüft im Handbuch. Die fachliche Beurteilung und jede Entscheidung bleiben bei qualifizierten Menschen in Ihrer Praxis.
 
 **Was, wenn sich ein Ablauf später ändert?**
-Ein digitales Handbuch lässt sich jederzeit anpassen, anders als eine gedruckte Mappe, die dann doch wieder in der Schublade veraltet. Ändert sich ein Ablauf, wird der entsprechende Eintrag einmal aktualisiert, und alle im Team sehen sofort die aktuelle Version, statt sich auf eine überholte Notiz zu verlassen.
+Ein digitales Handbuch lässt sich jederzeit anpassen, anders als eine gedruckte Mappe, die dann doch wieder in der Schublade veraltet. Ändert sich ein Ablauf, wird der entsprechende Eintrag einmal aktualisiert, und die jeweils berechtigten Personen im Team können auf die aktuelle Version zugreifen, statt sich auf eine überholte Notiz zu verlassen.
 
 **Was, wenn eine Mitarbeiterin plötzlich geht, bevor das Handbuch fertig ist?**
 Auch ein unfertiges Handbuch hilft mehr als gar keines. Je nachdem, wie viel bereits festgehalten ist, lässt sich einiges im Nachhinein rekonstruieren, etwa gemeinsam mit dem restlichen Team oder aus vorhandenen Notizen. Am wirksamsten bleibt es trotzdem, früh anzufangen, nicht erst wenn eine Kündigung schon auf dem Tisch liegt.
