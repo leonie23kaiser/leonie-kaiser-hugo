@@ -1,6 +1,6 @@
 ---
 title: "Termine & Anfragen automatisieren: weniger Ausfälle, mehr Zeit"
-description: "Online-Terminbuchung, automatische Erinnerungen, Wartelisten-Nachbesetzung und ein KI-Assistent für Erstanfragen – datenschutzkonform für kleine Gesundheitspraxen."
+description: "Terminanfragen, Erinnerungen und Wartelisten für kleine Praxen strukturieren: weniger Aufwand, klare Zuständigkeiten und menschliche Kontrolle."
 type: branche
 layout: single
 slug: leistungen/termine-und-anfragen

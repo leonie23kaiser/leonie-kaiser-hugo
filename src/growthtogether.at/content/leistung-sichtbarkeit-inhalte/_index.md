@@ -1,6 +1,6 @@
 ---
 title: "Sichtbarkeit & Inhalte: Texte, die nach Ihrer Praxis klingen"
-description: "Brand Voice, Vorlagen für Social Media und Newsletter, KI-Entwürfe für wiederkehrende Texte und Auffindbarkeit in KI-Suchen – für kleine Gesundheitspraxen."
+description: "Website-Texte, Vorlagen und lokale Sichtbarkeit für kleine Praxen: klare Inhalte für Menschen und Suchsysteme, ohne laufenden Redaktionsservice."
 type: branche
 layout: single
 slug: leistungen/sichtbarkeit-und-inhalte

@@ -1,6 +1,6 @@
 ---
 title: "Leistungen – KI & Digitalisierung für kleine Gesundheitspraxen"
-description: "Von der kostenfreien Potenzialanalyse über KI-Strategie und Umsetzung bis zur laufenden Betreuung: Termine & Anfragen, Nachsorge & Kundenbindung, Dokumentation & Wissen – datenschutzkonform."
+description: "KI und Digitalisierung für kleine Gesundheitspraxen: klare Abläufe für Termine, Nachsorge, Inhalte und Dokumentation, mit Blick auf Datenschutz und EU AI Act."
 type: leistungen
 layout: single
 url: /leistungen/

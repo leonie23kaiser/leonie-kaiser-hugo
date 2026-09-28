@@ -1,6 +1,6 @@
 ---
 title: "Nachsorge & Kundenbindung automatisieren – Kontakt, der bleibt"
-description: "Automatisierte Nachsorge-Sequenzen, Reaktivierung früherer Kundschaft und Bewertungsanfragen zum richtigen Zeitpunkt – datenschutzkonform für kleine Gesundheitspraxen."
+description: "Nachsorge und Wiedereinbestellung in kleinen Praxen strukturieren: wiederkehrende Kontaktpunkte vorbereiten, mit Blick auf Datenschutz und Abmeldung."
 type: branche
 layout: single
 slug: leistungen/nachsorge-und-kundenbindung
