@@ -54,6 +54,90 @@ er verweist auf die bestehenden Quelldateien, damit es **eine Wahrheit pro Thema
   Rechtsgrundlage (EU-AI-Act-Stichtage, DSGVO-Fristen), die bleiben exakt.
 - **Vor Abgabe auf Wiederholung prüfen:** Kommt derselbe Kerngedanke in zwei Absätzen nur
   anders verpackt vor, kürzen statt stehen lassen — lieber 20–30 % knapper.
+- **EU-AI-Act-Aussagen nicht vereinfachen, wo es zu Fehlaussagen führt** (2026-09-Fachlektorat
+  Post #5): Risikostufen nicht als feste Skala „minimal bis hoch" darstellen, sondern über
+  verbotene Praktiken/Hochrisiko-Anwendungen/Transparenzpflichten; Hochrisiko in
+  Gesundheitspraxen nicht kategorisch ausschließen (Diagnostik-/Medizinprodukt-Bezug bleibt
+  Sonderfall, unabhängig von Praxisgröße); Art.-50-Kennzeichnungspflicht für generierte
+  Inhalte kontextabhängig formulieren, nicht pauschal für alle Bild/Ton/Video-Inhalte;
+  Übergangsfristen (Art. 50 bis 2.12.2026 für Alt-Systeme) und GPAI-Anbieterpflichten
+  (seit 2.8.2025) mitdenken, wenn eine Zeitleiste dargestellt wird — sonst wirkt sie
+  unvollständig.
+- **AV-Vertrag-Begründung an die tatsächliche DSGVO-Rolle koppeln**, nicht an „könnten
+  indirekt Gesundheitsdaten im Spiel sein": Immer prüfen/formulieren, ob der Anbieter
+  personenbezogene Daten im Auftrag verarbeitet.
+- **Keine Compliance-Garantie-Sprache**: „auf der sicheren Seite", „diese Sorge ist vom
+  Tisch", „das reicht für die meisten Praxen", „Ja, mit den richtigen Vorkehrungen" als
+  pauschale Freigabe für KI-Einsatz — stattdessen einzelfallbezogene Prüfkriterien nennen
+  (welche Daten, welcher Zweck, wer prüft die Ergebnisse).
+- **Grammatik: „die DSGVO" ist feminin** — „zur DSGVO", niemals „zum DSGVO".
+- **Keine bestimmten Messenger-Kanäle (z. B. WhatsApp) im Gesundheitskontext als
+  selbstverständliche Lösung nennen**, wenn Datenschutz-Fokus die eigene Positionierung
+  ist — neutral „Messenger-Dienste" oder „verschiedene Kanäle" schreiben.
+- **CTA-Verben wie „feststellen" vermeiden** (klingt nach externer Diagnose/Bewertung von
+  außen) — stattdessen konkrete Fragen nennen, die die Potenzialanalyse beantwortet.
+- **Keine technische Zentralisierung versprechen** („Bündeln aller Kanäle an einem Ort"),
+  wenn eigentlich nur eine klare Zuständigkeits-/Dokumentationsregel gemeint ist, die auch
+  ohne neues Tool funktioniert.
+
+(Leonie, 2026-09-26 — aus dem fachlichen Lektorat zu Post #5 „EU AI Act
+Zeitplan" und Post #1 „Ohne mich läuft hier nichts".)
+
+- **Automatisierte Abläufe (Wartelisten, Erinnerungen) nicht als Erfolgsgarantie
+  darstellen** (2026-09-Fachlektorat Post #2): „füllt automatisch", „von selbst",
+  „wer zuerst zusagt, bekommt ihn" klingt nach Automatisierungsgarantie und kann bei
+  Wartelisten zudem Datenschutz-/Fairnessfragen aufwerfen (mehrere Personen gleichzeitig
+  anschreiben, Priorisierung sichtbar machen). Stattdessen: „die Praxis legt vorab fest,
+  nach welchen Kriterien … vergeben werden", „kann … versendet werden".
+- **Wirkungsversprechen zu Erinnerungszeitpunkten/Maßnahmen ohne Quelle abschwächen**
+  („bringt die größte Wirkung" → „ist für viele Praxen ein sinnvoller Ausgangspunkt").
+- **Ausfallhonorar/Gebühren nicht als feste Regel oder automatische Rechtsfolge
+  darstellen** — Höhe, Frist und Zulässigkeit hängen von einer klaren Vorabvereinbarung
+  und den geltenden rechtlichen Vorgaben ab, nicht von einer pauschalen Branchenüblichkeit
+  allein. Zahlungsmodalitäten „haben sich bewährt" vermeiden, wenn keine rechtliche
+  Gestaltungsempfehlung gemeint ist.
+- **Gesundheitsdatenbezug über den Kontext begründen, nicht pauschal per Artikelverweis**:
+  „betrifft Gesundheitsdaten, sobald erkennbar ist … (Art. 9 DSGVO)" ist zu absolut —
+  besser „kann der Kontext bereits erkennen lassen, dass … in Anspruch genommen wird,
+  entsprechend datensparsam verarbeiten".
+- **Datenschutz bei Drittanbietern (Messenger, SMS) nicht auf Serverstandort + AV-Vertrag
+  verkürzen** — Meta-Daten, Zugriffsmöglichkeiten, Drittlandbezüge und die konkrete
+  Nutzung gehören zur Prüfung dazu; ein AV-Vertrag „schafft" allein keine Konformität.
+- **Zielgruppenbezeichnung innerhalb eines Posts konsistent halten**: einmal für
+  „Kundschaft“ (oder eine andere Bezeichnung) entscheiden und durchgängig verwenden,
+  nicht zwischen „Kundin/Kunde“, „Kundschaft“, „Patientin“ wechseln.
+- **Branchenreport Physiotherapie korrekt attribuieren**: ETL ADVISION **und TT-DIGI**
+  (nicht nur ETL ADVISION), als „Quelle: …“-Hinweis kennzeichnen.
+
+(Leonie, 2026-09-27 — aus dem fachlichen Lektorat zu Post #2 „No-Shows
+senken".)
+
+- **Anonymisierung nicht auf „Name weglassen“ verkürzen** (2026-09-Fachlektorat Post #3):
+  „Wo der Name fehlt, fehlt auch der Personenbezug“ ist zu absolut — Re-Identifizierung
+  über Kontext (seltene Diagnose, kleine Praxis) bleibt möglich. Richtig: „Wenn
+  Informationen so verändert werden, dass eine Person weder direkt noch indirekt
+  identifiziert werden kann, liegen keine personenbezogenen Daten mehr vor. Das bloße
+  Entfernen eines Namens reicht dafür nicht immer aus.“
+- **Kostenlos/persönlich vs. Business/Enterprise/API sauber trennen**, nicht als
+  „Team-Variante“ (OpenAI hat ChatGPT Team in ChatGPT Business umbenannt). Trainings-
+  Abschaltung, AVV/DPA und Aufbewahrungsfristen sind **produktspezifisch** — nicht
+  pauschal „bei Business ist alles Teil des Angebots“ behaupten, sondern „lässt sich in
+  der Regel abschließen/einstellen, geprüft werden muss es trotzdem“.
+- **EU-Hosting ist keine pauschale Standardempfehlung** — Speicherort ist nur ein Faktor
+  neben Vertragspartei, Unterauftragsverarbeitern, Drittlandtransfers und vertraglichen
+  Schutzmechanismen. Bei besonders sensiblen Daten lieber „datensparsame, klar
+  abgegrenzte Anwendungsfälle ohne personenbezogene Gesundheitsdaten“ als ersten Schritt
+  empfehlen statt einer Tool-Empfehlung.
+- **„Ohne AVV keine Rechtsgrundlage“ ist zu absolut** — ein AVV ist nur nötig, wenn der
+  Anbieter tatsächlich als Auftragsverarbeiter personenbezogene Daten verarbeitet;
+  richtig: „ist in der Regel erforderlich, wenn … Welche Regelung passt, hängt vom
+  konkreten Anbieter und Einsatz ab.“
+- **Keine pauschale Verschlüsselungs-Garantie** („seriöses Tool ist ohnehin
+  verschlüsselt“) — Transportverschlüsselung ist ein Prüfpunkt, kein automatisches
+  Qualitätsmerkmal, und ersetzt nicht Datenminimierung/Vertragsgestaltung.
+- Bei produktspezifischen technischen Details (UI-Schalternamen, Aufbewahrungsfristen)
+  einen Hinweis ergänzen, dass sich die genaue Bezeichnung/der genaue Wert ändern kann —
+  Anbieter-Oberflächen und -Policies verändern sich schneller als der Blogpost.
 
 ---
 
