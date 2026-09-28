@@ -1,6 +1,6 @@
 ---
 title: "DSGVO in der Gesundheitspraxis: Was beim KI-Einsatz gilt"
-description: "Gesundheitsdaten sind besondere Daten nach Art. 9 DSGVO. Was kleine Praxen brauchen: Auftragsverarbeitungsverträge, Speicherort, Löschfristen und was beim KI-Einsatz dazukommt."
+description: "Gesundheitsdaten sind besonders geschützt. Was kleine Praxen bei KI-Tools zu Datenflüssen, Verträgen, Speicherfristen und Zugriffsrechten beachten sollten."
 type: dsgvo
 layout: single
 slug: dsgvo
@@ -11,15 +11,15 @@ sitemap:
 schema_type: "Article"
 faqs:
   - q: "Darf ich als Praxis überhaupt KI einsetzen, wenn ich Gesundheitsdaten verarbeite?"
-    a: "Ja, aber nicht mit jedem Werkzeug und nicht ohne Vorbereitung. Entscheidend ist, welche Daten tatsächlich in das System gelangen. Vieles lässt sich automatisieren, ohne dass Gesundheitsdaten das Haus verlassen, etwa Terminorganisation oder Vorlagen. Wo es doch um sensible Inhalte geht, braucht es ein Werkzeug mit geregeltem Speicherort, einen Auftragsverarbeitungsvertrag und eine dokumentierte Entscheidung."
+    a: "Viele organisatorische KI-Anwendungen können grundsätzlich auch in Gesundheitspraxen sinnvoll eingesetzt werden. Entscheidend ist der konkrete Einsatz: Welche Daten werden verarbeitet, wofür wird das System genutzt, wer prüft die Ergebnisse und welche Datenschutzanforderungen gelten?"
   - q: "Was ist ein Auftragsverarbeitungsvertrag und brauche ich den wirklich?"
-    a: "Sobald ein externer Anbieter personenbezogene Daten für Sie verarbeitet, etwa ein Terminbuchungssystem oder ein Textwerkzeug, verlangt Art. 28 DSGVO einen Auftragsverarbeitungsvertrag. Die meisten seriösen Anbieter stellen ihn bereit, er muss aber abgeschlossen und auffindbar abgelegt sein. In Prüfungen wird genau danach gefragt."
+    a: "Wenn ein Anbieter personenbezogene Daten im Auftrag Ihrer Praxis verarbeitet, etwa bei einem Terminbuchungssystem oder einem Textwerkzeug, ist in der Regel ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO oder eine andere passende vertragliche Regelung erforderlich. Viele professionelle Anbieter stellen entsprechende Vertragsunterlagen bereit. Ob diese zum konkreten Einsatz passen, sollte vor der Nutzung geprüft werden. Die Unterlagen sollten abgeschlossen, aktuell und bei Rückfragen schnell auffindbar sein."
   - q: "Müssen die Daten in der EU liegen?"
-    a: "Ein Speicherort in der EU macht vieles einfacher, ist aber nicht in jedem Fall zwingend. Bei Gesundheitsdaten ist er die deutlich sicherere Wahl, und bei besonders sensiblen Inhalten arbeite ich mit lokalen Lösungen, bei denen die Daten Ihre Praxis gar nicht verlassen. Welche Variante zu Ihnen passt, hängt davon ab, welche Daten im Spiel sind."
+    a: "Ein Speicher- und Verarbeitungsort im Europäischen Wirtschaftsraum kann Drittlandrisiken reduzieren, ist aber nicht in jedem Fall zwingend. Entscheidend bleiben auch Zugriffsrechte, Unterauftragsverarbeiter, Verträge, technische und organisatorische Schutzmaßnahmen und der konkrete Datenfluss. Bei besonders sensiblen Anwendungsfällen kann eine lokal oder selbst betriebene Lösung eine Option sein; ob sie sinnvoll ist, hängt von Zugriffsschutz, Updates, Backups, Wartung und den organisatorischen Möglichkeiten der Praxis ab. Welche Variante zu Ihnen passt, klären wir anhand der konkreten Daten und des Ablaufs."
   - q: "Wie lange darf ich Kundendaten aufbewahren?"
-    a: "Für Gesundheitsdaten gelten berufsrechtliche Aufbewahrungsfristen, die je nach Beruf und Land unterschiedlich sind und die Sie ohnehin einhalten. Wichtig für die Automatisierung ist etwas anderes: Daten, die nur für einen Ablauf gebraucht wurden, etwa eine Terminerinnerung, dürfen nicht unbegrenzt in einem Werkzeug liegen bleiben. Deshalb legen wir Löschfristen von Anfang an fest."
+    a: "Daten sollten nicht länger in einem zusätzlichen Tool gespeichert werden, als es für den jeweiligen Zweck und bestehende Aufbewahrungspflichten erforderlich ist. Behandlungsdokumentation kann berufsrechtlichen Aufbewahrungsfristen unterliegen, die je nach Beruf und Land unterschiedlich sind. Temporäre Datenkopien für Erinnerungen oder Automatisierungen brauchen dagegen oft kürzere, klar festgelegte Löschregeln, die wir von Anfang an mitplanen."
   - q: "Was passiert, wenn jemand Auskunft über seine Daten verlangt?"
-    a: "Sie müssen innerhalb eines Monats vollständig Auskunft geben können. Das gelingt nur, wenn Sie wissen, in welchen Werkzeugen welche Daten liegen. Genau dafür entsteht bei jedem Projekt eine Übersicht der eingesetzten Systeme mit Zweck und Datenfluss. Diese Übersicht ist im Alltag die eigentliche Arbeitserleichterung."
+    a: "Betroffenenanfragen sind grundsätzlich innerhalb eines Monats zu beantworten. Bei komplexen oder zahlreichen Anfragen kann sich diese Frist unter bestimmten Voraussetzungen um bis zu zwei weitere Monate verlängern, die betroffene Person muss darüber rechtzeitig informiert werden. Das gelingt in der Praxis nur, wenn Sie wissen, in welchen Werkzeugen welche Daten liegen. Genau dafür entsteht bei jedem Projekt eine Übersicht der eingesetzten Systeme mit Zweck und Datenfluss."
   - q: "Sind Sie Juristin?"
     a: "Nein. Ich setze Datenschutz technisch und organisatorisch um: Werkzeugauswahl, Speicherort, Auftragsverarbeitungsverträge, Datenflüsse und Dokumentation. Für die rechtliche Beurteilung im Einzelfall arbeiten Sie weiter mit Ihrer Rechtsberatung oder Ihrem Datenschutzbeauftragten. Die Seite hier gibt Orientierung, sie ersetzt keine Rechtsberatung."
 ---
