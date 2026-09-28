@@ -51,7 +51,7 @@ Alles Dinge, die heute oft auf mehrere Personen verteilt sind, und selten alle a
 
 Termine, Abrechnung, der Umgang mit bestimmten Geräten und häufige Rückfragen: Einmal aufgeschrieben, steht die Antwort für das ganze Team bereit. Wie fühlt sich das für eine neue Kollegin an, die sich sonst erst mühsam alles zusammensuchen müsste? Spürbar entspannter. Und auch für die Kundschaft macht es einen Unterschied: Wer die gewohnte Ansprechperson gerade nicht erreicht, profitiert trotzdem von einem einheitlichen, geprüften Ablauf im Team. Zeitgewinn für die Praxis und ein einheitliches Erlebnis für die Kundschaft entstehen hier gemeinsam.
 
-### Die fachliche Beurteilung bleibt immer bei Ihnen
+### Die fachliche Beurteilung bleibt bei Ihrem Team
 
 Ein Handbuch ersetzt keine fachliche Einschätzung. KI kann helfen, Notizen zu strukturieren oder einen Entwurf für einen Handbuch-Eintrag vorzubereiten, etwa aus einer kurzen mündlichen Erklärung ein sauber formuliertes Kapitel machen. Die fachliche Beurteilung bleibt bei den qualifizierten Menschen in Ihrer Praxis: Gelesen, geprüft und freigegeben wird der Eintrag von einer fachkundigen Person aus Ihrem Team. So entsteht ein Handbuch, das wirklich in Ihrer Sprache klingt, nicht in der einer Software.
 
