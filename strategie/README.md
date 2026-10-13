@@ -28,6 +28,7 @@ Anfrage generierbar, nicht dauerhaft im Repo.
 | Datei | Zweck |
 |---|---|
 | **[`strategie-konzept.md`](strategie-konzept.md)** | **Konsolidiertes Gesamt-Konzept.** Stand 2026-07-20. Hier zuerst nachschauen. |
+| **[`website-traffic-strategie.md`](website-traffic-strategie.md)** | **Operativer Traffic-/Lead-Fahrplan** (Blog, GEO, GBP, LinkedIn, Pilot-Akquise in Phasen). Stand 2026-10-13. |
 
 ### Detail-Quellen (speisen das Konzept)
 | Datei | Zweck |
