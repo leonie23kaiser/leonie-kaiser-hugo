@@ -20,8 +20,8 @@ und aus dem Repo entfernt (Leonie, 2026-09).
 | `openai-praxisleiterin-tablet-checkliste-nahaufnahme-post4.png` | KI-generiert mit OpenAI, 2026 | Post „Wenn erfahrene Mitarbeiter gehen" — Zwischenbild Checkliste (ausgeliefert als `static/images/blog/praxisleiterin-tablet-checkliste-nahaufnahme-post4.png` + `.webp`). Ersetzt das Pexels-Stockfoto von Jakub Zerdzicki. |
 | `openai-praxisleiterin-tablet-behandlungsraum-post5.png` | KI-generiert mit OpenAI, 2026 | Post „EU AI Act Zeitplan für kleine Praxen" (Datenschutz & EU AI Act) — Coverbild |
 | `openai-perplexity-eu-ai-act-zeitplan-post5.png` | KI-generiert mit OpenAI, 2026 | Post „EU AI Act Zeitplan für kleine Praxen" — Zwischengrafik Zeitleiste (ausgeliefert als `static/images/blog/eu-ai-act-zeitplan-timeline.png` + `.webp`) |
-| `openai-perplexity-praxisleitung-team-tablet-erklaeren-post6.png` | KI-generiert mit OpenAI, 2026 | Post „Digitalisierung ist Chefsache" (Post #6, Draft) — Coverbild |
-| `openai-perplexity-praxisleitung-team-klemmbrett-post6.png` | KI-generiert mit OpenAI, 2026 | Post „Digitalisierung ist Chefsache" (Post #6, Draft) — Zwischenbild (ausgeliefert als `static/images/blog/praxisleitung-team-klemmbrett-post6.png` + `.webp`) |
+| `openai-perplexity-praxisleitung-team-tablet-erklaeren-post6.png` | KI-generiert mit OpenAI, 2026 | Post „Digitalisierung ist Chefsache" (Post #6) — Coverbild |
+| `openai-perplexity-praxisleitung-team-klemmbrett-post6.png` | KI-generiert mit OpenAI, 2026 | Post „Digitalisierung ist Chefsache" (Post #6) — Zwischenbild (ausgeliefert als `static/images/blog/praxisleitung-team-klemmbrett-post6.png` + `.webp`) |
 | `openai-praxisinhaberin-smartphone-eingang-post7.png` | KI-generiert mit OpenAI, 2026 | Post „Praxis bei Google sichtbar machen" (Post #7, Draft) — Coverbild |
 | `openai-praxis-daten-hub-grafik-post7.png` | KI-generiert mit OpenAI, 2026 | Post „Praxis bei Google sichtbar machen" (Post #7, Draft) — Zwischengrafik (ausgeliefert als `static/images/blog/praxis-daten-hub-grafik-post7.png` + `.webp`) |
 
