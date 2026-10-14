@@ -42,11 +42,13 @@ statt Fixadresse). Öffnungszeiten final gelöst: feste Hours Mo–Fr 09–17 **
 Profil-Vollständigkeits-Lücke von leeren Hauptzeiten. Offen: nur noch Fotos (aktuell nur
 Profilbild). Erste Bewertungen/Posts bleiben bewusst bis Pilot bzw. LinkedIn-Start zurückgestellt.
 
-**90-Tage-Audit (`audits.md`):** fällig seit 2026-09-30. **Bewusst auf Mitte November verschoben**
-(Entscheidung Leonie, 2026-10-14) — aktuell liegt kein neuer Input vor, der den Score
-verändern würde. Der Authenticity-Score (4/10) ist durch die Website-Überarbeitung mit hoher
-Wahrscheinlichkeit trotzdem veraltet; die Neubewertung erfolgt gebündelt mit dem zweiten
-GBP-Check Mitte November, nicht mehr als eigener Phase-1-Schritt.
+**90-Tage-Audit (`audits.md`):** fällig seit 2026-09-30. **Bewusst auf die Woche ab 23. November
+verschoben** (Entscheidung Leonie, zuletzt bestätigt 2026-10-14) — aktuell liegt kein neuer Input
+vor, der den Score verändern würde. Der Authenticity-Score (4/10) ist durch die
+Website-Überarbeitung mit hoher Wahrscheinlichkeit trotzdem veraltet; die Neubewertung erfolgt
+gebündelt mit dem zweiten GBP-Check und den übrigen Nov-23-Terminen (Gewerbe-Ummeldung,
+Berufshaftpflicht), nicht mehr als eigener Phase-1-Schritt. Deckt sich mit dem bereits in Asana
+eingetragenen Termin-Cluster.
 
 **Pilot-Akquise (`pilot-akquise.md`):** Plan steht, Anschreiben-Vorlage fertig. Noch kein
 Case gestartet — bewusst, siehe Phase 2.
@@ -64,10 +66,11 @@ geplant (externer Schritt, kein Content-Bezug) — Pilot-Akquise startet erst da
 | **LinkedIn** | ~2 Std. | 1 Post/Woche (Vorlage: `netzwerk-strategie.md` Kap. 4) + 15–20 Min. gezieltes Kommentieren bei Zielkontakten. Themen: Haltung, Lehrgangs-Einblicke, Branchenbeobachtungen — noch **keine** Pilot-Werbung. |
 | **Blog** | flexibel, kein Zwang | Grundmenge von 7 Posts ist erreicht. Kein Druck auf Wochentakt, solange LinkedIn noch nicht läuft. **Trigger für Wochentakt:** sobald sich LinkedIn-Posting 2–3 Wochen stabil anfühlt (kein Kalenderdatum, sondern Routine-Gefühl). |
 | **GBP-Pflege** | ~~einmalig ~1 Std.~~ erledigt | ~~Öffnungszeiten-Lösung finden~~ — gelöst über Hours + „Appointment required" + Online-Hours (14.10.). Offen: Profilfoto/Logo aktualisieren, falls noch das alte „Conscious Certified"-Rahmenbild aktiv ist. |
-| **Verzeichnisse** | einmalig ~1 Std. | KI Beraterportal + gründer.de Profile anlegen (`netzwerk-strategie.md` Kap. 3.3, reiner GEO-Citation-Hebel, kein laufender Pflegeaufwand). |
-| **Netzwerk-Profile** | einmalig ~1 Std. | Women in AI Österreich + EPU-Netzwerk (Marke „Wir Sind 1") — Quellen identifiziert 2026-10-14, Profile noch anzulegen (`netzwerk-strategie.md` Kap. 3.3). |
-| **GBP-Zweitcheck** | Mitte November | GBP ist inhaltlich fertig (14.10.) — Zweitcheck Mitte November betrifft nur noch Fotos. |
-| **Audit-Refresh** | Mitte November | `audits.md` neu durchführen — bewusst verschoben statt jetzt, siehe Abschnitt 1. Gebündelt mit GBP-Zweitcheck. |
+| **Verzeichnisse** | ~~einmalig~~ erledigt | ~~KI Beraterportal + gründer.de Profile anlegen~~ — obsolet: der Lehrgang samt Mitglieder-Login ist von gründer.de auf die neue Digital-Beat-Plattform (Smart Hub) umgezogen, Profil dort bereits angelegt (14.10.). |
+| **Netzwerk-Profile** | einmalig ~1 Std. | **Women in AI Österreich** (womeninai.at, gemeinnütziger Verein seit 2020) + **EPU-Netzwerk** („Wir Sind 1", wirsind1.at/epu-netzwerk/ inkl. Marktplatz wirsind1.at/marktplatz/) — URLs bestätigt 2026-10-14, Profile/Mitgliedschaft noch zu aktivieren. |
+| **Neue Networking-Leads** | einmalig, aus dem KI-Lehrgang | Vortragende vom LinkedIn-Workshop anschreiben; **Erik Insel** (KI-Sparringspartner für KMU und regulierte Branchen) kontaktieren; WKO-Wien-Kooperationsservice prüfen (wko.at/wien/innovation/kooperationsservice-wien); „Corporate to Venture Mastermind" (Dienstags-Sessions) auf Passung prüfen. |
+| **GBP-Zweitcheck** | Woche ab 23. November | GBP ist inhaltlich fertig (14.10.) — Zweitcheck betrifft nur noch Fotos (siehe unten, „Welche Fotos"). Deckt sich mit dem bestehenden Asana-Termin „Google Business Profil aktualisieren". |
+| **Audit-Refresh** | Woche ab 23. November | `audits.md` neu durchführen — bewusst verschoben statt jetzt, siehe Abschnitt 1. |
 
 **Nicht in Phase 1:** aktive Pilot-Ansprache, Paid Ads, Case-Study-Inhalte (es gibt noch keine
 echten Fälle).
@@ -127,10 +130,11 @@ Schlank halten, keine Vanity-Metriken (Prinzip aus `blog-konzept.md` Abschnitt 9
 
 - [x] GBP-Beschreibung/Name/Kategorie/Servicegebiet/Services überarbeitet (14.10.)
 - [x] Öffnungszeiten im GBP gelöst (Hours + „Appointment required" + Online-Hours, 14.10.)
-- [ ] GBP-Profilfoto/Logo aktualisieren — Mitte November
-- [ ] KI Beraterportal + gründer.de Profile anlegen
-- [ ] Women in AI Österreich + EPU-Netzwerk („Wir Sind 1") Profile anlegen
-- [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet) — **Mitte November**, bewusst verschoben, kein neuer Input aktuell
+- [ ] GBP-Fotos ergänzen — Woche ab 23. November
+- [x] ~~KI Beraterportal + gründer.de Profile anlegen~~ obsolet, erledigt über Digital-Beat-Migration (14.10.)
+- [ ] Women in AI Österreich + EPU-Netzwerk („Wir Sind 1", inkl. Marktplatz) Profile/Mitgliedschaft aktivieren
+- [ ] Neue Netzwerk-Leads aus dem Lehrgang nachfassen: LinkedIn-Workshop-Vortragende, Erik Insel, WKO-Kooperationsservice, Corporate-to-Venture-Mastermind
+- [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet) — **Woche ab 23. November**, bewusst verschoben, kein neuer Input aktuell
 - [ ] LinkedIn-Wochenrhythmus starten
 - [ ] Trigger-Punkt für Blog-Wochentakt selbst einschätzen, sobald LinkedIn läuft
 - [ ] Ende Nov/Dez: Gewerbe-Sparte + Berufshaftpflicht abschließen, danach Pilot-Akquise starten
