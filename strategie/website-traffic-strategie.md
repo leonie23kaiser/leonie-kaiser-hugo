@@ -39,9 +39,11 @@ drei Services hinterlegt, „Identifies as women-owned" aktiv, Adresse verborgen
 statt Fixadresse). Offen: Öffnungszeiten-Vervollständigung (Google markiert „no main hours"
 weiterhin als unvollständig), Fotos, erste Bewertungen, Posts.
 
-**90-Tage-Audit (`audits.md`):** fällig seit 2026-09-30, aktuell **zwei Wochen überfällig**.
-Der Authenticity-Score (4/10) ist durch die Website-Überarbeitung mit hoher Wahrscheinlichkeit
-veraltet — lohnt sich, offiziell neu zu bewerten, bevor Phase 2 beginnt.
+**90-Tage-Audit (`audits.md`):** fällig seit 2026-09-30. **Bewusst auf Mitte November verschoben**
+(Entscheidung Leonie, 2026-10-14) — aktuell liegt kein neuer Input vor, der den Score
+verändern würde. Der Authenticity-Score (4/10) ist durch die Website-Überarbeitung mit hoher
+Wahrscheinlichkeit trotzdem veraltet; die Neubewertung erfolgt gebündelt mit dem zweiten
+GBP-Check Mitte November, nicht mehr als eigener Phase-1-Schritt.
 
 **Pilot-Akquise (`pilot-akquise.md`):** Plan steht, Anschreiben-Vorlage fertig. Noch kein
 Case gestartet — bewusst, siehe Phase 2.
@@ -60,7 +62,9 @@ geplant (externer Schritt, kein Content-Bezug) — Pilot-Akquise startet erst da
 | **Blog** | flexibel, kein Zwang | Grundmenge von 7 Posts ist erreicht. Kein Druck auf Wochentakt, solange LinkedIn noch nicht läuft. **Trigger für Wochentakt:** sobald sich LinkedIn-Posting 2–3 Wochen stabil anfühlt (kein Kalenderdatum, sondern Routine-Gefühl). |
 | **GBP-Pflege** | einmalig ~1 Std. | Öffnungszeiten-Lösung finden (nach „By appointment only"-Option suchen, sonst realistisches Zeitfenster statt leer); erstes Profilfoto/Logo aktualisieren, falls noch das alte „Conscious Certified"-Rahmenbild aktiv ist. |
 | **Verzeichnisse** | einmalig ~1 Std. | KI Beraterportal + gründer.de Profile anlegen (`netzwerk-strategie.md` Kap. 3.3, reiner GEO-Citation-Hebel, kein laufender Pflegeaufwand). |
-| **Audit-Refresh** | einmalig ~30 Min. | `audits.md` neu durchführen — die 90-Tage-Wiedervorlage ist überfällig, und der Authenticity-Score sollte den aktuellen Website-Stand widerspiegeln, bevor er als Vertrauens-Basis für Phase 2 dient. |
+| **Netzwerk-Profile** | einmalig ~1 Std. | Women in AI Österreich + EPU-Netzwerk (Marke „Wir Sind 1") — Quellen identifiziert 2026-10-14, Profile noch anzulegen (`netzwerk-strategie.md` Kap. 3.3). |
+| **GBP-Zweitcheck** | Mitte November | GBP-Beschreibung heute (14.10.) überarbeitet, Leonie prüft selbst nochmal Mitte November. |
+| **Audit-Refresh** | Mitte November | `audits.md` neu durchführen — bewusst verschoben statt jetzt, siehe Abschnitt 1. Gebündelt mit GBP-Zweitcheck. |
 
 **Nicht in Phase 1:** aktive Pilot-Ansprache, Paid Ads, Case-Study-Inhalte (es gibt noch keine
 echten Fälle).
@@ -118,10 +122,12 @@ Schlank halten, keine Vanity-Metriken (Prinzip aus `blog-konzept.md` Abschnitt 9
 
 ## 6. Offene Entscheidungen / nächste Schritte
 
-- [ ] Öffnungszeiten-Lösung im GBP finden („By appointment only" prüfen)
-- [ ] GBP-Profilfoto/Logo aktualisieren
+- [x] GBP-Beschreibung/Name/Kategorie/Servicegebiet/Services überarbeitet (14.10.)
+- [ ] Öffnungszeiten-Lösung im GBP final prüfen („By appointment only"?) — Mitte November
+- [ ] GBP-Profilfoto/Logo aktualisieren — Mitte November
 - [ ] KI Beraterportal + gründer.de Profile anlegen
-- [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet, überfällig seit 30.9.)
+- [ ] Women in AI Österreich + EPU-Netzwerk („Wir Sind 1") Profile anlegen
+- [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet) — **Mitte November**, bewusst verschoben, kein neuer Input aktuell
 - [ ] LinkedIn-Wochenrhythmus starten
 - [ ] Trigger-Punkt für Blog-Wochentakt selbst einschätzen, sobald LinkedIn läuft
 - [ ] Ende Nov/Dez: Gewerbe-Sparte + Berufshaftpflicht abschließen, danach Pilot-Akquise starten
