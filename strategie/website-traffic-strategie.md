@@ -32,12 +32,15 @@ präzisere, rechtlich vorsichtigere Formulierungen ersetzt. Das schließt direkt
 „Deployment-Lücke" aus dem Trust-Triangle-Audit vom 2. Juli (Authenticity war 4/10, weil die
 eigene Stimme nur in Strategie-Dokumenten stand, nicht live).
 
-**Google Business Profile:** Heute vollständig abgeglichen — Name „Leonie Kaiser ·
+**Google Business Profile:** Vollständig abgeglichen (14.10.) — Name „Leonie Kaiser ·
 KI & Digitalisierung", Kategorie „Business management consultant", Beschreibung ohne
 Pauschal-Claims und ohne „Wien", Servicegebiet DACH-weit (Österreich, Deutschland, Schweiz),
 drei Services hinterlegt, „Identifies as women-owned" aktiv, Adresse verborgen (Servicegebiet
-statt Fixadresse). Offen: Öffnungszeiten-Vervollständigung (Google markiert „no main hours"
-weiterhin als unvollständig), Fotos, erste Bewertungen, Posts.
+statt Fixadresse). Öffnungszeiten final gelöst: feste Hours Mo–Fr 09–17 **plus** Attribut
+„Appointment required" (Planning) **plus** „Offers online appointments" **plus** separate
+„Online operating hours" — vermittelt zusammen „online, nur nach Termin" ohne die
+Profil-Vollständigkeits-Lücke von leeren Hauptzeiten. Offen: nur noch Fotos (aktuell nur
+Profilbild). Erste Bewertungen/Posts bleiben bewusst bis Pilot bzw. LinkedIn-Start zurückgestellt.
 
 **90-Tage-Audit (`audits.md`):** fällig seit 2026-09-30. **Bewusst auf Mitte November verschoben**
 (Entscheidung Leonie, 2026-10-14) — aktuell liegt kein neuer Input vor, der den Score
@@ -60,10 +63,10 @@ geplant (externer Schritt, kein Content-Bezug) — Pilot-Akquise startet erst da
 |---|---|---|
 | **LinkedIn** | ~2 Std. | 1 Post/Woche (Vorlage: `netzwerk-strategie.md` Kap. 4) + 15–20 Min. gezieltes Kommentieren bei Zielkontakten. Themen: Haltung, Lehrgangs-Einblicke, Branchenbeobachtungen — noch **keine** Pilot-Werbung. |
 | **Blog** | flexibel, kein Zwang | Grundmenge von 7 Posts ist erreicht. Kein Druck auf Wochentakt, solange LinkedIn noch nicht läuft. **Trigger für Wochentakt:** sobald sich LinkedIn-Posting 2–3 Wochen stabil anfühlt (kein Kalenderdatum, sondern Routine-Gefühl). |
-| **GBP-Pflege** | einmalig ~1 Std. | Öffnungszeiten-Lösung finden (nach „By appointment only"-Option suchen, sonst realistisches Zeitfenster statt leer); erstes Profilfoto/Logo aktualisieren, falls noch das alte „Conscious Certified"-Rahmenbild aktiv ist. |
+| **GBP-Pflege** | ~~einmalig ~1 Std.~~ erledigt | ~~Öffnungszeiten-Lösung finden~~ — gelöst über Hours + „Appointment required" + Online-Hours (14.10.). Offen: Profilfoto/Logo aktualisieren, falls noch das alte „Conscious Certified"-Rahmenbild aktiv ist. |
 | **Verzeichnisse** | einmalig ~1 Std. | KI Beraterportal + gründer.de Profile anlegen (`netzwerk-strategie.md` Kap. 3.3, reiner GEO-Citation-Hebel, kein laufender Pflegeaufwand). |
 | **Netzwerk-Profile** | einmalig ~1 Std. | Women in AI Österreich + EPU-Netzwerk (Marke „Wir Sind 1") — Quellen identifiziert 2026-10-14, Profile noch anzulegen (`netzwerk-strategie.md` Kap. 3.3). |
-| **GBP-Zweitcheck** | Mitte November | GBP-Beschreibung heute (14.10.) überarbeitet, Leonie prüft selbst nochmal Mitte November. |
+| **GBP-Zweitcheck** | Mitte November | GBP ist inhaltlich fertig (14.10.) — Zweitcheck Mitte November betrifft nur noch Fotos. |
 | **Audit-Refresh** | Mitte November | `audits.md` neu durchführen — bewusst verschoben statt jetzt, siehe Abschnitt 1. Gebündelt mit GBP-Zweitcheck. |
 
 **Nicht in Phase 1:** aktive Pilot-Ansprache, Paid Ads, Case-Study-Inhalte (es gibt noch keine
@@ -123,7 +126,7 @@ Schlank halten, keine Vanity-Metriken (Prinzip aus `blog-konzept.md` Abschnitt 9
 ## 6. Offene Entscheidungen / nächste Schritte
 
 - [x] GBP-Beschreibung/Name/Kategorie/Servicegebiet/Services überarbeitet (14.10.)
-- [ ] Öffnungszeiten-Lösung im GBP final prüfen („By appointment only"?) — Mitte November
+- [x] Öffnungszeiten im GBP gelöst (Hours + „Appointment required" + Online-Hours, 14.10.)
 - [ ] GBP-Profilfoto/Logo aktualisieren — Mitte November
 - [ ] KI Beraterportal + gründer.de Profile anlegen
 - [ ] Women in AI Österreich + EPU-Netzwerk („Wir Sind 1") Profile anlegen
