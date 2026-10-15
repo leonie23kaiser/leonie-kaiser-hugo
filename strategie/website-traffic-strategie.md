@@ -101,7 +101,7 @@ echten Fälle).
 | Kanal | Rolle | Status | Quelle für Details |
 |---|---|---|---|
 | **Organisches SEO (Blog)** | Haupt-Traffic-Hebel, compoundiert langsam | 7/18 Posts live, GSC-Wachstum sichtbar | `blog-konzept.md` |
-| **GEO / AI-Citations** | KI-Suchsysteme zitieren die Seite | `llms.txt`, Schema.org, FAQ-Blöcke stehen | `blog-konzept.md` Abschnitt 5 |
+| **GEO / AI-Citations** | KI-Suchsysteme zitieren die Seite | `llms.txt`, Schema.org, FAQ-Blöcke stehen. Seit 15.10. eigener Sub-Agent `geo-optimizer` (`.claude/agents/`), Routine alle 2 Wochen (1./15. jeden Monats) | `blog-konzept.md` Abschnitt 5, `agentic-seo`-Skill (`ai-geo`-Referenz) |
 | **Google Business Profile** | Lokale Suche + Citation-Quelle für KI | Heute vollständig abgeglichen | `google-business-profile.md` |
 | **LinkedIn** | Referral-Traffic + Vertrauensaufbau (Track A+B) | Plan steht, Umsetzung startet jetzt (Phase 1) | `netzwerk-strategie.md` |
 | **Verzeichnis-Einträge** | GEO-Citation, kein laufender Aufwand | Offen (Phase 1) | `netzwerk-strategie.md` Kap. 3.3 |
@@ -135,6 +135,7 @@ Schlank halten, keine Vanity-Metriken (Prinzip aus `blog-konzept.md` Abschnitt 9
 - [ ] Women in AI Österreich + EPU-Netzwerk („Wir Sind 1", inkl. Marktplatz) Profile/Mitgliedschaft aktivieren
 - [ ] Neue Netzwerk-Leads aus dem Lehrgang nachfassen: LinkedIn-Workshop-Vortragende, Erik Insel, WKO-Kooperationsservice, Corporate-to-Venture-Mastermind
 - [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet) — **Woche ab 23. November**, bewusst verschoben, kein neuer Input aktuell
+- [x] GEO-Sub-Agent eingerichtet (`geo-optimizer`) + Routine alle 2 Wochen ab 1.11. (15.10.)
 - [ ] LinkedIn-Wochenrhythmus starten
 - [ ] Trigger-Punkt für Blog-Wochentakt selbst einschätzen, sobald LinkedIn läuft
 - [ ] Ende Nov/Dez: Gewerbe-Sparte + Berufshaftpflicht abschließen, danach Pilot-Akquise starten
