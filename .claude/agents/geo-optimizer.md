@@ -42,6 +42,10 @@ vorschlagen bzw. nach Freigabe umsetzen.
 - Blog-Posts (`content/journal/*.md`) auf AEO-Tauglichkeit: beantwortet der
   Post eine konkrete, lange Nutzerfrage vollständig und selbsterklärend,
   auch ohne weiteren Kontext der Seite?
+- EEAT-Signale in Blog-Posts: Quellenangabe bei Zahlen/Statistiken vorhanden,
+  erkennbare Fachkompetenz (konkrete Praxis-Situationen statt Allgemeinplätze),
+  keine unbelegten Pauschalaussagen — KI-Systeme bevorzugen nachweisbar
+  fundierte Inhalte gegenüber reiner Meinung
 - Technisches Fundament, das GEO voraussetzt: kein Content hinter JavaScript
   versteckt, HTTPS, Ladezeit — nur gegenchecken, nicht neu auditieren (das
   deckt `audit-technical` ab, falls nötig separat anstoßen)
