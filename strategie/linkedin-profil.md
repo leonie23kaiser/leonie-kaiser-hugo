@@ -2,9 +2,10 @@
 
 *Sie-Form, Brand Voice (`AGENTS.md`). Zielgruppe: der **Schirm** aus `segmente.md` — kleine,
 inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler). Stand:
-2026-07-09. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
-Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung
-(2021–2026) **+** heute KI-Beratung. Nie „20 Jahre Pharma".*
+2026-10-15 (Sprache an aktuellen Standard angeglichen, siehe AGENTS.md §9). Erfahrungsangabe
+ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/Gesundheit (mehr als ein Jahrzehnt,
+~13 J., 2005–2018) **+** strategische Unternehmensberatung (2021–2026) **+** heute
+KI-Beratung. Nie „20 Jahre Pharma".*
 
 ### Externe Kurz-Copy-Regel (Headline, Banner, GBP) — festgelegt 2026-07-09
 
@@ -22,7 +23,7 @@ in Headline/Banner auf.
 ## Slogan / Headline
 
 > KI & Digitalisierung für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
-> fürs Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
+> fürs Kerngeschäft, mit Blick auf Datenschutz und EU AI Act
 
 **Job Title** (im Erfahrungs-Eintrag): **bleibt „KI Consulting | Strategie & Business"** —
 unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
@@ -38,13 +39,13 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 > – damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 >
 > Termine, Aufnahme, Nachsorge, wiederkehrende Verwaltung: Vieles davon lässt sich
-> datenschutzkonform automatisieren. Das Ergebnis ist mehr Zeit fürs Kerngeschäft – und ein
-> reibungsloses, professionelles Erlebnis für Ihre Kund:innen. Das Persönliche bleibt: KI nimmt
-> Ihnen die Routine ab, nicht die Beziehung zu den Menschen.
+> automatisieren, mit Blick auf Datenschutz von Anfang an mitgedacht. Das Ergebnis ist mehr
+> Zeit fürs Kerngeschäft und ein reibungsloses, professionelles Erlebnis für Ihre Kund:innen.
+> Das Persönliche bleibt: KI nimmt Ihnen die Routine ab, nicht die Beziehung zu den Menschen.
 >
 > Wie ich arbeite:
 > 🧭 Erst die Prozesse, dann das Tool. KI ist der Verstärker, nicht das Ziel.
-> 🔒 Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte – EU AI Act und DSGVO von Anfang an.
+> 🔒 Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte: EU AI Act und DSGVO von Anfang an mitgedacht.
 > 💬 Ehrliches Nein: Reicht ein einfacher Ablauf, sage ich Ihnen das.
 > 🤝 Ich richte für Sie ein, Ihr Team wird eingewiesen – Sie werden nicht zur IT-Abteilung.
 >
@@ -63,7 +64,7 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 ## Aktuelle Rolle — Leonie Kaiser Consulting (KI Consulting | Strategie & Business)
 
 > Ich begleite kleine Privatpraxen in Gesundheit und Wohlbefinden dabei, ihren Praxisalltag zu
-> entlasten – datenschutzkonform, für mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
+> entlasten: mit Blick auf Datenschutz, für mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
 >
 > • Kostenfreie KI-Potenzialanalyse: wo im Praxisalltag Zeit verloren geht und wo KI wirklich hilft
 > • Praxis-Automatisierung von der Analyse bis zur fertigen Umsetzung (Termine, Aufnahme, Nachsorge)
@@ -164,7 +165,7 @@ Digitalisierung, Prozesse) ausgerichtet — keine erfundenen Erfolge.*
 **Überblick (fertig zum Einfügen):**
 
 > Ich unterstütze kleine Privatpraxen in Gesundheit und Wohlbefinden dabei, ihren Praxisalltag zu
-> entlasten – datenschutzkonform und ohne technisches Vorwissen. Termine, Aufnahme, Nachsorge und
+> entlasten: mit Blick auf Datenschutz und ohne technisches Vorwissen. Termine, Aufnahme, Nachsorge und
 > wiederkehrende Verwaltung lassen sich automatisieren, sodass wieder Zeit bleibt für das, worum es
 > wirklich geht: die Menschen. Ich fange bei Ihren Prozessen an, nicht beim Tool, und sage ehrlich,
 > wenn Sie für etwas gar keine KI brauchen. Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt.
