@@ -5,10 +5,13 @@ description: >-
   Delegates to the correct narrow leaf skill.
   Use when auditing SEO health, updating meta descriptions or title tags, adding structured data (JSON-LD),
   comparing audit snapshots, setting up performance monitoring, optimizing for AI/GEO citation, writing
-  AEO content blocks, or planning programmatic SEO pages. Triggers on: "SEO audit", "meta description",
+  AEO content blocks, planning programmatic SEO pages, planning relaunch redirects, or checking
+  agentic/WebMCP visibility. Triggers on: "SEO audit", "meta description",
   "structured data", "schema markup", "title tags", "open graph", "core web vitals", "LCP", "CLS", "INP",
   "seo compare", "seo optimize", "ranking", "sitemap", "GEO", "AI citation", "AI Overviews", "llms.txt",
-  "programmatic SEO", "pSEO", "answer engine", "featured snippets", "E-E-A-T", "content patterns".
+  "programmatic SEO", "pSEO", "answer engine", "featured snippets", "E-E-A-T", "content patterns",
+  "relaunch", "weiterleitungen", "301", "soft 404", "WebMCP", "google bewertung", "ranking eingebrochen",
+  "helpful content".
 license: Complete terms in LICENSE.txt
 ---
 
@@ -52,6 +55,13 @@ Load these only when the user explicitly asks for them or when the task changes 
 - `references/content-patterns.md`
 - `references/programmatic.md`
 - `references/setup-vitals.md`
+- `references/webmcp.md` — agentische Sichtbarkeit (`document.modelContext`, `toolname`/`tooldescription`,
+  Chrome-Origin-Trial-Frist 17.11.2026). Für diese Site aktuell nachrangig, solange kein WebMCP-Feature
+  geplant ist.
+- `references/relaunch-redirects.md` — nur bei einem echten Relaunch/URL-Strukturwechsel relevant
+- `references/google-qualitaetsrisiko.md` — Pass/Risk/Fail-Bewertung gegen Googles live geladene
+  Helpful-Content-/KI-Inhalte-Richtlinien. Ausführlichere Variante von `check-google-rating`
+  (separater Skill, gleiche Quelle) — bei Bedarf eines reicht, nicht beide parallel laden.
 
 Run findings from the core audit set in sequence. Consolidate into a single prioritized output unless the user asks for separate reports per area.
 
@@ -97,6 +107,12 @@ Run findings from the core audit set in sequence. Consolidate into a single prio
 | [`schema-markup`](references/schema-markup.md) | JSON-LD templates for all schema types |
 | [`content-patterns`](references/content-patterns.md) | AEO/GEO content block patterns (definition, FAQ, stats, quotes) |
 | [`programmatic`](references/programmatic.md) | Programmatic SEO at scale — 12 playbooks, templates, locations |
+| [`webmcp`](references/webmcp.md) | Agentische Sichtbarkeit (WebMCP, `document.modelContext`, Origin-Trial-Frist) |
+| [`relaunch-redirects`](references/relaunch-redirects.md) | Weiterleitungen/301 nach einem Relaunch, typische Fallen |
+| [`google-qualitaetsrisiko`](references/google-qualitaetsrisiko.md) | Risiko-Bewertung gegen Googles Helpful-Content-/KI-Inhalte-Richtlinien |
+
+*(Die letzten drei Blätter stammen, wie der restliche Skill, aus Alexander Kastils `agentic-seo`
+(MIT, siehe `LICENSE.txt`), ergänzt 2026-10-15 — ohne Site-Context-Anpassung, da generisch nutzbar.)*
 
 > `hugo-expert` is the top-level router. For deployment of monitoring infrastructure, coordinate with `hugo-deploy`.
 
