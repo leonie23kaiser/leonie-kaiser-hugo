@@ -2,16 +2,17 @@
 # https://leoniekaiser.com
 
 ## About
-Leonie Kaiser is an AI & digitalization expert based in Lower Austria (Niederösterreich),
-specializing in AI strategy, EU AI Act compliance, GDPR-compliant setups, and process
-automation for small, owner-led health practices (Wahlarzt/private-pay/self-pay) in the
-DACH region (Austria, Germany, Switzerland).
+Leonie Kaiser is an AI & digitalization consultant based in Lower Austria (Niederösterreich),
+specializing in AI strategy, EU AI Act and GDPR guidance, and process automation for
+small, owner-led health practices (Wahlarzt/private-pay/self-pay) in the DACH region
+(Austria, Germany, Switzerland).
 
 ## Services
 - AI Potential Analysis (free 30-minute online consultation, no obligation)
 - Strategy & roadmap, tailored to small private practices
 - Process automation (No-Code), tool-agnostic, chosen per use case
-- EU AI Act & GDPR compliance, part of every project rather than an add-on
+- EU AI Act and GDPR requirements considered from the start of every project,
+  not an add-on
 - Implementation and team onboarding, no technical background required
 - Optional ongoing support and maintenance
 
@@ -31,7 +32,7 @@ DACH region (Austria, Germany, Switzerland).
 
 Cross-cutting in every project: tool selection and integration into existing
 systems, EU hosting or a local setup depending on data sensitivity, EU AI Act
-risk classification and GDPR-compliant data flows.
+risk classification, and data flows built with GDPR requirements in mind.
 
 ## Packages
 - Praxis-Start — EUR 1,490, up to three automations, freely combined across areas
@@ -40,7 +41,7 @@ risk classification and GDPR-compliant data flows.
 
 ## Expertise
 - Strategy and digitalization for small, owner-led health practices
-- EU AI Act compliance and ethical, human-centered AI deployment
+- EU AI Act guidance and ethical, human-centered AI deployment
 - GDPR in practice: Art. 9 health data, processing records, data processing
   agreements, storage location, deletion periods, data subject rights
 - Process automation and No-Code implementation, integrated into existing tools
@@ -82,4 +83,4 @@ Booking: https://calendly.com/leonie-kaiser/ki-potentialanalyse
 Email: hello@leoniekaiser.com
 
 ## Last Updated
-2026-08-04
+2026-10-15
