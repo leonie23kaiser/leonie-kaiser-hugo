@@ -51,6 +51,9 @@ Stilbruch neben den bisherigen Bildern wirken:
 **Porträts (für Profilbilder GBP/LinkedIn/Website):**
 - [ ] Frontal, neutraler Ausdruck
 - [ ] Frontal, leichtes Lächeln
+
+<!-- pagebreak -->
+
 - [ ] 3/4-Winkel (von leicht seitlich) — **bisher fehlt das komplett** in den vorhandenen Bildern,
   gezielt mitnehmen für künftige Bild-Varianz
 - [ ] Seitlicher Winkel (Profil oder nah dran) — ebenfalls bisher nicht vorhanden
