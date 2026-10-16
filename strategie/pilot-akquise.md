@@ -59,8 +59,8 @@ gefunden", nicht „vor Ort".)*
 > **Pilotprojekt**.
 >
 > Konkret: Ich schaue mir mit Ihnen an, wo im Praxisalltag Zeit verloren geht, und
-> richte **die ersten zusammenhängenden Automatisierungs-Schritte** fertig ein —
-> datenschutzkonform. Für Sie kostenfrei; im Gegenzug würde ich mir
+> richte **die ersten zusammenhängenden Automatisierungs-Schritte** fertig ein, mit
+> Blick auf Datenschutz von Anfang an. Für Sie kostenfrei; im Gegenzug würde ich mir
 > Ihr ehrliches Feedback und — wenn es Ihnen etwas gebracht hat — ein kurzes Testimonial
 > wünschen.
 >

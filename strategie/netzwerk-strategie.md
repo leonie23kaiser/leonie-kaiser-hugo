@@ -26,10 +26,9 @@
 | Ausbildung | Lighthouse Business Academy, MSMK Madrid, FH Wiener Neustadt | ✅ Vollständig. |
 | Alte Aktivität | Ein Post von 2023 mit Zusatz „Soulful Simplicity in Business“ taucht noch auf | Siehe Antwort zu „Posts löschen?“ im Chat — nicht dringend, Featured-Bereich bei Gelegenheit prüfen. |
 
-**Fotoshooting-Hinweis (2026-10-16):** Für neues Profilbild (ohne Rahmen) und neues Bannerfoto
-war eine Shotlist in `strategie/fotoshooting-leitfaden.md` vorgesehen — diese Datei existiert
-aktuell nicht im Repo (geprüft inkl. Git-Historie beider Repos). Entweder liegt sie woanders,
-oder sie muss noch angelegt werden, bevor das Shooting stattfindet.
+**Fotoshooting-Hinweis (2026-10-16):** Shotlist für neues Profilbild (ohne Rahmen, inkl. 3/4-
+und Seitenwinkel) und neues Bannerfoto (Querformat 4:1) steht in `fotoshooting-leitfaden.md` —
+parallel zu dieser Datei angelegt. Termin für den Shoot selbst ist noch offen.
 
 ### 1a. Wichtig: Standort vs. Kontaktinformationen sind zwei verschiedene Felder
 

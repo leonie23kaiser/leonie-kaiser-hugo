@@ -49,6 +49,7 @@ Anfrage generierbar, nicht dauerhaft im Repo.
 | [`linkedin-profil.md`](linkedin-profil.md) · [`linkedin-profil-en.md`](linkedin-profil-en.md) | LinkedIn-Headline, Info, Positionen (DE/EN). |
 | [`unternehmensbeschreibung.md`](unternehmensbeschreibung.md) | Verzeichnisse/Canva/Social + Farbpalette. |
 | [`google-business-profile.md`](google-business-profile.md) | GBP: Kategorien, Beschreibung, Leistungen, Q&A. |
+| [`fotoshooting-leitfaden.md`](fotoshooting-leitfaden.md) | Praktischer Leitfaden für den Fotoshoot (GBP, LinkedIn, Website) — Shotlist, Bildsprache, Selbst vs. Fotograf:in. |
 
 *(Spiegelgeschichten-Copy ist in `story_bank.md` eingegliedert.)*
 

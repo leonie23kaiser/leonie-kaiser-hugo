@@ -2,9 +2,10 @@
 
 *Sie-Form, Brand Voice (`AGENTS.md`). Zielgruppe: der **Schirm** aus `segmente.md` — kleine,
 inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler). Stand:
-2026-10-16. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
-Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung
-(2021–2026) **+** heute KI-Beratung. Nie „20 Jahre Pharma".*
+2026-10-16 (Sprache an aktuellen Standard angeglichen, 2026-10-15/16, siehe AGENTS.md §9).
+Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/Gesundheit (mehr
+als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung (2021–2026)
+**+** heute KI-Beratung. Nie „20 Jahre Pharma".*
 
 ### Sprachstandard Compliance-Aussagen — aktualisiert 2026-10-16
 
@@ -68,7 +69,7 @@ Banner nicht. **Blockiert auf das neue Bannerfoto** (siehe Hinweis zu
 >
 > Wie ich arbeite:
 > 🧭 Erst die Prozesse, dann das Tool. KI ist der Verstärker, nicht das Ziel.
-> 🔒 Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte – EU AI Act und DSGVO von Anfang an.
+> 🔒 Datenschutz ist der Ausgangspunkt, nicht das Kleingedruckte: EU AI Act und DSGVO von Anfang an mitgedacht.
 > 💬 Ehrliches Nein: Reicht ein einfacher Ablauf, sage ich Ihnen das.
 > 🤝 Ich richte für Sie ein, Ihr Team wird eingewiesen – Sie werden nicht zur IT-Abteilung.
 >

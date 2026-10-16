@@ -2,7 +2,8 @@
 
 *Fertige Bausteine für externe Profile (Verzeichnisse, EPU-Netzwerke, Canva, Social).
 Sie-Form, Brand Voice (`AGENTS.md`), externe Kurz-Copy **Praxen in Gesundheit & Wohlbefinden**
-(Ästhetik nur über Blog/Case Studies, nicht in offiziellen Texten). Stand: 2026-07-09.*
+(Ästhetik nur über Blog/Case Studies, nicht in offiziellen Texten). Stand: 2026-10-15
+(Sprache an aktuellen Standard angeglichen, siehe AGENTS.md §9).*
 
 > **Hinweis Copy-Paste:** In normale Textfelder immer „&" schreiben, nicht „&amp;".
 > Das `&amp;` entsteht nur beim Kopieren aus HTML/Markdown.
@@ -11,15 +12,16 @@ Sie-Form, Brand Voice (`AGENTS.md`), externe Kurz-Copy **Praxen in Gesundheit & 
 
 > Leonie Kaiser · KI & Digitalisierung hilft kleinen Privatpraxen in Gesundheit &
 > Wohlbefinden, ihren Arbeitsalltag zu entlasten: Termine, Aufnahme und Verwaltung laufen
-> zuverlässig und datenschutzkonform ab. Das schafft mehr Zeit fürs Kerngeschäft und ein
-> reibungsloses Kundenerlebnis. Über 20 Jahre Berufserfahrung, davon
+> zuverlässig ab, mit Blick auf Datenschutz von Anfang an. Das schafft mehr Zeit fürs
+> Kerngeschäft und ein reibungsloses Kundenerlebnis. Über 20 Jahre Berufserfahrung, davon
 > mehr als ein Jahrzehnt im regulierten Gesundheits- und Pharmaumfeld.
 
 **Kurz-Variante (~280 Zeichen):**
 
 > KI & Digitalisierung aus Niederösterreich für kleine Privatpraxen in Gesundheit &
-> Wohlbefinden. Ich richte datenschutzkonforme, automatisierte Abläufe ein – mehr Zeit fürs
-> Kerngeschäft, ein reibungsloses Kundenerlebnis. Mehr als ein Jahrzehnt Erfahrung im regulierten Gesundheits- und Pharmaumfeld.
+> Wohlbefinden. Ich automatisiere Abläufe, mit Blick auf Datenschutz von Anfang an: mehr
+> Zeit fürs Kerngeschäft, ein reibungsloses Kundenerlebnis. Mehr als ein Jahrzehnt Erfahrung
+> im regulierten Gesundheits- und Pharmaumfeld.
 
 ## „Was macht dich als Unternehmerin aus? Was treibt dich an?"
 
