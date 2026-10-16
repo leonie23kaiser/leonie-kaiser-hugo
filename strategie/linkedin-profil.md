@@ -2,9 +2,18 @@
 
 *Sie-Form, Brand Voice (`AGENTS.md`). Zielgruppe: der **Schirm** aus `segmente.md` — kleine,
 inhabergeführte Gesundheits- und Behandlungsbetriebe (Wahlarzt/privat/Selbstzahler). Stand:
-2026-07-09. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
+2026-10-16. Erfahrungsangabe ehrlich: **über 20 Jahre Berufserfahrung gesamt** = Pharma/
 Gesundheit (mehr als ein Jahrzehnt, ~13 J., 2005–2018) **+** strategische Unternehmensberatung
 (2021–2026) **+** heute KI-Beratung. Nie „20 Jahre Pharma".*
+
+### Sprachstandard Compliance-Aussagen — aktualisiert 2026-10-16
+
+Pauschale Konformitäts-Behauptungen („datenschutzkonform", „EU AI Act & DSGVO konform
+umgesetzt") sind sitegweit durch präzisere, rechtlich vorsichtigere Formulierungen ersetzt
+(siehe `website-traffic-strategie.md` Abschnitt 1, Vorbild `faq.md`: „datenschutzbewusst
+arbeiten" statt eine Konformität zu behaupten, die niemand zertifiziert). Alle Textbausteine
+unten sind entsprechend korrigiert — wer diese Datei vor dem 16.10. kopiert hat, hat noch die
+alte Formulierung im Profil stehen.
 
 ### Externe Kurz-Copy-Regel (Headline, Banner, GBP) — festgelegt 2026-07-09
 
@@ -22,7 +31,7 @@ in Headline/Banner auf.
 ## Slogan / Headline
 
 > KI & Digitalisierung für kleine Privatpraxen in Gesundheit & Wohlbefinden | Mehr Zeit
-> fürs Kerngeschäft – EU AI Act & DSGVO konform umgesetzt
+> fürs Kerngeschäft – EU AI Act & DSGVO von Anfang an mitgedacht
 
 **Job Title** (im Erfahrungs-Eintrag): **bleibt „KI Consulting | Strategie & Business"** —
 unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
@@ -32,13 +41,28 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 **„für kleine Privatpraxen in Gesundheit & Wohlbefinden"**. *(Bis Nov. 2026 — danach
 „KI & Business Consultant", siehe `strategie-konzept.md` Kap. 1 Marken-/Gewerbe-Fahrplan.)*
 
+## Banner-Text (neu, 2026-10-16)
+
+Aktuell live läuft auf dem Banner noch die alte Formulierung „… einfach und
+**datenschutzkonform** umgesetzt" (siehe Audit `netzwerk-strategie.md` Kap. 1). Ein Banner
+ist Grafik, kein Fließtext — für die Konformitäts-Aussage fehlt dort der Platz für die nötige
+Einschränkung. Empfehlung: die Compliance-Aussage auf dem Banner ganz weglassen statt
+umzuformulieren, nicht nur sprachlich nachschärfen:
+
+> KI & Digitalisierung für kleine Privatpraxen · Gesundheit & Wohlbefinden
+
+Die Datenschutz-/EU-AI-Act-Botschaft steht bereits in der Headline (s. o., jetzt „von Anfang
+an mitgedacht") und im Über-mich-Text — dort ist Platz für die sorgfältige Formulierung, im
+Banner nicht. **Blockiert auf das neue Bannerfoto** (siehe Hinweis zu
+`fotoshooting-leitfaden.md` oben).
+
 ## Info / Zusammenfassung
 
 > Ich helfe kleinen Privatpraxen in Gesundheit & Wohlbefinden, den Praxisalltag zu entlasten
 > – damit wieder Zeit bleibt fürs Wesentliche: die Arbeit am Menschen.
 >
 > Termine, Aufnahme, Nachsorge, wiederkehrende Verwaltung: Vieles davon lässt sich
-> datenschutzkonform automatisieren. Das Ergebnis ist mehr Zeit fürs Kerngeschäft – und ein
+> automatisieren – Datenschutz wird dabei von Anfang an mitgedacht. Das Ergebnis ist mehr Zeit fürs Kerngeschäft – und ein
 > reibungsloses, professionelles Erlebnis für Ihre Kund:innen. Das Persönliche bleibt: KI nimmt
 > Ihnen die Routine ab, nicht die Beziehung zu den Menschen.
 >
@@ -63,7 +87,7 @@ unverändert lassen. Zielgruppe trägt die Headline, nicht der Titel.
 ## Aktuelle Rolle — Leonie Kaiser Consulting (KI Consulting | Strategie & Business)
 
 > Ich begleite kleine Privatpraxen in Gesundheit und Wohlbefinden dabei, ihren Praxisalltag zu
-> entlasten – datenschutzkonform, für mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
+> entlasten – mit Datenschutz von Anfang an mitgedacht, für mehr Zeit fürs Kerngeschäft und ein reibungsloses Kundenerlebnis.
 >
 > • Kostenfreie KI-Potenzialanalyse: wo im Praxisalltag Zeit verloren geht und wo KI wirklich hilft
 > • Praxis-Automatisierung von der Analyse bis zur fertigen Umsetzung (Termine, Aufnahme, Nachsorge)
@@ -164,7 +188,7 @@ Digitalisierung, Prozesse) ausgerichtet — keine erfundenen Erfolge.*
 **Überblick (fertig zum Einfügen):**
 
 > Ich unterstütze kleine Privatpraxen in Gesundheit und Wohlbefinden dabei, ihren Praxisalltag zu
-> entlasten – datenschutzkonform und ohne technisches Vorwissen. Termine, Aufnahme, Nachsorge und
+> entlasten – mit Datenschutz von Anfang an mitgedacht und ohne technisches Vorwissen. Termine, Aufnahme, Nachsorge und
 > wiederkehrende Verwaltung lassen sich automatisieren, sodass wieder Zeit bleibt für das, worum es
 > wirklich geht: die Menschen. Ich fange bei Ihren Prozessen an, nicht beim Tool, und sage ehrlich,
 > wenn Sie für etwas gar keine KI brauchen. Datenschutz (EU AI Act, DSGVO) ist der Ausgangspunkt.

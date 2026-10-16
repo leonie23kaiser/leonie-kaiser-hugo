@@ -15,8 +15,8 @@
 |---|---|---|
 | Individualisierte URL | `linkedin.com/in/leoniekaiser` | ✅ Sehr gut — nichts zu tun. |
 | Headline | „KI & Digitalisierung für kleine Praxen in Gesundheit & Wohlbefinden \| Mehr Zeit fürs Kerngeschäft – EU AI Act & DSGVO konform umgesetzt“ | ✅ Deutlich besser als vorher — deutsche Keywords, beide Kern-Themen (Gesundheitspraxen, Compliance), passt zur Website. Bewusst Track-A-fokussiert, kein Track-B-Keyword — das ist hier richtig so (siehe unten). |
-| Banner-Bild | Lila-blaues Banner mit Text „KI & Digitalisierung für kleine Privatpraxen · Gesundheit & Wohlbefinden … einfach und datenschutzkonform umgesetzt“ | ✅ Verstärkt die Headline visuell. Farben grob im violett/teal-Bereich der Brand-Tokens — bei Gelegenheit gegen die exakten Hex-Werte aus `params.toml` prüfen, aber nicht dringend. |
-| Profilbild | Rund, mit dekorativem Rahmen „CONSCIOUS CONSULTANT · CERTIFIED“ | ⚠️ Der Rahmen wirkt eher wie aus einer Coaching-/Community-Ästhetik und erklärt sich für Track-B-Betrachter:innen (Pharma-QM/RA) nicht selbst — die könnten sich fragen, wofür das zertifiziert. Zum Entfernen oder Austauschen gegen ein schlichtes Portrait ohne Rahmen wäre die Empfehlung, muss aber nicht sofort passieren. |
+| Banner-Bild | Lila-blaues Banner mit Text „KI & Digitalisierung für kleine Privatpraxen · Gesundheit & Wohlbefinden … einfach und datenschutzkonform umgesetzt“ | ⚠️ **Entschieden 2026-10-16:** Text ist veraltet — „datenschutzkonform“ ist eine Pauschal-Konformitätsaussage, die sitegweit schon ersetzt wurde (`website-traffic-strategie.md` Kap. 1). Neuer Bannertext in `linkedin-profil.md` („Banner-Text“-Abschnitt): Compliance-Aussage im Banner ganz weglassen statt umformulieren (kein Platz für die nötige Einschränkung auf einer Grafik). **Blockiert auf neues Bannerfoto** — siehe Fotoshooting-Hinweis unten. |
+| Profilbild | Rund, mit dekorativem Rahmen „CONSCIOUS CONSULTANT · CERTIFIED“ | ⚠️ **Entschieden 2026-10-16:** Rahmen kommt weg — erklärt sich für Track-B-Betrachter:innen (Pharma-QM/RA) nicht selbst. Neues Profilbild ohne Rahmen, schlichtes Portrait. **Blockiert auf neues Profilfoto** — siehe Fotoshooting-Hinweis unten. |
 | Standort (Hauptprofil, unter dem Namen) | Felixdorf, Niederösterreich, Österreich | ✅ Das ist tatsächlich schon korrekt nach der eigenen SEO-Regel „kein Wien“ aus `AGENTS.md` — bitte **nicht** auf Wien ändern (siehe Kap. 1a unten zur Verwechslung mit den Kontaktinformationen). |
 | Firma | Leonie Kaiser Consulting | ⚠️ Weiterhin zu prüfen: „Consulting“ im Firmennamen jetzt schon zu führen, könnte mit der Gewerbe-Abgrenzung kollidieren (aktuell freies Gewerbe „KI & Digitalisierung“, „Consulting“/Unternehmensberatung offiziell erst ab November 2026, siehe `strategie-konzept.md` Kap. 7). Mit WKÖ/Gewerbe-Auskunft absichern, nicht selbst entscheiden. |
 | Über-mich-Text | Vollständig, Sie-Form, nennt EU AI Act/DSGVO, Ehrlichkeits-Punkt, Track-B-Laufbahn (Merck Healthcare, AbbVie, Baxter), CTA mit Calendly-Link | ✅ Inhaltlich sehr stark und exakt auf Markenstimme — nennt sogar von selbst die Pharma-Historie, die für Track-B-Reconnects Gold wert ist. Ein technisches Detail: im PDF-Export laufen mehrere Sätze ohne Leerzeichen ineinander (z. B. „geht.Termine“, „Menschen.Wie“, „Abteilung.Über“). Bitte direkt auf LinkedIn prüfen, ob das auch live so aussieht (fehlende Absätze) — falls ja, Zeilenumbrüche/Leerzeichen nachziehen, wirkt sonst wie ein Formatierungsfehler. |
@@ -25,6 +25,11 @@
 | Berufserfahrung | Vollständig — Leonie Kaiser Consulting, Merck Group (2x Rollen), AbbVie, KED Pharmaceuticals, Baxter Innovations (2x Rollen) | ✅ Komplett und lückenlos, zeigt durchgehend ~13 Jahre reguliertes Pharma-/Medtech-Umfeld (2005–2018) — genau die Track-B-Glaubwürdigkeit, die in der Reconnect-Strategie gebraucht wird. |
 | Ausbildung | Lighthouse Business Academy, MSMK Madrid, FH Wiener Neustadt | ✅ Vollständig. |
 | Alte Aktivität | Ein Post von 2023 mit Zusatz „Soulful Simplicity in Business“ taucht noch auf | Siehe Antwort zu „Posts löschen?“ im Chat — nicht dringend, Featured-Bereich bei Gelegenheit prüfen. |
+
+**Fotoshooting-Hinweis (2026-10-16):** Für neues Profilbild (ohne Rahmen) und neues Bannerfoto
+war eine Shotlist in `strategie/fotoshooting-leitfaden.md` vorgesehen — diese Datei existiert
+aktuell nicht im Repo (geprüft inkl. Git-Historie beider Repos). Entweder liegt sie woanders,
+oder sie muss noch angelegt werden, bevor das Shooting stattfindet.
 
 ### 1a. Wichtig: Standort vs. Kontaktinformationen sind zwei verschiedene Felder
 
@@ -186,4 +191,8 @@ Folgt dem tatsächlichen Kalender (Kap. 3.4) statt einer abstrakten Wochen-Zähl
 
 ---
 
-*Nächster Schritt: Standort-Feld klären (Kap. 1a), Profilbild-Rahmen entscheiden, Über-mich-Formatierung live auf LinkedIn prüfen, Skills auf 5 ausbauen — dann ist Kap. 1 abgeschlossen.*
+*Nächster Schritt: Fotoshooting-Leitfaden klären/anlegen (Profilbild ohne Rahmen + neues
+Bannerfoto), danach Banner-Text aus `linkedin-profil.md` einsetzen, Standort-Feld klären
+(Kap. 1a), Über-mich-Formatierung live auf LinkedIn prüfen, Skills auf 5 ausbauen — dann ist
+Kap. 1 abgeschlossen. Social-Media-Konzept für den laufenden Betrieb: siehe
+`social-media-konzept.md`.*

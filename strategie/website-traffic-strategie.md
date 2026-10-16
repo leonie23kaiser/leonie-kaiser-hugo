@@ -61,7 +61,7 @@ geplant (externer Schritt, kein Content-Bezug) — Pilot-Akquise startet erst da
 
 | Bereich | Zeit/Woche | Aktion |
 |---|---|---|
-| **LinkedIn** | ~2 Std. | 1 Post/Woche (Vorlage: `netzwerk-strategie.md` Kap. 4) + 15–20 Min. gezieltes Kommentieren bei Zielkontakten. Themen: Haltung, Lehrgangs-Einblicke, Branchenbeobachtungen — noch **keine** Pilot-Werbung. |
+| **LinkedIn** | ~2 Std. | 1 Post/Woche (Content-Säulen, Rhythmus, Vorlagen: `social-media-konzept.md`) + 15–20 Min. gezieltes Kommentieren bei Zielkontakten. Themen: Haltung, Lehrgangs-Einblicke, Branchenbeobachtungen — noch **keine** Pilot-Werbung. |
 | **Blog** | flexibel, kein Zwang | Grundmenge von 7 Posts ist erreicht. Kein Druck auf Wochentakt, solange LinkedIn noch nicht läuft. **Trigger für Wochentakt:** sobald sich LinkedIn-Posting 2–3 Wochen stabil anfühlt (kein Kalenderdatum, sondern Routine-Gefühl). |
 | **GBP-Pflege** | ~~einmalig ~1 Std.~~ erledigt | ~~Öffnungszeiten-Lösung finden~~ — gelöst über Hours + „Appointment required" + Online-Hours (14.10.). Offen: Profilfoto/Logo aktualisieren, falls noch das alte „Conscious Certified"-Rahmenbild aktiv ist. |
 | **Verzeichnisse** | einmalig ~1 Std. | KI Beraterportal + gründer.de Profile anlegen (`netzwerk-strategie.md` Kap. 3.3, reiner GEO-Citation-Hebel, kein laufender Pflegeaufwand). |
@@ -100,7 +100,7 @@ echten Fälle).
 | **Organisches SEO (Blog)** | Haupt-Traffic-Hebel, compoundiert langsam | 7/18 Posts live, GSC-Wachstum sichtbar | `blog-konzept.md` |
 | **GEO / AI-Citations** | KI-Suchsysteme zitieren die Seite | `llms.txt`, Schema.org, FAQ-Blöcke stehen | `blog-konzept.md` Abschnitt 5 |
 | **Google Business Profile** | Lokale Suche + Citation-Quelle für KI | Heute vollständig abgeglichen | `google-business-profile.md` |
-| **LinkedIn** | Referral-Traffic + Vertrauensaufbau (Track A+B) | Plan steht, Umsetzung startet jetzt (Phase 1) | `netzwerk-strategie.md` |
+| **LinkedIn** | Referral-Traffic + Vertrauensaufbau (Track A+B) | Plan steht, Umsetzung startet jetzt (Phase 1) | `netzwerk-strategie.md`, `social-media-konzept.md` |
 | **Verzeichnis-Einträge** | GEO-Citation, kein laufender Aufwand | Offen (Phase 1) | `netzwerk-strategie.md` Kap. 3.3 |
 | **Pilot-Cases / Testimonials** | Werden selbst zu teilbarem Content (Blog, LinkedIn, GBP-Reviews) | Noch keine echten Fälle | `pilot-akquise.md`, `story_bank.md` |
 | **Vor-Ort-Netzwerk** | Indirekt — Reconnects, Multiplikatoren | Präsenzblöcke laufen weiter | `netzwerk-strategie.md` Kap. 3.4 |
