@@ -1,24 +1,29 @@
 # Website-Traffic-Strategie
 
-*Konsolidierter Fahrplan, erstellt 2026-10-13. Fasst `blog-konzept.md`, `netzwerk-strategie.md`,
-`google-business-profile.md`, `pilot-akquise.md`, `keyword-research-2026-07.md`, `audits.md` und
-`update-plan.md` zu einem operativen Plan zusammen — **ersetzt keine der Detail-Dateien**, die
-bleiben die Quelle für die Einzelheiten pro Kanal. Scope: nicht nur reiner Website-Traffic,
-sondern gesamte Lead-Generierung, weil Blog, LinkedIn/Netzwerk und Pilot-Akquise um dasselbe
-Zeitbudget konkurrieren (Entscheidung Leonie, 2026-10-13).*
+*Konsolidierter Fahrplan, erstellt 2026-10-13, zuletzt aktualisiert 2026-10-16. Fasst
+`blog-konzept.md`, `netzwerk-strategie.md`, `google-business-profile.md`, `pilot-akquise.md`,
+`keyword-research-2026-07.md`, `audits.md` und `update-plan.md` zu einem operativen Plan
+zusammen — **ersetzt keine der Detail-Dateien**, die bleiben die Quelle für die Einzelheiten pro
+Kanal. Scope: nicht nur reiner Website-Traffic, sondern die gesamte Lead-Generierung über
+LinkedIn/Netzwerk und Pilot-Akquise, die sich dasselbe Zeitbudget teilen (Entscheidung Leonie,
+2026-10-13). Der Blog läuft bewusst **separat**, mit eigenem Zeitaufwand außerhalb dieses
+Budgets (klargestellt 2026-10-16) — seine Veröffentlichungstaktung richtet sich trotzdem nach
+LinkedIn (siehe Abschnitt 2), weil ein neuer Blogpost in einem LinkedIn-Beitrag verlinkt werden
+soll.*
 
-> **Zeitbudget:** 5+ Std./Woche, getrennt vom bestehenden 3–4-Std.-Netzwerk-Budget aus
-> `netzwerk-strategie.md`. **Paid Ads:** bewusst zurückgestellt, später denkbar, aktuell nicht
-> Teil des Plans.
+> **Zeitbudget:** 5+ Std./Woche für LinkedIn/Netzwerk/Pilot-Akquise, getrennt vom bestehenden
+> 3–4-Std.-Netzwerk-Budget aus `netzwerk-strategie.md` **und** getrennt vom Blog-Zeitaufwand
+> (eigenes Budget, nicht Teil dieser 5 Std.). **Paid Ads:** bewusst zurückgestellt, später
+> denkbar, aktuell nicht Teil des Plans.
 
 ---
 
 ## 1. Ausgangslage (Stand 2026-10-13)
 
-**Blog:** 7 von 18 geplanten Beiträgen live (`blog-konzept.md`, Abschnitt 8). Post #6
-„Digitalisierung ist Chefsache" war fertig geschrieben, aber auf einem nie gemergten Branch
-hängengeblieben — heute nachgeholt und veröffentlicht. Wöchentlicher Dienstag-Rhythmus seit
-Launch eingehalten, aktuell aber nicht als starrer Takt fortgesetzt (siehe Phase 1 unten).
+**Blog:** 7 von 18 geplanten Beiträgen live (`blog-konzept.md`, Abschnitt 8). Läuft mit eigenem
+Zeitaufwand getrennt vom LinkedIn/Pilot-Budget. Wöchentlicher Dienstag-Rhythmus seit Launch
+eingehalten, aktuell aber nicht als starrer Takt fortgesetzt (siehe Phase 1 unten, Trigger für
+die Wiederaufnahme).
 
 **Google Search Console:** Indexierte Seiten wachsen (9 → 15 seit Juli), Impressions leicht
 steigend (von ~15–20/Tag auf meist 30–40/Tag). Alte WordPress-/Vorlagen-URLs (Chicwell-Theme)
@@ -39,8 +44,14 @@ drei Services hinterlegt, „Identifies as women-owned" aktiv, Adresse verborgen
 statt Fixadresse). Öffnungszeiten final gelöst: feste Hours Mo–Fr 09–17 **plus** Attribut
 „Appointment required" (Planning) **plus** „Offers online appointments" **plus** separate
 „Online operating hours" — vermittelt zusammen „online, nur nach Termin" ohne die
-Profil-Vollständigkeits-Lücke von leeren Hauptzeiten. Offen: nur noch Fotos (aktuell nur
-Profilbild). Erste Bewertungen/Posts bleiben bewusst bis Pilot bzw. LinkedIn-Start zurückgestellt.
+Profil-Vollständigkeits-Lücke von leeren Hauptzeiten. Offen: Fotos (aktuell nur Profilbild) —
+Leonie plant dafür einen **echten Fotoshoot** statt Einzelfotos (Termin/Scope offen, siehe
+eigener Leitfaden). Erste Bewertungen/Posts bleiben bewusst bis Pilot bzw. LinkedIn-Start
+zurückgestellt.
+
+**Website-Design:** Leonie möchte zusätzlich zum bereits überarbeiteten Text auch das visuelle
+Design der Website überarbeiten (Scope/Zeitpunkt noch offen, 2026-10-16) — separat vom
+Content-Fahrplan hier, siehe Abschnitt 6.
 
 **90-Tage-Audit (`audits.md`):** fällig seit 2026-09-30. **Bewusst auf die Woche ab 23. November
 verschoben** (Entscheidung Leonie, zuletzt bestätigt 2026-10-14) — aktuell liegt kein neuer Input
@@ -64,12 +75,12 @@ geplant (externer Schritt, kein Content-Bezug) — Pilot-Akquise startet erst da
 | Bereich | Zeit/Woche | Aktion |
 |---|---|---|
 | **LinkedIn** | ~2 Std. | 1 Post/Woche (Vorlage: `netzwerk-strategie.md` Kap. 4) + 15–20 Min. gezieltes Kommentieren bei Zielkontakten. Themen: Haltung, Lehrgangs-Einblicke, Branchenbeobachtungen — noch **keine** Pilot-Werbung. |
-| **Blog** | flexibel, kein Zwang | Grundmenge von 7 Posts ist erreicht. Kein Druck auf Wochentakt, solange LinkedIn noch nicht läuft. **Trigger für Wochentakt:** sobald sich LinkedIn-Posting 2–3 Wochen stabil anfühlt (kein Kalenderdatum, sondern Routine-Gefühl). |
-| **GBP-Pflege** | ~~einmalig ~1 Std.~~ erledigt | ~~Öffnungszeiten-Lösung finden~~ — gelöst über Hours + „Appointment required" + Online-Hours (14.10.). Offen: Profilfoto/Logo aktualisieren, falls noch das alte „Conscious Certified"-Rahmenbild aktiv ist. |
+| **Blog** | separat, außerhalb der 5 Std. | Grundmenge von 7 Posts ist erreicht. Wöchentliche Veröffentlichung startet, sobald LinkedIn-Posting 2–3 Wochen stabil läuft (kein Kalenderdatum, sondern Routine-Gefühl) — **Ziel: in einem LinkedIn-Beitrag jeweils auf den neuen Blogpost verweisen können.** |
+| **GBP-Fotoshoot** | außerhalb der 5 Std. | Statt Einzelfotos ein echter Fotoshoot für GBP, LinkedIn und Website — Termin/Scope offen, siehe eigener Leitfaden. |
 | **Verzeichnisse** | ~~einmalig~~ erledigt | ~~KI Beraterportal + gründer.de Profile anlegen~~ — obsolet: der Lehrgang samt Mitglieder-Login ist von gründer.de auf die neue Digital-Beat-Plattform (Smart Hub) umgezogen, Profil dort bereits angelegt (14.10.). |
 | **Netzwerk-Profile** | einmalig ~1 Std. | **Women in AI Österreich** (womeninai.at, gemeinnütziger Verein seit 2020) + **EPU-Netzwerk** („Wir Sind 1", wirsind1.at/epu-netzwerk/ inkl. Marktplatz wirsind1.at/marktplatz/) — URLs bestätigt 2026-10-14, Profile/Mitgliedschaft noch zu aktivieren. |
 | **Neue Networking-Leads** | einmalig, aus dem KI-Lehrgang | Vortragende vom LinkedIn-Workshop anschreiben; **Erik Insel** (KI-Sparringspartner für KMU und regulierte Branchen) kontaktieren; WKO-Wien-Kooperationsservice prüfen (wko.at/wien/innovation/kooperationsservice-wien); „Corporate to Venture Mastermind" (Dienstags-Sessions) auf Passung prüfen. |
-| **GBP-Zweitcheck** | Woche ab 23. November | GBP ist inhaltlich fertig (14.10.) — Zweitcheck betrifft nur noch Fotos (siehe unten, „Welche Fotos"). Deckt sich mit dem bestehenden Asana-Termin „Google Business Profil aktualisieren". |
+| **GBP-Zweitcheck** | Woche ab 23. November | GBP ist inhaltlich fertig (14.10.) — Zweitcheck betrifft nur noch die Fotos aus dem Fotoshoot. Deckt sich mit dem bestehenden Asana-Termin „Google Business Profil aktualisieren". |
 | **Audit-Refresh** | Woche ab 23. November | `audits.md` neu durchführen — bewusst verschoben statt jetzt, siehe Abschnitt 1. |
 
 **Nicht in Phase 1:** aktive Pilot-Ansprache, Paid Ads, Case-Study-Inhalte (es gibt noch keine
@@ -101,9 +112,9 @@ echten Fälle).
 | Kanal | Rolle | Status | Quelle für Details |
 |---|---|---|---|
 | **Organisches SEO (Blog)** | Haupt-Traffic-Hebel, compoundiert langsam | 7/18 Posts live, GSC-Wachstum sichtbar | `blog-konzept.md` |
-| **GEO / AI-Citations** | KI-Suchsysteme zitieren die Seite | `llms.txt`, Schema.org, FAQ-Blöcke stehen. Seit 15.10. eigener Sub-Agent `geo-optimizer` (`.claude/agents/`), Routine alle 2 Wochen (1./15. jeden Monats) | `blog-konzept.md` Abschnitt 5, `agentic-seo`-Skill (`ai-geo`-Referenz) |
-| **Google Business Profile** | Lokale Suche + Citation-Quelle für KI | Heute vollständig abgeglichen | `google-business-profile.md` |
-| **LinkedIn** | Referral-Traffic + Vertrauensaufbau (Track A+B) | Plan steht, Umsetzung startet jetzt (Phase 1) | `netzwerk-strategie.md` |
+| **GEO / AI-Citations** | KI-Suchsysteme zitieren die Seite | **Grundausstattung steht** (bestätigt 15.10.): `llms.txt` auf aktuellem Sprachstand, robots.txt mit AI-Bot-Freigaben, Schema.org (FAQPage, Speakable, AggregateRating). Läuft jetzt laufend weiter über den Sub-Agent `geo-optimizer` (`.claude/agents/`), Routine alle 2 Wochen (1./15. jeden Monats, nächster Lauf 1.11.) | `agentic-seo`-Skill (`ai-geo`-Referenz) |
+| **Google Business Profile** | Lokale Suche + Citation-Quelle für KI | Inhaltlich vollständig abgeglichen (14.10.), Fotoshoot offen | `google-business-profile.md` |
+| **LinkedIn** | Referral-Traffic + Vertrauensaufbau (Track A+B) | 1 Post/Woche geplant für Phase 1, Start diese Woche. Profil-Check, Banner-Überarbeitung und das weitere Konzept werden im Social-Media-Thread erarbeitet (siehe Abschnitt 6) | `netzwerk-strategie.md`, demnächst eigenes Social-Media-Konzept |
 | **Verzeichnis-Einträge** | GEO-Citation, kein laufender Aufwand | Offen (Phase 1) | `netzwerk-strategie.md` Kap. 3.3 |
 | **Pilot-Cases / Testimonials** | Werden selbst zu teilbarem Content (Blog, LinkedIn, GBP-Reviews) | Noch keine echten Fälle | `pilot-akquise.md`, `story_bank.md` |
 | **Vor-Ort-Netzwerk** | Indirekt — Reconnects, Multiplikatoren | Präsenzblöcke laufen weiter | `netzwerk-strategie.md` Kap. 3.4 |
@@ -113,29 +124,33 @@ echten Fälle).
 
 ## 5. Erfolgsmessung
 
-Schlank halten, keine Vanity-Metriken (Prinzip aus `blog-konzept.md` Abschnitt 9):
+Schlank halten, keine Vanity-Metriken (Prinzip aus `blog-konzept.md` Abschnitt 9). Die genaue
+Vorgehensweise pro Punkt (wie genau prüfen, welches Tool) steht nicht hier, sondern separat als
+Anleitung — dieses Konzept hält nur fest, **was** gemessen wird und **warum**.
 
-1. **Rankt der Beitrag?** — GSC nach 6–8 Wochen pro Post prüfen.
-2. **Führt er zur Potenzialanalyse?** — Calendly-Klicks, einziges Conversion-Ziel.
-3. **Wird er geteilt?** — v. a. persönliche Posts und Wunsch-Themen auf LinkedIn.
+1. **Rankt der Blogpost bei Google?** — reine SEO-Kennzahl, bezieht sich auf den Blog, nicht auf
+   LinkedIn. Prüfung über die Google Search Console, 6–8 Wochen nach Veröffentlichung.
+2. **Führt der Blogpost zur Potenzialanalyse?** — einziges Conversion-Ziel ist ein Klick auf den
+   Calendly-Link. Messmethode separat, siehe Anleitung.
+3. **Wird der Blogpost auf LinkedIn geteilt/kommentiert?** — stärkstes Signal für Resonanz, v. a.
+   bei persönlichen Posts (Haltung, Erfahrungsberichte) relevant.
 4. **GBP:** Website-Klicks aus dem Profil beobachten (aktuell nahe null trotz 216
    Interaktionen in 6 Monaten — die hohe Interaktionszahl ist vermutlich teils
    automatisierter/nicht-menschlicher Traffic, nicht 1:1 als Nachfrage zu werten).
-5. **Alle 4–6 Beiträge zurückschauen:** welche Kategorie/welches Thema zieht, dort mehr
-   Gewicht reinlegen.
+5. **Alle 4–6 Beiträge zurückschauen:** welches Thema stärker zieht (Engagement-Rate,
+   Speichern/Teilen, Anfragen/Kommentare — nicht nur rohe Like-Zahl), dort mehr Gewicht
+   reinlegen. Konkrete Kennzahlen dazu: siehe Anleitung.
 
 ---
 
-## 6. Offene Entscheidungen / nächste Schritte
+## 6. Nächste Schritte (nur offene Punkte)
 
-- [x] GBP-Beschreibung/Name/Kategorie/Servicegebiet/Services überarbeitet (14.10.)
-- [x] Öffnungszeiten im GBP gelöst (Hours + „Appointment required" + Online-Hours, 14.10.)
-- [ ] GBP-Fotos ergänzen — Woche ab 23. November
-- [x] ~~KI Beraterportal + gründer.de Profile anlegen~~ obsolet, erledigt über Digital-Beat-Migration (14.10.)
+- [ ] Fotoshoot organisieren (GBP, LinkedIn, Website) — eigener Leitfaden liegt vor, Termin offen
+- [ ] Website-Design überarbeiten — Scope/Zeitpunkt noch offen
+- [ ] LinkedIn-Profil-Check + Banner-Überarbeitung — wird im Social-Media-Konzept erarbeitet (separater Thread, Prompt liegt vor)
 - [ ] Women in AI Österreich + EPU-Netzwerk („Wir Sind 1", inkl. Marktplatz) Profile/Mitgliedschaft aktivieren
 - [ ] Neue Netzwerk-Leads aus dem Lehrgang nachfassen: LinkedIn-Workshop-Vortragende, Erik Insel, WKO-Kooperationsservice, Corporate-to-Venture-Mastermind
-- [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet) — **Woche ab 23. November**, bewusst verschoben, kein neuer Input aktuell
-- [x] GEO-Sub-Agent eingerichtet (`geo-optimizer`) + Routine alle 2 Wochen ab 1.11. (15.10.)
+- [ ] `audits.md` neu durchführen (Trust-Triangle + Citation-Magnet) — **Woche ab 23. November**
 - [ ] LinkedIn-Wochenrhythmus starten
 - [ ] Trigger-Punkt für Blog-Wochentakt selbst einschätzen, sobald LinkedIn läuft
 - [ ] Ende Nov/Dez: Gewerbe-Sparte + Berufshaftpflicht abschließen, danach Pilot-Akquise starten
