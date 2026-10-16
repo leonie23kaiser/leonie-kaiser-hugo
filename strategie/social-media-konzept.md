@@ -67,11 +67,12 @@ Das ergibt in der Praxis grob jede 3.–4. Woche einen Blog-Cross-Post, sobald d
 regelmäßiger läuft (Phase-2-Trigger aus `website-traffic-strategie.md`: „sobald sich
 LinkedIn-Posting 2–3 Wochen stabil anfühlt"). Bis dahin dominiert die Rotation 1–2–3.
 
-**Tag:** Kein fester Wochentag vorgegeben in den Quelldateien — Empfehlung: nicht derselbe Tag
-wie der bisherige Blog-Rhythmus (Dienstag, siehe `website-traffic-strategie.md` Kap. 1), damit
-ein neuer Blogpost am Dienstag und der dazugehörige LinkedIn-Cross-Post ein bis zwei Tage
-später erscheinen — das verteilt die Sichtbarkeit über die Woche, statt beides gleichzeitig zu
-veröffentlichen. Letzte Entscheidung liegt bei dir, je nachdem wann im Lehrgangsalltag Zeit ist.
+**Tag: Donnerstag** (festgelegt 2026-10-16). Zwei Gründe: zwei Tage Abstand zum bisherigen
+Blog-Rhythmus (Dienstag, siehe `website-traffic-strategie.md` Kap. 1) — ein neuer Blogpost
+und der dazugehörige LinkedIn-Cross-Post erscheinen so nicht am selben Tag, sondern verteilt
+über die Woche. Außerdem gilt Donnerstag im B2B-Kontext allgemein als einer der
+engagement-stärkeren LinkedIn-Wochentage (Dienstag bis Donnerstag vor dem Wochenende), ohne
+mit dem Blog-Tag zu kollidieren.
 
 **Die 15–20 Min. gezieltes Kommentieren** (Teil desselben Budgets) folgen der SSI-Logik aus
 `netzwerk-strategie.md` Kap. 3.1, Punkt 3: auf Beiträge von Tier-1/2-Kontakten kommentieren,
