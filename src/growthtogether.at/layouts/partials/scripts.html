@@ -81,12 +81,31 @@ document.querySelectorAll('.jf-btn').forEach(function(btn){
   });
 });
 
-// Cookie banner + GA4 Consent Mode
+// Cookie banner + GA4 Consent Mode + Chat-Assistent (Botpress, nur nach Einwilligung)
 (function(){
+  // Botpress-Webchat: wird ausschliesslich nach "Alle akzeptieren" geladen.
+  // Reihenfolge wichtig: erst inject.js, danach die Bot-Konfiguration.
+  // Aendert sich der Bot in Botpress, kann sich die Konfigurations-URL aendern (Embed-Code neu kopieren).
+  var CHAT_SCRIPTS=[
+    'https://cdn.botpress.cloud/webchat/v5.0/inject.js',
+    'https://files.bpcontent.cloud/2026/11/04/21/20261104211035-6BBS31J6.js'
+  ];
+  function loadChat(){
+    if(window.__lkChatLoaded)return;
+    window.__lkChatLoaded=true;
+    (function next(i){
+      if(i>=CHAT_SCRIPTS.length)return;
+      var s=document.createElement('script');
+      s.src=CHAT_SCRIPTS[i];
+      s.onload=function(){next(i+1);};
+      document.body.appendChild(s);
+    })(0);
+  }
   function applyConsent(choice){
     if(typeof gtag==='function'){
       gtag('consent','update',{'analytics_storage':choice==='all'?'granted':'denied'});
     }
+    if(choice==='all')loadChat();
   }
   var stored=localStorage.getItem('lk-cookie-choice');
   if(stored){applyConsent(stored);}
