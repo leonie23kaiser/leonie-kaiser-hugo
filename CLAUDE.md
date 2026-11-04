@@ -158,3 +158,17 @@ Deploy-Workflow (`.github/workflows/deploy-pages.yml`) erzeugt nach jedem Cron-B
 Journal-Post (Label `journal-live`, Assignee `leonie23kaiser`). Pipelines, die
 Kunden-sichtbare Posts publishen, müssen diese Notify-Schiene benutzen — niemals
 stilles Auto-Publish.
+
+## Chatbot-Wissensbasis synchron halten
+
+`strategie/chatbot-wissensbasis.txt` ist die Frage-Antwort-Datei für den Chatbot (Upload in Chatbase). Sie spiegelt Aussagen der Website. **Ändert eine Session einen der folgenden Datenpunkte auf der Website, Leonie ausdrücklich darauf hinweisen, dass die Datei (und ggf. Chatbase) angepasst werden muss, und die Änderung anbieten:**
+
+- Preise und Pakete (`content/faq.md`, `llms.txt`, Leistungsseiten); Preise sind brutto
+- Leistungsbereiche und Inhalte (`data/branchen.yaml`)
+- Potenzialanalyse (Dauer, Ablauf) und Calendly-Link
+- Kontakt (E-Mail, Telefon)
+- EU-AI-Act- und DSGVO-Aussagen, vor allem Stichtage (`content/eu-ai-act/`, `content/dsgvo/`)
+- Über-mich-Daten (Erfahrung, selbstständig seit, Sprachen, Zertifizierung)
+- Zielgruppe und Ausschlüsse (`AGENTS.md`)
+
+Der System-Prompt im Chatbase-Feld (max. 2000 Zeichen) liegt nicht im Repo; Änderungen an Brand Voice oder Guardrails (`AGENTS.md`) ebenfalls melden.
