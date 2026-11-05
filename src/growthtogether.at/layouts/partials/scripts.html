@@ -112,6 +112,12 @@ document.querySelectorAll('.jf-btn').forEach(function(btn){
   var banner=document.getElementById('cookie-banner');
   if(!banner)return;
   if(!stored)banner.style.display='block';
+  // Footer-Link "Cookie-Einstellungen": Banner erneut anzeigen (Widerruf/Aenderung der Wahl)
+  var settings=document.getElementById('cookie-settings');
+  if(settings)settings.addEventListener('click',function(e){
+    e.preventDefault();
+    banner.style.display='block';
+  });
   var accept=document.getElementById('cookie-accept');
   var reject=document.getElementById('cookie-reject');
   if(accept)accept.addEventListener('click',function(){
@@ -123,6 +129,8 @@ document.querySelectorAll('.jf-btn').forEach(function(btn){
     localStorage.setItem('lk-cookie-choice','necessary');
     applyConsent('necessary');
     banner.style.display='none';
+    // War der Chat schon geladen, Seite neu laden, damit er verschwindet
+    if(window.__lkChatLoaded)location.reload();
   });
 })();
 
