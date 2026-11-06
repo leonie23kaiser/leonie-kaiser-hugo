@@ -23,7 +23,7 @@ Am einfachsten buchen Sie die kostenfreie Potenzialanalyse: https://calendly.com
 Es gibt vier Bereiche: Termine und Anfragen, Dokumentation und Wissen, Nachsorge und Kundenbindung sowie Sichtbarkeit und Inhalte. Sie lassen sich frei kombinieren. In jedem Projekt gehören Tool-Auswahl, Einbindung in bestehende Systeme und eine Einordnung nach Datenschutz und EU AI Act dazu.
 
 [B] Was gehört zu Termine und Anfragen?
-Dazu zählen Online-Terminbuchung, automatische Erinnerungen und eine Warteliste für frei gewordene Termine. Auch ein Chat-Assistent für Erstanfragen, ein E-Mail-Assistent und ein Telefonassistent für Anrufe außerhalb der Öffnungszeiten sind möglich. Medizinische Anliegen werden nicht von der KI bewertet, sondern nach klaren Regeln an Menschen in der Praxis weitergeleitet.
+Dazu zählen Online-Terminbuchung, automatische Erinnerungen und eine Warteliste für frei gewordene Termine. Auch ein Chat-Assistent für Erstanfragen und ein E-Mail-Assistent sind möglich. Medizinische Anliegen werden nicht von der KI bewertet, sondern nach klaren Regeln an Menschen in der Praxis weitergeleitet.
 
 [B] Was gehört zu Dokumentation und Wissen?
 Aus Notizen kann ein strukturierter Entwurf entstehen, den eine fachkundige Person prüft, ergänzt und freigibt. Dazu kommen eine Vorlagen-Bibliothek und ein zentrales Praxis-Handbuch für Ihr Team. Das kann Nacharbeit am Abend verringern und Vertretung sowie Einarbeitung erleichtern.

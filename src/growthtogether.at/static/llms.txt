@@ -19,8 +19,7 @@ small, owner-led health practices (Wahlarzt/private-pay/self-pay) in the DACH re
 ## Service areas
 1. Appointments & enquiries — online booking, automated reminders, waiting-list
    refill, website chat assistant, e-mail assistant that sorts incoming enquiries
-   by topic and urgency and prepares reply drafts, phone assistant for
-   out-of-hours calls
+   by topic and urgency and prepares reply drafts
 2. Documentation & knowledge — structuring notes for review and release,
    template library, digital practice handbook for the team
 3. Follow-up care & client retention — automated follow-up sequences,
@@ -83,4 +82,4 @@ Booking: https://calendly.com/leonie-kaiser/ki-potentialanalyse
 Email: hello@leoniekaiser.com
 
 ## Last Updated
-2026-10-15
+2026-11-06
