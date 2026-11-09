@@ -17,7 +17,7 @@
     - titel: "Automatische Erinnerungen und Wartelisten-Nachbesetzung"
       desc: "Erinnerungen über den bevorzugten Kanal können die Ausfälle senken. Frei gewordene Termine können nach klaren Regeln an passende Personen auf der Warteliste angeboten werden."
     - titel: "Chat-Assistent für Erstanfragen"
-      desc: "Ein Chat-Assistent für klar abgegrenzte organisatorische Fragen, etwa zu Öffnungszeiten, Anfahrt, Preisen und Terminwünschen. Vor dem Einsatz klären wir Datenarten, Datenflüsse und Schutzmaßnahmen; der Chat weist klar darauf hin, dass Antworten von einem KI-System stammen."
+      desc: "Ein Chat-Assistent für klar abgegrenzte organisatorische Fragen, etwa zu Öffnungszeiten, Anfahrt, Preisen und Terminwünschen. Vor dem Einsatz klären wir Datenarten, Datenflüsse und Schutzmaßnahmen; der Chat weist klar darauf hin, dass Antworten von einem KI-System stammen. Der Assistent gibt keine medizinischen Auskünfte und weist bei akuten Beschwerden klar auf die zuständigen Notfallwege hin."
     - titel: "E-Mail-Assistent für eingehende Anfragen"
       desc: "Ein E-Mail-Assistent kann eingehende Anfragen nach zuvor festgelegten organisatorischen Kategorien vorsortieren und Antwortentwürfe vorbereiten. Medizinische oder fachlich dringliche Anliegen werden nicht automatisch bewertet, sondern nach klaren Regeln direkt an zuständige Menschen in der Praxis weitergeleitet."
   beispiel:
