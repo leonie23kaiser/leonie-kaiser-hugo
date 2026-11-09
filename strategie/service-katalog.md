@@ -28,7 +28,7 @@ ans Telefon muss.
 - **E-Mail-Assistent für eingehende Anfragen** — stuft jede Anfrage nach Thema und
   Dringlichkeit ein (direkt beantwortbar / Klärungsbedarf / dringend) und legt einen
   Antwortentwurf in der Tonalität der Praxis bereit, den sie nur noch prüft und freigibt.
-  Angelernt auf den Anfragen der letzten zwölf Monate.
+  Kategorien und Antwortbausteine legen wir gemeinsam anhand datensparsamer Beispiele fest.
 
 ### 2 · Dokumentation & Wissen — *löst: Dokumentation nach Feierabend, „alles hängt an der Leitung"*
 Kaum noch Papierkram nach Feierabend, einheitliche Dokumentation, leichtere Vertretung und
