@@ -187,8 +187,7 @@ automatisieren · mitgliedschaft erinnerung praxis automatisch · kundenbindung 
 mehraufwand praxis · nachsorge fällt hinten runter lösung · stammkundschaft praxis halten ki
 
 **Termine, Warteliste, Erstanfragen:** warteliste automatisch nachbesetzen praxis ·
-chat-assistent erstanfragen praxis website · telefonassistent praxis außerhalb
-öffnungszeiten · selbstbuchungslink praxis einrichten · terminausfälle reduzieren praxis ·
+chat-assistent erstanfragen praxis website · selbstbuchungslink praxis einrichten · terminausfälle reduzieren praxis ·
 rezeption entlasten telefon praxis · faq automatisiert beantworten praxis · anfragen per
 whatsapp automatisieren praxis · terminlücken automatisch füllen · erstanfrage ohne
 medizinische auskunft automatisieren

@@ -128,7 +128,7 @@ Alle Leistungen sind einzeln wählbar und kombinierbar. In der kostenfreien Pote
 
 Vier Bereiche, in denen sich Abläufe automatisieren lassen. Sie wählen einzeln oder kombiniert, je nachdem, wo in Ihrer Praxis der größte Hebel liegt. Zu jedem Bereich finden Sie eine eigene Seite mit Praxisbeispiel und häufigen Fragen.
 
-**Termine & Anfragen** — Weniger Ausfälle, weniger Rückfragen am Telefon. Die Koordination läuft, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet. (Online-Terminbuchung mit Selbstbuchungslink · Automatische Erinnerungen & Wartelisten-Nachbesetzung · Chat-Assistent für Erstanfragen auf Ihrer Website · E-Mail-Assistent, der eingehende Anfragen nach Thema und Dringlichkeit sortiert und zu jeder einen Antwortentwurf in Ihrer Tonalität vorbereitet · Telefonassistent für Anrufe außerhalb der Öffnungszeiten)
+**Termine & Anfragen** — Weniger Ausfälle, weniger Rückfragen am Telefon. Die Koordination läuft, ohne dass ständig jemand ans Telefon muss oder E-Mails sichtet. (Online-Terminbuchung mit Selbstbuchungslink · Automatische Erinnerungen & Wartelisten-Nachbesetzung · Chat-Assistent für Erstanfragen auf Ihrer Website · E-Mail-Assistent, der eingehende Anfragen nach Thema und Dringlichkeit sortiert und zu jeder einen Antwortentwurf in Ihrer Tonalität vorbereitet)
 
 **Technische & rechtliche Basis** (in jedem Projekt inklusive) — Der Querschnitt, der in jedem Projekt mitläuft, damit alles sauber zusammenspielt und rechtlich abgesichert ist. (Tool-Auswahl & Integration in Ihre bestehenden Systeme · EU-Hosting oder lokale Lösung, je nach Sensibilität der Daten · EU-AI-Act-Einstufung & DSGVO-konforme Datenflüsse)
 
@@ -152,7 +152,7 @@ Sie starten mit ein paar Automatisierungen und bauen bei Bedarf aus. Der genaue 
 
 **Laufende Betreuung** (optional) — ab € 190/Monat. Laufende Wartung Ihrer Abläufe und Anpassungen, wenn sie anfallen. Dazu eine feste Ansprechpartnerin, wenn Sie möchten, dass ich langfristig an Ihrer Seite bleibe.
 
-Was zählt als Automatisierung? Gemeint ist ein fertig eingerichteter Ablauf, zum Beispiel die Online-Terminbuchung mit Erinnerungen oder eine Nachsorge-Sequenz. Aufwändigere Bausteine wie ein Telefonassistent, ein E-Mail-Assistent, ein Chat-Assistent oder eine GEO-Strategie brauchen mehr Vorbereitung und werden entsprechend eingeplant. Was in Ihrem Fall sinnvoll ist und was es kostet, halte ich nach der Potenzialanalyse schriftlich fest.
+Was zählt als Automatisierung? Gemeint ist ein fertig eingerichteter Ablauf, zum Beispiel die Online-Terminbuchung mit Erinnerungen oder eine Nachsorge-Sequenz. Aufwändigere Bausteine wie ein E-Mail-Assistent, ein Chat-Assistent oder eine GEO-Strategie brauchen mehr Vorbereitung und werden entsprechend eingeplant. Was in Ihrem Fall sinnvoll ist und was es kostet, halte ich nach der Potenzialanalyse schriftlich fest.
 
 Pilotphase: Praxis-Start kostenfrei. Für die ersten Pilot-Praxen setze ich ein Praxis-Start (sonst € 1.490) kostenfrei um, im Austausch für Ihr Feedback und, wenn Sie zufrieden sind, eine Referenz.
 
@@ -169,7 +169,6 @@ Pilotphase: Praxis-Start kostenfrei. Für die ersten Pilot-Praxen setze ich ein 
 - *Automatische Erinnerungen und Wartelisten-Nachbesetzung* — Erinnerungen über den bevorzugten Kanal senken die Ausfälle. Kurzfristig frei gewordene Termine werden automatisch aus der Warteliste nachbesetzt.
 - *Chat-Assistent für Erstanfragen* — Ein datenschutzkonformer Assistent auf Ihrer Website beantwortet Öffnungszeiten, Anfahrt, Preise und Terminwünsche, ohne medizinische Auskunft zu geben.
 - *E-Mail-Assistent für eingehende Anfragen* — Jede eingehende Anfrage wird nach Thema und Dringlichkeit eingestuft: Standardfragen, die sich direkt beantworten lassen, Anfragen mit Klärungsbedarf und dringende Fälle. Zu jeder liegt ein Antwortentwurf in Ihrer Tonalität bereit, den Sie nur noch prüfen und freigeben. Angelernt wird der Assistent auf den Anfragen der letzten zwölf Monate.
-- *Telefonassistent für Anrufe außerhalb der Öffnungszeiten* — Nimmt Anrufe entgegen, wenn niemand am Empfang ist, beantwortet Standardfragen und nimmt Terminwünsche auf. So geht auch abends und am Wochenende keine Anfrage verloren.
 
 **Praxisbeispiel** (fiktiv, illustrativ):
 Ausgangssituation: In einer kleinen Physiotherapiepraxis kommen die Terminanfragen über Telefon, WhatsApp und E-Mail herein. Die Erinnerungen verschickt das Team von Hand. Sagt jemand kurzfristig ab, bleibt der Termin meist unbesetzt, und die Rezeption wird über den Tag hinweg immer wieder unterbrochen.
