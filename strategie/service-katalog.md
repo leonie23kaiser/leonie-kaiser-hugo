@@ -29,8 +29,6 @@ ans Telefon muss.
   Dringlichkeit ein (direkt beantwortbar / Klärungsbedarf / dringend) und legt einen
   Antwortentwurf in der Tonalität der Praxis bereit, den sie nur noch prüft und freigibt.
   Angelernt auf den Anfragen der letzten zwölf Monate.
-- **Telefonassistent (Voicebot)** für Anrufe außerhalb der Öffnungszeiten — nimmt
-  Standardfragen und Terminwünsche auf, damit keine Anfrage verloren geht.
 
 ### 2 · Dokumentation & Wissen — *löst: Dokumentation nach Feierabend, „alles hängt an der Leitung"*
 Kaum noch Papierkram nach Feierabend, einheitliche Dokumentation, leichtere Vertretung und
