@@ -1,0 +1,68 @@
+Wissensbasis KI-Assistenz Leonie Kaiser (Fragen und Antworten)
+Stand: November 2026. Alle Preise sind Bruttopreise (inklusive Umsatzsteuer). Quellen: leoniekaiser.com (FAQ, Leistungen, Über mich, EU AI Act, DSGVO).
+
+[A] Was bietet Leonie Kaiser an?
+Leonie Kaiser berät kleine, inhabergeführte Gesundheits- und Behandlungspraxen zu KI und Digitalisierung. Gemeinsam mit Ihnen richtet sie Abläufe ein, die wiederkehrende organisatorische Aufgaben entlasten. Datenschutz und EU AI Act werden von Anfang an berücksichtigt. Der Einstieg ist eine kostenfreie, unverbindliche Potenzialanalyse.
+
+[A] Für wen ist das Angebot gedacht?
+Das Angebot richtet sich an kleine, inhabergeführte Praxen mit Wahlarzt-, Privat- oder Selbstzahler-Kundschaft im deutschsprachigen Raum, meist mit zwei bis zehn Mitarbeitenden. Technisches Vorwissen brauchen Sie nicht. Zahnarztpraxen, Kliniken, Apotheken und Pflegeeinrichtungen gehören nicht zur Zielgruppe.
+
+[A] Was kostet eine Umsetzung?
+Praxis-Start umfasst bis zu drei Automatisierungen, die Sie frei über die Bereiche kombinieren können, und kostet 1.490 Euro brutto. Praxis-Plus kombiniert mehrere Automatisierungen über Bereiche hinweg und liegt je nach Umfang zwischen 2.900 und 5.900 Euro brutto. Die laufende Betreuung ist optional und beginnt bei 190 Euro brutto im Monat. Den genauen Umfang legen Sie nach der Potenzialanalyse gemeinsam fest.
+
+[A] Was ist die Potenzialanalyse?
+Die Potenzialanalyse ist ein kostenfreies, unverbindliches Online-Gespräch von 30 Minuten. Es geht allgemein um den Stand der Digitalisierung, Ihre Ziele und die Engpässe in Ihrer Praxis. Sie erhalten eine erste Einordnung und mögliche nächste Schritte. Eine Detailanalyse oder Lösungsausarbeitung ist es nicht. Buchen können Sie hier: https://calendly.com/leonie-kaiser/ki-potentialanalyse?utm_source=chatbot
+
+[A] Wie geht Leonie Kaiser mit Datenschutz und Gesundheitsdaten um?
+Gesundheitsdaten erfordern besondere Sorgfalt. Vor dem Einsatz klärt Leonie Kaiser mit Ihnen Datenarten, Datenflüsse, Speicherort, Zugriffsrechte, erforderliche Verträge und Schutzmaßnahmen für den konkreten Ablauf. Bei rechtlichen Spezialfragen wird geeignete Fachberatung einbezogen.
+
+[A] Wie kann ich Kontakt aufnehmen?
+Am einfachsten buchen Sie die kostenfreie Potenzialanalyse: https://calendly.com/leonie-kaiser/ki-potentialanalyse?utm_source=chatbot. Für andere Anliegen erreichen Sie Leonie Kaiser unter hello@leoniekaiser.com.
+
+[B] Welche Leistungsbereiche gibt es?
+Es gibt vier Bereiche: Termine und Anfragen, Dokumentation und Wissen, Nachsorge und Kundenbindung sowie Sichtbarkeit und Inhalte. Sie lassen sich frei kombinieren. In jedem Projekt gehören Tool-Auswahl, Einbindung in bestehende Systeme und eine Einordnung nach Datenschutz und EU AI Act dazu.
+
+[B] Was gehört zu Termine und Anfragen?
+Dazu zählen Online-Terminbuchung, automatische Erinnerungen und eine Warteliste für frei gewordene Termine. Auch ein Chat-Assistent für Erstanfragen und ein E-Mail-Assistent sind möglich. Medizinische Anliegen werden nicht von der KI bewertet, sondern nach klaren Regeln an Menschen in der Praxis weitergeleitet.
+
+[B] Was gehört zu Dokumentation und Wissen?
+Aus Notizen kann ein strukturierter Entwurf entstehen, den eine fachkundige Person prüft, ergänzt und freigibt. Dazu kommen eine Vorlagen-Bibliothek und ein zentrales Praxis-Handbuch für Ihr Team. Das kann Nacharbeit am Abend verringern und Vertretung sowie Einarbeitung erleichtern.
+
+[B] Was gehört zu Nachsorge und Kundenbindung?
+Nachsorge nach der Behandlung, Wiedereinbestellung und Bewertungsanfragen können nach festgelegten Anlässen vorbereitet werden. Die Nachrichten entstehen gemeinsam mit Ihnen in Ihrer Tonalität, und Sie geben frei, was versendet wird. Vorher werden unter anderem Rechtsgrundlage, Kommunikationskanal und Abmeldemöglichkeit geklärt.
+
+[B] Was gehört zu Sichtbarkeit und Inhalten?
+Leonie Kaiser legt mit Ihnen eine sprachliche Leitlinie für Ihre Praxis fest und erstellt Vorlagen für Newsletter und Social Media. Dazu kommen KI-Entwürfe für wiederkehrende Texte. Außerdem bereitet sie Angebot, Einzugsgebiet und Schwerpunkte auf Ihrer Website klar strukturiert auf. Ob ein KI-Assistent Ihre Praxis nennt, entscheidet der jeweilige Anbieter. Einen laufenden Redaktionsservice gibt es nicht.
+
+[B] Wie läuft die Zusammenarbeit ab?
+Am Anfang steht die kostenfreie Potenzialanalyse. Wenn eine Zusammenarbeit sinnvoll ist, entsteht daraus ein Fahrplan mit klarer Reihenfolge und realistischem Zeitrahmen. Danach begleitet Leonie Kaiser die Einführung der vereinbarten Abläufe und die erste Anwendung in Ihrem Team. Auf Wunsch bleibt sie auch danach Ansprechpartnerin.
+
+[B] Was beinhaltet die laufende Betreuung?
+Die laufende Betreuung ist optional und beginnt bei 190 Euro brutto im Monat. Leonie Kaiser bleibt dabei Ansprechpartnerin für Fragen und hält zum Beispiel Vorlagen für Sie aktuell.
+
+[B] Brauche ich technisches Vorwissen?
+Nein. Die meisten Lösungen lassen sich ohne großes IT-Projekt Schritt für Schritt einführen. Ihr Team erhält eine verständliche Einweisung, damit es die Lösung im Alltag verantwortungsvoll nutzen kann.
+
+[B] Muss ich meine Praxissoftware wechseln?
+Oft lässt sich eine Lösung an bestehende Systeme anbinden oder zunächst daneben einsetzen. Ob das bei Ihnen sinnvoll und technisch möglich ist, wird vorab geprüft. Ein Wechsel der Praxissoftware ist nicht der Ausgangspunkt.
+
+[B] Welche Tools setzt Leonie Kaiser ein?
+Leonie Kaiser arbeitet ohne feste Präferenz für ein bestimmtes Tool. Die Auswahl richtet sich nach Ihrem Anwendungsfall, Ihren bestehenden Systemen und den Anforderungen an Datenschutz und Teamabläufe.
+
+[B] Ersetzt KI mein Team oder meine fachliche Entscheidung?
+Nein. KI bereitet vor; fachkundige Menschen prüfen, ergänzen und geben frei. Fachliche Entscheidungen bleiben bei den qualifizierten Menschen in Ihrer Praxis. Ziel ist, dass Ihr Team mehr Zeit für die Menschen hat, die es betreut.
+
+[B] Müssen die Daten in der EU liegen?
+Ein Speicherort im Europäischen Wirtschaftsraum kann Risiken bei Drittländern verringern, ist aber nicht in jedem Fall zwingend. Wichtig sind auch Zugriffsrechte, Verträge und Schutzmaßnahmen. Welche Variante zu Ihnen passt, klären Sie gemeinsam mit Leonie Kaiser anhand Ihres konkreten Ablaufs.
+
+[B] Gilt der EU AI Act für meine Praxis?
+Wenn Ihre Praxis ein KI-System einsetzt, können je nach Anwendung Pflichten aus dem EU AI Act relevant werden. Bei einfachen organisatorischen Anwendungen geht es häufig um Transparenz, KI-Kompetenz, klare Zuständigkeiten und eine nachvollziehbare Dokumentation. Maßnahmen zur KI-Kompetenz gelten seit Februar 2025. Transparenzpflichten, etwa bei einem Chatbot, gelten seit 2. August 2026.
+
+[B] Ist Leonie Kaiser Juristin?
+Nein. Sie unterstützt bei der technischen und organisatorischen Umsetzung, etwa bei Tool-Auswahl, Datenflüssen, Vertragsunterlagen und Dokumentation. Für die rechtliche Beurteilung im Einzelfall arbeiten Sie weiter mit Ihrer Rechtsberatung oder Ihrem Datenschutzbeauftragten.
+
+[B] Wer ist Leonie Kaiser?
+Leonie Kaiser ist KI- und Digitalisierungsberaterin aus Niederösterreich und seit 2020 selbstständig. Sie bringt über 20 Jahre Erfahrung in Projektmanagement, Produktmarketing und Digitalisierung mit, mehr als ein Jahrzehnt davon in international regulierten Gesundheits- und Pharmaunternehmen. Sie arbeitet auf Deutsch, Englisch und Spanisch.
+
+[B] Gibt es Termine vor Ort?
+Die Beratung findet online statt und ist ortsunabhängig im deutschsprachigen Raum möglich, also in Österreich, Deutschland und der Schweiz.
