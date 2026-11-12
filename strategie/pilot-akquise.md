@@ -76,9 +76,9 @@ Nachsorge"; Longevity → „zwischen Erstgesprächen, Laborwerten und Kundenrei
 ## Zusätzliche Fragen im Erstgespräch (Marktforschung nebenbei, keine separate Umfrage)
 
 Keine separate Marktumfrage — aber jedes Erstgespräch mit einem echten Interessenten ist
-eine Gelegenheit, über die Pflichtfelder des Potenzialanalyse-Tools hinaus ein paar Fragen
-zu stellen, die den Service verbessern und die Zielgruppe schärfer kennenlernen. Das Tool
-selbst erhebt bereits: Betrieb (Größe, Typ), Digitalisierungsstufe, Ziele, Engpässe, Quick
+eine Gelegenheit, über die Pflichtfelder des eingesetzten Analyse-Tools hinaus ein paar
+Fragen zu stellen, die den Service verbessern und die Zielgruppe schärfer kennenlernen.
+Im Gespräch wird ohnehin erhoben: Betrieb (Größe, Typ), Digitalisierungsstufe, Ziele, Engpässe, Quick
 Wins. Ergänzend im Gespräch (mündlich, nicht im Tool):
 
 - „Wie haben Sie versucht, das bisher zu lösen — was haben Sie schon probiert, und woran
@@ -94,10 +94,6 @@ Wins. Ergänzend im Gespräch (mündlich, nicht im Tool):
   zurückbekommen — was wäre Ihnen das wert?" (informelle Preis-Sondierung, ergänzt die
   Van-Westendorp-Werte aus der Studie mit echten Reaktionen)
 
-*(Hinweis zum Tool selbst: Die Betriebstyp-Auswahl in `static/analyse/index.html` enthält
-noch „Ästhetische Praxis", „Personal-Training/Fitness-Studio" und „Ernährungsberatung" —
-das gehört in den Scope der Website-Session; dort ansprechen, falls die Liste auf die
-jetzt 2 Start-Segmente angepasst werden soll.)*
 
 ## Welche Daten erhoben werden (für die Case Study)
 

@@ -110,8 +110,8 @@ nie offen gegen VAs positionieren.
 > Datenbasis-Hinweis: Zahlen aus synthetischer Marktforschung (Silicon Sampling,
 > KI-Personas, ESOMAR ICC Code 2025) — Hypothesen, keine echten Befragungen. Sie dienen
 > als grobe Orientierung. Validierung erfolgt **nicht** über eine separate, kostenpflichtige
-> Umfrage, sondern laufend über die echten Pilot-Erstgespräche und die per
-> Potenzialanalyse-Tool nebenbei erhobenen Daten (siehe Kapitel 7).
+> Umfrage, sondern laufend über die echten Pilot-Erstgespräche und die im
+> Potenzialanalyse-Gespräch nebenbei erhobenen Daten (siehe Kapitel 7).
 
 ### Der Schirm (ändert sich nie)
 
@@ -432,7 +432,7 @@ Details: `zielgruppen-zwei-track.md`.)*
 
 **Keine separate Marktumfrage — und keine Investition dafür geplant:** Die synthetischen
 Silicon-Sampling-Zahlen werden **nicht** durch eine gesonderte, kostenpflichtige
-Interview-Runde validiert. Die **Pilot-Erstgespräche** und die per **Potenzialanalyse-Tool
+Interview-Runde validiert. Die **Pilot-Erstgespräche** und die im **Potenzialanalyse-Gespräch
 nebenbei erhobenen Fragen** sind die laufende Realitäts-Prüfung (gleiche Fragen zu
 Kernschmerz + Zahlungsbereitschaft + die 3 Messfragen unten). Wer die Zahlen ohnehin nur als
 grobe Orientierung nutzt und keine große Investition plant, braucht keine Vorab-Umfrage —

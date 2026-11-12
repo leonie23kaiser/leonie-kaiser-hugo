@@ -68,7 +68,7 @@ Engpässe, die Lösung und das erwartbare Ergebnis zeigt.
 
 **Ablauf:**
 1. Potenzialanalyse-Gespräch (30 Min, kostenfrei, Videocall). Das Analyse-Tool wird live
-   ausgefüllt und erzeugt die gebrandete Präsentation.
+   ausgefüllt und erzeugt die Auswertung.
 2. Am Ende des Calls die Schlussfolie „So geht es weiter" durchgehen
    (Strategie → Umsetzung → laufende Betreuung).
 3. Konkretes Angebot statt Gratis-Arbeit: „Als Erstes setzen wir X um, kostet Y, dauert Z,
