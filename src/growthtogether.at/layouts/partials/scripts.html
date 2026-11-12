@@ -126,7 +126,7 @@ document.querySelectorAll('.jf-btn').forEach(function(btn){
 {{- /* Web-Vitals tracking (lazy, beacon to optional endpoint via Site.Params.vitalsEndpoint) */ -}}
 {{- if site.Params.vitalsEndpoint }}
 <script type="module">
-import {onCLS,onLCP,onINP,onFCP,onTTFB} from 'https://unpkg.com/web-vitals@4?module';
+import {onCLS,onLCP,onINP,onFCP,onTTFB} from '/js/web-vitals-4.2.4.js';
 function send(m){try{navigator.sendBeacon('{{ site.Params.vitalsEndpoint }}',JSON.stringify({n:m.name,v:m.value,id:m.id,p:location.pathname}));}catch(e){}}
 onCLS(send);onLCP(send);onINP(send);onFCP(send);onTTFB(send);
 </script>

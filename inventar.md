@@ -7,7 +7,8 @@
 
 | Komponente | Version | Quelle / Bemerkung |
 |---|---|---|
-| Hugo Extended | 0.123.7 (laut `vm-setup.sh`) | im Container NICHT installiert; Version der Live-Builds in CI prüfen |
+| Hugo Extended | 0.135.0 (CI, `deploy-pages.yml`: HUGO_VERSION) | Live-Build. `vm-setup.sh` nennt noch 0.123.7 (Drift, nur für die VM relevant); im Cloud-Container nicht installiert |
+| web-vitals | 4.2.4 (selbst gehostet, `static/js/`) | seit 2026-11-12; vorher unpkg `@4`, nur aktiv wenn `vitalsEndpoint` gesetzt (aktuell nicht gesetzt) |
 | GitHub Pages Deploy | – | `.github/workflows/deploy-pages.yml` |
 | actions/checkout | v4 | CI |
 | actions/configure-pages | v5 | CI |
@@ -18,7 +19,8 @@
 | Calendly | Embed/Links | externer Dienst (calendly.com) |
 | Formular-Dienste | web3forms.com, formspree.io | externe Dienste (Welcher ist aktiv? **offen**) |
 | Google Tag Manager | – | `googletagmanager.com` in Layouts; Container-ID/Tags **offen** |
-| unpkg.com | 1 Referenz in Layouts | externes Script/CSS? Version **offen** (wird geprüft) |
+| unpkg.com | keine Referenz mehr in Layouts | war web-vitals; jetzt selbst gehostet |
+| cdn.jsdelivr.net | `static/analyse/index.html`: pptxgenjs 3.12.0 | eigene Unterseite, lädt Skript von extern (Version gepinnt) |
 
 Keine `package.json`, `go.mod`, Hugo-Module oder Theme-Submodule im Repo. Auf der Website liegen keine npm- oder Go-Abhängigkeiten.
 
